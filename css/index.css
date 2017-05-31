@@ -21,10 +21,95 @@ body {
   color: #506085;
   background: linear-gradient(to bottom, rgba(102, 255, 255, 0.8) 3%, transparent 16%), #f4ece0;
   text-align: left;
-  min-width: 320px;
   margin: 0 auto;
   overflow-y: scroll;
   overflow-x: hidden;
+}
+@-webkit-keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes wabble {
+  0%,
+  100% {
+    -webkit-transform: rotateZ(0deg);
+  }
+  12.5% {
+    -webkit-transform: rotateZ(-5deg);
+  }
+  25% {
+    -webkit-transform: rotateZ(5deg);
+  }
+  37.5% {
+    -webkit-transform: rotateZ(-5deg);
+  }
+  50% {
+    -webkit-transform: rotateZ(5deg);
+  }
+  62.5% {
+    -webkit-transform: rotateZ(-3deg);
+  }
+  75% {
+    -webkit-transform: rotateZ(5deg);
+  }
+  87.5% {
+    -webkit-transform: rotateZ(-3deg);
+  }
+}
+@-webkit-keyframes wabble {
+  0%,
+  100% {
+    -webkit-transform: rotateZ(0deg);
+  }
+  12.5% {
+    -webkit-transform: rotateZ(-5deg);
+  }
+  25% {
+    -webkit-transform: rotateZ(5deg);
+  }
+  37.5% {
+    -webkit-transform: rotateZ(-5deg);
+  }
+  50% {
+    -webkit-transform: rotateZ(5deg);
+  }
+  62.5% {
+    -webkit-transform: rotateZ(-3deg);
+  }
+  75% {
+    -webkit-transform: rotateZ(5deg);
+  }
+  87.5% {
+    -webkit-transform: rotateZ(-3deg);
+  }
 }
 .header {
   width: 1440px;
@@ -40,6 +125,64 @@ body {
   position: absolute;
   bottom: 315px;
   left: 550px;
+}
+.tree-element {
+  position: absolute;
+}
+.tree-element__gear {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation: rotate 5s linear;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+}
+.tree-element__gear_one {
+  background-image: url('../img/gear1.svg');
+  width: 60px;
+  height: 60px;
+  top: 409px;
+  right: 275px;
+}
+.tree-element__gear_two {
+  background-image: url('../img/gear2.svg');
+  width: 42px;
+  height: 42px;
+  top: 406px;
+  right: 343px;
+  animation-duration: 6s;
+  animation-direction: reverse;
+}
+.tree-element__gear_three {
+  background-image: url('../img/gear3.svg');
+  width: 50px;
+  height: 50px;
+  top: 327px;
+  right: 342px;
+  animation-duration: 4s;
+}
+.tree-element__gear_four {
+  background-image: url('../img/gear4.svg');
+  width: 42px;
+  height: 42px;
+  top: 340px;
+  right: 247px;
+  animation-direction: reverse;
+  animation-duration: 7s;
+}
+.tree-element__gear_five {
+  background-image: url('../img/gear5.svg');
+  width: 45px;
+  height: 45px;
+  top: 401px;
+  right: 190px;
+}
+.tree-element__key {
+  background: url('../img/key.svg') no-repeat center;
+  width: 70px;
+  height: 76px;
+  top: 458px;
+  right: 335px;
 }
 .contacts,
 .language,
@@ -88,7 +231,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  opacity: 0.8;
+  opacity: 0.9;
   transition: all 0.1s linear;
   cursor: pointer;
 }
@@ -132,7 +275,13 @@ body {
 .contacts__description {
   display: inline-block;
   text-align: center;
-  margin-left: 64px;
+  margin: 0 0 8px 64px;
+}
+.contacts__title {
+  font-size: 42px;
+  line-height: 45px;
+  margin-right: 8px;
+  margin-top: 5px;
 }
 .main-nav {
   margin: auto;
@@ -235,7 +384,7 @@ body {
   margin-bottom: 21px;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
 .portfolio__icon_graphic {
   background-image: url('../img/graphic-design.svg');
@@ -255,10 +404,10 @@ body {
   padding: 0 40px;
   position: relative;
   background: url('../img/room.svg') no-repeat center top;
-  background-size: contain;
+  background-size: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 0 0 225px;
+  padding: 0 0 235px;
 }
 .about-me__title {
   font-size: 38px;
@@ -299,10 +448,15 @@ body {
   width: 310px;
   height: 500px;
   background: url("../img/light.svg") no-repeat top center;
-  background-size: 108%;
+  background-size: 104%;
   position: absolute;
-  top: 176px;
-  left: 552px;
+  top: 174px;
+  left: 557px;
+  animation-name: fade-out;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
 }
 .footer {
   width: 1440px;
@@ -310,28 +464,57 @@ body {
   padding: 0 40px;
   text-align: center;
   background: url('../img/gears-footer.svg') no-repeat center;
+  background-size: cover;
+  padding-top: 25px;
 }
 .footer__contacts {
-  max-width: 230px;
+  max-width: 455px;
   margin: auto;
 }
 .footer__wrapper {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  align-items: center;
-  width: 1024px;
+  align-items: flex-end;
+  width: 1100px;
   margin: auto;
 }
 .footer__copyright {
-  font-size: 15px;
+  font-size: 16px;
+  display: block;
+  margin-top: 15px;
+}
+.footer__logo {
+  transition: all 0.2s linear;
+}
+.footer__logo:hover {
+  transform: scale(1.1);
+}
+.footer__logo:active {
+  transform: scale(0.9);
 }
 .mailbox {
   display: inline-block;
-  width: 135px;
-  height: 178px;
+  width: 172px;
+  height: 200px;
   background: url('../img/mailbox.svg') no-repeat center;
   background-size: contain;
+  position: relative;
+}
+.mailbox:before {
+  content: '';
+  display: block;
+  width: 24px;
+  height: 66px;
+  background: url('../img/mailbox-toggle.svg') no-repeat center;
+  background-size: contain;
+  position: absolute;
+  top: -30px;
+  left: 45px;
+  transition: all 1s linear;
+}
+.mailbox:hover:before {
+  transform: rotate(10deg);
 }
 .base-link {
   color: #506085;

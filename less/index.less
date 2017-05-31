@@ -1,6 +1,7 @@
 @import 'common';
 @import 'mixin';
 @import 'variables';
+@import 'animation';
 
 .header {
     .container();
@@ -15,6 +16,72 @@
         position: absolute;
         bottom: 315px;
         left: 550px;
+    }
+}
+
+.tree-element {
+    position: absolute;
+
+    &__gear {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        animation: rotate 5s linear;
+        animation-direction: normal;
+        animation-iteration-count: infinite;
+
+        &_one {
+            background-image: url('../img/gear1.svg');
+            width: 60px;
+            height: 60px;
+            top: 409px;
+            right: 275px;
+        }
+
+        &_two {
+            background-image: url('../img/gear2.svg');
+            width: 42px;
+            height: 42px;
+            top: 406px;
+            right: 343px;
+            animation-duration: 6s;
+            animation-direction: reverse;
+        }
+
+        &_three {
+            background-image: url('../img/gear3.svg');
+            width: 50px;
+            height: 50px;
+            top: 327px;
+            right: 342px;
+            animation-duration: 4s;
+        }
+
+        &_four {
+            background-image: url('../img/gear4.svg');
+            width: 42px;
+            height: 42px;
+            top: 340px;
+            right: 247px;
+            animation-direction: reverse;
+            animation-duration: 7s;
+        }
+
+        &_five {
+            background-image: url('../img/gear5.svg');
+            width: 45px;
+            height: 45px;
+            top: 401px;
+            right: 190px;
+        }
+    }
+
+    &__key {
+        background: url('../img/key.svg') no-repeat center;
+        width: 70px;
+        height: 76px;
+        top: 458px;
+        right: 335px;
     }
 }
 
@@ -70,7 +137,7 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        opacity: 0.8;
+        opacity: 0.9;
         transition: all 0.1s linear;
         cursor: pointer;
 
@@ -127,7 +194,14 @@
     &__description {
         display: inline-block;
         text-align: center;
-        margin-left: 64px;
+        margin: 0 0 8px 64px;
+    }
+
+    &__title {
+        font-size: 42px;
+        line-height: 45px;
+        margin-right: 8px;
+        margin-top: 5px;
     }
 }
 
@@ -247,7 +321,7 @@
         margin-bottom: 21px;
         background-repeat: no-repeat;
         background-position: center;
-        background-size: contain;
+        background-size: cover;
 
         &_graphic {
             background-image: url('../img/graphic-design.svg');
@@ -271,10 +345,10 @@
     .container;
     position: relative;
     background: url('../img/room.svg') no-repeat center top;
-    background-size: contain;
+    background-size: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 0 0 225px;
+    padding: 0 0 235px;
 
     &__title {
         font-size: 38px;
@@ -321,10 +395,16 @@
         width: 310px;
         height: 500px;
         background: url("../img/light.svg") no-repeat top center;
-        background-size: 108%;
+        background-size: 104%;
         position: absolute;
-        top: 176px;
-        left: 552px;
+        top: 174px;
+        left: 557px;
+        animation-name: fade-out;
+        animation-duration: 4s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
+
     }
 }
 
@@ -332,9 +412,11 @@
     .container();
     text-align: center;
     background: url('../img/gears-footer.svg') no-repeat center;
+    background-size: cover;
+    padding-top: 25px;
 
     &__contacts {
-        max-width: 230px;
+        max-width: 455px;
         margin: auto;
     }
 
@@ -342,22 +424,54 @@
         display: flex;
         flex-flow: row wrap;
         justify-content: space-around;
-        align-items: center;
-        width: 1024px;
+        align-items: flex-end;
+        width: 1100px;
         margin: auto;
     }
 
     &__copyright {
-        font-size: 15px;
+        font-size: 16px;
+        display: block;
+        margin-top: 15px;
+    }
+
+    &__logo {
+        transition: @transition_base;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+
+        &:active {
+            transform: scale(0.9);
+        }
     }
 }
 
 .mailbox {
     display: inline-block;
-    width: 135px;
-    height: 178px;
+    width: 172px;
+    height: 200px;
     background: url('../img/mailbox.svg') no-repeat center;
     background-size: contain;
+    position: relative;
+
+    &:before {
+        content: '';
+        display: block;
+        width: 24px;
+        height: 66px;
+        background: url('../img/mailbox-toggle.svg') no-repeat center;
+        background-size: contain;
+        position: absolute;
+        top: -30px;
+        left: 45px;
+        transition: all 1s linear;
+    }
+
+    &:hover:before {
+        transform: rotate(10deg);
+    }
 }
 
 .base-link {
