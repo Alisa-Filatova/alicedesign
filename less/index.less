@@ -16,6 +16,7 @@
         position: absolute;
         bottom: 315px;
         left: 550px;
+        animation: fade-in 1s ease-in-out;
     }
 }
 
@@ -64,7 +65,7 @@
             top: 340px;
             right: 247px;
             animation-direction: reverse;
-            animation-duration: 7s;
+            animation-duration: 6.2s;
         }
 
         &_five {
@@ -82,6 +83,8 @@
         height: 76px;
         top: 458px;
         right: 335px;
+        transform-origin: 20px top;
+        animation: key 5s linear infinite;
     }
 }
 
@@ -152,42 +155,42 @@
 
         &_mail {
             background-image: url('../img/mail.svg');
+        }
 
-            &_pink {
-                background-image: url('../img/mail-pink.svg');
-            }
+        &_mail-pink {
+            background-image: url('../img/mail-pink.svg');
         }
 
         &_vk {
             background-image: url('../img/vk.svg');
+        }
 
-            &_purple {
-                background-image: url('../img/vk-purple.svg');
-            }
+        &_vk-purple {
+            background-image: url('../img/vk-purple.svg');
         }
 
         &_github {
             background-image: url('../img/github.svg');
+        }
 
-            &_pink {
-                background-image: url('../img/github-pink.svg');
-            }
+        &_github-pink {
+            background-image: url('../img/github-pink.svg');
         }
 
         &_deviant {
             background-image: url('../img/deviantart.svg');
+        }
 
-            &_purple {
-                background-image: url('../img/deviantart-purple.svg');
-            }
+        &_deviant-purple {
+            background-image: url('../img/deviantart-purple.svg');
         }
 
         &_linkedin {
             background-image: url('../img/linkdin.svg');
+        }
 
-            &_pink {
-                background-image: url('../img/linkedin-pink.svg');
-            }
+        &_linkedin-pink {
+            background-image: url('../img/linkedin-pink.svg');
         }
     }
 
@@ -387,6 +390,7 @@
         height: 750px;
         position: relative;
         margin-top: 68px;
+        margin-right: 44px;
 
     }
 
@@ -405,6 +409,54 @@
         animation-iteration-count: infinite;
         animation-direction: alternate-reverse;
 
+    }
+
+    &::before {
+        content: url('../img/cat-mouth.svg');
+        width: 11px;
+        height: 17px;
+        position: absolute;
+        bottom: 140px;
+        left: 639px;
+        animation-name: mouth;
+        animation-duration: 15s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
+    }
+
+}
+
+.clock {
+    position: absolute;
+    top: 18%;
+    left: 25.2%;
+    width: 145px;
+    height: 145px;
+    background: url('../img/clock.svg') no-repeat center;
+    background-size: cover;
+
+    &__minute {
+        width: 1px;
+        height: 30px;
+        background: #3a4d57;
+        position: absolute;
+        top: 44px;
+        left: 73px;
+        transform-origin: 0 bottom;
+        animation: rotate 30s linear infinite;
+    }
+
+    &__hour {
+        width: 2px;
+        height: 28px;
+        background: #3a4d57;
+        position: absolute;
+        top: 46px;
+        left: 71px;
+        transform-origin: 0 bottom;
+        animation: rotate 600s ease-in infinite;
+        animation-delay: 30s;
     }
 }
 
@@ -457,20 +509,19 @@
     position: relative;
 
     &:before {
-        content: '';
+        content: url('../img/mailbox-toggle.svg');
         display: block;
         width: 24px;
         height: 66px;
-        background: url('../img/mailbox-toggle.svg') no-repeat center;
-        background-size: contain;
         position: absolute;
         top: -30px;
         left: 45px;
-        transition: all 1s linear;
+        transition: transform 0.2s ease-in;
+        transform-origin: 20px bottom;
     }
 
     &:hover:before {
-        transform: rotate(10deg);
+        transform: rotate(-30deg);
     }
 }
 
