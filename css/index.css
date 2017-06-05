@@ -406,10 +406,10 @@ body {
   color: #fc568d;
 }
 .portfolio__link:hover {
-  opacity: 0.8;
+  color: #cafcf9;
 }
 .portfolio__link:active {
-  opacity: 0.5;
+  opacity: 0.8;
 }
 .portfolio__icon {
   display: block;

@@ -44,7 +44,6 @@ body {
 .main-nav {
 	margin: auto;
 	max-width: 1440px;
-	background: url('../img/header-inner.svg') no-repeat bottom;
 }
 .main-nav__link {
 	display: inline-block;
