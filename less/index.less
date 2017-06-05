@@ -23,6 +23,25 @@
 .tree-element {
     position: absolute;
 
+    &__light {
+        background: url('../img/light-tree.svg') no-repeat center;
+        background-size: contain;
+        animation: fade-out 4s ease-in-out alternate-reverse infinite;
+        width: 65px;
+        height: 65px;
+
+        &_top {
+            top: 186px;
+            right: 333px;
+            animation-duration: 3s;
+        }
+
+        &_bottom {
+            top: 291px;
+            right: 369px;
+        }
+    }
+
     &__gear {
         background-position: center;
         background-repeat: no-repeat;
@@ -324,7 +343,7 @@
         margin-bottom: 21px;
         background-repeat: no-repeat;
         background-position: center;
-        background-size: cover;
+        background-size: contain;
 
         &_graphic {
             background-image: url('../img/graphic-design.svg');
@@ -357,8 +376,8 @@
         font-size: 38px;
         font-weight: 400;
         margin: 0;
-        padding-top: 92px;
-        padding-left: 135px;
+        padding-top: 95px;
+        padding-left: 149px;
     }
 
     &__photo {
@@ -378,8 +397,8 @@
         max-width: 452px;
         margin: auto;
         font-size: 17px;
-        padding-top: 267px;
-        padding-left: 43px;
+        padding-top: 283px;
+        padding-left: 29px;
         line-height: 22px;
     }
 
@@ -390,7 +409,7 @@
         height: 750px;
         position: relative;
         margin-top: 68px;
-        margin-right: 44px;
+        margin-right: 22px;
 
     }
 
@@ -408,7 +427,6 @@
         animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
         animation-direction: alternate-reverse;
-
     }
 
     &::before {
@@ -424,7 +442,6 @@
         animation-iteration-count: infinite;
         animation-direction: alternate-reverse;
     }
-
 }
 
 .clock {

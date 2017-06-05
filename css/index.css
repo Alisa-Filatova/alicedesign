@@ -65,7 +65,7 @@ body {
   60%,
   80%,
   100% {
-    transform: scale(1);
+    transform: scale(0.6);
   }
   10%,
   30%,
@@ -82,7 +82,7 @@ body {
   60%,
   80%,
   100% {
-    -webkit-transform: scale(1);
+    -webkit-transform: scale(0.6);
   }
   10%,
   30%,
@@ -145,6 +145,22 @@ body {
 }
 .tree-element {
   position: absolute;
+}
+.tree-element__light {
+  background: url('../img/light-tree.svg') no-repeat center;
+  background-size: contain;
+  animation: fade-out 4s ease-in-out alternate-reverse infinite;
+  width: 65px;
+  height: 65px;
+}
+.tree-element__light_top {
+  top: 186px;
+  right: 333px;
+  animation-duration: 3s;
+}
+.tree-element__light_bottom {
+  top: 291px;
+  right: 369px;
 }
 .tree-element__gear {
   background-position: center;
@@ -403,7 +419,7 @@ body {
   margin-bottom: 21px;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
 }
 .portfolio__icon_graphic {
   background-image: url('../img/graphic-design.svg');
@@ -432,8 +448,8 @@ body {
   font-size: 38px;
   font-weight: 400;
   margin: 0;
-  padding-top: 92px;
-  padding-left: 135px;
+  padding-top: 95px;
+  padding-left: 149px;
 }
 .about-me__photo {
   width: 178px;
@@ -450,8 +466,8 @@ body {
   max-width: 452px;
   margin: auto;
   font-size: 17px;
-  padding-top: 267px;
-  padding-left: 43px;
+  padding-top: 283px;
+  padding-left: 29px;
   line-height: 22px;
 }
 .about-me__note {
@@ -461,7 +477,7 @@ body {
   height: 750px;
   position: relative;
   margin-top: 68px;
-  margin-right: 44px;
+  margin-right: 22px;
 }
 .about-me::after {
   content: '';
