@@ -7,6 +7,7 @@
     background: url('../img/web-design.svg') no-repeat center;
 }
 
+
 .og-details a.link-button {
     padding: 4px 10px;
     background: #d22f69;
@@ -30,12 +31,6 @@
 .og-details a.first {
     margin-left: 0;
 }
-
-/*.og-details a::before {*/
-	/*content: '\2192';*/
-	/*display: inline-block;*/
-	/*margin-right: 10px;*/
-/*}*/
 
 .og-details a:hover {
     background-color: #d22f69;

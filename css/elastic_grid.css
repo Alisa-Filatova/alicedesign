@@ -1,7 +1,6 @@
-/* General Demo Style */
+/* General  Style */
 
 html { height: 100%; }
-
 
 
 body {
@@ -28,17 +27,6 @@ body {
 
 .header__logo {
 	animation: fade-in 1s ease-in-out;
-}
-
-.contacts {
-	margin-top: 0;
-	list-style: none;
-	text-align: center;
-	display: flex;
-	flex-flow: row nowrap;
-	justify-content: space-between;
-	align-items: center;
-	padding-left: 0;
 }
 
 .main-nav {

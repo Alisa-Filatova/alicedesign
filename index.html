@@ -1,209 +1,341 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="keywords" content=" Alisa Filatova, Alice design, illustration, web designer, HTML, CSS, coder, graphic designer">
-    <meta name="description" content=" Alice Design - illustration, web design, HTML/CSS-code, graphic design">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content=" Alisa Filatova, Alice design, illustration, web designer, HTML, CSS, coder, graphic designer">
+        <meta name="description" content="Alice Design - illustration, web design, HTML/CSS-code, graphic design">
+        <meta name="author" content="Alisa Filatova | alicedesign.ru">
 
-    <title>Alice Design</title>
+        <title>Alice Design</title>
 
-    <link href="css/normalize.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Neucha&amp;subset=cyrillic" rel="stylesheet">
-    <link href="css/index.css" rel="stylesheet">
-</head>
-<body>
-    <header class="header">
-        <nav class="main-nav">
-            <div class="main-nav__wrapper">
-                <ul class="contacts">
-                    <li class="contacts__item">
-                        <a
-                            class="contacts__link contacts__link_mail contacts__link_mail-pink"
-                            href="mailto:alicefill@bk.ru">
-                            Mail
-                        </a>
+        <link href="https://fonts.googleapis.com/css?family=Neucha&amp;subset=cyrillic" rel="stylesheet">
+        <link href="css/normalize.css" rel="stylesheet">
+        <link href="css/index.css" rel="stylesheet">
+
+        <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    </head>
+    <body>
+        <header class="header">
+            <nav class="main-nav">
+                <div class="main-nav__wrapper">
+                    <ul class="contacts">
+                        <li class="contacts__item">
+                            <a
+                                class="contacts__link contacts__link_mail contacts__link_mail-pink"
+                                href="mailto:alicefill@bk.ru">
+                                Mail
+                            </a>
+                        </li>
+                        <li class="contacts__item">
+                            <a class="contacts__link contacts__link_vk contacts__link_vk-purple"
+                               href="https://vk.com/alisafill">
+                                VK
+                            </a>
+                        </li>
+                        <li class="contacts__item">
+                            <a
+                                class="contacts__link contacts__link_github contacts__link_github-pink"
+                                href="https://github.com/Alisa-Filatova">
+                                Github
+                            </a>
+                        </li>
+                        <li class="contacts__item">
+                            <a
+                                class="contacts__link contacts__link_deviant contacts__link_deviant-purple"
+                                href="http://marrylie.deviantart.com">
+                                DeviantArt
+                            </a>
+                        </li>
+                        <li class="contacts__item">
+                            <a
+                                class="contacts__link contacts__link_linkedin contacts__link_linkedin-pink"
+                                href="https://www.linkedin.com/comm/in/alisa-filatova">
+                                LinkedIn
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="language">
+                        <li class="language__item">
+                            <a class="language__link language__link_active" href="#">EN</a>
+                        </li>
+                        <li class="language__item">|</li>
+                        <li>
+                            <a class="language__link" href="#">RU</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <ul class="main-nav__items">
+                    <li class="main-nav__item">
+                        <a class="main-nav__link" href="#portfolio">Portfolio</a>
                     </li>
-                    <li class="contacts__item">
-                        <a class="contacts__link contacts__link_vk contacts__link_vk-purple"
-                           href="https://vk.com/alisafill">
-                            VK
-                        </a>
+                    <li class="main-nav__item">
+                        <a class="main-nav__link" href="#about-me">About me</a>
                     </li>
-                    <li class="contacts__item">
-                        <a
-                            class="contacts__link contacts__link_github contacts__link_github-pink"
-                            href="https://github.com/Alisa-Filatova">
-                            Github
-                        </a>
-                    </li>
-                    <li class="contacts__item">
-                        <a
-                            class="contacts__link contacts__link_deviant contacts__link_deviant-purple"
-                            href="http://marrylie.deviantart.com">
-                            DeviantArt
-                        </a>
-                    </li>
-                    <li class="contacts__item">
-                        <a
-                            class="contacts__link contacts__link_linkedin contacts__link_linkedin-pink"
-                            href="https://www.linkedin.com/comm/in/alisa-filatova">
-                            LinkedIn
-                        </a>
+                    <li class="main-nav__item">
+                        <a class="main-nav__link" href="#contacts">Contacts</a>
                     </li>
                 </ul>
+            </nav>
 
-                <ul class="language">
-                    <li class="language__item">
-                        <a class="language__link language__link_active" href="#">EN</a>
-                    </li>
-                    <li class="language__item">|</li>
-                    <li>
-                        <a class="language__link" href="#">RU</a>
-                    </li>
-                </ul>
+            <img
+                class="logo header__logo"
+                src="img/logo.svg"
+                width="340"
+                height="232"
+                alt="Alice Design"
+            >
+
+            <div class="tree-element tree-element__light tree-element__light_top"></div>
+            <div class="tree-element tree-element__light tree-element__light_bottom"></div>
+            <div class="tree-element tree-element__gear tree-element__gear_one"></div>
+            <div class="tree-element tree-element__gear tree-element__gear_two"></div>
+            <div class="tree-element tree-element__gear tree-element__gear_three"></div>
+            <div class="tree-element tree-element__gear tree-element__gear_four"></div>
+            <div class="tree-element tree-element__gear tree-element__gear_five"></div>
+            <div class="tree-element tree-element__key"></div>
+
+        </header>
+
+        <section class="portfolio" id="portfolio">
+            <h2 class="portfolio__heading">Portfolio</h2>
+
+            <div id="grid" class="portfolio__grid">
+                <a
+                    class="portfolio__link"
+                    href="graphic-design.html#"
+                    data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+                    <figure class="portfolio__item">
+                        <img
+                            class="portfolio__img"
+                            src="img/1.jpg"
+                        >
+                        <svg
+                            viewBox="0 0 180 320"
+                            preserveAspectRatio="none"
+                        >
+                            <path
+                                fill="#506085"
+                                d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"
+                            ></path>
+                        </svg>
+                        <figcaption class="portfolio__wrapper">
+                            <h2 class="portfolio__title">Graphic Design</h2>
+                            <p class="portfolio__description">My works in printing industry and graphic design.</p>
+                            <button class="portfolio__btn">View</button>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a
+                    class="portfolio__link"
+                    href="web-design.html#"
+                    data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+                    <figure class="portfolio__item">
+                        <img
+                            class="portfolio__img"
+                            src="img/3.jpg"
+                        >
+                        <svg
+                            viewBox="0 0 180 320"
+                            preserveAspectRatio="none"
+                        >
+                            <path
+                                fill="#fc568d"
+                                d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"
+                            ></path>
+                        </svg>
+                        <figcaption class="portfolio__wrapper">
+                            <h2 class="portfolio__title">Web Design</h2>
+                            <p class="portfolio__description">Projects with my own web design and HTML CSS coding.</p>
+                            <button class="portfolio__btn portfolio__btn_purple">View</button>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a
+                    class="portfolio__link"
+                    href="code.html#"
+                    data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+                    <figure class="portfolio__item">
+                        <img
+                            class="portfolio__img"
+                            src="img/2.jpg"
+                        >
+                        <svg
+                            viewBox="0 0 180 320"
+                            preserveAspectRatio="none"
+                        >
+                            <path
+                                fill="#506085"
+                                d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"
+                            ></path>
+                        </svg>
+                        <figcaption class="portfolio__wrapper">
+                            <h2 class="portfolio__title">/* Code */</h2>
+                            <p class="portfolio__description">Projects by my HTML CSS code.</p>
+                            <button class="portfolio__btn">View</button>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a
+                    class="portfolio__link"
+                    href="illustrations.html#"
+                    data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+                    <figure class="portfolio__item">
+                        <img
+                            class="portfolio__img"
+                            src="img/4.jpg"
+                        >
+                        <svg
+                            viewBox="0 0 180 320"
+                            preserveAspectRatio="none"
+                        >
+                            <path
+                                fill="#fc568d"
+                                d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"
+                            ></path>
+                        </svg>
+                        <figcaption class="portfolio__wrapper">
+                            <h2 class="portfolio__title">Illustrations</h2>
+                            <p class="portfolio__description">Digital illustrations by using Wacom tablet and Adobe Photoshop.</p>
+                            <button class="portfolio__btn portfolio__btn_purple">View</button>
+                        </figcaption>
+                    </figure>
+                </a>
             </div>
+        </section>
 
-            <ul class="main-nav__items">
-                <li class="main-nav__item">
-                    <a class="main-nav__link" href="#portfolio">Portfolio</a>
+        <section class="about-me" id="about-me">
+            <h2 class="about-me__title">About me</h2>
+            <div class="clock">
+                <div class="clock__hour"></div>
+                <div class="clock__minute"></div>
+            </div>
+            <div class="about-me__note">
+                <div class="about-me__photo"></div>
+                <div class="about-me__text-wrapper">
+                    <p class="about-me__text">
+                        My name is Alice! I’m a web, graphic designer, HTML CSS coder and
+                        digital illustrator, based in Saint-Petersburg.
+                    </p>
+                    <p class="about-me__text">I have over 5 years in graphic design experience.
+                        In free time I'm illustrator. I have spent over 10 years of working
+                        with the Adobe graphic applications. I have a passion
+                        for art and design, specifically how these disciplines can
+                        integrate with modern web technology. For this reason I decided
+                        to learn HTML CSS and I really like it.
+                    </p>
+                    <p class="about-me__text">
+                        Coupling aesthetic design sensibilities with user experience
+                        and coding allows me to build the best possible online experience
+                        from concept all the way to code delivery. Utilizing the pre-processing
+                        technology LESS and CSS architectural methodology - BEM, I try to
+                        produce clean, modular code.
+                    </p>
+                    <p class="about-me__text">
+                        By using Wacom tablet and Adobe applications combined with
+                        traditional illustration and artistic techniques I deliver
+                        compelling digital illustration.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer" id="contacts">
+
+            <ul class="contacts footer__contacts">
+                <li class="contacts__title">Contact me:</li>
+                <li class="contacts__link">
+                    <a
+                        class="contacts__link contacts__link_mail"
+                        href="mailto:alicefill@bk.ru"
+                    >
+                    </a>
                 </li>
-                <li class="main-nav__item">
-                    <a class="main-nav__link" href="#about-me">About me</a>
+                <li class="contacts__link">
+                    <a
+                        class="contacts__link contacts__link_vk"
+                        href="https://vk.com/alisafill"
+                    >
+                    </a>
                 </li>
-                <li class="main-nav__item">
-                    <a class="main-nav__link" href="#contacts">Contacts</a>
+                <li class="contacts__link">
+                    <a
+                        class="contacts__link contacts__link_github"
+                        href="https://github.com/Alisa-Filatova"
+                    >
+                    </a>
+                </li>
+                <li class="contacts__link">
+                    <a
+                        class="contacts__link contacts__link_deviant"
+                        href="http://marrylie.deviantart.com"
+                    >
+                    </a>
+                </li>
+                <li class="contacts__link">
+                    <a
+                        class="contacts__link contacts__link_linkedin"
+                        href="https://www.linkedin.com/comm/in/alisa-filatova"
+                    >
+                    </a>
                 </li>
             </ul>
-        </nav>
 
-        <img
-            class="logo header__logo"
-            src="img/logo.svg"
-            width="340"
-            height="232"
-            alt="Alice Design"
-        >
+            <div class="footer__wrapper">
 
-        <div class="tree-element tree-element__light tree-element__light_top"></div>
-        <div class="tree-element tree-element__light tree-element__light_bottom"></div>
-        <div class="tree-element tree-element__gear tree-element__gear_one"></div>
-        <div class="tree-element tree-element__gear tree-element__gear_two"></div>
-        <div class="tree-element tree-element__gear tree-element__gear_three"></div>
-        <div class="tree-element tree-element__gear tree-element__gear_four"></div>
-        <div class="tree-element tree-element__gear tree-element__gear_five"></div>
-        <div class="tree-element tree-element__key"></div>
+                <div class="mailbox"></div>
 
-    </header>
-
-    <section class="portfolio" id="portfolio">
-        <h2 class="portfolio__title">Portfolio</h2>
-        <div class="portfolio__wrapper">
-            <ul class="portfolio__items">
-                <li class="portfolio__item portfolio__item_purple">
-                    <a href="graphic-design.html#" class="portfolio__link portfolio__link_pink">
-                        <i class="portfolio__icon portfolio__icon_graphic"></i>
-                        Graphic design
-                    </a>
-                </li>
-                <li class="portfolio__item portfolio__item_pink">
-                    <a href="web-design.html#" class="portfolio__link portfolio__link_purple">
-                        <i class="portfolio__icon portfolio__icon_web"></i>
-                        Web design
-                    </a>
-                </li>
-                <li class="portfolio__item portfolio__item_pink">
-                    <a href="code.html#" class="portfolio__link portfolio__link_purple">
-                        <i class="portfolio__icon portfolio__icon_code"></i>
-                        Code
-                    </a>
-                </li>
-                <li class="portfolio__item portfolio__item_purple">
-                    <a href="illustration.html#" class="portfolio__link portfolio__link_pink">
-                        <i class="portfolio__icon portfolio__icon_illustration"></i>
-                        Illustration
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </section>
-
-    <section class="about-me" id="about-me">
-        <h2 class="about-me__title">About me</h2>
-        <div class="clock">
-            <div class="clock__hour"></div>
-            <div class="clock__minute"></div>
-        </div>
-        <div class="about-me__note">
-            <div class="about-me__photo"></div>
-            <div class="about-me__text-wrapper">
-                <p class="about-me__text">
-                    My name is Alice! I’m a web, graphic designer, HTML CSS coder and
-                    digital illustrator, based in Saint-Petersburg.
+                <p class="contacts__description">
+                    The best way to contact me - send your message at my e-mal:
+                    <a class="base-link" href="mailto:alicefill@bk.ru">alicefill@bk.ru</a><br>
+                    Another way - to write me a note in vk -
+                    <a class="base-link" href="https://vk.com/alisafill">vk.com/alisafill</a><br>
+                    The source code is available on
+                    <a class="base-link" href="https://github.com/Alisa-Filatova">github.com/Alisa-Filatova</a><br>
+                    Watch my illustrations on
+                    <a class="base-link" href="http://marrylie.deviantart.com">marrylie/deviantart.com</a><br>
+                    <span class="footer__copyright">© 2017 Alisa Filatova</span>
                 </p>
-                <p class="about-me__text">I have over 5 years in graphic design experience.
-                    In free time I'm illustrator. I have spent over 10 years of working
-                    with the Adobe graphic applications. I have a passion
-                    for art and design, specifically how these disciplines can
-                    integrate with modern web technology. For this reason I decided
-                    to learn HTML CSS and I really like it.
-                </p>
-                <p class="about-me__text">
-                    Coupling aesthetic design sensibilities with user experience
-                    and coding allows me to build the best possible online experience
-                    from concept all the way to code delivery. Utilizing the pre-processing
-                    technology LESS and CSS architectural methodology - BEM, I try to
-                    produce clean, modular code.
-                </p>
-                <p class="about-me__text">
-                    By using Wacom tablet and Adobe applications combined with
-                    traditional illustration and artistic techniques I deliver
-                    compelling digital illustration.
-                </p>
+                <a class="logo" href="index.html#">
+                    <img
+                        class="logo footer__logo"
+                        src="img/logo.svg"
+                        width="240"
+                        height="168"
+                    >
+                </a>
             </div>
-        </div>
-    </section>
 
-    <footer class="footer" id="contacts">
+        </footer>
+        <script src="js/snap.svg-min.js"></script>
+        <script>
+            (function() {
 
-        <ul class="contacts footer__contacts">
-            <li class="contacts__title">Contact me:</li>
-            <li class="contacts__link">
-                <a class="contacts__link contacts__link_mail" href="mailto:alicefill@bk.ru"></a>
-            </li>
-            <li class="contacts__link">
-                <a class="contacts__link contacts__link_vk" href="https://vk.com/alisafill"></a>
-            </li>
-            <li class="contacts__link">
-                <a class="contacts__link contacts__link_github" href="https://github.com/Alisa-Filatova"></a>
-            </li>
-            <li class="contacts__link">
-                <a class="contacts__link contacts__link_deviant" href="http://marrylie.deviantart.com"></a>
-            </li>
-            <li class="contacts__link">
-                <a class="contacts__link contacts__link_linkedin" href="https://www.linkedin.com/comm/in/alisa-filatova"></a>
-            </li>
-        </ul>
+                function init() {
+                    var speed = 330,
+                    easing = mina.backout;
 
-        <div class="footer__wrapper">
+                    [].slice.call ( document.querySelectorAll( '#grid > a' ) ).forEach( function( el ) {
+                        var s = Snap( el.querySelector( 'svg' ) ), path = s.select( 'path' ),
+                        pathConfig = {
+                            from : path.attr( 'd' ),
+                            to : el.getAttribute( 'data-path-hover' )
+                        };
 
-            <div class="mailbox"></div>
+                        el.addEventListener( 'mouseenter', function() {
+                            path.animate( { 'path' : pathConfig.to }, speed, easing );
+                        } );
 
-            <p class="contacts__description">
-                The best way to contact me - send your message at my e-mal:
-                <a class="base-link" href="mailto:alicefill@bk.ru">alicefill@bk.ru</a><br>
-                Another way - to write me a note in vk -
-                <a class="base-link" href="https://vk.com/alisafill">vk.com/alisafill</a><br>
-                The source code is available on
-                <a class="base-link" href="https://github.com/Alisa-Filatova">github.com/Alisa-Filatova</a><br>
-                Watch my illustrations on
-                <a class="base-link" href="http://marrylie.deviantart.com">marrylie/deviantart.com</a><br>
-                <span class="footer__copyright">© 2017 Alisa Filatova</span>
-            </p>
-            <a class="logo" href="index.html#">
-                <img class="logo footer__logo" src="img/logo.svg" width="240" height="168">
-            </a>
-        </div>
+                        el.addEventListener( 'mouseleave', function() {
+                            path.animate( { 'path' : pathConfig.from }, speed, easing );
+                        } );
+                    } );
+                }
 
-    </footer>
-</body>
+                init();
+
+            })();
+        </script>
+    </body>
 </html>
