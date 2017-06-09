@@ -1,4 +1,4 @@
-(function(root, factory) {
+рр(function(root, factory) {
 	if (typeof exports === 'object') {
 		module.exports = factory();
 	} else {

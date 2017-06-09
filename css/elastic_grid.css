@@ -71,9 +71,9 @@ body {
 .main-nav__title {
 	font-size: 37px;
 	font-weight: 400;
-	color: #506085;
 	display: flex;
 	align-items: center;
+	background: url("../img/folder-purple.svg") no-repeat center;
 }
 
 .main-nav__icon {
@@ -87,13 +87,19 @@ body {
 
 }
 
-.arrow:hover #back {
+.arrow .back {
+	fill-rule: evenodd;
+	clip-rule: evenodd;
+	fill: #506085;
+}
+
+.arrow:hover .back {
 	fill: #cafcf9;
 	transition: 0.1s ease;
 }
 
 #elastic_grid_demo {
-	max-width: 1440px;
+	max-width: 1250px;
 	margin: auto;
 }
 
@@ -522,6 +528,7 @@ body {
 	color: rgba(255, 255, 255, 0.8);
 	padding-bottom: 20px;
 	font-family: 'Lato', Calibri, Arial, sans-serif;
+	max-width: 862px;
 }
 
 .og-details iframe {

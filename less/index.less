@@ -9,14 +9,14 @@
                 url('../img/clouds.svg') no-repeat fixed top center;
     background-size: 100%, 1440px;
     text-align: center;
-    padding-bottom: 708px;
+    padding-bottom: 712px;
     position: relative;
 
     &__logo {
         position: absolute;
-        bottom: 315px;
-        left: 550px;
-        animation: fade-in 1s ease-in-out;
+        bottom: 280px;
+        left: 527px;
+        animation: fade-in 2s ease-in-out;
     }
 }
 
@@ -31,14 +31,14 @@
         height: 65px;
 
         &_top {
-            top: 186px;
-            right: 333px;
+            top: 194px;
+            right: 339px;
             animation-duration: 3s;
         }
 
         &_bottom {
-            top: 291px;
-            right: 369px;
+            top: 297px;
+            right: 371px;
         }
     }
 
@@ -54,15 +54,15 @@
             background-image: url('../img/gear1.svg');
             width: 60px;
             height: 60px;
-            top: 409px;
-            right: 275px;
+            top: 414px;
+            right: 276px;
         }
 
         &_two {
             background-image: url('../img/gear2.svg');
             width: 42px;
             height: 42px;
-            top: 406px;
+            top: 407px;
             right: 343px;
             animation-duration: 6s;
             animation-direction: reverse;
@@ -73,7 +73,7 @@
             width: 50px;
             height: 50px;
             top: 327px;
-            right: 342px;
+            right: 338px;
             animation-duration: 4s;
         }
 
@@ -81,7 +81,7 @@
             background-image: url('../img/gear4.svg');
             width: 42px;
             height: 42px;
-            top: 340px;
+            top: 344px;
             right: 247px;
             animation-direction: reverse;
             animation-duration: 6.2s;
@@ -91,8 +91,8 @@
             background-image: url('../img/gear5.svg');
             width: 45px;
             height: 45px;
-            top: 401px;
-            right: 190px;
+            top: 405px;
+            right: 192px;
         }
     }
 
@@ -100,7 +100,7 @@
         background: url('../img/key.svg') no-repeat center;
         width: 70px;
         height: 76px;
-        top: 458px;
+        top: 455px;
         right: 335px;
         transform-origin: 20px top;
         animation: key 5s linear infinite;
@@ -165,7 +165,7 @@
 
         &:hover {
             opacity: 1;
-            transform: scale(1.1);
+            transform: scale(1.08);
         }
 
         &:active {
@@ -267,6 +267,12 @@
         left: 244px;
         transform: rotate(-5deg);
         color: #cafcf9;
+
+        &_rus {
+            line-height: 60px;
+            bottom: 254px;
+            left: 242px;
+        }
     }
 }
 
@@ -275,14 +281,15 @@
     background: url('../img/portfolio-background.svg') no-repeat top center,
     linear-gradient(to bottom, rgba(153, 206, 255, 0.5) 10%, transparent 28%);
     background-size: 100%;
-    padding-top: 150px;
-    padding-bottom: 200px;
+    padding-top: 130px;
+    padding-bottom: 91px;
 
     &__heading {
         text-align: center;
-        margin: 76px 0;
-        font-size: 76px;
+        margin: 78px 0 46px;
         font-weight: 400;
+        font-size: 70px;
+        line-height: 75px;
     }
 
     &__grid {
@@ -290,7 +297,7 @@
         flex-flow: row nowrap;
         justify-content: center;
         align-items: center;
-        margin: 78px auto 78px 190px;
+        margin: 50px auto 190px;
         max-width: 1000px;
         width: 100%;
 
@@ -359,21 +366,22 @@
 
     &__btn {
         position: absolute;
+        bottom: 0;
+        left: 0;
         border: none;
         text-transform: uppercase;
         letter-spacing: 1px;
-        -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
-        transition: opacity 0.3s, transform 0.3s;
-        bottom: 0;
-        left: 0;
         padding: 15px;
         width: 100%;
         color: #fff;
         font-weight: 400;
+        background: #fc568d;
         font-family: 'Neucha', 'Comic Sans', sans-serif;
+        -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+        transition: opacity 0.3s, transform 0.3s;
         -webkit-transform: translateY(100%);
         transform: translateY(100%);
-        background: #fc568d;
+        -webkit-appearance: none;
 
         &_purple {
             background: #506085;
@@ -387,6 +395,9 @@
         -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
         cursor: pointer;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
     }
 
     & svg {
@@ -433,73 +444,6 @@
     }
 }
 
-@media screen and (max-width: 58em) {
-    .portfolio {
-
-        &__link {
-            width: 33.333%;
-        }
-
-        & a:nth-child(odd) {
-            margin: 0;
-        }
-
-        & a:nth-child(3n-1) {
-            margin: 30px 0 -30px 0;
-        }
-    }
-}
-
-@media screen and (max-width: 45em) {
-
-    .portfolio {
-
-        &__grid {
-            max-width: 500px;
-        }
-
-        &__link {
-            width: 50%;
-        }
-
-        & a:nth-child(3n-1) {
-            margin: 0;
-        }
-
-        & a:nth-child(even) {
-            margin: 30px 0 -30px 0;
-        }
-
-        &__title {
-            margin-bottom: 0;
-            -webkit-transform: translateY(30px);
-            transform: translateY(30px);
-        }
-
-        &__description {
-            margin: 0;
-            padding: 0 10px;
-        }
-    }
-}
-
-@media screen and (max-width: 27em) {
-    .portfolio {
-
-        &__grid {
-            max-width: 250px;
-        }
-
-        &__link {
-            width: 100%;
-        }
-
-        & a:nth-child(even) {
-            margin: 0;
-        }
-    }
-}
-
 .about-me {
     .container;
     position: relative;
@@ -507,7 +451,7 @@
     background-size: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 0 0 235px;
+    padding: 0 40px 410px;
 
     &__title {
         font-size: 38px;
@@ -515,80 +459,80 @@
         margin: 0;
         padding-top: 95px;
         padding-left: 149px;
+
+        &_rus {
+            padding-left: 118px;
+        }
     }
 
     &__photo {
-        width: 178px;
-        height: 195px;
+        width: 192px;
+        height: 213px;
         display: inline-block;
         text-align: center;
         background: url('../img/alice.png') no-repeat center,
                     url('../img/photo.svg') no-repeat center;
         background-size: 65%, contain;
         position: absolute;
-        left: 195px;
-        top: 90px
+        left: 162px;
+        top: 14px;
     }
 
     &__text-wrapper {
-        max-width: 452px;
-        margin: auto;
+        max-width: 430px;
+        margin: 0;
         font-size: 17px;
-        padding-top: 283px;
-        padding-left: 29px;
+        padding: 224px 40px 40px;
         line-height: 22px;
+        background: #fff;
+        border-radius: 7px;
     }
 
     &__note {
-        background: url('../img/note.svg') no-repeat center;
-        background-size: contain;
-        width: 560px;
-        height: 750px;
+        //background: url('../img/note.svg') no-repeat center;
+        //background-size: contain;
+        width: 523px;
+        height: 653px;
         position: relative;
-        margin-top: 68px;
-        margin-right: 22px;
-
+        top: 77px;
+        left: 27px;
     }
+
 
     &::after {
         content: '';
-        width: 310px;
+        width: 312px;
         height: 500px;
         background: url("../img/light.svg") no-repeat top center;
         background-size: 104%;
         position: absolute;
-        top: 174px;
-        left: 557px;
+        top: 177px;
+        left: 561px;
         animation-name: fade-out;
-        animation-duration: 4s;
+        animation-duration: 3s;
         animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
         animation-direction: alternate-reverse;
     }
 
-    &::before {
-        content: url('../img/cat-mouth.svg');
-        width: 11px;
-        height: 17px;
-        position: absolute;
-        bottom: 140px;
-        left: 639px;
-        animation-name: mouth;
-        animation-duration: 15s;
-        animation-timing-function: ease-in-out;
-        animation-iteration-count: infinite;
-        animation-direction: alternate-reverse;
-    }
+}
+
+.cat,
+.lamp,
+.clock {
+    position: absolute;
 }
 
 .clock {
-    position: absolute;
     top: 18%;
     left: 25.2%;
     width: 145px;
     height: 145px;
     background: url('../img/clock.svg') no-repeat center;
     background-size: cover;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 
     &__minute {
         width: 1px;
@@ -614,6 +558,73 @@
     }
 }
 
+.cat {
+    background: url('../img/cat.svg') no-repeat center;
+    background-size: contain;
+    width: 100px;
+    height: 112px;
+    bottom: 124px;
+    right: 311px;
+    -webkit-transition: transform 1s linear;
+    -moz-transition: transform 1s linear;
+    -ms-transition: transform 1s linear;
+    -o-transition: transform 1s linear;
+    transition: transform 1s linear;
+
+    &::before {
+        content: url('../img/cat-mouth.svg');
+        width: 11px;
+        height: 17px;
+        position: absolute;
+        top: 31px;
+        left: 27px;
+        animation-name: mouth;
+        animation-duration: 15s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
+    }
+
+    &:hover {
+        -webkit-transform: translateX(-100px);
+        -moz-transform: translateX(-100px);
+        -ms-transform: translateX(-100px);
+        -o-transform: translateX(-100px);
+        transform: translateX(-100px);
+    }
+}
+
+.lamp {
+    width: 120px;
+    height: 155px;
+    background: url('../img/lamp.svg') no-repeat center;
+    background-size: contain;
+    bottom: 45.6%;
+    left: 6%;
+
+    &:after {
+        content: '';
+        width: 130px;
+        height: 170px;
+        background: url("../img/light.svg") no-repeat top center;
+        background-size: 104%;
+        position: absolute;
+        top: 17px;
+        right: -107px;
+        transform: rotate(-46deg);
+        opacity: 0;
+        -webkit-transition: opacity 0.7s linear;
+        -moz-transition: opacity 0.7s linear;
+        -ms-transition: opacity 0.7s linear;
+        -o-transition: opacity 0.7s linear;
+        transition: opacity 0.7s linear;
+    }
+
+    &:hover::after {
+        opacity: 1;
+    }
+}
+
 .footer {
     .container();
     text-align: center;
@@ -622,7 +633,7 @@
     padding-top: 25px;
 
     &__contacts {
-        max-width: 455px;
+        max-width: 440px;
         margin: auto;
     }
 
@@ -688,11 +699,6 @@
     }
 
     &:active {
-        opacity: 0.8;
-    }
-
-    &:visited {
-        color: @pink;
         opacity: 0.8;
     }
 }

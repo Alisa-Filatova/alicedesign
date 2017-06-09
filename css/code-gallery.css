@@ -43,3 +43,11 @@
     from(#fc568d),
     to(#d22f69));
 }
+
+.elastislide-carousel {
+    visibility: hidden;
+}
+
+.elastislide-next {
+    visibility: hidden;
+}
