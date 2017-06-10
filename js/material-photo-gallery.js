@@ -1,5 +1,5 @@
 
-var elem = document.querySelector('.m-p-g');
+var elem = document.querySelector('.gallery');
 
 document.addEventListener('DOMContentLoaded', function() {
   var gallery = new MaterialPhotoGallery(elem);
@@ -966,12 +966,12 @@ if ( typeof define === 'function' && define.amd ) {
 	var CreateControls = {};
 
 	var _cssClasses = {
-		CONTROLS: 'm-p-g__controls',
-		CONTROLS_CLOSE: 'm-p-g__controls-close',
-		CONTROLS_ARROW: 'm-p-g__controls-arrow',
-		CONTROLS_NEXT: 'm-p-g__controls-arrow--next',
-		CONTROLS_PREV: 'm-p-g__controls-arrow--prev',
-		CONTROLS_BTN: 'm-p-g__btn'
+		CONTROLS: 'gallery__controls',
+		CONTROLS_CLOSE: 'gallery__controls-close',
+		CONTROLS_ARROW: 'gallery__controls-arrow',
+		CONTROLS_NEXT: 'gallery__controls-arrow--next',
+		CONTROLS_PREV: 'gallery__controls-arrow--prev',
+		CONTROLS_BTN: 'gallery__btn'
 	};
 
 	var controlsCloseSvg = '<svg fill="#FFFFFF" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/><path d="M0 0h24v24H0z" fill="none"/></svg>';
@@ -1136,15 +1136,15 @@ window.MaterialPhotoGallery = MaterialPhotoGallery;
 	 */
 
 	Gallery.prototype._cssClasses = {
-		GALLERY: 'm-p-g',
-		THUMBS_BOX: 'm-p-g__thumbs',
-		THUMB_IMG: 'm-p-g__thumbs-img',
-		FULL_BOX: 'm-p-g__fullscreen',
-		FULL_IMG: 'm-p-g__fullscreen-img',
-		CONTROLS: 'm-p-g__controls',
-		CONTROLS_CLOSE: 'm-p-g__controls-close',
-		CONTROLS_NEXT: 'm-p-g__controls-arrow--next',
-		CONTROLS_PREV: 'm-p-g__controls-arrow--prev'
+		GALLERY: 'gallery',
+		THUMBS_BOX: 'gallery__thumbs',
+		THUMB_IMG: 'gallery__thumbs-img',
+		FULL_BOX: 'gallery__fullscreen',
+		FULL_IMG: 'gallery__fullscreen-img',
+		CONTROLS: 'gallery__controls',
+		CONTROLS_CLOSE: 'gallery__controls-close',
+		CONTROLS_NEXT: 'gallery__controls-arrow--next',
+		CONTROLS_PREV: 'gallery__controls-arrow--prev'
 	};
 
 	/**
@@ -1175,7 +1175,7 @@ window.MaterialPhotoGallery = MaterialPhotoGallery;
 		imgLoad.on('fail', function(instance) {
 			var galleryEl = gallery._element;
 			var alertBox = document.createElement('div');
-			alertBox.className = 'm-p-g__alertBox';
+			alertBox.className = 'gallery__alertBox';
 			var alertBoxTitle = document.createElement('h2');
 			alertBoxTitle.innerHTML = 'Error';
 			var alertBoxMessage = document.createElement('p');

@@ -22,7 +22,7 @@ body {
 	text-align: center;
 	position: relative;
 	margin: auto;
-	background: #fc568d;
+	max-width: 1280px;
 }
 
 .header__logo {
@@ -73,7 +73,7 @@ body {
 	font-weight: 400;
 	display: flex;
 	align-items: center;
-	background: url("../img/folder-purple.svg") no-repeat center;
+	color: #fc568d;
 }
 
 .main-nav__icon {
@@ -83,17 +83,17 @@ body {
 	background-size: contain;
 	background: url('../img/graphic-design-inner.svg') no-repeat center;
 	margin-right: 15px;
-	margin-left: 35px;
+	margin-left: 15px;
 
 }
 
-.arrow .back {
+.arrow__back {
 	fill-rule: evenodd;
 	clip-rule: evenodd;
-	fill: #506085;
+	fill: #fc568d;
 }
 
-.arrow:hover .back {
+.arrow:hover .arrow__back {
 	fill: #cafcf9;
 	transition: 0.1s ease;
 }
@@ -582,19 +582,18 @@ body {
 	/*width: 800px;*/
 }
 .wagwep-container ul#portfolio-filter {
-	float: left;
 	font-size: 24px;
 	list-style: none;
 	padding: 10px 0px;
 	width: 100%;
 	border-bottom: 2px solid #fc568d;
+	border-top: 2px solid #fc568d;
 }
 .wagwep-container ul#portfolio-filter li {
-	/*border-right: 1px solid #dedede;*/
-	float: left;
-	line-height: 16px;
+	line-height: 24px;
 	margin: 0px;
 	padding: 10px;
+	text-align: center;
 }
 .wagwep-container ul#portfolio-filter li:last-child { border-right: none; margin-right: 0; padding-right: 0; }
 .wagwep-container ul#portfolio-filter a {
