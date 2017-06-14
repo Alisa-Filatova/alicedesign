@@ -9,46 +9,89 @@
 
     <title>Alice Design Верстка</title>
 
+    <link href="css/preload.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Neucha&amp;subset=cyrillic" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/elastic_grid.css">
     <link rel="stylesheet" type="text/css" href="css/web-gallery.css">
 </head>
 <body>
+    <div id="loader" class="overlay-loader">
+        <div class="loader-background color-flip"></div>
+        <img class="loader-icon spinning-cog" src="img/cog.svg" data-cog="cog">
+    </div>
     <header class="header">
         <nav class="main-nav">
             <div class="main-nav__wrapper">
 
-                <h1 class="main-nav__title">
-                    <a href="index.html#portfolio">
-                        <img
-                            class="arrow__back"
-                            src="img/arrow-main.svg"
-                            alt="back to portfolio"
-                            width="25"
-                            height="35"
-                        >
-                    </a>
-                    <i class="main-nav__icon"></i>
-                    Вёрстка
-                </h1>
-
-
-                <a href="index.html#">
+                <a class="arrow" href="index.html#portfolio">
                     <img
-                        class="logo header__logo"
+                        class="arrow__back"
+                        src="img/arrow-main.svg"
+                        alt="back to portfolio"
+                        width="25"
+                        height="35"
+                    >
+                </a>
+
+                <a class="logo" href="index.html#">
+                    <img
+                        class="header__logo"
                         src="img/logo.svg"
-                        width="220"
-                        height="150"
                         alt="Alice Design"
                     >
                 </a>
+
+                <i class="main-nav__icon"></i>
 
             </div>
         </nav>
     </header>
     <div id="elastic_grid_demo"></div>
 
+    <footer class="footer" id="contacts">
+
+        <ul class="contacts footer__contacts">
+            <li class="contacts__link">
+                <a
+                    class="contacts__link contacts__link_mail"
+                    href="mailto:alicefill@bk.ru"
+                >
+                </a>
+            </li>
+            <li class="contacts__link">
+                <a
+                    class="contacts__link contacts__link_vk"
+                    href="https://vk.com/alisafill"
+                >
+                </a>
+            </li>
+            <li class="contacts__link">
+                <a
+                    class="contacts__link contacts__link_github"
+                    href="https://github.com/Alisa-Filatova"
+                >
+                </a>
+            </li>
+            <li class="contacts__link">
+                <a
+                    class="contacts__link contacts__link_deviant"
+                    href="http://marrylie.deviantart.com"
+                >
+                </a>
+            </li>
+            <li class="contacts__link">
+                <a
+                    class="contacts__link contacts__link_linkedin"
+                    href="https://www.linkedin.com/in/alisa-filatova-64209a139/"
+                >
+                </a>
+            </li>
+        </ul>
+        <span class="footer__copyright">&#169; 2017 Алиса Филатова</span>
+    </footer>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/preload.js"></script>
     <script src="js/modernizr.custom.js"></script>
     <script src="js/classie.js"></script>
     <script src="js/jquery.elastislide.js"></script>

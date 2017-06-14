@@ -573,6 +573,7 @@ body {
 .og-expander-inner {
 	padding: 30px 30px;
 	height: 100%;
+	overflow: hidden;
 }
 
 .og-close {
@@ -813,12 +814,12 @@ body {
 
 .elastislide-wrapper {
 	position: relative;
-	background-color: #506085;
+	background-color: #475470;
 	margin: 0 auto;
 	min-height: 60px;
-	box-shadow: inset 0 0 10px #146;
-   -moz-box-shadow:    inset 0 0 10px #146;
-   -webkit-box-shadow: inset 0 0 10px #146;
+	box-shadow: inset 0 0 10px #404b63;
+   -moz-box-shadow: inset 0 0 10px #404b63;
+   -webkit-box-shadow: inset 0 0 10px #404b63;
 }
 
 .elastislide-wrapper.elastislide-loading {
@@ -1324,9 +1325,9 @@ nav#porfolio-nav li:last-child a {
 }
 
 @media (max-width: 767px) {
-	.og-expander h3 { font-size: 20px; line-height: 22px;}
-	.og-expander p { font-size: 16px; }
-	.og-expander a { font-size: 14px; display: none;}
+	.og-expander h3 { font-size: 26px; line-height: 22px; text-align: center;  margin-top: 15px;}
+	.og-expander p { font-size: 16px;}
+	.og-expander a { font-size: 14px; display: none; text-align: center;}
 	/*.og-expander-inner { padding: 25px;	}*/
 	.og-grid .sep { display: none;}
 	.og-fullimg{

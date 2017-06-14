@@ -50,3 +50,20 @@
 .elastislide-next {
     visibility: hidden;
 }
+
+.elastislide-wrapper {
+    display: none;
+}
+
+@media (max-width: 425px) {
+    .og-grid li > a img {
+        width: 86%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 425px) {
+    .og-expander-inner {
+        overflow: scroll;
+    }
+}
