@@ -21,7 +21,8 @@ body {
     margin: 0 auto;
     overflow-y: scroll;
     overflow-x: hidden;
-    background: #252323;
+    background: url('../img/gallery-back.svg') repeat top center, #f4ece0;
+    background-size: cover;
 
 }
 

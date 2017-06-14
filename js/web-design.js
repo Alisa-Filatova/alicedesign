@@ -40,7 +40,7 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Адаптивная верстка']
+                tags: ['Адаптивный дизайн']
             },
             {
                 title: 'lenortat.spb.ru',
@@ -72,7 +72,7 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Адаптивная верстка']
+                tags: ['Адаптивный дизайн']
             },
             {
                 title: 'natalia-photo.com',
@@ -102,7 +102,7 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Адаптивная верстка']
+                tags: ['Адаптивный дизайн']
             },
 
             {
@@ -128,7 +128,7 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Фиксированная верстка']
+                tags: ['Фиксированный дизайн']
             }
 
         ]

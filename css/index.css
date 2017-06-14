@@ -25,6 +25,12 @@ body {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
 }
+@media (min-width: 1441px) {
+  body {
+    background: url('../img/main-back.svg') no-repeat top center, linear-gradient(to bottom, rgba(102, 255, 255, 0.8) 3%, #f4ece0 16%);
+    background-size: cover;
+  }
+}
 @-webkit-keyframes fade-out {
   0% {
     opacity: 1;
