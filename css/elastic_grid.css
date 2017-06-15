@@ -5,7 +5,6 @@ html { height: 100%; }
 
 body {
 	position: relative;
-	/*font-family: 'Neucha', Arial Narrow, sans-serif;*/
 	font-family: 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 1.2em;
 	font-weight: 400;
@@ -1308,6 +1307,7 @@ nav#porfolio-nav li:last-child a {
 		font-size: 31px;
 		line-height: 35px;
 		font-weight: 400;
+		word-spacing: 2px;
 		color: #fff;
 	}
 	.og-expander p { font-size: 18px; line-height: 23px; }

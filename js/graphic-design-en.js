@@ -1,7 +1,6 @@
-
 $(function() {
     $('#elastic_grid_demo').elastic_grid({
-        showAllText: 'Графический дизайн',
+        showAllText: 'Graphic design',
         filterEffect: 'scaleup', // moveup, scaleup, fallperspective, fly, flip, helix , popup
         hoverDirection: true,
         hoverDelay: 0,
@@ -10,11 +9,11 @@ $(function() {
         expandingHeight: 500,
         items: [
             {
-                title: '«MedSkin» - клиника эстетической косметологии',
+                title: '«MedSkin» - the clinic of aesthetic cosmetology',
                 description: [
-                    'Для клиники «MedSkin» я разработала фирменный стиль в нежных тонах, подчеркивающий женственность и ухоженность основной целевой аудитории.',
-                    'Так же я дала рекомендации по выбору бумаги и особую ламинацию «Touch cover», которая на ощупь приятная как бархат,',
-                    'что соответствует основному направлению клиники - уход за кожей.'
+                    'For "MedSkin" clinic I have developed a signature style in soft colours, feminine and beautiful like primary target audience.',
+                    'I also gave recommendations on the choice of paper and lamination special "Touch cover", which is pleasant to the touch as velvet,',
+                    'that corresponds to the main direction of the clinic skin care.'
                 ].join(' '),
                 thumbnail: ['img/graphic-design/small/2.jpg', 'img/graphic-design/small/12.jpg', 'img/graphic-design/small/32.jpg'],
                 large: ['img/graphic-design/large/2.jpg', 'img/graphic-design/large/12.jpg', 'img/graphic-design/large/32.jpg'],
@@ -31,14 +30,15 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Полиграфия, Фирменный стиль']
+                tags: ['Printing, Branding']
             },
             {
-                title: '«Coffito» кафе-ресторан итальянской кухни',
+                title: '«Coffito» the restaurant of Italian cuisine',
                 description: [
-                    'Для кафе-ресторана «Coffito», я полностью создала фирменный стиль, меню, логотип и айдентику в рисованном ретро-стиле,',
-                    'под впечатлением от классических европейских кафе. Так как кафе расположено в историческом центре Санкт-Петербурга,',
-                    'этот стиль очень гармонично вписался в интерьер.'
+                    'For cafe-restaurant "Coffito" I have created corporate identity,',
+                    'menu, logo and identity into a hand-drawn retro-style,',
+                    'under the impression of the classic European café. Since the cafe is located in the historical centre of St. Petersburg,',
+                    'this style is very harmoniously fit into the interior.'
                 ].join(' '),
                 thumbnail: ['img/graphic-design/small/3.jpg','img/graphic-design/small/9.jpg', 'img/graphic-design/small/29.jpg'],
                 large: ['img/graphic-design/large/3.jpg','img/graphic-design/large/9.jpg', 'img/graphic-design/large/29.jpg'],
@@ -55,13 +55,13 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Полиграфия, Фирменный стиль']
+                tags: ['Printing, Branding']
             },
             {
-                title: '«Con De Mime» мастерская театрального костюма',
+                title: '«Con De Mime» the atelier of theatrical costume',
                 description: [
-                    'Для мастерской «Con De Mime» я нарисовала эмблему(логотип), которая сочетает в себе элементы швейного мастерства',
-                    'и театрального искусства, что сразу дает понять чем занимается студия. Так же разработала упаковочные крафт-пакеты и бирки.'
+                    'For the workshop "Con De Mime" I drew a logo that combines elements of sewing skill',
+                    'and theatre arts, which immediately makes it clear what the Studio. Also developed packaging Kraft bags and tags.'
                 ].join(' '),
                 thumbnail: ['img/graphic-design/small/4.jpg', 'img/graphic-design/small/15.jpg'],
                 large: ['img/graphic-design/large/4.jpg', 'img/graphic-design/large/15.jpg'],
@@ -78,14 +78,14 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Логотип']
+                tags: ['Logo']
             },
 
             {
-                title: '«Ibody.ru» - интернет-магазин косметики',
+                title: '«Ibody.ru» - the cosmetics online shop',
                 description: [
-                    'Для интернет-магазина я разработала флаеры, предназначенные для распространения через почтовые ящики,',
-                    'а так же использующиеся для баннеров на сайте.'
+                    'For an online store I developed flyers for distribution through mailboxes',
+                    'as well as used for banners on the website.'
                 ].join(' '),
                 thumbnail: ['img/graphic-design/small/25.jpg', 'img/graphic-design/small/42.jpg'],
                 large: ['img/graphic-design/large/25.jpg', 'img/graphic-design/large/42.jpg'],
@@ -102,14 +102,14 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Полиграфия']
+                tags: ['Printing']
             },
 
             {
-                title: '«Воспоминания о войне» - мемуары ветерана войны',
+                title: '«The Memoirs of war veteran»',
                 description: [
-                    'Под впечатлением от мемуаров и фотоснимков моего деда - Филатова Ивана Николаевича, прошедшего всю войну,',
-                    'я разработала обложку для его книги, и выпустила ее небольшим тиражом.'
+                    'Inspired by the memoirs and photographs of my grandfather - Filatov Ivan Nikolaevich, passed all war,',
+                    'I designed the cover for his book, and released it in small quantities.'
                 ].join(' '),
                 thumbnail: ['img/graphic-design/small/1.jpg'],
                 large: ['img/graphic-design/large/1.jpg'],
@@ -126,13 +126,13 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Полиграфия']
+                tags: ['Printing']
             },
 
             {
-                title: '«Petshop.ru» - интернет-магазин товаров для домашних животных',
+                title: '«Petshop.ru» - the online-pet shop',
                 description: [
-                    'Для интернет-магазина «Petshop.ru» я разработала подарочные сертификаты на три различные суммы, следуя фирменному стилю компании.'
+                    'For an online store "Petshop.ru" I designed gift certificates in three different amounts, following the corporate style of the company.'
                 ].join(' '),
                 thumbnail: ['img/graphic-design/small/7.jpg'],
                 large: ['img/graphic-design/large/7.jpg'],
@@ -149,15 +149,17 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Полиграфия']
+                tags: ['Printing']
             },
 
             {
-                title: '«Carpe Diem» - магазин постельного белья',
+                title: '«Carpe Diem» - The shop of bed linen',
                 description: [
-                    'Магазин заказал у меня дизайн упаковок для постельного белья (детского и взрослого) и вкладыши с описанием наполнения ',
-                    'и состава продукции. В процессе работы я предложила компании редизайн логотипа, так как их прежний был очень бледным и ',
-                    'плохо читаемым (что видно на детских упаковках). Новый решено было делать ярким и с более простым начертанием.'
+                    ' The store ordered me the design of packaging for bedding (children and adults)',
+                    ' and ear filling description',
+                    ' and makeup products. In the process, I suggested a logo redesign, as their previous was very pale and',
+                    ' difficult to read which can be seen on childrens packages.',
+                    ' New it was decided to make bright and easy style.'
                 ].join(' '),
                 thumbnail: [
                     'img/graphic-design/small/10.jpg',
@@ -192,15 +194,15 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Полиграфия']
+                tags: ['Printing']
             },
 
             {
-                title: 'Столовая «Бригантина»',
+                title: '«Brigantina» the canteen by the river',
                 description: [
-                    'Для столовой эконом-класса «Бригантина» я разработала логотип и фирменный стиль в плоском стиле, что подчеркивает ',
-                    'простоту заведения. Так как столовая находится рядом с рекой Фонтанкой, интерьер в голубых тонах, а на стенах морские пейзажи,',
-                    'упрощенная эмблема корабля родилась сама собой.'
+                    'For dining economy class "Brigantine" I developed the logo and corporate style in a flat style, which emphasizes ',
+                    'ease. Since the dining room is next to the river, blue interiors, and seascapes,',
+                    'simplified emblem of the ship was born of itself.'
                 ].join(' '),
                 thumbnail: ['img/graphic-design/small/16.jpg', 'img/graphic-design/small/36.jpg', 'img/graphic-design/small/49.jpg'],
                 large: ['img/graphic-design/large/16.jpg', 'img/graphic-design/large/36.jpg', 'img/graphic-design/large/49.jpg'],
@@ -217,14 +219,14 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Логотип']
+                tags: ['Logo']
             },
 
             {
-                title: 'Клиника остеопатии «Механика тела»',
+                title: '«The Mechanics of the Body» Osteopathy and massage clinic',
                 description: [
-                    'Для клиники я разработала минималистичный логотип, как это обычно требуется в медицинской среде. ',
-                    'Образ человека в шестеренке как ничто другое прекрасно описывает название и направление клиники без слов.'
+                    'For the clinic I designed a minimalist logo, as typically required in a clinical environment. ',
+                    'The image of a man in gear like nothing else perfectly describes the name and direction of the clinic without a word.'
                 ].join(' '),
                 thumbnail: ['img/graphic-design/small/6.jpg'],
                 large: ['img/graphic-design/large/6.jpg'],
@@ -241,14 +243,14 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Логотип']
+                tags: ['Logo']
             },
 
             {
                 title: '«Subway»',
                 description: [
-                    'Заказы для «Сабвей» я выполняла, работая в типографии. От меня требовалась адаптация ',
-                    'зарубежных материалов под местные локальные акции.'
+                    'Orders for "Subway" I did when I worked in the print shop. I needed to do adaptation ',
+                    'foreign materials under the local actions.'
                 ].join(' '),
                 thumbnail: ['img/graphic-design/small/5.jpg'],
                 large: ['img/graphic-design/large/5.jpg'],
@@ -265,14 +267,14 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Полиграфия']
+                tags: ['Printing']
             },
 
             {
-                title : '«Единый центр докуметов»',
+                title : '«The Document center»',
                 description: [
-                    'Заказы для Единого центра документов я выполняла, работая в «Едином полиграфическом центре», который был ',
-                    'его непосредственным поставщиком полиграфической и рекламной продукции.'
+                    'Orders for the «The Document center» I did working at "United printing center", which was ',
+                    'his direct supplier of printing and promotional products.'
                 ].join(' '),
                 thumbnail: ['img/graphic-design/small/8.jpg'],
                 large: ['img/graphic-design/large/8.jpg'],
@@ -289,14 +291,15 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Полиграфия']
+                tags: ['Printing']
             },
             {
-                title: '«Coffito» кафе-ресторан итальянской кухни',
+                title: '«Coffito» the restaurant of Italian cuisine',
                 description: [
-                    'Для кафе-ресторана «Coffito», я полностью создала фирменный стиль, меню, логотип и айдентику в рисованном ретро-стиле,',
-                    'под впечатлением от классических европейских кафе. Так как кафе расположено в историческом центре Санкт-Петербурга,',
-                    'этот стиль очень гармонично вписался в интерьер.'
+                    'For cafe-restaurant "Coffito" I have created corporate identity,',
+                    'menu, logo and identity into a hand-drawn retro-style,',
+                    'under the impression of the classic European café. Since the cafe is located in the historical centre of St. Petersburg,',
+                    'this style is very harmoniously fit into the interior.'
                 ].join(' '),
                 thumbnail: ['img/graphic-design/small/9.jpg','img/graphic-design/small/3.jpg', 'img/graphic-design/small/29.jpg'],
                 large: ['img/graphic-design/large/9.jpg','img/graphic-design/large/3.jpg', 'img/graphic-design/large/29.jpg'],
@@ -313,12 +316,12 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Логотип']
+                tags: ['Logo']
             },
 
             {
-                title: '«Naturlich» - ресторан немецкой кухни',
-                description: 'Для ресторана немецкой кухни «Натюрлих» я разработала логотип, вывеску и меню в классическом стиле.',
+                title: '«Naturlich» - the restaurant of german cuisine',
+                description: 'For the German restaurant "Naturlich" I designed logo, sign and menu in a classic style.',
                 thumbnail: ['img/graphic-design/small/11.jpg'],
                 large: ['img/graphic-design/large/11.jpg'],
                 img_title: ['jquery elastic grid'],
@@ -334,12 +337,12 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Логотип']
+                tags: ['Logo']
             },
 
             {
-                title: 'Служба «Мастер комфорта» - комплексные услуги по бытовому ремонту',
-                description: 'Для компании мною были разработаны листовки, визитки и евробуклеты, в соответствии с фирменным стилем организации.',
+                title: '«Master of comfort» the repair service',
+                description: 'For the company I designed flyers, business cards and eurovalley, in accordance with the corporate style of the organization.',
                 thumbnail: ['img/graphic-design/small/14.jpg','img/graphic-design/small/20.jpg', 'img/graphic-design/small/21.jpg'],
                 large: ['img/graphic-design/large/14.jpg','img/graphic-design/large/20.jpg', 'img/graphic-design/large/21.jpg'],
                 img_title: ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
@@ -355,14 +358,14 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Полиграфия']
+                tags: ['Printing']
             },
             {
-                title: '«MedSkin» клиника эстетической косметологии',
+                title: '«MedSkin» the clinic of aesthetic cosmetology',
                 description: [
-                    'Для клиники «MedSkin» я разработала фирменный стиль в нежных тонах, подчеркивающий женственность и ухоженность основной целевой аудитории.',
-                    'Так же я дала рекомендации по выбору бумаги и особую ламинацию «Touch cover», которая на ощупь такая же приятная как бархат, ' ,
-                    'что соответствует основному направлению клиники - уход за кожей.'
+                    'For "MedSkin" clinic I have developed a signature style in soft colours, feminine and beautiful like primary target audience.',
+                    'I also gave recommendations on the choice of paper and lamination special "Touch cover", which is pleasant to the touch as velvet,',
+                    'that corresponds to the main direction of the clinic skin care.'
                 ].join(' '),
                 thumbnail: ['img/graphic-design/small/12.jpg', 'img/graphic-design/small/2.jpg', 'img/graphic-design/small/32.jpg'],
                 large: ['img/graphic-design/large/12.jpg', 'img/graphic-design/large/2.jpg', 'img/graphic-design/large/32.jpg'],
@@ -379,12 +382,15 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Полиграфия']
+                tags: ['Printing']
             },
 
             {
-                title: '«Токио Сити» - японский ресторан ',
-                description: 'Листовки для ресторана «Токио Сити» я выполнила в рисованном стиле, в рамках конкурса от ресторана.',
+                title: '«Tokyo City» the japanise restaurant ',
+                description: [
+                    'Leaflets for the restaurant "Tokyo city" I have done in a drawing style.',
+                    'The competition from the restaurant.'
+                ].join(' '),
                 thumbnail: ['img/graphic-design/small/24.jpg'],
                 large: ['img/graphic-design/large/24.jpg'],
                 img_title: ['jquery elastic grid'],
@@ -400,12 +406,12 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Полиграфия']
+                tags: ['Printing']
             },
 
             {
-                title : 'Корпоративная визитка',
-                description: 'Дизайн для корпоративной визитки сотрудника.',
+                title : 'Corporate visit card',
+                description: 'Design for corporate card of the employee.',
                 thumbnail: ['img/graphic-design/small/13.jpg','img/graphic-design/small/33.jpg', 'img/graphic-design/small/45.jpg', 'img/graphic-design/small/12.jpg' ],
                 large: ['img/graphic-design/large/13.jpg', 'img/graphic-design/large/33.jpg', 'img/graphic-design/large/45.jpg', 'img/graphic-design/large/12.jpg'],
                 img_title: ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
@@ -421,12 +427,14 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Полиграфия']
+                tags: ['Printing']
             },
 
             {
-                title: '«Копигрупп.ру» - оперативная типография',
-                description: 'Для типографии я разработала моно-календарь 2017 года, в фирменных цветах компании. Так же мною были сделаны карманные календарики и евробуклет.',
+                title: '«Copygroupp.ru» - the printing center',
+                description: [
+                    'For the typography I developed mono calendar 2017, in the company colors. Also I made the pocket calendars and eurobucket.',
+                ].join(' '),
                 thumbnail: ['img/graphic-design/small/18.jpg','img/graphic-design/small/19.jpg'],
                 large: ['img/graphic-design/large/18.jpg','img/graphic-design/large/19.jpg'],
                 img_title: ['jquery elastic grid', 'jquery elastic grid'],
@@ -442,14 +450,14 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Полиграфия']
+                tags: ['Printing']
             },
 
             {
-                title: '«Институт перманентного макияжа»',
+                title: '«Institute of creative permanent make up»',
                 description: [
-                    'Институт перманентного макияжа Елены Павловой. Для института я разрабатывала баннер на португальском ',
-                    'языке для мастер-класса, значки, открытки, визитые карточки и прочую атрибутику для мастер-класса, в соответствии с техническим заданием и фирменным стилем института.'
+                    'Institute of creative permanent make up by Elena Pavlova. For the Institute I developed the banner in portuguese ',
+                    'language of the master class, badges, postcards, visite cards and other paraphernalia for the master class, in accordance with the technical specifications and corporate identity of the Institute.'
                 ].join(' '),
                 thumbnail: ['img/graphic-design/small/17.jpg', 'img/graphic-design/small/43.jpg', 'img/graphic-design/small/44.jpg'],
                 large: ['img/graphic-design/large/17.jpg', 'img/graphic-design/large/43.jpg', 'img/graphic-design/large/44.jpg'],
@@ -466,15 +474,17 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Полиграфия']
+                tags: ['Printing']
             },
 
             {
-                title: '«Carpe Diem» - магазин постельного белья',
+                title: '«Carpe Diem» - The shop of bed linen',
                 description: [
-                    'Магазин заказал у меня дизайн упаковок для постельного белья (детского и взрослого) и вкладыши с описанием наполнения ',
-                    'и состава продукции. В процессе работы я предложила компании редизайн логотипа, так как их прежний был очень бледным и ',
-                    'плохо читаемым (что видно на детских упаковках). Новый решено было делать ярким и с более простым начертанием.'
+                    ' The store ordered me the design of packaging for bedding (children and adults)',
+                    ' and ear filling description',
+                    ' and makeup products. In the process, I suggested a logo redesign, as their previous was very pale and',
+                    ' difficult to read which can be seen on childrens packages.',
+                    ' New it was decided to make bright and easy style.'
                 ].join(' '),
                 thumbnail: [
                     'img/graphic-design/small/34.jpg',
@@ -509,13 +519,13 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Полиграфия']
+                tags: ['Printing']
             },
 
 
             {
-                title: 'Служба «Мастер комфорта» - комплексные услуги по бытовому ремонту',
-                description: 'Для компании мною были разработаны листовки, визитки и евробуклеты, в соответствии с фирменным стилем организации.',
+                title: '«Master of comfort» the repair service',
+                description: 'For the company I designed flyers, business cards and eurovalley, in accordance with the corporate style of the organization.',
                 thumbnail: ['img/graphic-design/small/20.jpg','img/graphic-design/small/21.jpg', 'img/graphic-design/small/14.jpg'],
                 large: ['img/graphic-design/large/20.jpg','img/graphic-design/large/21.jpg', 'img/graphic-design/large/14.jpg'],
                 img_title: ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
@@ -531,12 +541,12 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Полиграфия']
+                tags: ['Printing']
             },
 
             {
-                title: 'Служба «Мастер комфорта» - комплексные услуги по бытовому ремонту',
-                description: 'Для компании мною были разработаны листовки, визитки и евробуклеты, в соответствии с фирменным стилем организации.',
+                title: '«Master of comfort» the repair service',
+                description: 'For the company I designed flyers, business cards and eurovalley, in accordance with the corporate style of the organization.',
                 thumbnail: ['img/graphic-design/small/21.jpg','img/graphic-design/small/20.jpg', 'img/graphic-design/small/14.jpg'],
                 large: ['img/graphic-design/large/21.jpg','img/graphic-design/large/20.jpg', 'img/graphic-design/large/14.jpg'],
                 img_title: ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
@@ -552,14 +562,14 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Полиграфия']
+                tags: ['Printing']
             },
 
             {
-                title: '«Ibody.ru» - интернет-магазин косметики.',
+                title: '«Ibody.ru» - the online shop of cosmetics .',
                 description: [
-                    'Для интернет-магазина я разработала флаеры, предназначенные для распространения через почтовые ящики,',
-                    'а так же использующиеся для баннеров на сайте.'
+                    'For an online store I developed flyers for distribution through mailboxes',
+                    'as well as used for banners on the website.'
                 ].join(' '),
                 thumbnail: ['img/graphic-design/small/42.jpg', 'img/graphic-design/small/25.jpg'],
                 large: ['img/graphic-design/large/42.jpg', 'img/graphic-design/large/25.jpg'],
@@ -576,12 +586,12 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Полиграфия']
+                tags: ['Printing']
             },
 
             {
-                title: '«Бетон Раствор» - строительные материалы',
-                description: 'Визитная карточка для фирмы по доставке строительных материалов.',
+                title: 'Сonstruction firm visit card',
+                description: 'Business card for the company for the delivery of construction materials.',
                 thumbnail: ['img/graphic-design/small/22.jpg'],
                 large: ['img/graphic-design/large/22.jpg'],
                 img_title: ['jquery elastic grid'],
@@ -597,12 +607,12 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Полиграфия']
+                tags: ['Printing']
             },
 
             {
-                title: '«Копигрупп.ру» - оперативная типография',
-                description: 'Для типографии я разработала корпоративный моно-календарь 2017 года, в фирменных цветах компании. Так же мною были сделаны карманные календарики и евробуклет.',
+                title: '«Copygroupp.ru» - the printing center',
+                description: 'For typography I designed a corporate mono-calendar 2017, in the company colors. Also I made the pocket calendars and euro booklet.',
                 thumbnail: ['img/graphic-design/small/19.jpg','img/graphic-design/small/18.jpg'],
                 large: ['img/graphic-design/large/19.jpg','img/graphic-design/large/18.jpg'],
                 img_title: ['jquery elastic grid', 'jquery elastic grid'],
@@ -618,15 +628,15 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Полиграфия']
+                tags: ['Printing']
             },
 
 
             {
-                title: '«Con De Mime» - мастерская театрального костюма',
+                title: '«Con De Mime» - the atelier of theatrical costume',
                 description: [
-                    'Для мастерской «Con De Mime» я нарисовала эмблему(логотип), которая сочетает в себе элементы швейного мастерства',
-                    'и театрального искусства, что сразу дает понять чем занимается студия. Так же разработала упаковочные крафт-пакеты и бирки.'
+                    'For the workshop "Con De Mime" I drew a logo, which combines elements of sewing skill',
+                    'and theatre arts, which immediately makes it clear what the Studio. Also developed packaging Kraft bags and tags.'
                 ].join(' '),
                 thumbnail: ['img/graphic-design/small/15.jpg','img/graphic-design/small/4.jpg'],
                 large: ['img/graphic-design/large/15.jpg','img/graphic-design/large/4.jpg'],
@@ -643,15 +653,16 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags : ['Фирменный стиль']
+                tags : ['Branding']
             },
 
             {
-                title: '«Coffito» кафе-ресторан итальянской кухни',
+                title: '«Coffito» the restaurant of Italian cuisine',
                 description: [
-                    'Для кафе-ресторана «Coffito», я полностью создала фирменный стиль, меню, логотип и айдентику в ',
-                    'рисованном ретро-стиле, под впечатлением от классических европейских кафе. Так как кафе расположено в ',
-                    'историческом центре Санкт-Петербурга, этот стиль очень гармонично вписался в интерьер.'
+                    'For cafe-restaurant "Coffito" I have created corporate identity,',
+                    'menu, logo and identity into a hand-drawn retro-style,',
+                    'under the impression of the classic European café. Since the cafe is located in the historical centre of St. Petersburg,',
+                    'this style is very harmoniously fit into the interior.'
                 ].join(' '),
                 thumbnail: ['img/graphic-design/small/29.jpg','img/graphic-design/small/3.jpg','img/graphic-design/small/9.jpg'],
                 large: ['img/graphic-design/large/29.jpg','img/graphic-design/large/3.jpg', 'img/graphic-design/large/9.jpg'],
@@ -668,15 +679,15 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Фирменный стиль']
+                tags: ['Branding']
             },
 
             {
-                title: 'Столовая «Бригантина»',
+                title: '"Brigantina" the canteen by the river',
                 description: [
-                    'Для столовой эконом-класса «Бригантина», я разработала логотип и фирменный стиль в плоском стиле, что подчеркивает ',
-                    'простоту заведения. Так как столовая находится рядом с рекой Фонтанкой, интерьер в голубых тонах, а на стенах морские пейзажи,',
-                    'упрощенная эмблема корабля родилась сама собой.'
+                    'For dining economy class "Brigantine" I developed the logo and corporate style in a flat style, which emphasizes ',
+                    'ease. Since the dining room is next to the river, blue interiors, and seascapes,',
+                    'simplified emblem of the ship was born of itself.'
                 ].join(' '),
                 thumbnail: ['img/graphic-design/small/36.jpg','img/graphic-design/small/16.jpg','img/graphic-design/small/49.jpg'],
                 large: ['img/graphic-design/large/36.jpg','img/graphic-design/large/16.jpg','img/graphic-design/large/49.jpg'],
@@ -693,15 +704,17 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Фирменный стиль']
+                tags: ['Branding']
             },
 
             {
-                title: '«Carpe Diem» - магазин постельного белья',
+                title: '«Carpe Diem» - The shop of bed linen',
                 description: [
-                    'Магазин заказал у меня дизайн упаковок для постельного белья (детского и взрослого) и вкладыши с описанием ',
-                    'наполнения и состава продукции. В процессе работы я предложила компании редизайн логотипа, так как их прежний был ',
-                    'очень бледным и плохо читаемым (что видно на детских упаковках). Новый решено было делать ярким и с более простым начертанием.'
+                    ' The store ordered me the design of packaging for bedding (children and adults)',
+                    ' and ear filling description',
+                    ' and makeup products. In the process, I suggested a logo redesign, as their previous was very pale and',
+                    ' difficult to read which can be seen on childrens packages.',
+                    ' New it was decided to make bright and easy style.'
                 ].join(' '),
                 thumbnail: [
                     'img/graphic-design/small/26.jpg',
@@ -736,15 +749,17 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Логотип']
+                tags: ['Logo']
             },
 
             {
-                title: '«Carpe Diem» - магазин постельного белья',
+                title: '«Carpe Diem» - The shop of bed linen',
                 description: [
-                    'Магазин заказал у меня дизайн упаковок для постельного белья (детского и взрослого) и вкладыши с ',
-                    'описанием наполнения и состава продукции. В процессе работы я предложила компании редизайн логотипа, так ',
-                    'как их прежний был очень бледным и плохо читаемым (что видно на детских упаковках). Новый решено было делать ярким и с более простым начертанием.'
+                    ' The store ordered me the design of packaging for bedding (children and adults)',
+                    ' and ear filling description',
+                    ' and makeup products. In the process, I suggested a logo redesign, as their previous was very pale and',
+                    ' difficult to read which can be seen on childrens packages.',
+                    ' New it was decided to make bright and easy style.'
                 ].join(' '),
                 thumbnail: [
                     'img/graphic-design/small/30.jpg',
@@ -777,15 +792,17 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Полиграфия']
+                tags: ['Printing']
             },
 
             {
-                title: '«Carpe Diem» - магазин постельного белья',
+                title: '«Carpe Diem» - The shop of bed linen',
                 description: [
-                    'Магазин заказал у меня дизайн упаковок для постельного белья (детского и взрослого) и ',
-                    'вкладыши с описанием наполнения и состава продукции. В процессе работы я предложила компании редизайн логотипа, ',
-                    'так как их прежний был очень бледным и плохо читаемым (что видно на детских упаковках). Новый решено было делать ярким и с более простым начертанием.'
+                    ' The store ordered me the design of packaging for bedding (children and adults)',
+                    ' and ear filling description',
+                    ' and makeup products. In the process, I suggested a logo redesign, as their previous was very pale and',
+                    ' difficult to read which can be seen on childrens packages.',
+                    ' New it was decided to make bright and easy style.'
                 ].join(' '),
                 thumbnail: [
                     'img/graphic-design/small/31.jpg',
@@ -817,15 +834,15 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Полиграфия']
+                tags: ['Printing']
             },
 
             {
-                title: '«MedSkin» клиника эстетической косметологии',
+                title: '«MedSkin» the clinic of aesthetic cosmetology',
                 description: [
-                    'Для клиники «МедСкин» я разработала фирменный стиль в нежных тонах, подчеркивающий женственность и ухоженность ',
-                    'основной целевой аудитории. Так же я дала рекомендации по выбору бумаги и особую ламинацию «Touch cover», которая ',
-                    'на ощупь такая же приятная как бархат, что соответствует основному направлению клиники - уход за кожей.'
+                    'For "MedSkin" clinic I have developed a signature style in soft colours, feminine and beautiful like primary target audience.',
+                    'I also gave recommendations on the choice of paper and lamination special "Touch cover", which is pleasant to the touch as velvet,',
+                    'that corresponds to the main direction of the clinic skin care.'
                 ].join(' '),
                 thumbnail: [
                     'img/graphic-design/small/32.jpg',
@@ -854,12 +871,12 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Полиграфия']
+                tags: ['Printing']
             },
             {
-                title: 'Авторские иллюстрации на кружках',
+                title: 'Illustrations on mugs',
                 description: [
-                    'Векторные иллюстрации для сувенирной продукции я рисовала для продажи в магазин Castle Rock.'
+                    'Vector illustration for Souvenirs it was for sale in the store "Castle Rock".'
                 ].join(' '),
                 thumbnail: [
                     'img/graphic-design/small/47.jpg',
@@ -885,13 +902,13 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Полиграфия']
+                tags: ['Printing']
             },
 
             {
-                title: 'Обложка для CD рок-группы «Kith Flight»',
+                title: 'CD cover «Kith Flight» the rock-band',
                 description: [
-                    'Иллюстрацию для альбома рок-группы я выполнила в далеком 2009 году.'
+                    'Illustration for album of the rock band I did back in 2009.'
                 ].join(' '),
                 thumbnail: [
                     'img/graphic-design/small/46.jpg'
@@ -915,15 +932,15 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Полиграфия']
+                tags: ['Printing']
             },
 
             {
-                title: '«Фотомонтаж»',
+                title: '«Photomanipulation»',
                 description: [
-                    'Фотомонтаж - один из самых популярных заказов в качестве подарка на день рождение, юбилей и другие памятные даты. ',
-                    'При помощи Adobe Photoshop и графического планшета, я делаю портрет максимально похожим на настоящую картину, а так ',
-                    'же даю совет по распечатке на холсте и покрытию лаком, для достижения максимального сходства с настоящими художественными красками.'
+                    'Photomanipulation is one of the most popular orders as a gift for a birthday, anniversary, and other memorable dates. ',
+                    'Using Adobe Photoshop and a graphic tablet, I did a portrait as similar to the real picture and thus',
+                    'well, here is a tip for printing on canvas and lacquered to achieve maximum similarity with the real art colours.'
                 ].join(' '),
                 thumbnail: [
                     'img/graphic-design/small/39.jpg',
@@ -955,15 +972,15 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Фотомонтаж']
+                tags: ['Photomanipulation']
             },
 
             {
-                title: '«Фотомонтаж»',
+                title: '«Photomanipulation»',
                 description: [
-                    'Фотомонтаж - один из самых популярных заказов в качестве подарка на день рождение, юбилей и другие памятные даты. ',
-                    'При помощи Adobe Photoshop и графического планшета, я делаю портрет максимально похожим на настоящую картину, а так ',
-                    'же даю совет по распечатке на холсте и покрытию лаком, для достижения максимального сходства с настоящими художественными красками.'
+                    'Photomanipulation is one of the most popular orders as a gift for a birthday, anniversary, and other memorable dates. ',
+                    'Using Adobe Photoshop and a graphic tablet, I did a portrait as similar to the real picture and thus',
+                    'well, here is a tip for printing on canvas and lacquered to achieve maximum similarity with the real art colours.'
                 ].join(' '),
                 thumbnail: [
                     'img/graphic-design/small/41.jpg',
@@ -997,15 +1014,15 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Фотомонтаж']
+                tags: ['Photomanipulation']
             },
 
             {
-                title: '«Фотомонтаж»',
+                title: '«Photomanipulation»',
                 description: [
-                    'Фотомонтаж - один из самых популярных заказов в качестве подарка на день рождение, юбилей и другие памятные даты. ',
-                    'При помощи Adobe Photoshop и графического планшета, я делаю портрет максимально похожим на настоящую картину, а так ',
-                    'же даю совет по распечатке на холсте и покрытию лаком, для достижения максимального сходства с настоящими художественными красками.'
+                    'Photomanipulation is one of the most popular orders as a gift for a birthday, anniversary, and other memorable dates. ',
+                    'Using Adobe Photoshop and a graphic tablet, I did a portrait as similar to the real picture and thus',
+                    'well, here is a tip for printing on canvas and lacquered to achieve maximum similarity with the real art colours.'
                 ].join(' '),
                 thumbnail: [
                     'img/graphic-design/small/38.jpg',
@@ -1040,15 +1057,15 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Фотомонтаж']
+                tags: ['Photomanipulation']
             },
 
             {
-                title: '«Фотомонтаж»',
+                title: '«Photomanipulation»',
                 description: [
-                    'Фотомонтаж - один из самых популярных заказов в качестве подарка на день рождение, юбилей и другие памятные даты. ',
-                    'При помощи Adobe Photoshop и графического планшета, я делаю портрет максимально похожим на настоящую картину, а так ',
-                    'же даю совет по распечатке на холсте и покрытию лаком, для достижения максимального сходства с настоящими художественными красками.'
+                    'Photomanipulation is one of the most popular orders as a gift for a birthday, anniversary, and other memorable dates. ',
+                    'Using Adobe Photoshop and a graphic tablet, I did a portrait as similar to the real picture and thus',
+                    'well, here is a tip for printing on canvas and lacquered to achieve maximum similarity with the real art colours.'
                 ].join(' '),
                 thumbnail: [
                     'img/graphic-design/small/40.jpg',
@@ -1083,15 +1100,15 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Фотомонтаж']
+                tags: ['Photomanipulation']
             },
 
             {
-                title: '«Фотомонтаж»',
+                title: '«Photomanipulation»',
                 description: [
-                    'Фотомонтаж - один из самых популярных заказов в качестве подарка на день рождение, юбилей и другие памятные даты. ',
-                    'При помощи Adobe Photoshop и графического планшета, я делаю портрет максимально похожим на настоящую картину, а так ',
-                    'же даю совет по распечатке на холсте и покрытию лаком, для достижения максимального сходства с настоящими художественными красками.'
+                    'Photomanipulation is one of the most popular orders as a gift for a birthday, anniversary, and other memorable dates. ',
+                    'Using Adobe Photoshop and a graphic tablet, I did a portrait as similar to the real picture and thus',
+                    'well, here is a tip for printing on canvas and lacquered to achieve maximum similarity with the real art colours.'
                 ].join(' '),
                 thumbnail: [
                     'img/graphic-design/small/35.jpg',
@@ -1126,15 +1143,15 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Фотомонтаж']
+                tags: ['Photomanipulation']
             },
 
             {
-                title: '«Фотомонтаж»',
+                title: '«Photomanipulation»',
                 description: [
-                    'Фотомонтаж - один из самых популярных заказов в качестве подарка на день рождение, юбилей и другие памятные даты. ',
-                    'При помощи Adobe Photoshop и графического планшета, я делаю портрет максимально похожим на настоящую картину, а так ',
-                    'же даю совет по распечатке на холсте и покрытию лаком, для достижения максимального сходства с настоящими художественными красками.'
+                    'Photomanipulation is one of the most popular orders as a gift for a birthday, anniversary, and other memorable dates. ',
+                    'Using Adobe Photoshop and a graphic tablet, I did a portrait as similar to the real picture and thus',
+                    'well, here is a tip for printing on canvas and lacquered to achieve maximum similarity with the real art colours.'
                 ].join(' '),
                 thumbnail: [
                     'img/graphic-design/small/27.jpg',
@@ -1169,9 +1186,12 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Фотомонтаж']
+                tags: ['Photomanipulation']
             }
 
         ]
     });
 });
+/**
+ * Created by Alisa on 15.06.17.
+ */

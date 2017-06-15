@@ -7,19 +7,26 @@
     <meta name="description" content="Алиса Филатова - веб дизайнер, верстальщик, цифровой иллюстратор">
     <meta name="author" content="Alisa Filatova | alicedesign.ru">
 
-    <title>Alice Design Веб дизайн</title>
+    <title>Alice Design - Веб дизайн</title>
     
     <link href="css/preload.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Neucha&amp;subset=cyrillic" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/elastic_grid.css">
-    <link rel="stylesheet" type="text/css" href="css/web-gallery.css">
+	<link rel="stylesheet" href="css/elastic_grid.css">
+    <link rel="stylesheet" href="css/web-gallery.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
 </head>
 <body>
+    <div id="loader" class="overlay-loader">
+        <div class="loader-background color-flip"></div>
+        <img
+            class="loader-icon spinning-cog"
+            src="img/cog.svg"
+            data-cog="cog"
+            alt="loading"
+        >
+    </div>
+
     <header class="header">
-        <div id="loader" class="overlay-loader">
-            <div class="loader-background color-flip"></div>
-            <img class="loader-icon spinning-cog" src="img/cog.svg" data-cog="cog">
-        </div>
         <nav class="main-nav">
             <div class="main-nav__wrapper">
 

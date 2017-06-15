@@ -4,18 +4,31 @@
 	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Alice Design Portfolio</title>
-
     <meta name="description" content="Graphic design, Portfolio">
-	<link rel="stylesheet" type="text/css" href="css/elastic_grid.css">
+    <meta name="author" content="Alisa Filatova | alicedesign.ru">
+
+    <title>Alice Design - Graphic design</title>
+
+    <link href="css/preload.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Neucha&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="css/elastic_grid.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
 </head>
 <body>
+    <div id="loader" class="overlay-loader">
+        <div class="loader-background color-flip"></div>
+        <img
+            class="loader-icon spinning-cog"
+            src="img/cog.svg"
+            data-cog="cog"
+            alt="Loading"
+        >
+    </div>
     <header class="header">
         <nav class="main-nav">
             <div class="main-nav__wrapper">
 
-                <a class="arrow" href="index.html#portfolio">
+                <a class="arrow" href="index-en.html#portfolio">
                     <img
                         class="arrow__back"
                         src="img/arrow-main.svg"
@@ -25,7 +38,7 @@
                     >
                 </a>
 
-                <a class="logo" href="index.html#">
+                <a class="logo" href="index-en.html#">
                     <img
                         class="header__logo"
                         src="img/logo.svg"
@@ -38,567 +51,60 @@
             </div>
         </nav>
     </header>
-<div id="elastic_grid_demo"></div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="js/modernizr.custom.js"></script>
-<script src="js/classie.js"></script>
-<!--- uncompress-->
+    <div id="elastic_grid_demo"></div>
 
-<script type="text/javascript" src="js/jquery.elastislide.js"></script>
-<script type="text/javascript" src="js/jquery.hoverdir.js"></script>
-<script type="text/javascript" src="js/elastic_grid.js"></script>
+    <footer class="footer" id="contacts">
 
-<!-- compress version
-<script type="text/javascript" src="js/elastic_grid.min.js"></script>
--->
-<script type="text/javascript">
-    $(function(){
-        $("#elastic_grid_demo").elastic_grid({
-            'showAllText' : 'All',
-            'filterEffect': 'scaleup', // moveup, scaleup, fallperspective, fly, flip, helix , popup
-            'hoverDirection': true,
-            'hoverDelay': 0,
-            'hoverInverse': false,
-            'expandingSpeed': 500,
-            'expandingHeight': 500,
-            'items' :
-            [
+        <ul class="contacts footer__contacts">
+            <li class="contacts__link">
+                <a
+                    class="contacts__link contacts__link_mail"
+                    href="mailto:alicefill@bk.ru"
+                >
+                </a>
+            </li>
+            <li class="contacts__link">
+                <a
+                    class="contacts__link contacts__link_vk"
+                    href="https://vk.com/alisafill"
+                >
+                </a>
+            </li>
+            <li class="contacts__link">
+                <a
+                    class="contacts__link contacts__link_github"
+                    href="https://github.com/Alisa-Filatova"
+                >
+                </a>
+            </li>
+            <li class="contacts__link">
+                <a
+                    class="contacts__link contacts__link_deviant"
+                    href="http://marrylie.deviantart.com"
+                >
+                </a>
+            </li>
+            <li class="contacts__link">
+                <a
+                    class="contacts__link contacts__link_linkedin"
+                    href="https://www.linkedin.com/in/alisa-filatova-64209a139/"
+                >
+                </a>
+            </li>
+        </ul>
 
-                {
-                    'title'         : '"MedSkin" the clinic of aesthetic medicine',
-                    'description'   : 'Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
-                    'thumbnail'     : ['img/graphic-design/small/2.jpg', 'img/graphic-design/small/12.jpg', 'img/graphic-design/small/32.jpg'],
-                    'large'         : ['img/graphic-design/large/2.jpg', 'img/graphic-design/large/12.jpg', 'img/graphic-design/large/32.jpg'],
-                    'img_title'     : ['jquery elastic grid 6 ', 'jquery elastic grid 7 ', 'jquery elastic grid 8', 'jquery elastic grid 9', 'jquery elastic grid 9'],
-                    'button_list'   :
-                    [
-                        { 'title':'Demo', 'url' : 'http://porfolio.bonchen.net/', 'new_window' : true },
-                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/', 'new_window' : true}
-                    ],
-                    'tags'          : ['Branding, Printing']
-                },
-                {
-                    'title'         : '"Coffito" the restaurant of Italian cuisine',
-                    'description'   : 'Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
-                    'thumbnail'     : ['img/graphic-design/small/3.jpg','img/graphic-design/small/9.jpg', 'img/graphic-design/small/29.jpg'],
-                    'large'         : ['img/graphic-design/large/3.jpg','img/graphic-design/large/9.jpg', 'img/graphic-design/large/29.jpg'],
-                    'img_title'     : ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
-                    'button_list'   :
-                    [
-                        { 'title':'Demo', 'url' : 'http://porfolio.bonchen.net/', 'new_window' : true },
-                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/', 'new_window' : true}
-                    ],
-                    'tags'          : ['Printing']
-                },
-                {
-                    'title'         : '"Con De Mime" the atelier',
-                    'description'   : 'Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
-                    'thumbnail'     : ['img/graphic-design/small/4.jpg', 'img/graphic-design/small/15.jpg'],
-                    'large'         : ['img/graphic-design/large/4.jpg', 'img/graphic-design/large/15.jpg'],
-                    'img_title'     : ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
-                    'button_list'   :
-                    [
-                        { 'title':'Demo', 'url' : 'http://porfolio.bonchen.net/', 'new_window' : true },
-                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/', 'new_window' : true}
-                    ],
-                    'tags'          : ['Logo']
-                },
+        <span class="footer__copyright">&#169; 2017 Alisa Filatova</span>
+    </footer>
 
-                {
-                    'title'         : '"Ibody.ru" the cosmetics online shop',
-                    'description'   : 'Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
-                    'thumbnail'     : ['img/graphic-design/small/25.jpg'],
-                    'large'         : ['img/graphic-design/large/25.jpg'],
-                    'img_title'     : ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
-                    'button_list'   :
-                    [
-                        { 'title':'Demo', 'url' : 'http://porfolio.bonchen.net/', 'new_window' : true },
-                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/', 'new_window' : true}
-                    ],
-                    'tags'          : ['Printing']
-                },
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/preload.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/jquery.elastislide.js"></script>
+    <script src="js/jquery.hoverdir.js"></script>
+    <script src="js/elastic_grid.js"></script>
+    <script src="js/graphic-design-en.js"></script>
 
-                {
-                    'title'         : '"The Memoirs of war veteran"',
-                    'description'   : 'Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
-                    'thumbnail'     : ['img/graphic-design/small/1.jpg'],
-                    'large'         : ['img/graphic-design/large/1.jpg'],
-                    'img_title'     : ['jquery elastic grid 1 ', 'jquery elastic grid 2', 'jquery elastic grid 3', 'jquery elastic grid 4', 'jquery elastic grid 5'],
-                    'button_list'   :
-                    [
-                        { 'title':'Demo', 'url' : 'http://porfolio.bonchen.net/', 'new_window' : true },
-                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/', 'new_window' : false}
-                    ],
-                    'tags'          : ['Printing']
-                },
-
-                {
-                    'title'         : '"Petshop.ru" - the online pet shop',
-                    'description'   : 'Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
-                    'thumbnail'     : ['img/graphic-design/small/7.jpg'],
-                    'large'         : ['img/graphic-design/large/7.jpg'],
-                    'img_title'     : ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
-                    'button_list'   :
-                    [
-                        { 'title':'Demo', 'url' : 'http://porfolio.bonchen.net/', 'new_window' : true },
-                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/', 'new_window' : true}
-                    ],
-                    'tags'          : ['Printing']
-                },
-                {
-                    'title'         : '"Brigantina" the canteen by the river',
-                    'description'   : 'Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
-                    'thumbnail'     : ['img/graphic-design/small/16.jpg', 'img/graphic-design/small/36.jpg'],
-                    'large'         : ['img/graphic-design/large/16.jpg', 'img/graphic-design/large/36.jpg'],
-                    'img_title'     : ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
-                    'button_list'   :
-                    [
-                        { 'title':'Demo', 'url' : 'http://porfolio.bonchen.net/', 'new_window' : true },
-                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/', 'new_window' : true}
-                    ],
-                    'tags'          : ['Logo']
-                },
-
-                {
-                    'title'         : '"Carpe Diem" The shop of bed linen',
-                    'description'   : 'Packing for baby bedding bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
-                    'thumbnail'     : ['img/graphic-design/small/34.jpg','img/graphic-design/small/10.jpg', 'img/graphic-design/small/30.jpg', 'img/graphic-design/small/31.jpg', 'img/graphic-design/small/26.jpg'],
-                    'large'         : ['img/graphic-design/large/34.jpg','img/graphic-design/large/10.jpg', 'img/graphic-design/large/30.jpg', 'img/graphic-design/large/31.jpg', 'img/graphic-design/small/26.jpg'],
-                    'img_title'     : ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
-                    'button_list'   :
-                    [
-                        { 'title':'Demo', 'url' : 'http://porfolio.bonchen.net/', 'new_window' : true },
-                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/', 'new_window' : true}
-                    ],
-                    'tags'          : ['Printing']
-                },
-
-                {
-                    'title'         : '"Photomanipulation"',
-                    'description'   : 'Packing for baby bedding bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
-                    'thumbnail'     : ['img/graphic-design/small/39.jpg','img/graphic-design/small/38.jpg', 'img/graphic-design/small/41.jpg', 'img/graphic-design/small/40.jpg'],
-                    'large'         : ['img/graphic-design/large/39.jpg','img/graphic-design/large/38.jpg', 'img/graphic-design/large/41.jpg', 'img/graphic-design/large/40.jpg'],
-                    'img_title'     : ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
-                    'button_list'   :
-                    [
-                        { 'title':'Demo', 'url' : 'http://porfolio.bonchen.net/', 'new_window' : true },
-                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/', 'new_window' : true}
-                    ],
-                    'tags'          : ['Photomanipulation']
-                },
-
-                {
-                    'title'         : '"The Mechanics of the Body" Osteopathy and massage clinic',
-                    'description'   : 'Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
-                    'thumbnail'     : ['img/graphic-design/small/6.jpg'],
-                    'large'         : ['img/graphic-design/large/6.jpg'],
-                    'img_title'     : ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
-                    'button_list'   :
-                    [
-                        { 'title':'Demo', 'url' : 'http://porfolio.bonchen.net/', 'new_window' : true },
-                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/', 'new_window' : true}
-                    ],
-                    'tags'          : ['Logo']
-                },
-
-                {
-                    'title'         : '"Subway" the restaurant',
-                    'description'   : 'Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
-                    'thumbnail'     : ['img/graphic-design/small/5.jpg'],
-                    'large'         : ['img/graphic-design/large/5.jpg'],
-                    'img_title'     : ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
-                    'button_list'   :
-                    [
-                        { 'title':'Demo', 'url' : 'http://porfolio.bonchen.net/', 'new_window' : true },
-                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/', 'new_window' : true}
-                    ],
-                    'tags'          : ['Printing']
-                },
-
-                {
-                    'title'         : '"The Document center"',
-                    'description'   : 'Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
-                    'thumbnail'     : ['img/graphic-design/small/8.jpg'],
-                    'large'         : ['img/graphic-design/large/8.jpg'],
-                    'img_title'     : ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
-                    'button_list'   :
-                    [
-                        { 'title':'Demo', 'url' : 'http://porfolio.bonchen.net/', 'new_window' : true },
-                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/', 'new_window' : true}
-                    ],
-                    'tags'          : ['Printing']
-                },
-                {
-                    'title'         : '"Coffito" the restaurant of Italian cuisine',
-                    'description'   : 'Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
-                    'thumbnail'     : ['img/graphic-design/small/9.jpg','img/graphic-design/small/3.jpg', 'img/graphic-design/small/29.jpg'],
-                    'large'         : ['img/graphic-design/large/9.jpg','img/graphic-design/large/3.jpg', 'img/graphic-design/large/29.jpg'],
-                    'img_title'     : ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
-                    'button_list'   :
-                    [
-                        { 'title':'Demo', 'url' : 'http://porfolio.bonchen.net/', 'new_window' : true },
-                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/', 'new_window' : true}
-                    ],
-                    'tags'          : ['Logo']
-                },
-
-                {
-                    'title'         : '"Naturlich" the restaurant of german cuisine',
-                    'description'   : 'Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
-                    'thumbnail'     : ['img/graphic-design/small/11.jpg'],
-                    'large'         : ['img/graphic-design/large/11.jpg'],
-                    'img_title'     : ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
-                    'button_list'   :
-                    [
-                        { 'title':'Demo', 'url' : 'http://porfolio.bonchen.net/', 'new_window' : true },
-                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/', 'new_window' : true}
-                    ],
-                    'tags'          : ['Logo']
-                },
-                {
-                    'title'         : '"MedSkin" the clinic of aesthetic medicine',
-                    'description'   : 'Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
-                    'thumbnail'     : ['img/graphic-design/small/12.jpg', 'img/graphic-design/small/2.jpg', 'img/graphic-design/small/32.jpg'],
-                    'large'         : ['img/graphic-design/large/12.jpg', 'img/graphic-design/large/2.jpg', 'img/graphic-design/large/32.jpg'],
-                    'img_title'     : ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
-                    'button_list'   :
-                    [
-                        { 'title':'Demo', 'url' : 'http://porfolio.bonchen.net/', 'new_window' : true },
-                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/', 'new_window' : true}
-                    ],
-                    'tags'          : ['Printing']
-                },
-                {
-                    'title'         : '"LSR" the real estate Agency',
-                    'description'   : 'Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
-                    'thumbnail'     : ['img/graphic-design/small/13.jpg'],
-                    'large'         : ['img/graphic-design/large/13.jpg'],
-                    'img_title'     : ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
-                    'button_list'   :
-                    [
-                        { 'title':'Demo', 'url' : 'http://porfolio.bonchen.net/', 'new_window' : true },
-                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/', 'new_window' : true}
-                    ],
-                    'tags'          : ['Printing']
-                },
-
-                {
-                    'title'         : '"Carpe Diem" The shop of bed linen.',
-                    'description'   : ' Packing for baby bedding. nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
-                    'thumbnail'     : ['img/graphic-design/small/10.jpg','img/graphic-design/small/34.jpg', 'img/graphic-design/small/30.jpg', 'img/graphic-design/small/26.jpg', 'img/graphic-design/small/31.jpg'],
-                    'large'         : ['img/graphic-design/large/10.jpg','img/graphic-design/large/34.jpg', 'img/graphic-design/large/30.jpg', 'img/graphic-design/large/26.jpg', 'img/graphic-design/large/31.jpg'],
-                    'img_title'     : ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
-                    'button_list'   :
-                    [
-                        { 'title':'Demo', 'url' : 'http://porfolio.bonchen.net/', 'new_window' : true },
-                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/', 'new_window' : true}
-                    ],
-                    'tags'          : ['Printing']
-                },
-
-                {
-                    'title'         : '"Master of comfort" the repair service',
-                    'description'   : 'Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
-                    'thumbnail'     : ['img/graphic-design/small/14.jpg','img/graphic-design/small/20.jpg', 'img/graphic-design/small/21.jpg'],
-                    'large'         : ['img/graphic-design/large/14.jpg','img/graphic-design/large/20.jpg', 'img/graphic-design/large/21.jpg'],
-                    'img_title'     : ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
-                    'button_list'   :
-                    [
-                        { 'title':'Demo', 'url' : 'http://porfolio.bonchen.net/', 'new_window' : true },
-                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/', 'new_window' : true}
-                    ],
-                    'tags'          : ['Printing']
-                },
-
-
-                {
-                    'title'         : '"Institute of creative permanent make up"',
-                    'description'   : 'Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
-                    'thumbnail'     : ['img/graphic-design/small/17.jpg'],
-                    'large'         : ['img/graphic-design/large/17.jpg'],
-                    'img_title'     : ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
-                    'button_list'   :
-                    [
-                        { 'title':'Demo', 'url' : 'http://porfolio.bonchen.net/', 'new_window' : true },
-                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/', 'new_window' : true}
-                    ],
-                    'tags'          : ['Printing']
-                },
-
-                {
-                    'title'         : '"Copygroupp.ru" - the printing center',
-                    'description'   : 'Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
-                    'thumbnail'     : ['img/graphic-design/small/18.jpg','img/graphic-design/small/19.jpg'],
-                    'large'         : ['img/graphic-design/large/18.jpg','img/graphic-design/large/19.jpg'],
-                    'img_title'     : ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
-                    'button_list'   :
-                    [
-                        { 'title':'Demo', 'url' : 'http://porfolio.bonchen.net/', 'new_window' : true },
-                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/', 'new_window' : true}
-                    ],
-                    'tags'          : ['Printing']
-                },
-
-                {
-                    'title'         : '"Tokyo City" the japanise restaurant',
-                    'description'   : 'Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
-                    'thumbnail'     : ['img/graphic-design/small/24.jpg','img/graphic-design/small/15.jpg', 'img/graphic-design/small/11.jpg', 'img/graphic-design/small/10.jpg'],
-                    'large'         : ['img/graphic-design/large/24.jpg','img/graphic-design/large/15.jpg', 'img/graphic-design/large/11.jpg', 'img/graphic-design/large/10.jpg'],
-                    'img_title'     : ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
-                    'button_list'   :
-                    [
-                        { 'title':'Demo', 'url' : 'http://porfolio.bonchen.net/', 'new_window' : true },
-                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/', 'new_window' : true}
-                    ],
-                    'tags'          : ['Printing']
-                },
-
-
-                {
-                    'title'         : '"Copygroupp.ru" - the printing center',
-                    'description'   : 'Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
-                    'thumbnail'     : ['img/graphic-design/small/19.jpg','img/graphic-design/small/18.jpg'],
-                    'large'         : ['img/graphic-design/large/19.jpg','img/graphic-design/large/18.jpg'],
-                    'img_title'     : ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
-                    'button_list'   :
-                    [
-                        { 'title':'Demo', 'url' : 'http://porfolio.bonchen.net/', 'new_window' : true },
-                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/', 'new_window' : true}
-                    ],
-                    'tags'          : ['Printing']
-                },
-
-                {
-                    'title'         : '"Master of comfort" the repair service',
-                    'description'   : 'Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
-                    'thumbnail'     : ['img/graphic-design/small/20.jpg','img/graphic-design/small/21.jpg', 'img/graphic-design/small/14.jpg'],
-                    'large'         : ['img/graphic-design/large/20.jpg','img/graphic-design/large/21.jpg', 'img/graphic-design/large/14.jpg'],
-                    'img_title'     : ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
-                    'button_list'   :
-                    [
-                        { 'title':'Demo', 'url' : 'http://porfolio.bonchen.net/', 'new_window' : true },
-                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/', 'new_window' : true}
-                    ],
-                    'tags'          : ['Printing']
-                },
-
-                {
-                    'title'         : '"Master of comfort" the repair service',
-                    'description'   : 'Swiss chard pumpkin bunya nut s maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
-                    'thumbnail'     : ['img/graphic-design/small/21.jpg','img/graphic-design/small/20.jpg', 'img/graphic-design/small/14.jpg'],
-                    'large'         : ['img/graphic-design/large/21.jpg','img/graphic-design/large/20.jpg', 'img/graphic-design/large/14.jpg'],
-                    'img_title'     : ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
-                    'button_list'   :
-                    [
-                        { 'title':'Demo', 'url' : 'http://porfolio.bonchen.net/', 'new_window' : true },
-                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/', 'new_window' : true}
-                    ],
-                    'tags'          : ['Printing']
-                },
-
-                {
-                    'title'         : 'Сonstruction firm visit card',
-                    'description'   : 'Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
-                    'thumbnail'     : ['img/graphic-design/small/22.jpg','img/graphic-design/small/15.jpg', 'img/graphic-design/small/11.jpg', 'img/graphic-design/small/10.jpg'],
-                    'large'         : ['img/graphic-design/large/22.jpg','img/graphic-design/large/15.jpg', 'img/graphic-design/large/11.jpg', 'img/graphic-design/large/10.jpg'],
-                    'img_title'     : ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
-                    'button_list'   :
-                    [
-                        { 'title':'Demo', 'url' : 'http://porfolio.bonchen.net/', 'new_window' : true },
-                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/', 'new_window' : true}
-                    ],
-                    'tags'          : ['Printing']
-                },
-
-                {
-                    'title'         : '"Con De Mime" the atelier',
-                    'description'   : 'Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
-                    'thumbnail'     : ['img/graphic-design/small/15.jpg','img/graphic-design/small/4.jpg'],
-                    'large'         : ['img/graphic-design/large/15.jpg','img/graphic-design/large/4.jpg'],
-                    'img_title'     : ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
-                    'button_list'   :
-                    [
-                        { 'title':'Demo', 'url' : 'http://porfolio.bonchen.net/', 'new_window' : true },
-                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/', 'new_window' : true}
-                    ],
-                    'tags'          : ['Branding']
-                },
-
-                {
-                    'title'         : '"Coffito" the restaurant of Italian cuisine',
-                    'description'   : 'Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
-                    'thumbnail'     : ['img/graphic-design/small/29.jpg','img/graphic-design/small/15.jpg', 'img/graphic-design/small/11.jpg', 'img/graphic-design/small/10.jpg'],
-                    'large'         : ['img/graphic-design/large/29.jpg','img/graphic-design/large/15.jpg', 'img/graphic-design/large/11.jpg', 'img/graphic-design/large/10.jpg'],
-                    'img_title'     : ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
-                    'button_list'   :
-                    [
-                        { 'title':'Demo', 'url' : 'http://porfolio.bonchen.net/', 'new_window' : true },
-                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/', 'new_window' : true}
-                    ],
-                    'tags'          : ['Branding']
-                },
-
-                {
-                    'title'         : '"Brigantina" the canteen by the river',
-                    'description'   : 'Packing for baby bedding bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
-                    'thumbnail'     : ['img/graphic-design/small/36.jpg','img/graphic-design/small/34.jpg', 'img/graphic-design/small/30.jpg', 'img/graphic-design/small/28.jpg', 'img/graphic-design/small/10.jpg'],
-                    'large'         : ['img/graphic-design/large/36.jpg','img/graphic-design/large/34.jpg', 'img/graphic-design/large/30.jpg', 'img/graphic-design/large/28.jpg', 'img/graphic-design/small/10.jpg'],
-                    'img_title'     : ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
-                    'button_list'   :
-                    [
-                        { 'title':'Demo', 'url' : 'http://porfolio.bonchen.net/', 'new_window' : true },
-                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/', 'new_window' : true}
-                    ],
-                    'tags'          : ['Branding']
-                },
-
-                {
-                    'title'         : '"Carpe Diem" The shop of bed linen',
-                    'description'   : 'Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
-                    'thumbnail'     : ['img/graphic-design/small/26.jpg','img/graphic-design/small/34.jpg', 'img/graphic-design/small/30.jpg', 'img/graphic-design/small/28.jpg', 'img/graphic-design/small/10.jpg'],
-                    'large'         : ['img/graphic-design/large/26.jpg','img/graphic-design/large/34.jpg', 'img/graphic-design/large/30.jpg', 'img/graphic-design/large/28.jpg', 'img/graphic-design/small/10.jpg'],
-                    'img_title'     : ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
-                    'button_list'   :
-                    [
-                        { 'title':'Demo', 'url' : 'http://porfolio.bonchen.net/', 'new_window' : true },
-                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/', 'new_window' : true}
-                    ],
-                    'tags'          : ['Logo']
-                },
-
-                {
-                    'title'         : '"Carpe Diem" The shop of bed linen. ',
-                    'description'   : 'Bed linen packaging bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
-                    'thumbnail'     : ['img/graphic-design/small/30.jpg','img/graphic-design/small/34.jpg', 'img/graphic-design/small/10.jpg', 'img/graphic-design/small/31.jpg'],
-                    'large'         : ['img/graphic-design/large/30.jpg','img/graphic-design/large/34.jpg', 'img/graphic-design/large/10.jpg', 'img/graphic-design/small/31.jpg'],
-                    'img_title'     : ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
-                    'button_list'   :
-                    [
-                        { 'title':'Demo', 'url' : 'http://porfolio.bonchen.net/', 'new_window' : true },
-                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/', 'new_window' : true}
-                    ],
-                    'tags'          : ['Printing']
-                },
-
-                {
-                    'title'         : '"Carpe Diem" The shop of bed linen',
-                    'description'   : 'Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
-                    'thumbnail'     : ['img/graphic-design/small/31.jpg','img/graphic-design/small/34.jpg', 'img/graphic-design/small/30.jpg', 'img/graphic-design/small/10.jpg'],
-                    'large'         : ['img/graphic-design/large/31.jpg','img/graphic-design/large/34.jpg', 'img/graphic-design/large/30.jpg', 'img/graphic-design/small/10.jpg'],
-                    'img_title'     : ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
-                    'button_list'   :
-                    [
-                        { 'title':'Demo', 'url' : 'http://porfolio.bonchen.net/', 'new_window' : true },
-                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/', 'new_window' : true}
-                    ],
-                    'tags'          : ['Printing']
-                },
-
-                {
-                    'title'         : '"MedSkin" the clinic of aesthetic medicine',
-                    'description'   : 'Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
-                    'thumbnail'     : ['img/graphic-design/small/32.jpg','img/graphic-design/small/34.jpg', 'img/graphic-design/small/30.jpg', 'img/graphic-design/small/28.jpg', 'img/graphic-design/small/10.jpg'],
-                    'large'         : ['img/graphic-design/large/32.jpg','img/graphic-design/large/34.jpg', 'img/graphic-design/large/30.jpg', 'img/graphic-design/large/28.jpg', 'img/graphic-design/small/10.jpg'],
-                    'img_title'     : ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
-                    'button_list'   :
-                    [
-                        { 'title':'Demo', 'url' : 'http://porfolio.bonchen.net/', 'new_window' : true },
-                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/', 'new_window' : true}
-                    ],
-                    'tags'          : ['Printing']
-                },
-
-
-                {
-                    'title'         : '"Photomanipulation"',
-                    'description'   : 'Packing for baby bedding bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
-                    'thumbnail'     : ['img/graphic-design/small/41.jpg','img/graphic-design/small/34.jpg', 'img/graphic-design/small/30.jpg', 'img/graphic-design/small/28.jpg', 'img/graphic-design/small/10.jpg'],
-                    'large'         : ['img/graphic-design/large/41.jpg','img/graphic-design/large/34.jpg', 'img/graphic-design/large/30.jpg', 'img/graphic-design/large/28.jpg', 'img/graphic-design/small/10.jpg'],
-                    'img_title'     : ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
-                    'button_list'   :
-                    [
-                        { 'title':'Demo', 'url' : 'http://porfolio.bonchen.net/', 'new_window' : true },
-                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/', 'new_window' : true}
-                    ],
-                    'tags'          : ['Photomanipulation']
-                },
-
-                {
-                    'title'         : '"Photomanipulation"',
-                    'description'   : 'Packing for baby bedding bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
-                    'thumbnail'     : ['img/graphic-design/small/38.jpg','img/graphic-design/small/34.jpg', 'img/graphic-design/small/30.jpg', 'img/graphic-design/small/28.jpg', 'img/graphic-design/small/10.jpg'],
-                    'large'         : ['img/graphic-design/large/38.jpg','img/graphic-design/large/34.jpg', 'img/graphic-design/large/30.jpg', 'img/graphic-design/large/28.jpg', 'img/graphic-design/small/10.jpg'],
-                    'img_title'     : ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
-                    'button_list'   :
-                    [
-                        { 'title':'Demo', 'url' : 'http://porfolio.bonchen.net/', 'new_window' : true },
-                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/', 'new_window' : true}
-                    ],
-                    'tags'          : ['Photomanipulation']
-                },
-
-                {
-                    'title'         : '"Photomanipulation"',
-                    'description'   : 'Packing for baby bedding bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
-                    'thumbnail'     : ['img/graphic-design/small/40.jpg','img/graphic-design/small/34.jpg', 'img/graphic-design/small/30.jpg', 'img/graphic-design/small/28.jpg', 'img/graphic-design/small/10.jpg'],
-                    'large'         : ['img/graphic-design/large/40.jpg','img/graphic-design/large/34.jpg', 'img/graphic-design/large/30.jpg', 'img/graphic-design/large/28.jpg', 'img/graphic-design/small/10.jpg'],
-                    'img_title'     : ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
-                    'button_list'   :
-                    [
-                        { 'title':'Demo', 'url' : 'http://porfolio.bonchen.net/', 'new_window' : true },
-                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/', 'new_window' : true}
-                    ],
-                    'tags'          : ['Photomanipulation']
-                },
-
-                {
-                    'title'         : '"Photomanipulation"',
-                    'description'   : 'Packing for baby bedding bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
-                    'thumbnail'     : ['img/graphic-design/small/40.jpg','img/graphic-design/small/35.jpg', 'img/graphic-design/small/30.jpg', 'img/graphic-design/small/28.jpg', 'img/graphic-design/small/10.jpg'],
-                    'large'         : ['img/graphic-design/large/40.jpg','img/graphic-design/large/35.jpg', 'img/graphic-design/large/30.jpg', 'img/graphic-design/large/28.jpg', 'img/graphic-design/small/10.jpg'],
-                    'img_title'     : ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
-                    'button_list'   :
-                    [
-                        { 'title':'Demo', 'url' : 'http://porfolio.bonchen.net/', 'new_window' : true },
-                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/', 'new_window' : true}
-                    ],
-                    'tags'          : ['Photomanipulation']
-                },
-
-                {
-                    'title'         : '"Photomanipulation"',
-                    'description'   : 'Packing for baby bedding bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
-                    'thumbnail'     : ['img/graphic-design/small/27.jpg','img/graphic-design/small/34.jpg', 'img/graphic-design/small/30.jpg', 'img/graphic-design/small/28.jpg', 'img/graphic-design/small/10.jpg'],
-                    'large'         : ['img/graphic-design/large/27.jpg','img/graphic-design/large/34.jpg', 'img/graphic-design/large/30.jpg', 'img/graphic-design/large/28.jpg', 'img/graphic-design/small/10.jpg'],
-                    'img_title'     : ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
-                    'button_list'   :
-                    [
-                        { 'title':'Demo', 'url' : 'http://porfolio.bonchen.net/', 'new_window' : true },
-                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/', 'new_window' : true}
-                    ],
-                    'tags'          : ['Photomanipulation']
-                },
-
-                {
-                    'title'         : '"Photomanipulation"',
-                    'description'   : 'Packing for baby bedding bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
-                    'thumbnail'     : ['img/graphic-design/small/35.jpg','img/graphic-design/small/34.jpg', 'img/graphic-design/small/30.jpg', 'img/graphic-design/small/28.jpg', 'img/graphic-design/small/10.jpg'],
-                    'large'         : ['img/graphic-design/large/35.jpg','img/graphic-design/large/34.jpg', 'img/graphic-design/large/30.jpg', 'img/graphic-design/large/28.jpg', 'img/graphic-design/small/10.jpg'],
-                    'img_title'     : ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
-                    'button_list'   :
-                    [
-                        { 'title':'Demo', 'url' : 'http://porfolio.bonchen.net/', 'new_window' : true },
-                        { 'title':'Download', 'url':'http://porfolio.bonchen.net/', 'new_window' : true}
-                    ],
-                    'tags'          : ['Photomanipulation']
-                }
-
-
-
-            ]
-        });
-    });
-</script>
 </body>
 </html>
