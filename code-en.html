@@ -4,182 +4,106 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Code, Portfolio">
+    <meta name="author" content="Alisa Filatova | alicedesign.ru">
 
     <title>Alice Design Portfolio</title>
 
-    <meta name="description" content="Code, Portfolio">
+    <link href="css/preload.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/elastic_grid.css">
-    <link rel="stylesheet" type="text/css" href="css/code-gallery.css">
+    <link rel="stylesheet" type="text/css" href="css/web-gallery.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
 </head>
 <body>
+    <div id="loader" class="overlay-loader">
+        <div class="loader-background color-flip"></div>
+        <img
+            class="loader-icon spinning-cog"
+            src="img/cog.svg"
+            data-cog="cog"
+            alt="Loading"
+        >
+    </div>
     <header class="header">
         <nav class="main-nav">
             <div class="main-nav__wrapper">
 
-                <h1 class="main-nav__title">
-                    <a href="index.html#portfolio">
-                        <svg
-                            class="arrow"
-                            id="arrow"
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 56.5 39.8"
-                            width="40"
-                            height="20"
-                        >
-                            <style>.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#506085}</style>
-                                <path
-                                    id="back"
-                                    class="st0"
-                                    d="M20.1.6h11.2L16.5 15.4h39v8.8h-39L31.3 39H20.1L.9 19.8z"
-                                ></path>
-                        </svg>
-                    </a>
-                    <i class="main-nav__icon"></i>
-                    My Coding
-                </h1>
-
-
-                <a href="index.html#">
+                <a class="arrow" href="index.html#portfolio">
                     <img
-                        class="logo header__logo"
-                        src="img/logo-inner.svg"
-                        width="340"
-                        height="80"
+                        class="arrow__back"
+                        src="img/arrow-main.svg"
+                        alt="back to portfolio"
+                        width="25"
+                        height="35"
+                    >
+                </a>
+
+                <a class="logo" href="index.html#">
+                    <img
+                        class="header__logo"
+                        src="img/logo.svg"
                         alt="Alice Design"
                     >
                 </a>
 
+                <i class="main-nav__icon"></i>
+
             </div>
         </nav>
     </header>
-<div id="elastic_grid_demo"></div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="js/modernizr.custom.js"></script>
-<script src="js/classie.js"></script>
-<!--- uncompress-->
+    <div id="elastic_grid_demo"></div>
 
-<script type="text/javascript" src="js/jquery.elastislide.js"></script>
-<script type="text/javascript" src="js/jquery.hoverdir.js"></script>
-<script type="text/javascript" src="js/elastic_grid.js"></script>
+    <footer class="footer" id="contacts">
 
-<!-- compress version
-<script type="text/javascript" src="js/elastic_grid.min.js"></script>
--->
-<script type="text/javascript">
-    $(function(){
-        $("#elastic_grid_demo").elastic_grid({
-            'showAllText' : 'All',
-            'filterEffect': 'scaleup', // moveup, scaleup, fallperspective, fly, flip, helix , popup
-            'hoverDirection': true,
-            'hoverDelay': 0,
-            'hoverInverse': false,
-            'expandingSpeed': 500,
-            'expandingHeight': 500,
-            'items' :
-            [
+        <ul class="contacts footer__contacts">
+            <li class="contacts__link">
+                <a
+                    class="contacts__link contacts__link_mail"
+                    href="mailto:alicefill@bk.ru"
+                >
+                </a>
+            </li>
+            <li class="contacts__link">
+                <a
+                    class="contacts__link contacts__link_vk"
+                    href="https://vk.com/alisafill"
+                >
+                </a>
+            </li>
+            <li class="contacts__link">
+                <a
+                    class="contacts__link contacts__link_github"
+                    href="https://github.com/Alisa-Filatova"
+                >
+                </a>
+            </li>
+            <li class="contacts__link">
+                <a
+                    class="contacts__link contacts__link_deviant"
+                    href="http://marrylie.deviantart.com"
+                >
+                </a>
+            </li>
+            <li class="contacts__link">
+                <a
+                    class="contacts__link contacts__link_linkedin"
+                    href="https://www.linkedin.com/in/alisa-filatova-64209a139/"
+                >
+                </a>
+            </li>
+        </ul>
+        <span class="footer__copyright">&#169; 2017 Alisa Filatova</span>
+    </footer>
 
-                {
-                    'title'         : 'Goroshkodance.ru',
-                    'description'   : 'Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
-                    'thumbnail'     : ['img/code-gallery/small/goroshko-dance.jpg'],
-                    'large'         : ['img/code-gallery/large/goroshko-dance.jpg'],
-                    'img_title'     : ['jquery elastic grid 6 '],
-                    'button_list'   :
-                    [
-                        { 'title':'Watch website', 'url' : 'http://goroshkodance.ru/', 'new_window' : true },
-                        { 'title':'Source code', 'url':'https://github.com/Alisa-Filatova/Goroshko-dance', 'new_window' : true}
-                    ],
-                    'tags'          : ['Responsive']
-                },
-                {
-                    'title'         : 'Lenortat.spb.ru',
-                    'description'   : 'Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
-                    'thumbnail'     : ['img/code-gallery/small/lenor-tat.jpg'],
-                    'large'         : ['img/code-gallery/large/lenor-tat.jpg'],
-                    'img_title'     : ['jquery elastic grid'],
-                    'button_list'   :
-                    [
-                        { 'title':'Watch website', 'url' : 'http://lenortat.spb.ru/', 'new_window' : true },
-                        { 'title':'Source code', 'url':'https://github.com/Alisa-Filatova/Lenor-tat', 'new_window' : true}
-                    ],
-                    'tags'          : ['Responsive']
-                },
-                {
-                    'title'         : 'Natalia-photo.com',
-                    'description'   : 'Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
-                    'thumbnail'     : ['img/code-gallery/small/natalia-photo.jpg'],
-                    'large'         : ['img/code-gallery/large/natalia-photo.jpg'],
-                    'img_title'     : ['jquery elastic grid'],
-                    'button_list'   :
-                    [
-                        { 'title':'Watch website', 'url' : 'http://natalia-photo.com/', 'new_window' : true },
-                        { 'title':'Source code', 'url':'https://github.com/Alisa-Filatova/Natalia-photography', 'new_window' : true}
-                    ],
-                    'tags'          : ['Responsive']
-                },
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/preload.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/jquery.elastislide.js"></script>
+    <script src="js/jquery.hoverdir.js"></script>
+    <script src="js/elastic_grid.js"></script>
+    <script src="js/code.js"></script>
 
-                {
-                    'title'         : 'Sedona',
-                    'description'   : 'Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
-                    'thumbnail'     : ['img/code-gallery/small/sedona.jpg'],
-                    'large'         : ['img/code-gallery/large/sedona.jpg'],
-                    'img_title'     : ['jquery elastic grid'],
-                    'button_list'   :
-                    [
-                        { 'title':'Watch website', 'url' : 'http://porfolio.bonchen.net/', 'new_window' : true },
-                        { 'title':'Source code', 'url':'https://github.com/Alisa-Filatova/sedona', 'new_window' : true}
-                    ],
-                    'tags'          : ['Responsive']
-                },
-
-                {
-                    'title'         : 'Pink',
-                    'description'   : 'Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
-                    'thumbnail'     : ['img/code-gallery/small/pink.jpg'],
-                    'large'         : ['img/code-gallery/large/pink.jpg'],
-                    'img_title'     : ['jquery elastic grid 1 '],
-                    'button_list'   :
-                    [
-                        { 'title':'Watch website', 'url' : 'http://porfolio.bonchen.net/', 'new_window' : true },
-                        { 'title':'Source code', 'url':'https://github.com/Alisa-Filatova/Pink', 'new_window' : false}
-                    ],
-                    'tags'          : ['Responsive']
-                },
-
-                {
-                    'title'         : 'Technomart',
-                    'description'   : 'Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
-                    'thumbnail'     : ['img/code-gallery/small/technomart.jpg'],
-                    'large'         : ['img/code-gallery/large/technomart.jpg'],
-                    'img_title'     : ['jquery elastic grid'],
-                    'button_list'   :
-                    [
-                        { 'title':'Watch website', 'url' : 'http://porfolio.bonchen.net/', 'new_window' : true },
-                        { 'title':'Source code', 'url':'https://github.com/Alisa-Filatova/technomart', 'new_window' : true}
-                    ],
-                    'tags'          : ['Fixed']
-                },
-
-                {
-                    'title'         : 'Nerds',
-                    'description'   : 'Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
-                    'thumbnail'     : ['img/code-gallery/small/nerds.jpg'],
-                    'large'         : ['img/code-gallery/large/nerds.jpg'],
-                    'img_title'     : [ 'jquery elastic grid'],
-                    'button_list'   :
-                    [
-                        { 'title':'Demo', 'url' : 'http://porfolio.bonchen.net/', 'new_window' : true },
-                        { 'title':'Download', 'url':'https://github.com/Alisa-Filatova/nerds', 'new_window' : true}
-                    ],
-                    'tags'          : ['Fixed']
-                }
-
-
-
-            ]
-        });
-    });
-</script>
 </body>
 </html>

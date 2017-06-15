@@ -38,13 +38,13 @@ body {
 
 @media (min-width: 1441px) {
     .logo {
-        margin-top: 4%;
+        margin-top: 60px;
     }
 }
 
 @media (max-width: 500px) {
     .logo {
-        margin-top: 2%;
+        margin-top: 10px;
     }
 }
 
@@ -151,6 +151,7 @@ body {
     opacity: 0.9;
     transition: all 0.1s linear;
     cursor: pointer;
+    margin-top: 7px;
 }
 .contacts__link:hover {
     opacity: 1;

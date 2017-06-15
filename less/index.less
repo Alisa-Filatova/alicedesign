@@ -300,8 +300,6 @@
     position: absolute;
     bottom: 3%;
     left: 50%;
-    background: url('../img/arrow-main.svg') no-repeat center;
-    background-size: contain;
     width: 30px;
     height: 70px;
     opacity: 0.6;
@@ -318,7 +316,11 @@
 .portfolio {
     .container();
     background: url('../img/portfolio-background.svg') no-repeat top center,
-                linear-gradient(to bottom, rgba(153, 206, 255, 0.5) 15%, transparent 31%);
+                linear-gradient(to bottom, rgba(153, 206, 255, 0.5) 15%, @beige 31%);
+    background: url('../img/portfolio-background.svg') no-repeat top center,
+                -webkit-linear-gradient(top, rgba(153, 206, 255, 0.5) 15%, @beige 31%);
+    background: url('../img/portfolio-background.svg') no-repeat top center,
+                -moz-linear-gradient(top, rgba(153, 206, 255, 0.5) 15%, @beige 31%);
     background-size: 100%;
     padding-top: 130px;
     padding-bottom: 91px;
@@ -405,7 +407,7 @@
 
     &__btn {
         position: absolute;
-        bottom: 0;
+        bottom: -1px;
         left: 0;
         border: none;
         text-transform: uppercase;
@@ -443,7 +445,7 @@
         position: absolute;
         top: -1px; /* fixes rendering issue in FF */
         z-index: 10;
-        width: 100%;
+        width: 101%;
         height: 100%;
     }
 
@@ -491,17 +493,16 @@
     background-size: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
     padding: 0 40px 410px;
 
     &__title {
         font-size: 38px;
         font-weight: 400;
-        margin: 0;
-        padding-top: 95px;
-        padding-left: 115px;
+        margin: 95px 0 0 115px;
 
         &_rus {
-            padding-left: 118px;
+            margin-left: 118px;
         }
     }
 
@@ -528,8 +529,6 @@
     }
 
     &__note {
-        //background: url('../img/note.svg') no-repeat center;
-        //background-size: contain;
         width: 523px;
         height: 653px;
         position: relative;
@@ -542,10 +541,10 @@
         width: 312px;
         height: 500px;
         background: url("../img/light.svg") no-repeat top center;
-        background-size: 104%;
+        background-size: 106%;
         position: absolute;
         top: 177px;
-        left: 561px;
+        left: 563px;
         animation-name: fade-out;
         animation-duration: 3s;
         animation-timing-function: ease-in-out;

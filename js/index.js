@@ -24,3 +24,24 @@
     init();
 
 })();
+
+
+function scrollToAnchor(event) {
+    event.preventDefault();
+
+    var scrollTop = 0;
+    var documentHight = $(document).height();
+    var windowHeight = $(window).height();
+
+    if($(this.hash).offset().top > documentHight - windowHeight) {
+        scrollTop = documentHight - windowHeight;
+    } else {
+        scrollTop = $(this.hash).offset().top;
+    }
+
+    $('html, body').animate({ scrollTop: scrollTop }, 700, 'swing');
+}
+
+$('.main-nav__link').on('click', scrollToAnchor);
+
+$('.arrow').on('click', scrollToAnchor);
