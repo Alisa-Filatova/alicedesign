@@ -28,10 +28,10 @@ body {
 }
 @media (min-width: 1441px) {
   body {
-    background: url('../img/main-back.svg') no-repeat top center, linear-gradient(to bottom, rgba(102, 255, 255, 0.8) 3%, #f4ece0 16%);
     background: url('../img/main-back.svg') no-repeat top center, -webkit-linear-gradient(top, rgba(102, 255, 255, 0.8) 3%, #f4ece0 16%);
-    background: url('../img/main-back.svg') no-repeat top center, -moz-linear-gradient(top, rgba(102, 255, 255, 0.8) 3%, #f4ece0 16%);
-    background-size: cover;
+    background: url('../img/main-back.svg') no-repeat top center, linear-gradient(to bottom, rgba(102, 255, 255, 0.8) 3%, #f4ece0 16%);
+    background: url('../img/main-back-moz.svg') no-repeat top center, -moz-linear-gradient(top, rgba(102, 255, 255, 0.8) 3%, #f4ece0 16%);
+    background-size: 100%;
   }
 }
 @-webkit-keyframes fade-out {
@@ -230,14 +230,14 @@ body {
   background-image: url('../img/gear1.svg');
   width: 60px;
   height: 60px;
-  top: 411px;
+  top: 414px;
   right: 276px;
 }
 .tree-element__gear_two {
   background-image: url('../img/gear2.svg');
   width: 42px;
   height: 42px;
-  top: 407px;
+  top: 405px;
   right: 342px;
   animation-duration: 6s;
   animation-direction: reverse;
@@ -246,7 +246,7 @@ body {
   background-image: url('../img/gear3.svg');
   width: 50px;
   height: 50px;
-  top: 328px;
+  top: 332px;
   right: 343px;
   animation-duration: 4s;
 }
@@ -254,7 +254,7 @@ body {
   background-image: url('../img/gear4.svg');
   width: 42px;
   height: 42px;
-  top: 344px;
+  top: 348px;
   right: 249px;
   animation-direction: reverse;
   animation-duration: 6.2s;
