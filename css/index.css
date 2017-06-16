@@ -183,9 +183,9 @@ body {
   margin: auto;
   padding: 0 40px;
   background: url('../img/main-background.svg') no-repeat scroll center bottom, url('../img/clouds.svg') no-repeat fixed top center;
-  background-size: 100%, 1440px;
+  background-size: 1441px, 1440px;
   text-align: center;
-  padding-bottom: 712px;
+  padding-bottom: 716px;
   position: relative;
 }
 .header__logo {
@@ -193,6 +193,11 @@ body {
   bottom: 331px;
   left: 517px;
   animation: fade-in 2s ease-in-out;
+}
+@media (max-width: 375px) {
+  .header {
+    padding-bottom: 718px;
+  }
 }
 .tree-element {
   position: absolute;
@@ -784,6 +789,7 @@ body {
 }
 .footer__logo {
   transition: all 0.2s linear;
+  margin-bottom: 20px;
 }
 .footer__logo:hover {
   transform: scale(1.1);

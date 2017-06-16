@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Alice Design Иллюстрации</title>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Алиса Филатова - веб дизайнер, верстальщик, цифровой иллюстратор">
 	<meta name="author" content="Alisa Filatova | alicedesign.ru">
+
+	<title>Alice Design - Illustrations</title>
 
 	<link href="css/preload.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/normalize.css">
@@ -14,14 +16,17 @@
 
 </head>
 <body class="illustrations">
-	<div id="loader" class="overlay-loader">
+	<div id="loader" class="loader overlay-loader">
 		<div class="loader-background color-flip"></div>
-		<img
-			class="loader-icon spinning-cog"
-			src="img/cog.svg"
-			data-cog="cog"
-			alt="Loading"
-		>
+		<div class="loader__wrapper">
+			<img
+				class="loader-icon spinning-cog"
+				src="img/cog.svg"
+				data-cog="cog"
+				alt="Loading"
+			>
+			<p class="loader__text">Loading...</p>
+		</div>
 	</div>
 	<header class="header">
 		<nav class="main-nav">
@@ -186,6 +191,11 @@
 			<img
 				src="img/illustrations/small/38.jpg"
 				data-full="img/illustrations/large/38.jpg"
+				class="gallery__thumbs-img"
+			>
+			<img
+				src="img/illustrations/small/39.jpg"
+				data-full="img/illustrations/large/39.jpg"
 				class="gallery__thumbs-img"
 			>
 

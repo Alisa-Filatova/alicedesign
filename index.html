@@ -17,14 +17,17 @@
     <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 <body>
-    <div id="loader" class="overlay-loader">
+    <div id="loader" class=" loader overlay-loader">
         <div class="loader-background color-flip"></div>
-        <img
-            class="loader-icon spinning-cog"
-            src="img/cog.svg"
-            data-cog="cog"
-            alt="Loading"
-        >
+        <div class="loader__wrapper">
+            <img
+                class="loader-icon spinning-cog"
+                src="img/cog.svg"
+                data-cog="cog"
+                alt="Loading"
+            >
+            <p class="loader__text">Загрузка...</p>
+        </div>
     </div>
     <header class="header">
         <nav class="main-nav">
@@ -119,7 +122,6 @@
                 height="70"
             >
         </a>
-
 
     </header>
 
@@ -258,8 +260,7 @@
                 <p class="about-me__text">
                     Меня зовут Алиса. Я - графический и веб дизайнер,
                     верстальщик и цифровой иллюстратор.
-                    Обожаю процесс создания дизайн-макетов,
-                    верстки сайтов и иллюстраций.
+                    Я обожаю процесс создания дизайна и верстки сайтов.
                 </p>
                 <p class="about-me__text">
                     Я самоучка в графическом и веб дизайне.
@@ -271,14 +272,16 @@
                 <p class="about-me__text">
                     Вёрсткой сайтов занимаюсь не так давно,
                     но уже успела сильно полюбить это занятие.
-                    Закончила курсы в HTML Academy,  желая
+                    Закончила курсы в «HTML Academy», желая
                     больше узнать о веб среде, и сама не заметила,
                     как меня затянул этот процесс.
                 </p>
                 <p class="about-me__text">
-                    Верстаю адаптивно, кроссбраузерно, семантично, по БЭМу
-                    и максимально близко к макету. Умею LESS,
-                    email-рассылки, немного знаю JQuery, Bootstrap. Буду рада интересному проекту.
+                    Верстаю адаптивно, кроссбраузерно, по БЭМу
+                    и максимально близко к макету. Использую LESS,
+                    немного знаю JQuery (на уровне работы с плагинами),
+                    в дальнейшем хочу изучить его более детально.
+                    Буду рада интересному проекту.
                 </p>
             </div>
         </div>

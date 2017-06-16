@@ -7,8 +7,31 @@
     z-index: 1000;
 }
 
+.loader__text {
+    z-index: 1000;
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    margin: 74px 0 0 -97px;
+    font-size: 40px;
+    color: #FFF;
+    letter-spacing: 10px;
+    animation: fade-out 0.4s infinite linear;
+    -webkit-animation: fade-out 1s infinite linear;
+    animation-direction: alternate-reverse;
+    text-align: center;
+    font-family: 'Neucha', 'Comic Sans', sans-serif;
+}
+
+.loader__wrapper {
+    z-index: 1000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
 .overlay-loader .loader-background {
     position: absolute;
+    width: 100%;
     top: 0;
     right: 0;
     bottom: 0;
@@ -28,6 +51,27 @@
     -o-animation: color-flip 6.5s .6s infinite linear;
     animation: color-flip 6.5s .6s infinite linear;
 }
+
+@-webkit-keyframes fade-out {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.3;
+    }
+}
+
+@keyframes fade-out {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.3;
+    }
+}
+
 
 @-webkit-keyframes color-flip {
     0% { background-color: #506085 }

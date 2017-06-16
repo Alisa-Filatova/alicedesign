@@ -8,9 +8,9 @@
     .container();
     background: url('../img/main-background.svg') no-repeat scroll center bottom,
                 url('../img/clouds.svg') no-repeat fixed top center;
-    background-size: 100%, 1440px;
+    background-size: 1441px, 1440px;
     text-align: center;
-    padding-bottom: 712px;
+    padding-bottom: 716px;
     position: relative;
 
     &__logo {
@@ -18,6 +18,10 @@
         bottom: 331px;
         left: 517px;
         animation: fade-in 2s ease-in-out;
+    }
+
+    @media (max-width: 375px) {
+        padding-bottom: 718px;
     }
 }
 
@@ -692,6 +696,7 @@
 
     &__logo {
         transition: @transition_base;
+        margin-bottom: 20px;
 
         &:hover {
             transform: scale(1.1);

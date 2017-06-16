@@ -15,14 +15,17 @@
     <link rel="icon" type="image/png" href="img/favicon.png">
 </head>
 <body>
-    <div id="loader" class="overlay-loader">
+    <div id="loader" class="loader overlay-loader">
         <div class="loader-background color-flip"></div>
-        <img
-            class="loader-icon spinning-cog"
-            src="img/cog.svg"
-            data-cog="cog"
-            alt="Loading"
-        >
+        <div class="loader__wrapper">
+            <img
+                class="loader-icon spinning-cog"
+                src="img/cog.svg"
+                data-cog="cog"
+                alt="Loading"
+            >
+            <p class="loader__text">Loading...</p>
+        </div>
     </div>
     <header class="header">
         <nav class="main-nav">
