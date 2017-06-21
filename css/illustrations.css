@@ -11,7 +11,7 @@ html {
 
 body {
     position: relative;
-    font-family:  'Avenir Next', Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
+    font-family:  'Avenir Next', Avenir, 'Helvetica Neue', 'Lato', Helvetica, Arial, sans-serif;
     font-size: 1.2em;
     font-weight: 400;
     line-height: 1.65em;
@@ -21,9 +21,15 @@ body {
     margin: 0 auto;
     overflow-y: scroll;
     overflow-x: hidden;
-    background: url('../img/gallery-back.svg') repeat top center, #eff;
+    background: url('../img/gallery-back-moz.svg') repeat top center, #eff;
     background-size: cover;
 
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .header {
@@ -57,8 +63,9 @@ body {
 
 .main-nav {
     margin: auto;
-    max-width: 1440px;
+    max-width: 1163px;
 }
+
 .main-nav__link {
     display: inline-block;
     text-decoration: none;
@@ -187,8 +194,6 @@ body {
 .contacts__link_linkedin {
     background-image: url('../img/linkdin.svg');
 }
-
-
 .footer {
     margin: auto;
     padding: 0 40px;

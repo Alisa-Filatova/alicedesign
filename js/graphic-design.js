@@ -269,6 +269,29 @@ $(function() {
             },
 
             {
+                title: '«Natalia Biriouk - фотограф»',
+                description: [
+                    'Логотип для сайта-портфолио свадебного и семейного фотографа - Наталии Бирюк. '
+                ].join(' '),
+                thumbnail: ['img/graphic-design/small/37.jpg', 'img/code-gallery/small/natalia-photo.jpg'],
+                large: ['img/graphic-design/large/37.jpg', 'img/code-gallery/large/natalia-photo.jpg'],
+                img_title: ['jquery elastic grid'],
+                button_list: [
+                    {
+                        title: '',
+                        url: '',
+                        new_window: true
+                    },
+                    {
+                        title: '',
+                        url: '',
+                        new_window: true
+                    }
+                ],
+                tags: ['Логотип']
+            },
+
+            {
                 title : '«Единый центр докуметов»',
                 description: [
                     'Заказы для Единого центра документов я выполняла, работая в «Едином полиграфическом центре», который был ',
@@ -406,8 +429,8 @@ $(function() {
             {
                 title : 'Корпоративная визитка',
                 description: 'Дизайн для корпоративной визитки сотрудника.',
-                thumbnail: ['img/graphic-design/small/13.jpg','img/graphic-design/small/33.jpg', 'img/graphic-design/small/45.jpg', 'img/graphic-design/small/12.jpg' ],
-                large: ['img/graphic-design/large/13.jpg', 'img/graphic-design/large/33.jpg', 'img/graphic-design/large/45.jpg', 'img/graphic-design/large/12.jpg'],
+                thumbnail: ['img/graphic-design/small/13.jpg','img/graphic-design/small/33.jpg', 'img/graphic-design/small/23.jpg', 'img/graphic-design/small/12.jpg' ],
+                large: ['img/graphic-design/large/13.jpg', 'img/graphic-design/large/33.jpg', 'img/graphic-design/large/23.jpg', 'img/graphic-design/large/12.jpg'],
                 img_title: ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
                 button_list: [
                     {
@@ -467,6 +490,29 @@ $(function() {
                     }
                 ],
                 tags: ['Полиграфия']
+            },
+
+            {
+                title: '«Lenor Tat»',
+                description: [
+                    'Логотип для имидж студии Таты Куриной и Татьяны Ленорман.'
+                ].join(' '),
+                thumbnail: ['img/graphic-design/small/50.jpg', 'img/code-gallery/small/lenor-tat.jpg', 'img/graphic-design/small/51.jpg' ],
+                large: ['img/graphic-design/large/50.jpg', 'img/code-gallery/large/lenor-tat.jpg', 'img/graphic-design/large/51.jpg'],
+                img_title: ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
+                button_list: [
+                    {
+                        title: '',
+                        url: '',
+                        new_window: true
+                    },
+                    {
+                        title: '',
+                        url: '',
+                        new_window: true
+                    }
+                ],
+                tags: ['Логотип']
             },
 
             {
@@ -781,82 +827,6 @@ $(function() {
             },
 
             {
-                title: '«Carpe Diem» - магазин постельного белья',
-                description: [
-                    'Магазин заказал у меня дизайн упаковок для постельного белья (детского и взрослого) и ',
-                    'вкладыши с описанием наполнения и состава продукции. В процессе работы я предложила компании редизайн логотипа, ',
-                    'так как их прежний был очень бледным и плохо читаемым (что видно на детских упаковках). Новый решено было делать ярким и с более простым начертанием.'
-                ].join(' '),
-                thumbnail: [
-                    'img/graphic-design/small/31.jpg',
-                    'img/graphic-design/small/34.jpg',
-                    'img/graphic-design/small/30.jpg',
-                    'img/graphic-design/small/10.jpg'
-                ],
-                large: [
-                    'img/graphic-design/large/31.jpg',
-                    'img/graphic-design/large/34.jpg',
-                    'img/graphic-design/large/30.jpg',
-                    'img/graphic-design/small/10.jpg'
-                ],
-                img_title: [
-                    'jquery elastic grid',
-                    'jquery elastic grid',
-                    'jquery elastic grid',
-                    'jquery elastic grid'
-                ],
-                button_list: [
-                    {
-                        title: '',
-                        url: '',
-                        new_window: true
-                    },
-                    {
-                        title: '',
-                        url: '',
-                        new_window: true
-                    }
-                ],
-                tags: ['Полиграфия']
-            },
-
-            {
-                title: '«MedSkin» клиника эстетической косметологии',
-                description: [
-                    'Для клиники «МедСкин» я разработала фирменный стиль в нежных тонах, подчеркивающий женственность и ухоженность ',
-                    'основной целевой аудитории. Так же я дала рекомендации по выбору бумаги и особую ламинацию «Touch cover», которая ',
-                    'на ощупь такая же приятная как бархат, что соответствует основному направлению клиники - уход за кожей.'
-                ].join(' '),
-                thumbnail: [
-                    'img/graphic-design/small/32.jpg',
-                    'img/graphic-design/small/2.jpg',
-                    'img/graphic-design/small/12.jpg'
-                ],
-                large: [
-                    'img/graphic-design/large/32.jpg',
-                    'img/graphic-design/large/2.jpg',
-                    'img/graphic-design/large/12.jpg'
-                ],
-                img_title: [
-                    'jquery elastic grid',
-                    'jquery elastic grid',
-                    'jquery elastic grid'
-                ],
-                button_list: [
-                    {
-                        title: '',
-                        url: '',
-                        new_window: true
-                    },
-                    {
-                        title: '',
-                        url: '',
-                        new_window: true
-                    }
-                ],
-                tags: ['Полиграфия']
-            },
-            {
                 title: 'Авторские иллюстрации на кружках',
                 description: [
                     'Векторные иллюстрации для сувенирной продукции я рисовала для продажи в магазин Castle Rock.'
@@ -1084,94 +1054,7 @@ $(function() {
                     }
                 ],
                 tags: ['Фотомонтаж']
-            },
-
-            {
-                title: '«Фотомонтаж»',
-                description: [
-                    'Фотомонтаж - один из самых популярных заказов в качестве подарка на день рождение, юбилей и другие памятные даты. ',
-                    'При помощи Adobe Photoshop и графического планшета, я делаю портрет максимально похожим на настоящую картину, а так ',
-                    'же даю совет по распечатке на холсте и покрытию лаком, для достижения максимального сходства с настоящими художественными красками.'
-                ].join(' '),
-                thumbnail: [
-                    'img/graphic-design/small/35.jpg',
-                    'img/graphic-design/small/40.jpg',
-                    'img/graphic-design/small/38.jpg',
-                    'img/graphic-design/small/39.jpg',
-                    'img/graphic-design/small/27.jpg'
-                ],
-                large: [
-                    'img/graphic-design/large/35.jpg',
-                    'img/graphic-design/large/40.jpg',
-                    'img/graphic-design/large/38.jpg',
-                    'img/graphic-design/large/39.jpg',
-                    'img/graphic-design/small/27.jpg'
-                ],
-                img_title: [
-                    'jquery elastic grid',
-                    'jquery elastic grid',
-                    'jquery elastic grid',
-                    'jquery elastic grid',
-                    'jquery elastic grid'
-                ],
-                button_list: [
-                    {
-                        title: '',
-                        url: '',
-                        new_window: true
-                    },
-                    {
-                        title: '',
-                        url: '',
-                        new_window: true
-                    }
-                ],
-                tags: ['Фотомонтаж']
-            },
-
-            {
-                title: '«Фотомонтаж»',
-                description: [
-                    'Фотомонтаж - один из самых популярных заказов в качестве подарка на день рождение, юбилей и другие памятные даты. ',
-                    'При помощи Adobe Photoshop и графического планшета, я делаю портрет максимально похожим на настоящую картину, а так ',
-                    'же даю совет по распечатке на холсте и покрытию лаком, для достижения максимального сходства с настоящими художественными красками.'
-                ].join(' '),
-                thumbnail: [
-                    'img/graphic-design/small/27.jpg',
-                    'img/graphic-design/small/39.jpg',
-                    'img/graphic-design/small/38.jpg',
-                    'img/graphic-design/small/41.jpg',
-                    'img/graphic-design/small/40.jpg'
-                ],
-                large: [
-                    'img/graphic-design/large/27.jpg',
-                    'img/graphic-design/large/39.jpg',
-                    'img/graphic-design/large/38.jpg',
-                    'img/graphic-design/large/41.jpg',
-                    'img/graphic-design/small/40.jpg'
-                ],
-                img_title: [
-                    'jquery elastic grid',
-                    'jquery elastic grid',
-                    'jquery elastic grid',
-                    'jquery elastic grid',
-                    'jquery elastic grid'
-                ],
-                button_list: [
-                    {
-                        title: '',
-                        url: '',
-                        new_window: true
-                    },
-                    {
-                        title: '',
-                        url: '',
-                        new_window: true
-                    }
-                ],
-                tags: ['Фотомонтаж']
             }
-
         ]
     });
 });
