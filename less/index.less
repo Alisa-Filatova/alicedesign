@@ -252,8 +252,8 @@
         background: url('../img/boards.svg') no-repeat top center;
         background-size: cover;
         position: absolute;
-        bottom: 100px;
-        left: 130px;
+        bottom: 93px;
+        left: 124px;
         z-index: 50;
     }
 
@@ -342,13 +342,13 @@
 }
 
 .girl {
-    width: 94px;
+    width: 91px;
     height: 220px;
     background: url('../img/alice.svg') no-repeat center;
     background-size: contain;
     position: absolute;
     left: 47.5%;
-    bottom: 126px;
+    bottom: 116px;
 }
 
 .grass {
@@ -564,12 +564,12 @@
                     url('../img/photo.svg') no-repeat center;
         background-size: 65%, contain;
         position: absolute;
-        left: 162px;
+        left: 175px;
         top: 14px;
     }
 
     &__text-wrapper {
-        max-width: 430px;
+        width: 447px;
         margin: 0;
         font-size: 17px;
         padding: 224px 40px 40px;
@@ -578,33 +578,18 @@
     }
 
     &__note {
-        width: 523px;
+        width: 510px;
         height: 653px;
         position: relative;
         top: 40px;
-        left: 27px;
-    }
-
-    &::after {
-        content: '';
-        width: 315px;
-        height: 500px;
-        background: url("../img/light.svg") no-repeat top center;
-        background-size: 106%;
-        position: absolute;
-        top: 176px;
-        left: 562px;
-        animation-name: fade-out;
-        animation-duration: 3s;
-        animation-timing-function: ease-in-out;
-        animation-iteration-count: infinite;
-        animation-direction: alternate-reverse;
+        left: 0;
     }
 }
 
 .cat,
 .lamp,
-.clock {
+.clock,
+.lamp-big {
     position: absolute;
 }
 
@@ -711,10 +696,35 @@
     }
 }
 
+.lamp-big {
+    top: 0;
+    left: 47%;
+    width: 114px;
+    height: 193px;
+    background: url('../img/lamp-big.svg') no-repeat top center;
+    background-size: contain;
+
+    &::after {
+        content: '';
+        width: 308px;
+        height: 500px;
+        background: url("../img/light.svg") no-repeat top center;
+        background-size: 106%;
+        position: absolute;
+        top: 171px;
+        left: -97px;
+        animation-name: fade-out;
+        animation-duration: 3s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
+    }
+}
+
 .footer {
     .container();
     text-align: center;
-    background: url('../img/gears-footer.svg') no-repeat center;
+    background: url('../img/gears-footer.svg') no-repeat top center;
     background-size: cover;
     padding-top: 25px;
 
