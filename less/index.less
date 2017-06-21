@@ -588,8 +588,7 @@
 
 .cat,
 .lamp,
-.clock,
-.lamp-big {
+.clock {
     position: absolute;
 }
 
@@ -697,6 +696,7 @@
 }
 
 .lamp-big {
+    position: absolute;
     top: 0;
     left: 47%;
     width: 114px;
@@ -704,14 +704,13 @@
     background: url('../img/lamp-big.svg') no-repeat top center;
     background-size: contain;
 
-    &::after {
-        content: '';
+    &__light {
         width: 308px;
         height: 500px;
         background: url("../img/light.svg") no-repeat top center;
         background-size: 106%;
         position: absolute;
-        top: 171px;
+        top: 170px;
         left: -97px;
         animation-name: fade-out;
         animation-duration: 3s;
