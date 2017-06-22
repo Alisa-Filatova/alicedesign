@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Алиса Филатова - веб дизайнер, верстальщик, цифровой иллюстратор">
 	<meta name="author" content="Alisa Filatova | alicedesign.ru">
 
@@ -56,8 +55,8 @@
 		</nav>
 	</header>
 
-	<section class="gallery">
-		<div class="gallery__thumbs" data-google-image-layout data-max-height="400">
+	<section class="gallery clearfix">
+		<div class="gallery__thumbs clearfix" data-google-image-layout data-max-height="400">
 
 			<img
 				src="img/illustrations/small/2.jpg"
@@ -102,6 +101,11 @@
 			<img
 				src="img/illustrations/small/6.jpg"
 				data-full="img/illustrations/large/6.jpg"
+				class="gallery__thumbs-img"
+			>
+			<img
+				src="img/illustrations/small/26.jpg"
+				data-full="img/illustrations/large/26.jpg"
 				class="gallery__thumbs-img"
 			>
 			<img
@@ -160,11 +164,6 @@
 				class="gallery__thumbs-img"
 			>
 			<img
-				src="img/illustrations/small/26.jpg"
-				data-full="img/illustrations/large/26.jpg"
-				class="gallery__thumbs-img"
-			>
-			<img
 				src="img/illustrations/small/27.jpg"
 				data-full="img/illustrations/large/27.jpg"
 				class="gallery__thumbs-img"
@@ -194,6 +193,7 @@
 				data-full="img/illustrations/large/38.jpg"
 				class="gallery__thumbs-img"
 			>
+
 			<img
 				src="img/illustrations/small/39.jpg"
 				data-full="img/illustrations/large/39.jpg"
@@ -203,49 +203,6 @@
 		</div>
 
 		<div class="gallery__fullscreen"></div>
-
-		<footer class="footer" id="contacts">
-
-			<ul class="contacts footer__contacts">
-				<li class="contacts__link">
-					<a
-						class="contacts__link contacts__link_mail"
-						href="mailto:alicefill@bk.ru"
-					>
-					</a>
-				</li>
-				<li class="contacts__link">
-					<a
-						class="contacts__link contacts__link_vk"
-						href="https://vk.com/alisafill"
-					>
-					</a>
-				</li>
-				<li class="contacts__link">
-					<a
-						class="contacts__link contacts__link_github"
-						href="https://github.com/Alisa-Filatova"
-					>
-					</a>
-				</li>
-				<li class="contacts__link">
-					<a
-						class="contacts__link contacts__link_deviant"
-						href="http://marrylie.deviantart.com"
-					>
-					</a>
-				</li>
-				<li class="contacts__link">
-					<a
-						class="contacts__link contacts__link_linkedin"
-						href="https://www.linkedin.com/in/alisa-filatova-64209a139/"
-					>
-					</a>
-				</li>
-			</ul>
-
-			<span class="footer__copyright">&#169; 2017 Alisa Filatova</span>
-		</footer>
 	</section>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>

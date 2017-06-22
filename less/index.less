@@ -31,7 +31,7 @@
     background-size: contain;
     position: absolute;
     bottom: 59px;
-    right: 30px;
+    right: 18px;
     z-index: 50;
 }
 
@@ -352,7 +352,7 @@
 }
 
 .grass {
-    background: url('../img/main-background2.svg') no-repeat scroll center bottom;
+    background: url('../img/grass.svg') no-repeat scroll center bottom;
     background-size: 101%;
     z-index: 100;
     width: 100%;
@@ -370,7 +370,7 @@
                 -webkit-linear-gradient(top, rgba(153, 206, 255, 0.5) 15%, @beige 31%);
     background: url('../img/portfolio-background.svg') no-repeat top center,
                 -moz-linear-gradient(top, rgba(153, 206, 255, 0.5) 15%, @beige 31%);
-    background-size: 100%;
+    background-size: cover;
     padding-top: 130px;
     padding-bottom: 91px;
 
@@ -387,7 +387,7 @@
         flex-flow: row nowrap;
         justify-content: center;
         align-items: center;
-        margin: 50px auto 190px;
+        margin: 50px 170px 190px auto;
         max-width: 1000px;
         width: 100%;
 
@@ -642,11 +642,13 @@
     transition: transform 1s linear;
 
     &::before {
-        content: url('../img/cat-mouth.svg');
+        content: '';
         width: 11px;
         height: 17px;
+        background: url('../img/cat-mouth.svg') no-repeat center;
+        background-size: contain;
         position: absolute;
-        top: 28px;
+        top: 35px;
         left: 41px;
         animation-name: mouth;
         animation-duration: 15s;
@@ -672,16 +674,16 @@
     bottom: 45.6%;
     left: 6%;
 
-    &:after {
+    &::after {
         content: '';
-        width: 130px;
+        width: 128px;
         height: 170px;
         background: url("../img/light.svg") no-repeat top center;
-        background-size: 104%;
+        background-size: contain;
         position: absolute;
         top: 17px;
-        right: -107px;
-        transform: rotate(-46deg);
+        right: -105px;
+        transform: rotate(-45deg);
         opacity: 0;
         -webkit-transition: opacity 0.2s linear;
         -moz-transition: opacity 0.2s linear;
@@ -698,25 +700,21 @@
 .lamp-big {
     position: absolute;
     top: 0;
-    left: 47%;
+    left: 46%;
     width: 114px;
     height: 193px;
     background: url('../img/lamp-big.svg') no-repeat top center;
     background-size: contain;
 
     &__light {
-        width: 308px;
+        width: 305.5px;
         height: 500px;
         background: url("../img/light.svg") no-repeat top center;
-        background-size: 106%;
+        background-size: contain;
         position: absolute;
-        top: 170px;
-        left: -97px;
-        animation-name: fade-out;
-        animation-duration: 3s;
-        animation-timing-function: ease-in-out;
-        animation-iteration-count: infinite;
-        animation-direction: alternate-reverse;
+        top: 169px;
+        left: -94px;
+        animation: fade-out 3s ease-in-out infinite alternate-reverse;
     }
 }
 

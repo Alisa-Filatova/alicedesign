@@ -19,7 +19,7 @@ $(function() {
                     'Назначение сайта: информационная поддержка учеников, привлечение новых студентов, портфолио,',
                     'информация для сотрудничества.<br>',
                     'Сайт адаптирован под планшеты и мобильные устройства.',
-                    'В проекте я использовала: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM, LESS, JavaScript. Кроссбраузерность: IE10+.'
+                    'В проекте я использовала: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM, LESS, JavaScript. Кроссбраузерность: IE11+.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/goroshko-dance.jpg'],
                 large: ['img/code-gallery/large/goroshko-dance.jpg'],
@@ -45,7 +45,7 @@ $(function() {
                     'Студия предоставляет услуги парикмахера-стилиста и ателье с авторской одеждой.<br>',
                     'Сайт адаптирован под планшеты и мобильные устройства.',
                     'Используемые технологии: Adobe Illustrator, SVG, Adobe Photoshop, HTML5/CSS3, BEM,',
-                    'LESS, JQuery плагин Gamma Gallery, JavaScript. Кроссбраузерность: IE10+.'
+                    'LESS, JQuery плагин Gamma Gallery, JavaScript. Кроссбраузерность: IE11+.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/lenor-tat.jpg'],
                 large: ['img/code-gallery/large/lenor-tat.jpg'],
@@ -72,7 +72,7 @@ $(function() {
                     'семейные пары.<br>',
                     'Сайт адаптирован под планшеты и смартфоны.',
                     'Используемые технологии: Adobe Photoshop, Adobe Illustrator, HTML5/CSS3, методология BEM, CSS препроцессор LESS, ',
-                    'JQuery плагин Gamma Gallery, Bootstrap Carousel, JavaScript. Кроссбраузерность: IE10+.'
+                    'JQuery плагин Gamma Gallery, Bootstrap Carousel, JavaScript. Кроссбраузерность: IE11+.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/natalia-photo.jpg'],
                 large: ['img/code-gallery/large/natalia-photo.jpg'],

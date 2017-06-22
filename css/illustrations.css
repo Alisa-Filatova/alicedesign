@@ -21,7 +21,7 @@ body {
     margin: 0 auto;
     overflow-y: scroll;
     overflow-x: hidden;
-    background: url('../img/gallery-back-moz.svg') repeat top center, #eff;
+    background: url('../img/gallery-back.svg') repeat top center, #eff;
     background-size: cover;
 
 }

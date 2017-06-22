@@ -271,6 +271,29 @@ $(function() {
             },
 
             {
+                title: '«Natalia Biriouk - photographer»',
+                description: [
+                    'Logo for website «Natalia Biriouk - photographer». '
+                ].join(' '),
+                thumbnail: ['img/graphic-design/small/37.jpg', 'img/code-gallery/small/natalia-photo.jpg'],
+                large: ['img/graphic-design/large/37.jpg', 'img/code-gallery/large/natalia-photo.jpg'],
+                img_title: ['jquery elastic grid'],
+                button_list: [
+                    {
+                        title: '',
+                        url: '',
+                        new_window: true
+                    },
+                    {
+                        title: '',
+                        url: '',
+                        new_window: true
+                    }
+                ],
+                tags: ['Logo']
+            },
+
+            {
                 title : '«The Document center»',
                 description: [
                     'Orders for the «The Document center» I did working at "United printing center", which was ',
@@ -476,6 +499,30 @@ $(function() {
                 ],
                 tags: ['Printing']
             },
+
+            {
+                title: '«Lenor Tat»',
+                description: [
+                    'Logo for the beauty and design stidio.'
+                ].join(' '),
+                thumbnail: ['img/graphic-design/small/50.jpg', 'img/code-gallery/small/lenor-tat.jpg', 'img/graphic-design/small/51.jpg' ],
+                large: ['img/graphic-design/large/50.jpg', 'img/code-gallery/large/lenor-tat.jpg', 'img/graphic-design/large/51.jpg'],
+                img_title: ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
+                button_list: [
+                    {
+                        title: '',
+                        url: '',
+                        new_window: true
+                    },
+                    {
+                        title: '',
+                        url: '',
+                        new_window: true
+                    }
+                ],
+                tags: ['Logo']
+            },
+
 
             {
                 title: '«Carpe Diem» - The shop of bed linen',
@@ -796,84 +843,6 @@ $(function() {
             },
 
             {
-                title: '«Carpe Diem» - The shop of bed linen',
-                description: [
-                    ' The store ordered me the design of packaging for bedding (children and adults)',
-                    ' and ear filling description',
-                    ' and makeup products. In the process, I suggested a logo redesign, as their previous was very pale and',
-                    ' difficult to read which can be seen on childrens packages.',
-                    ' New it was decided to make bright and easy style.'
-                ].join(' '),
-                thumbnail: [
-                    'img/graphic-design/small/31.jpg',
-                    'img/graphic-design/small/34.jpg',
-                    'img/graphic-design/small/30.jpg',
-                    'img/graphic-design/small/10.jpg'
-                ],
-                large: [
-                    'img/graphic-design/large/31.jpg',
-                    'img/graphic-design/large/34.jpg',
-                    'img/graphic-design/large/30.jpg',
-                    'img/graphic-design/small/10.jpg'
-                ],
-                img_title: [
-                    'jquery elastic grid',
-                    'jquery elastic grid',
-                    'jquery elastic grid',
-                    'jquery elastic grid'
-                ],
-                button_list: [
-                    {
-                        title: '',
-                        url: '',
-                        new_window: true
-                    },
-                    {
-                        title: '',
-                        url: '',
-                        new_window: true
-                    }
-                ],
-                tags: ['Printing']
-            },
-
-            {
-                title: '«MedSkin» the clinic of aesthetic cosmetology',
-                description: [
-                    'For "MedSkin" clinic I have developed a signature style in soft colours, feminine and beautiful like primary target audience.',
-                    'I also gave recommendations on the choice of paper and lamination special "Touch cover", which is pleasant to the touch as velvet,',
-                    'that corresponds to the main direction of the clinic skin care.'
-                ].join(' '),
-                thumbnail: [
-                    'img/graphic-design/small/32.jpg',
-                    'img/graphic-design/small/2.jpg',
-                    'img/graphic-design/small/12.jpg'
-                ],
-                large: [
-                    'img/graphic-design/large/32.jpg',
-                    'img/graphic-design/large/2.jpg',
-                    'img/graphic-design/large/12.jpg'
-                ],
-                img_title: [
-                    'jquery elastic grid',
-                    'jquery elastic grid',
-                    'jquery elastic grid'
-                ],
-                button_list: [
-                    {
-                        title: '',
-                        url: '',
-                        new_window: true
-                    },
-                    {
-                        title: '',
-                        url: '',
-                        new_window: true
-                    }
-                ],
-                tags: ['Printing']
-            },
-            {
                 title: 'Illustrations on mugs',
                 description: [
                     'Vector illustration for Souvenirs it was for sale in the store "Castle Rock".'
@@ -1080,92 +1049,6 @@ $(function() {
                     'img/graphic-design/large/38.jpg',
                     'img/graphic-design/large/41.jpg',
                     'img/graphic-design/small/27.jpg'
-                ],
-                img_title: [
-                    'jquery elastic grid',
-                    'jquery elastic grid',
-                    'jquery elastic grid',
-                    'jquery elastic grid',
-                    'jquery elastic grid'
-                ],
-                button_list: [
-                    {
-                        title: '',
-                        url: '',
-                        new_window: true
-                    },
-                    {
-                        title: '',
-                        url: '',
-                        new_window: true
-                    }
-                ],
-                tags: ['Photomanipulation']
-            },
-
-            {
-                title: '«Photomanipulation»',
-                description: [
-                    'Photomanipulation is one of the most popular orders as a gift for a birthday, anniversary, and other memorable dates. ',
-                    'Using Adobe Photoshop and a graphic tablet, I did a portrait as similar to the real picture and thus',
-                    'well, here is a tip for printing on canvas and lacquered to achieve maximum similarity with the real art colours.'
-                ].join(' '),
-                thumbnail: [
-                    'img/graphic-design/small/35.jpg',
-                    'img/graphic-design/small/40.jpg',
-                    'img/graphic-design/small/38.jpg',
-                    'img/graphic-design/small/39.jpg',
-                    'img/graphic-design/small/27.jpg'
-                ],
-                large: [
-                    'img/graphic-design/large/35.jpg',
-                    'img/graphic-design/large/40.jpg',
-                    'img/graphic-design/large/38.jpg',
-                    'img/graphic-design/large/39.jpg',
-                    'img/graphic-design/small/27.jpg'
-                ],
-                img_title: [
-                    'jquery elastic grid',
-                    'jquery elastic grid',
-                    'jquery elastic grid',
-                    'jquery elastic grid',
-                    'jquery elastic grid'
-                ],
-                button_list: [
-                    {
-                        title: '',
-                        url: '',
-                        new_window: true
-                    },
-                    {
-                        title: '',
-                        url: '',
-                        new_window: true
-                    }
-                ],
-                tags: ['Photomanipulation']
-            },
-
-            {
-                title: '«Photomanipulation»',
-                description: [
-                    'Photomanipulation is one of the most popular orders as a gift for a birthday, anniversary, and other memorable dates. ',
-                    'Using Adobe Photoshop and a graphic tablet, I did a portrait as similar to the real picture and thus',
-                    'well, here is a tip for printing on canvas and lacquered to achieve maximum similarity with the real art colours.'
-                ].join(' '),
-                thumbnail: [
-                    'img/graphic-design/small/27.jpg',
-                    'img/graphic-design/small/39.jpg',
-                    'img/graphic-design/small/38.jpg',
-                    'img/graphic-design/small/41.jpg',
-                    'img/graphic-design/small/40.jpg'
-                ],
-                large: [
-                    'img/graphic-design/large/27.jpg',
-                    'img/graphic-design/large/39.jpg',
-                    'img/graphic-design/large/38.jpg',
-                    'img/graphic-design/large/41.jpg',
-                    'img/graphic-design/small/40.jpg'
                 ],
                 img_title: [
                     'jquery elastic grid',

@@ -19,7 +19,7 @@ $(function() {
                     'Graphics in colors of the logo I stressed the plasticity of a dancer and her individual dance style.<br>',
                     'The website is adapted for tablets and mobile devices that is needed',
                     'since a large part of the target audience sitting on the Internet with gadgets.',
-                    'In the project I used: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM-methodology, CSS preprocessor LESS, JavaScript. Cross-browser compatibility: IE10+.'
+                    'In the project I used: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM-methodology, CSS preprocessor LESS, JavaScript. Cross-browser compatibility: IE11+.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/goroshko-dance.jpg'],
                 large: ['img/code-gallery/large/goroshko-dance.jpg'],
@@ -51,7 +51,7 @@ $(function() {
                     'The main colors of the website, which originated from the title picture, I emphasized creative',
                     'the informal and youthful style of the Studio. The website is adapted for tablets and mobile devices.',
                     'Technologies used: Adobe Illustrator, SVG, Adobe Photoshop, HTML5/CSS3, BEM methodology,',
-                    'CSS preprocessor LESS, JQuery plugin Gamma Gallery, JavaScript. Cross-browser compatibility: IE10+.'
+                    'CSS preprocessor LESS, JQuery plugin Gamma Gallery, JavaScript. Cross-browser compatibility: IE11+.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/lenor-tat.jpg'],
                 large: ['img/code-gallery/large/lenor-tat.jpg'],
@@ -81,7 +81,7 @@ $(function() {
                     'On the main page I have placed a slider in the form of turned over the photographs,',
                     'with ability to jump to the section on the theme of the album. The website is adapted for tablets and mobile devices.',
                     'Used technologies: Adobe Photoshop, Adobe Illustrator, HTML5/CSS3, BEM methodology, CSS preprocessor LESS, ',
-                    'JQuery plugin Gamma Gallery, Bootstrap Carousel, JavaScript. Cross-browser compatibility: IE10+.'
+                    'JQuery plugin Gamma Gallery, Bootstrap Carousel, JavaScript. Cross-browser compatibility: IE11+.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/natalia-photo.jpg'],
                 large: ['img/code-gallery/large/natalia-photo.jpg'],
@@ -107,7 +107,7 @@ $(function() {
                     'My personal website portfolio. The project I decided to do with his own illustrations, css animation',
                     'as much as possible to show off your style.<br>' ,
                     'Used technologies: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM methodology, CSS preprocessor LESS, ',
-                    'JQuery plugin Elastic Grid, Material Photo Gallery. Cross-browser compatibility: IE10+.'
+                    'JQuery plugin Elastic Grid, Material Photo Gallery. Cross-browser compatibility: IE11+.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/alicedesign.jpg'],
                 large: ['img/code-gallery/large/alicedesign.jpg'],
