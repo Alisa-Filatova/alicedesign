@@ -78,7 +78,7 @@ $(function() {
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/natalia-photo.jpg'],
                 large: ['img/code-gallery/large/natalia-photo.jpg'],
-                img_title: ['jquery elastic grid'],
+                img_title: ['image'],
                 button_list: [
                     {
                         title: 'Перейти на сайт',
@@ -107,7 +107,7 @@ $(function() {
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/alicedesign.jpg'],
                 large: ['img/code-gallery/large/alicedesign.jpg'],
-                img_title: ['jquery elastic grid'],
+                img_title: ['image'],
                 button_list: [
                     {
                         title: 'Перейти на сайт',
@@ -132,7 +132,7 @@ $(function() {
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/sedona.jpg'],
                 large: ['img/code-gallery/large/sedona.jpg'],
-                img_title: ['jquery elastic grid'],
+                img_title: ['image'],
                 button_list: [
                     {
                         title: 'Перейти на сайт',
@@ -158,7 +158,7 @@ $(function() {
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/pink.jpg'],
                 large: ['img/code-gallery/large/pink.jpg'],
-                img_title: ['jquery elastic grid 1 '],
+                img_title: ['image 1 '],
                 button_list: [
                     {
                         title: 'Перейти на сайт',
@@ -182,7 +182,7 @@ $(function() {
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/technomart.jpg'],
                 large: ['img/code-gallery/large/technomart.jpg'],
-                img_title: ['jquery elastic grid'],
+                img_title: ['image'],
                 button_list: [
                     {
                         title: 'Перейти на сайт',
@@ -205,7 +205,7 @@ $(function() {
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/nerds.jpg'],
                 large: ['img/code-gallery/large/nerds.jpg'],
-                img_title: [ 'jquery elastic grid'],
+                img_title: [ 'image'],
                 button_list: [
                     {
                         title: 'Перейти на сайт',

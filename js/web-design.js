@@ -76,7 +76,7 @@ $(function() {
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/natalia-photo.jpg'],
                 large: ['img/code-gallery/large/natalia-photo.jpg'],
-                img_title: ['jquery elastic grid'],
+                img_title: ['image'],
                 button_list: [
                     {
                         title: 'Перейти на сайт',
@@ -95,17 +95,17 @@ $(function() {
             {
                 title: 'alicedesign.ru',
                 description: [
-                    'Мой личный сайт портфолио. Проект я решила делать с иллюстрациями и CSS анимацией.',
+                    'Мой личный сайт портфолио. Проект я решила делать с векторными иллюстрациями и CSS анимацией.',
                     'Так я смогла максимально показать свой стиль.<br>',
                     'На данный момент работа над сайтом продолжается.',
                     'Готовится мобильная и планшетная версия. В текущей версии верстка главной страницы фиксированная, ',
                     'адаптивность частично поддерживают только внутренние страницы.<br>' ,
                     'Используемые технологии: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM, LESS, ',
-                    'JQuery, плагин Elastic Grid, Material Photo Gallery.'
+                    'JQuery, плагин Elastic Grid, Material Photo Gallery. Кроссбраузерность: IE11+.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/alicedesign.jpg'],
                 large: ['img/code-gallery/large/alicedesign.jpg'],
-                img_title: ['jquery elastic grid'],
+                img_title: ['image'],
                 button_list: [
                     {
                         title: 'Перейти на сайт',

@@ -18,7 +18,7 @@ $(function() {
                 ].join(' '),
                 thumbnail: ['img/graphic-design/small/2.jpg', 'img/graphic-design/small/12.jpg', 'img/graphic-design/small/32.jpg'],
                 large: ['img/graphic-design/large/2.jpg', 'img/graphic-design/large/12.jpg', 'img/graphic-design/large/32.jpg'],
-                img_title: ['jquery elastic grid 6 ', 'jquery elastic grid 7 ', 'jquery elastic grid 8'],
+                img_title: ['image1', 'image2', 'image3'],
                 button_list: [
                     {
                         title: '',
@@ -42,7 +42,7 @@ $(function() {
                 ].join(' '),
                 thumbnail: ['img/graphic-design/small/3.jpg','img/graphic-design/small/9.jpg', 'img/graphic-design/small/29.jpg'],
                 large: ['img/graphic-design/large/3.jpg','img/graphic-design/large/9.jpg', 'img/graphic-design/large/29.jpg'],
-                img_title: ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
+                img_title: ['image', 'image2', 'image3'],
                 button_list: [
                     {
                         title: '',
@@ -65,7 +65,7 @@ $(function() {
                 ].join(' '),
                 thumbnail: ['img/graphic-design/small/4.jpg', 'img/graphic-design/small/15.jpg'],
                 large: ['img/graphic-design/large/4.jpg', 'img/graphic-design/large/15.jpg'],
-                img_title: ['jquery elastic grid', 'jquery elastic grid'],
+                img_title: ['image', 'image2'],
                 button_list: [
                     {
                         title: '',
@@ -89,7 +89,7 @@ $(function() {
                 ].join(' '),
                 thumbnail: ['img/graphic-design/small/25.jpg', 'img/graphic-design/small/42.jpg'],
                 large: ['img/graphic-design/large/25.jpg', 'img/graphic-design/large/42.jpg'],
-                img_title: ['jquery elastic grid'],
+                img_title: ['image'],
                 button_list: [
                     {
                         title: '',
@@ -113,7 +113,7 @@ $(function() {
                 ].join(' '),
                 thumbnail: ['img/graphic-design/small/1.jpg'],
                 large: ['img/graphic-design/large/1.jpg'],
-                img_title: ['jquery elastic grid 1 '],
+                img_title: ['image'],
                 button_list: [
                     {
                         title: '',
@@ -136,7 +136,7 @@ $(function() {
                 ].join(' '),
                 thumbnail: ['img/graphic-design/small/7.jpg'],
                 large: ['img/graphic-design/large/7.jpg'],
-                img_title: ['jquery elastic grid'],
+                img_title: ['image'],
                 button_list: [
                     {
                         title: '',
@@ -174,11 +174,11 @@ $(function() {
                     'img/graphic-design/large/31.jpg'
                 ],
                 img_title: [
-                    'jquery elastic grid',
-                    'jquery elastic grid',
-                    'jquery elastic grid',
-                    'jquery elastic grid',
-                    'jquery elastic grid'
+                    'image',
+                    'image2',
+                    'image3',
+                    'image4',
+                    'image5'
                 ],
                 button_list: [
                     {
@@ -204,7 +204,7 @@ $(function() {
                 ].join(' '),
                 thumbnail: ['img/graphic-design/small/16.jpg', 'img/graphic-design/small/36.jpg', 'img/graphic-design/small/49.jpg'],
                 large: ['img/graphic-design/large/16.jpg', 'img/graphic-design/large/36.jpg', 'img/graphic-design/large/49.jpg'],
-                img_title: ['jquery elastic grid', 'jquery elastic grid'],
+                img_title: ['image', 'image2', 'image3'],
                 button_list: [
                     {
                         title: '',
@@ -228,7 +228,7 @@ $(function() {
                 ].join(' '),
                 thumbnail: ['img/graphic-design/small/6.jpg'],
                 large: ['img/graphic-design/large/6.jpg'],
-                img_title: ['jquery elastic grid'],
+                img_title: ['image'],
                 button_list: [
                     {
                         title: '',
@@ -252,7 +252,7 @@ $(function() {
                 ].join(' '),
                 thumbnail: ['img/graphic-design/small/5.jpg'],
                 large: ['img/graphic-design/large/5.jpg'],
-                img_title: ['jquery elastic grid'],
+                img_title: ['image'],
                 button_list: [
                     {
                         title: '',
@@ -275,7 +275,7 @@ $(function() {
                 ].join(' '),
                 thumbnail: ['img/graphic-design/small/37.jpg', 'img/code-gallery/small/natalia-photo.jpg'],
                 large: ['img/graphic-design/large/37.jpg', 'img/code-gallery/large/natalia-photo.jpg'],
-                img_title: ['jquery elastic grid'],
+                img_title: ['image'],
                 button_list: [
                     {
                         title: '',
@@ -299,7 +299,7 @@ $(function() {
                 ].join(' '),
                 thumbnail: ['img/graphic-design/small/8.jpg'],
                 large: ['img/graphic-design/large/8.jpg'],
-                img_title: ['jquery elastic grid'],
+                img_title: ['image'],
                 button_list: [
                     {
                         title: '',
@@ -323,7 +323,7 @@ $(function() {
                 ].join(' '),
                 thumbnail: ['img/graphic-design/small/9.jpg','img/graphic-design/small/3.jpg', 'img/graphic-design/small/29.jpg'],
                 large: ['img/graphic-design/large/9.jpg','img/graphic-design/large/3.jpg', 'img/graphic-design/large/29.jpg'],
-                img_title: ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
+                img_title: ['image', 'image2', 'image3'],
                 button_list: [
                     {
                         title: '',
@@ -344,7 +344,7 @@ $(function() {
                 description: 'Для ресторана немецкой кухни «Натюрлих» я разработала логотип, вывеску и меню в классическом стиле.',
                 thumbnail: ['img/graphic-design/small/11.jpg'],
                 large: ['img/graphic-design/large/11.jpg'],
-                img_title: ['jquery elastic grid'],
+                img_title: ['image'],
                 button_list: [
                     {
                         title: '',
@@ -365,7 +365,7 @@ $(function() {
                 description: 'Для компании мною были разработаны листовки, визитки и евробуклеты, в соответствии с фирменным стилем организации.',
                 thumbnail: ['img/graphic-design/small/14.jpg','img/graphic-design/small/20.jpg', 'img/graphic-design/small/21.jpg'],
                 large: ['img/graphic-design/large/14.jpg','img/graphic-design/large/20.jpg', 'img/graphic-design/large/21.jpg'],
-                img_title: ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
+                img_title: ['image', 'image2', 'image3'],
                 button_list: [
                     {
                         title: '',
@@ -389,7 +389,7 @@ $(function() {
                 ].join(' '),
                 thumbnail: ['img/graphic-design/small/12.jpg', 'img/graphic-design/small/2.jpg', 'img/graphic-design/small/32.jpg'],
                 large: ['img/graphic-design/large/12.jpg', 'img/graphic-design/large/2.jpg', 'img/graphic-design/large/32.jpg'],
-                img_title: ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
+                img_title: ['image', 'image2', 'image3'],
                 button_list: [
                     {
                         title: '',
@@ -410,7 +410,7 @@ $(function() {
                 description: 'Листовки для ресторана «Токио Сити» я выполнила в рисованном стиле, в рамках конкурса от ресторана.',
                 thumbnail: ['img/graphic-design/small/24.jpg'],
                 large: ['img/graphic-design/large/24.jpg'],
-                img_title: ['jquery elastic grid'],
+                img_title: ['image'],
                 button_list: [
                     {
                         title: '',
@@ -431,7 +431,7 @@ $(function() {
                 description: 'Дизайн для корпоративной визитки сотрудника.',
                 thumbnail: ['img/graphic-design/small/13.jpg','img/graphic-design/small/33.jpg', 'img/graphic-design/small/23.jpg', 'img/graphic-design/small/12.jpg' ],
                 large: ['img/graphic-design/large/13.jpg', 'img/graphic-design/large/33.jpg', 'img/graphic-design/large/23.jpg', 'img/graphic-design/large/12.jpg'],
-                img_title: ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
+                img_title: ['image', 'image', 'image'],
                 button_list: [
                     {
                         title: '',
@@ -452,7 +452,7 @@ $(function() {
                 description: 'Для типографии я разработала моно-календарь 2017 года, в фирменных цветах компании. Так же мною были сделаны карманные календарики и евробуклет.',
                 thumbnail: ['img/graphic-design/small/18.jpg','img/graphic-design/small/19.jpg'],
                 large: ['img/graphic-design/large/18.jpg','img/graphic-design/large/19.jpg'],
-                img_title: ['jquery elastic grid', 'jquery elastic grid'],
+                img_title: ['image', 'image'],
                 button_list: [
                     {
                         title: '',
@@ -476,7 +476,7 @@ $(function() {
                 ].join(' '),
                 thumbnail: ['img/graphic-design/small/17.jpg', 'img/graphic-design/small/43.jpg', 'img/graphic-design/small/44.jpg'],
                 large: ['img/graphic-design/large/17.jpg', 'img/graphic-design/large/43.jpg', 'img/graphic-design/large/44.jpg'],
-                img_title: ['jquery elastic grid'],
+                img_title: ['image', 'image2', 'image3'],
                 button_list: [
                     {
                         title: '',
@@ -499,7 +499,7 @@ $(function() {
                 ].join(' '),
                 thumbnail: ['img/graphic-design/small/50.jpg', 'img/code-gallery/small/lenor-tat.jpg', 'img/graphic-design/small/51.jpg' ],
                 large: ['img/graphic-design/large/50.jpg', 'img/code-gallery/large/lenor-tat.jpg', 'img/graphic-design/large/51.jpg'],
-                img_title: ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
+                img_title: ['image', 'image2', 'image3'],
                 button_list: [
                     {
                         title: '',
@@ -537,11 +537,11 @@ $(function() {
                     'img/graphic-design/large/26.jpg'
                 ],
                 img_title: [
-                    'jquery elastic grid',
-                    'jquery elastic grid',
-                    'jquery elastic grid',
-                    'jquery elastic grid',
-                    'jquery elastic grid'
+                    'image',
+                    'image',
+                    'image',
+                    'image',
+                    'image'
                 ],
                 button_list: [
                     {
@@ -564,7 +564,7 @@ $(function() {
                 description: 'Для компании мною были разработаны листовки, визитки и евробуклеты, в соответствии с фирменным стилем организации.',
                 thumbnail: ['img/graphic-design/small/20.jpg','img/graphic-design/small/21.jpg', 'img/graphic-design/small/14.jpg'],
                 large: ['img/graphic-design/large/20.jpg','img/graphic-design/large/21.jpg', 'img/graphic-design/large/14.jpg'],
-                img_title: ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
+                img_title: ['image', 'image', 'image'],
                 button_list: [
                     {
                         title: '',
@@ -585,7 +585,7 @@ $(function() {
                 description: 'Для компании мною были разработаны листовки, визитки и евробуклеты, в соответствии с фирменным стилем организации.',
                 thumbnail: ['img/graphic-design/small/21.jpg','img/graphic-design/small/20.jpg', 'img/graphic-design/small/14.jpg'],
                 large: ['img/graphic-design/large/21.jpg','img/graphic-design/large/20.jpg', 'img/graphic-design/large/14.jpg'],
-                img_title: ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
+                img_title: ['image', 'image', 'image'],
                 button_list: [
                     {
                         title: '',
@@ -609,7 +609,7 @@ $(function() {
                 ].join(' '),
                 thumbnail: ['img/graphic-design/small/42.jpg', 'img/graphic-design/small/25.jpg'],
                 large: ['img/graphic-design/large/42.jpg', 'img/graphic-design/large/25.jpg'],
-                img_title: ['jquery elastic grid'],
+                img_title: ['image'],
                 button_list: [
                     {
                         title: '',
@@ -630,7 +630,7 @@ $(function() {
                 description: 'Визитная карточка для фирмы по доставке строительных материалов.',
                 thumbnail: ['img/graphic-design/small/22.jpg'],
                 large: ['img/graphic-design/large/22.jpg'],
-                img_title: ['jquery elastic grid'],
+                img_title: ['image'],
                 button_list: [
                     {
                         title: '',
@@ -651,7 +651,7 @@ $(function() {
                 description: 'Для типографии я разработала корпоративный моно-календарь 2017 года, в фирменных цветах компании. Так же мною были сделаны карманные календарики и евробуклет.',
                 thumbnail: ['img/graphic-design/small/19.jpg','img/graphic-design/small/18.jpg'],
                 large: ['img/graphic-design/large/19.jpg','img/graphic-design/large/18.jpg'],
-                img_title: ['jquery elastic grid', 'jquery elastic grid'],
+                img_title: ['image', 'image'],
                 button_list: [
                     {
                         title: '',
@@ -676,7 +676,7 @@ $(function() {
                 ].join(' '),
                 thumbnail: ['img/graphic-design/small/15.jpg','img/graphic-design/small/4.jpg'],
                 large: ['img/graphic-design/large/15.jpg','img/graphic-design/large/4.jpg'],
-                img_title: ['jquery elastic grid', 'jquery elastic grid'],
+                img_title: ['image', 'image'],
                 button_list: [
                     {
                         title: '',
@@ -701,7 +701,7 @@ $(function() {
                 ].join(' '),
                 thumbnail: ['img/graphic-design/small/29.jpg','img/graphic-design/small/3.jpg','img/graphic-design/small/9.jpg'],
                 large: ['img/graphic-design/large/29.jpg','img/graphic-design/large/3.jpg', 'img/graphic-design/large/9.jpg'],
-                img_title: ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
+                img_title: ['image', 'image', 'image'],
                 button_list: [
                     {
                         title: '',
@@ -726,7 +726,7 @@ $(function() {
                 ].join(' '),
                 thumbnail: ['img/graphic-design/small/36.jpg','img/graphic-design/small/16.jpg','img/graphic-design/small/49.jpg'],
                 large: ['img/graphic-design/large/36.jpg','img/graphic-design/large/16.jpg','img/graphic-design/large/49.jpg'],
-                img_title: ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
+                img_title: ['image', 'image2', 'image3'],
                 button_list: [
                     {
                         title: '',
@@ -764,11 +764,11 @@ $(function() {
                     'img/graphic-design/small/10.jpg'
                 ],
                 img_title: [
-                    'jquery elastic grid',
-                    'jquery elastic grid',
-                    'jquery elastic grid',
-                    'jquery elastic grid',
-                    'jquery elastic grid'
+                    'image',
+                    'image',
+                    'image',
+                    'image',
+                    'image'
                 ],
                 button_list: [
                     {
@@ -805,11 +805,11 @@ $(function() {
                     'img/graphic-design/small/31.jpg'
                 ],
                 img_title: [
-                    'jquery elastic grid',
-                    'jquery elastic grid',
-                    'jquery elastic grid',
-                    'jquery elastic grid',
-                    'jquery elastic grid'
+                    'image',
+                    'image',
+                    'image',
+                    'image',
+                    'image'
                 ],
                 button_list: [
                     {
@@ -840,8 +840,8 @@ $(function() {
                     'img/graphic-design/large/48.jpg'
                 ],
                 img_title: [
-                    'jquery elastic grid',
-                    'jquery elastic grid'
+                    'image',
+                    'image'
                 ],
                 button_list: [
                     {
@@ -870,8 +870,8 @@ $(function() {
                     'img/graphic-design/large/46.jpg'
                 ],
                 img_title: [
-                    'jquery elastic grid',
-                    'jquery elastic grid'
+                    'image',
+                    'image'
                 ],
                 button_list: [
                     {
@@ -908,10 +908,10 @@ $(function() {
                     'img/graphic-design/large/40.jpg'
                 ],
                 img_title: [
-                    'jquery elastic grid',
-                    'jquery elastic grid',
-                    'jquery elastic grid',
-                    'jquery elastic grid'
+                    'image',
+                    'image',
+                    'image',
+                    'image'
                 ],
                 button_list: [
                     {
@@ -949,11 +949,11 @@ $(function() {
                     'img/graphic-design/large/40.jpg',
                     'img/graphic-design/small/27.jpg'],
                 img_title: [
-                    'jquery elastic grid',
-                    'jquery elastic grid',
-                    'jquery elastic grid',
-                    'jquery elastic grid',
-                    'jquery elastic grid'
+                    'image',
+                    'image',
+                    'image',
+                    'image',
+                    'image'
                 ],
                 button_list: [
                     {
@@ -992,11 +992,11 @@ $(function() {
                     'img/graphic-design/small/27.jpg'
                 ],
                 img_title: [
-                    'jquery elastic grid',
-                    'jquery elastic grid',
-                    'jquery elastic grid',
-                    'jquery elastic grid',
-                    'jquery elastic grid'
+                    'image',
+                    'image',
+                    'image',
+                    'image',
+                    'image'
                 ],
                 button_list: [
                     {
@@ -1035,11 +1035,11 @@ $(function() {
                     'img/graphic-design/small/27.jpg'
                 ],
                 img_title: [
-                    'jquery elastic grid',
-                    'jquery elastic grid',
-                    'jquery elastic grid',
-                    'jquery elastic grid',
-                    'jquery elastic grid'
+                    'image',
+                    'image',
+                    'image',
+                    'image',
+                    'image'
                 ],
                 button_list: [
                     {

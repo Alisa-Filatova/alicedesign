@@ -85,7 +85,7 @@ $(function() {
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/natalia-photo.jpg'],
                 large: ['img/code-gallery/large/natalia-photo.jpg'],
-                img_title: ['jquery elastic grid'],
+                img_title: ['image'],
                 button_list: [
                     {
                         title: 'Visit Website',
@@ -111,7 +111,7 @@ $(function() {
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/alicedesign.jpg'],
                 large: ['img/code-gallery/large/alicedesign.jpg'],
-                img_title: ['jquery elastic grid'],
+                img_title: ['image'],
                 button_list: [
                     {
                         title: 'Visit Website',
