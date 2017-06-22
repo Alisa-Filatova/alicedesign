@@ -8,23 +8,24 @@
 }
 
 .og-details a.link-button {
-    padding: 4px 10px;
+    padding: 2px 10px;
     background: #d22f69;
-    -moz-border-radius: 1px;
-    -webkit-border-radius: 1px;
-    border-radius: 2px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
     white-space: normal;
     word-wrap: normal;
-    color: #f0f0f0;
+    color: #fff;
     cursor: pointer;
-    font-size: 17px;
-    font-weight: bold;
+    font-size: 19px;
+    line-height: 29px;
     text-align: center;
     white-space: normal;
     margin-left: 10px;
     display: inline-block;
     text-decoration: none;
-    font-family: 'Lato', Calibri, Arial, sans-serif;
+    border: 2px solid transparent;
+    transition: 0.1s linear;
 }
 
 .og-details a.first {
@@ -32,15 +33,9 @@
 }
 
 .og-details a:hover {
-    background-color: #d22f69;
-    background: -moz-linear-gradient(
-    top,
-    #fc568d,
-    #d22f69);
-    background: -webkit-gradient(
-    linear, left top, left bottom,
-    from(#fc568d),
-    to(#d22f69));
+    background: transparent;
+    border: 2px solid #d22f69;
+    color: #d22f69;
 }
 
 .elastislide-carousel {
@@ -65,5 +60,13 @@
 @media (max-width: 425px) {
     .og-expander-inner {
         overflow: scroll;
+    }
+}
+
+@media (min-width: 1200px) {
+    .og-expander h3 {
+        font-size: 36px;
+        line-height: 36px;
+        word-spacing: 2px;
     }
 }
