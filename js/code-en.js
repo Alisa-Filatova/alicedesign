@@ -144,7 +144,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Visit Website',
-                        url: '',
+                        url: 'http://alicedesign.ru/sedona.html',
                         new_window: true
                     },
                     {
@@ -170,7 +170,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Visit Website',
-                        url: 'http://porfolio.bonchen.net/',
+                        url: 'http://alicedesign.ru/pink.html',
                         new_window: true
                     },
                     {
@@ -194,7 +194,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Visit Website',
-                        url: 'http://porfolio.bonchen.net/',
+                        url: 'http://alicedesign.ru/technomart.html',
                         new_window: true
                     },
                     {
@@ -217,7 +217,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Visit Website',
-                        url: '',
+                        url: 'http://alicedesign.ru/nerds.html',
                         new_window: true
                     },
                     {

@@ -671,6 +671,7 @@ body {
 .og-loading {
 	width: 20px;
 	height: 20px;
+	opacity: 0.5;
 	border-radius: 50%;
 	background: #fc568d;
 	box-shadow: 0 0 1px #d22f69, 15px 30px 1px #d22f69, -15px 30px 1px #d22f69;
