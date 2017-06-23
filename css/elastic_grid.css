@@ -533,32 +533,32 @@ body {
 	/*float: left;*/
 	height: 100%;
 }
- .og-grid li.og-expanded > a::after {
-	top: auto;
-	border: solid transparent;
-	content: " ";
-	height: 0;
-	width: 0;
-	position: absolute;
-	pointer-events: none;
-	border-width: 15px;
-	left: 50%;
-	margin: -20px 0 0 -15px;
-}
+ /*.og-grid li.og-expanded > a::after {*/
+	/*top: auto;*/
+	/*border: solid transparent;*/
+	/*content: " ";*/
+	/*height: 0;*/
+	/*width: 0;*/
+	/*position: absolute;*/
+	/*pointer-events: none;*/
+	/*border-width: 15px;*/
+	/*left: 50%;*/
+	/*margin: -20px 0 0 -15px;*/
+/*}*/
 
-.og-pointer {
-	top: auto;
-	border: solid transparent;
-	content: " ";
-	height: 0;
-	width: 0;
-	position: relative;
-	pointer-events: none;
-	border-bottom-color: #fc568d;
-	border-width: 15px;
-	left: 50%;
-	margin: -20px 0 0 -15px;
-}
+/*.og-pointer {*/
+	/*top: auto;*/
+	/*border: solid transparent;*/
+	/*content: " ";*/
+	/*height: 0;*/
+	/*width: 0;*/
+	/*position: relative;*/
+	/*pointer-events: none;*/
+	/*border-bottom-color: #fc568d;*/
+	/*border-width: 15px;*/
+	/*left: 50%;*/
+	/*margin: -20px 0 0 -15px;*/
+/*}*/
 
 .og-expander {
 	position: absolute;
