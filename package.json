@@ -1,0 +1,20 @@
+{
+  "name": "alicedesign.ru",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "ssh -i ~/.ssh/aws.pem aws sudo ./deploy.sh alicedesign.ru"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alisa-Filatova/alicedesign.git"
+  },
+  "author": "Alisa Filatova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alisa-Filatova/alicedesign/issues"
+  },
+  "homepage": "https://github.com/Alisa-Filatova/alicedesign#readme"
+}
