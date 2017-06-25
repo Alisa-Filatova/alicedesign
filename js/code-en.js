@@ -144,7 +144,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Visit Website',
-                        url: 'http://alicedesign.ru/sedona.html',
+                        url: 'http://sedona.alicedesign.ru',
                         new_window: true
                     },
                     {
@@ -170,7 +170,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Visit Website',
-                        url: 'http://alicedesign.ru/pink.html',
+                        url: 'http://pink.alicedesign.ru',
                         new_window: true
                     },
                     {
@@ -194,7 +194,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Visit Website',
-                        url: 'http://alicedesign.ru/technomart.html',
+                        url: 'http://technomart.alicedesign.ru',
                         new_window: true
                     },
                     {
@@ -217,7 +217,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Visit Website',
-                        url: 'http://alicedesign.ru/nerds.html',
+                        url: 'http://nerds.alicedesign.ru',
                         new_window: true
                     },
                     {
@@ -231,6 +231,3 @@ $(function() {
         ]
     });
 });
-/**
- * Created by Alisa on 16.06.17.
- */

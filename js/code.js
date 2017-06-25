@@ -138,7 +138,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Перейти на сайт',
-                        url: 'http://alicedesign.ru/sedona.html',
+                        url: 'http://sedona.alicedesign.ru',
                         new_window: true
                     },
                     {
@@ -164,7 +164,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Перейти на сайт',
-                        url: 'http://alicedesign.ru/pink.html',
+                        url: 'http://pink.alicedesign.ru',
                         new_window: true
                     },
                     {
@@ -188,7 +188,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Перейти на сайт',
-                        url: 'http://alicedesign.ru/technomart.html',
+                        url: 'http://technomart.alicedesign.ru',
                         new_window: true
                     },
                     {
@@ -211,7 +211,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Перейти на сайт',
-                        url: 'http://alicedesign.ru/nerds.html',
+                        url: 'http://nerds.alicedesign.ru',
                         new_window: true
                     },
                     {
