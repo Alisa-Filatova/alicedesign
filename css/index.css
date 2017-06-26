@@ -492,8 +492,9 @@ body {
 .contacts__description {
   display: inline-block;
   text-align: center;
-  margin: 0 0 8px 64px;
+  margin: 0 0 26px 64px;
   font-size: 17px;
+  line-height: 27px;
 }
 .contacts__title {
   font-size: 37px;
@@ -916,7 +917,7 @@ body {
   top: 5px;
 }
 .about-me__text-wrapper {
-  width: 368px;
+  width: 354px;
   margin: 0;
   font-size: 14px;
   line-height: 18px;
@@ -928,7 +929,7 @@ body {
   height: 532px;
   position: relative;
   top: 17px;
-  left: 0;
+  left: 17px;
 }
 @media (min-width: 1440px) {
   .about-me {
@@ -953,6 +954,7 @@ body {
     width: 510px;
     height: 653px;
     top: 40px;
+    left: 0;
   }
   .about-me__title {
     font-size: 38px;
@@ -1144,8 +1146,8 @@ body {
   margin: auto;
   text-align: center;
   background: url('../img/gears-footer.svg') no-repeat top center;
-  background-size: cover;
-  padding-top: 25px;
+  background-size: contain;
+  padding-top: 10px;
 }
 .footer__contacts {
   margin: auto;
@@ -1176,6 +1178,24 @@ body {
 }
 .footer__logo:active {
   transform: scale(0.9);
+}
+@media (min-width: 1440px) {
+  .footer {
+    width: 1360px;
+    margin: auto;
+    padding: 0 40px;
+    padding-top: 25px;
+    background-size: cover;
+  }
+  .footer__contacts {
+    max-width: 440px;
+  }
+  .footer__logo {
+    width: 240px;
+  }
+  .footer__wrapper {
+    width: 1100px;
+  }
 }
 .mailbox {
   display: inline-block;
@@ -1208,23 +1228,6 @@ body {
 }
 .base-link:active {
   opacity: 0.8;
-}
-@media (min-width: 1440px) {
-  .footer {
-    width: 1360px;
-    margin: auto;
-    padding: 0 40px;
-    padding-top: 25px;
-  }
-  .footer__contacts {
-    max-width: 440px;
-  }
-  .footer__logo {
-    width: 240px;
-  }
-  .footer__wrapper {
-    width: 1100px;
-  }
 }
 @media (min-width: 1440px) {
   .mailbox {

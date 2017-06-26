@@ -326,8 +326,9 @@
     &__description {
         display: inline-block;
         text-align: center;
-        margin: 0 0 8px 64px;
+        margin: 0 0 26px 64px;
         font-size: 17px;
+        line-height: 27px;
     }
 
     &__title {
@@ -811,7 +812,7 @@
     }
 
     &__text-wrapper {
-        width: 368px;
+        width: 354px;
         margin: 0;
         font-size: 14px;
         line-height: 18px;
@@ -824,7 +825,7 @@
         height: 532px;
         position: relative;
         top: 17px;
-        left: 0;
+        left: 17px;
     }
 }
 
@@ -851,6 +852,7 @@
             width: 510px;
             height: 653px;
             top: 40px;
+            left: 0;
         }
 
         &__title {
@@ -1065,8 +1067,8 @@
     .container_laptop();
     text-align: center;
     background: url('../img/gears-footer.svg') no-repeat top center;
-    background-size: cover;
-    padding-top: 25px;
+    background-size: contain;
+    padding-top: 10px;
 
     &__contacts {
         margin: auto;
@@ -1106,6 +1108,26 @@
     }
 }
 
+@media (min-width: 1440px) {
+    .footer {
+        .container();
+        padding-top: 25px;
+        background-size: cover;
+
+        &__contacts {
+            max-width: 440px;
+        }
+
+        &__logo {
+            width: 240px;
+        }
+
+        &__wrapper {
+            width: 1100px;
+        }
+    }
+}
+
 .mailbox {
     display: inline-block;
     width: 142px;
@@ -1141,25 +1163,6 @@
 
     &:active {
         opacity: 0.8;
-    }
-}
-
-@media (min-width: 1440px) {
-    .footer {
-        .container();
-        padding-top: 25px;
-
-        &__contacts {
-            max-width: 440px;
-        }
-
-        &__logo {
-            width: 240px;
-        }
-
-        &__wrapper {
-            width: 1100px;
-        }
     }
 }
 
