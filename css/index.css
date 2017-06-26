@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'Neucha';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/neucha-v8-cyrillic_latin-regular.eot');
+  /* IE9 Compat Modes */
+  src: local('Neucha'), url('../fonts/neucha-v8-cyrillic_latin-regular.eot') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/neucha-v8-cyrillic_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */ url('../fonts/neucha-v8-cyrillic_latin-regular.woff') format('woff'), /* Modern Browsers */ url('../fonts/neucha-v8-cyrillic_latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */ url('../fonts/neucha-v8-cyrillic_latin-regular.svg') format('svg');
+  /* Legacy iOS */
+}
 body {
   position: relative;
   font-family: 'Neucha', Comic Sans, sans-serif;
@@ -12,7 +21,6 @@ body {
   margin: 0 auto;
   overflow-y: scroll;
   overflow-x: hidden;
-  min-width: 1440px;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -25,14 +33,10 @@ body {
     background-size: 100%;
   }
 }
-@font-face {
-  font-family: 'Neucha';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/neucha-v8-latin_cyrillic-regular.eot');
-  /* IE9 Compat Modes */
-  src: local('Neucha'), url('../fonts/neucha-v8-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/neucha-v8-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */ url('../fonts/neucha-v8-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */ url('../fonts/neucha-v8-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */ url('../fonts/neucha-v8-latin_cyrillic-regular.svg#Neucha') format('svg');
-  /* Legacy iOS */
+.container_laptop {
+  width: 960px;
+  padding: 0 32px;
+  margin: auto;
 }
 @-webkit-keyframes fade-out {
   0% {
@@ -214,13 +218,12 @@ body {
 }
 .header {
   width: 1360px;
-  margin: auto;
   padding: 0 40px;
-  background: url('../img/clouds.svg') no-repeat fixed top center;
-  background-size: 1440px;
-  text-align: center;
   padding-bottom: 716px;
+  background: url('../img/clouds.svg') no-repeat fixed top center;
+  text-align: center;
   position: relative;
+  margin: auto;
 }
 .header__logo {
   position: absolute;
@@ -231,6 +234,14 @@ body {
 @media (max-width: 375px) {
   .header {
     padding-bottom: 718px;
+  }
+}
+@media (max-width: 1024px) {
+  .header {
+    width: 960px;
+    padding: 0 32px;
+    margin: auto;
+    padding-bottom: 716px;
   }
 }
 .tree {
@@ -417,6 +428,14 @@ body {
   line-height: 45px;
   margin-right: 8px;
   margin-top: 5px;
+}
+@media (max-width: 1024px) {
+  .contacts__description {
+    font-size: 17px;
+  }
+  .contacts__title {
+    font-size: 37px;
+  }
 }
 .main-nav {
   margin: auto;
@@ -677,6 +696,35 @@ body {
   -webkit-transition-duration: 0.1s;
   transition-duration: 0.1s;
 }
+@media (max-width: 1024px) {
+  .portfolio {
+    width: 960px;
+    padding: 0 32px;
+    margin: auto;
+    padding-top: 130px;
+    padding-bottom: 191px;
+  }
+  .portfolio__grid {
+    margin: 18px 103px 0;
+    max-width: 769px;
+    width: 100%;
+  }
+  .portfolio__heading {
+    margin: 0;
+    font-size: 56px;
+  }
+  .portfolio__title {
+    font-size: 108%;
+    -webkit-transform: translateY(24px);
+    transform: translateY(30px);
+  }
+  .portfolio__description {
+    font-size: 16px;
+    padding: 0 8px;
+    -webkit-transform: translateY(24px);
+    transform: translateY(24px);
+  }
+}
 .about-me {
   width: 1360px;
   margin: auto;
@@ -843,6 +891,14 @@ body {
   left: -94px;
   animation: fade-out 3s ease-in-out infinite alternate-reverse;
 }
+@media (max-width: 1024px) {
+  .about-me {
+    width: 960px;
+    padding: 0 32px;
+    margin: auto;
+    padding-bottom: 115px;
+  }
+}
 .footer {
   width: 1360px;
   margin: auto;
@@ -910,4 +966,33 @@ body {
 }
 .base-link:active {
   opacity: 0.8;
+}
+@media (max-width: 1024px) {
+  .footer {
+    width: 960px;
+    padding: 0 32px;
+    margin: auto;
+    padding-top: 25px;
+  }
+  .footer__contacts {
+    max-width: 406px;
+  }
+  .footer__logo {
+    width: 216px;
+  }
+  .footer__wrapper {
+    width: 100%;
+  }
+}
+@media (max-width: 1024px) {
+  .mailbox {
+    width: 142px;
+    height: 179px;
+  }
+  .mailbox::before {
+    width: 18px;
+    height: 52px;
+    top: -20px;
+    left: 36px;
+  }
 }

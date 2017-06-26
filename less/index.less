@@ -1,17 +1,16 @@
 @import 'common';
 @import 'mixin';
 @import 'variables';
-@import 'fonts';
 @import 'animation';
 
 
 .header {
     .container();
-    background: url('../img/clouds.svg') no-repeat fixed top center;
-    background-size: 1440px;
-    text-align: center;
     padding-bottom: 716px;
+    background: url('../img/clouds.svg') no-repeat fixed top center;
+    text-align: center;
     position: relative;
+    margin: auto;
 
     &__logo {
         position: absolute;
@@ -22,6 +21,13 @@
 
     @media (max-width: 375px) {
         padding-bottom: 718px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header {
+        .container_laptop();
+        padding-bottom: 716px;
     }
 }
 
@@ -240,6 +246,18 @@
         line-height: 45px;
         margin-right: 8px;
         margin-top: 5px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .contacts {
+        &__description {
+            font-size: 17px;
+        }
+
+        &__title {
+            font-size: 37px;
+        }
     }
 }
 
@@ -535,6 +553,38 @@
     }
 }
 
+@media (max-width: 1024px) {
+    .portfolio {
+        .container_laptop();
+        padding-top: 130px;
+        padding-bottom: 191px;
+
+        &__grid {
+            margin: 18px 103px 0;
+            max-width: 769px;
+            width: 100%;
+        }
+
+        &__heading {
+            margin: 0;
+            font-size: 56px;
+        }
+
+        &__title {
+            font-size: 108%;
+            -webkit-transform: translateY(24px);
+            transform: translateY(30px);
+        }
+
+        &__description {
+            font-size: 16px;
+            padding: 0 8px;
+            -webkit-transform: translateY(24px);
+            transform: translateY(24px);
+        }
+    }
+}
+
 .about-me {
     .container;
     position: relative;
@@ -719,6 +769,13 @@
     }
 }
 
+@media (max-width: 1024px) {
+    .about-me {
+        .container_laptop();
+        padding-bottom: 115px;
+    }
+}
+
 .footer {
     .container();
     text-align: center;
@@ -795,5 +852,38 @@
 
     &:active {
         opacity: 0.8;
+    }
+}
+
+@media (max-width: 1024px) {
+    .footer {
+        .container_laptop();
+        padding-top: 25px;
+
+        &__contacts {
+            max-width: 406px;
+        }
+
+        &__logo {
+            width: 216px;
+        }
+
+        &__wrapper {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .mailbox {
+        width: 142px;
+        height: 179px;
+
+        &::before {
+            width: 18px;
+            height: 52px;
+            top: -20px;
+            left: 36px;
+        }
     }
 }
