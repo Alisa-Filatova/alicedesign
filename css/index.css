@@ -219,7 +219,7 @@ body {
 .header {
   width: 960px;
   padding: 0 32px;
-  padding-bottom: 478px;
+  padding-bottom: 464px;
   background: url('../img/clouds.svg') no-repeat scroll top center;
   background-size: contain;
   text-align: center;
@@ -770,8 +770,8 @@ body {
   transition: transform 0.3s;
   color: #fff;
   font-size: 108%;
-  -webkit-transform: translateY(24px);
-  transform: translateY(30px);
+  -webkit-transform: translateY(25px);
+  transform: translateY(25px);
 }
 .portfolio__description {
   font-weight: 300;
@@ -783,8 +783,8 @@ body {
   line-height: 21px;
   font-size: 16px;
   padding: 0 8px;
-  -webkit-transform: translateY(24px);
-  transform: translateY(24px);
+  -webkit-transform: translateY(15px);
+  transform: translateY(15px);
 }
 .portfolio__btn {
   position: absolute;
