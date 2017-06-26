@@ -236,7 +236,7 @@ body {
     padding-bottom: 718px;
   }
 }
-@media (max-width: 1024px) {
+@media (max-width: 1076.8px) {
   .header {
     width: 960px;
     padding: 0 32px;
@@ -429,7 +429,7 @@ body {
   margin-right: 8px;
   margin-top: 5px;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1076.8px) {
   .contacts__description {
     font-size: 17px;
   }
@@ -696,7 +696,7 @@ body {
   -webkit-transition-duration: 0.1s;
   transition-duration: 0.1s;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1076.8px) {
   .portfolio {
     width: 960px;
     padding: 0 32px;
@@ -891,7 +891,7 @@ body {
   left: -94px;
   animation: fade-out 3s ease-in-out infinite alternate-reverse;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1076.8px) {
   .about-me {
     width: 960px;
     padding: 0 32px;
@@ -967,7 +967,7 @@ body {
 .base-link:active {
   opacity: 0.8;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1076.8px) {
   .footer {
     width: 960px;
     padding: 0 32px;
@@ -984,7 +984,7 @@ body {
     width: 100%;
   }
 }
-@media (max-width: 1024px) {
+@media (max-width: 1076.8px) {
   .mailbox {
     width: 142px;
     height: 179px;
