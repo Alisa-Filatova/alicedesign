@@ -37,7 +37,7 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Адаптивная верстка']
+                tags: ['Отзывчивая верстка']
             },
             {
                 title: 'lenortat.spb.ru',
@@ -65,7 +65,7 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Адаптивная верстка']
+                tags: ['Отзывчивая верстка']
             },
             {
                 title: 'natalia-photo.com',
@@ -93,7 +93,7 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Адаптивная верстка']
+                tags: ['Отзывчивая верстка']
             },
 
             {
@@ -147,7 +147,7 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Адаптивная верстка']
+                tags: ['Отзывчивая верстка']
             },
             {
                 title: '«Pink»',
@@ -173,7 +173,7 @@ $(function() {
                         new_window: false
                     }
                 ],
-                tags: ['Адаптивная верстка']
+                tags: ['Отзывчивая верстка']
             },
             {
                 title: '«Техномарт»',
