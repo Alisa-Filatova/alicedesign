@@ -17,11 +17,11 @@
     right: 0;
     bottom: 0;
     left: 0;
-    z-index: 1000;
+    z-index: 5000;
 }
 
 .loader__text {
-    z-index: 1000;
+    z-index: 5000;
     position: absolute;
     top: 70%;
     left: 45%;
@@ -37,7 +37,7 @@
 }
 
 .loader__wrapper {
-    z-index: 1000;
+    z-index: 5000;
     position: absolute;
     top: 50%;
     left: 50%;
