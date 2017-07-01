@@ -607,12 +607,13 @@ body {
     margin: 0;
     position: absolute;
     bottom: 162px;
-    left: 110px;
+    left: 118px;
     transform: rotate(-5deg);
     color: #cafcf9;
   }
   .main-nav__items_rus {
     bottom: 163px;
+    left: 110px;
   }
 }
 .rabbit {
