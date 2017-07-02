@@ -20,7 +20,7 @@ $(function() {
                     'информация для сотрудничества.<br>',
                     'Основная целевая аудитория: девушки 14-25 лет, проживающие в Москве.<br>',
                     'Сайт адаптирован под планшеты и мобильные устройства.',
-                    'В проекте я использовала: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM, LESS, JavaScript. Кроссбраузерность: IE11+.'
+                    'В проекте я использовала: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM, Less, JavaScript. Кроссбраузерность: IE11+.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/goroshko-dance.jpg'],
                 large: ['img/code-gallery/large/goroshko-dance.jpg'],
@@ -48,7 +48,7 @@ $(function() {
                     'Основная целевая аудитория: креативные молодые люди и девушки 18-35 лет, проживающие в Санкт-Петербурге.<br>',
                     'Сайт адаптирован под планшеты и мобильные устройства.<br>',
                     'Используемые технологии: Adobe Illustrator, SVG, Adobe Photoshop, HTML5/CSS3, BEM,',
-                    'LESS, JQuery плагин Gamma Gallery, JavaScript. Кроссбраузерность: IE11+.'
+                    'Less, JQuery плагин Gamma Gallery, JavaScript. Кроссбраузерность: IE11+.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/lenor-tat.jpg'],
                 large: ['img/code-gallery/large/lenor-tat.jpg'],
@@ -75,7 +75,7 @@ $(function() {
                     'Целевая аудитория: молодые мамы, семьи с детьми,',
                     'семейные пары, домохозяйки, проживающие в пригороде Калифорнии.<br>',
                     'Сайт адаптирован под планшеты и смартфоны.',
-                    'Используемые технологии: Adobe Photoshop, Adobe Illustrator, HTML5/CSS3, методология BEM, CSS препроцессор LESS, ',
+                    'Используемые технологии: Adobe Photoshop, Adobe Illustrator, HTML5/CSS3, методология BEM, CSS препроцессор Less, ',
                     'JQuery плагин Gamma Gallery, Bootstrap Carousel, JavaScript. Кроссбраузерность: IE11+.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/natalia-photo.jpg'],
@@ -104,7 +104,7 @@ $(function() {
                     'На данный момент работа над сайтом продолжается.',
                     'Готовится мобильная и планшетная версия. В текущей версии верстка главной страницы фиксированная, ',
                     'адаптивность частично поддерживают только внутренние страницы.<br>' ,
-                    'Используемые технологии: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM, LESS, ',
+                    'Используемые технологии: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM, less, ',
                     'JQuery, плагин Elastic Grid, Material Photo Gallery. Кроссбраузерность: IE11+.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/alicedesign.jpg'],
