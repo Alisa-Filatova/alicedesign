@@ -30,11 +30,11 @@ function scrollToAnchor(event) {
     event.preventDefault();
 
     var scrollTop = 0;
-    var documentHight = $(document).height();
+    var documentHeight = $(document).height();
     var windowHeight = $(window).height();
 
-    if($(this.hash).offset().top > documentHight - windowHeight) {
-        scrollTop = documentHight - windowHeight;
+    if($(this.hash).offset().top > documentHeight - windowHeight) {
+        scrollTop = documentHeight - windowHeight;
     } else {
         scrollTop = $(this.hash).offset().top;
     }
