@@ -229,9 +229,9 @@ $(function() {
                 tags: ['Fixed']
             },
             {
-                title: 'Barbershop «Borodinsky»',
+                title: 'Barbershop «Borodinski»',
                 description: [
-                    'Website for the barbershop «Borodinsky», with additional catalog page templates.',
+                    'Website for the barbershop «Borodinski», with additional catalog page templates.',
                     'The study project on an intensive online course "Basic HTML/CSS" in HTML Academy.',
                     'Technology used in the project: HTML5/CSS3, JavaScript, Adobe Photoshop. Cross-browser compatibility: IE11+.'
                 ].join(' '),
