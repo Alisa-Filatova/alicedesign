@@ -227,6 +227,30 @@ $(function() {
                     }
                 ],
                 tags: ['Fixed']
+            },
+            {
+                title: 'Barbershop «Borodinsky»',
+                description: [
+                    'Website for the barbershop «Borodinsky», with additional catalog page templates.',
+                    'The study project on an intensive online course "Basic HTML/CSS" in HTML Academy.',
+                    'Technology used in the project: HTML5/CSS3, JavaScript, Adobe Photoshop. Cross-browser compatibility: IE11+.'
+                ].join(' '),
+                thumbnail: ['img/code-gallery/small/barbershop.jpg'],
+                large: ['img/code-gallery/large/barbershop.jpg'],
+                img_title: [ 'image'],
+                button_list: [
+                    {
+                        title: 'Visit Website',
+                        url: 'http://barbershop.alicedesign.ru',
+                        new_window: true
+                    },
+                    {
+                        title: 'Source code',
+                        url: 'https://github.com/Alisa-Filatova/barbershop',
+                        new_window: true
+                    }
+                ],
+                tags: ['Fixed']
             }
         ]
     });

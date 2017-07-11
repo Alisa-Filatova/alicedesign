@@ -198,7 +198,8 @@ $(function() {
                     }
                 ],
                 tags: ['Фиксированная верстка']
-            }, {
+            },
+            {
                 title: '«Nerds»',
                 description: [
                     'Промо-сайт для веб-студии «Nerds», с дополнительной страницей каталога шаблонов.',
@@ -217,6 +218,30 @@ $(function() {
                     {
                         title: 'Исходный код',
                         url: 'https://github.com/Alisa-Filatova/nerds',
+                        new_window: true
+                    }
+                ],
+                tags: ['Фиксированная верстка']
+            },
+            {
+                title: 'Барбершоп «Borodinsky»',
+                description: [
+                    'Сайт для барбершопа «Borodinsky», с каталогом товаров и прайс-листом.',
+                    'Учебный проект на интенсивном онлайн‑курсе «Базовый HTML/CSS» в «HTML Academy» (самый первый сайт).',
+                    'Фиксированная верстка по готовому psd-макету. В проекте использовались: HTML5/CSS3, JavaScript, Adobe Photoshop. Кроссбраузерность: IE11+.'
+                ].join(' '),
+                thumbnail: ['img/code-gallery/small/barbershop.jpg'],
+                large: ['img/code-gallery/large/barbershop.jpg'],
+                img_title: [ 'image'],
+                button_list: [
+                    {
+                        title: 'Перейти на сайт',
+                        url: 'http://barbershop.alicedesign.ru',
+                        new_window: true
+                    },
+                    {
+                        title: 'Исходный код',
+                        url: 'https://github.com/Alisa-Filatova/barbershop',
                         new_window: true
                     }
                 ],
