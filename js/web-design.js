@@ -46,9 +46,9 @@ $(function() {
                     'страницами галерей работ и формой записи к мастеру.<br>',
                     'Студия предоставляет услуги парикмахера-стилиста и ателье с авторской одеждой.<br>',
                     'Основная целевая аудитория: креативные молодые люди и девушки 18-35 лет, проживающие в Санкт-Петербурге.<br>',
-                    'Сайт адаптирован под планшеты и мобильные устройства.<br>',
+                    'Сайт адаптирован под планшеты и смартфоны.<br>',
                     'Используемые технологии: Adobe Illustrator, SVG, Adobe Photoshop, HTML5/CSS3, BEM,',
-                    'Less, JQuery плагин Gamma Gallery, JavaScript. Кроссбраузерность: IE11+.'
+                    'Less, jQuery плагин Gamma Gallery, JavaScript. Кроссбраузерность: IE11+.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/lenor-tat.jpg'],
                 large: ['img/code-gallery/large/lenor-tat.jpg'],
@@ -76,7 +76,7 @@ $(function() {
                     'семейные пары, домохозяйки, проживающие в пригороде Калифорнии.<br>',
                     'Сайт адаптирован под планшеты и смартфоны.',
                     'Используемые технологии: Adobe Photoshop, Adobe Illustrator, HTML5/CSS3, методология BEM, CSS препроцессор Less, ',
-                    'JQuery плагин Gamma Gallery, Bootstrap Carousel, JavaScript. Кроссбраузерность: IE11+.'
+                    'jQuery плагин Gamma Gallery, Bootstrap Carousel, JavaScript. Кроссбраузерность: IE11+.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/natalia-photo.jpg'],
                 large: ['img/code-gallery/large/natalia-photo.jpg'],
@@ -105,7 +105,7 @@ $(function() {
                     'Готовится мобильная и планшетная версия. В текущей версии верстка главной страницы фиксированная, ',
                     'адаптивность частично поддерживают только внутренние страницы.<br>' ,
                     'Используемые технологии: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM, less, ',
-                    'JQuery, плагин Elastic Grid, Material Photo Gallery. Кроссбраузерность: IE11+.'
+                    'jQuery, плагин Elastic Grid, Material Photo Gallery. Кроссбраузерность: IE11+.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/alicedesign.jpg'],
                 large: ['img/code-gallery/large/alicedesign.jpg'],
