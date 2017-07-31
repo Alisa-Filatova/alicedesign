@@ -176,6 +176,33 @@ $(function() {
                 tags: ['Отзывчивая верстка']
             },
             {
+                title: '«Code and Magic»',
+                description: [
+                    'Промо сайт для игры «Code and Magic» с демо.',
+                    'Учебный проект по jQuery.' ,
+                    'Главная цель сайта - реализация демо и элементов интерфейса при помощи библиотеки jQuery. ',
+                    'Верстка по готовому psd-макету с некоторым изменением и добавлением элементов дизайна.',
+                    ' Технологии используемые в проекте:',
+                    'HTML5/CSS3, BEM, jQuery, Adobe Photoshop.'
+                ].join(' '),
+                thumbnail: ['img/code-gallery/small/code-and-magic.jpg'],
+                large: ['img/code-gallery/large/code-and-magic.jpg'],
+                img_title: ['image'],
+                button_list: [
+                    {
+                        title: 'Перейти на сайт',
+                        url: 'http://code-and-magic.alicedesign.ru',
+                        new_window: true
+                    },
+                    {
+                        title: 'Исходный код',
+                        url: 'https://github.com/Alisa-Filatova/code-and-magic',
+                        new_window: true
+                    }
+                ],
+                tags: ['Фиксированная верстка']
+            },
+            {
                 title: '«Техномарт»',
                 description: [
                     'Интернет-магазин строительных материалов. Лендинг пейдж с дополнительной страницей каталога товаров.',

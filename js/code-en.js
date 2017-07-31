@@ -176,6 +176,31 @@ $(function() {
                 tags: ['Responsive']
             },
             {
+                title: '«Code and Magic»',
+                description: [
+                    'Promo website for the game - "Code and Magic"',
+                    'The study project on an intensive online course "jQuery' ,
+                    'Technology used in the project:',
+                    'HTML5/CSS3, jQuery, BEM, Adobe Photoshop.'
+                ].join(' '),
+                thumbnail: ['img/code-gallery/small/code-and-magic.jpg'],
+                large: ['img/code-gallery/large/code-and-magic.jpg'],
+                img_title: ['image'],
+                button_list: [
+                    {
+                        title: 'Перейти на сайт',
+                        url: 'http://code-and-magic.alicedesign.ru',
+                        new_window: true
+                    },
+                    {
+                        title: 'Исходный код',
+                        url: 'https://github.com/Alisa-Filatova/code-and-magic',
+                        new_window: true
+                    }
+                ],
+                tags: ['Фиксированная верстка']
+            },
+            {
                 title: 'Technomart',
                 description: [
                     'Online store of construction materials. A landing page with an additional page of the product catalog.',
