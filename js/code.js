@@ -5,7 +5,7 @@
 $(function() {
     $('#elastic_grid_demo').elastic_grid({
         showAllText: 'Все проекты',
-        filterEffect: 'scaleup', // moveup, scaleup, fallperspective, fly, flip, helix , popup
+        filterEffect: 'scaleup',
         hoverDirection: true,
         hoverDelay: 0,
         hoverInverse: false,
@@ -179,11 +179,11 @@ $(function() {
                 title: '«Code and Magic»',
                 description: [
                     'Промо сайт для игры «Code and Magic».',
-                    'Учебный проект по jQuery.' ,
+                    'Личный проект по jQuery.' ,
                     'Главная цель сайта - реализация демо и элементов интерфейса при помощи библиотеки jQuery. ',
-                    'Верстка по готовому psd-макету с некоторым изменением и добавлением элементов дизайна.',
+                    'Верстка по готовому psd-макету (HTML-Academy) с некоторым изменением и добавлением элементов дизайна.',
                     ' Технологии используемые в проекте:',
-                    'HTML5/CSS3, BEM, jQuery, Adobe Photoshop.'
+                    'HTML5/CSS3, jQuery, Adobe Photoshop.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/code-and-magic.jpg'],
                 large: ['img/code-gallery/large/code-and-magic.jpg'],
@@ -205,7 +205,7 @@ $(function() {
             {
                 title: '«Техномарт»',
                 description: [
-                    'Интернет-магазин строительных материалов. Лендинг пейдж с дополнительной страницей каталога товаров.',
+                    'Интернет-магазин строительных товаров и оборудования.',
                     'Личный проект на интенсивном онлайн‑курсе «Базовый HTML/CSS» в «HTML Academy». Фиксированная верстка по готовому psd-макету.',
                     'В проекте использовались: HTML5/CSS3, jQuery, JavaScript, Adobe Photoshop. Кроссбраузерность: IE11+.'
                 ].join(' '),
@@ -230,7 +230,7 @@ $(function() {
                 title: '«Nerds»',
                 description: [
                     'Промо-сайт для веб-студии «Nerds», с дополнительной страницей каталога шаблонов.',
-                    'Учебный проект на интенсивном онлайн‑курсе «Базовый HTML/CSS» в «HTML Academy».',
+                    'Личный проект на интенсивном онлайн‑курсе «Базовый HTML/CSS» в «HTML Academy».',
                     'Фиксированная верстка по готовому psd-макету. В проекте использовались: HTML5/CSS3, JavaScript, Adobe Photoshop. Кроссбраузерность: IE11+.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/nerds.jpg'],
