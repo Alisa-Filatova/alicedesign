@@ -15,12 +15,12 @@ $(function() {
             {
                 title: 'goroshkodance.ru',
                 description: [
-                    'Личный сайт хореографа и танцовщицы - Саши Горошко (участница 4 сезона шоу «ТАНЦЫ» на ТНТ). Landing page.',
+                    'Танцевальная студия хореографа - Саши Горошко (участница 4 сезона шоу «ТАНЦЫ» на ТНТ). Landing page.',
                     'Назначение сайта: информационная поддержка учеников, привлечение новых студентов, портфолио,',
                     'информация для сотрудничества.<br>',
                     'Основная целевая аудитория: девушки 14-25 лет, проживающие в Москве.<br>',
                     'Адаптивно-резиновая верстка.',
-                    'В проекте я использовала: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM, Less, JavaScript. Кроссбраузерность: IE11+.'
+                    'В проекте я использовала: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM, Less, jQuery, JavaScript. Кроссбраузерность: IE11+.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/goroshko-dance.jpg'],
                 large: ['img/code-gallery/large/goroshko-dance.jpg'],
@@ -48,7 +48,7 @@ $(function() {
                     'Основная целевая аудитория: креативные молодые люди и девушки 18-35 лет, проживающие в Санкт-Петербурге.<br>',
                     'Адаптивно-резиновая верстка.<br>',
                     'Используемые технологии: Adobe Illustrator, SVG, Adobe Photoshop, HTML5/CSS3, BEM,',
-                    'Less, JQuery плагин Gamma Gallery, JavaScript. Кроссбраузерность: IE11+.'
+                    'Less, JQuery, плагин Gamma Gallery, JavaScript. Кроссбраузерность: IE11+.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/lenor-tat.jpg'],
                 large: ['img/code-gallery/large/lenor-tat.jpg'],
