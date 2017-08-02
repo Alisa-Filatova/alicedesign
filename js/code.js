@@ -130,7 +130,7 @@ $(function() {
                     'Туристический информационный портал о городе Седона c функцией поиска гостиниц, состоящий из четырех страниц.',
                     'Личный проект на интенсивном онлайн-курсе «Продвинутый HTML/CSS», в «HTML Academy».' ,
                     'Адаптивно-резиновая верстка по готовому psd-макету. Технологии используемые в проекте:',
-                    'HTML5/CSS3, Less, BEM, JavaScript, Adobe Photoshop. Кроссбраузерность: IE11+.'
+                    'HTML5/CSS3, Less, BEM, jQuery, JavaScript, Adobe Photoshop. Кроссбраузерность: IE11+.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/sedona.jpg'],
                 large: ['img/code-gallery/large/sedona.jpg'],
@@ -156,7 +156,7 @@ $(function() {
                     'Учебный проект на интенсивном онлайн-курсе «Продвинутый HTML/CSS», в «HTML Academy».' ,
                     'Адаптивно-резиновая верстка по готовому-psd макету.' ,
                     'Технологии используемые в проекте:',
-                    'HTML5/CSS3, Less, BEM, JavaScript, Adobe Photoshop. Кроссбраузерность: IE11+.'
+                    'HTML5/CSS3, Less, BEM, jQuery, JavaScript, Adobe Photoshop. Кроссбраузерность: IE11+.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/pink.jpg'],
                 large: ['img/code-gallery/large/pink.jpg'],
@@ -207,7 +207,7 @@ $(function() {
                 description: [
                     'Интернет-магазин строительных материалов. Лендинг пейдж с дополнительной страницей каталога товаров.',
                     'Личный проект на интенсивном онлайн‑курсе «Базовый HTML/CSS» в «HTML Academy». Фиксированная верстка по готовому psd-макету.',
-                    'В проекте использовались: HTML5/CSS3, JavaScript, Adobe Photoshop. Кроссбраузерность: IE11+.'
+                    'В проекте использовались: HTML5/CSS3, jQuery, JavaScript, Adobe Photoshop. Кроссбраузерность: IE11+.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/technomart.jpg'],
                 large: ['img/code-gallery/large/technomart.jpg'],
