@@ -20,7 +20,8 @@ $(function() {
                     'информация для сотрудничества.<br>',
                     'Основная целевая аудитория: девушки 14-25 лет, проживающие в Москве.<br>',
                     'Адаптивно-резиновая верстка.',
-                    'В проекте я использовала: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM, Less, jQuery, JavaScript. Кроссбраузерность: IE11+.'
+                    'В проекте я использовала: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM, Less, jQuery, JavaScript.',
+                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Fire Fox, Safari, IE-11, Edge.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/goroshko-dance.jpg'],
                 large: ['img/code-gallery/large/goroshko-dance.jpg'],
@@ -48,7 +49,8 @@ $(function() {
                     'Основная целевая аудитория: креативные молодые люди и девушки 18-35 лет, проживающие в Санкт-Петербурге.<br>',
                     'Адаптивно-резиновая верстка.<br>',
                     'Используемые технологии: Adobe Illustrator, SVG, Adobe Photoshop, HTML5/CSS3, BEM,',
-                    'Less, JQuery, плагин Gamma Gallery, JavaScript. Кроссбраузерность: IE11+.'
+                    'Less, JQuery, плагин Gamma Gallery, JavaScript. ',
+                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Fire Fox, Safari, IE-11, Edge.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/lenor-tat.jpg'],
                 large: ['img/code-gallery/large/lenor-tat.jpg'],
@@ -76,7 +78,8 @@ $(function() {
                     'семейные пары, домохозяйки, проживающие в пригороде Калифорнии.<br>',
                     'Адаптивно-резиновая верстка.',
                     'Используемые технологии: Adobe Photoshop, Adobe Illustrator, HTML5/CSS3, методология BEM, CSS препроцессор Less, ',
-                    'JQuery плагин Gamma Gallery, Bootstrap Carousel, JavaScript. Кроссбраузерность: IE11+.'
+                    'JQuery плагин Gamma Gallery, Bootstrap Carousel, JavaScript.',
+                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Fire Fox, Safari, IE-11, Edge.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/natalia-photo.jpg'],
                 large: ['img/code-gallery/large/natalia-photo.jpg'],
@@ -105,7 +108,8 @@ $(function() {
                     'Готовится мобильная и планшетная версия. В текущей версии верстка главной страницы фиксированная,',
                     'адаптивность частично поддерживают внутренние страницы.<br>' ,
                     'Используемые технологии: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM, Less, ',
-                    'JQuery, плагин Elastic Grid, Material Photo Gallery. Кроссбраузерность: IE11+.'
+                    'JQuery, плагин Elastic Grid, Material Photo Gallery.',
+                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Fire Fox, Safari, IE-11, Edge.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/alicedesign.jpg'],
                 large: ['img/code-gallery/large/alicedesign.jpg'],
@@ -130,7 +134,8 @@ $(function() {
                     'Туристический информационный портал о городе Седона c функцией поиска гостиниц, состоящий из четырех страниц.',
                     'Личный проект на интенсивном онлайн-курсе «Продвинутый HTML/CSS», в «HTML Academy».' ,
                     'Адаптивно-резиновая верстка по готовому psd-макету. Технологии используемые в проекте:',
-                    'HTML5/CSS3, Less, BEM, jQuery, JavaScript, Adobe Photoshop. Кроссбраузерность: IE11+.'
+                    'HTML5/CSS3, Less, BEM, jQuery, JavaScript, Adobe Photoshop.',
+                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Fire Fox, Safari, IE-11, Edge.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/sedona.jpg'],
                 large: ['img/code-gallery/large/sedona.jpg'],
@@ -156,7 +161,8 @@ $(function() {
                     'Учебный проект на интенсивном онлайн-курсе «Продвинутый HTML/CSS», в «HTML Academy».' ,
                     'Адаптивно-резиновая верстка по готовому-psd макету.' ,
                     'Технологии используемые в проекте:',
-                    'HTML5/CSS3, Less, BEM, jQuery, JavaScript, Adobe Photoshop. Кроссбраузерность: IE11+.'
+                    'HTML5/CSS3, Less, BEM, jQuery, JavaScript, Adobe Photoshop.',
+                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Fire Fox, Safari, IE-11, Edge.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/pink.jpg'],
                 large: ['img/code-gallery/large/pink.jpg'],
@@ -183,7 +189,8 @@ $(function() {
                     'Личный проект по jQuery.' ,
                     'Верстка по готовому psd-макету (HTML-Academy) с некоторым изменением и добавлением элементов дизайна.',
                     ' Технологии используемые в проекте: ',
-                    'HTML5/CSS3, jQuery, Adobe Photoshop.'
+                    'HTML5/CSS3, jQuery, Adobe Photoshop.',
+                    'Кроссбраузерность: Chrome, Opera, Fire Fox, Safari, IE-11, Edge.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/code-and-magic.jpg'],
                 large: ['img/code-gallery/large/code-and-magic.jpg'],
@@ -207,7 +214,8 @@ $(function() {
                 description: [
                     'Интернет-магазин строительных товаров и оборудования.',
                     'Личный проект на интенсивном онлайн‑курсе «Базовый HTML/CSS» в «HTML Academy». Фиксированная верстка по готовому psd-макету.',
-                    'В проекте использовались: HTML5/CSS3, jQuery, JavaScript, Adobe Photoshop. Кроссбраузерность: IE11+.'
+                    'В проекте использовались: HTML5/CSS3, jQuery, JavaScript, Adobe Photoshop.',
+                    'Кроссбраузерность: Chrome, Opera, Fire Fox, Safari, IE-11, Edge.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/technomart.jpg'],
                 large: ['img/code-gallery/large/technomart.jpg'],
@@ -231,7 +239,8 @@ $(function() {
                 description: [
                     'Промо-сайт для веб-студии «Nerds», с дополнительной страницей каталога шаблонов.',
                     'Личный проект на интенсивном онлайн‑курсе «Базовый HTML/CSS» в «HTML Academy».',
-                    'Фиксированная верстка по готовому psd-макету. В проекте использовались: HTML5/CSS3, JavaScript, Adobe Photoshop. Кроссбраузерность: IE11+.'
+                    'Фиксированная верстка по готовому psd-макету. В проекте использовались: HTML5/CSS3, JavaScript, Adobe Photoshop. ',
+                    'Кроссбраузерность: Chrome, Opera, Fire Fox, Safari, IE-11, Edge.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/nerds.jpg'],
                 large: ['img/code-gallery/large/nerds.jpg'],
@@ -255,7 +264,8 @@ $(function() {
                 description: [
                     'Сайт для барбершопа «Borodinski», с каталогом товаров и прайс-листом.',
                     'Учебный проект на интенсивном онлайн‑курсе «Базовый HTML/CSS» в «HTML Academy» (самый первый сайт).',
-                    'Фиксированная верстка по готовому psd-макету. В проекте использовались: HTML5/CSS3, JavaScript, Adobe Photoshop. Кроссбраузерность: IE11+.'
+                    'Фиксированная верстка по готовому psd-макету. В проекте использовались: HTML5/CSS3, JavaScript, Adobe Photoshop. ',
+                    'Кроссбраузерность: Chrome, Opera, Fire Fox, Safari, IE-11, Edge.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/barbershop.jpg'],
                 large: ['img/code-gallery/large/barbershop.jpg'],
