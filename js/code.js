@@ -15,7 +15,7 @@ $(function() {
             {
                 title: 'goroshkodance.ru',
                 description: [
-                    'Танцевальная студия хореографа - Саши Горошко (участница 4 сезона шоу «ТАНЦЫ» на ТНТ). Landing page.',
+                    'Танцевальная студия хореографа Александры Горошко (участница 4 сезона шоу «ТАНЦЫ» на ТНТ). Landing page.',
                     'Назначение сайта: информационная поддержка учеников, привлечение новых студентов, портфолио,',
                     'информация для сотрудничества.<br>',
                     'Основная целевая аудитория: девушки 14-25 лет, проживающие в Москве.<br>',
@@ -49,7 +49,7 @@ $(function() {
                     'Основная целевая аудитория: креативные молодые люди и девушки 18-35 лет, проживающие в Санкт-Петербурге.<br>',
                     'Адаптивно-резиновая верстка.<br>',
                     'Используемые технологии: Adobe Illustrator, SVG, Adobe Photoshop, HTML5/CSS3, BEM,',
-                    'Less, JQuery, плагин Gamma Gallery, JavaScript. ',
+                    'Less, JavaScript, jQuery, плагин Gamma Gallery. ',
                     'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Fire Fox, Safari, IE-11, Edge.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/lenor-tat.jpg'],
@@ -72,13 +72,14 @@ $(function() {
             {
                 title: 'natalia-photo.com',
                 description: [
-                    'Сайт-портфолио семейного и свадебного фотографа Наталии Бирюк из Калифорнии, США. Сайт состоит из девяти страниц.' ,
-                    'Альбомы фотографий по категориям, форма обратной связи, о фотографе и главная.<br>',
+                    'Сайт-портфолио семейного и свадебного фотографа Наталии Бирюк из Калифорнии, США.', 
+                    'Сайт состоит из девяти страниц.' ,
+                    'Альбомы фотографий по категориям, форма обратной связи, информация о фотографе.<br>',
                     'Целевая аудитория: молодые мамы, семьи с детьми,',
                     'семейные пары, домохозяйки, проживающие в пригороде Калифорнии.<br>',
                     'Адаптивно-резиновая верстка.',
-                    'Используемые технологии: Adobe Photoshop, Adobe Illustrator, HTML5/CSS3, методология BEM, CSS препроцессор Less, ',
-                    'JQuery плагин Gamma Gallery, Bootstrap Carousel, JavaScript.',
+                    'Используемые технологии: Adobe Photoshop, Adobe Illustrator, HTML5/CSS3, методология BEM, Less, ',
+                    'jQuery плагин Gamma Gallery, Bootstrap Carousel, JavaScript.',
                     'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Fire Fox, Safari, IE-11, Edge.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/natalia-photo.jpg'],
@@ -108,7 +109,7 @@ $(function() {
                     'Готовится мобильная и планшетная версия. В текущей версии верстка главной страницы фиксированная,',
                     'адаптивность частично поддерживают внутренние страницы.<br>' ,
                     'Используемые технологии: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM, Less, ',
-                    'JQuery, плагин Elastic Grid, Material Photo Gallery.',
+                    'jQuery, плагин Elastic Grid, Material Photo Gallery.',
                     'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Fire Fox, Safari, IE-11, Edge.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/alicedesign.jpg'],
@@ -131,7 +132,7 @@ $(function() {
             {
                 title: '«Sedona»',
                 description: [
-                    'Туристический информационный портал о городе Седона c функцией поиска гостиниц, состоящий из четырех страниц.',
+                    'Туристический информационный портал о городе Седона c функцией поиска гостиниц с учетом фильтра, формой отзыва, просмотра фотографий.',
                     'Личный проект на интенсивном онлайн-курсе «Продвинутый HTML/CSS», в «HTML Academy».' ,
                     'Адаптивно-резиновая верстка по готовому psd-макету. Технологии используемые в проекте:',
                     'HTML5/CSS3, Less, BEM, jQuery, JavaScript, Adobe Photoshop.',
@@ -155,9 +156,38 @@ $(function() {
                 tags: ['Отзывчивая верстка']
             },
             {
+                title: '«Code and Magic»',
+                description: [
+                    'Промо-сайт для игры «Code and Magic», где можно поиграть в демо-версию,', 
+                    'создать вашего уникального персонажа, купить ему артефакты, посмотреть похожих персонажей,', 
+                    'посмотреть галерею скриншотов, отзывы и оценьть игру.', 
+                    'Личный проект на интенсиве «Базовый JavaScript» от «HTML-Academy».',
+                    'Верстка по готовому psd-макету (HTML-Academy) с некоторым изменением и добавлением элементов дизайна.',
+                    ' Технологии используемые в проекте: ',
+                    'HTML5/CSS3, JavaScript, jQuery, SVG, Adobe Photoshop.',
+                    'Кроссбраузерность: Chrome, Opera, Fire Fox, Safari, IE-11, Edge.'
+                ].join(' '),
+                thumbnail: ['img/code-gallery/small/code-and-magic.jpg'],
+                large: ['img/code-gallery/large/code-and-magic.jpg'],
+                img_title: ['image'],
+                button_list: [
+                    {
+                        title: 'Перейти на сайт',
+                        url: 'http://code-and-magic.alicedesign.ru',
+                        new_window: true
+                    },
+                    {
+                        title: 'Исходный код',
+                        url: 'https://github.com/Alisa-Filatova/code-and-magic',
+                        new_window: true
+                    }
+                ],
+                tags: ['Фиксированная верстка']
+            },
+            {
                 title: '«Pink»',
                 description: [
-                    'Промо-сайт для мобильного приложения «Pink», состоящий из трех страниц.',
+                    'Промо-сайт для мобильного приложения «Pink», где можно поучавствовать в конкурсе, посмотреть фотографии, почитать отзывы.',
                     'Учебный проект на интенсивном онлайн-курсе «Продвинутый HTML/CSS», в «HTML Academy».' ,
                     'Адаптивно-резиновая верстка по готовому-psd макету.' ,
                     'Технологии используемые в проекте:',
@@ -182,38 +212,11 @@ $(function() {
                 tags: ['Отзывчивая верстка']
             },
             {
-                title: '«Code and Magic»',
-                description: [
-                    'Код и Магия – промо сайт игры, созданной на основе курса "Двумерные трансформации", ' +
-                    'с возможностью поиграть в демо версию, посмотреть галерею скриншотов из игры, а также оценить игру и оставить отзыв.',
-                    'Личный проект по jQuery.' ,
-                    'Верстка по готовому psd-макету (HTML-Academy) с некоторым изменением и добавлением элементов дизайна.',
-                    ' Технологии используемые в проекте: ',
-                    'HTML5/CSS3, jQuery, Adobe Photoshop.',
-                    'Кроссбраузерность: Chrome, Opera, Fire Fox, Safari, IE-11, Edge.'
-                ].join(' '),
-                thumbnail: ['img/code-gallery/small/code-and-magic.jpg'],
-                large: ['img/code-gallery/large/code-and-magic.jpg'],
-                img_title: ['image'],
-                button_list: [
-                    {
-                        title: 'Перейти на сайт',
-                        url: 'http://code-and-magic.alicedesign.ru',
-                        new_window: true
-                    },
-                    {
-                        title: 'Исходный код',
-                        url: 'https://github.com/Alisa-Filatova/code-and-magic',
-                        new_window: true
-                    }
-                ],
-                tags: ['Фиксированная верстка']
-            },
-            {
                 title: '«Техномарт»',
                 description: [
-                    'Интернет-магазин строительных товаров и оборудования.',
-                    'Личный проект на интенсивном онлайн‑курсе «Базовый HTML/CSS» в «HTML Academy». Фиксированная верстка по готовому psd-макету.',
+                    'Интернет-магазин строительных товаров и оборудования, c фильтром.',
+                    'Личный проект на интенсивном онлайн‑курсе «Базовый HTML/CSS» в «HTML Academy».', 
+                    'Фиксированная верстка по готовому psd-макету.',
                     'В проекте использовались: HTML5/CSS3, jQuery, JavaScript, Adobe Photoshop.',
                     'Кроссбраузерность: Chrome, Opera, Fire Fox, Safari, IE-11, Edge.'
                 ].join(' '),

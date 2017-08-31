@@ -130,7 +130,7 @@ $(function() {
                     'Tourist information portal about the Sedona city, consisting of four pages.',
                     'A personal project in an advanced intensive online course "Advanced HTML/CSS" by "HTML Academy."' ,
                     'Responsive ready PSD layout. Technologies used in project:',
-                    'HTML5/CSS3, Flexbox, Less, BEM, JavaScript, Adobe Photoshop. Cross-browser compatibility: IE11+.'
+                    'HTML5/CSS3, Flexbox, Less, BEM, JavaScript, jQuery, Adobe Photoshop. Cross-browser compatibility: IE11+.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/sedona.jpg'],
                 large: ['img/code-gallery/large/sedona.jpg'],
@@ -148,6 +148,31 @@ $(function() {
                     }
                 ],
                 tags: ['Responsive']
+            },
+            {
+                title: '«Code and Magic»',
+                description: [
+                    'Promo website for the game - "Code and Magic"',
+                    'The study project on an intensive online course "JavaScript' ,
+                    'Technology used in the project:',
+                    'HTML5/CSS3, JavaScript, jQuery, BEM, SVG, Adobe Photoshop.'
+                ].join(' '),
+                thumbnail: ['img/code-gallery/small/code-and-magic.jpg'],
+                large: ['img/code-gallery/large/code-and-magic.jpg'],
+                img_title: ['image'],
+                button_list: [
+                    {
+                        title: 'Перейти на сайт',
+                        url: 'http://code-and-magic.alicedesign.ru',
+                        new_window: true
+                    },
+                    {
+                        title: 'Исходный код',
+                        url: 'https://github.com/Alisa-Filatova/code-and-magic',
+                        new_window: true
+                    }
+                ],
+                tags: ['Fixed']
             },
             {
                 title: 'Pink',
@@ -174,31 +199,6 @@ $(function() {
                     }
                 ],
                 tags: ['Responsive']
-            },
-            {
-                title: '«Code and Magic»',
-                description: [
-                    'Promo website for the game - "Code and Magic"',
-                    'The study project on an intensive online course "jQuery' ,
-                    'Technology used in the project:',
-                    'HTML5/CSS3, jQuery, BEM, Adobe Photoshop.'
-                ].join(' '),
-                thumbnail: ['img/code-gallery/small/code-and-magic.jpg'],
-                large: ['img/code-gallery/large/code-and-magic.jpg'],
-                img_title: ['image'],
-                button_list: [
-                    {
-                        title: 'Перейти на сайт',
-                        url: 'http://code-and-magic.alicedesign.ru',
-                        new_window: true
-                    },
-                    {
-                        title: 'Исходный код',
-                        url: 'https://github.com/Alisa-Filatova/code-and-magic',
-                        new_window: true
-                    }
-                ],
-                tags: ['Фиксированная верстка']
             },
             {
                 title: 'Technomart',
