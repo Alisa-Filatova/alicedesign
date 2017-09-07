@@ -20,7 +20,7 @@ $(function() {
                     'информация для сотрудничества.<br>',
                     'Основная целевая аудитория: девушки 14-25 лет, проживающие в Москве.<br>',
                     'Адаптивно-резиновая верстка. Мой собственный дизайн.',
-                    'В проекте я использовала: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM, Less, JavaScript, jQuery, AJAX.',
+                    'В проекте я использовала: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM, Less, JavaScript, jQuery, AJAX, Webpack.',
                     'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, IE-11, Edge.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/goroshko-dance.jpg'],
@@ -164,7 +164,7 @@ $(function() {
                     'Личный проект на интенсиве «Базовый JavaScript» от «HTML-Academy».',
                     'Верстка по готовому psd-макету (HTML-Academy) с некоторым изменением и добавлением элементов дизайна.',
                     ' Технологии используемые в проекте: ',
-                    'HTML5/CSS3, JavaScript, jQuery, AJAX, SVG, Adobe Photoshop.',
+                    'HTML5/CSS3, JavaScript, jQuery, AJAX, Webpack, SVG, Adobe Photoshop.',
                     'Кроссбраузерность: Chrome, Opera, Firefox, Safari, IE-11, Edge.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/code-and-magic.jpg'],
