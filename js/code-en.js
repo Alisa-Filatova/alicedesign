@@ -39,7 +39,7 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Responsive design']
+                tags: ['Responsive']
             },
             {
                 title: 'lenortat.spb.ru',
@@ -67,7 +67,7 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Responsive design']
+                tags: ['Responsive']
             },
             {
                 title: 'natalia-photo.com',
@@ -96,7 +96,7 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Responsive design']
+                tags: ['Responsive']
             },
 
             {
@@ -122,7 +122,7 @@ $(function() {
                         new_window: true
                     }
                 ],
-                tags: ['Fixed design']
+                tags: ['Fixed']
             },
 
             {
