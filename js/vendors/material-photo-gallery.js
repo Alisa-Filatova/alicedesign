@@ -1,4 +1,3 @@
-
 var elem = document.querySelector('.gallery');
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -1768,3 +1767,5 @@ window.MaterialPhotoGallery = MaterialPhotoGallery;
 	return GoogleImageLayout;
 });
 },{}]},{},[5]);
+
+

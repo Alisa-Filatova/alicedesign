@@ -7,6 +7,7 @@
     100% {
         opacity: 0;
     }
+    
 }
 
 @keyframes fade-out {
@@ -177,3 +178,21 @@
     }
 }
 
+/*fade-out*/
+.fade-out
+{
+    -webkit-animation: fade-out 3s;
+            animation: fade-out 3s;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+}
+
+.delay {
+    -webkit-animation-delay: 0.35s !important;
+    animation-delay: 0.35s !important; 
+}
+
+.invisible {
+    transition: 1s;
+    display: none;
+}

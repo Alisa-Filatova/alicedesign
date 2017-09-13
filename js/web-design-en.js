@@ -1,3 +1,5 @@
+import $ from 'jquery';
+
 $(function() {
     $('#elastic_grid_demo').elastic_grid({
         showAllText: 'All projects',

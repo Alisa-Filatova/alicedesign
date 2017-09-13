@@ -1,6 +1,7 @@
 /**
  * Created by Alisa on 08.06.17.
  */
+import $ from 'jquery'; 
 
 $(function() {
     $('#elastic_grid_demo').elastic_grid({
