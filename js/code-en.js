@@ -22,7 +22,8 @@ $(function() {
                     'For these purposes I decided to use the style of "Landing Page",',
                     'since it allows available to provide all necessary information on the main page.',
                     'The website is adapted for tablets and mobile devices.',
-                    'In the project I used: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM, Less, JavaScript. Cross-browser compatibility: IE11+.'
+                    'In the project I used: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM, Less, jQuery, JavaScript.',
+                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, IE-11, Edge.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/goroshko-dance.jpg'],
                 large: ['img/code-gallery/large/goroshko-dance.jpg'],
@@ -50,7 +51,8 @@ $(function() {
                     'Target audience: young men and women 18-35 years old, mostly from the artistic community of St. Petersburg.',
                     'The website is adapted for tablets and mobile devices.',
                     'Technologies used: Adobe Illustrator, SVG, Adobe Photoshop, HTML5/CSS3, BEM,',
-                    'Less, jQuery Gamma Gallery, JavaScript. Cross-browser compatibility: IE11+.'
+                    'Less, jQuery Gamma Gallery, JavaScript.',
+                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, IE-11, Edge.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/lenor-tat.jpg'],
                 large: ['img/code-gallery/large/lenor-tat.jpg'],
@@ -79,7 +81,8 @@ $(function() {
                     'decorated with flowers.<br>',
                     'The website is adapted for tablets and mobile devices.',
                     'Used technologies: Adobe Photoshop, Adobe Illustrator, HTML5/CSS3, BEM, Less, ',
-                    'jQuery Gamma Gallery, Bootstrap Carousel, JavaScript. Cross-browser compatibility: IE11+.'
+                    'jQuery Gamma Gallery, Bootstrap Carousel, JavaScript.',
+                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, IE-11, Edge'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/natalia-photo.jpg'],
                 large: ['img/code-gallery/large/natalia-photo.jpg'],
@@ -105,7 +108,8 @@ $(function() {
                     'My personal portfolio website. The project I decided to do with his own illustrations, css animation',
                     'as much as possible to show off your style.<br>' ,
                     'Used technologies: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM methodology, CSS preprocessor LESS, ',
-                    'JQuery plugin Elastic Grid, Material Photo Gallery. Cross-browser compatibility: IE11+.'
+                    'jQuery plugin Elastic Grid, Material Photo Gallery.',
+                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, IE-11, Edge.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/alicedesign.jpg'],
                 large: ['img/code-gallery/large/alicedesign.jpg'],
@@ -131,7 +135,8 @@ $(function() {
                     'Tourist information portal about the Sedona city, consisting of four pages.',
                     'A personal project in an advanced intensive online course "Advanced HTML/CSS" by "HTML Academy."' ,
                     'Responsive ready PSD layout. Technologies used in project:',
-                    'HTML5/CSS3, Flexbox, Less, BEM, JavaScript, jQuery, Adobe Photoshop. Cross-browser compatibility: IE11+.'
+                    'HTML5/CSS3, Flexbox, Less, BEM, JavaScript, jQuery, Adobe Photoshop.',
+                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, IE-11, Edge.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/sedona.jpg'],
                 large: ['img/code-gallery/large/sedona.jpg'],
@@ -156,7 +161,8 @@ $(function() {
                     'Promo website for the game - "Code and Magic"',
                     'The study project on an intensive online course "JavaScript' ,
                     'Technology used in the project:',
-                    'HTML5/CSS3, JavaScript, jQuery, BEM, SVG, Adobe Photoshop.'
+                    'HTML5/CSS3, JavaScript, jQuery, BEM, SVG, Adobe Photoshop.',
+                    'Cross-browser compatibility: Chrome, Opera, Firefox, IE-11, Edge.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/code-and-magic.jpg'],
                 large: ['img/code-gallery/large/code-and-magic.jpg'],
@@ -182,7 +188,8 @@ $(function() {
                     'The study project on an intensive online course "Advanced HTML/CSS" by "HTML Academy."' ,
                     'Responsive ready psd layout.' ,
                     'Technology used in the project:',
-                    'HTML5/CSS3, Flexbox, Less, BEM, JavaScript, Adobe Photoshop. Cross-browser compatibility: IE11+.'
+                    'HTML5/CSS3, Flexbox, Less, BEM, JavaScript, Adobe Photoshop.',
+                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, IE-11, Edge'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/pink.jpg'],
                 large: ['img/code-gallery/large/pink.jpg'],
@@ -206,7 +213,8 @@ $(function() {
                 description: [
                     'Online store of construction materials. A landing page with an additional page of the product catalog.',
                     'A personal project for an intensive online course "Basic HTML/CSS" in HTML Academy.',
-                    'Technology used in the project: HTML5/CSS3, JavaScript, Adobe Photoshop. Cross-browser compatibility: IE11+.'
+                    'Technology used in the project: HTML5/CSS3, JavaScript, Adobe Photoshop.',
+                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, IE-11, Edge.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/technomart.jpg'],
                 large: ['img/code-gallery/large/technomart.jpg'],
@@ -229,7 +237,8 @@ $(function() {
                 description: [
                     'Promotional website for the web-studio "Nerds", with additional catalog page templates.',
                     'The study project on an intensive online course "Basic HTML/CSS" in HTML Academy.',
-                    'Technology used in the project: HTML5/CSS3, JavaScript, Adobe Photoshop. Cross-browser compatibility: IE11+.'
+                    'Technology used in the project: HTML5/CSS3, JavaScript, Adobe Photoshop.',
+                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, IE-11, Edge.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/nerds.jpg'],
                 large: ['img/code-gallery/large/nerds.jpg'],
@@ -249,11 +258,36 @@ $(function() {
                 tags: ['Fixed']
             },
             {
+                title: 'Bank Online',
+                description: [
+                    'Promo page for a bank online. Responsive.',
+                    'Technology used in the project: HTML5/CSS3, Less, BEM, JavaScript, Webpack.',
+                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, IE-11, Edge, Android.'
+                ].join(' '),
+                thumbnail: ['img/code-gallery/small/bank.jpg'],
+                large: ['img/code-gallery/large/bank.jpg'],
+                img_title: [ 'image'],
+                button_list: [
+                    {
+                        title: 'Visit Website',
+                        url: 'http://bank.alicedesign.ru',
+                        new_window: true
+                    },
+                    {
+                        title: 'Source code',
+                        url: 'https://github.com/Alisa-Filatova/citybank',
+                        new_window: true
+                    }
+                ],
+                tags: ['Responsive']
+            },
+            {
                 title: 'Barbershop «Borodinski»',
                 description: [
                     'Website for the barbershop «Borodinski», with additional catalog page templates.',
                     'The study project on an intensive online course "Basic HTML/CSS" in HTML Academy.',
-                    'Technology used in the project: HTML5/CSS3, JavaScript, Adobe Photoshop. Cross-browser compatibility: IE11+.'
+                    'Technology used in the project: HTML5/CSS3, JavaScript, Adobe Photoshop.',
+                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, IE-11, Edge, Android.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/barbershop.jpg'],
                 large: ['img/code-gallery/large/barbershop.jpg'],

@@ -166,7 +166,7 @@ $(function() {
                     'Верстка по готовому psd-макету (HTML-Academy) с некоторым изменением и добавлением элементов дизайна.',
                     ' Технологии используемые в проекте: ',
                     'HTML5/CSS3, JavaScript, jQuery, AJAX, Webpack, SVG, Adobe Photoshop.',
-                    'Кроссбраузерность: Chrome, Opera, Firefox, Safari, IE-11, Edge.'
+                    'Кроссбраузерность: Chrome, Opera, Firefox, IE-11, Edge.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/code-and-magic.jpg'],
                 large: ['img/code-gallery/large/code-and-magic.jpg'],
@@ -264,11 +264,38 @@ $(function() {
                 tags: ['Фиксированная верстка']
             },
             {
+                title: 'Bank Online',
+                description: [
+                    'Промо страница онлайн-банка.',
+                    'Выполнялось в рамках тестового задания в банк (пройдено успешно).',
+                    'Отзывчивая верстка по готовому psd-макету (citibank).',
+                    'Валидация формы и стилизация ошибок при помощи JavaScript.',
+                    'В проекте использовались: HTML5/CSS3, Less, BEM, JavaScript, Webpack.',
+                    'Кроссбраузерность: Мобильные и десктопные Chrome, Opera, Firefox, Safari, IE-11, Edge, Android.'
+                ].join(' '),
+                thumbnail: ['img/code-gallery/small/bank.jpg'],
+                large: ['img/code-gallery/large/bank.jpg'],
+                img_title: [ 'image'],
+                button_list: [
+                    {
+                        title: 'Перейти на сайт',
+                        url: 'http://bank.alicedesign.ru',
+                        new_window: true
+                    },
+                    {
+                        title: 'Исходный код',
+                        url: 'https://github.com/Alisa-Filatova/citybank',
+                        new_window: true
+                    }
+                ],
+                tags: ['Отзывчивая верстка']
+            },
+            {
                 title: 'Барбершоп «Borodinski»',
                 description: [
                     'Сайт для барбершопа «Borodinski», с каталогом товаров и прайс-листом.',
                     'Учебный проект на интенсивном онлайн‑курсе «Базовый HTML/CSS» в «HTML Academy» (самый первый сайт).',
-                    'Фиксированная верстка по готовому psd-макету. В проекте использовались: HTML5/CSS3, JavaScript, Adobe Photoshop. ',
+                    'Фиксированная верстка по готовому psd-макету. В проекте использовались: HTML5/CSS3, JavaScript, Adobe Photoshop.',
                     'Кроссбраузерность: Chrome, Opera, Firefox, Safari, IE-11, Edge.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/barbershop.jpg'],
