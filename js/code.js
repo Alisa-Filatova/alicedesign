@@ -166,7 +166,7 @@ $(function() {
                     'Верстка по готовому psd-макету (HTML-Academy) с некоторым изменением и добавлением элементов дизайна.',
                     ' Технологии используемые в проекте: ',
                     'HTML5/CSS3, JavaScript, jQuery, AJAX, Webpack, SVG, Adobe Photoshop.',
-                    'Кроссбраузерность: Chrome, Opera, Firefox, IE-11, Edge.'
+                    'Кроссбраузерность: Chrome, Opera, Firefox, Edge.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/code-and-magic.jpg'],
                 large: ['img/code-gallery/large/code-and-magic.jpg'],

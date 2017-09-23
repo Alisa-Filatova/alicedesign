@@ -162,7 +162,7 @@ $(function() {
                     'The study project on an intensive online course "JavaScript' ,
                     'Technology used in the project:',
                     'HTML5/CSS3, JavaScript, jQuery, BEM, SVG, Adobe Photoshop.',
-                    'Cross-browser compatibility: Chrome, Opera, Firefox, IE-11, Edge.'
+                    'Cross-browser compatibility: Chrome, Opera, Firefox, Edge.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/code-and-magic.jpg'],
                 large: ['img/code-gallery/large/code-and-magic.jpg'],
