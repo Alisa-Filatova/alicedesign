@@ -15,30 +15,29 @@
 
 body {
     position: relative;
-    font-family: 'Neucha', Comic Sans, sans-serif;
+    font-family: @base-font;
     font-size: 1.2em;
     font-weight: 400;
     line-height: 1.65em;
     color: @purple_dark;
-    background: linear-gradient(to bottom, rgba(102, 255, 255, 0.8) 3%, @beige 16%);
-    background: -webkit-linear-gradient(top, rgba(102, 255, 255, 0.8) 3%, @beige 16%);
-    background: -moz-linear-gradient(top, rgba(102, 255, 255, 0.8) 3%, @beige 16%);
+    background: linear-gradient(to bottom, @fade-cyan 3%, @beige 16%);
+    background: -webkit-linear-gradient(top, @fade-cyan 3%, @beige 16%);
+    background: -moz-linear-gradient(top, @fade-cyan 3%, @beige 16%);
     text-align: left;
     margin: 0 auto;
     overflow-y: scroll;
     overflow-x: hidden;
-    //min-width: 1440px;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
 
-    @media (min-width: 1800px) {
+    @media (min-width: @super-big-screen) {
         background: url('../img/main-back.svg') no-repeat top center,
-                    -webkit-linear-gradient(top, rgba(102, 255, 255, 0.8) 3%, @beige 16%);
+                    -webkit-linear-gradient(top, @fade-cyan 3%, @beige 16%);
         background: url('../img/main-back.svg') no-repeat top center,
-                    linear-gradient(to bottom, rgba(102, 255, 255, 0.8) 3%, @beige 16%);
+                    linear-gradient(to bottom, @fade-cyan 3%, @beige 16%);
         background: url('../img/main-back-moz.svg') no-repeat top center,
-                    -moz-linear-gradient(top, rgba(102, 255, 255, 0.8) 3%, @beige 16%);
+                    -moz-linear-gradient(top, @fade-cyan 3%, @beige 16%);
         background-size: 100%;
     }
 }

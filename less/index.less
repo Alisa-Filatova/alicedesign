@@ -26,11 +26,11 @@
     }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: @big-screen) {
     .header {
         .container();
         padding-bottom: 716px;
-        background-size: 1440px;
+        background-size: @big-screen;
         background-attachment: fixed;
 
         &__logo {
@@ -53,7 +53,7 @@
     z-index: 50;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: @big-screen) {
     .tree {
         width: 422px;
         height: 548px;
@@ -149,7 +149,7 @@
     }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: @big-screen) {
     .tree-element {
 
         &__light {
@@ -221,12 +221,10 @@
 .contacts,
 .language,
 .portfolio__items {
+    .flex-wrapper(row, space-between, nowrap);
     margin-top: 0;
     list-style: none;
     text-align: center;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
     align-items: center;
     padding-left: 0;
 
@@ -340,7 +338,7 @@
     }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: @big-screen) {
     .contacts {
         min-width: 265px;
 
@@ -394,9 +392,7 @@
     }
 
     &__wrapper {
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: space-between;
+        .flex-wrapper(row, space-between, nowrap);
         align-items: flex-end;
         padding: 20px 57px 0;
     }
@@ -413,7 +409,7 @@
         bottom: 121px;
         left: 90px;
         transform: rotate(-5deg);
-        color: #cafcf9;
+        color: @cyan;
 
         &_rus {
             line-height: 48px;
@@ -423,7 +419,7 @@
     }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: @big-screen) {
     .language {
         width: 52px;
 
@@ -433,7 +429,7 @@
     }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: @big-screen) {
     .main-nav {
 
         &__wrapper {
@@ -463,7 +459,7 @@
             bottom: 162px;
             left: 118px;
             transform: rotate(-5deg);
-            color: #cafcf9;
+            color: @cyan;
 
             &_rus {
                 bottom: 163px;
@@ -493,7 +489,7 @@
     }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: @big-screen) {
     .rabbit {
         bottom: 12%;
         left: 62.2%;
@@ -525,7 +521,7 @@
     }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: @big-screen) {
     .arrow {
         bottom: 5.6%;
         left: 49.6%;
@@ -547,7 +543,7 @@
     bottom: 85px;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: @big-screen) {
     .girl {
         width: 91px;
         height: 220px;
@@ -567,7 +563,7 @@
     bottom: -2px;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: @big-screen) {
     .grass {
         height: 263px;
     }
@@ -576,11 +572,11 @@
 .portfolio {
     .container_laptop();
     background: url('../img/portfolio-background.svg') no-repeat top center,
-                linear-gradient(to bottom, rgba(153, 206, 255, 0.5) 15%, @beige 31%);
+                linear-gradient(to bottom, @fade-blue 15%, @beige 31%);
     background: url('../img/portfolio-background.svg') no-repeat top center,
-                -webkit-linear-gradient(top, rgba(153, 206, 255, 0.5) 15%, @beige 31%);
+                -webkit-linear-gradient(top, @fade-blue 15%, @beige 31%);
     background: url('../img/portfolio-background.svg') no-repeat top center,
-                -moz-linear-gradient(top, rgba(153, 206, 255, 0.5) 15%, @beige 31%);
+                -moz-linear-gradient(top, @fade-blue 15%, @beige 31%);
     background-size: 100%;
     padding-top: 130px;
     padding-bottom: 191px;
@@ -594,9 +590,7 @@
     }
 
     &__grid {
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: center;
+        .flex-wrapper(row, center, nowrap);
         align-items: center;
         margin: 18px 103px 0;
         max-width: 769px;
@@ -616,7 +610,7 @@
         position: relative;
         overflow: hidden;
         margin: 5px;
-        background: #333;
+        background: @grey-dark;
         border-radius: 5px;
     }
 
@@ -646,7 +640,7 @@
         font-weight: 300;
         -webkit-transition: -webkit-transform 0.3s;
         transition: transform 0.3s;
-        color: #fff;
+        color: @white;
         font-size: 108%;
         -webkit-transform: translateY(25px);
         transform: translateY(25px);
@@ -658,7 +652,7 @@
         transition: opacity 0.3s, transform 0.3s;
         -webkit-transition-delay: 0.05s;
         transition-delay: 0.05s;
-        color: #f2f2f2;
+        color: @grey-light;
         line-height: 21px;
         font-size: 16px;
         padding: 0 8px;
@@ -675,19 +669,19 @@
         letter-spacing: 1px;
         padding: 15px;
         width: 100%;
-        color: #fff;
+        color: @white;
         font-weight: 400;
         font-size: 16px;
-        background: #fc568d;
-        font-family: 'Neucha', 'Comic Sans', sans-serif;
-        -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
-        transition: opacity 0.3s, transform 0.3s;
+        background: @pink;
+        font-family: @base-font;
+        -webkit-transition: opacity 0.3s,-webkit-transform 0.3s;
+        transition: opacity 0.3s,transform 0.3s;
         -webkit-transform: translateY(100%);
         transform: translateY(100%);
         -webkit-appearance: none;
 
         &_purple {
-            background: #506085;
+            background: @purple_dark;
         }
     }
 
@@ -747,7 +741,7 @@
     }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: @big-screen) {
     .portfolio {
         .container();
         padding-top: 130px;
@@ -790,7 +784,7 @@
     .container_laptop();
     position: relative;
     background: url('../img/room.svg') no-repeat center top,
-                linear-gradient(to bottom, rgba(153, 206, 255, 0.5) 29%, transparent 53%);
+                linear-gradient(to bottom, @fade-blue 29%, transparent 53%);
     background-size: 100%;
     display: flex;
     justify-content: space-between;
@@ -838,7 +832,7 @@
     }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: @big-screen) {
     .about-me {
         .container();
         padding-bottom: 410px;
@@ -896,7 +890,7 @@
     &__minute {
         width: 1px;
         height: 30px;
-        background: #3a4d57;
+        background: @grey;
         position: absolute;
         top: 25px;
         left: 56px;
@@ -908,7 +902,7 @@
     &__hour {
         width: 2px;
         height: 28px;
-        background: #3a4d57;
+        background: @grey;
         position: absolute;
         top: 29px;
         left: 54px;
@@ -918,7 +912,7 @@
     }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: @big-screen) {
     .clock {
         top: 18%;
         left: 25.2%;
@@ -975,7 +969,7 @@
     }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: @big-screen) {
     .cat {
         width: 116px;
         height: 106px;
@@ -1022,7 +1016,7 @@
     }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: @big-screen) {
     .lamp {
         width: 120px;
         height: 155px;
@@ -1057,7 +1051,7 @@
     }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: @big-screen) {
     .lamp-big {
         width: 114px;
         height: 193px;
@@ -1085,9 +1079,7 @@
     }
 
     &__wrapper {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-around;
+        .flex-wrapper(row, space-around, wrap);
         align-items: flex-end;
         width: 95%;
         margin: auto;
@@ -1118,7 +1110,7 @@
     }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: @big-screen) {
     .footer {
         .container();
         padding-top: 25px;
@@ -1177,7 +1169,7 @@
     }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: @big-screen) {
     .mailbox {
         width: 172px;
         height: 200px;
