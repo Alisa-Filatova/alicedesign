@@ -110,7 +110,7 @@ $(function() {
                     'Готовится мобильная и планшетная версия. В текущей версии верстка главной страницы фиксированная,',
                     'адаптивность частично поддерживают внутренние страницы.<br>' ,
                     'Используемые технологии: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM, Less, ',
-                    'jQuery, плагин Elastic Grid, Material Photo Gallery, Snap SVG.',
+                    'jQuery, плагин Elastic Grid, Material Photo Gallery, Snap SVG, Webpack.',
                     'Кроссбраузерность: последние Chrome, Opera, Firefox, Safari, IE-11, Edge.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/alicedesign.jpg'],
@@ -164,8 +164,8 @@ $(function() {
                     'посмотреть галерею скриншотов, отзывы и оценьть игру.', 
                     'Личный проект на интенсиве «Базовый JavaScript» от «HTML-Academy».',
                     'Верстка по готовому psd-макету (HTML-Academy) с некоторым изменением и добавлением элементов дизайна.',
-                    ' Технологии используемые в проекте: ',
-                    'HTML5/CSS3, JavaScript, jQuery, AJAX, Webpack, SVG, Adobe Photoshop.',
+                    'Технологии используемые в проекте: ',
+                    'HTML5/CSS3, JavaScript, jQuery, AJAX, Webpack, SVG, Adobe Photoshop, Webpack.',
                     'Кроссбраузерность: Chrome, Opera, Firefox, Edge.'
                 ].join(' '),
                 thumbnail: ['img/code-gallery/small/code-and-magic.jpg'],
@@ -207,6 +207,32 @@ $(function() {
                     {
                         title: 'Исходный код',
                         url: 'https://github.com/Alisa-Filatova/Pink',
+                        new_window: false
+                    }
+                ],
+                tags: ['Отзывчивая верстка']
+            },
+            {
+                title: '«Con Mime»',
+                description: [
+                    'Главная страница сайта для коллекции одежды от «Con Mime» Lookbook 2017.',
+                    'Адаптивно-резиновая верстка по готовому-psd макету.' ,
+                    'Технологии используемые в проекте:',
+                    'HTML5/CSS3, Less, BEM, JavaScript, Webpack, Adobe Photoshop.',
+                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, IE-11, Edge, Android.'
+                ].join(' '),
+                thumbnail: ['img/code-gallery/small/conmime.jpg'],
+                large: ['img/code-gallery/large/conmime.jpg'],
+                img_title: ['image 1 '],
+                button_list: [
+                    {
+                        title: 'Перейти на сайт',
+                        url: 'http://conmime.alicedesign.ru',
+                        new_window: true
+                    },
+                    {
+                        title: 'Исходный код',
+                        url: 'https://github.com/Alisa-Filatova/clothes-shop',
                         new_window: false
                     }
                 ],
