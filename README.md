@@ -2,4 +2,4 @@
 
 Мой личный сайт портфолио. Собственный дизайн.
 
-2017 Copyright Alisa Filatova (alicedesign.ru)
+2017 Copyright Alisa Filatova (alicedesign.site)
