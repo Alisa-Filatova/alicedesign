@@ -103,7 +103,7 @@ $(function() {
             },
 
             {
-                title: 'alicedesign.ru',
+                title: 'alicedesign.site',
                 description: [
                     'Мой личный сайт портфолио. Проект я решила делать со своими векторными иллюстрациями и CSS анимацией.',
                     'Так я смогла максимально отразить себя. Дизайн делала полностью сама, дав себе волю и стараясь не думать', 
@@ -120,7 +120,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Перейти на сайт',
-                        url: 'http://alicedesign.ru/',
+                        url: 'https://alicedesign.site/',
                         new_window: true
                     },
                     {

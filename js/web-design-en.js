@@ -97,7 +97,7 @@ $(function() {
             },
 
             {
-                title: 'alicedesign.ru',
+                title: 'alicedesign.site',
                 description: [
                     'My personal portfolio website. The project I decided to do with his own illustrations, css animation',
                     'as much as possible to show off your style.<br>' ,
@@ -110,12 +110,12 @@ $(function() {
                 button_list: [
                     {
                         title: 'Visit Website',
-                        url: 'http://alicedesign.ru/',
+                        url: 'http://alicedesign.site/',
                         new_window: true
                     },
                     {
                         title: 'Source Code',
-                        url: 'https://github.com/Alisa-Filatova/Natalia-photography',
+                        url: 'https://github.com/Alisa-Filatova/alicedesign',
                         new_window: true
                     }
                 ],
