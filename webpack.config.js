@@ -54,6 +54,11 @@ module.exports = {
     plugins: [
         new ExtractTextPlugin('css/[name].css'),
     ],
+
+    devServer: {
+        host: '0.0.0.0',
+        port: 8080,
+    }
 };
 
 if (NODE_ENV === 'production') {

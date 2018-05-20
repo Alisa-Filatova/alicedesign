@@ -182,6 +182,26 @@ $(function() {
                 tags: ['Fixed']
             },
             {
+                title: '«netlab.com.cy»',
+                description: [
+                    'Information web-site for the "Netlab" internet solutions company, consisting of three pages.',
+                    'Responsive ready PSD layout. Technologies used in project:' ,
+                    'HTML5/CSS3, Less, BEM, JavaScript, Webpack, Adobe Photoshop.',
+                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, IE-11, Edge, Android 4.1 + .'
+                ].join(' '),
+                thumbnail: ['img/code-gallery/small/netlab.jpg'],
+                large: ['img/code-gallery/large/netlab.jpg'],
+                img_title: ['image 1 '],
+                button_list: [
+                    {
+                        title: 'Перейти на сайт',
+                        url: 'http://netlab.com.cy/',
+                        new_window: true
+                    }
+                ],
+                tags: ['Responsive']
+            },
+            {
                 title: 'Pink',
                 description: [
                     'Promotional website for a mobile app - "Pink", consisting of three pages.',
