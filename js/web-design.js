@@ -72,7 +72,7 @@ $(function() {
                 tags: ['Адаптивный дизайн']
             },
             {
-                title: 'natalia-photo.com',
+                title: 'nataliaphoto.me',
                 description: [
                     'Сайт-портфолио семейного и свадебного фотографа Наталии Бирюк из Калифорнии, США.', 
                     'Сайт состоит из девяти страниц.' ,
@@ -90,7 +90,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Перейти на сайт',
-                        url: 'http://natalia-photo.com/',
+                        url: 'http://nataliaphoto.me',
                         new_window: true
                     },
                     {

@@ -72,7 +72,7 @@ $(function() {
                 tags: ['Responsive']
             },
             {
-                title: 'natalia-photo.com',
+                title: 'nataliaphoto.me',
                 description: [
                     'Portfolio website of family and wedding photographer - Natalia Biriouk from California, USA. The site consists of nine pages.<br>' ,
                     'Target audience: young mothers, housewives with children',
@@ -90,7 +90,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Visit Website',
-                        url: 'http://natalia-photo.com/',
+                        url: 'http://nataliaphoto.me',
                         new_window: true
                     },
                     {
