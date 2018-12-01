@@ -60,7 +60,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Visit Website',
-                        url: 'http://lenortat.spb.ru/',
+                        url: 'http://lenortat.alicedesign.site/',
                         new_window: true
                     },
                     {
@@ -228,32 +228,32 @@ $(function() {
                 ],
                 tags: ['Responsive']
             },
-            {
-                title: '«Con Mime»',
-                description: [
-                    'Main page for design collection «Con Mime» Lookbook 2017.',
-                    'Responsive ready psd layout.' ,
-                    'Technology used in the project:',
-                    'HTML5/CSS3, Less, BEM, JavaScript, Webpack, Adobe Photoshop.',
-                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, IE-11, Edge, Android.'
-                ].join(' '),
-                thumbnail: ['img/code-gallery/small/conmime.jpg'],
-                large: ['img/code-gallery/large/conmime.jpg'],
-                img_title: ['image 1 '],
-                button_list: [
-                    {
-                        title: 'Перейти на сайт',
-                        url: 'http://conmime.alicedesign.site',
-                        new_window: true
-                    },
-                    {
-                        title: 'Исходный код',
-                        url: 'https://github.com/Alisa-Filatova/clothes-shop',
-                        new_window: false
-                    }
-                ],
-                tags: ['Responsive']
-            },
+            // {
+            //     title: '«Con Mime»',
+            //     description: [
+            //         'Main page for design collection «Con Mime» Lookbook 2017.',
+            //         'Responsive ready psd layout.' ,
+            //         'Technology used in the project:',
+            //         'HTML5/CSS3, Less, BEM, JavaScript, Webpack, Adobe Photoshop.',
+            //         'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, IE-11, Edge, Android.'
+            //     ].join(' '),
+            //     thumbnail: ['img/code-gallery/small/conmime.jpg'],
+            //     large: ['img/code-gallery/large/conmime.jpg'],
+            //     img_title: ['image 1 '],
+            //     button_list: [
+            //         {
+            //             title: 'Перейти на сайт',
+            //             url: 'http://conmime.alicedesign.site',
+            //             new_window: true
+            //         },
+            //         {
+            //             title: 'Исходный код',
+            //             url: 'https://github.com/Alisa-Filatova/clothes-shop',
+            //             new_window: false
+            //         }
+            //     ],
+            //     tags: ['Responsive']
+            // },
             {
                 title: 'Technomart',
                 description: [

@@ -59,7 +59,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Перейти на сайт',
-                        url: 'http://lenortat.spb.ru/',
+                        url: 'http://lenortat.alicedesign.site/',
                         new_window: true
                     },
                     {

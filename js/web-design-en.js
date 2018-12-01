@@ -55,7 +55,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Visit Website',
-                        url: 'http://lenortat.spb.ru/',
+                        url: 'http://lenortat.alicedesign.site/',
                         new_window: true
                     },
                     {
