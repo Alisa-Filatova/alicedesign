@@ -55,7 +55,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Visit Website',
-                        url: 'http://lenortat.alicedesign.site/',
+                        url: 'http://lenortat.alicedesign.ru/',
                         new_window: true
                     },
                     {
@@ -97,7 +97,7 @@ $(function() {
             },
 
             {
-                title: 'alicedesign.site',
+                title: 'alicedesign.ru',
                 description: [
                     'My personal portfolio website. The project I decided to do with his own illustrations, css animation',
                     'as much as possible to show off your style.<br>' ,
@@ -110,7 +110,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Visit Website',
-                        url: 'http://alicedesign.site/',
+                        url: 'http://alicedesign.ru/',
                         new_window: true
                     },
                     {

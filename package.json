@@ -1,12 +1,12 @@
 {
-  "name": "alicedesign.site",
+  "name": "alicedesign.ru",
   "version": "1.0.0",
   "private": true,
   "description": "Сайт-портфолио веб дизайнера/веб-разработчика Филатовой Алисы.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "ssh vds ./deploy.sh alicedesign.site",
+    "deploy": "ssh vds ./deploy.sh alicedesign.ru",
     "webpack": "webpack",
     "devServer": "webpack-dev-server",
     "watch": "webpack -w",

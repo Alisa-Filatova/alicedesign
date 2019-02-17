@@ -59,7 +59,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Перейти на сайт',
-                        url: 'http://lenortat.alicedesign.site/',
+                        url: 'http://lenortat.alicedesign.ru/',
                         new_window: true
                     },
                     {
@@ -102,7 +102,7 @@ $(function() {
             },
 
             {
-                title: 'alicedesign.site',
+                title: 'alicedesign.ru',
                 description: [
                     'Мой личный сайт портфолио. Проект я решила делать со своими векторными иллюстрациями и CSS анимацией.',
                     'Так я смогла максимально отразить себя. Дизайн делала полностью сама, дав себе волю и стараясь не думать', 
@@ -119,7 +119,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Перейти на сайт',
-                        url: 'http://alicedesign.site/',
+                        url: 'http://alicedesign.ru/',
                         new_window: true
                     },
                     {
@@ -145,7 +145,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Перейти на сайт',
-                        url: 'http://sedona.alicedesign.site',
+                        url: 'http://sedona.alicedesign.ru',
                         new_window: true
                     },
                     {
@@ -174,7 +174,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Перейти на сайт',
-                        url: 'http://code-and-magic.alicedesign.site',
+                        url: 'http://code-and-magic.alicedesign.ru',
                         new_window: true
                     },
                     {
@@ -222,7 +222,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Перейти на сайт',
-                        url: 'http://pink.alicedesign.site',
+                        url: 'http://pink.alicedesign.ru',
                         new_window: true
                     },
                     {
@@ -248,7 +248,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Перейти на сайт',
-                        url: 'http://technomart.alicedesign.site',
+                        url: 'http://technomart.alicedesign.ru',
                         new_window: true
                     },
                     {
@@ -274,7 +274,7 @@ $(function() {
             //     button_list: [
             //         {
             //             title: 'Перейти на сайт',
-            //             url: 'http://conmime.alicedesign.site',
+            //             url: 'http://conmime.alicedesign.ru',
             //             new_window: true
             //         },
             //         {
@@ -299,7 +299,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Перейти на сайт',
-                        url: 'http://nerds.alicedesign.site',
+                        url: 'http://nerds.alicedesign.ru',
                         new_window: true
                     },
                     {
@@ -326,7 +326,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Перейти на сайт',
-                        url: 'http://bank.alicedesign.site',
+                        url: 'http://bank.alicedesign.ru',
                         new_window: true
                     },
                     {
@@ -351,7 +351,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Перейти на сайт',
-                        url: 'http://barbershop.alicedesign.site',
+                        url: 'http://barbershop.alicedesign.ru',
                         new_window: true
                     },
                     {
