@@ -13,34 +13,56 @@ $(function() {
         expandingSpeed: 500,
         expandingHeight: 500,
         items: [
-            {
-                title: 'goroshkodance.ru',
+					  {
+                title: 'town.ezy.com',
                 description: [
-                    'Лендинг для танцевальной школы хореографа Саши Горошко (участница 4 сезона шоу «ТАНЦЫ» на ТНТ).',
-                    'Назначение сайта: информационная поддержка учеников, привлечение новых студентов, портфолио,',
-                    'информация для сотрудничества.<br>',
-                    'Основная целевая аудитория: девушки 14-25 лет, проживающие в Москве.<br>',
-                    'Адаптивно-резиновая верстка. Мой собственный дизайн.',
-                    'В проекте я использовала: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM, Less, JavaScript, jQuery, AJAX, Webpack.',
-                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, IE-11, Edge.'
+                  'Рекламный лендинг для сервиса с игровыми предметами CS:GO - EZY.com.',
+                  'Назначение приложения: открытие кейсов с игровыми предметами, апгрейд предметов, обмен, и прочие операции. ',
+									'Назначение лендинга: реклама приложения.',
+                  'Адаптивно-резиновая верстка.',
+                  'В проекте я использовала: SVG, HTML5/CSS3, Less, JavaScript, Webpack.',
+                  'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge.'
                 ].join(' '),
-                thumbnail: ['img/code-gallery/small/goroshko-dance.jpg'],
-                large: ['img/code-gallery/large/goroshko-dance.jpg'],
-                img_title: ['goroshkodance.ru'],
+                thumbnail: ['img/code-gallery/small/ezy-town.jpg'],
+                large: ['img/code-gallery/large/ezy-town.jpg'],
+                img_title: ['town.ezy.com'],
                 button_list: [
-                    {
-                        title: 'Перейти на сайт',
-                        url: 'http://goroshkodance.ru/',
-                        new_window: true
-                    },
-                    {
-                        title: 'Исходный код',
-                        url: 'https://github.com/Alisa-Filatova/Goroshko-dance',
-                        new_window: true
-                    }
+                  {
+                    title: 'Перейти на сайт',
+                    url: 'https://town.ezy.com/',
+                    new_window: true
+                  },
                 ],
                 tags: ['Отзывчивая верстка']
-            },
+					  },
+						{
+								title: 'goroshkodance.ru',
+								description: [
+									'Лендинг для танцевальной школы хореографа Саши Горошко (участница 4 сезона шоу «ТАНЦЫ» на ТНТ).',
+									'Назначение сайта: информационная поддержка учеников, привлечение новых студентов, портфолио,',
+									'информация для сотрудничества.<br>',
+									'Основная целевая аудитория: девушки 14-25 лет, проживающие в Москве.<br>',
+									'Адаптивно-резиновая верстка. Мой собственный дизайн.',
+									'В проекте я использовала: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM, Less, JavaScript, jQuery, AJAX, Webpack.',
+									'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, IE-11, Edge.'
+								].join(' '),
+								thumbnail: ['img/code-gallery/small/goroshko-dance.jpg'],
+								large: ['img/code-gallery/large/goroshko-dance.jpg'],
+								img_title: ['goroshkodance.ru'],
+								button_list: [
+									{
+										title: 'Перейти на сайт',
+										url: 'http://goroshkodance.ru/',
+										new_window: true
+									},
+									{
+										title: 'Исходный код',
+										url: 'https://github.com/Alisa-Filatova/Goroshko-dance',
+										new_window: true
+									}
+								],
+								tags: ['Отзывчивая верстка']
+						},
             {
                 title: 'lenortat.spb.ru',
                 description: [

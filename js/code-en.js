@@ -13,6 +13,25 @@ $(function() {
         expandingSpeed: 500,
         expandingHeight: 500,
         items: [
+					  {
+                title: 'town.ezy.com',
+                description: [
+									'Promotional landing-page for SPA EZY.com. Cases and items for Counter Strike Global Offensive and VGO blockchain system.',
+                  'In the project I used: SVG, HTML5/CSS3, Less, JavaScript, Webpack.',
+                  'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, Edge.'
+                ].join(' '),
+                thumbnail: ['img/code-gallery/small/ezy-town.jpg'],
+                large: ['img/code-gallery/large/ezy-town.jpg'],
+                img_title: ['town.ezy.com'],
+                button_list: [
+                  {
+                    title: 'Visit Website',
+                    url: 'https://town.ezy.com/',
+                    new_window: true
+                  },
+                ],
+                tags: ['Responsive']
+					  },
             {
                 title: 'goroshkodance.ru',
                 description: [
@@ -156,7 +175,7 @@ $(function() {
                 tags: ['Responsive']
             },
             {
-                title: '«Code and Magic»',
+                title: 'Code and Magic',
                 description: [
                     'Promo website for the game - "Code and Magic"',
                     'The study project on an intensive online course "JavaScript' ,
@@ -182,7 +201,7 @@ $(function() {
                 tags: ['Fixed']
             },
             {
-                title: '«netlab.com.cy»',
+                title: 'netlab.com.cy',
                 description: [
                     'Information web-site for the "Netlab" internet solutions company, consisting of three pages.',
                     'Responsive ready PSD layout. Technologies used in project:' ,
