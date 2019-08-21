@@ -1,7 +1,7 @@
 /**
  * Created by Alisa on 08.06.17.
  */
-import $ from 'jquery'; 
+import $ from 'jquery';
 
 $(function() {
     $('#elastic_grid_demo').elastic_grid({
@@ -14,27 +14,135 @@ $(function() {
         expandingHeight: 500,
         items: [
 					  {
-                title: 'town.ezy.com',
+                title: 'ezy.com',
                 description: [
-                  'Рекламный лендинг для сервиса с игровыми предметами CS:GO - EZY.com.',
-                  'Назначение приложения: открытие кейсов с игровыми предметами, апгрейд предметов, обмен, и прочие операции. ',
-									'Назначение лендинга: реклама приложения.',
-                  'Адаптивно-резиновая верстка.',
-                  'В проекте я использовала: SVG, HTML5/CSS3, Less, JavaScript, Webpack.',
-                  'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge.'
+                  'Сервис с игровыми предметами для Counter-Strike: Global Offensive - EZY.com.',
+                  'SPA приложение для геймеров и киберспортсменов. Игры, открытие кейсов с игровыми предметами, апгрейд предметов, обмен, и прочие операции. ',
+                  'Отзывчивая верстка. Поддержка 13ти языков.',
+                  'В проекте я занимала роль младшего фронтенд-разработчика. Использовала: React.js, TypeScript, MobX, SVG, HTML5/CSS3, Less, JavaScript, Webpack.',
+                  'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge последние версии.'
                 ].join(' '),
-                thumbnail: ['img/code-gallery/small/ezy-town.jpg'],
-                large: ['img/code-gallery/large/ezy-town.jpg'],
-                img_title: ['town.ezy.com'],
+                thumbnail: [
+                    'img/code-gallery/small/ezy.jpg',
+                    'img/code-gallery/large/home.png',
+                    'img/code-gallery/large/upgrade-min.png',
+                    'img/code-gallery/large/upgrade2-min.png',
+                    'img/code-gallery/large/spiner.png',
+                    'img/code-gallery/large/spiner2.png',
+                    'img/code-gallery/large/giveaway.png',
+                    'img/code-gallery/large/profile.png',
+                    'img/code-gallery/large/daily-bonus.png',
+                    'img/code-gallery/large/deposit.png',
+                    'img/code-gallery/large/why-we.png'
+                ],
+                large: [
+                    'img/code-gallery/large/ezy.jpg',
+                    'img/code-gallery/large/home.png',
+                    'img/code-gallery/large/upgrade-min.png',
+                    'img/code-gallery/large/upgrade2-min.png',
+                    'img/code-gallery/large/spiner.png',
+                    'img/code-gallery/large/spiner2.png',
+                    'img/code-gallery/large/giveaway.png',
+                    'img/code-gallery/large/profile.png',
+                    'img/code-gallery/large/daily-bonus.png',
+                    'img/code-gallery/large/deposit.png',
+                    'img/code-gallery/large/why-we.png'
+                ],
+                img_title: ['ezy.com', 'upgrade'],
                 button_list: [
                   {
                     title: 'Перейти на сайт',
-                    url: 'https://town.ezy.com/',
+                    url: 'https://ezy.com/',
                     new_window: true
-                  },
+                  }
                 ],
                 tags: ['Отзывчивая верстка']
 					  },
+            {
+                title: 'town.ezy.com',
+                description: [
+                    'Рекламный лендинг для сервиса с игровыми предметами Counter-Strike: Global Offensive - EZY.com - EZY.com.',
+                    'Назначение приложения: открытие кейсов с игровыми предметами, апгрейд предметов, обмен, и прочие операции. ',
+                    'Назначение лендинга: реклама приложения.',
+                    'Адаптивно-резиновая верстка.',
+                    'В проекте я использовала: SVG, HTML5/CSS3, Less, JavaScript, Webpack.',
+                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge последние версии.'
+                ].join(' '),
+                thumbnail: [
+                    'img/code-gallery/small/ezy-town.jpg',
+                    'img/code-gallery/large/town1.png',
+                    'img/code-gallery/large/town2.png'
+                ],
+                large: [
+                    'img/code-gallery/large/ezy-town.jpg',
+                    'img/code-gallery/large/town1.png',
+                    'img/code-gallery/large/town2.png'
+                ],
+                img_title: ['town.ezy.com'],
+                button_list: [
+                    {
+                        title: 'Перейти на сайт',
+                        url: 'https://town.ezy.com/',
+                        new_window: true
+                    }
+                ],
+                tags: ['Отзывчивая верстка']
+            },
+            {
+                title: 'vgo.ezy.com',
+                description: [
+                    'Рекламный лендинг для сервиса с игровыми предметами Counter-Strike: Global Offensive - EZY.com - EZY.com.',
+                    'Назначение приложения: открытие кейсов с игровыми предметами, апгрейд предметов, обмен, и прочие операции. ',
+                    'Назначение лендинга: подробное описание VGO предметов и их преимущества.',
+                    'Адаптивно-резиновая верстка.',
+                    'В проекте я использовала: SVG, HTML5/CSS3, Less, JavaScript, Webpack.',
+                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge последние версии.'
+                ].join(' '),
+                thumbnail: [
+                  'img/code-gallery/small/vgo.jpg',
+                  'img/code-gallery/large/vgo-csgo.png',
+                  'img/code-gallery/large/vgo-csgo-mobile2.png',
+                  'img/code-gallery/large/vgo-csgo-mobile3.png',
+                  'img/code-gallery/large/vgo-csgo2.png'
+                ],
+                large: [
+                  'img/code-gallery/large/vgo.jpg',
+                  'img/code-gallery/large/vgo-csgo.png',
+                  'img/code-gallery/large/vgo-csgo-mobile2.png',
+                  'img/code-gallery/large/vgo-csgo-mobile3.png',
+                  'img/code-gallery/large/vgo-csgo2.png'
+                ],
+                img_title: ['vgo.ezy.com'],
+                button_list: [
+                    {
+                        title: 'Перейти на сайт',
+                        url: 'https://ezy.com/',
+                        new_window: true
+                    }
+                ],
+                tags: ['Отзывчивая верстка']
+            },
+            {
+                title: 'leondrop.net',
+                description: [
+                    'Сервис с игровыми предметами для Counter-Strike: Global Offensive - leondrop.net. Адаптация EZY.com для российского рынка.',
+                    'SPA приложение для геймеров и киберспортсменов. Игры, открытие кейсов с игровыми предметами, апгрейд предметов, обмен, и прочие операции. ',
+                    'Отзывчивая верстка.',
+                    'В проекте я занимала роль младшего фронтенд-разработчика. Использовала: React.js, TypeScript, MobX, SVG, HTML5/CSS3, Less, JavaScript, Webpack.',
+                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge последние версии.'
+                ].join(' '),
+                thumbnail: ['img/code-gallery/small/leon.jpg'],
+                large: ['img/code-gallery/large/leon.jpg'],
+                img_title: ['leondrop.net'],
+                button_list: [
+                    {
+                        title: 'Перейти на сайт',
+                        url: 'https://leondrop.net/',
+                        new_window: true
+                    }
+                ],
+                tags: ['Отзывчивая верстка']
+            },
 						{
 								title: 'goroshkodance.ru',
 								description: [
@@ -63,6 +171,27 @@ $(function() {
 								],
 								tags: ['Отзывчивая верстка']
 						},
+            {
+                title: 'ezy-exchange.com',
+                description: [
+                    'Сервис для обмена игровыми предметами Counter-Strike: Global Offensive - ezy-exchange.com.',
+                    'SPA приложение для геймеров и киберспортсменов. Игры, открытие кейсов с игровыми предметами, апгрейд предметов, обмен, и прочие операции. ',
+                    'Отзывчивая верстка.',
+                    'В проекте я занимала роль младшего фронтенд-разработчика. Использовала: React.js, TypeScript, MobX, SVG, HTML5/CSS3, Less, JavaScript, Webpack.',
+                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge последние версии.'
+                ].join(' '),
+                thumbnail: ['img/code-gallery/small/exchanger.jpg'],
+                large: ['img/code-gallery/large/exchanger.jpg'],
+                img_title: ['ezy-exchange.com'],
+                button_list: [
+                    {
+                        title: 'Перейти на сайт',
+                        url: 'https://ezy-exchange.com/',
+                        new_window: true
+                    }
+                ],
+                tags: ['Отзывчивая верстка']
+            },
             {
                 title: 'lenortat.spb.ru',
                 description: [
@@ -95,7 +224,7 @@ $(function() {
             {
                 title: 'nataliaphoto.me',
                 description: [
-                    'Сайт-портфолио семейного и свадебного фотографа Наталии Бирюк из Калифорнии, США.', 
+                    'Сайт-портфолио семейного и свадебного фотографа Наталии Бирюк из Калифорнии, США.',
                     'Сайт состоит из девяти страниц.' ,
                     'Альбомы фотографий по категориям, форма обратной связи, информация о фотографе.<br>',
                     'Целевая аудитория: молодые мамы, семьи с детьми,',
@@ -127,7 +256,7 @@ $(function() {
                 title: 'alicedesign.ru',
                 description: [
                     'Мой личный сайт портфолио. Проект я решила делать со своими векторными иллюстрациями и CSS анимацией.',
-                    'Так я смогла максимально отразить себя. Дизайн делала полностью сама, дав себе волю и стараясь не думать', 
+                    'Так я смогла максимально отразить себя. Дизайн делала полностью сама, дав себе волю и стараясь не думать',
                     'об ограничениях верстки.<br> На данный момент работа над сайтом продолжается.',
                     'Готовится мобильная и планшетная версия. В текущей версии верстка главной страницы фиксированная,',
                     'адаптивность частично поддерживают внутренние страницы.<br>' ,
@@ -147,6 +276,134 @@ $(function() {
                     {
                         title: 'Исходный код',
                         url: 'https://github.com/Alisa-Filatova/Natalia-photography',
+                        new_window: true
+                    }
+                ],
+                tags: ['Фиксированная верстка']
+            },
+            {
+                title: '«netlab.com.cy»',
+                description: [
+                    'Информационный сайт для веб-компании "Netlab.',
+                    'Адаптивно-резиновая верстка по готовому-psd макету.' ,
+                    'Технологии используемые в проекте:',
+                    'HTML5/CSS3, Less, BEM, JavaScript, Webpack, Adobe Photoshop.',
+                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, IE-11, Edge, Android 4.1 + .'
+                ].join(' '),
+                thumbnail: ['img/code-gallery/small/netlab.jpg'],
+                large: ['img/code-gallery/large/netlab.jpg'],
+                img_title: ['image 1 '],
+                button_list: [
+                    {
+                        title: 'Перейти на сайт',
+                        url: 'http://netlab.com.cy/',
+                        new_window: true
+                    }
+                ],
+                tags: ['Отзывчивая верстка']
+            },
+            {
+                title: '«fora.ru»',
+                description: [
+                    'Информационный сайт для консалтинговой компании "Fora".',
+                    'Адаптивно-резиновая верстка по готовому-psd макету.' ,
+                    'Технологии используемые в проекте:',
+                    'HTML5/CSS3, Less, BEM, JavaScript, Webpack, Sketch.',
+                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge.'
+                ].join(' '),
+                thumbnail: ['img/code-gallery/small/fora.jpg'],
+                large: ['img/code-gallery/large/fora.jpg'],
+                img_title: ['image 1 '],
+                button_list: [
+                    {
+                        title: 'Перейти на сайт',
+                        url: 'http://fora.ru/',
+                        new_window: true
+                    }
+                ],
+                tags: ['Отзывчивая верстка']
+            },
+            {
+                title: '«Six cities»',
+                description: [
+                    '«Шесть городов» — сервис для путешественников, не желающих переплачивать за аренду жилья. ' +
+                    'Выбирайте один из шести популярных городов для путешествий и получайте актуальный список предложений по аренде. ' +
+                    'Подробная информация о жилье, показ объекта на карте, а также лаконичный интерфейс сервиса помогут быстро выбрать оптимальное предложение.',
+                    'Личный проект на интенсивном онлайн-курсе «Профессиональный JavaScript уровень 3» в «HTML Academy».' ,
+                    'Технологии используемые и изучаемые в проекте:',
+                    'TypeScript, React.js, Redux, тестирование с помощью Jest.',
+                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge.'
+                ].join(' '),
+                thumbnail: ['img/code-gallery/small/six-cities.jpg'],
+                large: ['img/code-gallery/large/six-cities.jpg'],
+                img_title: ['image'],
+                button_list: [
+                    {
+                        title: 'Перейти на сайт',
+                        url: 'http://six-cities.alicedesign.ru',
+                        new_window: true
+                    },
+                    {
+                        title: 'Исходный код',
+                        url: 'https://github.com/Alisa-Filatova/Six-cities',
+                        new_window: true
+                    }
+                ],
+                tags: ['Фиксированная верстка']
+            },
+            {
+                title: '«Code and Magic»',
+                description: [
+                    'Промо-сайт для игры «Code and Magic», где можно поиграть в демо-версию,',
+                    'создать вашего уникального персонажа, купить ему артефакты, посмотреть похожих персонажей,',
+                    'посмотреть галерею скриншотов, отзывы и оценьть игру.',
+                    'Личный проект на интенсиве «Базовый JavaScript» от «HTML-Academy».',
+                    'Верстка по готовому psd-макету (HTML-Academy) с некоторым изменением и добавлением элементов дизайна.',
+                    'Технологии используемые в проекте: ',
+                    'HTML5/CSS3, JavaScript, jQuery, AJAX, Webpack, SVG, Adobe Photoshop, Webpack.',
+                    'Кроссбраузерность: Chrome, Opera, Firefox, Edge.'
+                ].join(' '),
+                thumbnail: ['img/code-gallery/small/code-and-magic.jpg'],
+                large: ['img/code-gallery/large/code-and-magic.jpg'],
+                img_title: ['image'],
+                button_list: [
+                    {
+                        title: 'Перейти на сайт',
+                        url: 'http://code-and-magic.alicedesign.ru',
+                        new_window: true
+                    },
+                    {
+                        title: 'Исходный код',
+                        url: 'https://github.com/Alisa-Filatova/code-and-magic',
+                        new_window: true
+                    }
+                ],
+                tags: ['Фиксированная верстка']
+            },
+            {
+                title: '«Moowle»',
+                description: [
+                    'Moowle — сервис для фанатов большого кино и телевизионных сериалов. ' +
+                    'Подробная информация о горячих новинках кино, возможность выбрать и сформировать ' +
+                    'собственный список фильмов к просмотру, обсуждение кинофильмов и многое другое.' +
+                    ' Moowle — поможет провести время интересно.',
+                    'Личный проект на интенсивном онлайн-курсе «Профессиональный JavaScript уровень 2» в «HTML Academy».' ,
+                    'Технологии используемые и изучаемые в проекте:',
+                    'JavaScript (ES6), работа с Webpack и сторонними библиотеками.',
+                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge.'
+                ].join(' '),
+                thumbnail: ['img/code-gallery/small/moowle.jpg'],
+                large: ['img/code-gallery/large/moowle.jpg'],
+                img_title: ['image'],
+                button_list: [
+                    {
+                        title: 'Перейти на сайт',
+                        url: 'http://moowle.alicedesign.ru',
+                        new_window: true
+                    },
+                    {
+                        title: 'Исходный код',
+                        url: 'https://github.com/Alisa-Filatova/Cinemaddict',
                         new_window: true
                     }
                 ],
@@ -173,56 +430,6 @@ $(function() {
                     {
                         title: 'Исходный код',
                         url: 'https://github.com/Alisa-Filatova/sedona',
-                        new_window: true
-                    }
-                ],
-                tags: ['Отзывчивая верстка']
-            },
-            {
-                title: '«Code and Magic»',
-                description: [
-                    'Промо-сайт для игры «Code and Magic», где можно поиграть в демо-версию,', 
-                    'создать вашего уникального персонажа, купить ему артефакты, посмотреть похожих персонажей,', 
-                    'посмотреть галерею скриншотов, отзывы и оценьть игру.', 
-                    'Личный проект на интенсиве «Базовый JavaScript» от «HTML-Academy».',
-                    'Верстка по готовому psd-макету (HTML-Academy) с некоторым изменением и добавлением элементов дизайна.',
-                    'Технологии используемые в проекте: ',
-                    'HTML5/CSS3, JavaScript, jQuery, AJAX, Webpack, SVG, Adobe Photoshop, Webpack.',
-                    'Кроссбраузерность: Chrome, Opera, Firefox, Edge.'
-                ].join(' '),
-                thumbnail: ['img/code-gallery/small/code-and-magic.jpg'],
-                large: ['img/code-gallery/large/code-and-magic.jpg'],
-                img_title: ['image'],
-                button_list: [
-                    {
-                        title: 'Перейти на сайт',
-                        url: 'http://code-and-magic.alicedesign.ru',
-                        new_window: true
-                    },
-                    {
-                        title: 'Исходный код',
-                        url: 'https://github.com/Alisa-Filatova/code-and-magic',
-                        new_window: true
-                    }
-                ],
-                tags: ['Фиксированная верстка']
-            },
-            {
-                title: '«netlab.com.cy»',
-                description: [
-                    'Информационный сайт для веб-компании "Netlab.',
-                    'Адаптивно-резиновая верстка по готовому-psd макету.' ,
-                    'Технологии используемые в проекте:',
-                    'HTML5/CSS3, Less, BEM, JavaScript, Webpack, Adobe Photoshop.',
-                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, IE-11, Edge, Android 4.1 + .'
-                ].join(' '),
-                thumbnail: ['img/code-gallery/small/netlab.jpg'],
-                large: ['img/code-gallery/large/netlab.jpg'],
-                img_title: ['image 1 '],
-                button_list: [
-                    {
-                        title: 'Перейти на сайт',
-                        url: 'http://netlab.com.cy/',
                         new_window: true
                     }
                 ],
@@ -281,32 +488,32 @@ $(function() {
                 ],
                 tags: ['Фиксированная верстка']
             },
-            // {
-            //     title: '«Con Mime»',
-            //     description: [
-            //         'Главная страница сайта для коллекции одежды от «Con Mime» Lookbook 2017.',
-            //         'Адаптивно-резиновая верстка по готовому-psd макету.' ,
-            //         'Технологии используемые в проекте:',
-            //         'HTML5/CSS3, Less, BEM, JavaScript, Webpack, Adobe Photoshop.',
-            //         'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, IE-11, Edge, Android.'
-            //     ].join(' '),
-            //     thumbnail: ['img/code-gallery/small/conmime.jpg'],
-            //     large: ['img/code-gallery/large/conmime.jpg'],
-            //     img_title: ['image 1 '],
-            //     button_list: [
-            //         {
-            //             title: 'Перейти на сайт',
-            //             url: 'http://conmime.alicedesign.ru',
-            //             new_window: true
-            //         },
-            //         {
-            //             title: 'Исходный код',
-            //             url: 'https://github.com/Alisa-Filatova/clothes-shop',
-            //             new_window: false
-            //         }
-            //     ],
-            //     tags: ['Отзывчивая верстка']
-            // },
+            {
+                title: '«LookBook»',
+                description: [
+                    'Главная страница сайта для коллекции одежды Lookbook 2017.',
+                    'Адаптивно-резиновая верстка по готовому-psd макету.' ,
+                    'Технологии используемые в проекте:',
+                    'HTML5/CSS3, Less, BEM, JavaScript, Webpack, Adobe Photoshop.',
+                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, IE-11, Edge, Android.'
+                ].join(' '),
+                thumbnail: ['img/code-gallery/small/conmime.jpg'],
+                large: ['img/code-gallery/large/conmime.jpg'],
+                img_title: ['image 1 '],
+                button_list: [
+                    {
+                        title: 'Перейти на сайт',
+                        url: 'http://conmime.alicedesign.ru',
+                        new_window: true
+                    },
+                    {
+                        title: 'Исходный код',
+                        url: 'https://github.com/Alisa-Filatova/clothes-shop',
+                        new_window: false
+                    }
+                ],
+                tags: ['Отзывчивая верстка']
+            },
             {
                 title: '«Nerds»',
                 description: [

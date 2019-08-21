@@ -49,18 +49,6 @@
     color: #d22f69;
 }
 
-.elastislide-carousel {
-    visibility: hidden;
-}
-
-.elastislide-next {
-    visibility: hidden;
-}
-
-.elastislide-wrapper {
-    display: none;
-}
-
 @media (max-width: 425px) {
     .og-grid li > a img {
         width: 86%;
