@@ -96,9 +96,11 @@ function getNextStripe(stripeNum) {
 		}, 500);
 	}
 }
+
 codeStripes.forEach(function (stripe) {
 	stripe.classList.add("stripe-hidden", "stripe");
 });
+
 getNextStripe(codeStripes.length - 1);
 
 
