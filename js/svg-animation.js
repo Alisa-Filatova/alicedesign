@@ -4,28 +4,6 @@ TweenMax.to(".move-code-to-left", 0, {x: 400, y: 10});
 TweenMax.to(".move-code-to-right", 0, {x: -330});
 
 
-TweenMax.from(".float-shape", 2, {
-	y: 7,
-	yoyo: true,
-	repeat: -1
-});
-
-TweenMax.to("#girl2", 2.25, {
-	transformOrigin: "center",
-	rotation: -1.5,
-	y: 4,
-	yoyo: true,
-	repeat: -1
-});
-
-TweenMax.staggerTo(".leg1, .leg2", 2.25, {
-	transformOrigin: "center",
-	x: 5,
-	yoyo: true,
-	repeat: -1
-}, 1.1);
-
-
 TweenMax.staggerTo("#girl", 2.25, {
 	transformOrigin: "center",
 	y: 5,
