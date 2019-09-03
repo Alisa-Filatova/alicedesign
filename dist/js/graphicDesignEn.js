@@ -60,7 +60,7 @@
 /******/ 	__webpack_require__.p = "/dist/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 42);
+/******/ 	return __webpack_require__(__webpack_require__.s = 41);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -10327,7 +10327,7 @@ return jQuery;
 /* 1 */
 /***/ (function(module, exports) {
 
-// removed by extract-text-webpack-plugin
+throw new Error("Module build failed: ModuleBuildError: Module build failed: Error: No PostCSS Config found in: /Users/Alisa/Development.localized/alicedesign.ru/css\n    at config.search.then (/Users/Alisa/Development.localized/alicedesign.ru/node_modules/postcss-load-config/src/index.js:91:15)\n    at runLoaders (/Users/Alisa/Development.localized/alicedesign.ru/node_modules/webpack/lib/NormalModule.js:195:19)\n    at /Users/Alisa/Development.localized/alicedesign.ru/node_modules/loader-runner/lib/LoaderRunner.js:364:11\n    at /Users/Alisa/Development.localized/alicedesign.ru/node_modules/loader-runner/lib/LoaderRunner.js:230:18\n    at context.callback (/Users/Alisa/Development.localized/alicedesign.ru/node_modules/loader-runner/lib/LoaderRunner.js:111:13)\n    at Promise.resolve.then.then.catch (/Users/Alisa/Development.localized/alicedesign.ru/node_modules/postcss-loader/src/index.js:208:9)");
 
 /***/ }),
 /* 2 */
@@ -10346,13 +10346,13 @@ window.addEventListener('load', () => {
 /* 3 */
 /***/ (function(module, exports) {
 
-// removed by extract-text-webpack-plugin
+throw new Error("Module build failed: ModuleBuildError: Module build failed: Error: No PostCSS Config found in: /Users/Alisa/Development.localized/alicedesign.ru/css\n    at config.search.then (/Users/Alisa/Development.localized/alicedesign.ru/node_modules/postcss-load-config/src/index.js:91:15)\n    at runLoaders (/Users/Alisa/Development.localized/alicedesign.ru/node_modules/webpack/lib/NormalModule.js:195:19)\n    at /Users/Alisa/Development.localized/alicedesign.ru/node_modules/loader-runner/lib/LoaderRunner.js:364:11\n    at /Users/Alisa/Development.localized/alicedesign.ru/node_modules/loader-runner/lib/LoaderRunner.js:230:18\n    at context.callback (/Users/Alisa/Development.localized/alicedesign.ru/node_modules/loader-runner/lib/LoaderRunner.js:111:13)\n    at Promise.resolve.then.then.catch (/Users/Alisa/Development.localized/alicedesign.ru/node_modules/postcss-loader/src/index.js:208:9)");
 
 /***/ }),
 /* 4 */
 /***/ (function(module, exports) {
 
-// removed by extract-text-webpack-plugin
+throw new Error("Module build failed: ModuleBuildError: Module build failed: Error: No PostCSS Config found in: /Users/Alisa/Development.localized/alicedesign.ru/less\n    at config.search.then (/Users/Alisa/Development.localized/alicedesign.ru/node_modules/postcss-load-config/src/index.js:91:15)\n    at runLoaders (/Users/Alisa/Development.localized/alicedesign.ru/node_modules/webpack/lib/NormalModule.js:195:19)\n    at /Users/Alisa/Development.localized/alicedesign.ru/node_modules/loader-runner/lib/LoaderRunner.js:364:11\n    at /Users/Alisa/Development.localized/alicedesign.ru/node_modules/loader-runner/lib/LoaderRunner.js:230:18\n    at context.callback (/Users/Alisa/Development.localized/alicedesign.ru/node_modules/loader-runner/lib/LoaderRunner.js:111:13)\n    at Promise.resolve.then.then.catch (/Users/Alisa/Development.localized/alicedesign.ru/node_modules/postcss-loader/src/index.js:208:9)");
 
 /***/ }),
 /* 5 */
@@ -12750,8 +12750,7 @@ if ("document" in self) {
 /* 38 */,
 /* 39 */,
 /* 40 */,
-/* 41 */,
-/* 42 */
+/* 41 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12769,7 +12768,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__vendors_jquery_elastislide__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__vendors_jquery_hoverdir__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__vendors_jquery_elastic_grid__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__graphic_design_en__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__graphic_design_en__ = __webpack_require__(42);
 
 
 
@@ -12781,7 +12780,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 43 */
+/* 42 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

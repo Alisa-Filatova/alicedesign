@@ -10327,7 +10327,7 @@ return jQuery;
 /* 1 */
 /***/ (function(module, exports) {
 
-// removed by extract-text-webpack-plugin
+throw new Error("Module build failed: ModuleBuildError: Module build failed: Error: No PostCSS Config found in: /Users/Alisa/Development.localized/alicedesign.ru/css\n    at config.search.then (/Users/Alisa/Development.localized/alicedesign.ru/node_modules/postcss-load-config/src/index.js:91:15)\n    at runLoaders (/Users/Alisa/Development.localized/alicedesign.ru/node_modules/webpack/lib/NormalModule.js:195:19)\n    at /Users/Alisa/Development.localized/alicedesign.ru/node_modules/loader-runner/lib/LoaderRunner.js:364:11\n    at /Users/Alisa/Development.localized/alicedesign.ru/node_modules/loader-runner/lib/LoaderRunner.js:230:18\n    at context.callback (/Users/Alisa/Development.localized/alicedesign.ru/node_modules/loader-runner/lib/LoaderRunner.js:111:13)\n    at Promise.resolve.then.then.catch (/Users/Alisa/Development.localized/alicedesign.ru/node_modules/postcss-loader/src/index.js:208:9)");
 
 /***/ }),
 /* 2 */
@@ -12348,14 +12348,14 @@ var Power4 = globals.Power4;
 var TweenPlugin = globals.TweenPlugin;
 var EventDispatcher = nonGlobals.events.EventDispatcher;
 
-/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(23)(module), __webpack_require__(24)))
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(22)(module), __webpack_require__(23)))
 
 /***/ }),
 /* 14 */,
 /* 15 */
 /***/ (function(module, exports) {
 
-// removed by extract-text-webpack-plugin
+throw new Error("Module build failed: ModuleBuildError: Module build failed: Error: No PostCSS Config found in: /Users/Alisa/Development.localized/alicedesign.ru/css\n    at config.search.then (/Users/Alisa/Development.localized/alicedesign.ru/node_modules/postcss-load-config/src/index.js:91:15)\n    at runLoaders (/Users/Alisa/Development.localized/alicedesign.ru/node_modules/webpack/lib/NormalModule.js:195:19)\n    at /Users/Alisa/Development.localized/alicedesign.ru/node_modules/loader-runner/lib/LoaderRunner.js:364:11\n    at /Users/Alisa/Development.localized/alicedesign.ru/node_modules/loader-runner/lib/LoaderRunner.js:230:18\n    at context.callback (/Users/Alisa/Development.localized/alicedesign.ru/node_modules/loader-runner/lib/LoaderRunner.js:111:13)\n    at Promise.resolve.then.then.catch (/Users/Alisa/Development.localized/alicedesign.ru/node_modules/postcss-loader/src/index.js:208:9)");
 
 /***/ }),
 /* 16 */
@@ -13226,11 +13226,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__less_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__less_index_less__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__preload__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__preload___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__preload__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__parralax__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__parralax___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__parralax__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__svg_animation__ = __webpack_require__(21);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__main__ = __webpack_require__(33);
-
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__svg_animation__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__main__ = __webpack_require__(32);
 
 
 
@@ -13244,159 +13241,24 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* 18 */
 /***/ (function(module, exports) {
 
-// removed by extract-text-webpack-plugin
+throw new Error("Module build failed: ModuleBuildError: Module build failed: Error: No PostCSS Config found in: /Users/Alisa/Development.localized/alicedesign.ru/css\n    at config.search.then (/Users/Alisa/Development.localized/alicedesign.ru/node_modules/postcss-load-config/src/index.js:91:15)\n    at runLoaders (/Users/Alisa/Development.localized/alicedesign.ru/node_modules/webpack/lib/NormalModule.js:195:19)\n    at /Users/Alisa/Development.localized/alicedesign.ru/node_modules/loader-runner/lib/LoaderRunner.js:364:11\n    at /Users/Alisa/Development.localized/alicedesign.ru/node_modules/loader-runner/lib/LoaderRunner.js:230:18\n    at context.callback (/Users/Alisa/Development.localized/alicedesign.ru/node_modules/loader-runner/lib/LoaderRunner.js:111:13)\n    at Promise.resolve.then.then.catch (/Users/Alisa/Development.localized/alicedesign.ru/node_modules/postcss-loader/src/index.js:208:9)");
 
 /***/ }),
 /* 19 */
 /***/ (function(module, exports) {
 
-// removed by extract-text-webpack-plugin
+throw new Error("Module build failed: ModuleBuildError: Module build failed: Error: No PostCSS Config found in: /Users/Alisa/Development.localized/alicedesign.ru/less\n    at config.search.then (/Users/Alisa/Development.localized/alicedesign.ru/node_modules/postcss-load-config/src/index.js:91:15)\n    at runLoaders (/Users/Alisa/Development.localized/alicedesign.ru/node_modules/webpack/lib/NormalModule.js:195:19)\n    at /Users/Alisa/Development.localized/alicedesign.ru/node_modules/loader-runner/lib/LoaderRunner.js:364:11\n    at /Users/Alisa/Development.localized/alicedesign.ru/node_modules/loader-runner/lib/LoaderRunner.js:230:18\n    at context.callback (/Users/Alisa/Development.localized/alicedesign.ru/node_modules/loader-runner/lib/LoaderRunner.js:111:13)\n    at Promise.resolve.then.then.catch (/Users/Alisa/Development.localized/alicedesign.ru/node_modules/postcss-loader/src/index.js:208:9)");
 
 /***/ }),
 /* 20 */
-/***/ (function(module, exports) {
-
-const IS_SAFARI = /^((?!chrome|angrass).)*safari/i.test(navigator.userAgent);
-const BODY = IS_SAFARI ? document.body : document.documentElement;
-
-const INCREMENT = 16;
-let BORDER = 0;
-let IS_WIDE_SCREEN = false;
-let resizeTimeout;
-
-const bg = document.querySelector('.butterflies');
-const grass = document.querySelector('.grass_back');
-const grassMiddle = document.querySelector('.grass_middle');
-const grassFront = document.querySelector('.grass');
-const girl = document.querySelector('.girl');
-const rabbit = document.querySelector('.rabbit');
-const advantages = document.querySelectorAll('.advantage');
-
-const easeInOutQuad = (t, b, c, d) => {
-  t /= d / 2;
-  if (t < 1) return c / 2 * t * t + b;
-  t--;
-  return -c / 2 * (t * (t - 2) - 1) + b;
-};
-
-const scrollTo = (to, duration) => {
-  const start = BODY.scrollTop;
-  let currentTime = 0;
-
-  const animateScroll = () => {
-    currentTime += INCREMENT;
-    BODY.scrollTop = easeInOutQuad(currentTime, start, to - start, duration);
-    if (currentTime < duration) setTimeout(animateScroll, INCREMENT);
-  };
-
-  animateScroll();
-};
-
-const onScroll = () => {
-  advantages.forEach(function (advantage) {
-    const top = advantage.getBoundingClientRect().top;
-    if (top < BORDER) {
-      advantage.classList.add('show');
-    }
-  })
-};
-
-const transform = (target, x, y, transform = '') => {
-  if (!target) return;
-  target.style.transform = `translate3d(${x}px, ${y}px, 0) ${transform}`;
-};
-
-const animateHeader = (x, y) => {
-  transform(bg, x / 4, y / 4);
-  transform(grassFront, x / 5, y / 5);
-  transform(grassMiddle, x / 4, y / 4);
-  transform(grass, x / 3, y / 3);
-  transform(girl, x / 6, y / 4);
-  transform(rabbit, x, y);
-};
-
-const onDeviceOrientation = (e) => {
-  if (IS_WIDE_SCREEN) return;
-
-  const landscape = window.orientation === 90 || window.orientation === -90;
-  const x = Math.floor(40 * (landscape ? e.beta : e.gamma) / 100);
-  const y = Math.floor(40 * (landscape ? e.gamma : e.beta) / 100);
-
-  animateHeader(Math.floor(40 * x / 100), Math.floor(40 * y / 100));
-};
-
-const calcMouseShift = (pos, size, limit) => {
-  const half = size / 2;
-  return (pos - half) * (limit * 100 / half) / 100;
-};
-
-const onMouseMove = (event) => {
-  const x = calcMouseShift(event.pageX, window.innerWidth, 40);
-  const y = calcMouseShift(event.pageY, window.innerHeight, 40);
-  animateHeader(x, y);
-};
-
-const onDocumentClick = (event) => {
-  if (event.isTrusted !== true) return;
-  if (event.target.classList.contains('arrow-down-btn')) {
-    scrollTo(window.innerHeight, 1600);
-  }
-};
-
-const init = () => {
-  IS_WIDE_SCREEN = window.innerWidth >= 1024;
-  BORDER = window.innerHeight - (window.innerHeight / 3);
-  if (BODY.scrollTop > 0) onScroll();
-};
-
-const onResize = () => {
-  window.clearTimeout(resizeTimeout);
-  resizeTimeout = window.setTimeout(function() {
-    init();
-  }, 300);
-};
-
-setTimeout(function() { init() }, 16);
-
-window.addEventListener('resize', onResize);
-window.addEventListener('deviceorientation', onDeviceOrientation);
-document.addEventListener('mousemove', onMouseMove);
-document.addEventListener('scroll', onScroll);
-document.addEventListener('click', onDocumentClick);
-
-
-/***/ }),
-/* 21 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_gsap_TweenMax__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_gsap_TweenMax__ = __webpack_require__(21);
 
 
 __WEBPACK_IMPORTED_MODULE_0_gsap_TweenMax__["b" /* TweenMax */].to(".move-code-to-left", 0, {x: 400, y: 10});
 __WEBPACK_IMPORTED_MODULE_0_gsap_TweenMax__["b" /* TweenMax */].to(".move-code-to-right", 0, {x: -330});
-
-
-__WEBPACK_IMPORTED_MODULE_0_gsap_TweenMax__["b" /* TweenMax */].from(".float-shape", 2, {
-	y: 7,
-	yoyo: true,
-	repeat: -1
-});
-
-__WEBPACK_IMPORTED_MODULE_0_gsap_TweenMax__["b" /* TweenMax */].to("#girl2", 2.25, {
-	transformOrigin: "center",
-	rotation: -1.5,
-	y: 4,
-	yoyo: true,
-	repeat: -1
-});
-
-__WEBPACK_IMPORTED_MODULE_0_gsap_TweenMax__["b" /* TweenMax */].staggerTo(".leg1, .leg2", 2.25, {
-	transformOrigin: "center",
-	x: 5,
-	yoyo: true,
-	repeat: -1
-}, 1.1);
 
 
 __WEBPACK_IMPORTED_MODULE_0_gsap_TweenMax__["b" /* TweenMax */].staggerTo("#girl", 2.25, {
@@ -13491,9 +13353,11 @@ function getNextStripe(stripeNum) {
 		}, 500);
 	}
 }
+
 codeStripes.forEach(function (stripe) {
 	stripe.classList.add("stripe-hidden", "stripe");
 });
+
 getNextStripe(codeStripes.length - 1);
 
 
@@ -13502,22 +13366,22 @@ getNextStripe(codeStripes.length - 1);
 
 
 /***/ }),
-/* 22 */
+/* 21 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return TweenMax; });
 /* unused harmony export default */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__TweenLite_js__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__TweenMaxBase_js__ = __webpack_require__(25);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__CSSPlugin_js__ = __webpack_require__(26);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__AttrPlugin_js__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__RoundPropsPlugin_js__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__DirectionalRotationPlugin_js__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__TweenMaxBase_js__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__CSSPlugin_js__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__AttrPlugin_js__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__RoundPropsPlugin_js__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__DirectionalRotationPlugin_js__ = __webpack_require__(28);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__TimelineLite_js__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__TimelineMax_js__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__BezierPlugin_js__ = __webpack_require__(31);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__EasePack_js__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__TimelineMax_js__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__BezierPlugin_js__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__EasePack_js__ = __webpack_require__(31);
 /* unused harmony reexport TweenLite */
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_6__TimelineLite_js__["a"]; });
 /* unused harmony reexport TimelineMax */
@@ -13577,7 +13441,7 @@ TweenMax._autoActivated = [__WEBPACK_IMPORTED_MODULE_6__TimelineLite_js__["a" /*
 
 
 /***/ }),
-/* 23 */
+/* 22 */
 /***/ (function(module, exports) {
 
 module.exports = function(originalModule) {
@@ -13607,7 +13471,7 @@ module.exports = function(originalModule) {
 
 
 /***/ }),
-/* 24 */
+/* 23 */
 /***/ (function(module, exports) {
 
 var g;
@@ -13634,7 +13498,7 @@ module.exports = g;
 
 
 /***/ }),
-/* 25 */
+/* 24 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14325,7 +14189,7 @@ var TweenMaxBase = TweenMax;
 
 
 /***/ }),
-/* 26 */
+/* 25 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17255,7 +17119,7 @@ var CSSPlugin = __WEBPACK_IMPORTED_MODULE_0__TweenLite_js__["g" /* globals */].C
 
 
 /***/ }),
-/* 27 */
+/* 26 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17308,7 +17172,7 @@ var AttrPlugin = __WEBPACK_IMPORTED_MODULE_0__TweenLite_js__["e" /* _gsScope */]
 
 
 /***/ }),
-/* 28 */
+/* 27 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17421,7 +17285,7 @@ var RoundPropsPlugin = __WEBPACK_IMPORTED_MODULE_0__TweenLite_js__["e" /* _gsSco
 
 
 /***/ }),
-/* 29 */
+/* 28 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17516,7 +17380,7 @@ DirectionalRotationPlugin._autoCSS = true;
 
 
 /***/ }),
-/* 30 */
+/* 29 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18049,7 +17913,7 @@ var TimelineMax = __WEBPACK_IMPORTED_MODULE_0__TweenLite_js__["g" /* globals */]
 
 
 /***/ }),
-/* 31 */
+/* 30 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18662,7 +18526,7 @@ var TimelineMax = __WEBPACK_IMPORTED_MODULE_0__TweenLite_js__["g" /* globals */]
 
 
 /***/ }),
-/* 32 */
+/* 31 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -19060,13 +18924,13 @@ var ExpoScaleEase = __WEBPACK_IMPORTED_MODULE_0__TweenLite_js__["g" /* globals *
 
 
 /***/ }),
-/* 33 */
+/* 32 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_jquery__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_jquery___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_jquery__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_snapsvg_cjs__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_snapsvg_cjs__ = __webpack_require__(33);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_snapsvg_cjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_snapsvg_cjs__);
 
 
@@ -19116,10 +18980,10 @@ init();
 
 
 /***/ }),
-/* 34 */
+/* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
-window.eve = __webpack_require__(35)
+window.eve = __webpack_require__(34)
 
 // Copyright (c) 2017 Adobe Systems Incorporated. All rights reserved.
 //
@@ -27267,7 +27131,7 @@ module.exports = Snap
 
 
 /***/ }),
-/* 35 */
+/* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// Copyright (c) 2017 Adobe Systems Incorporated. All rights reserved.
