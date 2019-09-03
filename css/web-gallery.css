@@ -1,87 +1,87 @@
 @font-face {
-    font-family: 'Neucha';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/neucha-v8-cyrillic_latin-regular.eot'); /* IE9 Compat Modes */
-    src: local('Neucha'),
-    url('../fonts/neucha-v8-cyrillic_latin-regular.eot') format('embedded-opentype'), /* IE6-IE8 */
-    url('../fonts/neucha-v8-cyrillic_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-    url('../fonts/neucha-v8-cyrillic_latin-regular.woff') format('woff'), /* Modern Browsers */
-    url('../fonts/neucha-v8-cyrillic_latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('../fonts/neucha-v8-cyrillic_latin-regular.svg') format('svg'); /* Legacy iOS */
+  font-family: 'Neucha';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/neucha-v8-cyrillic_latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Neucha'),
+  url('../fonts/neucha-v8-cyrillic_latin-regular.eot') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/neucha-v8-cyrillic_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/neucha-v8-cyrillic_latin-regular.woff') format('woff'), /* Modern Browsers */
+  url('../fonts/neucha-v8-cyrillic_latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('../fonts/neucha-v8-cyrillic_latin-regular.svg') format('svg'); /* Legacy iOS */
 }
 
 .main-nav__icon {
-    background: url('../img/code.svg') no-repeat center;
+  background: url('../img/code.svg') no-repeat center;
 }
 
 .main-nav__icon_web {
-    background: url('../img/web-design.svg') no-repeat center;
+  background: url('../img/web-design.svg') no-repeat center;
 }
 
 .og-details a.link-button {
-    font-size: 19px;
-    line-height: 29px;
-    display: inline-block;
-    text-decoration: none;
-    text-align: center;
-    padding: 2px 10px;
-    background: #d22f69;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
-    white-space: normal;
-    word-wrap: normal;
-    color: #fff;
-    cursor: pointer;
-    margin-left: 10px;
-    border: 2px solid transparent;
-    transition: 0.1s linear;
+  font-size: 19px;
+  line-height: 29px;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  padding: 2px 10px;
+  background: #d22f69;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  white-space: normal;
+  word-wrap: normal;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 10px;
+  border: 2px solid transparent;
+  transition: 0.1s linear;
 }
 
 .og-details a.first {
-    margin-left: 0;
+  margin-left: 0;
 }
 
 .og-details a:hover {
-    background: transparent;
-    border: 2px solid #d22f69;
-    color: #d22f69;
+  background: transparent;
+  border: 2px solid #d22f69;
+  color: #d22f69;
 }
 
 @media (max-width: 425px) {
-    .og-grid li > a img {
-        width: 86%;
-        margin: auto;
-    }
+  .og-grid li > a img {
+    width: 86%;
+    margin: auto;
+  }
 }
 
 @media (max-width: 425px) {
-    .og-expander-inner {
-       padding: 0 20px;
-    }
+  .og-expander-inner {
+    padding: 0 20px;
+  }
 }
 
 @media (min-width: 1200px) {
-    .og-expander h3 {
-        font-size: 33px;
-        line-height: 41px;
-        word-spacing: 2px;
-    }
+  .og-expander h3 {
+    font-size: 33px;
+    line-height: 41px;
+    word-spacing: 2px;
+  }
 }
 
 @media only screen and (max-width: 425px) {
+  .og-details {
+     padding: 0;
+  }
 
-    .og-details {
-        padding: 0;
-    }
-    .og-details h3 {
-        font-size: 26px;
-        line-height: 26px;
-    }
+  .og-details h3 {
+     font-size: 26px;
+     line-height: 26px;
+  }
 
-    .og-details p {
-        text-align: left;
-        padding: 10px 0;
-    }
+  .og-details p {
+    text-align: left;
+    padding: 10px 0;
+  }
 }

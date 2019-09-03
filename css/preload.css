@@ -1,62 +1,62 @@
 @font-face {
-    font-family: 'Neucha';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/neucha-v8-cyrillic_latin-regular.eot'); /* IE9 Compat Modes */
-    src: local('Neucha'),
-    url('../fonts/neucha-v8-cyrillic_latin-regular.eot') format('embedded-opentype'), /* IE6-IE8 */
-    url('../fonts/neucha-v8-cyrillic_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-    url('../fonts/neucha-v8-cyrillic_latin-regular.woff') format('woff'), /* Modern Browsers */
-    url('../fonts/neucha-v8-cyrillic_latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('../fonts/neucha-v8-cyrillic_latin-regular.svg') format('svg'); /* Legacy iOS */
+  font-family: 'Neucha';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/neucha-v8-cyrillic_latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Neucha'),
+      url('../fonts/neucha-v8-cyrillic_latin-regular.eot') format('embedded-opentype'), /* IE6-IE8 */
+      url('../fonts/neucha-v8-cyrillic_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+      url('../fonts/neucha-v8-cyrillic_latin-regular.woff') format('woff'), /* Modern Browsers */
+      url('../fonts/neucha-v8-cyrillic_latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+      url('../fonts/neucha-v8-cyrillic_latin-regular.svg') format('svg'); /* Legacy iOS */
 }
 
 .overlay-loader {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 5000;
-    pointer-events: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 5000;
+  pointer-events: none;
 }
 
 .loader__text {
-    z-index: 5000;
-    position: absolute;
-    top: 70%;
-    left: 45%;
-    margin: 74px 0 0 -97px;
-    font-size: 40px;
-    color: #ffffff;
-    letter-spacing: 10px;
-    animation: fade-out 0.4s infinite linear;
-    -webkit-animation: fade-out 1s infinite linear;
-    animation-direction: alternate-reverse;
-    text-align: center;
-    font-family: 'Neucha', 'Comic Sans', sans-serif;
+  z-index: 5000;
+  position: absolute;
+  top: 70%;
+  left: 45%;
+  margin: 74px 0 0 -97px;
+  font-size: 40px;
+  color: #ffffff;
+  letter-spacing: 10px;
+  animation: fade-out 0.4s infinite linear;
+  -webkit-animation: fade-out 1s infinite linear;
+  animation-direction: alternate-reverse;
+  text-align: center;
+  font-family: 'Neucha', 'Comic Sans', sans-serif;
 }
 
 .loader__wrapper {
-    z-index: 5000;
-    position: absolute;
-    top: 50%;
-    left: 50%;
+  z-index: 5000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 
 .overlay-loader .loader-background {
-    position: absolute;
-    width: 100%;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: #506085;
-    -webkit-transition: background-color .2s 0s linear,right .2s .3s ease-out;
-    -moz-transition: background-color .2s 0s linear,right .2s .3s ease-out;
-    -ms-transition: background-color .2s 0s linear,right .2s .3s ease-out;
-    -o-transition: background-color .2s 0s linear,right .2s .3s ease-out;
-    transition: background-color .2s 0s linear,right .2s .3s ease-out;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #506085;
+  -webkit-transition: background-color .2s 0s linear,right .2s .3s ease-out;
+  -moz-transition: background-color .2s 0s linear,right .2s .3s ease-out;
+  -ms-transition: background-color .2s 0s linear,right .2s .3s ease-out;
+   -o-transition: background-color .2s 0s linear,right .2s .3s ease-out;
+  transition: background-color .2s 0s linear,right .2s .3s ease-out;
 }
 
 .overlay-loader .loader-background.color-flip {
@@ -68,170 +68,140 @@
 }
 
 @-webkit-keyframes fade-out {
-    0% {
-        opacity: 1;
-    }
-
-    100% {
-        opacity: 0.3;
-    }
+  0% { opacity: 1 }
+  100% { opacity: 0.3 }
 }
 
 @keyframes fade-out {
-    0% {
-        opacity: 1;
-    }
-
-    100% {
-        opacity: 0.3;
-    }
+  0% { opacity: 1 }
+  100% { opacity: 0.3 }
 }
 
-
 @-webkit-keyframes color-flip {
-    0% { background-color: #506085 }
-    18% { background-color: #506085 }
-    20% { background-color: #fc568d }
-    38% { background-color: #fc568d }
-    40% { background-color: #80deea }
-    58% { background-color: #80deea }
-    60% { background-color: #e55189 }
-    78% { background-color: #e55189 }
-    80% { background-color: #088696 }
-    98% { background-color: #088696 }
-    100% { background-color: #506085 }
+  0% { background-color: #506085 }
+  18% { background-color: #506085 }
+  20% { background-color: #fc568d }
+  38% { background-color: #fc568d }
+  40% { background-color: #80deea }
+  58% { background-color: #80deea }
+  60% { background-color: #e55189 }
+  78% { background-color: #e55189 }
+  80% { background-color: #088696 }
+  98% { background-color: #088696 }
+  100% { background-color: #506085 }
 }
 
 @-moz-keyframes color-flip {
-    0% { background-color: #506085 }
-    18% { background-color: #506085 }
-    20% { background-color: #fc568d }
-    38% { background-color: #fc568d }
-    40% { background-color: #80deea }
-    58% { background-color: #80deea }
-    60% { background-color: #e55189 }
-    78% { background-color: #e55189 }
-    80% { background-color: #088696 }
-    98% { background-color: #088696 }
-    100% { background-color: #506085 }
+  0% { background-color: #506085 }
+  18% { background-color: #506085 }
+  20% { background-color: #fc568d }
+  38% { background-color: #fc568d }
+  40% { background-color: #80deea }
+  58% { background-color: #80deea }
+  60% { background-color: #e55189 }
+  78% { background-color: #e55189 }
+  80% { background-color: #088696 }
+  98% { background-color: #088696 }
+  100% { background-color: #506085 }
 }
 
 @-o-keyframes color-flip {
-    0% { background-color: #506085 }
-    18% { background-color: #506085 }
-    20% { background-color: #fc568d }
-    38% { background-color: #fc568d }
-    40% { background-color: #80deea }
-    58% { background-color: #80deea }
-    60% { background-color: #e55189 }
-    78% { background-color: #e55189 }
-    80% { background-color: #088696 }
-    98% { background-color: #088696 }
-    100% { background-color: #506085 }
+  0% { background-color: #506085 }
+  18% { background-color: #506085 }
+  20% { background-color: #fc568d }
+  38% { background-color: #fc568d }
+  40% { background-color: #80deea }
+  58% { background-color: #80deea }
+  60% { background-color: #e55189 }
+  78% { background-color: #e55189 }
+  80% { background-color: #088696 }
+  98% { background-color: #088696 }
+  100% { background-color: #506085 }
 }
 
 @keyframes color-flip {
-    0% { background-color: #506085 }
-    18% { background-color: #506085 }
-    20% { background-color: #fc568d }
-    38% { background-color: #fc568d }
-    40% { background-color: #80deea }
-    58% { background-color: #80deea }
-    60% { background-color: #e55189 }
-    78% { background-color: #e55189 }
-    80% { background-color: #088696 }
-    98% { background-color: #088696 }
-    100% { background-color: #506085 }
+  0% { background-color: #506085 }
+  18% { background-color: #506085 }
+  20% { background-color: #fc568d }
+  38% { background-color: #fc568d }
+  40% { background-color: #80deea }
+  58% { background-color: #80deea }
+  60% { background-color: #e55189 }
+  78% { background-color: #e55189 }
+  80% { background-color: #088696 }
+  98% { background-color: #088696 }
+  100% { background-color: #506085 }
 }
 
 .overlay-loader .loader-icon {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: -48px 0 0 -48px;
-    font-size: 96px;
-    color: #FFF;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -48px 0 0 -48px;
+  font-size: 96px;
+  color: #FFF;
 }
 
 .overlay-loader .loader-icon.spinning-cog {
-    -webkit-animation: spinning-cog 1.3s infinite ease;
-    -moz-animation: spinning-cog 1.3s infinite ease;
-    -ms-animation: spinning-cog 1.3s infinite ease;
-    -o-animation: spinning-cog 1.3s infinite ease;
-    animation: spinning-cog 1.3s infinite ease;
+  -webkit-animation: spinning-cog 1.3s infinite ease;
+  -moz-animation: spinning-cog 1.3s infinite ease;
+  -ms-animation: spinning-cog 1.3s infinite ease;
+  -o-animation: spinning-cog 1.3s infinite ease;
+  animation: spinning-cog 1.3s infinite ease;
 }
 
 @-webkit-keyframes spinning-cog {
-    0% { -webkit-transform: rotate(0deg) }
-    20% { -webkit-transform: rotate(-45deg) }
-    100% { -webkit-transform: rotate(360deg) }
+  0% { -webkit-transform: rotate(0deg) }
+  20% { -webkit-transform: rotate(-45deg) }
+  100% { -webkit-transform: rotate(360deg) }
 }
 
 @-moz-keyframes spinning-cog {
-    0% { -moz-transform: rotate(0deg) }
-    20% { -moz-transform: rotate(-45deg) }
-    100% { -moz-transform: rotate(360deg) }
+  0% { -moz-transform: rotate(0deg) }
+  20% { -moz-transform: rotate(-45deg) }
+  100% { -moz-transform: rotate(360deg) }
 }
 
 @-o-keyframes spinning-cog {
-    0% { -o-transform: rotate(0deg) }
-    20% { -o-transform: rotate(-45deg) }
-    100% { -o-transform: rotate(360deg) }
+  0% { -o-transform: rotate(0deg) }
+  20% { -o-transform: rotate(-45deg) }
+  100% { -o-transform: rotate(360deg) }
 }
 
 @keyframes spinning-cog {
-    0% { transform: rotate(0deg) }
-    20% { transform: rotate(-45deg) }
-    100% { transform: rotate(360deg) }
+  0% { transform: rotate(0deg) }
+  20% { transform: rotate(-45deg) }
+  100% { transform: rotate(360deg) }
 }
 
 @-webkit-keyframes shrinking-cog {
-    0% { -webkit-transform: scale(1) }
-    20% { -webkit-transform: scale(1.2) }
-    100% { -webkit-transform: scale(0) }
+  0% { -webkit-transform: scale(1) }
+  20% { -webkit-transform: scale(1.2) }
+  100% { -webkit-transform: scale(0) }
 }
 
 @-moz-keyframes shrinking-cog {
-    0% { -moz-transform: scale(1) }
-    20% { -moz-transform: scale(1.2) }
-    100% { -moz-transform: scale(0) }
+  0% { -moz-transform: scale(1) }
+  20% { -moz-transform: scale(1.2) }
+  100% { -moz-transform: scale(0) }
 }
 
 @-o-keyframes shrinking-cog {
-    0% { -o-transform: scale(1) }
-    20% { -o-transform: scale(1.2) }
-    100% { -o-transform: scale(0) }
+  0% { -o-transform: scale(1) }
+  20% { -o-transform: scale(1.2) }
+  100% { -o-transform: scale(0) }
 }
 
 @keyframes shrinking-cog {
-    0% { transform: scale(1) }
-    20% { transform: scale(1.2) }
-    100% { transform: scale(0) }
+  0% { transform: scale(1) }
+  20% { transform: scale(1.2) }
+  100% { transform: scale(0) }
 }
 
 .overlay-loader .loader-icon.shrinking-cog {
-    -webkit-animation: shrinking-cog .3s 1 ease forwards;
-    -moz-animation: shrinking-cog .3s 1 ease forwards;
-    -ms-animation: shrinking-cog .3s 1 ease forwards;
-    -o-animation: shrinking-cog .3s 1 ease forwards;
-    animation: shrinking-cog .3s 1 ease forwards;
+  -webkit-animation: shrinking-cog .3s 1 ease forwards;
+  -moz-animation: shrinking-cog .3s 1 ease forwards;
+  -ms-animation: shrinking-cog .3s 1 ease forwards;
+  -o-animation: shrinking-cog .3s 1 ease forwards;
+  animation: shrinking-cog .3s 1 ease forwards;
 }
-
-.fade-in {
-    visibility: visible;
-    opacity: 1;
-    transition: opacity 2s linear;
-}
-
-.fade-out {
-    visibility: hidden;
-    opacity: 0;
-    transition: visibility 0s 0.3s, opacity 0.3s linear;
-}
-
-.fade-out-slow {
-    visibility: hidden;
-    opacity: 0;
-    transition: visibility 0s 0.8s, opacity 0.8s linear;
-}
-
