@@ -1144,8 +1144,9 @@
   left: 44%;
   width: 92px;
   height: 160px;
-  background: url('../img/lamp-big.svg') no-repeat top center;
-  background-size: contain;
+  transform-origin: center top;
+  animation: lamp 6s linear infinite;
+  animation-fill-mode: both;
 
   &__light {
     width: 243.5px;
@@ -1157,6 +1158,11 @@
     position: absolute;
     animation: fade-out 3s ease-in-out infinite alternate-reverse;
   }
+}
+
+.lamp-light {
+  animation: blink 6s infinite linear;
+  animation-fill-mode: both;
 }
 
 @media (min-width: @big-screen) {

@@ -8,6 +8,18 @@
     100% {opacity: 0;}
 }
 
+@-webkit-keyframes blink {
+    0% {opacity: 1;}
+    50% {opacity: 0.5;}
+    100% {opacity: 1;}
+}
+
+@keyframes blink {
+    0% {opacity: 0.4;}
+    50% {opacity: 1;}
+    100% {opacity: 0.4;}
+}
+
 @keyframes rotate {
     0% {transform: rotate(0deg);}
     100% {transform: rotate(360deg);}
@@ -67,6 +79,19 @@
     0% {transform: rotate(0deg);}
     50% {transform: rotate(8deg);}
     100% {transform: rotate(0deg);}
+}
+
+@keyframes lamp {
+    0% {transform: rotate(-2deg);}
+    50% {transform: rotate(2deg);}
+    100% {transform: rotate(-2deg);}
+}
+
+
+@-webkit-keyframes lamp {
+    0% {transform: rotate(-2deg);}
+    50% {transform: rotate(2deg);}
+    100% {transform: rotate(-2deg);}
 }
 
 @-webkit-keyframes fade-in {

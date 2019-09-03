@@ -24,29 +24,29 @@ $(function() {
                 ].join(' '),
                 thumbnail: [
                     'img/code-gallery/small/ezy.jpg',
-                    'img/code-gallery/large/home.png',
-                    'img/code-gallery/large/upgrade-min.png',
-                    'img/code-gallery/large/upgrade2-min.png',
-                    'img/code-gallery/large/spiner.png',
-                    'img/code-gallery/large/spiner2.png',
-                    'img/code-gallery/large/giveaway.png',
-                    'img/code-gallery/large/profile.png',
-                    'img/code-gallery/large/daily-bonus.png',
-                    'img/code-gallery/large/deposit.png',
-                    'img/code-gallery/large/why-we.png'
+                    'img/code-gallery/large/home.jpg',
+                    'img/code-gallery/large/upgrade-min.jpg',
+                    'img/code-gallery/large/upgrade2-min.jpg',
+                    'img/code-gallery/large/spiner.jpg',
+                    'img/code-gallery/large/spiner2.jpg',
+                    'img/code-gallery/large/giveaway.jpg',
+                    'img/code-gallery/large/profile.jpg',
+                    'img/code-gallery/large/daily-bonus.jpg',
+                    'img/code-gallery/large/deposit.jpg',
+                    'img/code-gallery/large/why-we.jpg'
                 ],
                 large: [
                     'img/code-gallery/large/ezy.jpg',
-                    'img/code-gallery/large/home.png',
-                    'img/code-gallery/large/upgrade-min.png',
-                    'img/code-gallery/large/upgrade2-min.png',
-                    'img/code-gallery/large/spiner.png',
-                    'img/code-gallery/large/spiner2.png',
-                    'img/code-gallery/large/giveaway.png',
-                    'img/code-gallery/large/profile.png',
-                    'img/code-gallery/large/daily-bonus.png',
-                    'img/code-gallery/large/deposit.png',
-                    'img/code-gallery/large/why-we.png'
+                    'img/code-gallery/large/home.jpg',
+                    'img/code-gallery/large/upgrade-min.jpg',
+                    'img/code-gallery/large/upgrade2-min.jpg',
+                    'img/code-gallery/large/spiner.jpg',
+                    'img/code-gallery/large/spiner2.jpg',
+                    'img/code-gallery/large/giveaway.jpg',
+                    'img/code-gallery/large/profile.jpg',
+                    'img/code-gallery/large/daily-bonus.jpg',
+                    'img/code-gallery/large/deposit.jpg',
+                    'img/code-gallery/large/why-we.jpg'
                 ],
                 img_title: ['ezy.com', 'upgrade'],
                 button_list: [
@@ -70,13 +70,13 @@ $(function() {
                 ].join(' '),
                 thumbnail: [
                     'img/code-gallery/small/ezy-town.jpg',
-                    'img/code-gallery/large/town1.png',
-                    'img/code-gallery/large/town2.png'
+                    'img/code-gallery/large/town1.jpg',
+                    'img/code-gallery/large/town2.jpg'
                 ],
                 large: [
                     'img/code-gallery/large/ezy-town.jpg',
-                    'img/code-gallery/large/town1.png',
-                    'img/code-gallery/large/town2.png'
+                    'img/code-gallery/large/town1.jpg',
+                    'img/code-gallery/large/town2.jpg'
                 ],
                 img_title: ['town.ezy.com'],
                 button_list: [
@@ -100,17 +100,17 @@ $(function() {
                 ].join(' '),
                 thumbnail: [
                   'img/code-gallery/small/vgo.jpg',
-                  'img/code-gallery/large/vgo-csgo.png',
-                  'img/code-gallery/large/vgo-csgo-mobile2.png',
-                  'img/code-gallery/large/vgo-csgo-mobile3.png',
-                  'img/code-gallery/large/vgo-csgo2.png'
+                  'img/code-gallery/large/vgo-csgo.jpg',
+                  'img/code-gallery/large/vgo-csgo-mobile2.jpg',
+                  'img/code-gallery/large/vgo-csgo-mobile3.jpg',
+                  'img/code-gallery/large/vgo-csgo2.jpg'
                 ],
                 large: [
                   'img/code-gallery/large/vgo.jpg',
-                  'img/code-gallery/large/vgo-csgo.png',
-                  'img/code-gallery/large/vgo-csgo-mobile2.png',
-                  'img/code-gallery/large/vgo-csgo-mobile3.png',
-                  'img/code-gallery/large/vgo-csgo2.png'
+                  'img/code-gallery/large/vgo-csgo.jpg',
+                  'img/code-gallery/large/vgo-csgo-mobile2.jpg',
+                  'img/code-gallery/large/vgo-csgo-mobile3.jpg',
+                  'img/code-gallery/large/vgo-csgo2.jpg'
                 ],
                 img_title: ['vgo.ezy.com'],
                 button_list: [
@@ -131,8 +131,8 @@ $(function() {
                     'В проекте я занимала роль младшего фронтенд-разработчика. Использовала: React.js, TypeScript, MobX, SVG, HTML5/CSS3, Less, JavaScript, Webpack.',
                     'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge последние версии.'
                 ].join(' '),
-                thumbnail: ['img/code-gallery/small/leon.jpg'],
-                large: ['img/code-gallery/large/leon.jpg'],
+                thumbnail: ['img/code-gallery/small/leon.jpg', 'img/code-gallery/large/LeonGG.jpg', 'img/code-gallery/large/LeonGG2.jpg', 'img/code-gallery/large/LeonGG3.jpg'],
+                large: ['img/code-gallery/large/leon.jpg', 'img/code-gallery/large/LeonGG.jpg' ,'img/code-gallery/large/LeonGG2.jpg', 'img/code-gallery/large/LeonGG3.jpg' ],
                 img_title: ['leondrop.net'],
                 button_list: [
                     {
@@ -154,8 +154,8 @@ $(function() {
 									'В проекте я использовала: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM, Less, JavaScript, jQuery, AJAX, Webpack.',
 									'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, IE-11, Edge.'
 								].join(' '),
-								thumbnail: ['img/code-gallery/small/goroshko-dance.jpg'],
-								large: ['img/code-gallery/large/goroshko-dance.jpg'],
+								thumbnail: ['img/code-gallery/small/goroshko-dance.jpg', 'img/code-gallery/large/goroshko1.png', 'img/code-gallery/large/goroshko2.png', 'img/code-gallery/large/goroshko3.png'],
+								large: ['img/code-gallery/large/goroshko-dance.jpg', 'img/code-gallery/large/goroshko1.png', 'img/code-gallery/large/goroshko2.png', 'img/code-gallery/large/goroshko3.png'],
 								img_title: ['goroshkodance.ru'],
 								button_list: [
 									{

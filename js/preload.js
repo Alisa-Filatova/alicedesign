@@ -1,7 +1,8 @@
-const preloader = document.querySelector('.overlay-loader');
-const loader = preloader.querySelector('.loader-icon');
+import $ from 'jquery';
 
-window.addEventListener('load', () => {
-    loader.classList.add('fade-out');
-    preloader.classList.add('fade-out-slow');
+$(window).on('load', function() {
+    var $preloader = $('.overlay-loader');
+    var $loader = $preloader.find('.loader-icon');
+    $loader.fadeOut();
+    $preloader.delay(350).fadeOut('slow');
 });
