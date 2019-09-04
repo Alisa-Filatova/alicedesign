@@ -428,8 +428,20 @@ $(function() {
                     'TypeScript, React.js, Redux, тестирование с помощью Jest.',
                     'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge.'
                 ].join(' '),
-                thumbnail: ['img/code-gallery/small/six-cities.jpg'],
-                large: ['img/code-gallery/large/six-cities.jpg'],
+                thumbnail: [
+                    'img/code-gallery/small/six-cities.jpg',
+                    'img/code-gallery/large/six-1.png',
+                    'img/code-gallery/large/six-2.png',
+                    'img/code-gallery/large/six-3.png',
+                    'img/code-gallery/large/six-4.png',
+                ],
+                large: [
+                    'img/code-gallery/large/six-cities.jpg',
+                    'img/code-gallery/large/six-1.png',
+                    'img/code-gallery/large/six-2.png',
+                    'img/code-gallery/large/six-3.png',
+                    'img/code-gallery/large/six-4.png',
+                ],
                 img_title: ['image'],
                 button_list: [
                     {
@@ -457,8 +469,18 @@ $(function() {
                     'JavaScript (ES6), работа с Webpack и сторонними библиотеками.',
                     'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge.'
                 ].join(' '),
-                thumbnail: ['img/code-gallery/small/moowle.jpg'],
-                large: ['img/code-gallery/large/moowle.jpg'],
+                thumbnail: [
+                    'img/code-gallery/small/moowle.jpg',
+                    'img/code-gallery/large/moowle-1.png',
+                    'img/code-gallery/large/moowle-2.png',
+                    'img/code-gallery/large/moowle-3.png'
+                ],
+                large: [
+                    'img/code-gallery/large/moowle.jpg',
+                    'img/code-gallery/large/moowle-1.png',
+                    'img/code-gallery/large/moowle-2.png',
+                    'img/code-gallery/large/moowle-3.png'
+                ],
                 img_title: ['image'],
                 button_list: [
                     {
@@ -527,8 +549,20 @@ $(function() {
                     'HTML5/CSS3, Less, BEM, JavaScript, jQuery, AJAX, Adobe Photoshop.',
                     'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, IE-11, Edge.'
                 ].join(' '),
-                thumbnail: ['img/code-gallery/small/sedona.jpg'],
-                large: ['img/code-gallery/large/sedona.jpg'],
+                thumbnail: [
+                    'img/code-gallery/small/sedona.jpg',
+                    'img/code-gallery/large/sedona-1.png',
+                    'img/code-gallery/large/sedona-2.png',
+                    'img/code-gallery/large/sedona-3.png',
+                    'img/code-gallery/large/sedona-4.png'
+                ],
+                large: [
+                    'img/code-gallery/large/sedona.jpg',
+                    'img/code-gallery/large/sedona-1.png',
+                    'img/code-gallery/large/sedona-2.png',
+                    'img/code-gallery/large/sedona-3.png',
+                    'img/code-gallery/large/sedona-4.png'
+                ],
                 img_title: ['image'],
                 button_list: [
                     {
@@ -554,8 +588,22 @@ $(function() {
                     'HTML5/CSS3, Less, BEM, jQuery, JavaScript, Adobe Photoshop.',
                     'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, IE-11, Edge.'
                 ].join(' '),
-                thumbnail: ['img/code-gallery/small/pink.jpg'],
-                large: ['img/code-gallery/large/pink.jpg'],
+                thumbnail: [
+                    'img/code-gallery/small/pink.jpg',
+                    'img/code-gallery/large/pink-1.png',
+                    'img/code-gallery/large/pink-2.png',
+                    'img/code-gallery/large/pink-3.png',
+                    'img/code-gallery/large/pink-4.png',
+                    'img/code-gallery/large/pink-5.png'
+                ],
+                large: [
+                    'img/code-gallery/large/pink.jpg',
+                    'img/code-gallery/large/pink-1.png',
+                    'img/code-gallery/large/pink-2.png',
+                    'img/code-gallery/large/pink-3.png',
+                    'img/code-gallery/large/pink-4.png',
+                    'img/code-gallery/large/pink-5.png'
+                ],
                 img_title: ['image 1 '],
                 button_list: [
                     {
@@ -580,8 +628,18 @@ $(function() {
                     'В проекте использовались: HTML5/CSS3, jQuery, AJAX, JavaScript, Adobe Photoshop.',
                     'Кроссбраузерность: Chrome, Opera, Firefox, Safari, IE-11, Edge.'
                 ].join(' '),
-                thumbnail: ['img/code-gallery/small/technomart.jpg'],
-                large: ['img/code-gallery/large/technomart.jpg'],
+                thumbnail: [
+                    'img/code-gallery/small/technomart.jpg',
+                    'img/code-gallery/large/tech-1.png',
+                    'img/code-gallery/large/tech-2.png',
+                    'img/code-gallery/large/tech-3.png',
+                ],
+                large: [
+                    'img/code-gallery/large/technomart.jpg',
+                    'img/code-gallery/large/tech-1.png',
+                    'img/code-gallery/large/tech-2.png',
+                    'img/code-gallery/large/tech-3.png',
+                ],
                 img_title: ['image'],
                 button_list: [
                     {
@@ -606,8 +664,18 @@ $(function() {
                     'HTML5/CSS3, Less, BEM, JavaScript, Webpack, Adobe Photoshop.',
                     'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, IE-11, Edge, Android.'
                 ].join(' '),
-                thumbnail: ['img/code-gallery/small/conmime.jpg'],
-                large: ['img/code-gallery/large/conmime.jpg'],
+                thumbnail: [
+                	'img/code-gallery/small/conmime.jpg',
+									'img/code-gallery/large/lookbook-1.png',
+									'img/code-gallery/large/lookbook-2.png',
+									'img/code-gallery/large/lookbook-3.png'
+								],
+                large: [
+                	'img/code-gallery/large/conmime.jpg',
+									'img/code-gallery/large/lookbook-1.png',
+									'img/code-gallery/large/lookbook-2.png',
+									'img/code-gallery/large/lookbook-3.png'
+								],
                 img_title: ['image 1 '],
                 button_list: [
                     {
@@ -631,8 +699,16 @@ $(function() {
                     'Фиксированная верстка по готовому psd-макету. В проекте использовались: HTML5/CSS3, JavaScript, Adobe Photoshop. ',
                     'Кроссбраузерность: Chrome, Opera, Firefox, Safari, IE-11, Edge.'
                 ].join(' '),
-                thumbnail: ['img/code-gallery/small/nerds.jpg'],
-                large: ['img/code-gallery/large/nerds.jpg'],
+                thumbnail: [
+                    'img/code-gallery/small/nerds.jpg',
+                    'img/code-gallery/large/nerds-1.png',
+                    'img/code-gallery/large/nerds-2.png',
+                ],
+                large: [
+                    'img/code-gallery/large/nerds.jpg',
+                    'img/code-gallery/large/nerds-1.png',
+                    'img/code-gallery/large/nerds-2.png',
+                ],
                 img_title: [ 'image'],
                 button_list: [
                     {
@@ -658,8 +734,16 @@ $(function() {
                     'В проекте использовались: HTML5/CSS3, Less, BEM, JavaScript, Webpack.',
                     'Кроссбраузерность: Мобильные и десктопные Chrome, Opera, Firefox, Safari, IE-11, Edge, Android.'
                 ].join(' '),
-                thumbnail: ['img/code-gallery/small/bank.jpg'],
-                large: ['img/code-gallery/large/bank.jpg'],
+                thumbnail: [
+                    'img/code-gallery/small/bank.jpg',
+                    'img/code-gallery/large/bank-1.png',
+                    'img/code-gallery/large/bank-2.png'
+                ],
+                large: [
+                    'img/code-gallery/large/bank.jpg',
+                    'img/code-gallery/large/bank-1.png',
+                    'img/code-gallery/large/bank-2.png'
+                ],
                 img_title: [ 'image'],
                 button_list: [
                     {
@@ -683,8 +767,18 @@ $(function() {
                     'Фиксированная верстка по готовому psd-макету. В проекте использовались: HTML5/CSS3, JavaScript, Adobe Photoshop.',
                     'Кроссбраузерность: Chrome, Opera, Firefox, Safari, IE-11, Edge.'
                 ].join(' '),
-                thumbnail: ['img/code-gallery/small/barbershop.jpg'],
-                large: ['img/code-gallery/large/barbershop.jpg'],
+                thumbnail: [
+                    'img/code-gallery/small/barbershop.jpg',
+                    'img/code-gallery/large/barber-1.png',
+                    'img/code-gallery/large/barber-2.png',
+                    'img/code-gallery/large/barber-3.png'
+                ],
+                large: [
+                    'img/code-gallery/large/barbershop.jpg',
+                    'img/code-gallery/large/barber-1.png',
+                    'img/code-gallery/large/barber-2.png',
+                    'img/code-gallery/large/barber-3.png'
+                ],
                 img_title: [ 'image'],
                 button_list: [
                     {
