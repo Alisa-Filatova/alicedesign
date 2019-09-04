@@ -1,17 +1,15 @@
-var webpack = require('webpack');
-var ExtractTextPlugin = require('extract-text-webpack-plugin');
+const webpack = require('webpack');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
-var NODE_ENV = process.env.NODE_ENV;
+const NODE_ENV = process.env.NODE_ENV;
 
 module.exports = {
     context: __dirname,
 
     entry: {
         index: './js/index.js',
-        graphicDesign: './js/portfolio-graphic.js',
         webDesign: './js/portfolio-web.js',
         code: './js/portfolio-code.js',
-        graphicDesignEn: './js/portfolio-graphic-en.js',
         webDesignEn: './js/portfolio-web-en.js',
         codeEn: './js/portfolio-code-en.js',
         illustrations: './js/portfolio-illustrations.js'
@@ -62,12 +60,12 @@ module.exports = {
 };
 
 if (NODE_ENV === 'production') {
-    var uglifyJsPlugin = new webpack.optimize.UglifyJsPlugin({
+    const uglifyJsPlugin = new webpack.optimize.UglifyJsPlugin({
         compress: {
             warnings: false,
             drop_console: true,
         },
     });
-    
+
     module.exports.plugins.push(uglifyJsPlugin);
 }

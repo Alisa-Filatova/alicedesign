@@ -146,7 +146,7 @@ $(function() {
 						{
 								title: 'goroshkodance.ru',
 								description: [
-									'Лендинг для танцевальной школы хореографа Саши Горошко (участница 4 сезона шоу «ТАНЦЫ» на ТНТ).',
+									'Лендинг для танцевальной школы хореографа Саши Горошко (финалистка 4 сезона шоу «ТАНЦЫ» на ТНТ).',
 									'Назначение сайта: информационная поддержка учеников, привлечение новых студентов, портфолио,',
 									'информация для сотрудничества.<br>',
 									'Основная целевая аудитория: девушки 14-25 лет, проживающие в Москве.<br>',
@@ -154,8 +154,22 @@ $(function() {
 									'В проекте я использовала: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM, Less, JavaScript, jQuery, AJAX, Webpack.',
 									'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, IE-11, Edge.'
 								].join(' '),
-								thumbnail: ['img/code-gallery/small/goroshko-dance.jpg', 'img/code-gallery/large/goroshko1.png', 'img/code-gallery/large/goroshko2.png', 'img/code-gallery/large/goroshko3.png'],
-								large: ['img/code-gallery/large/goroshko-dance.jpg', 'img/code-gallery/large/goroshko1.png', 'img/code-gallery/large/goroshko2.png', 'img/code-gallery/large/goroshko3.png'],
+								thumbnail: [
+								    'img/code-gallery/small/goroshko-dance.jpg',
+                    'img/code-gallery/large/goroshko-1.png',
+                    'img/code-gallery/large/goroshko-2.png',
+                    'img/code-gallery/large/goroshko-3.png',
+                    'img/code-gallery/large/goroshko-4.png',
+                    'img/code-gallery/large/goroshko-5.png'
+                ],
+								large: [
+								    'img/code-gallery/large/goroshko-dance.jpg',
+                    'img/code-gallery/large/goroshko-1.png',
+                    'img/code-gallery/large/goroshko-2.png',
+                    'img/code-gallery/large/goroshko-3.png',
+                    'img/code-gallery/large/goroshko-4.png',
+                    'img/code-gallery/large/goroshko-5.png'
+                ],
 								img_title: ['goroshkodance.ru'],
 								button_list: [
 									{
@@ -180,8 +194,26 @@ $(function() {
                     'В проекте я занимала роль младшего фронтенд-разработчика. Использовала: React.js, TypeScript, MobX, SVG, HTML5/CSS3, Less, JavaScript, Webpack.',
                     'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge последние версии.'
                 ].join(' '),
-                thumbnail: ['img/code-gallery/small/exchanger.jpg'],
-                large: ['img/code-gallery/large/exchanger.jpg'],
+                thumbnail: [
+                    'img/code-gallery/small/exchanger.jpg',
+                    'img/code-gallery/large/exch.jpg',
+                    'img/code-gallery/large/exch-1.jpg',
+                    'img/code-gallery/large/exch-2.jpg',
+                    'img/code-gallery/large/exch-3.jpg',
+                    'img/code-gallery/large/exch-4.jpg',
+                    'img/code-gallery/large/exch-5.jpg',
+                    'img/code-gallery/large/exch-6.jpg',
+                ],
+                large: [
+                    'img/code-gallery/large/exchanger.jpg',
+                    'img/code-gallery/large/exch.jpg',
+                    'img/code-gallery/large/exch-1.jpg',
+                    'img/code-gallery/large/exch-2.jpg',
+                    'img/code-gallery/large/exch-3.jpg',
+                    'img/code-gallery/large/exch-4.jpg',
+                    'img/code-gallery/large/exch-5.jpg',
+                    'img/code-gallery/large/exch-6.jpg',
+                ],
                 img_title: ['ezy-exchange.com'],
                 button_list: [
                     {
@@ -204,8 +236,23 @@ $(function() {
                     'Less, JavaScript, AJAX, jQuery, плагин Gamma Gallery. ',
                     'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, IE-11, Edge.'
                 ].join(' '),
-                thumbnail: ['img/code-gallery/small/lenor-tat.jpg'],
-                large: ['img/code-gallery/large/lenor-tat.jpg'],
+                thumbnail: [
+                    'img/code-gallery/small/lenor-tat.jpg',
+                    'img/code-gallery/large/lenor-1.png',
+                    'img/code-gallery/large/lenor-2.png',
+                    'img/code-gallery/large/lenor-3.png',
+                    'img/code-gallery/large/lenor-4.png',
+                    'img/code-gallery/large/lenor-5.png',
+
+                ],
+                large: [
+                    'img/code-gallery/large/lenor-tat.jpg',
+                    'img/code-gallery/large/lenor-1.png',
+                    'img/code-gallery/large/lenor-2.png',
+                    'img/code-gallery/large/lenor-3.png',
+                    'img/code-gallery/large/lenor-4.png',
+                    'img/code-gallery/large/lenor-5.png',
+                ],
                 img_title: ['lenortat.spb.ru'],
                 button_list: [
                     {
@@ -230,12 +277,24 @@ $(function() {
                     'Целевая аудитория: молодые мамы, семьи с детьми,',
                     'семейные пары, домохозяйки, проживающие в пригороде Калифорнии.<br>',
                     'Адаптивно-резиновая верстка. Мой собственный дизайн.',
-                    'Используемые технологии: Adobe Photoshop, Adobe Illustrator, HTML5/CSS3, методология BEM, Less, ',
-                    'JavaScript, jQuery плагин Gamma Gallery, Bootstrap Carousel, AJAX.',
-                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, IE-11, Edge.'
+                    'Используемые технологии: HTML5/CSS3, методология BEM, Less, ',
+                    'JavaScript, React.js, Adobe Photoshop, Adobe Illustrator.',
+                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge.'
                 ].join(' '),
-                thumbnail: ['img/code-gallery/small/natalia-photo.jpg'],
-                large: ['img/code-gallery/large/natalia-photo.jpg'],
+                thumbnail: [
+                    'img/code-gallery/small/natalia-photo.jpg',
+                    'img/code-gallery/large/nata-1.png',
+                    'img/code-gallery/large/nata-2.png',
+                    'img/code-gallery/large/nata-3.png',
+                    'img/code-gallery/large/nata-4.png',
+                ],
+                large: [
+                    'img/code-gallery/large/natalia-photo.jpg',
+                    'img/code-gallery/large/nata-1.png',
+                    'img/code-gallery/large/nata-2.png',
+                    'img/code-gallery/large/nata-3.png',
+                    'img/code-gallery/large/nata-4.png',
+                ],
                 img_title: ['image'],
                 button_list: [
                     {
@@ -245,7 +304,7 @@ $(function() {
                     },
                     {
                         title: 'Исходный код',
-                        url: 'https://github.com/Alisa-Filatova/Natalia-photography',
+                        url: 'https://github.com/Alisa-Filatova/natalia-photo-react',
                         new_window: true
                     }
                 ],
@@ -261,11 +320,24 @@ $(function() {
                     'Готовится мобильная и планшетная версия. В текущей версии верстка главной страницы фиксированная,',
                     'адаптивность частично поддерживают внутренние страницы.<br>' ,
                     'Используемые технологии: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM, Less, ',
-                    'jQuery, плагин Elastic Grid, Material Photo Gallery, Snap SVG, Webpack.',
+                    'jQuery, плагин Elastic Grid, Material Photo Gallery, Snap SVG, GSAP, Webpack.',
                     'Кроссбраузерность: последние Chrome, Opera, Firefox, Safari, IE-11, Edge.'
                 ].join(' '),
-                thumbnail: ['img/code-gallery/small/alicedesign.jpg'],
-                large: ['img/code-gallery/large/alicedesign.jpg'],
+                thumbnail: [
+                    'img/code-gallery/small/alicedesign.jpg',
+                    'img/code-gallery/large/alice-1.png',
+                    'img/code-gallery/large/alice-2.png',
+                    'img/code-gallery/large/alice-3.png',
+                    'img/code-gallery/large/alice-4.png',
+
+                ],
+                large: [
+                    'img/code-gallery/large/alicedesign.jpg',
+                    'img/code-gallery/large/alice-1.png',
+                    'img/code-gallery/large/alice-2.png',
+                    'img/code-gallery/large/alice-3.png',
+                    'img/code-gallery/large/alice-4.png',
+                ],
                 img_title: ['image'],
                 button_list: [
                     {
@@ -290,8 +362,20 @@ $(function() {
                     'HTML5/CSS3, Less, BEM, JavaScript, Webpack, Adobe Photoshop.',
                     'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, IE-11, Edge, Android 4.1 + .'
                 ].join(' '),
-                thumbnail: ['img/code-gallery/small/netlab.jpg'],
-                large: ['img/code-gallery/large/netlab.jpg'],
+                thumbnail: [
+                    'img/code-gallery/small/netlab.jpg',
+                    'img/code-gallery/large/netlab1.jpg',
+                    'img/code-gallery/large/netlab2.jpg',
+                    'img/code-gallery/large/netlab3.jpg',
+                    'img/code-gallery/large/netlab4.jpg',
+                ],
+                large: [
+                    'img/code-gallery/large/netlab.jpg',
+                    'img/code-gallery/large/netlab1.jpg',
+                    'img/code-gallery/large/netlab2.jpg',
+                    'img/code-gallery/large/netlab3.jpg',
+                    'img/code-gallery/large/netlab4.jpg',
+                ],
                 img_title: ['image 1 '],
                 button_list: [
                     {
@@ -311,8 +395,18 @@ $(function() {
                     'HTML5/CSS3, Less, BEM, JavaScript, Webpack, Sketch.',
                     'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge.'
                 ].join(' '),
-                thumbnail: ['img/code-gallery/small/fora.jpg'],
-                large: ['img/code-gallery/large/fora.jpg'],
+                thumbnail: [
+                    'img/code-gallery/small/fora.jpg',
+                    'img/code-gallery/large/fora1.png',
+                    'img/code-gallery/large/fora2.png',
+                    'img/code-gallery/large/fora3.png'
+                ],
+                large: [
+                    'img/code-gallery/large/fora.jpg',
+                    'img/code-gallery/large/fora1.png',
+                    'img/code-gallery/large/fora2.png',
+                    'img/code-gallery/large/fora3.png'
+                ],
                 img_title: ['image 1 '],
                 button_list: [
                     {
@@ -352,35 +446,6 @@ $(function() {
                 tags: ['Фиксированная верстка']
             },
             {
-                title: '«Code and Magic»',
-                description: [
-                    'Промо-сайт для игры «Code and Magic», где можно поиграть в демо-версию,',
-                    'создать вашего уникального персонажа, купить ему артефакты, посмотреть похожих персонажей,',
-                    'посмотреть галерею скриншотов, отзывы и оценьть игру.',
-                    'Личный проект на интенсиве «Базовый JavaScript» от «HTML-Academy».',
-                    'Верстка по готовому psd-макету (HTML-Academy) с некоторым изменением и добавлением элементов дизайна.',
-                    'Технологии используемые в проекте: ',
-                    'HTML5/CSS3, JavaScript, jQuery, AJAX, Webpack, SVG, Adobe Photoshop, Webpack.',
-                    'Кроссбраузерность: Chrome, Opera, Firefox, Edge.'
-                ].join(' '),
-                thumbnail: ['img/code-gallery/small/code-and-magic.jpg'],
-                large: ['img/code-gallery/large/code-and-magic.jpg'],
-                img_title: ['image'],
-                button_list: [
-                    {
-                        title: 'Перейти на сайт',
-                        url: 'http://code-and-magic.alicedesign.ru',
-                        new_window: true
-                    },
-                    {
-                        title: 'Исходный код',
-                        url: 'https://github.com/Alisa-Filatova/code-and-magic',
-                        new_window: true
-                    }
-                ],
-                tags: ['Фиксированная верстка']
-            },
-            {
                 title: '«Moowle»',
                 description: [
                     'Moowle — сервис для фанатов большого кино и телевизионных сериалов. ' +
@@ -404,6 +469,50 @@ $(function() {
                     {
                         title: 'Исходный код',
                         url: 'https://github.com/Alisa-Filatova/Cinemaddict',
+                        new_window: true
+                    }
+                ],
+                tags: ['Фиксированная верстка']
+            },
+            {
+                title: '«Code and Magic»',
+                description: [
+                    'Промо-сайт для игры «Code and Magic», где можно поиграть в демо-версию,',
+                    'создать вашего уникального персонажа, купить ему артефакты, посмотреть похожих персонажей,',
+                    'посмотреть галерею скриншотов, отзывы и оценьть игру.',
+                    'Личный проект на интенсиве «Базовый JavaScript» от «HTML-Academy».',
+                    'Верстка по готовому psd-макету (HTML-Academy) с некоторым изменением и добавлением элементов дизайна.',
+                    'Технологии используемые в проекте: ',
+                    'HTML5/CSS3, JavaScript, jQuery, AJAX, Webpack, SVG, Adobe Photoshop, Webpack.',
+                    'Кроссбраузерность: Chrome, Opera, Firefox, Edge.'
+                ].join(' '),
+                thumbnail: [
+                    'img/code-gallery/small/code-and-magic.jpg',
+                    'img/code-gallery/large/code&magick1.png',
+                    'img/code-gallery/large/code&magick2.png',
+                    'img/code-gallery/large/code&magick3.png',
+                    'img/code-gallery/large/code&magick4.png',
+                    'img/code-gallery/large/code&magick5.png'
+
+                ],
+                large: [
+                    'img/code-gallery/large/code-and-magic.jpg',
+                    'img/code-gallery/large/code&magick1.png',
+                    'img/code-gallery/large/code&magick2.png',
+                    'img/code-gallery/large/code&magick3.png',
+                    'img/code-gallery/large/code&magick4.png',
+                    'img/code-gallery/large/code&magick5.png'
+                ],
+                img_title: ['image'],
+                button_list: [
+                    {
+                        title: 'Перейти на сайт',
+                        url: 'http://code-and-magic.alicedesign.ru',
+                        new_window: true
+                    },
+                    {
+                        title: 'Исходный код',
+                        url: 'https://github.com/Alisa-Filatova/code-and-magic',
                         new_window: true
                     }
                 ],
