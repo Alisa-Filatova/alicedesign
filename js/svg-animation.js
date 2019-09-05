@@ -39,23 +39,33 @@ girlBlinkAnim.to('#girl-eyes', 5, {
 
 var girlMainBlinkAnim = new TimelineLite();
 
-girlMainBlinkAnim.to('#girl-main-eyes', 5, {
-	visibility: 'visible'
+girlMainBlinkAnim.to('#girl-main-eyes', 6, {
+	transform: 'translateZ(0) translate(0) scaleY(1)',
+	webkitTransform: 'translateZ(0) translate(0) scaleY(1)'
 })
 .to('#girl-main-eyes', 0.1, {
-	visibility: 'hidden'
+	transform: 'translateZ(0) translate(0) scaleY(0.2)',
+	webkitTransform: 'translateZ(0) translate(0) scaleY(0.2)'
+})
+.to('#girl-main-eyes', 0.1, {
+	transform: 'translateZ(0) translate(0) scaleY(1)',
+	webkitTransform: 'translateZ(0) translate(0) scaleY(1)'
 })
 .to('#girl-main-eyes', 10, {
-	visibility: 'visible'
+	transform: 'translateZ(0) translate(0) scaleY(1)',
+	webkitTransform: 'translateZ(0) translate(0) scaleY(1)'
 })
 .to('#girl-main-eyes', 0.1, {
-	visibility: 'hidden'
+	transform: 'translateZ(0) translate(0) scaleY(0.2)',
+	webkitTransform: 'translateZ(0) translate(0) scaleY(0.2)'
 })
 .to('#girl-main-eyes', 0.1, {
-	visibility: 'visible'
+	transform: 'translateZ(0) translate(0) scaleY(1)',
+	webkitTransform: 'translateZ(0) translate(0) scaleY(1)'
 })
 .to('#girl-main-eyes', 0.1, {
-	visibility: 'hidden'
+	transform: 'translateZ(0) translate(0) scaleY(0.2)',
+	webkitTransform: 'translateZ(0) translate(0) scaleY(0.2)'
 })
 .call(function () {
 	girlMainBlinkAnim.restart();
