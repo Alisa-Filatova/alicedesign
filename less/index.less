@@ -951,6 +951,7 @@
     top: 26px;
     left: 31px;
     animation: mouth 15s ease-in-out infinite alternate-reverse;
+    -webkit-animation: mouth 15s ease-in-out infinite alternate-reverse;
   }
 }
 
@@ -994,25 +995,31 @@
 // ITEMS ON TABLE
 
 .screen-wrapper {
-  width: 165px;
+  width: 166px;
   height: 86px;
   bottom: 382px;
   left: 224px;
   overflow: hidden;
-  border-radius: 27px 27px 0 0;
+  border-radius: 18px 18px 0 0;
 
   @media (min-width: @big-screen) {
-    width: 229px;
+    width: 230px;
     height: 123px;
     bottom: 532px;
     left: 317px;
+    border-radius: 22px 22px 0 0;
   }
 }
 
 .svg-screen {
   position: absolute;
+  top: -10px;
   width: 100%;
   height: auto;
+  
+  @media (min-width: @big-screen) {
+    top: -14px;
+  }
 }
 
 .stripe-hidden {
