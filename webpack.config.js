@@ -16,7 +16,7 @@ module.exports = {
     },
 
     output: {
-        path: `${__dirname}'/dist'}`,
+        path: `${__dirname}/dist`,
         publicPath: '/dist/',
         filename: 'js/[name].js'
     },
@@ -29,7 +29,7 @@ module.exports = {
                 test: /\.(less|css)$/,
                 loader: ExtractTextPlugin.extract({
                     fallback: 'style-loader',
-                    use: `css-loader?${NODE_ENV === 'production' ? 'minimize' : ''}!postcss-loader!less-loader`,
+                    use: `css-loader?${NODE_ENV === 'production' ? 'minimize' : ''}!less-loader`,
                 }),
             }, {
                 test: /\.(ttf|eot|woff2?)$/,

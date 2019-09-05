@@ -10,7 +10,7 @@
     "webpack": "webpack",
     "devServer": "webpack-dev-server",
     "watch": "webpack -w",
-    "build": "rm -rf ./dist && NODE_ENV=production webpack"
+    "build": "rm -rf ./dist && NODE_ENV=production webpack --bail"
   },
   "repository": {
     "type": "git",
