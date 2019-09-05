@@ -40,8 +40,20 @@
     "less-loader": "4.0.5",
     "postcss-flexbugs-fixes": "4.1.0",
     "postcss-loader": "3.0.0",
+    "postcss-preset-env": "6.7.0",
     "style-loader": "0.18.2",
-    "webpack": "^3.5.5",
+    "webpack": "3.5.6",
     "webpack-dev-server": "2.7.1"
-  }
+  },
+  "browserslist": [
+    "Chrome >= 62",
+    "ChromeAndroid >= 69",
+    "Android >= 4.1",
+    "Edge >= 17",
+    "Firefox >= 61",
+    "iOS >= 10.0",
+    "Safari >= 10",
+    "Opera >= 55",
+    "Samsung >= 5"
+  ]
 }

@@ -9,6 +9,109 @@
   <title>Alice Design</title>
 
   <link href="https://fonts.googleapis.com/css?family=Neucha&amp;subset=cyrillic" rel="stylesheet">
+  <style>
+    @font-face {
+      font-family: 'Neucha';
+      font-style: normal;
+      font-weight: 400;
+    }
+
+    .overlay-loader {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 5000;
+      pointer-events: none;
+    }
+
+    .loader__text {
+      z-index: 5000;
+      position: absolute;
+      top: 70%;
+      left: 45%;
+      margin: 74px 0 0 -97px;
+      font-size: 40px;
+      color: #ffffff;
+      letter-spacing: 10px;
+      animation: fade-out 0.4s infinite linear alternate-reverse;
+      text-align: center;
+      font-family: 'Neucha', 'Comic Sans', sans-serif;
+    }
+
+    .loader__wrapper {
+      z-index: 5000;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+    }
+
+    .overlay-loader .loader-background {
+      position: absolute;
+      width: 100%;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-color: #506085;
+      transition: background-color .2s 0s linear,right .2s .3s ease-out;
+    }
+
+    .overlay-loader .loader-background.color-flip {
+      animation: color-flip 6.5s .6s infinite linear;
+    }
+
+    @keyframes fade-out {
+      0% { opacity: 1 }
+      100% { opacity: 0.3 }
+    }
+
+    @keyframes color-flip {
+      0% { background-color: #506085 }
+      18% { background-color: #506085 }
+      20% { background-color: #fc568d }
+      38% { background-color: #fc568d }
+      40% { background-color: #80deea }
+      58% { background-color: #80deea }
+      60% { background-color: #e55189 }
+      78% { background-color: #e55189 }
+      80% { background-color: #088696 }
+      98% { background-color: #088696 }
+      100% { background-color: #506085 }
+    }
+
+    .overlay-loader .loader-icon {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin: -48px 0 0 -48px;
+      font-size: 96px;
+      color: #FFF;
+    }
+
+    .overlay-loader .loader-icon.spinning-cog {
+      animation: spinning-cog 1.3s infinite ease;
+    }
+
+
+    @keyframes spinning-cog {
+      0% { transform: rotate(0deg) }
+      20% { transform: rotate(-45deg) }
+      100% { transform: rotate(360deg) }
+    }
+
+    @keyframes shrinking-cog {
+      0% { transform: scale(1) }
+      20% { transform: scale(1.2) }
+      100% { transform: scale(0) }
+    }
+
+    .overlay-loader .loader-icon {
+      animation: shrinking-cog .3s 1 ease forwards;
+    }
+  </style>
+  <link href="dist/css/index.css" rel="stylesheet">
   <link href="dist/css/index.css" rel="stylesheet">
   <link rel="icon" type="image/png" href="img/favicon.png">
   <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -86,7 +189,7 @@
         <!-- LANGUAGE -->
         <ul class="language">
           <li class="language__item">
-            <a class="language__link" href="index-en.html">EN</a>
+            <a class="language__link" href="en.html">EN</a>
           </li>
           <li class="language__item">|</li>
           <li class="language__link language__link_active">RU</li>
@@ -736,7 +839,11 @@
   </script>
   <noscript>
     <div>
-      <img src="https://mc.yandex.ru/watch/42256719" style="position: absolute; left: -9999px;" alt="" />
+      <img
+        src="https://mc.yandex.ru/watch/42256719"
+        style="position: absolute; left: -9999px;"
+        alt=""
+      />
     </div>
   </noscript>
 </body>
