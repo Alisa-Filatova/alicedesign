@@ -21,8 +21,22 @@ $(function() {
                     'The website is adapted for tablets and mobile devices.',
                     'In the project I used: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM, Less, JavaScript. Cross-browser compatibility: IE11+.'
                 ].join(' '),
-                thumbnail: ['img/code-gallery/small/goroshko-dance.jpg'],
-                large: ['img/code-gallery/large/goroshko-dance.jpg'],
+                thumbnail: [
+                    'img/code-gallery/small/goroshko-dance.jpg',
+                    'img/code-gallery/large/goroshko-1.png',
+                    'img/code-gallery/large/goroshko-2.png',
+                    'img/code-gallery/large/goroshko-3.png',
+                    'img/code-gallery/large/goroshko-4.png',
+                    'img/code-gallery/large/goroshko-5.png'
+                ],
+                large: [
+                    'img/code-gallery/large/goroshko-dance.jpg',
+                    'img/code-gallery/large/goroshko-1.png',
+                    'img/code-gallery/large/goroshko-2.png',
+                    'img/code-gallery/large/goroshko-3.png',
+                    'img/code-gallery/large/goroshko-4.png',
+                    'img/code-gallery/large/goroshko-5.png'
+                ],
                 img_title: ['goroshkodance.ru'],
                 button_list: [
                     {
@@ -49,8 +63,23 @@ $(function() {
                     'Technologies used: Adobe Illustrator, SVG, Adobe Photoshop, HTML5/CSS3, BEM,',
                     'Less, jQuery Gamma Gallery, JavaScript. Cross-browser compatibility: IE11+.'
                 ].join(' '),
-                thumbnail: ['img/code-gallery/small/lenor-tat.jpg'],
-                large: ['img/code-gallery/large/lenor-tat.jpg'],
+                thumbnail: [
+                    'img/code-gallery/small/lenor-tat.jpg',
+                    'img/code-gallery/large/lenor-1.png',
+                    'img/code-gallery/large/lenor-2.png',
+                    'img/code-gallery/large/lenor-3.png',
+                    'img/code-gallery/large/lenor-4.png',
+                    'img/code-gallery/large/lenor-5.png',
+
+                ],
+                large: [
+                    'img/code-gallery/large/lenor-tat.jpg',
+                    'img/code-gallery/large/lenor-1.png',
+                    'img/code-gallery/large/lenor-2.png',
+                    'img/code-gallery/large/lenor-3.png',
+                    'img/code-gallery/large/lenor-4.png',
+                    'img/code-gallery/large/lenor-5.png',
+                ],
                 img_title: ['lenortat.spb.ru'],
                 button_list: [
                     {
@@ -78,8 +107,20 @@ $(function() {
                     'Used technologies: Adobe Photoshop, Adobe Illustrator, HTML5/CSS3, BEM, Less, ',
                     'jQuery Gamma Gallery, Bootstrap Carousel, JavaScript. Cross-browser compatibility: IE11+.'
                 ].join(' '),
-                thumbnail: ['img/code-gallery/small/natalia-photo.jpg'],
-                large: ['img/code-gallery/large/natalia-photo.jpg'],
+                thumbnail: [
+                    'img/code-gallery/small/natalia-photo.jpg',
+                    'img/code-gallery/large/nata-1.png',
+                    'img/code-gallery/large/nata-2.png',
+                    'img/code-gallery/large/nata-3.png',
+                    'img/code-gallery/large/nata-4.png',
+                ],
+                large: [
+                    'img/code-gallery/large/natalia-photo.jpg',
+                    'img/code-gallery/large/nata-1.png',
+                    'img/code-gallery/large/nata-2.png',
+                    'img/code-gallery/large/nata-3.png',
+                    'img/code-gallery/large/nata-4.png',
+                ],
                 img_title: ['image'],
                 button_list: [
                     {
@@ -104,8 +145,21 @@ $(function() {
                     'Used technologies: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM methodology, CSS preprocessor LESS, ',
                     'JQuery plugin Elastic Grid, Material Photo Gallery. Cross-browser compatibility: IE11+.'
                 ].join(' '),
-                thumbnail: ['img/code-gallery/small/alicedesign.jpg'],
-                large: ['img/code-gallery/large/alicedesign.jpg'],
+                thumbnail: [
+                    'img/code-gallery/small/alicedesign.jpg',
+                    'img/code-gallery/large/alice-1.png',
+                    'img/code-gallery/large/alice-2.png',
+                    'img/code-gallery/large/alice-3.png',
+                    'img/code-gallery/large/alice-4.png',
+
+                ],
+                large: [
+                    'img/code-gallery/large/alicedesign.jpg',
+                    'img/code-gallery/large/alice-1.png',
+                    'img/code-gallery/large/alice-2.png',
+                    'img/code-gallery/large/alice-3.png',
+                    'img/code-gallery/large/alice-4.png',
+                ],
                 img_title: ['image'],
                 button_list: [
                     {
@@ -120,7 +174,52 @@ $(function() {
                     }
                 ],
                 tags: ['Fixed design']
+            },
+            {
+                title: 'cosmos-ssd',
+                description: [
+                    'Design landing page for SSD Cosmos, companies Imotech.',
+                    'Used technologies: Adobe Photoshop, Adobe Illustrator, SVG.',
+                ].join(' '),
+                thumbnail: [
+                    'img/code-gallery/small/cosmos.jpg',
+                    'img/code-gallery/large/ssd.jpg',
+                    'img/code-gallery/large/ssd-1.jpg',
+                    'img/code-gallery/large/ssd-2.jpg'
+                ],
+                large: [
+                    'img/code-gallery/large/cosmos.jpg',
+                    'img/code-gallery/large/ssd.jpg',
+                    'img/code-gallery/large/ssd-1.jpg',
+                    'img/code-gallery/large/ssd-2.jpg'
+                ],
+                img_title: ['image'],
+                button_list: [],
+                tags: ['Responsive design']
+            },
+            {
+                title: 'oglushevich',
+                description: [
+                    'Redesign the personal site of artist Alexey Agushevich.',
+                    'Used technologies: Adobe Photoshop, Adobe Illustrator, SVG',
+                ].join(' '),
+                thumbnail: [
+                    'img/code-gallery/small/ogl.jpg',
+                    'img/code-gallery/large/ogl-1.jpg',
+                    'img/code-gallery/large/ogl-2.jpg',
+                    'img/code-gallery/large/ogl-3.jpg'
+                ],
+                large: [
+                    'img/code-gallery/large/ogl.jpg',
+                    'img/code-gallery/large/ogl-1.jpg',
+                    'img/code-gallery/large/ogl-2.jpg',
+                    'img/code-gallery/large/ogl-3.jpg'
+                ],
+                img_title: ['image'],
+                button_list: [],
+                tags: ['Responsive design']
             }
+
         ]
     });
 });
