@@ -29,7 +29,7 @@ module.exports = {
                 test: /\.(less|css)$/,
                 loader: ExtractTextPlugin.extract({
                     fallback: 'style-loader',
-                    use: `css-loader?${NODE_ENV === 'production' ? 'minimize' : ''}!less-loader`,
+                    use: `css-loader?${NODE_ENV === 'production' ? 'minimize' : ''}!postcss-loader!less-loader`,
                 }),
             }, {
                 test: /\.(ttf|eot|woff2?)$/,
