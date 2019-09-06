@@ -17,9 +17,10 @@ $(function() {
                 title: 'ezy.com',
                 description: [
                   'Сервис с игровыми предметами для Counter-Strike: Global Offensive - EZY.com.',
-                  'SPA приложение для геймеров и киберспортсменов. Игры, открытие кейсов с игровыми предметами, апгрейд предметов, обмен, и прочие операции. ',
+                  'SPA приложение для геймеров и киберспортсменов. Игры, открытие кейсов с игровыми предметами, апгрейд предметов, обмен и прочие операции. ',
                   'Отзывчивая верстка. Поддержка 13ти языков.',
-                  'В проекте я занимала роль младшего фронтенд-разработчика. Использовала: React.js, TypeScript, MobX, SVG, HTML5/CSS3, Less, JavaScript, Webpack.',
+                  'В проекте я занимала роль младшего фронтенд-разработчика. Верстка по макетам из Sketch.' +
+                  'Использовала: React.js, TypeScript, SVG, HTML5/CSS3, Less, JavaScript, Webpack.',
                   'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge последние версии.'
                 ].join(' '),
                 thumbnail: [
@@ -61,10 +62,10 @@ $(function() {
             {
                 title: 'town.ezy.com',
                 description: [
-                    'Рекламный лендинг для сервиса с игровыми предметами Counter-Strike: Global Offensive - EZY.com - EZY.com.',
+                    'Рекламный лендинг для сервиса с игровыми предметами Counter-Strike: Global Offensive - EZY.com.',
                     'Назначение приложения: открытие кейсов с игровыми предметами, апгрейд предметов, обмен, и прочие операции. ',
                     'Назначение лендинга: реклама приложения.',
-                    'Адаптивно-резиновая верстка.',
+                    'Адаптивно-резиновая верстка по макету из Sketch.',
                     'В проекте я использовала: SVG, HTML5/CSS3, Less, JavaScript, Webpack.',
                     'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge последние версии.'
                 ].join(' '),
@@ -91,12 +92,13 @@ $(function() {
             {
                 title: 'vgo.ezy.com',
                 description: [
-                    'Рекламный лендинг для сервиса с игровыми предметами Counter-Strike: Global Offensive - EZY.com - EZY.com.',
+                    'Рекламный лендинг для сервиса с игровыми предметами Counter-Strike: Global Offensive - EZY.com.',
                     'Назначение приложения: открытие кейсов с игровыми предметами, апгрейд предметов, обмен, и прочие операции. ',
                     'Назначение лендинга: подробное описание VGO предметов и их преимущества.',
-                    'Адаптивно-резиновая верстка.',
+                    'Адаптивно-резиновая верстка по макету из Sketch.',
                     'В проекте я использовала: SVG, HTML5/CSS3, Less, JavaScript, Webpack.',
-                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge последние версии.'
+                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge последние версии.',
+                    'Оригинальный лендинг размещен внутри сайта ezy.com с использованием React.js и TypeScript, по ссылке не доступен.'
                 ].join(' '),
                 thumbnail: [
                   'img/code-gallery/small/vgo.jpg',
@@ -116,7 +118,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Перейти на сайт',
-                        url: 'https://ezy.com/',
+                        url: 'http://vgo.alicedesign.ru/',
                         new_window: true
                     }
                 ],
@@ -127,12 +129,23 @@ $(function() {
                 description: [
                     'Сервис с игровыми предметами для Counter-Strike: Global Offensive - leondrop.net. Адаптация EZY.com для российского рынка.',
                     'SPA приложение для геймеров и киберспортсменов. Игры, открытие кейсов с игровыми предметами, апгрейд предметов, обмен, и прочие операции. ',
-                    'Отзывчивая верстка.',
-                    'В проекте я занимала роль младшего фронтенд-разработчика. Использовала: React.js, TypeScript, MobX, SVG, HTML5/CSS3, Less, JavaScript, Webpack.',
-                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge последние версии.'
+                    'Отзывчивая верстка по макетам из Sketch.',
+                    'В проекте я занимала роль младшего фронтенд-разработчика. Использовала: React.js, TypeScript, SVG, HTML5/CSS3, Less, JavaScript, Webpack.',
+                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge последние версии.',
+                    'В данный момент сайт доступен только через иностранный VPN.'
                 ].join(' '),
-                thumbnail: ['img/code-gallery/small/leon.jpg', 'img/code-gallery/large/LeonGG.jpg', 'img/code-gallery/large/LeonGG2.jpg', 'img/code-gallery/large/LeonGG3.jpg'],
-                large: ['img/code-gallery/large/leon.jpg', 'img/code-gallery/large/LeonGG.jpg' ,'img/code-gallery/large/LeonGG2.jpg', 'img/code-gallery/large/LeonGG3.jpg' ],
+                thumbnail: [
+                    'img/code-gallery/small/leon.jpg',
+                    'img/code-gallery/large/LeonGG.jpg',
+                    'img/code-gallery/large/LeonGG2.jpg',
+                    'img/code-gallery/large/LeonGG3.jpg'
+                ],
+                large: [
+                    'img/code-gallery/large/leon.jpg',
+                    'img/code-gallery/large/LeonGG.jpg' ,
+                    'img/code-gallery/large/LeonGG2.jpg',
+                    'img/code-gallery/large/LeonGG3.jpg'
+                ],
                 img_title: ['leondrop.net'],
                 button_list: [
                     {
@@ -192,7 +205,8 @@ $(function() {
                     'SPA приложение для геймеров и киберспортсменов. ',
                     'Отзывчивая верстка.',
                     'В проекте я занимала роль младшего фронтенд-разработчика. Использовала: React.js, TypeScript, MobX, SVG, HTML5/CSS3, Less, JavaScript, Webpack.',
-                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge последние версии.'
+                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge последние версии.',
+                    'В данный момент сайт уже не существует.'
                 ].join(' '),
                 thumbnail: [
                     'img/code-gallery/small/exchanger.jpg',
@@ -215,13 +229,7 @@ $(function() {
                     'img/code-gallery/large/exch-6.jpg',
                 ],
                 img_title: ['ezy-exchange.com'],
-                button_list: [
-                    {
-                        title: 'Перейти на сайт',
-                        url: 'https://ezy-exchange.com/',
-                        new_window: true
-                    }
-                ],
+                button_list: [],
                 tags: ['Отзывчивая верстка']
             },
             {
@@ -310,12 +318,11 @@ $(function() {
                 ],
                 tags: ['Отзывчивая верстка']
             },
-
             {
                 title: 'alicedesign.ru',
                 description: [
                     'Мой личный сайт портфолио. Проект я решила делать со своими векторными иллюстрациями и CSS анимацией.',
-                    'Так я смогла максимально отразить себя. Дизайн делала полностью сама, дав себе волю и стараясь не думать',
+                    'Дизайн делала полностью сама, дав себе волю и стараясь не думать',
                     'об ограничениях верстки.<br> На данный момент работа над сайтом продолжается.',
                     'Готовится мобильная и планшетная версия. В текущей версии верстка главной страницы фиксированная,',
                     'адаптивность частично поддерживают внутренние страницы.<br>' ,
@@ -389,8 +396,8 @@ $(function() {
             {
                 title: 'fora.ru',
                 description: [
-                    'Информационный сайт для консалтинговой компании "Fora".',
-                    'Адаптивно-резиновая верстка по готовому-psd макету.' ,
+                    'Информационный сайт для консалтинговой компании "Fora.ru".',
+                    'Адаптивно-резиновая верстка по готовому макету Sketch.' ,
                     'Технологии используемые в проекте:',
                     'HTML5/CSS3, Less, BEM, JavaScript, Webpack, Sketch.',
                     'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge.'
@@ -424,9 +431,8 @@ $(function() {
                     'Выбирайте один из шести популярных городов для путешествий и получайте актуальный список предложений по аренде. ' +
                     'Подробная информация о жилье, показ объекта на карте, а также лаконичный интерфейс сервиса помогут быстро выбрать оптимальное предложение.',
                     'Личный проект на интенсивном онлайн-курсе «Профессиональный JavaScript уровень 3» в «HTML Academy».' ,
-                    'Технологии используемые и изучаемые в проекте:',
+                    'Верстка была предоставлена в html. Технологии используемые и изучаемые в проекте:',
                     'TypeScript, React.js, Redux, тестирование с помощью Jest.',
-                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge.'
                 ].join(' '),
                 thumbnail: [
                     'img/code-gallery/small/six-cities.jpg',
@@ -463,9 +469,9 @@ $(function() {
                     'Moowle — сервис для фанатов большого кино и телевизионных сериалов. ' +
                     'Подробная информация о горячих новинках кино, возможность выбрать и сформировать ' +
                     'собственный список фильмов к просмотру, обсуждение кинофильмов и многое другое.' +
-                    ' Moowle — поможет провести время интересно.',
+                    'Moowle — поможет провести время интересно.',
                     'Личный проект на интенсивном онлайн-курсе «Профессиональный JavaScript уровень 2» в «HTML Academy».' ,
-                    'Технологии используемые и изучаемые в проекте:',
+                    'Верстка была предоставлена в html. Технологии используемые и изучаемые в проекте:',
                     'JavaScript (ES6), работа с Webpack и сторонними библиотеками.',
                     'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge.'
                 ].join(' '),
@@ -647,11 +653,6 @@ $(function() {
                         url: 'http://technomart.alicedesign.ru',
                         new_window: true
                     },
-                    {
-                        title: 'Исходный код',
-                        url: 'https://github.com/Alisa-Filatova/technomart',
-                        new_window: true
-                    }
                 ],
                 tags: ['Фиксированная верстка']
             },
@@ -680,7 +681,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Перейти на сайт',
-                        url: 'http://conmime.alicedesign.ru',
+                        url: 'http://lookbook.alicedesign.ru',
                         new_window: true
                     },
                     {
@@ -716,11 +717,6 @@ $(function() {
                         url: 'http://nerds.alicedesign.ru',
                         new_window: true
                     },
-                    {
-                        title: 'Исходный код',
-                        url: 'https://github.com/Alisa-Filatova/nerds',
-                        new_window: true
-                    }
                 ],
                 tags: ['Фиксированная верстка']
             },

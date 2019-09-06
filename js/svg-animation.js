@@ -3,7 +3,6 @@ import { TimelineLite, TweenMax } from 'gsap/TweenMax';
 TweenMax.to('.move-code-to-left', 0, {x: 400, y: 10});
 TweenMax.to('.move-code-to-right', 0, {x: -330});
 
-
 TweenMax.staggerTo('#girl', 2.25, {
 	transformOrigin: 'center',
 	y: 5,

@@ -110,7 +110,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Visit Website',
-                        url: 'https://ezy.com/',
+                        url: 'http://vgo.alicedesign.ru/',
                         new_window: true
                     }
                 ],
@@ -220,13 +220,7 @@ $(function() {
                     'img/code-gallery/large/exch-6.jpg',
                 ],
                 img_title: ['ezy-exchange.com'],
-                button_list: [
-                    {
-                        title: 'Visit Website',
-                        url: 'https://ezy-exchange.com/',
-                        new_window: true
-                    }
-                ],
+                button_list: [],
                 tags: ['Responsive']
             },
             {
@@ -418,7 +412,7 @@ $(function() {
                 tags: ['Responsive']
             },
             {
-                title: '«Six cities»',
+                title: 'Six cities',
                 description: [
                     '"Six cities" - a service for travelers who do not want to overpay for rent. '+
                     'Choose one of six popular cities to travel to and get an up-to-date list of rental offers. '+
@@ -458,7 +452,7 @@ $(function() {
                 tags: ['Fixed']
             },
             {
-                title: '«Moowle»',
+                title: 'Moowle',
                 description: [
                     'Moowle — service for fans of great movies and TV series. '+
                     'Detailed information on hot new movies, the ability to choose and form' +
@@ -608,11 +602,6 @@ $(function() {
                         url: 'http://pink.alicedesign.ru',
                         new_window: true
                     },
-                    {
-                        title: 'Source Code',
-                        url: 'https://github.com/Alisa-Filatova/Pink',
-                        new_window: false
-                    }
                 ],
                 tags: ['Responsive']
             },
@@ -643,11 +632,6 @@ $(function() {
                         url: 'http://technomart.alicedesign.ru',
                         new_window: true
                     },
-                    {
-                        title: 'Source Code',
-                        url: 'https://github.com/Alisa-Filatova/technomart',
-                        new_window: true
-                    }
                 ],
                 tags: ['Fixed']
             },
@@ -676,7 +660,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Visit Website',
-                        url: 'http://conmime.alicedesign.ru',
+                        url: 'http://lookbook.alicedesign.ru',
                         new_window: true
                     },
                     {
@@ -712,11 +696,6 @@ $(function() {
                         url: 'http://nerds.alicedesign.ru',
                         new_window: true
                     },
-                    {
-                        title: 'Source Code',
-                        url: 'https://github.com/Alisa-Filatova/nerds',
-                        new_window: true
-                    }
                 ],
                 tags: ['Fixed']
             },
