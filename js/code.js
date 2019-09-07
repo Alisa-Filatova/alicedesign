@@ -17,11 +17,12 @@ $(function() {
                 title: 'ezy.com',
                 description: [
                   'Сервис с игровыми предметами для Counter-Strike: Global Offensive - EZY.com.',
-                  'SPA приложение для геймеров и киберспортсменов. Игры, открытие кейсов с игровыми предметами, апгрейд предметов, обмен и прочие операции. ',
-                  'Отзывчивая верстка. Поддержка 13ти языков.',
-                  'В проекте я занимала роль младшего фронтенд-разработчика. Верстка по макетам из Sketch.' +
-                  'Использовала: React.js, TypeScript, SVG, HTML5/CSS3, Less, JavaScript, Webpack.',
-                  'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge последние версии.'
+                  'SPA приложение для геймеров и киберспортсменов. Игры, открытие кейсов с игровыми ' +
+                  'предметами, апгрейд предметов, обмен и прочие операции. ',
+                  'Отзывчивая верстка по макетам из Sketch. Поддержка 13ти языков.<br>',
+                  'В проекте я занимала роль младшего фронтенд-разработчика.<br> ' +
+                  'Использовала: React.js, TypeScript, SVG, HTML5/CSS3, Less, CSS Modules, JavaScript, Webpack.<br>',
+                  'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge - последние версии.'
                 ].join(' '),
                 thumbnail: [
                     'img/code-gallery/small/ezy.jpg',
@@ -65,8 +66,8 @@ $(function() {
                     'Рекламный лендинг для сервиса с игровыми предметами Counter-Strike: Global Offensive - EZY.com.',
                     'Назначение приложения: открытие кейсов с игровыми предметами, апгрейд предметов, обмен, и прочие операции. ',
                     'Назначение лендинга: реклама приложения.',
-                    'Адаптивно-резиновая верстка по макету из Sketch.',
-                    'В проекте я использовала: SVG, HTML5/CSS3, Less, JavaScript, Webpack.',
+                    'Адаптивно-резиновая верстка по макету из Sketch.<br>',
+                    'В проекте я использовала: SVG, HTML5/CSS3, Less, JavaScript, Webpack.<br>',
                     'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge последние версии.'
                 ].join(' '),
                 thumbnail: [
@@ -93,11 +94,10 @@ $(function() {
                 title: 'Vgo Ezy',
                 description: [
                     'Рекламный лендинг для сервиса с игровыми предметами Counter-Strike: Global Offensive - EZY.com.',
-                    'Назначение приложения: открытие кейсов с игровыми предметами, апгрейд предметов, обмен, и прочие операции. ',
-                    'Назначение лендинга: подробное описание VGO предметов и их преимущества.',
-                    'Адаптивно-резиновая верстка по макету из Sketch.',
-                    'В проекте я использовала: SVG, HTML5/CSS3, Less, JavaScript, Webpack.',
-                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge последние версии.',
+                    'Назначение лендинга: подробное описание блокчейн VGO предметов и их преимущества.<br>',
+                    'Адаптивно-резиновая верстка по макету из Sketch.<br>',
+                    'В проекте я использовала: SVG, HTML5/CSS3, Less, JavaScript, Webpack.<br>',
+                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge последние версии.<br>',
                     'Оригинальный лендинг размещен внутри сайта ezy.com с использованием React.js и TypeScript, по ссылке не доступен.'
                 ].join(' '),
                 thumbnail: [
@@ -128,10 +128,9 @@ $(function() {
                 title: 'leondrop.net',
                 description: [
                     'Сервис с игровыми предметами для Counter-Strike: Global Offensive - leondrop.net. Адаптация EZY.com для российского рынка.',
-                    'SPA приложение для геймеров и киберспортсменов. Игры, открытие кейсов с игровыми предметами, апгрейд предметов, обмен, и прочие операции. ',
-                    'Отзывчивая верстка по макетам из Sketch.',
-                    'В проекте я занимала роль младшего фронтенд-разработчика. Использовала: React.js, TypeScript, SVG, HTML5/CSS3, Less, JavaScript, Webpack.',
-                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge последние версии.',
+                    'SPA приложение для геймеров и киберспортсменов. Игры, открытие кейсов с игровыми предметами, апгрейд предметов, обмен, и прочие операции.<br>',
+                    'В проекте я занимала роль младшего фронтенд-разработчика. <br>Использовала: React.js, TypeScript, SVG, HTML5/CSS3, Less, CSS Modules, JavaScript, Webpack.<br>',
+                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge последние версии.<br>',
                     'В данный момент сайт доступен только через иностранный VPN.'
                 ].join(' '),
                 thumbnail: [
@@ -161,9 +160,9 @@ $(function() {
                 description: [
                     '«Шесть городов» — сервис для путешественников, не желающих переплачивать за аренду жилья. ' +
                     'Выбирайте один из шести популярных городов для путешествий и получайте актуальный список предложений по аренде. ' +
-                    'Подробная информация о жилье, показ объекта на карте, а также лаконичный интерфейс сервиса помогут быстро выбрать оптимальное предложение.',
+                    'Подробная информация о жилье, показ объекта на карте, а также лаконичный интерфейс сервиса помогут быстро выбрать оптимальное предложение.<br>',
                     'Личный проект на интенсивном онлайн-курсе «Профессиональный JavaScript уровень 3» в «HTML Academy».' ,
-                    'Верстка была предоставлена в html. Технологии используемые и изучаемые в проекте:',
+                    'Верстка была предоставлена в html.<br> Технологии используемые и изучаемые в проекте:',
                     'TypeScript, React.js, Redux, тестирование с помощью Jest.',
                 ].join(' '),
                 thumbnail: [
@@ -203,9 +202,9 @@ $(function() {
                     'Альбомы фотографий по категориям, форма обратной связи, информация о фотографе.<br>',
                     'Целевая аудитория: молодые мамы, семьи с детьми,',
                     'семейные пары, домохозяйки, проживающие в пригороде Калифорнии.<br>',
-                    'Адаптивно-резиновая верстка. Мой собственный дизайн.',
+                    'Адаптивно-резиновая верстка. Мой собственный дизайн.<br>',
                     'Используемые технологии: HTML5/CSS3, методология BEM, Less, ',
-                    'JavaScript, React.js, Adobe Photoshop, Adobe Illustrator.',
+                    'JavaScript, React.js, Adobe Photoshop, Adobe Illustrator.<br>',
                     'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge.'
                 ].join(' '),
                 thumbnail: [
@@ -241,10 +240,10 @@ $(function() {
                 title: 'Ezy exchange',
                 description: [
                     'Сервис для обмена игровыми предметами Counter-Strike: Global Offensive - ezy-exchange.com.',
-                    'SPA приложение для геймеров и киберспортсменов. ',
-                    'Отзывчивая верстка.',
-                    'В проекте я занимала роль младшего фронтенд-разработчика. Использовала: React.js, TypeScript, MobX, SVG, HTML5/CSS3, Less, JavaScript, Webpack.',
-                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge последние версии.',
+                    'SPA приложение для геймеров и киберспортсменов.',
+                    'В проекте я занимала роль младшего фронтенд-разработчика. Использовала: ' +
+                    'React.js, TypeScript, MobX, SVG, HTML5/CSS3, Less, JavaScript, Webpack.<br>',
+                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge последние версии.<br>',
                     'В данный момент сайт уже не существует.'
                 ].join(' '),
                 thumbnail: [
@@ -280,7 +279,7 @@ $(function() {
                     'Готовится мобильная и планшетная версия. В текущей версии верстка главной страницы фиксированная,',
                     'адаптивность частично поддерживают внутренние страницы.<br>' ,
                     'Используемые технологии: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM, Less, ',
-                    'jQuery, плагин Elastic Grid, Material Photo Gallery, Snap SVG, GSAP, Webpack.',
+                    'jQuery, плагин Elastic Grid, Material Photo Gallery, Snap SVG, GSAP, Webpack.<br>',
                     'Кроссбраузерность: последние Chrome, Opera, Firefox, Safari, IE-11, Edge.'
                 ].join(' '),
                 thumbnail: [
@@ -321,7 +320,7 @@ $(function() {
                     'информация для сотрудничества.<br>',
                     'Основная целевая аудитория: девушки 14-25 лет, проживающие в Москве.<br>',
                     'Адаптивно-резиновая верстка. Мой собственный дизайн.',
-                    'В проекте я использовала: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM, Less, JavaScript, jQuery, AJAX, Webpack.',
+                    'В проекте я использовала: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM, Less, JavaScript, jQuery, AJAX, Webpack.<br>',
                     'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, IE-11, Edge.'
                 ].join(' '),
                 thumbnail: [
@@ -359,9 +358,9 @@ $(function() {
                 title: 'netlab.com.cy',
                 description: [
                     'Информационный сайт для веб-компании "Netlab.',
-                    'Адаптивно-резиновая верстка по готовому-psd макету.' ,
+                    'Адаптивно-резиновая верстка по готовому-psd макету.<br>' ,
                     'Технологии используемые в проекте:',
-                    'HTML5/CSS3, Less, BEM, JavaScript, Webpack, Adobe Photoshop.',
+                    'HTML5/CSS3, Less, BEM, JavaScript, Webpack, Adobe Photoshop.<br>',
                     'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, IE-11, Edge, Android 4.1 + .'
                 ].join(' '),
                 thumbnail: [
@@ -392,9 +391,9 @@ $(function() {
                 title: 'fora.ru',
                 description: [
                     'Информационный сайт для консалтинговой компании "Fora.ru".',
-                    'Адаптивно-резиновая верстка по готовому макету Sketch.' ,
+                    'Адаптивно-резиновая верстка по готовому макету Sketch.<br>' ,
                     'Технологии используемые в проекте:',
-                    'HTML5/CSS3, Less, BEM, JavaScript, Webpack, Sketch.',
+                    'HTML5/CSS3, Less, BEM, JavaScript, Webpack, Sketch.<br>',
                     'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge.'
                 ].join(' '),
                 thumbnail: [
@@ -425,10 +424,10 @@ $(function() {
                     'Moowle — сервис для фанатов большого кино и телевизионных сериалов. ' +
                     'Подробная информация о горячих новинках кино, возможность выбрать и сформировать ' +
                     'собственный список фильмов к просмотру, обсуждение кинофильмов и многое другое.' +
-                    'Moowle — поможет провести время интересно.',
+                    'Moowle — поможет провести время интересно.<br>',
                     'Личный проект на интенсивном онлайн-курсе «Профессиональный JavaScript уровень 2» в «HTML Academy».' ,
-                    'Верстка была предоставлена в html. Технологии используемые и изучаемые в проекте:',
-                    'JavaScript (ES6), работа с Webpack и сторонними библиотеками.',
+                    'Верстка была предоставлена в html.<br> Технологии используемые и изучаемые в проекте:',
+                    'JavaScript (ES6), работа с Webpack и сторонними библиотеками.<br>',
                     'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge.'
                 ].join(' '),
                 thumbnail: [
@@ -467,7 +466,7 @@ $(function() {
                     'Основная целевая аудитория: креативные молодые люди и девушки 18-35 лет, проживающие в Санкт-Петербурге.<br>',
                     'Адаптивно-резиновая верстка. Мой собственный дизайн.<br>',
                     'Используемые технологии: Adobe Illustrator, SVG, Adobe Photoshop, HTML5/CSS3, BEM,',
-                    'Less, JavaScript, AJAX, jQuery, плагин Gamma Gallery. ',
+                    'Less, JavaScript, AJAX, jQuery, плагин Gamma Gallery.<br>',
                     'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, IE-11, Edge.'
                 ].join(' '),
                 thumbnail: [
@@ -508,10 +507,10 @@ $(function() {
                     'Промо-сайт для игры «Code and Magic», где можно поиграть в демо-версию,',
                     'создать вашего уникального персонажа, купить ему артефакты, посмотреть похожих персонажей,',
                     'посмотреть галерею скриншотов, отзывы и оценьть игру.',
-                    'Личный проект на интенсиве «Базовый JavaScript» от «HTML-Academy».',
-                    'Верстка по готовому psd-макету (HTML-Academy) с некоторым изменением и добавлением элементов дизайна.',
+                    'Личный проект на интенсиве «Базовый JavaScript» от «HTML-Academy».<br>',
+                    'Верстка по готовому psd-макету (HTML-Academy) с некоторым изменением и добавлением элементов дизайна.<br>',
                     'Технологии используемые в проекте: ',
-                    'HTML5/CSS3, JavaScript, jQuery, AJAX, Webpack, SVG, Adobe Photoshop, Webpack.',
+                    'HTML5/CSS3, JavaScript, jQuery, AJAX, Webpack, SVG, Adobe Photoshop, Webpack.<br>',
                     'Кроссбраузерность: Chrome, Opera, Firefox, Edge.'
                 ].join(' '),
                 thumbnail: [
@@ -550,9 +549,9 @@ $(function() {
                 title: 'LookBook',
                 description: [
                     'Главная страница сайта для коллекции одежды Lookbook 2017.',
-                    'Адаптивно-резиновая верстка по готовому-psd макету.' ,
+                    'Адаптивно-резиновая верстка по готовому-psd макету.<br>' ,
                     'Технологии используемые в проекте:',
-                    'HTML5/CSS3, Less, BEM, JavaScript, Webpack, Adobe Photoshop.',
+                    'HTML5/CSS3, Less, BEM, JavaScript, Webpack, Adobe Photoshop.<br>',
                     'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, IE-11, Edge, Android.'
                 ].join(' '),
                 thumbnail: [
@@ -586,9 +585,9 @@ $(function() {
                 title: 'Sedona',
                 description: [
                     'Туристический информационный портал о городе Седона c функцией поиска гостиниц по фильтру, формой отзыва, просмотра фотографий.',
-                    'Личный проект на интенсивном онлайн-курсе «Продвинутый HTML/CSS», в «HTML Academy».' ,
+                    'Личный проект на интенсивном онлайн-курсе «Продвинутый HTML/CSS», в «HTML Academy».<br>' ,
                     'Адаптивно-резиновая верстка по готовому psd-макету. Технологии используемые в проекте:',
-                    'HTML5/CSS3, Less, BEM, JavaScript, jQuery, AJAX, Adobe Photoshop.',
+                    'HTML5/CSS3, Less, BEM, JavaScript, jQuery, AJAX, Adobe Photoshop.<br>',
                     'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, IE-11, Edge.'
                 ].join(' '),
                 thumbnail: [
@@ -627,7 +626,7 @@ $(function() {
                     'Выполнялось в рамках тестового задания в банк (пройдено успешно).',
                     'Отзывчивая верстка по готовому psd-макету (citibank).',
                     'Валидация формы и стилизация ошибок при помощи JavaScript.',
-                    'В проекте использовались: HTML5/CSS3, Less, BEM, JavaScript, Webpack.',
+                    'В проекте использовались: HTML5/CSS3, Less, BEM, JavaScript, Webpack.<br>',
                     'Кроссбраузерность: Мобильные и десктопные Chrome, Opera, Firefox, Safari, IE-11, Edge, Android.'
                 ].join(' '),
                 thumbnail: [
@@ -662,7 +661,7 @@ $(function() {
                     'Учебный проект на интенсивном онлайн-курсе «Продвинутый HTML/CSS», в «HTML Academy».' ,
                     'Адаптивно-резиновая верстка по готовому-psd макету.' ,
                     'Технологии используемые в проекте:',
-                    'HTML5/CSS3, Less, BEM, jQuery, JavaScript, Adobe Photoshop.',
+                    'HTML5/CSS3, Less, BEM, jQuery, JavaScript, Adobe Photoshop.<br>',
                     'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, IE-11, Edge.'
                 ].join(' '),
                 thumbnail: [
@@ -732,7 +731,7 @@ $(function() {
                 description: [
                     'Промо-сайт для веб-студии «Nerds», с дополнительной страницей каталога шаблонов.',
                     'Личный проект на интенсивном онлайн‑курсе «Базовый HTML/CSS» в «HTML Academy».',
-                    'Фиксированная верстка по готовому psd-макету. В проекте использовались: HTML5/CSS3, JavaScript, Adobe Photoshop. ',
+                    'Фиксированная верстка по готовому psd-макету. В проекте использовались: HTML5/CSS3, JavaScript, Adobe Photoshop.<br>',
                     'Кроссбраузерность: Chrome, Opera, Firefox, Safari, IE-11, Edge.'
                 ].join(' '),
                 thumbnail: [
