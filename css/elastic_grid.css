@@ -289,11 +289,6 @@ body {
 	position: relative;
 }
 
-.og-grid li > a img:not(.related_photo) {
-	overflow: hidden;
-	border-radius: 20% 0;
-}
-
 .og-grid .sep {
 	margin: 20px;
 	vertical-align: middle;
@@ -449,7 +444,6 @@ body {
 	flex-flow: row wrap;
 	justify-content: center;
 	align-items: center;
-	margin-bottom: 20px;
 }
 
 @media (max-width: 768px) {
@@ -457,14 +451,16 @@ body {
 		flex-flow: column wrap;
 		margin-bottom: 0;
 	}
+
+  .wagwep-container ul#portfolio-filter li {
+    margin-right: 0;
+  }
 }
 
 .wagwep-container ul#portfolio-filter li {
 	line-height: 24px;
-	margin: 0px;
 	padding: 10px;
 	text-align: center;
-	margin-right: 20px;
 }
 
 .wagwep-container ul#portfolio-filter li:last-child {
@@ -500,6 +496,12 @@ body {
 	}
 }
 
+@media (min-width: 1024px) {
+  .wagwep-container ul#portfolio-filter li {
+    margin-right: 20px;
+  }
+}
+
 .wagwep-container ul#portfolio-filter li.current a, ul#portfolio-filter a:hover {
 	text-decoration: none;
 	color: #fc568d;
@@ -512,6 +514,7 @@ body {
 	transition: 0.3s ease;
 }
 
+
 /***********
 *Elastic Slide
 ************/
@@ -519,6 +522,10 @@ body {
 .elastislide-list {
 	list-style-type: none;
 	display: none;
+}
+
+.elastislide-carousel .elastislide-list li > a {
+  border-radius: 0;
 }
 
 .no-js .elastislide-list {
@@ -669,8 +676,6 @@ body {
 	height: 100%;
 	font-size: 40px;
 	line-height: 1.5;
-	overflow: hidden;
-	border-radius: 20% 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -873,6 +878,7 @@ nav#porfolio-nav li:last-child a {
 		line-height: 21px;
 		text-align: center;
 		margin-top: 15px;
+    margin-bottom: 20px;
 	}
 
 	.og-expander p {
@@ -935,7 +941,6 @@ nav#porfolio-nav li:last-child a {
 	.og-details h3 {
 		font-size: 21px;
 		line-height: 1;
-		margin-bottom: 0;
 		max-width: 300px;
 	}
 

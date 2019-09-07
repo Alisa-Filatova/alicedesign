@@ -36,17 +36,17 @@ $(function() {
                     'img/code-gallery/small/why-we.jpg'
                 ],
                 large: [
-                    'img/code-gallery/small/ezy.jpg',
-                    'img/code-gallery/small/home.jpg',
-                    'img/code-gallery/small/upgrade-min.jpg',
-                    'img/code-gallery/small/upgrade2-min.jpg',
-                    'img/code-gallery/small/spiner.jpg',
-                    'img/code-gallery/small/spiner2.jpg',
-                    'img/code-gallery/small/giveaway.jpg',
-                    'img/code-gallery/small/profile.jpg',
-                    'img/code-gallery/small/daily-bonus.jpg',
-                    'img/code-gallery/small/deposit.jpg',
-                    'img/code-gallery/small/why-we.jpg'
+                    'img/code-gallery/large/ezy.jpg',
+                    'img/code-gallery/large/home.jpg',
+                    'img/code-gallery/large/upgrade-min.jpg',
+                    'img/code-gallery/large/upgrade2-min.jpg',
+                    'img/code-gallery/large/spiner.jpg',
+                    'img/code-gallery/large/spiner2.jpg',
+                    'img/code-gallery/large/giveaway.jpg',
+                    'img/code-gallery/large/profile.jpg',
+                    'img/code-gallery/large/daily-bonus.jpg',
+                    'img/code-gallery/large/deposit.jpg',
+                    'img/code-gallery/large/why-we.jpg'
                 ],
                 img_title: ['ezy.com', 'upgrade'],
                 button_list: [
