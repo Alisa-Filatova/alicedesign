@@ -148,6 +148,160 @@ $(function() {
                 tags: ['Responsive']
             },
             {
+                title: 'Six cities',
+                description: [
+                    '"Six cities" - a service for travelers who do not want to overpay for rent. '+
+                    'Choose one of six popular cities to travel to and get an up-to-date list of rental offers. '+
+                    'Detailed information about accommodation, showing the object on the map, as well as a concise service interface will help you quickly choose the best offer.',
+                    'A personal project for an intensive online course "Professional JavaScript level 3" in "HTML Academy".' ,
+                    'Technologies used and studied in the project:',
+                    'TypeScript, React.js, Redux, testing by Jest.',
+                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, Edge last versions.'
+                ].join(' '),
+                thumbnail: [
+                    'img/code-gallery/small/six-cities.jpg',
+                    'img/code-gallery/large/six-1.png',
+                    'img/code-gallery/large/six-2.png',
+                    'img/code-gallery/large/six-3.png',
+                    'img/code-gallery/large/six-4.png',
+                ],
+                large: [
+                    'img/code-gallery/large/six-cities.jpg',
+                    'img/code-gallery/large/six-1.png',
+                    'img/code-gallery/large/six-2.png',
+                    'img/code-gallery/large/six-3.png',
+                    'img/code-gallery/large/six-4.png',
+                ],
+                img_title: ['image'],
+                button_list: [
+                    {
+                        title: 'Visit Website',
+                        url: 'http://six-cities.alicedesign.ru',
+                        new_window: true
+                    },
+                    {
+                        title: 'Source code',
+                        url: 'https://github.com/Alisa-Filatova/Six-cities',
+                        new_window: true
+                    }
+                ],
+                tags: ['Fixed']
+            },
+            {
+                title: 'nataliaphoto.me',
+                description: [
+                    'Portfolio website of family and wedding photographer - Natalia Biriouk from California, USA. The site consists of nine pages.<br>' ,
+                    'Target audience: young mothers, housewives with children',
+                    'and couples. The main style photographer - shooting outdoors in natural light,',
+                    'so I decided to make a website in bright colours, resembling a family photo album handmade',
+                    'decorated with flowers.<br>',
+                    'The website is adapted for tablets and mobile devices.',
+                    'Used technologies: Adobe Photoshop, Adobe Illustrator, HTML5/CSS3, BEM, Less, ',
+                    'React.js, JavaScript.',
+                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, Edge.'
+                ].join(' '),
+                thumbnail: [
+                    'img/code-gallery/small/natalia-photo.jpg',
+                    'img/code-gallery/large/nata-1.png',
+                    'img/code-gallery/large/nata-2.png',
+                    'img/code-gallery/large/nata-3.png',
+                    'img/code-gallery/large/nata-4.png',
+                ],
+                large: [
+                    'img/code-gallery/large/natalia-photo.jpg',
+                    'img/code-gallery/large/nata-1.png',
+                    'img/code-gallery/large/nata-2.png',
+                    'img/code-gallery/large/nata-3.png',
+                    'img/code-gallery/large/nata-4.png',
+                ],
+                img_title: ['image'],
+                button_list: [
+                    {
+                        title: 'Visit Website',
+                        url: 'http://nataliaphoto.me',
+                        new_window: true
+                    },
+                    {
+                        title: 'Source Code',
+                        url: 'https://github.com/Alisa-Filatova/natalia-photo-react',
+                        new_window: true
+                    }
+                ],
+                tags: ['Responsive']
+            },
+            {
+                title: 'ezy-exchange.com',
+                description: [
+                    'SPA for gamers and cybersport fans. Exchanger for digital game items (skins) ' +
+                    'for Counter-Strike: Global Offensive.' +
+                    'My task included frontend development' +
+                    'In project i used: React.js, TypeScript, MobX, SVG, HTML5/CSS3, Less, JavaScript, Webpack, Storybook, Sketch.',
+                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, Edge.'
+                ].join(' '),
+                thumbnail: [
+                    'img/code-gallery/small/exchanger.jpg',
+                    'img/code-gallery/large/exch.jpg',
+                    'img/code-gallery/large/exch-1.jpg',
+                    'img/code-gallery/large/exch-2.jpg',
+                    'img/code-gallery/large/exch-3.jpg',
+                    'img/code-gallery/large/exch-4.jpg',
+                    'img/code-gallery/large/exch-5.jpg',
+                    'img/code-gallery/large/exch-6.jpg',
+                ],
+                large: [
+                    'img/code-gallery/large/exchanger.jpg',
+                    'img/code-gallery/large/exch.jpg',
+                    'img/code-gallery/large/exch-1.jpg',
+                    'img/code-gallery/large/exch-2.jpg',
+                    'img/code-gallery/large/exch-3.jpg',
+                    'img/code-gallery/large/exch-4.jpg',
+                    'img/code-gallery/large/exch-5.jpg',
+                    'img/code-gallery/large/exch-6.jpg',
+                ],
+                img_title: ['ezy-exchange.com'],
+                button_list: [],
+                tags: ['Responsive']
+            },
+            {
+                title: 'alicedesign.ru',
+                description: [
+                    'My personal portfolio website. The project I decided to do with his own illustrations, css animation',
+                    'as much as possible to show off your style.<br>' ,
+                    'Used technologies: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM methodology, CSS preprocessor LESS, ',
+                    'jQuery plugin Elastic Grid, Material Photo Gallery.',
+                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, IE-11, Edge.'
+                ].join(' '),
+                thumbnail: [
+                    'img/code-gallery/small/alicedesign.jpg',
+                    'img/code-gallery/large/alice-1.png',
+                    'img/code-gallery/large/alice-2.png',
+                    'img/code-gallery/large/alice-3.png',
+                    'img/code-gallery/large/alice-4.png',
+
+                ],
+                large: [
+                    'img/code-gallery/large/alicedesign.jpg',
+                    'img/code-gallery/large/alice-1.png',
+                    'img/code-gallery/large/alice-2.png',
+                    'img/code-gallery/large/alice-3.png',
+                    'img/code-gallery/large/alice-4.png',
+                ],
+                img_title: ['image'],
+                button_list: [
+                    {
+                        title: 'Visit Website',
+                        url: 'http://alicedesign.ru/',
+                        new_window: true
+                    },
+                    {
+                        title: 'Source Code',
+                        url: 'https://github.com/Alisa-Filatova/Natalia-photography',
+                        new_window: true
+                    }
+                ],
+                tags: ['Fixed']
+            },
+            {
                 title: 'goroshkodance.ru',
                 description: [
                     'Personal website of choreographer and dancer Sasha Goroshko (participant 4 season of the TV-show "DANCING").',
@@ -191,36 +345,35 @@ $(function() {
                 tags: ['Responsive']
             },
             {
-                title: 'ezy-exchange.com',
+                title: 'netlab.com.cy',
                 description: [
-                    'SPA for gamers and cybersport fans. Exchanger for digital game items (skins) ' +
-                    'for Counter-Strike: Global Offensive.' +
-                    'My task included frontend development' +
-                    'In project i used: React.js, TypeScript, MobX, SVG, HTML5/CSS3, Less, JavaScript, Webpack, Storybook, Sketch.',
-                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, Edge.'
+                    'Information web-site for the "Netlab" internet solutions company, consisting of three pages.',
+                    'Responsive ready PSD layout. Technologies used in project:' ,
+                    'HTML5/CSS3, Less, BEM, JavaScript, Webpack, Adobe Photoshop.',
+                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, IE-11, Edge, Android 4.1 + .'
                 ].join(' '),
                 thumbnail: [
-                    'img/code-gallery/small/exchanger.jpg',
-                    'img/code-gallery/large/exch.jpg',
-                    'img/code-gallery/large/exch-1.jpg',
-                    'img/code-gallery/large/exch-2.jpg',
-                    'img/code-gallery/large/exch-3.jpg',
-                    'img/code-gallery/large/exch-4.jpg',
-                    'img/code-gallery/large/exch-5.jpg',
-                    'img/code-gallery/large/exch-6.jpg',
+                    'img/code-gallery/small/netlab.jpg',
+                    'img/code-gallery/large/netlab1.jpg',
+                    'img/code-gallery/large/netlab2.jpg',
+                    'img/code-gallery/large/netlab3.jpg',
+                    'img/code-gallery/large/netlab4.jpg',
                 ],
                 large: [
-                    'img/code-gallery/large/exchanger.jpg',
-                    'img/code-gallery/large/exch.jpg',
-                    'img/code-gallery/large/exch-1.jpg',
-                    'img/code-gallery/large/exch-2.jpg',
-                    'img/code-gallery/large/exch-3.jpg',
-                    'img/code-gallery/large/exch-4.jpg',
-                    'img/code-gallery/large/exch-5.jpg',
-                    'img/code-gallery/large/exch-6.jpg',
+                    'img/code-gallery/large/netlab.jpg',
+                    'img/code-gallery/large/netlab1.jpg',
+                    'img/code-gallery/large/netlab2.jpg',
+                    'img/code-gallery/large/netlab3.jpg',
+                    'img/code-gallery/large/netlab4.jpg',
                 ],
-                img_title: ['ezy-exchange.com'],
-                button_list: [],
+                img_title: ['image 1 '],
+                button_list: [
+                    {
+                        title: 'Visit Website',
+                        url: 'http://netlab.com.cy/',
+                        new_window: true
+                    }
+                ],
                 tags: ['Responsive']
             },
             {
@@ -268,120 +421,6 @@ $(function() {
                 tags: ['Responsive']
             },
             {
-                title: 'nataliaphoto.me',
-                description: [
-                    'Portfolio website of family and wedding photographer - Natalia Biriouk from California, USA. The site consists of nine pages.<br>' ,
-                    'Target audience: young mothers, housewives with children',
-                    'and couples. The main style photographer - shooting outdoors in natural light,',
-                    'so I decided to make a website in bright colours, resembling a family photo album handmade',
-                    'decorated with flowers.<br>',
-                    'The website is adapted for tablets and mobile devices.',
-                    'Used technologies: Adobe Photoshop, Adobe Illustrator, HTML5/CSS3, BEM, Less, ',
-                    'React.js, JavaScript.',
-                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, Edge.'
-                ].join(' '),
-                thumbnail: [
-                    'img/code-gallery/small/natalia-photo.jpg',
-                    'img/code-gallery/large/nata-1.png',
-                    'img/code-gallery/large/nata-2.png',
-                    'img/code-gallery/large/nata-3.png',
-                    'img/code-gallery/large/nata-4.png',
-                ],
-                large: [
-                    'img/code-gallery/large/natalia-photo.jpg',
-                    'img/code-gallery/large/nata-1.png',
-                    'img/code-gallery/large/nata-2.png',
-                    'img/code-gallery/large/nata-3.png',
-                    'img/code-gallery/large/nata-4.png',
-                ],
-                img_title: ['image'],
-                button_list: [
-                    {
-                        title: 'Visit Website',
-                        url: 'http://nataliaphoto.me',
-                        new_window: true
-                    },
-                    {
-                        title: 'Source Code',
-                        url: 'https://github.com/Alisa-Filatova/natalia-photo-react',
-                        new_window: true
-                    }
-                ],
-                tags: ['Responsive']
-            },
-
-            {
-                title: 'alicedesign.ru',
-                description: [
-                    'My personal portfolio website. The project I decided to do with his own illustrations, css animation',
-                    'as much as possible to show off your style.<br>' ,
-                    'Used technologies: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM methodology, CSS preprocessor LESS, ',
-                    'jQuery plugin Elastic Grid, Material Photo Gallery.',
-                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, IE-11, Edge.'
-                ].join(' '),
-                thumbnail: [
-                    'img/code-gallery/small/alicedesign.jpg',
-                    'img/code-gallery/large/alice-1.png',
-                    'img/code-gallery/large/alice-2.png',
-                    'img/code-gallery/large/alice-3.png',
-                    'img/code-gallery/large/alice-4.png',
-
-                ],
-                large: [
-                    'img/code-gallery/large/alicedesign.jpg',
-                    'img/code-gallery/large/alice-1.png',
-                    'img/code-gallery/large/alice-2.png',
-                    'img/code-gallery/large/alice-3.png',
-                    'img/code-gallery/large/alice-4.png',
-                ],
-                img_title: ['image'],
-                button_list: [
-                    {
-                        title: 'Visit Website',
-                        url: 'http://alicedesign.ru/',
-                        new_window: true
-                    },
-                    {
-                        title: 'Source Code',
-                        url: 'https://github.com/Alisa-Filatova/Natalia-photography',
-                        new_window: true
-                    }
-                ],
-                tags: ['Fixed']
-            },
-            {
-                title: 'netlab.com.cy',
-                description: [
-                    'Information web-site for the "Netlab" internet solutions company, consisting of three pages.',
-                    'Responsive ready PSD layout. Technologies used in project:' ,
-                    'HTML5/CSS3, Less, BEM, JavaScript, Webpack, Adobe Photoshop.',
-                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, IE-11, Edge, Android 4.1 + .'
-                ].join(' '),
-                thumbnail: [
-                    'img/code-gallery/small/netlab.jpg',
-                    'img/code-gallery/large/netlab1.jpg',
-                    'img/code-gallery/large/netlab2.jpg',
-                    'img/code-gallery/large/netlab3.jpg',
-                    'img/code-gallery/large/netlab4.jpg',
-                ],
-                large: [
-                    'img/code-gallery/large/netlab.jpg',
-                    'img/code-gallery/large/netlab1.jpg',
-                    'img/code-gallery/large/netlab2.jpg',
-                    'img/code-gallery/large/netlab3.jpg',
-                    'img/code-gallery/large/netlab4.jpg',
-                ],
-                img_title: ['image 1 '],
-                button_list: [
-                    {
-                        title: 'Visit Website',
-                        url: 'http://netlab.com.cy/',
-                        new_window: true
-                    }
-                ],
-                tags: ['Responsive']
-            },
-            {
                 title: 'fora.ru',
                 description: [
                     'Information web-site for the "Fora" consulting company of four pages.',
@@ -410,46 +449,6 @@ $(function() {
                     }
                 ],
                 tags: ['Responsive']
-            },
-            {
-                title: 'Six cities',
-                description: [
-                    '"Six cities" - a service for travelers who do not want to overpay for rent. '+
-                    'Choose one of six popular cities to travel to and get an up-to-date list of rental offers. '+
-                    'Detailed information about accommodation, showing the object on the map, as well as a concise service interface will help you quickly choose the best offer.',
-                    'A personal project for an intensive online course "Professional JavaScript level 3" in "HTML Academy".' ,
-                    'Technologies used and studied in the project:',
-                    'TypeScript, React.js, Redux, testing by Jest.',
-                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, Edge last versions.'
-                ].join(' '),
-                thumbnail: [
-                    'img/code-gallery/small/six-cities.jpg',
-                    'img/code-gallery/large/six-1.png',
-                    'img/code-gallery/large/six-2.png',
-                    'img/code-gallery/large/six-3.png',
-                    'img/code-gallery/large/six-4.png',
-                ],
-                large: [
-                    'img/code-gallery/large/six-cities.jpg',
-                    'img/code-gallery/large/six-1.png',
-                    'img/code-gallery/large/six-2.png',
-                    'img/code-gallery/large/six-3.png',
-                    'img/code-gallery/large/six-4.png',
-                ],
-                img_title: ['image'],
-                button_list: [
-                    {
-                        title: 'Visit Website',
-                        url: 'http://six-cities.alicedesign.ru',
-                        new_window: true
-                    },
-                    {
-                        title: 'Source code',
-                        url: 'https://github.com/Alisa-Filatova/Six-cities',
-                        new_window: true
-                    }
-                ],
-                tags: ['Fixed']
             },
             {
                 title: 'Moowle',
@@ -532,6 +531,42 @@ $(function() {
                 tags: ['Fixed']
             },
             {
+                title: 'Lookbook',
+                description: [
+                    'Main page for design collection Lookbook 2017.',
+                    'Responsive ready psd layout.' ,
+                    'Technology used in the project:',
+                    'HTML5/CSS3, Less, BEM, JavaScript, Webpack, Adobe Photoshop.',
+                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, IE-11, Edge, Android.'
+                ].join(' '),
+                thumbnail: [
+                    'img/code-gallery/small/conmime.jpg',
+                    'img/code-gallery/large/lookbook-1.png',
+                    'img/code-gallery/large/lookbook-2.png',
+                    'img/code-gallery/large/lookbook-3.png'
+                ],
+                large: [
+                    'img/code-gallery/large/conmime.jpg',
+                    'img/code-gallery/large/lookbook-1.png',
+                    'img/code-gallery/large/lookbook-2.png',
+                    'img/code-gallery/large/lookbook-3.png'
+                ],
+                img_title: ['image 1 '],
+                button_list: [
+                    {
+                        title: 'Visit Website',
+                        url: 'http://lookbook.alicedesign.ru',
+                        new_window: true
+                    },
+                    {
+                        title: 'Source code',
+                        url: 'https://github.com/Alisa-Filatova/clothes-shop',
+                        new_window: false
+                    }
+                ],
+                tags: ['Responsive']
+            },
+            {
                 title: 'Sedona',
                 description: [
                     'Tourist information portal about the Sedona city, consisting of four pages.',
@@ -606,100 +641,6 @@ $(function() {
                 tags: ['Responsive']
             },
             {
-                title: 'Technomart',
-                description: [
-                    'Online store of construction materials. A landing page with an additional page of the product catalog.',
-                    'A personal project for an intensive online course "Basic HTML/CSS" in HTML Academy.',
-                    'Technology used in the project: HTML5/CSS3, JavaScript, Adobe Photoshop.',
-                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, IE-11, Edge.'
-                ].join(' '),
-                thumbnail: [
-                    'img/code-gallery/small/technomart.jpg',
-                    'img/code-gallery/large/tech-1.png',
-                    'img/code-gallery/large/tech-2.png',
-                    'img/code-gallery/large/tech-3.png',
-                ],
-                large: [
-                    'img/code-gallery/large/technomart.jpg',
-                    'img/code-gallery/large/tech-1.png',
-                    'img/code-gallery/large/tech-2.png',
-                    'img/code-gallery/large/tech-3.png',
-                ],
-                img_title: ['jquery elastic grid'],
-                button_list: [
-                    {
-                        title: 'Visit Website',
-                        url: 'http://technomart.alicedesign.ru',
-                        new_window: true
-                    },
-                ],
-                tags: ['Fixed']
-            },
-            {
-                title: 'Lookbook',
-                description: [
-                    'Main page for design collection Lookbook 2017.',
-                    'Responsive ready psd layout.' ,
-                    'Technology used in the project:',
-                    'HTML5/CSS3, Less, BEM, JavaScript, Webpack, Adobe Photoshop.',
-                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, IE-11, Edge, Android.'
-                ].join(' '),
-                thumbnail: [
-                    'img/code-gallery/small/conmime.jpg',
-                    'img/code-gallery/large/lookbook-1.png',
-                    'img/code-gallery/large/lookbook-2.png',
-                    'img/code-gallery/large/lookbook-3.png'
-                ],
-                large: [
-                    'img/code-gallery/large/conmime.jpg',
-                    'img/code-gallery/large/lookbook-1.png',
-                    'img/code-gallery/large/lookbook-2.png',
-                    'img/code-gallery/large/lookbook-3.png'
-                ],
-                img_title: ['image 1 '],
-                button_list: [
-                    {
-                        title: 'Visit Website',
-                        url: 'http://lookbook.alicedesign.ru',
-                        new_window: true
-                    },
-                    {
-                        title: 'Source code',
-                        url: 'https://github.com/Alisa-Filatova/clothes-shop',
-                        new_window: false
-                    }
-                ],
-                tags: ['Responsive']
-            },
-            {
-                title: 'Nerds',
-                description: [
-                    'Promotional website for the web-studio "Nerds", with additional catalog page templates.',
-                    'The study project on an intensive online course "Basic HTML/CSS" in HTML Academy.',
-                    'Technology used in the project: HTML5/CSS3, JavaScript, Adobe Photoshop.',
-                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, IE-11, Edge.'
-                ].join(' '),
-                thumbnail: [
-                    'img/code-gallery/small/nerds.jpg',
-                    'img/code-gallery/large/nerds-1.png',
-                    'img/code-gallery/large/nerds-2.png',
-                ],
-                large: [
-                    'img/code-gallery/large/nerds.jpg',
-                    'img/code-gallery/large/nerds-1.png',
-                    'img/code-gallery/large/nerds-2.png',
-                ],
-                img_title: [ 'jquery elastic grid'],
-                button_list: [
-                    {
-                        title: 'Visit Website',
-                        url: 'http://nerds.alicedesign.ru',
-                        new_window: true
-                    },
-                ],
-                tags: ['Fixed']
-            },
-            {
                 title: 'Bank Online',
                 description: [
                     'Promo page for a bank online. Responsive.',
@@ -730,6 +671,64 @@ $(function() {
                     }
                 ],
                 tags: ['Responsive']
+            },
+            {
+                title: 'Technomart',
+                description: [
+                    'Online store of construction materials. A landing page with an additional page of the product catalog.',
+                    'A personal project for an intensive online course "Basic HTML/CSS" in HTML Academy.',
+                    'Technology used in the project: HTML5/CSS3, JavaScript, Adobe Photoshop.',
+                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, IE-11, Edge.'
+                ].join(' '),
+                thumbnail: [
+                    'img/code-gallery/small/technomart.jpg',
+                    'img/code-gallery/large/tech-1.png',
+                    'img/code-gallery/large/tech-2.png',
+                    'img/code-gallery/large/tech-3.png',
+                ],
+                large: [
+                    'img/code-gallery/large/technomart.jpg',
+                    'img/code-gallery/large/tech-1.png',
+                    'img/code-gallery/large/tech-2.png',
+                    'img/code-gallery/large/tech-3.png',
+                ],
+                img_title: ['jquery elastic grid'],
+                button_list: [
+                    {
+                        title: 'Visit Website',
+                        url: 'http://technomart.alicedesign.ru',
+                        new_window: true
+                    },
+                ],
+                tags: ['Fixed']
+            },
+            {
+                title: 'Nerds',
+                description: [
+                    'Promotional website for the web-studio "Nerds", with additional catalog page templates.',
+                    'The study project on an intensive online course "Basic HTML/CSS" in HTML Academy.',
+                    'Technology used in the project: HTML5/CSS3, JavaScript, Adobe Photoshop.',
+                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, IE-11, Edge.'
+                ].join(' '),
+                thumbnail: [
+                    'img/code-gallery/small/nerds.jpg',
+                    'img/code-gallery/large/nerds-1.png',
+                    'img/code-gallery/large/nerds-2.png',
+                ],
+                large: [
+                    'img/code-gallery/large/nerds.jpg',
+                    'img/code-gallery/large/nerds-1.png',
+                    'img/code-gallery/large/nerds-2.png',
+                ],
+                img_title: [ 'jquery elastic grid'],
+                button_list: [
+                    {
+                        title: 'Visit Website',
+                        url: 'http://nerds.alicedesign.ru',
+                        new_window: true
+                    },
+                ],
+                tags: ['Fixed']
             },
             {
                 title: 'Barbershop «Borodinski»',

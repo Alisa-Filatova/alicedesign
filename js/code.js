@@ -156,125 +156,44 @@ $(function() {
                 ],
                 tags: ['Отзывчивая верстка']
             },
-						{
-								title: 'goroshkodance.ru',
-								description: [
-									'Лендинг для танцевальной школы хореографа Саши Горошко (финалистка 4 сезона шоу «ТАНЦЫ» на ТНТ).',
-									'Назначение сайта: информационная поддержка учеников, привлечение новых студентов, портфолио,',
-									'информация для сотрудничества.<br>',
-									'Основная целевая аудитория: девушки 14-25 лет, проживающие в Москве.<br>',
-									'Адаптивно-резиновая верстка. Мой собственный дизайн.',
-									'В проекте я использовала: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM, Less, JavaScript, jQuery, AJAX, Webpack.',
-									'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, IE-11, Edge.'
-								].join(' '),
-								thumbnail: [
-								    'img/code-gallery/small/goroshko-dance.jpg',
-                    'img/code-gallery/large/goroshko-1.png',
-                    'img/code-gallery/large/goroshko-2.png',
-                    'img/code-gallery/large/goroshko-3.png',
-                    'img/code-gallery/large/goroshko-4.png',
-                    'img/code-gallery/large/goroshko-5.png'
-                ],
-								large: [
-								    'img/code-gallery/large/goroshko-dance.jpg',
-                    'img/code-gallery/large/goroshko-1.png',
-                    'img/code-gallery/large/goroshko-2.png',
-                    'img/code-gallery/large/goroshko-3.png',
-                    'img/code-gallery/large/goroshko-4.png',
-                    'img/code-gallery/large/goroshko-5.png'
-                ],
-								img_title: ['goroshkodance.ru'],
-								button_list: [
-									{
-										title: 'Перейти на сайт',
-										url: 'http://goroshkodance.ru/',
-										new_window: true
-									},
-									{
-										title: 'Исходный код',
-										url: 'https://github.com/Alisa-Filatova/Goroshko-dance',
-										new_window: true
-									}
-								],
-								tags: ['Отзывчивая верстка']
-						},
             {
-                title: 'ezy-exchange.com',
+                title: 'Six cities',
                 description: [
-                    'Сервис для обмена игровыми предметами Counter-Strike: Global Offensive - ezy-exchange.com.',
-                    'SPA приложение для геймеров и киберспортсменов. ',
-                    'Отзывчивая верстка.',
-                    'В проекте я занимала роль младшего фронтенд-разработчика. Использовала: React.js, TypeScript, MobX, SVG, HTML5/CSS3, Less, JavaScript, Webpack.',
-                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge последние версии.',
-                    'В данный момент сайт уже не существует.'
+                    '«Шесть городов» — сервис для путешественников, не желающих переплачивать за аренду жилья. ' +
+                    'Выбирайте один из шести популярных городов для путешествий и получайте актуальный список предложений по аренде. ' +
+                    'Подробная информация о жилье, показ объекта на карте, а также лаконичный интерфейс сервиса помогут быстро выбрать оптимальное предложение.',
+                    'Личный проект на интенсивном онлайн-курсе «Профессиональный JavaScript уровень 3» в «HTML Academy».' ,
+                    'Верстка была предоставлена в html. Технологии используемые и изучаемые в проекте:',
+                    'TypeScript, React.js, Redux, тестирование с помощью Jest.',
                 ].join(' '),
                 thumbnail: [
-                    'img/code-gallery/small/exchanger.jpg',
-                    'img/code-gallery/large/exch.jpg',
-                    'img/code-gallery/large/exch-1.jpg',
-                    'img/code-gallery/large/exch-2.jpg',
-                    'img/code-gallery/large/exch-3.jpg',
-                    'img/code-gallery/large/exch-4.jpg',
-                    'img/code-gallery/large/exch-5.jpg',
-                    'img/code-gallery/large/exch-6.jpg',
+                    'img/code-gallery/small/six-cities.jpg',
+                    'img/code-gallery/large/six-1.png',
+                    'img/code-gallery/large/six-2.png',
+                    'img/code-gallery/large/six-3.png',
+                    'img/code-gallery/large/six-4.png',
                 ],
                 large: [
-                    'img/code-gallery/large/exchanger.jpg',
-                    'img/code-gallery/large/exch.jpg',
-                    'img/code-gallery/large/exch-1.jpg',
-                    'img/code-gallery/large/exch-2.jpg',
-                    'img/code-gallery/large/exch-3.jpg',
-                    'img/code-gallery/large/exch-4.jpg',
-                    'img/code-gallery/large/exch-5.jpg',
-                    'img/code-gallery/large/exch-6.jpg',
+                    'img/code-gallery/large/six-cities.jpg',
+                    'img/code-gallery/large/six-1.png',
+                    'img/code-gallery/large/six-2.png',
+                    'img/code-gallery/large/six-3.png',
+                    'img/code-gallery/large/six-4.png',
                 ],
-                img_title: ['ezy-exchange.com'],
-                button_list: [],
-                tags: ['Отзывчивая верстка']
-            },
-            {
-                title: 'lenortat.spb.ru',
-                description: [
-                    'Сайт Имидж-студии Таты Куриной и Татьяны Ленорман. Landing-page с дополнителными ',
-                    'страницами галерей работ и формой записи к мастеру.<br>',
-                    'Студия предоставляет услуги парикмахера-стилиста и ателье с авторской одеждой.<br>',
-                    'Основная целевая аудитория: креативные молодые люди и девушки 18-35 лет, проживающие в Санкт-Петербурге.<br>',
-                    'Адаптивно-резиновая верстка. Мой собственный дизайн.<br>',
-                    'Используемые технологии: Adobe Illustrator, SVG, Adobe Photoshop, HTML5/CSS3, BEM,',
-                    'Less, JavaScript, AJAX, jQuery, плагин Gamma Gallery. ',
-                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, IE-11, Edge.'
-                ].join(' '),
-                thumbnail: [
-                    'img/code-gallery/small/lenor-tat.jpg',
-                    'img/code-gallery/large/lenor-1.png',
-                    'img/code-gallery/large/lenor-2.png',
-                    'img/code-gallery/large/lenor-3.png',
-                    'img/code-gallery/large/lenor-4.png',
-                    'img/code-gallery/large/lenor-5.png',
-
-                ],
-                large: [
-                    'img/code-gallery/large/lenor-tat.jpg',
-                    'img/code-gallery/large/lenor-1.png',
-                    'img/code-gallery/large/lenor-2.png',
-                    'img/code-gallery/large/lenor-3.png',
-                    'img/code-gallery/large/lenor-4.png',
-                    'img/code-gallery/large/lenor-5.png',
-                ],
-                img_title: ['lenortat.spb.ru'],
+                img_title: ['image'],
                 button_list: [
                     {
                         title: 'Перейти на сайт',
-                        url: 'http://lenortat.alicedesign.ru/',
+                        url: 'http://six-cities.alicedesign.ru',
                         new_window: true
                     },
                     {
                         title: 'Исходный код',
-                        url: 'https://github.com/Alisa-Filatova/Lenor-tat',
+                        url: 'https://github.com/Alisa-Filatova/Six-cities',
                         new_window: true
                     }
                 ],
-                tags: ['Отзывчивая верстка']
+                tags: ['Фиксированная верстка']
             },
             {
                 title: 'nataliaphoto.me',
@@ -319,6 +238,40 @@ $(function() {
                 tags: ['Отзывчивая верстка']
             },
             {
+                title: 'ezy-exchange.com',
+                description: [
+                    'Сервис для обмена игровыми предметами Counter-Strike: Global Offensive - ezy-exchange.com.',
+                    'SPA приложение для геймеров и киберспортсменов. ',
+                    'Отзывчивая верстка.',
+                    'В проекте я занимала роль младшего фронтенд-разработчика. Использовала: React.js, TypeScript, MobX, SVG, HTML5/CSS3, Less, JavaScript, Webpack.',
+                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge последние версии.',
+                    'В данный момент сайт уже не существует.'
+                ].join(' '),
+                thumbnail: [
+                    'img/code-gallery/small/exchanger.jpg',
+                    'img/code-gallery/large/exch.jpg',
+                    'img/code-gallery/large/exch-1.jpg',
+                    'img/code-gallery/large/exch-2.jpg',
+                    'img/code-gallery/large/exch-3.jpg',
+                    'img/code-gallery/large/exch-4.jpg',
+                    'img/code-gallery/large/exch-5.jpg',
+                    'img/code-gallery/large/exch-6.jpg',
+                ],
+                large: [
+                    'img/code-gallery/large/exchanger.jpg',
+                    'img/code-gallery/large/exch.jpg',
+                    'img/code-gallery/large/exch-1.jpg',
+                    'img/code-gallery/large/exch-2.jpg',
+                    'img/code-gallery/large/exch-3.jpg',
+                    'img/code-gallery/large/exch-4.jpg',
+                    'img/code-gallery/large/exch-5.jpg',
+                    'img/code-gallery/large/exch-6.jpg',
+                ],
+                img_title: ['ezy-exchange.com'],
+                button_list: [],
+                tags: ['Отзывчивая верстка']
+            },
+            {
                 title: 'alicedesign.ru',
                 description: [
                     'Мой личный сайт портфолио. Проект я решила делать со своими векторными иллюстрациями и CSS анимацией.',
@@ -359,6 +312,48 @@ $(function() {
                     }
                 ],
                 tags: ['Фиксированная верстка']
+            },
+            {
+                title: 'goroshkodance.ru',
+                description: [
+                    'Лендинг для танцевальной школы хореографа Саши Горошко (финалистка 4 сезона шоу «ТАНЦЫ» на ТНТ).',
+                    'Назначение сайта: информационная поддержка учеников, привлечение новых студентов, портфолио,',
+                    'информация для сотрудничества.<br>',
+                    'Основная целевая аудитория: девушки 14-25 лет, проживающие в Москве.<br>',
+                    'Адаптивно-резиновая верстка. Мой собственный дизайн.',
+                    'В проекте я использовала: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM, Less, JavaScript, jQuery, AJAX, Webpack.',
+                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, IE-11, Edge.'
+                ].join(' '),
+                thumbnail: [
+                    'img/code-gallery/small/goroshko-dance.jpg',
+                    'img/code-gallery/large/goroshko-1.png',
+                    'img/code-gallery/large/goroshko-2.png',
+                    'img/code-gallery/large/goroshko-3.png',
+                    'img/code-gallery/large/goroshko-4.png',
+                    'img/code-gallery/large/goroshko-5.png'
+                ],
+                large: [
+                    'img/code-gallery/large/goroshko-dance.jpg',
+                    'img/code-gallery/large/goroshko-1.png',
+                    'img/code-gallery/large/goroshko-2.png',
+                    'img/code-gallery/large/goroshko-3.png',
+                    'img/code-gallery/large/goroshko-4.png',
+                    'img/code-gallery/large/goroshko-5.png'
+                ],
+                img_title: ['goroshkodance.ru'],
+                button_list: [
+                    {
+                        title: 'Перейти на сайт',
+                        url: 'http://goroshkodance.ru/',
+                        new_window: true
+                    },
+                    {
+                        title: 'Исходный код',
+                        url: 'https://github.com/Alisa-Filatova/Goroshko-dance',
+                        new_window: true
+                    }
+                ],
+                tags: ['Отзывчивая верстка']
             },
             {
                 title: 'netlab.com.cy',
@@ -425,45 +420,6 @@ $(function() {
                 tags: ['Отзывчивая верстка']
             },
             {
-                title: 'Six cities',
-                description: [
-                    '«Шесть городов» — сервис для путешественников, не желающих переплачивать за аренду жилья. ' +
-                    'Выбирайте один из шести популярных городов для путешествий и получайте актуальный список предложений по аренде. ' +
-                    'Подробная информация о жилье, показ объекта на карте, а также лаконичный интерфейс сервиса помогут быстро выбрать оптимальное предложение.',
-                    'Личный проект на интенсивном онлайн-курсе «Профессиональный JavaScript уровень 3» в «HTML Academy».' ,
-                    'Верстка была предоставлена в html. Технологии используемые и изучаемые в проекте:',
-                    'TypeScript, React.js, Redux, тестирование с помощью Jest.',
-                ].join(' '),
-                thumbnail: [
-                    'img/code-gallery/small/six-cities.jpg',
-                    'img/code-gallery/large/six-1.png',
-                    'img/code-gallery/large/six-2.png',
-                    'img/code-gallery/large/six-3.png',
-                    'img/code-gallery/large/six-4.png',
-                ],
-                large: [
-                    'img/code-gallery/large/six-cities.jpg',
-                    'img/code-gallery/large/six-1.png',
-                    'img/code-gallery/large/six-2.png',
-                    'img/code-gallery/large/six-3.png',
-                    'img/code-gallery/large/six-4.png',
-                ],
-                img_title: ['image'],
-                button_list: [
-                    {
-                        title: 'Перейти на сайт',
-                        url: 'http://six-cities.alicedesign.ru',
-                        new_window: true
-                    },
-                    {
-                        title: 'Исходный код',
-                        url: 'https://github.com/Alisa-Filatova/Six-cities',
-                        new_window: true
-                    }
-                ],
-                tags: ['Фиксированная верстка']
-            },
-            {
                 title: 'Moowle',
                 description: [
                     'Moowle — сервис для фанатов большого кино и телевизионных сериалов. ' +
@@ -501,6 +457,50 @@ $(function() {
                     }
                 ],
                 tags: ['Фиксированная верстка']
+            },
+            {
+                title: 'lenortat.spb.ru',
+                description: [
+                    'Сайт Имидж-студии Таты Куриной и Татьяны Ленорман. Landing-page с дополнителными ',
+                    'страницами галерей работ и формой записи к мастеру.<br>',
+                    'Студия предоставляет услуги парикмахера-стилиста и ателье с авторской одеждой.<br>',
+                    'Основная целевая аудитория: креативные молодые люди и девушки 18-35 лет, проживающие в Санкт-Петербурге.<br>',
+                    'Адаптивно-резиновая верстка. Мой собственный дизайн.<br>',
+                    'Используемые технологии: Adobe Illustrator, SVG, Adobe Photoshop, HTML5/CSS3, BEM,',
+                    'Less, JavaScript, AJAX, jQuery, плагин Gamma Gallery. ',
+                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, IE-11, Edge.'
+                ].join(' '),
+                thumbnail: [
+                    'img/code-gallery/small/lenor-tat.jpg',
+                    'img/code-gallery/large/lenor-1.png',
+                    'img/code-gallery/large/lenor-2.png',
+                    'img/code-gallery/large/lenor-3.png',
+                    'img/code-gallery/large/lenor-4.png',
+                    'img/code-gallery/large/lenor-5.png',
+
+                ],
+                large: [
+                    'img/code-gallery/large/lenor-tat.jpg',
+                    'img/code-gallery/large/lenor-1.png',
+                    'img/code-gallery/large/lenor-2.png',
+                    'img/code-gallery/large/lenor-3.png',
+                    'img/code-gallery/large/lenor-4.png',
+                    'img/code-gallery/large/lenor-5.png',
+                ],
+                img_title: ['lenortat.spb.ru'],
+                button_list: [
+                    {
+                        title: 'Перейти на сайт',
+                        url: 'http://lenortat.alicedesign.ru/',
+                        new_window: true
+                    },
+                    {
+                        title: 'Исходный код',
+                        url: 'https://github.com/Alisa-Filatova/Lenor-tat',
+                        new_window: true
+                    }
+                ],
+                tags: ['Отзывчивая верстка']
             },
             {
                 title: 'Code and Magic',
@@ -547,6 +547,42 @@ $(function() {
                 tags: ['Фиксированная верстка']
             },
             {
+                title: 'LookBook',
+                description: [
+                    'Главная страница сайта для коллекции одежды Lookbook 2017.',
+                    'Адаптивно-резиновая верстка по готовому-psd макету.' ,
+                    'Технологии используемые в проекте:',
+                    'HTML5/CSS3, Less, BEM, JavaScript, Webpack, Adobe Photoshop.',
+                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, IE-11, Edge, Android.'
+                ].join(' '),
+                thumbnail: [
+                    'img/code-gallery/small/conmime.jpg',
+                    'img/code-gallery/large/lookbook-1.png',
+                    'img/code-gallery/large/lookbook-2.png',
+                    'img/code-gallery/large/lookbook-3.png'
+                ],
+                large: [
+                    'img/code-gallery/large/conmime.jpg',
+                    'img/code-gallery/large/lookbook-1.png',
+                    'img/code-gallery/large/lookbook-2.png',
+                    'img/code-gallery/large/lookbook-3.png'
+                ],
+                img_title: ['image 1 '],
+                button_list: [
+                    {
+                        title: 'Перейти на сайт',
+                        url: 'http://lookbook.alicedesign.ru',
+                        new_window: true
+                    },
+                    {
+                        title: 'Исходный код',
+                        url: 'https://github.com/Alisa-Filatova/clothes-shop',
+                        new_window: false
+                    }
+                ],
+                tags: ['Отзывчивая верстка']
+            },
+            {
                 title: 'Sedona',
                 description: [
                     'Туристический информационный портал о городе Седона c функцией поиска гостиниц по фильтру, формой отзыва, просмотра фотографий.',
@@ -579,6 +615,41 @@ $(function() {
                     {
                         title: 'Исходный код',
                         url: 'https://github.com/Alisa-Filatova/sedona',
+                        new_window: true
+                    }
+                ],
+                tags: ['Отзывчивая верстка']
+            },
+            {
+                title: 'Bank Online',
+                description: [
+                    'Промо страница онлайн-банка.',
+                    'Выполнялось в рамках тестового задания в банк (пройдено успешно).',
+                    'Отзывчивая верстка по готовому psd-макету (citibank).',
+                    'Валидация формы и стилизация ошибок при помощи JavaScript.',
+                    'В проекте использовались: HTML5/CSS3, Less, BEM, JavaScript, Webpack.',
+                    'Кроссбраузерность: Мобильные и десктопные Chrome, Opera, Firefox, Safari, IE-11, Edge, Android.'
+                ].join(' '),
+                thumbnail: [
+                    'img/code-gallery/small/bank.jpg',
+                    'img/code-gallery/large/bank-1.png',
+                    'img/code-gallery/large/bank-2.png'
+                ],
+                large: [
+                    'img/code-gallery/large/bank.jpg',
+                    'img/code-gallery/large/bank-1.png',
+                    'img/code-gallery/large/bank-2.png'
+                ],
+                img_title: [ 'image'],
+                button_list: [
+                    {
+                        title: 'Перейти на сайт',
+                        url: 'http://bank.alicedesign.ru',
+                        new_window: true
+                    },
+                    {
+                        title: 'Исходный код',
+                        url: 'https://github.com/Alisa-Filatova/citybank',
                         new_window: true
                     }
                 ],
@@ -657,42 +728,6 @@ $(function() {
                 tags: ['Фиксированная верстка']
             },
             {
-                title: 'LookBook',
-                description: [
-                    'Главная страница сайта для коллекции одежды Lookbook 2017.',
-                    'Адаптивно-резиновая верстка по готовому-psd макету.' ,
-                    'Технологии используемые в проекте:',
-                    'HTML5/CSS3, Less, BEM, JavaScript, Webpack, Adobe Photoshop.',
-                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, IE-11, Edge, Android.'
-                ].join(' '),
-                thumbnail: [
-                	'img/code-gallery/small/conmime.jpg',
-									'img/code-gallery/large/lookbook-1.png',
-									'img/code-gallery/large/lookbook-2.png',
-									'img/code-gallery/large/lookbook-3.png'
-								],
-                large: [
-                	'img/code-gallery/large/conmime.jpg',
-									'img/code-gallery/large/lookbook-1.png',
-									'img/code-gallery/large/lookbook-2.png',
-									'img/code-gallery/large/lookbook-3.png'
-								],
-                img_title: ['image 1 '],
-                button_list: [
-                    {
-                        title: 'Перейти на сайт',
-                        url: 'http://lookbook.alicedesign.ru',
-                        new_window: true
-                    },
-                    {
-                        title: 'Исходный код',
-                        url: 'https://github.com/Alisa-Filatova/clothes-shop',
-                        new_window: false
-                    }
-                ],
-                tags: ['Отзывчивая верстка']
-            },
-            {
                 title: 'Nerds',
                 description: [
                     'Промо-сайт для веб-студии «Nerds», с дополнительной страницей каталога шаблонов.',
@@ -719,41 +754,6 @@ $(function() {
                     },
                 ],
                 tags: ['Фиксированная верстка']
-            },
-            {
-                title: 'Bank Online',
-                description: [
-                    'Промо страница онлайн-банка.',
-                    'Выполнялось в рамках тестового задания в банк (пройдено успешно).',
-                    'Отзывчивая верстка по готовому psd-макету (citibank).',
-                    'Валидация формы и стилизация ошибок при помощи JavaScript.',
-                    'В проекте использовались: HTML5/CSS3, Less, BEM, JavaScript, Webpack.',
-                    'Кроссбраузерность: Мобильные и десктопные Chrome, Opera, Firefox, Safari, IE-11, Edge, Android.'
-                ].join(' '),
-                thumbnail: [
-                    'img/code-gallery/small/bank.jpg',
-                    'img/code-gallery/large/bank-1.png',
-                    'img/code-gallery/large/bank-2.png'
-                ],
-                large: [
-                    'img/code-gallery/large/bank.jpg',
-                    'img/code-gallery/large/bank-1.png',
-                    'img/code-gallery/large/bank-2.png'
-                ],
-                img_title: [ 'image'],
-                button_list: [
-                    {
-                        title: 'Перейти на сайт',
-                        url: 'http://bank.alicedesign.ru',
-                        new_window: true
-                    },
-                    {
-                        title: 'Исходный код',
-                        url: 'https://github.com/Alisa-Filatova/citybank',
-                        new_window: true
-                    }
-                ],
-                tags: ['Отзывчивая верстка']
             },
             {
                 title: 'Барбершоп «Borodinski»',
