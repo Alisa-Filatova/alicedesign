@@ -27,19 +27,19 @@ $(function() {
                 ].join(' '),
                 thumbnail: [
                     'img/code-gallery/small/goroshko-dance.jpg',
-                    'img/code-gallery/large/goroshko-1.png',
-                    'img/code-gallery/large/goroshko-2.png',
-                    'img/code-gallery/large/goroshko-3.png',
-                    'img/code-gallery/large/goroshko-4.png',
-                    'img/code-gallery/large/goroshko-5.png'
+                    'img/code-gallery/small/goroshko-1.jpg',
+                    'img/code-gallery/small/goroshko-2.jpg',
+                    'img/code-gallery/small/goroshko-3.jpg',
+                    'img/code-gallery/small/goroshko-4.jpg',
+                    'img/code-gallery/small/goroshko-5.jpg'
                 ],
                 large: [
                     'img/code-gallery/large/goroshko-dance.jpg',
-                    'img/code-gallery/large/goroshko-1.png',
-                    'img/code-gallery/large/goroshko-2.png',
-                    'img/code-gallery/large/goroshko-3.png',
-                    'img/code-gallery/large/goroshko-4.png',
-                    'img/code-gallery/large/goroshko-5.png'
+                    'img/code-gallery/large/goroshko-1.jpg',
+                    'img/code-gallery/large/goroshko-2.jpg',
+                    'img/code-gallery/large/goroshko-3.jpg',
+                    'img/code-gallery/large/goroshko-4.jpg',
+                    'img/code-gallery/large/goroshko-5.jpg'
                 ],
                 img_title: ['goroshkodance.ru'],
                 button_list: [
@@ -70,20 +70,20 @@ $(function() {
                 ].join(' '),
                 thumbnail: [
                     'img/code-gallery/small/lenor-tat.jpg',
-                    'img/code-gallery/large/lenor-1.png',
-                    'img/code-gallery/large/lenor-2.png',
-                    'img/code-gallery/large/lenor-3.png',
-                    'img/code-gallery/large/lenor-4.png',
-                    'img/code-gallery/large/lenor-5.png',
+                    'img/code-gallery/small/lenor-1.jpg',
+                    'img/code-gallery/small/lenor-2.jpg',
+                    'img/code-gallery/small/lenor-3.jpg',
+                    'img/code-gallery/small/lenor-4.jpg',
+                    'img/code-gallery/small/lenor-5.jpg',
 
                 ],
                 large: [
                     'img/code-gallery/large/lenor-tat.jpg',
-                    'img/code-gallery/large/lenor-1.png',
-                    'img/code-gallery/large/lenor-2.png',
-                    'img/code-gallery/large/lenor-3.png',
-                    'img/code-gallery/large/lenor-4.png',
-                    'img/code-gallery/large/lenor-5.png',
+                    'img/code-gallery/large/lenor-1.jpg',
+                    'img/code-gallery/large/lenor-2.jpg',
+                    'img/code-gallery/large/lenor-3.jpg',
+                    'img/code-gallery/large/lenor-4.jpg',
+                    'img/code-gallery/large/lenor-5.jpg',
                 ],
                 img_title: ['lenortat.spb.ru'],
                 button_list: [
@@ -115,17 +115,17 @@ $(function() {
                 ].join(' '),
                 thumbnail: [
                     'img/code-gallery/small/natalia-photo.jpg',
-                    'img/code-gallery/large/nata-1.png',
-                    'img/code-gallery/large/nata-2.png',
-                    'img/code-gallery/large/nata-3.png',
-                    'img/code-gallery/large/nata-4.png',
+                    'img/code-gallery/small/nata-1.jpg',
+                    'img/code-gallery/small/nata-2.jpg',
+                    'img/code-gallery/small/nata-3.jpg',
+                    'img/code-gallery/small/nata-4.jpg',
                 ],
                 large: [
                     'img/code-gallery/large/natalia-photo.jpg',
-                    'img/code-gallery/large/nata-1.png',
-                    'img/code-gallery/large/nata-2.png',
-                    'img/code-gallery/large/nata-3.png',
-                    'img/code-gallery/large/nata-4.png',
+                    'img/code-gallery/large/nata-1.jpg',
+                    'img/code-gallery/large/nata-2.jpg',
+                    'img/code-gallery/large/nata-3.jpg',
+                    'img/code-gallery/large/nata-4.jpg',
                 ],
                 img_title: ['image'],
                 button_list: [
@@ -157,18 +157,18 @@ $(function() {
                 ].join(' '),
                 thumbnail: [
                     'img/code-gallery/small/alicedesign.jpg',
-                    'img/code-gallery/large/alice-1.png',
-                    'img/code-gallery/large/alice-2.png',
-                    'img/code-gallery/large/alice-3.png',
-                    'img/code-gallery/large/alice-4.png',
+                    'img/code-gallery/small/alice-1.jpg',
+                    'img/code-gallery/small/alice-2.jpg',
+                    'img/code-gallery/small/alice-3.jpg',
+                    'img/code-gallery/small/alice-4.jpg',
 
                 ],
                 large: [
                     'img/code-gallery/large/alicedesign.jpg',
-                    'img/code-gallery/large/alice-1.png',
-                    'img/code-gallery/large/alice-2.png',
-                    'img/code-gallery/large/alice-3.png',
-                    'img/code-gallery/large/alice-4.png',
+                    'img/code-gallery/large/alice-1.jpg',
+                    'img/code-gallery/large/alice-2.jpg',
+                    'img/code-gallery/large/alice-3.jpg',
+                    'img/code-gallery/large/alice-4.jpg',
                 ],
                 img_title: ['image'],
                 button_list: [
@@ -193,9 +193,9 @@ $(function() {
                 ].join(' '),
                 thumbnail: [
                     'img/code-gallery/small/cosmos.jpg',
-                    'img/code-gallery/large/ssd.jpg',
-                    'img/code-gallery/large/ssd-1.jpg',
-                    'img/code-gallery/large/ssd-2.jpg'
+                    'img/code-gallery/small/ssd.jpg',
+                    'img/code-gallery/small/ssd-1.jpg',
+                    'img/code-gallery/small/ssd-2.jpg'
                 ],
                 large: [
                     'img/code-gallery/large/cosmos.jpg',
@@ -215,9 +215,9 @@ $(function() {
                 ].join(' '),
                 thumbnail: [
                     'img/code-gallery/small/ogl.jpg',
-                    'img/code-gallery/large/ogl-1.jpg',
-                    'img/code-gallery/large/ogl-2.jpg',
-                    'img/code-gallery/large/ogl-3.jpg'
+                    'img/code-gallery/small/ogl-1.jpg',
+                    'img/code-gallery/small/ogl-2.jpg',
+                    'img/code-gallery/small/ogl-3.jpg'
                 ],
                 large: [
                     'img/code-gallery/large/ogl.jpg',

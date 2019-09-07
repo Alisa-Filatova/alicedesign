@@ -26,7 +26,7 @@
   text-decoration: none;
   text-align: center;
   padding: 2px 10px;
-  background: #d22f69;
+  background: #506085;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   border-radius: 3px;
@@ -41,9 +41,16 @@
 
 .og-details a.first {
   margin-left: 0;
+  background: #d22f69;
 }
 
 .og-details a:hover {
+  background: transparent;
+  border: 2px solid #506085;
+  color: #506085;
+}
+
+.og-details a.first:hover {
   background: transparent;
   border: 2px solid #d22f69;
   color: #d22f69;

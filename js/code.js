@@ -25,16 +25,16 @@ $(function() {
                 ].join(' '),
                 thumbnail: [
                     'img/code-gallery/small/ezy.jpg',
-                    'img/code-gallery/large/home.jpg',
-                    'img/code-gallery/large/upgrade-min.jpg',
-                    'img/code-gallery/large/upgrade2-min.jpg',
-                    'img/code-gallery/large/spiner.jpg',
-                    'img/code-gallery/large/spiner2.jpg',
-                    'img/code-gallery/large/giveaway.jpg',
-                    'img/code-gallery/large/profile.jpg',
-                    'img/code-gallery/large/daily-bonus.jpg',
-                    'img/code-gallery/large/deposit.jpg',
-                    'img/code-gallery/large/why-we.jpg'
+                    'img/code-gallery/small/home.jpg',
+                    'img/code-gallery/small/upgrade-min.jpg',
+                    'img/code-gallery/small/upgrade2-min.jpg',
+                    'img/code-gallery/small/spiner.jpg',
+                    'img/code-gallery/small/spiner2.jpg',
+                    'img/code-gallery/small/giveaway.jpg',
+                    'img/code-gallery/small/profile.jpg',
+                    'img/code-gallery/small/daily-bonus.jpg',
+                    'img/code-gallery/small/deposit.jpg',
+                    'img/code-gallery/small/why-we.jpg'
                 ],
                 large: [
                     'img/code-gallery/large/ezy.jpg',
@@ -71,8 +71,8 @@ $(function() {
                 ].join(' '),
                 thumbnail: [
                     'img/code-gallery/small/ezy-town.jpg',
-                    'img/code-gallery/large/town1.jpg',
-                    'img/code-gallery/large/town2.jpg'
+                    'img/code-gallery/small/town1.jpg',
+                    'img/code-gallery/small/town2.jpg'
                 ],
                 large: [
                     'img/code-gallery/large/ezy-town.jpg',
@@ -90,7 +90,7 @@ $(function() {
                 tags: ['Отзывчивая верстка']
             },
             {
-                title: 'vgo.ezy.com',
+                title: 'Vgo Ezy',
                 description: [
                     'Рекламный лендинг для сервиса с игровыми предметами Counter-Strike: Global Offensive - EZY.com.',
                     'Назначение приложения: открытие кейсов с игровыми предметами, апгрейд предметов, обмен, и прочие операции. ',
@@ -102,10 +102,10 @@ $(function() {
                 ].join(' '),
                 thumbnail: [
                   'img/code-gallery/small/vgo.jpg',
-                  'img/code-gallery/large/vgo-csgo.jpg',
-                  'img/code-gallery/large/vgo-csgo-mobile2.jpg',
-                  'img/code-gallery/large/vgo-csgo-mobile3.jpg',
-                  'img/code-gallery/large/vgo-csgo2.jpg'
+                  'img/code-gallery/small/vgo-csgo.jpg',
+                  'img/code-gallery/small/vgo-csgo-mobile2.jpg',
+                  'img/code-gallery/small/vgo-csgo-mobile3.jpg',
+                  'img/code-gallery/small/vgo-csgo2.jpg'
                 ],
                 large: [
                   'img/code-gallery/large/vgo.jpg',
@@ -136,15 +136,15 @@ $(function() {
                 ].join(' '),
                 thumbnail: [
                     'img/code-gallery/small/leon.jpg',
-                    'img/code-gallery/large/LeonGG.jpg',
-                    'img/code-gallery/large/LeonGG2.jpg',
-                    'img/code-gallery/large/LeonGG3.jpg'
+                    'img/code-gallery/small/LeonGG.jpg',
+                    'img/code-gallery/small/LeonGG3.jpg',
+                    'img/code-gallery/small/LeonGG2.jpg'
                 ],
                 large: [
                     'img/code-gallery/large/leon.jpg',
-                    'img/code-gallery/large/LeonGG.jpg' ,
+                    'img/code-gallery/large/LeonGG.jpg',
+                    'img/code-gallery/large/LeonGG3.jpg',
                     'img/code-gallery/large/LeonGG2.jpg',
-                    'img/code-gallery/large/LeonGG3.jpg'
                 ],
                 img_title: ['leondrop.net'],
                 button_list: [
@@ -168,17 +168,17 @@ $(function() {
                 ].join(' '),
                 thumbnail: [
                     'img/code-gallery/small/six-cities.jpg',
-                    'img/code-gallery/large/six-1.png',
-                    'img/code-gallery/large/six-2.png',
-                    'img/code-gallery/large/six-3.png',
-                    'img/code-gallery/large/six-4.png',
+                    'img/code-gallery/small/six-1.jpg',
+                    'img/code-gallery/small/six-2.jpg',
+                    'img/code-gallery/small/six-3.jpg',
+                    'img/code-gallery/small/six-4.jpg',
                 ],
                 large: [
                     'img/code-gallery/large/six-cities.jpg',
-                    'img/code-gallery/large/six-1.png',
-                    'img/code-gallery/large/six-2.png',
-                    'img/code-gallery/large/six-3.png',
-                    'img/code-gallery/large/six-4.png',
+                    'img/code-gallery/large/six-1.jpg',
+                    'img/code-gallery/large/six-2.jpg',
+                    'img/code-gallery/large/six-3.jpg',
+                    'img/code-gallery/large/six-4.jpg',
                 ],
                 img_title: ['image'],
                 button_list: [
@@ -210,17 +210,17 @@ $(function() {
                 ].join(' '),
                 thumbnail: [
                     'img/code-gallery/small/natalia-photo.jpg',
-                    'img/code-gallery/large/nata-1.png',
-                    'img/code-gallery/large/nata-2.png',
-                    'img/code-gallery/large/nata-3.png',
-                    'img/code-gallery/large/nata-4.png',
+                    'img/code-gallery/small/nata-1.jpg',
+                    'img/code-gallery/small/nata-2.jpg',
+                    'img/code-gallery/small/nata-3.jpg',
+                    'img/code-gallery/small/nata-4.jpg',
                 ],
                 large: [
                     'img/code-gallery/large/natalia-photo.jpg',
-                    'img/code-gallery/large/nata-1.png',
-                    'img/code-gallery/large/nata-2.png',
-                    'img/code-gallery/large/nata-3.png',
-                    'img/code-gallery/large/nata-4.png',
+                    'img/code-gallery/large/nata-1.jpg',
+                    'img/code-gallery/large/nata-2.jpg',
+                    'img/code-gallery/large/nata-3.jpg',
+                    'img/code-gallery/large/nata-4.jpg',
                 ],
                 img_title: ['image'],
                 button_list: [
@@ -238,7 +238,7 @@ $(function() {
                 tags: ['Отзывчивая верстка']
             },
             {
-                title: 'ezy-exchange.com',
+                title: 'Ezy exchange',
                 description: [
                     'Сервис для обмена игровыми предметами Counter-Strike: Global Offensive - ezy-exchange.com.',
                     'SPA приложение для геймеров и киберспортсменов. ',
@@ -249,13 +249,13 @@ $(function() {
                 ].join(' '),
                 thumbnail: [
                     'img/code-gallery/small/exchanger.jpg',
-                    'img/code-gallery/large/exch.jpg',
-                    'img/code-gallery/large/exch-1.jpg',
-                    'img/code-gallery/large/exch-2.jpg',
-                    'img/code-gallery/large/exch-3.jpg',
-                    'img/code-gallery/large/exch-4.jpg',
-                    'img/code-gallery/large/exch-5.jpg',
-                    'img/code-gallery/large/exch-6.jpg',
+                    'img/code-gallery/small/exch.jpg',
+                    'img/code-gallery/small/exch-1.jpg',
+                    'img/code-gallery/small/exch-2.jpg',
+                    'img/code-gallery/small/exch-3.jpg',
+                    'img/code-gallery/small/exch-4.jpg',
+                    'img/code-gallery/small/exch-5.jpg',
+                    'img/code-gallery/small/exch-6.jpg',
                 ],
                 large: [
                     'img/code-gallery/large/exchanger.jpg',
@@ -285,18 +285,18 @@ $(function() {
                 ].join(' '),
                 thumbnail: [
                     'img/code-gallery/small/alicedesign.jpg',
-                    'img/code-gallery/large/alice-1.png',
-                    'img/code-gallery/large/alice-2.png',
-                    'img/code-gallery/large/alice-3.png',
-                    'img/code-gallery/large/alice-4.png',
+                    'img/code-gallery/small/alice-1.jpg',
+                    'img/code-gallery/small/alice-2.jpg',
+                    'img/code-gallery/small/alice-3.jpg',
+                    'img/code-gallery/small/alice-4.jpg',
 
                 ],
                 large: [
                     'img/code-gallery/large/alicedesign.jpg',
-                    'img/code-gallery/large/alice-1.png',
-                    'img/code-gallery/large/alice-2.png',
-                    'img/code-gallery/large/alice-3.png',
-                    'img/code-gallery/large/alice-4.png',
+                    'img/code-gallery/large/alice-1.jpg',
+                    'img/code-gallery/large/alice-2.jpg',
+                    'img/code-gallery/large/alice-3.jpg',
+                    'img/code-gallery/large/alice-4.jpg',
                 ],
                 img_title: ['image'],
                 button_list: [
@@ -326,19 +326,19 @@ $(function() {
                 ].join(' '),
                 thumbnail: [
                     'img/code-gallery/small/goroshko-dance.jpg',
-                    'img/code-gallery/large/goroshko-1.png',
-                    'img/code-gallery/large/goroshko-2.png',
-                    'img/code-gallery/large/goroshko-3.png',
-                    'img/code-gallery/large/goroshko-4.png',
-                    'img/code-gallery/large/goroshko-5.png'
+                    'img/code-gallery/small/goroshko-1.jpg',
+                    'img/code-gallery/small/goroshko-2.jpg',
+                    'img/code-gallery/small/goroshko-3.jpg',
+                    'img/code-gallery/small/goroshko-4.jpg',
+                    'img/code-gallery/small/goroshko-5.jpg'
                 ],
                 large: [
                     'img/code-gallery/large/goroshko-dance.jpg',
-                    'img/code-gallery/large/goroshko-1.png',
-                    'img/code-gallery/large/goroshko-2.png',
-                    'img/code-gallery/large/goroshko-3.png',
-                    'img/code-gallery/large/goroshko-4.png',
-                    'img/code-gallery/large/goroshko-5.png'
+                    'img/code-gallery/large/goroshko-1.jpg',
+                    'img/code-gallery/large/goroshko-2.jpg',
+                    'img/code-gallery/large/goroshko-3.jpg',
+                    'img/code-gallery/large/goroshko-4.jpg',
+                    'img/code-gallery/large/goroshko-5.jpg'
                 ],
                 img_title: ['goroshkodance.ru'],
                 button_list: [
@@ -366,10 +366,10 @@ $(function() {
                 ].join(' '),
                 thumbnail: [
                     'img/code-gallery/small/netlab.jpg',
-                    'img/code-gallery/large/netlab1.jpg',
-                    'img/code-gallery/large/netlab2.jpg',
-                    'img/code-gallery/large/netlab3.jpg',
-                    'img/code-gallery/large/netlab4.jpg',
+                    'img/code-gallery/small/netlab1.jpg',
+                    'img/code-gallery/small/netlab2.jpg',
+                    'img/code-gallery/small/netlab3.jpg',
+                    'img/code-gallery/small/netlab4.jpg',
                 ],
                 large: [
                     'img/code-gallery/large/netlab.jpg',
@@ -399,15 +399,15 @@ $(function() {
                 ].join(' '),
                 thumbnail: [
                     'img/code-gallery/small/fora.jpg',
-                    'img/code-gallery/large/fora1.png',
-                    'img/code-gallery/large/fora2.png',
-                    'img/code-gallery/large/fora3.png'
+                    'img/code-gallery/small/fora1.jpg',
+                    'img/code-gallery/small/fora2.jpg',
+                    'img/code-gallery/small/fora3.jpg'
                 ],
                 large: [
                     'img/code-gallery/large/fora.jpg',
-                    'img/code-gallery/large/fora1.png',
-                    'img/code-gallery/large/fora2.png',
-                    'img/code-gallery/large/fora3.png'
+                    'img/code-gallery/large/fora1.jpg',
+                    'img/code-gallery/large/fora2.jpg',
+                    'img/code-gallery/large/fora3.jpg'
                 ],
                 img_title: ['image 1 '],
                 button_list: [
@@ -433,15 +433,15 @@ $(function() {
                 ].join(' '),
                 thumbnail: [
                     'img/code-gallery/small/moowle.jpg',
-                    'img/code-gallery/large/moowle-1.png',
-                    'img/code-gallery/large/moowle-2.png',
-                    'img/code-gallery/large/moowle-3.png'
+                    'img/code-gallery/small/moowle-1.jpg',
+                    'img/code-gallery/small/moowle-2.jpg',
+                    'img/code-gallery/small/moowle-3.jpg'
                 ],
                 large: [
                     'img/code-gallery/large/moowle.jpg',
-                    'img/code-gallery/large/moowle-1.png',
-                    'img/code-gallery/large/moowle-2.png',
-                    'img/code-gallery/large/moowle-3.png'
+                    'img/code-gallery/large/moowle-1.jpg',
+                    'img/code-gallery/large/moowle-2.jpg',
+                    'img/code-gallery/large/moowle-3.jpg'
                 ],
                 img_title: ['image'],
                 button_list: [
@@ -472,20 +472,20 @@ $(function() {
                 ].join(' '),
                 thumbnail: [
                     'img/code-gallery/small/lenor-tat.jpg',
-                    'img/code-gallery/large/lenor-1.png',
-                    'img/code-gallery/large/lenor-2.png',
-                    'img/code-gallery/large/lenor-3.png',
-                    'img/code-gallery/large/lenor-4.png',
-                    'img/code-gallery/large/lenor-5.png',
+                    'img/code-gallery/small/lenor-1.jpg',
+                    'img/code-gallery/small/lenor-2.jpg',
+                    'img/code-gallery/small/lenor-3.jpg',
+                    'img/code-gallery/small/lenor-4.jpg',
+                    'img/code-gallery/small/lenor-5.jpg',
 
                 ],
                 large: [
                     'img/code-gallery/large/lenor-tat.jpg',
-                    'img/code-gallery/large/lenor-1.png',
-                    'img/code-gallery/large/lenor-2.png',
-                    'img/code-gallery/large/lenor-3.png',
-                    'img/code-gallery/large/lenor-4.png',
-                    'img/code-gallery/large/lenor-5.png',
+                    'img/code-gallery/large/lenor-1.jpg',
+                    'img/code-gallery/large/lenor-2.jpg',
+                    'img/code-gallery/large/lenor-3.jpg',
+                    'img/code-gallery/large/lenor-4.jpg',
+                    'img/code-gallery/large/lenor-5.jpg',
                 ],
                 img_title: ['lenortat.spb.ru'],
                 button_list: [
@@ -516,20 +516,20 @@ $(function() {
                 ].join(' '),
                 thumbnail: [
                     'img/code-gallery/small/code-and-magic.jpg',
-                    'img/code-gallery/large/code&magick1.png',
-                    'img/code-gallery/large/code&magick2.png',
-                    'img/code-gallery/large/code&magick3.png',
-                    'img/code-gallery/large/code&magick4.png',
-                    'img/code-gallery/large/code&magick5.png'
+                    'img/code-gallery/small/code&magick1.jpg',
+                    'img/code-gallery/small/code&magick2.jpg',
+                    'img/code-gallery/small/code&magick3.jpg',
+                    'img/code-gallery/small/code&magick4.jpg',
+                    'img/code-gallery/small/code&magick5.jpg'
 
                 ],
                 large: [
                     'img/code-gallery/large/code-and-magic.jpg',
-                    'img/code-gallery/large/code&magick1.png',
-                    'img/code-gallery/large/code&magick2.png',
-                    'img/code-gallery/large/code&magick3.png',
-                    'img/code-gallery/large/code&magick4.png',
-                    'img/code-gallery/large/code&magick5.png'
+                    'img/code-gallery/large/code&magick1.jpg',
+                    'img/code-gallery/large/code&magick2.jpg',
+                    'img/code-gallery/large/code&magick3.jpg',
+                    'img/code-gallery/large/code&magick4.jpg',
+                    'img/code-gallery/large/code&magick5.jpg'
                 ],
                 img_title: ['image'],
                 button_list: [
@@ -557,15 +557,15 @@ $(function() {
                 ].join(' '),
                 thumbnail: [
                     'img/code-gallery/small/conmime.jpg',
-                    'img/code-gallery/large/lookbook-1.png',
-                    'img/code-gallery/large/lookbook-2.png',
-                    'img/code-gallery/large/lookbook-3.png'
+                    'img/code-gallery/small/lookbook-1.jpg',
+                    'img/code-gallery/small/lookbook-2.jpg',
+                    'img/code-gallery/small/lookbook-3.jpg'
                 ],
                 large: [
                     'img/code-gallery/large/conmime.jpg',
-                    'img/code-gallery/large/lookbook-1.png',
-                    'img/code-gallery/large/lookbook-2.png',
-                    'img/code-gallery/large/lookbook-3.png'
+                    'img/code-gallery/large/lookbook-1.jpg',
+                    'img/code-gallery/large/lookbook-2.jpg',
+                    'img/code-gallery/large/lookbook-3.jpg'
                 ],
                 img_title: ['image 1 '],
                 button_list: [
@@ -593,17 +593,17 @@ $(function() {
                 ].join(' '),
                 thumbnail: [
                     'img/code-gallery/small/sedona.jpg',
-                    'img/code-gallery/large/sedona-1.png',
-                    'img/code-gallery/large/sedona-2.png',
-                    'img/code-gallery/large/sedona-3.png',
-                    'img/code-gallery/large/sedona-4.png'
+                    'img/code-gallery/small/sedona-1.jpg',
+                    'img/code-gallery/small/sedona-2.jpg',
+                    'img/code-gallery/small/sedona-3.jpg',
+                    'img/code-gallery/small/sedona-4.jpg'
                 ],
                 large: [
                     'img/code-gallery/large/sedona.jpg',
-                    'img/code-gallery/large/sedona-1.png',
-                    'img/code-gallery/large/sedona-2.png',
-                    'img/code-gallery/large/sedona-3.png',
-                    'img/code-gallery/large/sedona-4.png'
+                    'img/code-gallery/large/sedona-1.jpg',
+                    'img/code-gallery/large/sedona-2.jpg',
+                    'img/code-gallery/large/sedona-3.jpg',
+                    'img/code-gallery/large/sedona-4.jpg'
                 ],
                 img_title: ['image'],
                 button_list: [
@@ -632,13 +632,13 @@ $(function() {
                 ].join(' '),
                 thumbnail: [
                     'img/code-gallery/small/bank.jpg',
-                    'img/code-gallery/large/bank-1.png',
-                    'img/code-gallery/large/bank-2.png'
+                    'img/code-gallery/small/bank-1.jpg',
+                    'img/code-gallery/small/bank-2.jpg'
                 ],
                 large: [
                     'img/code-gallery/large/bank.jpg',
-                    'img/code-gallery/large/bank-1.png',
-                    'img/code-gallery/large/bank-2.png'
+                    'img/code-gallery/large/bank-1.jpg',
+                    'img/code-gallery/large/bank-2.jpg'
                 ],
                 img_title: [ 'image'],
                 button_list: [
@@ -667,19 +667,19 @@ $(function() {
                 ].join(' '),
                 thumbnail: [
                     'img/code-gallery/small/pink.jpg',
-                    'img/code-gallery/large/pink-1.png',
-                    'img/code-gallery/large/pink-2.png',
-                    'img/code-gallery/large/pink-3.png',
-                    'img/code-gallery/large/pink-4.png',
-                    'img/code-gallery/large/pink-5.png'
+                    'img/code-gallery/small/pink-1.jpg',
+                    'img/code-gallery/small/pink-2.jpg',
+                    'img/code-gallery/small/pink-3.jpg',
+                    'img/code-gallery/small/pink-4.jpg',
+                    'img/code-gallery/small/pink-5.jpg'
                 ],
                 large: [
                     'img/code-gallery/large/pink.jpg',
-                    'img/code-gallery/large/pink-1.png',
-                    'img/code-gallery/large/pink-2.png',
-                    'img/code-gallery/large/pink-3.png',
-                    'img/code-gallery/large/pink-4.png',
-                    'img/code-gallery/large/pink-5.png'
+                    'img/code-gallery/large/pink-1.jpg',
+                    'img/code-gallery/large/pink-2.jpg',
+                    'img/code-gallery/large/pink-3.jpg',
+                    'img/code-gallery/large/pink-4.jpg',
+                    'img/code-gallery/large/pink-5.jpg'
                 ],
                 img_title: ['image 1 '],
                 button_list: [
@@ -707,15 +707,15 @@ $(function() {
                 ].join(' '),
                 thumbnail: [
                     'img/code-gallery/small/technomart.jpg',
-                    'img/code-gallery/large/tech-1.png',
-                    'img/code-gallery/large/tech-2.png',
-                    'img/code-gallery/large/tech-3.png',
+                    'img/code-gallery/small/tech-1.jpg',
+                    'img/code-gallery/small/tech-2.jpg',
+                    'img/code-gallery/small/tech-3.jpg',
                 ],
                 large: [
                     'img/code-gallery/large/technomart.jpg',
-                    'img/code-gallery/large/tech-1.png',
-                    'img/code-gallery/large/tech-2.png',
-                    'img/code-gallery/large/tech-3.png',
+                    'img/code-gallery/large/tech-1.jpg',
+                    'img/code-gallery/large/tech-2.jpg',
+                    'img/code-gallery/large/tech-3.jpg',
                 ],
                 img_title: ['image'],
                 button_list: [
@@ -737,13 +737,13 @@ $(function() {
                 ].join(' '),
                 thumbnail: [
                     'img/code-gallery/small/nerds.jpg',
-                    'img/code-gallery/large/nerds-1.png',
-                    'img/code-gallery/large/nerds-2.png',
+                    'img/code-gallery/large/nerds-1.jpg',
+                    'img/code-gallery/small/nerds-2.jpg',
                 ],
                 large: [
                     'img/code-gallery/large/nerds.jpg',
-                    'img/code-gallery/large/nerds-1.png',
-                    'img/code-gallery/large/nerds-2.png',
+                    'img/code-gallery/large/nerds-1.jpg',
+                    'img/code-gallery/large/nerds-2.jpg',
                 ],
                 img_title: [ 'image'],
                 button_list: [
@@ -765,15 +765,15 @@ $(function() {
                 ].join(' '),
                 thumbnail: [
                     'img/code-gallery/small/barbershop.jpg',
-                    'img/code-gallery/large/barber-1.png',
-                    'img/code-gallery/large/barber-2.png',
-                    'img/code-gallery/large/barber-3.png'
+                    'img/code-gallery/small/barber-1.jpg',
+                    'img/code-gallery/small/barber-2.jpg',
+                    'img/code-gallery/small/barber-3.jpg'
                 ],
                 large: [
                     'img/code-gallery/large/barbershop.jpg',
-                    'img/code-gallery/large/barber-1.png',
-                    'img/code-gallery/large/barber-2.png',
-                    'img/code-gallery/large/barber-3.png'
+                    'img/code-gallery/large/barber-1.jpg',
+                    'img/code-gallery/large/barber-2.jpg',
+                    'img/code-gallery/large/barber-3.jpg'
                 ],
                 img_title: [ 'image'],
                 button_list: [
