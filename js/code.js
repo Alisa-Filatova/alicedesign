@@ -156,43 +156,46 @@ $(function() {
                 tags: ['Отзывчивая верстка']
             },
             {
-                title: 'Six cities',
+                title: 'goroshkodance.ru',
                 description: [
-                    '«Шесть городов» — сервис для путешественников, не желающих переплачивать за аренду жилья. ' +
-                    'Выбирайте один из шести популярных городов для путешествий и получайте актуальный список предложений по аренде. ' +
-                    'Подробная информация о жилье, показ объекта на карте, а также лаконичный интерфейс сервиса помогут быстро выбрать оптимальное предложение.<br>',
-                    'Личный проект на интенсивном онлайн-курсе «Профессиональный JavaScript уровень 3» в «HTML Academy».' ,
-                    'Верстка была предоставлена в html.<br> Технологии используемые и изучаемые в проекте:',
-                    'TypeScript, React.js, Redux, тестирование с помощью Jest.',
+                    'Лендинг для танцевальной школы хореографа Саши Горошко (финалистка 4 сезона шоу «ТАНЦЫ» на ТНТ).',
+                    'Назначение сайта: информационная поддержка учеников, привлечение новых студентов, портфолио,',
+                    'информация для сотрудничества.<br>',
+                    'Основная целевая аудитория: девушки 14-25 лет, проживающие в Москве.<br>',
+                    'Адаптивно-резиновая верстка. Мой собственный дизайн.',
+                    'В проекте я использовала: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM, Less, JavaScript, jQuery, AJAX, Webpack.<br>',
+                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, IE-11, Edge.'
                 ].join(' '),
                 thumbnail: [
-                    'img/code-gallery/small/six-cities.jpg',
-                    'img/code-gallery/small/six-1.jpg',
-                    'img/code-gallery/small/six-2.jpg',
-                    'img/code-gallery/small/six-3.jpg',
-                    'img/code-gallery/small/six-4.jpg',
+                    'img/code-gallery/small/goroshko-dance.jpg',
+                    'img/code-gallery/small/goroshko-1.jpg',
+                    'img/code-gallery/small/goroshko-2.jpg',
+                    'img/code-gallery/small/goroshko-3.jpg',
+                    'img/code-gallery/small/goroshko-4.jpg',
+                    'img/code-gallery/small/goroshko-5.jpg'
                 ],
                 large: [
-                    'img/code-gallery/large/six-cities.jpg',
-                    'img/code-gallery/large/six-1.jpg',
-                    'img/code-gallery/large/six-2.jpg',
-                    'img/code-gallery/large/six-3.jpg',
-                    'img/code-gallery/large/six-4.jpg',
+                    'img/code-gallery/large/goroshko-dance.jpg',
+                    'img/code-gallery/large/goroshko-1.jpg',
+                    'img/code-gallery/large/goroshko-2.jpg',
+                    'img/code-gallery/large/goroshko-3.jpg',
+                    'img/code-gallery/large/goroshko-4.jpg',
+                    'img/code-gallery/large/goroshko-5.jpg'
                 ],
-                img_title: ['image'],
+                img_title: ['goroshkodance.ru'],
                 button_list: [
                     {
                         title: 'Перейти на сайт',
-                        url: 'http://six-cities.alicedesign.ru',
+                        url: 'http://goroshkodance.ru/',
                         new_window: true
                     },
                     {
                         title: 'Исходный код',
-                        url: 'https://github.com/Alisa-Filatova/Six-cities',
+                        url: 'https://github.com/Alisa-Filatova/Goroshko-dance',
                         new_window: true
                     }
                 ],
-                tags: ['Фиксированная верстка']
+                tags: ['Отзывчивая верстка']
             },
             {
                 title: 'nataliaphoto.me',
@@ -237,40 +240,6 @@ $(function() {
                 tags: ['Отзывчивая верстка']
             },
             {
-                title: 'Ezy exchange',
-                description: [
-                    'Сервис для обмена игровыми предметами Counter-Strike: Global Offensive - ezy-exchange.com.',
-                    'SPA приложение для геймеров и киберспортсменов.',
-                    'В проекте я занимала роль младшего фронтенд-разработчика. Использовала: ' +
-                    'React.js, TypeScript, MobX, SVG, HTML5/CSS3, Less, JavaScript, Webpack.<br>',
-                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge последние версии.<br>',
-                    'В данный момент сайт уже не существует.'
-                ].join(' '),
-                thumbnail: [
-                    'img/code-gallery/small/exchanger.jpg',
-                    'img/code-gallery/small/exch.jpg',
-                    'img/code-gallery/small/exch-1.jpg',
-                    'img/code-gallery/small/exch-2.jpg',
-                    'img/code-gallery/small/exch-3.jpg',
-                    'img/code-gallery/small/exch-4.jpg',
-                    'img/code-gallery/small/exch-5.jpg',
-                    'img/code-gallery/small/exch-6.jpg',
-                ],
-                large: [
-                    'img/code-gallery/large/exchanger.jpg',
-                    'img/code-gallery/large/exch.jpg',
-                    'img/code-gallery/large/exch-1.jpg',
-                    'img/code-gallery/large/exch-2.jpg',
-                    'img/code-gallery/large/exch-3.jpg',
-                    'img/code-gallery/large/exch-4.jpg',
-                    'img/code-gallery/large/exch-5.jpg',
-                    'img/code-gallery/large/exch-6.jpg',
-                ],
-                img_title: ['ezy-exchange.com'],
-                button_list: [],
-                tags: ['Отзывчивая верстка']
-            },
-            {
                 title: 'alicedesign.ru',
                 description: [
                     'Мой личный сайт портфолио. Проект я решила делать со своими векторными иллюстрациями и CSS анимацией.',
@@ -307,151 +276,6 @@ $(function() {
                     {
                         title: 'Исходный код',
                         url: 'https://github.com/Alisa-Filatova/Natalia-photography',
-                        new_window: true
-                    }
-                ],
-                tags: ['Фиксированная верстка']
-            },
-            {
-                title: 'goroshkodance.ru',
-                description: [
-                    'Лендинг для танцевальной школы хореографа Саши Горошко (финалистка 4 сезона шоу «ТАНЦЫ» на ТНТ).',
-                    'Назначение сайта: информационная поддержка учеников, привлечение новых студентов, портфолио,',
-                    'информация для сотрудничества.<br>',
-                    'Основная целевая аудитория: девушки 14-25 лет, проживающие в Москве.<br>',
-                    'Адаптивно-резиновая верстка. Мой собственный дизайн.',
-                    'В проекте я использовала: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM, Less, JavaScript, jQuery, AJAX, Webpack.<br>',
-                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, IE-11, Edge.'
-                ].join(' '),
-                thumbnail: [
-                    'img/code-gallery/small/goroshko-dance.jpg',
-                    'img/code-gallery/small/goroshko-1.jpg',
-                    'img/code-gallery/small/goroshko-2.jpg',
-                    'img/code-gallery/small/goroshko-3.jpg',
-                    'img/code-gallery/small/goroshko-4.jpg',
-                    'img/code-gallery/small/goroshko-5.jpg'
-                ],
-                large: [
-                    'img/code-gallery/large/goroshko-dance.jpg',
-                    'img/code-gallery/large/goroshko-1.jpg',
-                    'img/code-gallery/large/goroshko-2.jpg',
-                    'img/code-gallery/large/goroshko-3.jpg',
-                    'img/code-gallery/large/goroshko-4.jpg',
-                    'img/code-gallery/large/goroshko-5.jpg'
-                ],
-                img_title: ['goroshkodance.ru'],
-                button_list: [
-                    {
-                        title: 'Перейти на сайт',
-                        url: 'http://goroshkodance.ru/',
-                        new_window: true
-                    },
-                    {
-                        title: 'Исходный код',
-                        url: 'https://github.com/Alisa-Filatova/Goroshko-dance',
-                        new_window: true
-                    }
-                ],
-                tags: ['Отзывчивая верстка']
-            },
-            {
-                title: 'netlab.com.cy',
-                description: [
-                    'Информационный сайт для веб-компании "Netlab.',
-                    'Адаптивно-резиновая верстка по готовому-psd макету.<br>' ,
-                    'Технологии используемые в проекте:',
-                    'HTML5/CSS3, Less, BEM, JavaScript, Webpack, Adobe Photoshop.<br>',
-                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, IE-11, Edge, Android 4.1 + .'
-                ].join(' '),
-                thumbnail: [
-                    'img/code-gallery/small/netlab.jpg',
-                    'img/code-gallery/small/netlab1.jpg',
-                    'img/code-gallery/small/netlab2.jpg',
-                    'img/code-gallery/small/netlab3.jpg',
-                    'img/code-gallery/small/netlab4.jpg',
-                ],
-                large: [
-                    'img/code-gallery/large/netlab.jpg',
-                    'img/code-gallery/large/netlab1.jpg',
-                    'img/code-gallery/large/netlab2.jpg',
-                    'img/code-gallery/large/netlab3.jpg',
-                    'img/code-gallery/large/netlab4.jpg',
-                ],
-                img_title: ['image 1 '],
-                button_list: [
-                    {
-                        title: 'Перейти на сайт',
-                        url: 'http://netlab.com.cy/',
-                        new_window: true
-                    }
-                ],
-                tags: ['Отзывчивая верстка']
-            },
-            {
-                title: 'fora.ru',
-                description: [
-                    'Информационный сайт для консалтинговой компании "Fora.ru".',
-                    'Адаптивно-резиновая верстка по готовому макету Sketch.<br>' ,
-                    'Технологии используемые в проекте:',
-                    'HTML5/CSS3, Less, BEM, JavaScript, Webpack, Sketch.<br>',
-                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge.'
-                ].join(' '),
-                thumbnail: [
-                    'img/code-gallery/small/fora.jpg',
-                    'img/code-gallery/small/fora1.jpg',
-                    'img/code-gallery/small/fora2.jpg',
-                    'img/code-gallery/small/fora3.jpg'
-                ],
-                large: [
-                    'img/code-gallery/large/fora.jpg',
-                    'img/code-gallery/large/fora1.jpg',
-                    'img/code-gallery/large/fora2.jpg',
-                    'img/code-gallery/large/fora3.jpg'
-                ],
-                img_title: ['image 1 '],
-                button_list: [
-                    {
-                        title: 'Перейти на сайт',
-                        url: 'http://fora.ru/',
-                        new_window: true
-                    }
-                ],
-                tags: ['Отзывчивая верстка']
-            },
-            {
-                title: 'Moowle',
-                description: [
-                    'Moowle — сервис для фанатов большого кино и телевизионных сериалов. ' +
-                    'Подробная информация о горячих новинках кино, возможность выбрать и сформировать ' +
-                    'собственный список фильмов к просмотру, обсуждение кинофильмов и многое другое.' +
-                    'Moowle — поможет провести время интересно.<br>',
-                    'Личный проект на интенсивном онлайн-курсе «Профессиональный JavaScript уровень 2» в «HTML Academy».' ,
-                    'Верстка была предоставлена в html.<br> Технологии используемые и изучаемые в проекте:',
-                    'JavaScript (ES6), работа с Webpack и сторонними библиотеками.<br>',
-                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge.'
-                ].join(' '),
-                thumbnail: [
-                    'img/code-gallery/small/moowle.jpg',
-                    'img/code-gallery/small/moowle-1.jpg',
-                    'img/code-gallery/small/moowle-2.jpg',
-                    'img/code-gallery/small/moowle-3.jpg'
-                ],
-                large: [
-                    'img/code-gallery/large/moowle.jpg',
-                    'img/code-gallery/large/moowle-1.jpg',
-                    'img/code-gallery/large/moowle-2.jpg',
-                    'img/code-gallery/large/moowle-3.jpg'
-                ],
-                img_title: ['image'],
-                button_list: [
-                    {
-                        title: 'Перейти на сайт',
-                        url: 'http://moowle.alicedesign.ru',
-                        new_window: true
-                    },
-                    {
-                        title: 'Исходный код',
-                        url: 'https://github.com/Alisa-Filatova/Cinemaddict',
                         new_window: true
                     }
                 ],
@@ -502,6 +326,40 @@ $(function() {
                 tags: ['Отзывчивая верстка']
             },
             {
+                title: 'Ezy exchange',
+                description: [
+                    'Сервис для обмена игровыми предметами Counter-Strike: Global Offensive - ezy-exchange.com.',
+                    'SPA приложение для геймеров и киберспортсменов.',
+                    'В проекте я занимала роль младшего фронтенд-разработчика. Использовала: ' +
+                    'React.js, TypeScript, MobX, SVG, HTML5/CSS3, Less, JavaScript, Webpack.<br>',
+                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge последние версии.<br>',
+                    'В данный момент сайт уже не существует.'
+                ].join(' '),
+                thumbnail: [
+                    'img/code-gallery/small/exchanger.jpg',
+                    'img/code-gallery/small/exch.jpg',
+                    'img/code-gallery/small/exch-1.jpg',
+                    'img/code-gallery/small/exch-2.jpg',
+                    'img/code-gallery/small/exch-3.jpg',
+                    'img/code-gallery/small/exch-4.jpg',
+                    'img/code-gallery/small/exch-5.jpg',
+                    'img/code-gallery/small/exch-6.jpg',
+                ],
+                large: [
+                    'img/code-gallery/large/exchanger.jpg',
+                    'img/code-gallery/large/exch.jpg',
+                    'img/code-gallery/large/exch-1.jpg',
+                    'img/code-gallery/large/exch-2.jpg',
+                    'img/code-gallery/large/exch-3.jpg',
+                    'img/code-gallery/large/exch-4.jpg',
+                    'img/code-gallery/large/exch-5.jpg',
+                    'img/code-gallery/large/exch-6.jpg',
+                ],
+                img_title: ['ezy-exchange.com'],
+                button_list: [],
+                tags: ['Отзывчивая верстка']
+            },
+            {
                 title: 'Code and Magic',
                 description: [
                     'Промо-сайт для игры «Code and Magic», где можно поиграть в демо-версию,',
@@ -540,6 +398,117 @@ $(function() {
                     {
                         title: 'Исходный код',
                         url: 'https://github.com/Alisa-Filatova/code-and-magic',
+                        new_window: true
+                    }
+                ],
+                tags: ['Фиксированная верстка']
+            },
+            {
+                title: 'Six cities',
+                description: [
+                    '«Шесть городов» — сервис для путешественников, не желающих переплачивать за аренду жилья. ' +
+                    'Выбирайте один из шести популярных городов для путешествий и получайте актуальный список предложений по аренде. ' +
+                    'Подробная информация о жилье, показ объекта на карте, а также лаконичный интерфейс сервиса помогут быстро выбрать оптимальное предложение.<br>',
+                    'Личный проект на интенсивном онлайн-курсе «Профессиональный JavaScript уровень 3» в «HTML Academy».' ,
+                    'Верстка была предоставлена в html.<br> Технологии используемые и изучаемые в проекте:',
+                    'TypeScript, React.js, Redux, тестирование с помощью Jest.',
+                ].join(' '),
+                thumbnail: [
+                    'img/code-gallery/small/six-cities.jpg',
+                    'img/code-gallery/small/six-1.jpg',
+                    'img/code-gallery/small/six-2.jpg',
+                    'img/code-gallery/small/six-3.jpg',
+                    'img/code-gallery/small/six-4.jpg',
+                ],
+                large: [
+                    'img/code-gallery/large/six-cities.jpg',
+                    'img/code-gallery/large/six-1.jpg',
+                    'img/code-gallery/large/six-2.jpg',
+                    'img/code-gallery/large/six-3.jpg',
+                    'img/code-gallery/large/six-4.jpg',
+                ],
+                img_title: ['image'],
+                button_list: [
+                    {
+                        title: 'Перейти на сайт',
+                        url: 'http://six-cities.alicedesign.ru',
+                        new_window: true
+                    },
+                    {
+                        title: 'Исходный код',
+                        url: 'https://github.com/Alisa-Filatova/Six-cities',
+                        new_window: true
+                    }
+                ],
+                tags: ['Фиксированная верстка']
+            },
+            {
+                title: 'netlab.com.cy',
+                description: [
+                    'Информационный сайт для веб-компании "Netlab.',
+                    'Адаптивно-резиновая верстка по готовому-psd макету.<br>' ,
+                    'Технологии используемые в проекте:',
+                    'HTML5/CSS3, Less, BEM, JavaScript, Webpack, Adobe Photoshop.<br>',
+                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, IE-11, Edge, Android 4.1 + .'
+                ].join(' '),
+                thumbnail: [
+                    'img/code-gallery/small/netlab.jpg',
+                    'img/code-gallery/small/netlab1.jpg',
+                    'img/code-gallery/small/netlab2.jpg',
+                    'img/code-gallery/small/netlab3.jpg',
+                    'img/code-gallery/small/netlab4.jpg',
+                ],
+                large: [
+                    'img/code-gallery/large/netlab.jpg',
+                    'img/code-gallery/large/netlab1.jpg',
+                    'img/code-gallery/large/netlab2.jpg',
+                    'img/code-gallery/large/netlab3.jpg',
+                    'img/code-gallery/large/netlab4.jpg',
+                ],
+                img_title: ['image 1 '],
+                button_list: [
+                    {
+                        title: 'Перейти на сайт',
+                        url: 'http://netlab.com.cy/',
+                        new_window: true
+                    }
+                ],
+                tags: ['Отзывчивая верстка']
+            },
+            {
+                title: 'Moowle',
+                description: [
+                    'Moowle — сервис для фанатов большого кино и телевизионных сериалов. ' +
+                    'Подробная информация о горячих новинках кино, возможность выбрать и сформировать ' +
+                    'собственный список фильмов к просмотру, обсуждение кинофильмов и многое другое.' +
+                    'Moowle — поможет провести время интересно.<br>',
+                    'Личный проект на интенсивном онлайн-курсе «Профессиональный JavaScript уровень 2» в «HTML Academy».' ,
+                    'Верстка была предоставлена в html.<br> Технологии используемые и изучаемые в проекте:',
+                    'JavaScript (ES6), работа с Webpack и сторонними библиотеками.<br>',
+                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge.'
+                ].join(' '),
+                thumbnail: [
+                    'img/code-gallery/small/moowle.jpg',
+                    'img/code-gallery/small/moowle-1.jpg',
+                    'img/code-gallery/small/moowle-2.jpg',
+                    'img/code-gallery/small/moowle-3.jpg'
+                ],
+                large: [
+                    'img/code-gallery/large/moowle.jpg',
+                    'img/code-gallery/large/moowle-1.jpg',
+                    'img/code-gallery/large/moowle-2.jpg',
+                    'img/code-gallery/large/moowle-3.jpg'
+                ],
+                img_title: ['image'],
+                button_list: [
+                    {
+                        title: 'Перейти на сайт',
+                        url: 'http://moowle.alicedesign.ru',
+                        new_window: true
+                    },
+                    {
+                        title: 'Исходный код',
+                        url: 'https://github.com/Alisa-Filatova/Cinemaddict',
                         new_window: true
                     }
                 ],
@@ -725,6 +694,37 @@ $(function() {
                     },
                 ],
                 tags: ['Фиксированная верстка']
+            },
+            {
+                title: 'fora.ru',
+                description: [
+                    'Информационный сайт для консалтинговой компании "Fora.ru".',
+                    'Адаптивно-резиновая верстка по готовому макету Sketch.<br>' ,
+                    'Технологии используемые в проекте:',
+                    'HTML5/CSS3, Less, BEM, JavaScript, Webpack, Sketch.<br>',
+                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge.'
+                ].join(' '),
+                thumbnail: [
+                    'img/code-gallery/small/fora.jpg',
+                    'img/code-gallery/small/fora1.jpg',
+                    'img/code-gallery/small/fora2.jpg',
+                    'img/code-gallery/small/fora3.jpg'
+                ],
+                large: [
+                    'img/code-gallery/large/fora.jpg',
+                    'img/code-gallery/large/fora1.jpg',
+                    'img/code-gallery/large/fora2.jpg',
+                    'img/code-gallery/large/fora3.jpg'
+                ],
+                img_title: ['image 1 '],
+                button_list: [
+                    {
+                        title: 'Перейти на сайт',
+                        url: 'http://fora.ru/',
+                        new_window: true
+                    }
+                ],
+                tags: ['Отзывчивая верстка']
             },
             {
                 title: 'Nerds',

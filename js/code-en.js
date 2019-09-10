@@ -148,44 +148,47 @@ $(function() {
                 tags: ['Responsive']
             },
             {
-                title: 'Six cities',
+                title: 'goroshkodance.ru',
                 description: [
-                    '"Six cities" - a service for travelers who do not want to overpay for rent. '+
-                    'Choose one of six popular cities to travel to and get an up-to-date list of rental offers. '+
-                    'Detailed information about accommodation, showing the object on the map, as well as a concise service interface will help you quickly choose the best offer.',
-                    'A personal project for an intensive online course "Professional JavaScript level 3" in "HTML Academy".' ,
-                    'Technologies used and studied in the project:',
-                    'TypeScript, React.js, Redux, testing by Jest.',
-                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, Edge last versions.'
+                    'Personal website of choreographer and dancer Sasha Goroshko (participant 4 season of the TV-show "DANCING").',
+                    'The purpose of the website: informational support for students, attract new students, portfolio',
+                    'information for cooperation. Main target audience: girls between 12 and 25 years living in Moscow.<br>',
+                    'For these purposes I decided to use the style of "Landing Page",',
+                    'since it allows available to provide all necessary information on the main page.',
+                    'The website is adapted for tablets and mobile devices.',
+                    'In the project I used: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM, Less, jQuery, JavaScript.',
+                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, IE-11, Edge.'
                 ].join(' '),
                 thumbnail: [
-                    'img/code-gallery/small/six-cities.jpg',
-                    'img/code-gallery/small/six-1.jpg',
-                    'img/code-gallery/small/six-2.jpg',
-                    'img/code-gallery/small/six-3.jpg',
-                    'img/code-gallery/small/six-4.jpg',
+                    'img/code-gallery/small/goroshko-dance.jpg',
+                    'img/code-gallery/small/goroshko-1.jpg',
+                    'img/code-gallery/small/goroshko-2.jpg',
+                    'img/code-gallery/small/goroshko-3.jpg',
+                    'img/code-gallery/small/goroshko-4.jpg',
+                    'img/code-gallery/small/goroshko-5.jpg'
                 ],
                 large: [
-                    'img/code-gallery/large/six-cities.jpg',
-                    'img/code-gallery/large/six-1.jpg',
-                    'img/code-gallery/large/six-2.jpg',
-                    'img/code-gallery/large/six-3.jpg',
-                    'img/code-gallery/large/six-4.jpg',
+                    'img/code-gallery/large/goroshko-dance.jpg',
+                    'img/code-gallery/large/goroshko-1.jpg',
+                    'img/code-gallery/large/goroshko-2.jpg',
+                    'img/code-gallery/large/goroshko-3.jpg',
+                    'img/code-gallery/large/goroshko-4.jpg',
+                    'img/code-gallery/large/goroshko-5.jpg'
                 ],
-                img_title: ['image'],
+                img_title: ['goroshkodance.ru'],
                 button_list: [
                     {
                         title: 'Visit Website',
-                        url: 'http://six-cities.alicedesign.ru',
+                        url: 'http://goroshkodance.ru/',
                         new_window: true
                     },
                     {
                         title: 'Source code',
-                        url: 'https://github.com/Alisa-Filatova/Six-cities',
+                        url: 'https://github.com/Alisa-Filatova/Goroshko-dance',
                         new_window: true
                     }
                 ],
-                tags: ['Fixed']
+                tags: ['Responsive']
             },
             {
                 title: 'nataliaphoto.me',
@@ -230,39 +233,6 @@ $(function() {
                 tags: ['Responsive']
             },
             {
-                title: 'Ezy exchange',
-                description: [
-                    'SPA for gamers and cybersport fans. Exchanger for digital game items (skins) ' +
-                    'for Counter-Strike: Global Offensive.' +
-                    'My task included frontend development' +
-                    'In project i used: React.js, TypeScript, MobX, SVG, HTML5/CSS3, Less, JavaScript, Webpack, Storybook, Sketch.',
-                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, Edge.'
-                ].join(' '),
-                thumbnail: [
-                    'img/code-gallery/small/exchanger.jpg',
-                    'img/code-gallery/small/exch.jpg',
-                    'img/code-gallery/small/exch-1.jpg',
-                    'img/code-gallery/small/exch-2.jpg',
-                    'img/code-gallery/small/exch-3.jpg',
-                    'img/code-gallery/small/exch-4.jpg',
-                    'img/code-gallery/small/exch-5.jpg',
-                    'img/code-gallery/small/exch-6.jpg',
-                ],
-                large: [
-                    'img/code-gallery/large/exchanger.jpg',
-                    'img/code-gallery/large/exch.jpg',
-                    'img/code-gallery/large/exch-1.jpg',
-                    'img/code-gallery/large/exch-2.jpg',
-                    'img/code-gallery/large/exch-3.jpg',
-                    'img/code-gallery/large/exch-4.jpg',
-                    'img/code-gallery/large/exch-5.jpg',
-                    'img/code-gallery/large/exch-6.jpg',
-                ],
-                img_title: ['ezy-exchange.com'],
-                button_list: [],
-                tags: ['Responsive']
-            },
-            {
                 title: 'alicedesign.ru',
                 description: [
                     'My personal portfolio website. The project I decided to do with his own illustrations, css animation',
@@ -300,81 +270,6 @@ $(function() {
                     }
                 ],
                 tags: ['Fixed']
-            },
-            {
-                title: 'goroshkodance.ru',
-                description: [
-                    'Personal website of choreographer and dancer Sasha Goroshko (participant 4 season of the TV-show "DANCING").',
-                    'The purpose of the website: informational support for students, attract new students, portfolio',
-                    'information for cooperation. Main target audience: girls between 12 and 25 years living in Moscow.<br>',
-                    'For these purposes I decided to use the style of "Landing Page",',
-                    'since it allows available to provide all necessary information on the main page.',
-                    'The website is adapted for tablets and mobile devices.',
-                    'In the project I used: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM, Less, jQuery, JavaScript.',
-                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, IE-11, Edge.'
-                ].join(' '),
-                thumbnail: [
-                    'img/code-gallery/small/goroshko-dance.jpg',
-                    'img/code-gallery/small/goroshko-1.jpg',
-                    'img/code-gallery/small/goroshko-2.jpg',
-                    'img/code-gallery/small/goroshko-3.jpg',
-                    'img/code-gallery/small/goroshko-4.jpg',
-                    'img/code-gallery/small/goroshko-5.jpg'
-                ],
-                large: [
-                    'img/code-gallery/large/goroshko-dance.jpg',
-                    'img/code-gallery/large/goroshko-1.jpg',
-                    'img/code-gallery/large/goroshko-2.jpg',
-                    'img/code-gallery/large/goroshko-3.jpg',
-                    'img/code-gallery/large/goroshko-4.jpg',
-                    'img/code-gallery/large/goroshko-5.jpg'
-                ],
-                img_title: ['goroshkodance.ru'],
-                button_list: [
-                    {
-                        title: 'Visit Website',
-                        url: 'http://goroshkodance.ru/',
-                        new_window: true
-                    },
-                    {
-                        title: 'Source code',
-                        url: 'https://github.com/Alisa-Filatova/Goroshko-dance',
-                        new_window: true
-                    }
-                ],
-                tags: ['Responsive']
-            },
-            {
-                title: 'netlab.com.cy',
-                description: [
-                    'Information web-site for the "Netlab" internet solutions company, consisting of three pages.',
-                    'Responsive ready PSD layout. Technologies used in project:' ,
-                    'HTML5/CSS3, Less, BEM, JavaScript, Webpack, Adobe Photoshop.',
-                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, IE-11, Edge, Android 4.1 + .'
-                ].join(' '),
-                thumbnail: [
-                    'img/code-gallery/small/netlab.jpg',
-                    'img/code-gallery/small/netlab1.jpg',
-                    'img/code-gallery/small/netlab2.jpg',
-                    'img/code-gallery/small/netlab3.jpg',
-                    'img/code-gallery/small/netlab4.jpg',
-                ],
-                large: [
-                    'img/code-gallery/large/netlab.jpg',
-                    'img/code-gallery/large/netlab1.jpg',
-                    'img/code-gallery/large/netlab2.jpg',
-                    'img/code-gallery/large/netlab3.jpg',
-                    'img/code-gallery/large/netlab4.jpg',
-                ],
-                img_title: ['image 1 '],
-                button_list: [
-                    {
-                        title: 'Visit Website',
-                        url: 'http://netlab.com.cy/',
-                        new_window: true
-                    }
-                ],
-                tags: ['Responsive']
             },
             {
                 title: 'lenortat.spb.ru',
@@ -421,30 +316,146 @@ $(function() {
                 tags: ['Responsive']
             },
             {
-                title: 'fora.ru',
+                title: 'Ezy exchange',
                 description: [
-                    'Information web-site for the "Fora" consulting company of four pages.',
-                    'Responsive ready Sketch layout. Technologies used in project:' ,
-                    'HTML5/CSS3, Less, BEM, JavaScript, Webpack, Sketch.',
-                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, IE-11, Edge.'
+                    'SPA for gamers and cybersport fans. Exchanger for digital game items (skins) ' +
+                    'for Counter-Strike: Global Offensive.' +
+                    'My task included frontend development' +
+                    'In project i used: React.js, TypeScript, MobX, SVG, HTML5/CSS3, Less, JavaScript, Webpack, Storybook, Sketch.',
+                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, Edge.'
                 ].join(' '),
                 thumbnail: [
-                    'img/code-gallery/small/fora.jpg',
-                    'img/code-gallery/small/fora1.jpg',
-                    'img/code-gallery/small/fora2.jpg',
-                    'img/code-gallery/small/fora3.jpg'
+                    'img/code-gallery/small/exchanger.jpg',
+                    'img/code-gallery/small/exch.jpg',
+                    'img/code-gallery/small/exch-1.jpg',
+                    'img/code-gallery/small/exch-2.jpg',
+                    'img/code-gallery/small/exch-3.jpg',
+                    'img/code-gallery/small/exch-4.jpg',
+                    'img/code-gallery/small/exch-5.jpg',
+                    'img/code-gallery/small/exch-6.jpg',
                 ],
                 large: [
-                    'img/code-gallery/large/fora.jpg',
-                    'img/code-gallery/large/fora1.jpg',
-                    'img/code-gallery/large/fora2.jpg',
-                    'img/code-gallery/large/fora3.jpg'
+                    'img/code-gallery/large/exchanger.jpg',
+                    'img/code-gallery/large/exch.jpg',
+                    'img/code-gallery/large/exch-1.jpg',
+                    'img/code-gallery/large/exch-2.jpg',
+                    'img/code-gallery/large/exch-3.jpg',
+                    'img/code-gallery/large/exch-4.jpg',
+                    'img/code-gallery/large/exch-5.jpg',
+                    'img/code-gallery/large/exch-6.jpg',
+                ],
+                img_title: ['ezy-exchange.com'],
+                button_list: [],
+                tags: ['Responsive']
+            },
+            {
+                title: 'Code and Magic',
+                description: [
+                    'Promo website for the game - "Code and Magic"',
+                    'The study project on an intensive online course "JavaScript' ,
+                    'Technology used in the project:',
+                    'HTML5/CSS3, JavaScript, jQuery, BEM, SVG, Adobe Photoshop.',
+                    'Cross-browser compatibility: Chrome, Opera, Firefox, Edge.'
+                ].join(' '),
+                thumbnail: [
+                    'img/code-gallery/small/code-and-magic.jpg',
+                    'img/code-gallery/small/code&magick1.jpg',
+                    'img/code-gallery/small/code&magick2.jpg',
+                    'img/code-gallery/small/code&magick3.jpg',
+                    'img/code-gallery/small/code&magick4.jpg',
+                    'img/code-gallery/small/code&magick5.jpg'
+
+                ],
+                large: [
+                    'img/code-gallery/large/code-and-magic.jpg',
+                    'img/code-gallery/large/code&magick1.jpg',
+                    'img/code-gallery/large/code&magick2.jpg',
+                    'img/code-gallery/large/code&magick3.jpg',
+                    'img/code-gallery/large/code&magick4.jpg',
+                    'img/code-gallery/large/code&magick5.jpg'
+                ],
+                img_title: ['image'],
+                button_list: [
+                    {
+                        title: 'Visit Website',
+                        url: 'http://code-and-magic.alicedesign.ru',
+                        new_window: true
+                    },
+                    {
+                        title: 'Source code',
+                        url: 'https://github.com/Alisa-Filatova/code-and-magic',
+                        new_window: true
+                    }
+                ],
+                tags: ['Fixed']
+            },
+            {
+                title: 'Six cities',
+                description: [
+                    '"Six cities" - a service for travelers who do not want to overpay for rent. '+
+                    'Choose one of six popular cities to travel to and get an up-to-date list of rental offers. '+
+                    'Detailed information about accommodation, showing the object on the map, as well as a concise service interface will help you quickly choose the best offer.',
+                    'A personal project for an intensive online course "Professional JavaScript level 3" in "HTML Academy".' ,
+                    'Technologies used and studied in the project:',
+                    'TypeScript, React.js, Redux, testing by Jest.',
+                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, Edge last versions.'
+                ].join(' '),
+                thumbnail: [
+                    'img/code-gallery/small/six-cities.jpg',
+                    'img/code-gallery/small/six-1.jpg',
+                    'img/code-gallery/small/six-2.jpg',
+                    'img/code-gallery/small/six-3.jpg',
+                    'img/code-gallery/small/six-4.jpg',
+                ],
+                large: [
+                    'img/code-gallery/large/six-cities.jpg',
+                    'img/code-gallery/large/six-1.jpg',
+                    'img/code-gallery/large/six-2.jpg',
+                    'img/code-gallery/large/six-3.jpg',
+                    'img/code-gallery/large/six-4.jpg',
+                ],
+                img_title: ['image'],
+                button_list: [
+                    {
+                        title: 'Visit Website',
+                        url: 'http://six-cities.alicedesign.ru',
+                        new_window: true
+                    },
+                    {
+                        title: 'Source code',
+                        url: 'https://github.com/Alisa-Filatova/Six-cities',
+                        new_window: true
+                    }
+                ],
+                tags: ['Fixed']
+            },
+            {
+                title: 'netlab.com.cy',
+                description: [
+                    'Information web-site for the "Netlab" internet solutions company, consisting of three pages.',
+                    'Responsive ready PSD layout. Technologies used in project:' ,
+                    'HTML5/CSS3, Less, BEM, JavaScript, Webpack, Adobe Photoshop.',
+                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, IE-11, Edge, Android 4.1 + .'
+                ].join(' '),
+                thumbnail: [
+                    'img/code-gallery/small/netlab.jpg',
+                    'img/code-gallery/small/netlab1.jpg',
+                    'img/code-gallery/small/netlab2.jpg',
+                    'img/code-gallery/small/netlab3.jpg',
+                    'img/code-gallery/small/netlab4.jpg',
+                ],
+                large: [
+                    'img/code-gallery/large/netlab.jpg',
+                    'img/code-gallery/large/netlab1.jpg',
+                    'img/code-gallery/large/netlab2.jpg',
+                    'img/code-gallery/large/netlab3.jpg',
+                    'img/code-gallery/large/netlab4.jpg',
                 ],
                 img_title: ['image 1 '],
                 button_list: [
                     {
                         title: 'Visit Website',
-                        url: 'http://fora.ru/',
+                        url: 'http://netlab.com.cy/',
                         new_window: true
                     }
                 ],
@@ -484,47 +495,6 @@ $(function() {
                     {
                         title: 'Source code',
                         url: 'https://github.com/Alisa-Filatova/Cinemaddict',
-                        new_window: true
-                    }
-                ],
-                tags: ['Fixed']
-            },
-            {
-                title: 'Code and Magic',
-                description: [
-                    'Promo website for the game - "Code and Magic"',
-                    'The study project on an intensive online course "JavaScript' ,
-                    'Technology used in the project:',
-                    'HTML5/CSS3, JavaScript, jQuery, BEM, SVG, Adobe Photoshop.',
-                    'Cross-browser compatibility: Chrome, Opera, Firefox, Edge.'
-                ].join(' '),
-                thumbnail: [
-                    'img/code-gallery/small/code-and-magic.jpg',
-                    'img/code-gallery/small/code&magick1.jpg',
-                    'img/code-gallery/small/code&magick2.jpg',
-                    'img/code-gallery/small/code&magick3.jpg',
-                    'img/code-gallery/small/code&magick4.jpg',
-                    'img/code-gallery/small/code&magick5.jpg'
-
-                ],
-                large: [
-                    'img/code-gallery/large/code-and-magic.jpg',
-                    'img/code-gallery/large/code&magick1.jpg',
-                    'img/code-gallery/large/code&magick2.jpg',
-                    'img/code-gallery/large/code&magick3.jpg',
-                    'img/code-gallery/large/code&magick4.jpg',
-                    'img/code-gallery/large/code&magick5.jpg'
-                ],
-                img_title: ['image'],
-                button_list: [
-                    {
-                        title: 'Visit Website',
-                        url: 'http://code-and-magic.alicedesign.ru',
-                        new_window: true
-                    },
-                    {
-                        title: 'Source code',
-                        url: 'https://github.com/Alisa-Filatova/code-and-magic',
                         new_window: true
                     }
                 ],
@@ -701,6 +671,36 @@ $(function() {
                     },
                 ],
                 tags: ['Fixed']
+            },
+            {
+                title: 'fora.ru',
+                description: [
+                    'Information web-site for the "Fora" consulting company of four pages.',
+                    'Responsive ready Sketch layout. Technologies used in project:' ,
+                    'HTML5/CSS3, Less, BEM, JavaScript, Webpack, Sketch.',
+                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, IE-11, Edge.'
+                ].join(' '),
+                thumbnail: [
+                    'img/code-gallery/small/fora.jpg',
+                    'img/code-gallery/small/fora1.jpg',
+                    'img/code-gallery/small/fora2.jpg',
+                    'img/code-gallery/small/fora3.jpg'
+                ],
+                large: [
+                    'img/code-gallery/large/fora.jpg',
+                    'img/code-gallery/large/fora1.jpg',
+                    'img/code-gallery/large/fora2.jpg',
+                    'img/code-gallery/large/fora3.jpg'
+                ],
+                img_title: ['image 1 '],
+                button_list: [
+                    {
+                        title: 'Visit Website',
+                        url: 'http://fora.ru/',
+                        new_window: true
+                    }
+                ],
+                tags: ['Responsive']
             },
             {
                 title: 'Nerds',
