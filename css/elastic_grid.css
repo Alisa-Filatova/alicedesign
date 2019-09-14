@@ -767,6 +767,12 @@ nav#porfolio-nav li:last-child a {
 }
 
 @media only screen and (max-width : 480px) {
+
+	.og-expander {
+		min-height: 400px;
+		z-index: 1000;
+	}
+
 	nav#porfolio-nav {
 		border-bottom: 0;
 	}
@@ -824,6 +830,12 @@ nav#porfolio-nav li:last-child a {
 }
 
 @media (min-width: 1200px) {
+
+	.og-expander {
+		min-height: 600px;
+		z-index: 1000;
+	}
+
 	.og-expander h3 {
 		font-size: 28px;
 		line-height: 35px;
