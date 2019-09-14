@@ -11,95 +11,8 @@
   <link href="https://fonts.googleapis.com/css?family=Neucha&amp;subset=cyrillic" rel="stylesheet">
   <link rel="icon" type="image/png" href="img/favicon.png">
 
-  <style>
-    @font-face {
-      font-family: 'Neucha';
-      font-style: normal;
-      font-weight: 400;
-    }
-    .overlay-loader {
-      position: fixed;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      z-index: 5000;
-      pointer-events: none;
-    }
-    .loader__text {
-      z-index: 5000;
-      position: absolute;
-      top: 70%;
-      left: 45%;
-      margin: 74px 0 0 -97px;
-      font-size: 40px;
-      color: #ffffff;
-      letter-spacing: 10px;
-      animation: fade-out 0.4s infinite linear alternate-reverse;
-      text-align: center;
-      font-family: 'Neucha', 'Comic Sans', sans-serif;
-    }
-    .loader__wrapper {
-      z-index: 5000;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-    }
-    .overlay-loader .loader-background {
-      position: absolute;
-      width: 100%;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      background-color: #506085;
-      transition: background-color .2s 0s linear,right .2s .3s ease-out;
-    }
-    .overlay-loader .loader-background.color-flip {
-      animation: color-flip 6.5s .6s infinite linear;
-    }
-    @keyframes fade-out {
-      0% { opacity: 1 }
-      100% { opacity: 0.3 }
-    }
-    @keyframes color-flip {
-      0% { background-color: #506085 }
-      18% { background-color: #506085 }
-      20% { background-color: #fc568d }
-      38% { background-color: #fc568d }
-      40% { background-color: #80deea }
-      58% { background-color: #80deea }
-      60% { background-color: #e55189 }
-      78% { background-color: #e55189 }
-      80% { background-color: #088696 }
-      98% { background-color: #088696 }
-      100% { background-color: #506085 }
-    }
-    .overlay-loader .loader-icon {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      margin: -48px 0 0 -48px;
-      font-size: 96px;
-      color: #FFF;
-    }
-    .overlay-loader .loader-icon.spinning-cog {
-      animation: spinning-cog 1.3s infinite ease;
-    }
-    @keyframes spinning-cog {
-      0% { transform: rotate(0deg) }
-      20% { transform: rotate(-45deg) }
-      100% { transform: rotate(360deg) }
-    }
-    @keyframes shrinking-cog {
-      0% { transform: scale(1) }
-      20% { transform: scale(1.2) }
-      100% { transform: scale(0) }
-    }
-    .overlay-loader .loader-icon {
-      animation: shrinking-cog .3s 1 ease forwards;
-    }
-  </style>
+  <!--  Styles for preloader-->
+  <style>@font-face{font-family:Neucha;font-style:normal;font-weight:400;src:url(/dist/fonts/44af033635f4e6fa37c16487b9013f1c.eot);src:local("Neucha"),url(/dist/fonts/44af033635f4e6fa37c16487b9013f1c.eot) format("embedded-opentype"),url(/dist/fonts/c05723d7347ea2ee827cfe3fc37948c9.woff2) format("woff2"),url(/dist/fonts/0cdf7cf79c51f83c146d1a49dd1f4ca6.woff) format("woff"),url(/dist/fonts/9e3af0cffb6181543ad9255bc241fe58.ttf) format("truetype"),url(/dist/svg/08310eacfce457b8aeef4f191eff82fc.svg) format("svg")}.overlay-loader{position:fixed;top:0;right:0;bottom:0;left:0;z-index:5000;pointer-events:none}.loader__text{z-index:5000;position:absolute;top:70%;left:45%;margin:74px 0 0 -97px;font-size:40px;color:#fff;letter-spacing:10px;animation:fade-out .4s infinite linear alternate-reverse;text-align:center;font-family:Neucha,Comic Sans,sans-serif}.loader__wrapper{z-index:5000;position:absolute;top:50%;left:50%}.overlay-loader .loader-background{position:absolute;width:100%;top:0;right:0;bottom:0;left:0;background-color:#506085;-webkit-transition:background-color .2s linear 0s,right .2s ease-out .3s;transition:background-color .2s linear 0s,right .2s ease-out .3s}.overlay-loader .loader-background.color-flip{-webkit-animation:color-flip 6.5s .6s infinite linear;animation:color-flip 6.5s .6s infinite linear}@-webkit-keyframes fade-out{0%{opacity:1}to{opacity:.3}}@keyframes fade-out{0%{opacity:1}to{opacity:.3}}@-webkit-keyframes color-flip{0%{background-color:#506085}18%{background-color:#506085}20%{background-color:#fc568d}38%{background-color:#fc568d}40%{background-color:#80deea}58%{background-color:#80deea}60%{background-color:#e55189}78%{background-color:#e55189}80%{background-color:#088696}98%{background-color:#088696}to{background-color:#506085}}@keyframes color-flip{0%{background-color:#506085}18%{background-color:#506085}20%{background-color:#fc568d}38%{background-color:#fc568d}40%{background-color:#80deea}58%{background-color:#80deea}60%{background-color:#e55189}78%{background-color:#e55189}80%{background-color:#088696}98%{background-color:#088696}to{background-color:#506085}}.overlay-loader .loader-icon{position:absolute;top:50%;left:50%;margin:-48px 0 0 -48px;font-size:96px;color:#fff}.overlay-loader .loader-icon.spinning-cog{-webkit-animation:spinning-cog 1.3s infinite ease;animation:spinning-cog 1.3s infinite ease}@-webkit-keyframes spinning-cog{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}20%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@keyframes spinning-cog{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}20%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@-webkit-keyframes shrinking-cog{0%{-webkit-transform:scale(1);transform:scale(1)}20%{-webkit-transform:scale(1.2);transform:scale(1.2)}to{-webkit-transform:scale(0);transform:scale(0)}}@keyframes shrinking-cog{0%{-webkit-transform:scale(1);transform:scale(1)}20%{-webkit-transform:scale(1.2);transform:scale(1.2)}to{-webkit-transform:scale(0);transform:scale(0)}}.overlay-loader .loader-icon.shrinking-cog{-webkit-animation:shrinking-cog .3s 1 ease forwards;animation:shrinking-cog .3s 1 ease forwards}</style>
   <link href="dist/css/index.css" rel="stylesheet">
 
   <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -292,7 +205,7 @@
           <figcaption class="portfolio__wrapper">
             <h2 class="portfolio__title">Веб дизайн</h2>
             <p class="portfolio__description">
-              Мои личные проекты<br> с авторским дизайном<br> и вёрсткой.
+              Проекты с моим дизайном.
             </p>
             <button class="portfolio__btn">Смотреть</button>
           </figcaption>
@@ -581,7 +494,7 @@
               и сделать это ремесло своей профессией.
             </p>
             <p class="about-me__text">
-              Верстаю адаптивно, резиново, отзывчиво, кроссбраузерно, по БЭМ
+              Верстаю адаптивно, кроссбраузерно, по БЭМ
               и максимально близко к макету, стараюсь добиться семантики.
               Использую React.js, TypeScript, ES6, для стилей - Less / CSS Modules.
               Продолжаю изучать JavaScript.
@@ -802,7 +715,7 @@
     </div>
   </footer>
 
-  <script src="dist/js/index.js?2" async defer></script>
+  <script src="dist/js/index.js?3" async defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js" async defer></script>
   <script>
     (function(d, w, c) {
