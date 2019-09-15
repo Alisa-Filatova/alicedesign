@@ -19,36 +19,46 @@ $(function() {
                   'Сервис с игровыми предметами для Counter-Strike: Global Offensive - EZY.com.',
                   'SPA приложение для геймеров и киберспортсменов. Игры, открытие кейсов с игровыми ' +
                   'предметами, апгрейд предметов, обмен и прочие операции. ',
-                  'Отзывчивая верстка по макетам из Sketch. Поддержка 13ти языков.<br>',
+                  'Отзывчивая верстка по макетам из Sketch. Поддержка 11ти языков.<br>',
                   'В проекте я занимала роль младшего фронтенд-разработчика.<br> ' +
-                  'Использовала: React.js, TypeScript, SVG, HTML5/CSS3, Less, CSS Modules, JavaScript, Webpack.<br>',
-                  'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge - последние версии.'
+                  'Использовала: React.js, TypeScript, HTML5, Less/CSS, CSS Modules, JavaScript, Webpack.<br>',
+                  'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge.'
                 ].join(' '),
                 thumbnail: [
                     'img/code-gallery/small/ezy.jpg',
                     'img/code-gallery/small/home.jpg',
                     'img/code-gallery/small/upgrade-min.jpg',
-                    'img/code-gallery/small/upgrade2-min.jpg',
                     'img/code-gallery/small/spiner.jpg',
                     'img/code-gallery/small/spiner2.jpg',
+                    'img/code-gallery/small/ui.jpg',
+                    'img/code-gallery/small/ui2.jpg',
+                    'img/code-gallery/small/cases.jpg',
+                    'img/code-gallery/small/upgrade2-min.jpg',
+                    'img/code-gallery/small/upgrade-min.jpg',
                     'img/code-gallery/small/giveaway.jpg',
                     'img/code-gallery/small/profile.jpg',
                     'img/code-gallery/small/daily-bonus.jpg',
                     'img/code-gallery/small/deposit.jpg',
-                    'img/code-gallery/small/why-we.jpg'
+                    'img/code-gallery/small/why-we.jpg',
+                    'img/code-gallery/small/interface.jpg'
                 ],
                 large: [
                     'img/code-gallery/large/ezy.jpg',
                     'img/code-gallery/large/home.jpg',
-                    'img/code-gallery/large/upgrade-min.jpg',
-                    'img/code-gallery/large/upgrade2-min.jpg',
+                    'img/code-gallery/large/upgrade-gif.gif',
                     'img/code-gallery/large/spiner.jpg',
                     'img/code-gallery/large/spiner2.jpg',
+                    'img/code-gallery/large/ui.jpg',
+                    'img/code-gallery/large/ui2.jpg',
+                    'img/code-gallery/large/cases.gif',
+                    'img/code-gallery/large/upgrade2-min.jpg',
+                    'img/code-gallery/large/upgrade-min.jpg',
                     'img/code-gallery/large/giveaway.jpg',
                     'img/code-gallery/large/profile.jpg',
                     'img/code-gallery/large/daily-bonus.jpg',
                     'img/code-gallery/large/deposit.jpg',
-                    'img/code-gallery/large/why-we.jpg'
+                    'img/code-gallery/large/why-we.jpg',
+                    'img/code-gallery/large/interface.jpg'
                 ],
                 img_title: ['ezy.com', 'upgrade'],
                 button_list: [
@@ -66,18 +76,20 @@ $(function() {
                     'Рекламный лендинг для сервиса с игровыми предметами Counter-Strike: Global Offensive - EZY.com.',
                     'Назначение приложения: открытие кейсов с игровыми предметами, апгрейд предметов, обмен, и прочие операции. ',
                     'Назначение лендинга: реклама приложения.',
-                    'Адаптивно-резиновая верстка по макету из Sketch.<br>',
-                    'В проекте я использовала: SVG, HTML5/CSS3, Less, JavaScript, Webpack.<br>',
-                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge последние версии.'
+                    'Отзывчивая верстка по макету из Sketch.<br>',
+                    'В проекте я использовала: HTML5/CSS3, JavaScript.<br>',
+                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge.'
                 ].join(' '),
                 thumbnail: [
                     'img/code-gallery/small/ezy-town.jpg',
-                    'img/code-gallery/small/town1.jpg',
+                    'img/code-gallery/small/town1-1.jpg',
+                    'img/code-gallery/small/town1-2.jpg',
                     'img/code-gallery/small/town2.jpg'
                 ],
                 large: [
                     'img/code-gallery/large/ezy-town.jpg',
-                    'img/code-gallery/large/town1.jpg',
+                    'img/code-gallery/large/town1-1.jpg',
+                    'img/code-gallery/large/town1-2.jpg',
                     'img/code-gallery/large/town2.jpg'
                 ],
                 img_title: ['town.ezy.com'],
@@ -95,21 +107,23 @@ $(function() {
                 description: [
                     'Рекламный лендинг для сервиса с игровыми предметами Counter-Strike: Global Offensive - EZY.com.',
                     'Назначение лендинга: подробное описание блокчейн VGO предметов и их преимущества.<br>',
-                    'Адаптивно-резиновая верстка по макету из Sketch.<br>',
-                    'В проекте я использовала: SVG, HTML5/CSS3, Less, JavaScript, Webpack.<br>',
-                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge последние версии.<br>',
+                    'Отзывчивая верстка по макету из Sketch.<br>',
+                    'В проекте я использовала: HTML5/CSS3, JavaScript.<br>',
+                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge - последние версии.<br>',
                     'Оригинальный лендинг размещен внутри сайта ezy.com с использованием React.js и TypeScript, по ссылке не доступен.'
                 ].join(' '),
                 thumbnail: [
                   'img/code-gallery/small/vgo.jpg',
-                  'img/code-gallery/small/vgo-csgo.jpg',
+                  'img/code-gallery/small/vgo-csgo-1.jpg',
+                  'img/code-gallery/small/vgo-csgo-2.jpg',
                   'img/code-gallery/small/vgo-csgo-mobile2.jpg',
                   'img/code-gallery/small/vgo-csgo-mobile3.jpg',
                   'img/code-gallery/small/vgo-csgo2.jpg'
                 ],
                 large: [
                   'img/code-gallery/large/vgo.jpg',
-                  'img/code-gallery/large/vgo-csgo.jpg',
+                  'img/code-gallery/large/vgo-csgo-1.jpg',
+                  'img/code-gallery/large/vgo-csgo-2.jpg',
                   'img/code-gallery/large/vgo-csgo-mobile2.jpg',
                   'img/code-gallery/large/vgo-csgo-mobile3.jpg',
                   'img/code-gallery/large/vgo-csgo2.jpg'
@@ -119,6 +133,11 @@ $(function() {
                     {
                         title: 'Перейти на сайт',
                         url: 'http://vgo.alicedesign.ru/',
+                        new_window: true
+                    },
+                    {
+                        title: 'Исходный код',
+                        url: 'https://github.com/Alisa-Filatova/about-vgo-landing',
                         new_window: true
                     }
                 ],
@@ -130,7 +149,7 @@ $(function() {
                     'Сервис с игровыми предметами для Counter-Strike: Global Offensive - leondrop.net. Адаптация EZY.com для российского рынка.',
                     'SPA приложение для геймеров и киберспортсменов. Игры, открытие кейсов с игровыми предметами, апгрейд предметов, обмен, и прочие операции.<br>',
                     'В проекте я занимала роль младшего фронтенд-разработчика. <br>Использовала: React.js, TypeScript, SVG, HTML5/CSS3, Less, CSS Modules, JavaScript, Webpack.<br>',
-                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge последние версии.<br>',
+                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge.<br>',
                     'В данный момент сайт доступен только через иностранный VPN.'
                 ].join(' '),
                 thumbnail: [
@@ -206,8 +225,8 @@ $(function() {
                     'Целевая аудитория: молодые мамы, семьи с детьми,',
                     'семейные пары, домохозяйки, проживающие в пригороде Калифорнии.<br>',
                     'Адаптивно-резиновая верстка. Мой собственный дизайн.<br>',
-                    'Используемые технологии: HTML5/CSS3, методология BEM, Less, ',
-                    'JavaScript, React.js, Adobe Photoshop, Adobe Illustrator.<br>',
+                    'Используемые технологии: React.js, Less, CSS Modules,',
+                    'Adobe Photoshop, Adobe Illustrator, Bootstrap.<br>',
                     'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge.'
                 ].join(' '),
                 thumbnail: [
@@ -247,8 +266,8 @@ $(function() {
                     'об ограничениях верстки.<br> На данный момент работа над сайтом продолжается.',
                     'Готовится мобильная и планшетная версия. В текущей версии верстка главной страницы фиксированная,',
                     'адаптивность частично поддерживают внутренние страницы.<br>' ,
-                    'Используемые технологии: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM, Less, ',
-                    'jQuery, плагин Elastic Grid, Material Photo Gallery, Snap SVG, GSAP, Webpack.<br>',
+                    'Используемые технологии: HTML5/CSS3, BEM, Less, ',
+                    'jQuery, GSAP, Webpack, Adobe Photoshop, Adobe Illustrator, SVG.<br>',
                     'Кроссбраузерность: последние Chrome, Opera, Firefox, Safari, IE-11, Edge.'
                 ].join(' '),
                 thumbnail: [
@@ -287,7 +306,6 @@ $(function() {
                     'Сайт Имидж-студии Таты Куриной и Татьяны Ленорман. Landing-page с дополнителными ',
                     'страницами галерей работ и формой записи к мастеру.<br>',
                     'Студия предоставляет услуги парикмахера-стилиста и ателье с авторской одеждой.<br>',
-                    'Основная целевая аудитория: креативные молодые люди и девушки 18-35 лет, проживающие в Санкт-Петербурге.<br>',
                     'Адаптивно-резиновая верстка. Мой собственный дизайн.<br>',
                     'Используемые технологии: Adobe Illustrator, SVG, Adobe Photoshop, HTML5/CSS3, BEM,',
                     'Less, JavaScript, AJAX, jQuery, плагин Gamma Gallery.<br>',
