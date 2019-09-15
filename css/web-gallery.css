@@ -61,19 +61,15 @@
     width: 86%;
     margin: auto;
   }
+
+  .og-details a.link-button {
+    margin-left: 5px;
+  }
 }
 
 @media (max-width: 425px) {
   .og-expander-inner {
     padding: 0 20px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .og-expander h3 {
-    font-size: 33px;
-    line-height: 41px;
-    word-spacing: 2px;
   }
 }
 
@@ -83,8 +79,7 @@
   }
 
   .og-details h3 {
-     font-size: 26px;
-     line-height: 26px;
+    margin-bottom: 6px;
   }
 
   .og-details p {
