@@ -18,8 +18,8 @@ $(function() {
                 description: [
                     'SPA for gamers and cybersport fans. Entertainment games and exchanger for digital game items (skins). ' +
                     'Opening cases application for Counter-Strike: Global Offensive. ' +
-                    'My task included frontend development. ' +
-                    'In project i used: React.js, TypeScript, HTML5/CSS3, Less, CSS Modules, JavaScript.',
+                    'My task included frontend development (junior). ' +
+                    'In project I used: React.js, TypeScript, HTML5/CSS3, Less, CSS Modules, JavaScript, Storybook.',
                     'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, Edge.'
                 ].join(' '),
                 thumbnail: [
@@ -72,7 +72,7 @@ $(function() {
                 title: 'town.ezy.com',
                 description: [
 									'Promotional landing-page for SPA EZY.com. Cases and items for Counter Strike Global Offensive and VGO blockchain system.',
-                  'In the project I used: HTML5/CSS3, JavaScript.',
+                  'In the project I used: HTML5/CSS3, JavaScript, Sketch.',
                   'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, Edge.'
                 ].join(' '),
                 thumbnail: [
@@ -101,7 +101,7 @@ $(function() {
                 title: 'VGO Ezy',
                 description: [
                     'Promotional landing-page for SPA EZY.com. Cases and items for Counter Strike Global Offensive and VGO blockchain system.',
-                    'In the project I used: HTML5/CSS3, JavaScript.',
+                    'In the project I used: HTML5/CSS3, JavaScript, Sketch.',
                     'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, Edge.'
                 ].join(' '),
                 thumbnail: [
@@ -135,7 +135,7 @@ $(function() {
                 description: [
                     'SPA for gamers and cybersport fans. Entertainment games and exchanger for digital game items (skins). ' +
                     'Opening cases application for Counter-Strike: Global Offensive. EZY.com adaptation for the russian market.' +
-                    'My task included frontend development' +
+                    'My task included frontend development (junior). ' +
                     'In project i used: React.js, TypeScript, HTML5/CSS3, Less, JavaScript, Webpack, Storybook, Sketch.',
                     'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, Edge.'
                 ].join(' '),

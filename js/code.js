@@ -21,7 +21,7 @@ $(function() {
                   'предметами, апгрейд предметов, обмен и прочие операции. ',
                   'Отзывчивая верстка по макетам из Sketch. Поддержка 11ти языков.<br>',
                   'В проекте я занимала роль младшего фронтенд-разработчика.<br> ' +
-                  'Использовала: React.js, TypeScript, HTML5, Less/CSS, CSS Modules, JavaScript, Webpack.<br>',
+                  'Использовала: React.js, TypeScript, HTML5, Less/CSS, CSS Modules, JavaScript, Storybook.<br>',
                   'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge.'
                 ].join(' '),
                 thumbnail: [
@@ -148,7 +148,8 @@ $(function() {
                 description: [
                     'Сервис с игровыми предметами для Counter-Strike: Global Offensive - leondrop.net. Адаптация EZY.com для российского рынка.',
                     'SPA приложение для геймеров и киберспортсменов. Игры, открытие кейсов с игровыми предметами, апгрейд предметов, обмен, и прочие операции.<br>',
-                    'В проекте я занимала роль младшего фронтенд-разработчика. <br>Использовала: React.js, TypeScript, SVG, HTML5/CSS3, Less, CSS Modules, JavaScript, Webpack.<br>',
+                    'В проекте я занимала роль младшего фронтенд-разработчика. <br>' +
+                    'Использовала: React.js, TypeScript, SVG, HTML5/CSS3, Less, CSS Modules, JavaScript, Storybook, Sketch.<br>',
                     'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge.<br>',
                     'В данный момент сайт доступен только через иностранный VPN.'
                 ].join(' '),
@@ -182,7 +183,7 @@ $(function() {
                     'информация для сотрудничества.<br>',
                     'Основная целевая аудитория: девушки 14-25 лет, проживающие в Москве.<br>',
                     'Адаптивно-резиновая верстка. Мой собственный дизайн.',
-                    'В проекте я использовала: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM, Less, JavaScript, jQuery, AJAX, Webpack.<br>',
+                    'В проекте я использовала: Adobe Photoshop, Adobe Illustrator, HTML5/CSS3, BEM, Less, JavaScript, jQuery, Webpack.<br>',
                     'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, IE-11, Edge.'
                 ].join(' '),
                 thumbnail: [
@@ -267,7 +268,7 @@ $(function() {
                     'Готовится мобильная и планшетная версия. В текущей версии верстка главной страницы фиксированная,',
                     'адаптивность частично поддерживают внутренние страницы.<br>' ,
                     'Используемые технологии: HTML5/CSS3, BEM, Less, ',
-                    'jQuery, GSAP, Webpack, Adobe Photoshop, Adobe Illustrator, SVG.<br>',
+                    'jQuery, SVG, GSAP, Webpack, Adobe Photoshop, Adobe Illustrator, SVG.<br>',
                     'Кроссбраузерность: последние Chrome, Opera, Firefox, Safari, IE-11, Edge.'
                 ].join(' '),
                 thumbnail: [
@@ -307,8 +308,8 @@ $(function() {
                     'страницами галерей работ и формой записи к мастеру.<br>',
                     'Студия предоставляет услуги парикмахера-стилиста и ателье с авторской одеждой.<br>',
                     'Адаптивно-резиновая верстка. Мой собственный дизайн.<br>',
-                    'Используемые технологии: Adobe Illustrator, SVG, Adobe Photoshop, HTML5/CSS3, BEM,',
-                    'Less, JavaScript, AJAX, jQuery, плагин Gamma Gallery.<br>',
+                    'Используемые технологии: Adobe Illustrator, Adobe Photoshop, HTML5/CSS3, BEM,',
+                    'Less, JavaScript, jQuery, плагин Gamma Gallery.<br>',
                     'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, IE-11, Edge.'
                 ].join(' '),
                 thumbnail: [
@@ -349,7 +350,7 @@ $(function() {
                     'Сервис для обмена игровыми предметами Counter-Strike: Global Offensive - ezy-exchange.com.',
                     'SPA приложение для геймеров и киберспортсменов.',
                     'В проекте я занимала роль младшего фронтенд-разработчика. Использовала: ' +
-                    'React.js, TypeScript, MobX, SVG, HTML5/CSS3, Less, JavaScript, Webpack.<br>',
+                    'React.js, TypeScript, HTML5/CSS3, Less, JavaScript, Sketch.<br>',
                     'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge последние версии.<br>',
                     'В данный момент сайт уже не существует.'
                 ].join(' '),
@@ -386,7 +387,7 @@ $(function() {
                     'Личный проект на интенсиве «Базовый JavaScript» от «HTML-Academy».<br>',
                     'Верстка по готовому psd-макету (HTML-Academy) с некоторым изменением и добавлением элементов дизайна.<br>',
                     'Технологии используемые в проекте: ',
-                    'HTML5/CSS3, JavaScript, jQuery, AJAX, Webpack, SVG, Adobe Photoshop, Webpack.<br>',
+                    'HTML5/CSS3, JavaScript, jQuery, AJAX.<br>',
                     'Кроссбраузерность: Chrome, Opera, Firefox, Edge.'
                 ].join(' '),
                 thumbnail: [
@@ -502,7 +503,7 @@ $(function() {
                     'Moowle — поможет провести время интересно.<br>',
                     'Личный проект на интенсивном онлайн-курсе «Профессиональный JavaScript уровень 2» в «HTML Academy».' ,
                     'Верстка была предоставлена в html.<br> Технологии используемые и изучаемые в проекте:',
-                    'JavaScript (ES6), работа с Webpack и сторонними библиотеками.<br>',
+                    'JavaScript (ES6), работа с Webpack и сторонними библиотеками типа Moment.js.<br>',
                     'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge.'
                 ].join(' '),
                 thumbnail: [
