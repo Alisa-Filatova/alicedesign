@@ -17,36 +17,46 @@ $(function() {
                 title: 'ezy.com',
                 description: [
                     'SPA for gamers and cybersport fans. Entertainment games and exchanger for digital game items (skins). ' +
-                    'Opening cases application for Counter-Strike: Global Offensive.' +
-                    'My task included frontend development' +
-                    'In project i used: React.js, TypeScript, MobX, SVG, HTML5/CSS3, Less, JavaScript, Webpack, Storybook, Sketch.',
+                    'Opening cases application for Counter-Strike: Global Offensive. ' +
+                    'My task included frontend development. ' +
+                    'In project i used: React.js, TypeScript, HTML5/CSS3, Less, CSS Modules, JavaScript.',
                     'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, Edge.'
                 ].join(' '),
                 thumbnail: [
                     'img/code-gallery/small/ezy.jpg',
                     'img/code-gallery/small/home.jpg',
                     'img/code-gallery/small/upgrade-min.jpg',
-                    'img/code-gallery/small/upgrade2-min.jpg',
                     'img/code-gallery/small/spiner.jpg',
                     'img/code-gallery/small/spiner2.jpg',
+                    'img/code-gallery/small/ui.jpg',
+                    'img/code-gallery/small/ui2.jpg',
+                    'img/code-gallery/small/cases.jpg',
+                    'img/code-gallery/small/upgrade2-min.jpg',
+                    'img/code-gallery/small/upgrade-min.jpg',
                     'img/code-gallery/small/giveaway.jpg',
                     'img/code-gallery/small/profile.jpg',
                     'img/code-gallery/small/daily-bonus.jpg',
                     'img/code-gallery/small/deposit.jpg',
-                    'img/code-gallery/small/why-we.jpg'
+                    'img/code-gallery/small/why-we.jpg',
+                    'img/code-gallery/small/interface.jpg'
                 ],
                 large: [
                     'img/code-gallery/large/ezy.jpg',
                     'img/code-gallery/large/home.jpg',
-                    'img/code-gallery/large/upgrade-min.jpg',
-                    'img/code-gallery/large/upgrade2-min.jpg',
+                    'img/code-gallery/large/upgrade-gif.gif',
                     'img/code-gallery/large/spiner.jpg',
                     'img/code-gallery/large/spiner2.jpg',
+                    'img/code-gallery/large/ui.jpg',
+                    'img/code-gallery/large/ui2.jpg',
+                    'img/code-gallery/large/cases.gif',
+                    'img/code-gallery/large/upgrade2-min.jpg',
+                    'img/code-gallery/large/upgrade-min.jpg',
                     'img/code-gallery/large/giveaway.jpg',
                     'img/code-gallery/large/profile.jpg',
                     'img/code-gallery/large/daily-bonus.jpg',
                     'img/code-gallery/large/deposit.jpg',
-                    'img/code-gallery/large/why-we.jpg'
+                    'img/code-gallery/large/why-we.jpg',
+                    'img/code-gallery/large/interface.jpg'
                 ],
                 img_title: ['ezy.com', 'upgrade'],
                 button_list: [
@@ -62,17 +72,19 @@ $(function() {
                 title: 'town.ezy.com',
                 description: [
 									'Promotional landing-page for SPA EZY.com. Cases and items for Counter Strike Global Offensive and VGO blockchain system.',
-                  'In the project I used: SVG, HTML5/CSS3, Less, JavaScript, Webpack, Sketch.',
+                  'In the project I used: HTML5/CSS3, JavaScript.',
                   'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, Edge.'
                 ].join(' '),
                 thumbnail: [
                     'img/code-gallery/small/ezy-town.jpg',
-                    'img/code-gallery/small/town1.jpg',
+                    'img/code-gallery/small/town1-1.jpg',
+                    'img/code-gallery/small/town1-2.jpg',
                     'img/code-gallery/small/town2.jpg'
                 ],
                 large: [
                     'img/code-gallery/large/ezy-town.jpg',
-                    'img/code-gallery/large/town1.jpg',
+                    'img/code-gallery/large/town1-1.jpg',
+                    'img/code-gallery/large/town1-2.jpg',
                     'img/code-gallery/large/town2.jpg'
                 ],
                 img_title: ['town.ezy.com'],
@@ -89,19 +101,21 @@ $(function() {
                 title: 'VGO Ezy',
                 description: [
                     'Promotional landing-page for SPA EZY.com. Cases and items for Counter Strike Global Offensive and VGO blockchain system.',
-                    'In the project I used: SVG, HTML5/CSS3, Less, JavaScript, Webpack, Sketch.',
+                    'In the project I used: HTML5/CSS3, JavaScript.',
                     'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, Edge.'
                 ].join(' '),
                 thumbnail: [
                     'img/code-gallery/small/vgo.jpg',
-                    'img/code-gallery/small/vgo-csgo.jpg',
+                    'img/code-gallery/small/vgo-csgo-1.jpg',
+                    'img/code-gallery/small/vgo-csgo-2.jpg',
                     'img/code-gallery/small/vgo-csgo-mobile2.jpg',
                     'img/code-gallery/small/vgo-csgo-mobile3.jpg',
                     'img/code-gallery/small/vgo-csgo2.jpg'
                 ],
                 large: [
                     'img/code-gallery/large/vgo.jpg',
-                    'img/code-gallery/large/vgo-csgo.jpg',
+                    'img/code-gallery/large/vgo-csgo-1.jpg',
+                    'img/code-gallery/large/vgo-csgo-2.jpg',
                     'img/code-gallery/large/vgo-csgo-mobile2.jpg',
                     'img/code-gallery/large/vgo-csgo-mobile3.jpg',
                     'img/code-gallery/large/vgo-csgo2.jpg'
@@ -122,7 +136,7 @@ $(function() {
                     'SPA for gamers and cybersport fans. Entertainment games and exchanger for digital game items (skins). ' +
                     'Opening cases application for Counter-Strike: Global Offensive. EZY.com adaptation for the russian market.' +
                     'My task included frontend development' +
-                    'In project i used: React.js, TypeScript, MobX, SVG, HTML5/CSS3, Less, JavaScript, Webpack, Storybook, Sketch.',
+                    'In project i used: React.js, TypeScript, HTML5/CSS3, Less, JavaScript, Webpack, Storybook, Sketch.',
                     'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, Edge.'
                 ].join(' '),
                 thumbnail: [
