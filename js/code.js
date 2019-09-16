@@ -135,11 +135,6 @@ $(function() {
                         url: 'http://vgo.alicedesign.ru/',
                         new_window: true
                     },
-                    {
-                        title: 'Исходный код',
-                        url: 'https://github.com/Alisa-Filatova/about-vgo-landing',
-                        new_window: true
-                    }
                 ],
                 tags: ['Отзывчивая верстка']
             },
