@@ -21,7 +21,7 @@ $(function() {
                   'предметами, апгрейд предметов, обмен и прочие операции. ',
                   'Отзывчивая верстка по макетам из Sketch. Поддержка 11ти языков.<br>',
                   'В проекте я занимала роль младшего фронтенд-разработчика.<br> ' +
-                  'Использовала: React.js, TypeScript, HTML5, Less/CSS, CSS Modules, JavaScript, Storybook.<br>',
+                  'Использовала: React.js, TypeScript, HTML5, Less/CSS3, CSS Modules, JavaScript, Storybook.<br>',
                   'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge.'
                 ].join(' '),
                 thumbnail: [
@@ -144,7 +144,7 @@ $(function() {
                     'Сервис с игровыми предметами для Counter-Strike: Global Offensive - leondrop.net. Адаптация EZY.com для российского рынка.',
                     'SPA приложение для геймеров и киберспортсменов. Игры, открытие кейсов с игровыми предметами, апгрейд предметов, обмен, и прочие операции.<br>',
                     'В проекте я занимала роль младшего фронтенд-разработчика. <br>' +
-                    'Использовала: React.js, TypeScript, SVG, HTML5/CSS3, Less, CSS Modules, JavaScript, Storybook, Sketch.<br>',
+                    'Использовала: React.js, TypeScript, HTML5/CSS3, Less, CSS Modules, JavaScript, Storybook, Sketch.<br>',
                     'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge.<br>',
                     'В данный момент сайт доступен только через иностранный VPN.'
                 ].join(' '),
