@@ -603,41 +603,6 @@ $(function() {
                 tags: ['Отзывчивая верстка']
             },
             {
-                title: 'Bank Online',
-                description: [
-                    'Промо страница онлайн-банка.',
-                    'Выполнялось в рамках тестового задания в банк (пройдено успешно).',
-                    'Отзывчивая верстка по готовому psd-макету (citibank).',
-                    'Валидация формы и стилизация ошибок при помощи JavaScript.',
-                    'В проекте использовались: HTML5/CSS3, Less, BEM, JavaScript, Webpack.<br>',
-                    'Кроссбраузерность: Мобильные и десктопные Chrome, Opera, Firefox, Safari, IE-11, Edge, Android.'
-                ].join(' '),
-                thumbnail: [
-                    'img/code-gallery/small/bank.jpg',
-                    'img/code-gallery/small/bank-1.jpg',
-                    'img/code-gallery/small/bank-2.jpg'
-                ],
-                large: [
-                    'img/code-gallery/large/bank.jpg',
-                    'img/code-gallery/large/bank-1.jpg',
-                    'img/code-gallery/large/bank-2.jpg'
-                ],
-                img_title: [ 'image'],
-                button_list: [
-                    {
-                        title: 'Перейти на сайт',
-                        url: 'http://bank.alicedesign.ru',
-                        new_window: true
-                    },
-                    {
-                        title: 'Исходный код',
-                        url: 'https://github.com/Alisa-Filatova/citybank',
-                        new_window: true
-                    }
-                ],
-                tags: ['Отзывчивая верстка']
-            },
-            {
                 title: 'Pink',
                 description: [
                     'Промо-сайт для мобильного приложения «Pink», где можно поучавствовать в конкурсе, посмотреть фотографии, почитать отзывы.',

@@ -625,38 +625,6 @@ $(function() {
                 tags: ['Responsive']
             },
             {
-                title: 'Bank Online',
-                description: [
-                    'Promo page for a bank online. Responsive.',
-                    'Technology used in the project: HTML5/CSS3, Less, BEM, JavaScript, Webpack.',
-                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, IE-11, Edge, Android.'
-                ].join(' '),
-                thumbnail: [
-                    'img/code-gallery/small/bank.jpg',
-                    'img/code-gallery/small/bank-1.jpg',
-                    'img/code-gallery/small/bank-2.jpg'
-                ],
-                large: [
-                    'img/code-gallery/large/bank.jpg',
-                    'img/code-gallery/large/bank-1.jpg',
-                    'img/code-gallery/large/bank-2.jpg'
-                ],
-                img_title: [ 'image'],
-                button_list: [
-                    {
-                        title: 'Visit Website',
-                        url: 'http://bank.alicedesign.ru',
-                        new_window: true
-                    },
-                    {
-                        title: 'Source code',
-                        url: 'https://github.com/Alisa-Filatova/citybank',
-                        new_window: true
-                    }
-                ],
-                tags: ['Responsive']
-            },
-            {
                 title: 'Technomart',
                 description: [
                     'Online store of construction materials. A landing page with an additional page of the product catalog.',
