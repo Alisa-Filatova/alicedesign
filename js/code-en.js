@@ -411,8 +411,8 @@ $(function() {
                     'Detailed information about accommodation, showing the object on the map, as well as a concise service interface will help you quickly choose the best offer.',
                     'A personal project for an intensive online course "Professional JavaScript level 3" in "HTML Academy".' ,
                     'Technologies used and studied in the project:',
-                    'TypeScript, React.js, Redux, testing by Jest.',
-                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, Edge last versions.'
+                    'TypeScript, React.js, Redux, testing by Jest. ',
+                    'Cross-browser compatibility: Chrome.'
                 ].join(' '),
                 thumbnail: [
                     'img/code-gallery/small/six-cities.jpg',
@@ -484,8 +484,8 @@ $(function() {
                     'Moowle — will help to spend time interesting.',
                     'A personal project for an intensive online course "Professional JavaScript level 2" in "HTML Academy".' ,
                     'Technologies used and studied in the project:',
-                    'JavaScript (ES6), working with Webpack and third-party libraries.',
-                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, Edge.'
+                    'JavaScript (ES6), working with Webpack and third-party libraries. ',
+                    'Cross-browser compatibility: Chrome.'
                 ].join(' '),
                 thumbnail: [
                     'img/code-gallery/small/moowle.jpg',
