@@ -514,6 +514,36 @@ $(function() {
                 ],
                 tags: ['Fixed']
             },
+					  {
+                title: 'fora.ru',
+                description: [
+                  'Information web-site for the "Fora" consulting company of four pages.',
+                  'Responsive ready Sketch layout. Technologies used in project:' ,
+                  'HTML5/CSS3, Less, BEM, JavaScript, Webpack, Sketch.',
+                  'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, IE-11, Edge.'
+                ].join(' '),
+                thumbnail: [
+                  'img/code-gallery/small/fora.jpg',
+                  'img/code-gallery/small/fora1.jpg',
+                  'img/code-gallery/small/fora2.jpg',
+                  'img/code-gallery/small/fora3.jpg'
+                ],
+                large: [
+                  'img/code-gallery/large/fora.jpg',
+                  'img/code-gallery/large/fora1.jpg',
+                  'img/code-gallery/large/fora2.jpg',
+                  'img/code-gallery/large/fora3.jpg'
+                ],
+                img_title: ['image 1 '],
+                button_list: [
+                  {
+                    title: 'Visit Website',
+                    url: 'http://fora.ru/',
+                    new_window: true
+                  }
+                ],
+                tags: ['Responsive']
+            },
             {
                 title: 'Lookbook',
                 description: [
@@ -653,36 +683,6 @@ $(function() {
                     },
                 ],
                 tags: ['Fixed']
-            },
-            {
-                title: 'fora.ru',
-                description: [
-                    'Information web-site for the "Fora" consulting company of four pages.',
-                    'Responsive ready Sketch layout. Technologies used in project:' ,
-                    'HTML5/CSS3, Less, BEM, JavaScript, Webpack, Sketch.',
-                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, IE-11, Edge.'
-                ].join(' '),
-                thumbnail: [
-                    'img/code-gallery/small/fora.jpg',
-                    'img/code-gallery/small/fora1.jpg',
-                    'img/code-gallery/small/fora2.jpg',
-                    'img/code-gallery/small/fora3.jpg'
-                ],
-                large: [
-                    'img/code-gallery/large/fora.jpg',
-                    'img/code-gallery/large/fora1.jpg',
-                    'img/code-gallery/large/fora2.jpg',
-                    'img/code-gallery/large/fora3.jpg'
-                ],
-                img_title: ['image 1 '],
-                button_list: [
-                    {
-                        title: 'Visit Website',
-                        url: 'http://fora.ru/',
-                        new_window: true
-                    }
-                ],
-                tags: ['Responsive']
             },
             {
                 title: 'Nerds',

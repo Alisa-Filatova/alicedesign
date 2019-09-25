@@ -529,6 +529,37 @@ $(function() {
                 ],
                 tags: ['Фиксированная верстка']
             },
+					  {
+                title: 'fora.ru',
+                description: [
+                  'Информационный сайт для консалтинговой компании "Fora.ru".',
+                  'Адаптивно-резиновая верстка по готовому макету Sketch.<br>' ,
+                  'Технологии используемые в проекте:',
+                  'HTML5/CSS3, Less, BEM, JavaScript, Webpack, Sketch.<br>',
+                  'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge.'
+                ].join(' '),
+                thumbnail: [
+                  'img/code-gallery/small/fora.jpg',
+                  'img/code-gallery/small/fora1.jpg',
+                  'img/code-gallery/small/fora2.jpg',
+                  'img/code-gallery/small/fora3.jpg'
+                ],
+                large: [
+                  'img/code-gallery/large/fora.jpg',
+                  'img/code-gallery/large/fora1.jpg',
+                  'img/code-gallery/large/fora2.jpg',
+                  'img/code-gallery/large/fora3.jpg'
+                ],
+                img_title: ['image 1 '],
+                button_list: [
+                  {
+                    title: 'Перейти на сайт',
+                    url: 'http://fora.ru/',
+                    new_window: true
+                  }
+                ],
+                tags: ['Отзывчивая верстка']
+					  },
             {
                 title: 'LookBook',
                 description: [
@@ -674,37 +705,6 @@ $(function() {
                     },
                 ],
                 tags: ['Фиксированная верстка']
-            },
-            {
-                title: 'fora.ru',
-                description: [
-                    'Информационный сайт для консалтинговой компании "Fora.ru".',
-                    'Адаптивно-резиновая верстка по готовому макету Sketch.<br>' ,
-                    'Технологии используемые в проекте:',
-                    'HTML5/CSS3, Less, BEM, JavaScript, Webpack, Sketch.<br>',
-                    'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge.'
-                ].join(' '),
-                thumbnail: [
-                    'img/code-gallery/small/fora.jpg',
-                    'img/code-gallery/small/fora1.jpg',
-                    'img/code-gallery/small/fora2.jpg',
-                    'img/code-gallery/small/fora3.jpg'
-                ],
-                large: [
-                    'img/code-gallery/large/fora.jpg',
-                    'img/code-gallery/large/fora1.jpg',
-                    'img/code-gallery/large/fora2.jpg',
-                    'img/code-gallery/large/fora3.jpg'
-                ],
-                img_title: ['image 1 '],
-                button_list: [
-                    {
-                        title: 'Перейти на сайт',
-                        url: 'http://fora.ru/',
-                        new_window: true
-                    }
-                ],
-                tags: ['Отзывчивая верстка']
             },
             {
                 title: 'Nerds',
