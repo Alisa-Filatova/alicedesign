@@ -146,7 +146,7 @@ $(function() {
                     'В проекте я занимала роль младшего фронтенд-разработчика. <br>' +
                     'Использовала: React.js, TypeScript, HTML5/CSS3, Less, CSS Modules, JavaScript, Storybook, Sketch.<br>',
                     'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge.<br>',
-                    'В данный момент сайт доступен только через иностранный VPN.'
+                    '<b>В данный момент сайт доступен только через иностранный VPN</b>.'
                 ].join(' '),
                 thumbnail: [
                     'img/code-gallery/small/leon.jpg',

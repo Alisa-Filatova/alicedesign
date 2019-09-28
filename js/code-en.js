@@ -137,7 +137,8 @@ $(function() {
                     'Opening cases application for Counter-Strike: Global Offensive. EZY.com adaptation for the russian market.' +
                     'My task included frontend development (junior). ' +
                     'In project i used: React.js, TypeScript, HTML5/CSS3, Less, JavaScript, Webpack, Storybook, Sketch.',
-                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, Edge.'
+                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, Edge.',
+									  '<b>The site is not available for Russia! VPN only.</b>'
                 ].join(' '),
                 thumbnail: [
                     'img/code-gallery/small/leon.jpg',
