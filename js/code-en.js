@@ -69,7 +69,7 @@ $(function() {
                 tags: ['Responsive']
             },
 					  {
-                title: 'town.ezy.com',
+                title: 'Town ezy.com',
                 description: [
 									'Promotional landing-page for SPA EZY.com. Cases and items for Counter Strike Global Offensive and VGO blockchain system.',
                   'In the project I used: HTML5/CSS3, JavaScript, Sketch.',
@@ -91,7 +91,7 @@ $(function() {
                 button_list: [
                   {
                     title: 'Visit Website',
-                    url: 'https://town.ezy.com/',
+                    url: 'http://ezy-town.alicedesign.ru/',
                     new_window: true
                   },
                 ],

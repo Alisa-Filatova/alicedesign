@@ -71,7 +71,7 @@ $(function() {
                 tags: ['Отзывчивая верстка']
 					  },
             {
-                title: 'town.ezy.com',
+                title: 'Town ezy.com',
                 description: [
                     'Рекламный лендинг для сервиса с игровыми предметами Counter-Strike: Global Offensive - EZY.com.',
                     'Назначение приложения: открытие кейсов с игровыми предметами, апгрейд предметов, обмен, и прочие операции. ',
@@ -96,7 +96,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Перейти на сайт',
-                        url: 'https://town.ezy.com/',
+                        url: 'http://ezy-town.alicedesign.ru/',
                         new_window: true
                     }
                 ],
