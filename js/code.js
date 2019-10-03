@@ -296,6 +296,40 @@ $(function() {
                 ],
                 tags: ['Фиксированная верстка']
             },
+					{
+						title: 'ezydesign.ru',
+						description: [
+							'Лендинг о создании проекта - EZY.com.',
+							'Назначение приложения EZY.com: открытие кейсов с игровыми предметами, апгрейд предметов, обмен, и прочие операции. ',
+							'Назначение лендинга: рассказать о создании приложения.',
+							'Отзывчивая верстка по макету из Figma с ипользованием шаблона HTML5UP.<br>',
+							'В проекте я использовала: HTML5/CSS3.<br>',
+							'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari.'
+						].join(' '),
+						thumbnail: [
+							'img/code-gallery/small/about-ezy.jpg',
+							'img/code-gallery/small/about-ezy1.jpg',
+							'img/code-gallery/small/about-ezy2.jpg',
+							'img/code-gallery/small/about-ezy3.jpg',
+							'img/code-gallery/small/about-ezy4.jpg',
+						],
+						large: [
+							'img/code-gallery/large/about-ezy.jpg',
+							'img/code-gallery/large/about-ezy1.jpg',
+							'img/code-gallery/large/about-ezy2.jpg',
+							'img/code-gallery/large/about-ezy3.jpg',
+							'img/code-gallery/large/about-ezy4.jpg',
+						],
+						img_title: [],
+						button_list: [
+							{
+								title: 'Перейти на сайт',
+								url: 'http://ezydesign.ru/',
+								new_window: true
+							}
+						],
+						tags: ['Отзывчивая верстка']
+					},
             {
                 title: 'lenortat.spb.ru',
                 description: [

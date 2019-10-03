@@ -58,7 +58,7 @@ $(function() {
                     'img/code-gallery/large/why-we.jpg',
                     'img/code-gallery/large/interface.jpg'
                 ],
-                img_title: ['ezy.com', 'upgrade'],
+                img_title: [],
                 button_list: [
                     {
                         title: 'Visit Website',
@@ -87,7 +87,7 @@ $(function() {
                     'img/code-gallery/large/town1-2.jpg',
                     'img/code-gallery/large/town2.jpg'
                 ],
-                img_title: ['town.ezy.com'],
+                img_title: [],
                 button_list: [
                   {
                     title: 'Visit Website',
@@ -120,7 +120,7 @@ $(function() {
                     'img/code-gallery/large/vgo-csgo-mobile3.jpg',
                     'img/code-gallery/large/vgo-csgo2.jpg'
                 ],
-                img_title: ['vgo.ezy.com'],
+                img_title: [],
                 button_list: [
                     {
                         title: 'Visit Website',
@@ -152,7 +152,7 @@ $(function() {
                     'img/code-gallery/large/LeonGG2.jpg',
                     'img/code-gallery/large/LeonGG3.jpg'
                 ],
-                img_title: ['leondrop.net'],
+                img_title: [],
                 button_list: [
                     {
                         title: 'Visit Website',
@@ -190,7 +190,7 @@ $(function() {
                     'img/code-gallery/large/goroshko-4.jpg',
                     'img/code-gallery/large/goroshko-5.jpg'
                 ],
-                img_title: ['goroshkodance.ru'],
+							  img_title: [],
                 button_list: [
                     {
                         title: 'Visit Website',
@@ -232,7 +232,7 @@ $(function() {
                     'img/code-gallery/large/nata-3.jpg',
                     'img/code-gallery/large/nata-4.jpg',
                 ],
-                img_title: ['image'],
+							  img_title: [],
                 button_list: [
                     {
                         title: 'Visit Website',
@@ -247,6 +247,39 @@ $(function() {
                 ],
                 tags: ['Responsive']
             },
+              {
+                title: 'ezydesign.ru',
+                description: [
+                  'Landing page about project EZY.COM. ' +
+                  'Opening cases application for Counter-Strike: Global Offensive. ' +
+                  'My task included frontend development (junior). ' +
+                  'In project i used: HTML5/CSS3, base layout by HTML5UP template.',
+                  'Cross-browser compatibility: Chrome, Opera, Firefox, Safari.',
+                ].join(' '),
+                thumbnail: [
+                  'img/code-gallery/small/about-ezy.jpg',
+									'img/code-gallery/small/about-ezy1.jpg',
+									'img/code-gallery/small/about-ezy2.jpg',
+									'img/code-gallery/small/about-ezy3.jpg',
+									'img/code-gallery/small/about-ezy4.jpg',
+                ],
+                large: [
+                  'img/code-gallery/large/about-ezy.jpg',
+									'img/code-gallery/large/about-ezy1.jpg',
+									'img/code-gallery/large/about-ezy2.jpg',
+									'img/code-gallery/large/about-ezy3.jpg',
+									'img/code-gallery/large/about-ezy4.jpg',
+                ],
+                img_title: [],
+                button_list: [
+                  {
+                    title: 'Visit Website',
+                    url: 'http://ezydesign.ru/',
+                    new_window: true
+                  }
+                ],
+                tags: ['Responsive']
+              },
             {
                 title: 'alicedesign.ru',
                 description: [
@@ -271,7 +304,7 @@ $(function() {
                     'img/code-gallery/large/alice-3.jpg',
                     'img/code-gallery/large/alice-4.jpg',
                 ],
-                img_title: ['image'],
+                img_title: [],
                 button_list: [
                     {
                         title: 'Visit Website',
@@ -315,7 +348,7 @@ $(function() {
                     'img/code-gallery/large/lenor-4.jpg',
                     'img/code-gallery/large/lenor-5.jpg',
                 ],
-                img_title: ['lenortat.spb.ru'],
+                img_title: [],
                 button_list: [
                     {
                         title: 'Visit Website',
@@ -359,7 +392,7 @@ $(function() {
                     'img/code-gallery/large/exch-5.jpg',
                     'img/code-gallery/large/exch-6.jpg',
                 ],
-                img_title: ['ezy-exchange.com'],
+                img_title: [],
                 button_list: [],
                 tags: ['Responsive']
             },
@@ -389,7 +422,7 @@ $(function() {
                     'img/code-gallery/large/code&magick4.jpg',
                     'img/code-gallery/large/code&magick5.jpg'
                 ],
-                img_title: ['image'],
+                img_title: [],
                 button_list: [
                     {
                         title: 'Visit Website',
@@ -429,7 +462,7 @@ $(function() {
                     'img/code-gallery/large/six-3.jpg',
                     'img/code-gallery/large/six-4.jpg',
                 ],
-                img_title: ['image'],
+                img_title: [],
                 button_list: [
                     {
                         title: 'Visit Website',
@@ -466,7 +499,7 @@ $(function() {
                     'img/code-gallery/large/netlab3.jpg',
                     'img/code-gallery/large/netlab4.jpg',
                 ],
-                img_title: ['image 1 '],
+                img_title: [],
                 button_list: [
                     {
                         title: 'Visit Website',
@@ -500,7 +533,7 @@ $(function() {
                     'img/code-gallery/large/moowle-2.jpg',
                     'img/code-gallery/large/moowle-3.jpg'
                 ],
-                img_title: ['image'],
+                img_title: [],
                 button_list: [
                     {
                         title: 'Visit Website',
@@ -535,7 +568,7 @@ $(function() {
                   'img/code-gallery/large/fora2.jpg',
                   'img/code-gallery/large/fora3.jpg'
                 ],
-                img_title: ['image 1 '],
+                img_title: [],
                 button_list: [
                   {
                     title: 'Visit Website',
@@ -566,7 +599,7 @@ $(function() {
                     'img/code-gallery/large/lookbook-2.jpg',
                     'img/code-gallery/large/lookbook-3.jpg'
                 ],
-                img_title: ['image 1 '],
+                img_title: [],
                 button_list: [
                     {
                         title: 'Visit Website',
@@ -604,7 +637,7 @@ $(function() {
                     'img/code-gallery/large/sedona-3.jpg',
                     'img/code-gallery/large/sedona-4.jpg'
                 ],
-                img_title: ['jquery elastic grid'],
+                img_title: [],
                 button_list: [
                     {
                         title: 'Visit Website',
@@ -645,7 +678,7 @@ $(function() {
                     'img/code-gallery/large/pink-4.jpg',
                     'img/code-gallery/large/pink-5.jpg'
                 ],
-                img_title: ['jquery elastic grid 1 '],
+                img_title: [],
                 button_list: [
                     {
                         title: 'Visit Website',
@@ -675,7 +708,7 @@ $(function() {
                     'img/code-gallery/large/tech-2.jpg',
                     'img/code-gallery/large/tech-3.jpg',
                 ],
-                img_title: ['jquery elastic grid'],
+                img_title: [],
                 button_list: [
                     {
                         title: 'Visit Website',
@@ -703,7 +736,7 @@ $(function() {
                     'img/code-gallery/large/nerds-1.jpg',
                     'img/code-gallery/large/nerds-2.jpg',
                 ],
-                img_title: [ 'jquery elastic grid'],
+                img_title: [],
                 button_list: [
                     {
                         title: 'Visit Website',
@@ -733,7 +766,7 @@ $(function() {
                     'img/code-gallery/large/barber-2.jpg',
                     'img/code-gallery/large/barber-3.jpg'
                 ],
-                img_title: [ 'image'],
+                img_title: [],
                 button_list: [
                     {
                         title: 'Visit Website',
