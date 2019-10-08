@@ -264,7 +264,7 @@ $(function() {
                     'адаптивность частично поддерживают внутренние страницы.<br>' ,
                     'Используемые технологии: HTML5/CSS3, BEM, Less, ',
                     'jQuery, SVG, GSAP, Webpack, Adobe Photoshop, Adobe Illustrator, SVG.<br>',
-                    'Кроссбраузерность: последние Chrome, Opera, Firefox, Safari, IE-11, Edge.'
+                    'Кроссбраузерность: последние Chrome, Opera, Firefox, Safari, Edge.'
                 ].join(' '),
                 thumbnail: [
                     'img/code-gallery/small/alicedesign.jpg',

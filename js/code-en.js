@@ -287,7 +287,7 @@ $(function() {
                     'as much as possible to show off your style.<br>' ,
                     'Used technologies: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM methodology, CSS preprocessor LESS, ',
                     'jQuery plugin Elastic Grid, Material Photo Gallery.',
-                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, IE-11, Edge.'
+                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, Edge.'
                 ].join(' '),
                 thumbnail: [
                     'img/code-gallery/small/alicedesign.jpg',
