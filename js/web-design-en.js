@@ -125,7 +125,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Visit Website',
-                        url: 'http://nataliaphoto.me',
+                        url: 'http://nataliaphoto.alicedesign.ru',
                         new_window: true
                     },
                     {

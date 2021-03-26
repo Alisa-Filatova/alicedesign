@@ -243,7 +243,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Перейти на сайт',
-                        url: 'http://nataliaphoto.me',
+                        url: 'http://nataliaphoto.alicedesign.ru',
                         new_window: true
                     },
                     {
