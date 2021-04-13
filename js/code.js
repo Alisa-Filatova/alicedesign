@@ -161,13 +161,7 @@ $(function() {
                     'img/code-gallery/large/LeonGG2.jpg',
                 ],
                 img_title: ['leondrop.net'],
-                button_list: [
-                    {
-                        title: 'Перейти на сайт',
-                        url: 'https://leondrop.net/',
-                        new_window: true
-                    }
-                ],
+                button_list: [],
                 tags: ['Отзывчивая верстка']
             },
             {
@@ -321,13 +315,7 @@ $(function() {
 							'img/code-gallery/large/about-ezy4.jpg',
 						],
 						img_title: [],
-						button_list: [
-							{
-								title: 'Перейти на сайт',
-								url: 'http://ezydesign.ru/',
-								new_window: true
-							}
-						],
+						button_list: [],
 						tags: ['Отзывчивая верстка']
 					},
             {
@@ -585,13 +573,7 @@ $(function() {
                   'img/code-gallery/large/fora3.jpg'
                 ],
                 img_title: ['image 1 '],
-                button_list: [
-                  {
-                    title: 'Перейти на сайт',
-                    url: 'http://fora.ru/',
-                    new_window: true
-                  }
-                ],
+                button_list: [],
                 tags: ['Отзывчивая верстка']
 					  },
             {

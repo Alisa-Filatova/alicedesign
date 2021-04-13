@@ -153,13 +153,7 @@ $(function() {
                     'img/code-gallery/large/LeonGG3.jpg'
                 ],
                 img_title: [],
-                button_list: [
-                    {
-                        title: 'Visit Website',
-                        url: 'https://leondrop.net/',
-                        new_window: true
-                    }
-                ],
+                button_list: [],
                 tags: ['Responsive']
             },
             {
@@ -271,13 +265,7 @@ $(function() {
 									'img/code-gallery/large/about-ezy4.jpg',
                 ],
                 img_title: [],
-                button_list: [
-                  {
-                    title: 'Visit Website',
-                    url: 'http://ezydesign.ru/',
-                    new_window: true
-                  }
-                ],
+                button_list: [],
                 tags: ['Responsive']
               },
             {
@@ -569,13 +557,7 @@ $(function() {
                   'img/code-gallery/large/fora3.jpg'
                 ],
                 img_title: [],
-                button_list: [
-                  {
-                    title: 'Visit Website',
-                    url: 'http://fora.ru/',
-                    new_window: true
-                  }
-                ],
+                button_list: [],
                 tags: ['Responsive']
             },
             {
