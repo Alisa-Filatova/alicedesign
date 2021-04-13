@@ -174,7 +174,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Перейти на сайт',
-                        url: 'https://alicedesign.ru/',
+                        url: 'http://alicedesign.ru/',
                         new_window: true
                     },
                     {
