@@ -1,0 +1,232 @@
+@import 'variables';
+@import 'animation';
+
+.girl {
+  width: 180px;
+  height: 250px;
+
+  &__eyes {
+    transform-origin: center;
+  }
+}
+  
+.rabbit {
+  width: 94px;
+  height: 94px;
+  background: url('../img/rabbit.svg') no-repeat center;
+  background-size: contain;
+}
+
+.grass {
+  width: 100%;
+  height: 263px;
+  background: url('../img/grass.svg') repeat-x scroll center bottom;
+  background-size: contain;
+}
+
+.tree {
+  position: relative;
+  width: 316px;
+  height: 414px;
+  background: url('../img/tree.svg') no-repeat top center;
+  background-size: contain;
+
+  &__item {
+    position: absolute;
+
+    &_light {
+      background: url('../img/light-tree.svg') no-repeat center;
+      background-size: contain;
+      animation: fade-out 4s ease-in-out alternate-reverse infinite;
+      width: 50px;
+      height: 50px;
+
+      &_top {
+        top: 8px;
+        left: 39px;
+        animation-duration: 3s;
+      }
+
+      &_bottom {
+        top: 88px;
+        left: 11px;
+      }
+    }
+
+    &_gear {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      animation: rotate 5s linear;
+      animation-direction: normal;
+      animation-iteration-count: infinite;
+
+      &_one {
+        background-image: url('../img/gear1.svg');
+        width: 44px;
+        height: 44px;
+        top: 175px;
+        left: 86px;
+      }
+
+      &_two {
+        background-image: url('../img/gear2.svg');
+        width: 32px;
+        height: 32px;
+        top: 118px;
+        left: 123px;
+        animation-duration: 6s;
+        animation-direction: reverse;
+      }
+
+      &_three {
+        background-image: url('../img/gear3.svg');
+        width: 40px;
+        height: 40px;
+        top: 100px;
+        left: 57px;
+        animation-duration: 4s;
+      }
+
+      &_four {
+        background-image: url('../img/gear4.svg');
+        width: 32px;
+        height: 32px;
+        top: 170px;
+        right: 234px;
+        animation-direction: reverse;
+        animation-duration: 6.2s;
+      }
+
+      &_five {
+        background-image: url('../img/gear5.svg');
+        width: 35px;
+        height: 35px;
+        top: 164px;
+        left: 162px;
+      }
+    }
+
+    &_key {
+      background: url('../img/key.svg') no-repeat center;
+      width: 50px;
+      height: 54px;
+      top: 209px;
+      left: 36px;
+      transform-origin: 20px top;
+      animation: key 5s linear infinite;
+    }
+  }
+}
+
+@media (min-width: @screen-m) {
+  .tree {
+    width: 422px;
+    height: 548px;
+
+    &__item {
+
+      &_light {
+        width: 65px;
+        height: 65px;
+
+        &_top {
+          top: 11px;
+          left: 50px;
+        }
+
+        &_bottom {
+          top: 113px;
+          left: 17px;
+        }
+      }
+
+      &_gear {
+        &_one {
+          width: 60px;
+          height: 60px;
+          top: 231px;
+          left: 114px;
+        }
+
+        &_two {
+          width: 42px;
+          height: 42px;
+          top: 223px;
+          left: 67px;
+        }
+
+        &_three {
+          width: 50px;
+          height: 50px;
+          top: 145px;
+          left: 62px;
+        }
+
+        &_four {
+          width: 42px;
+          height: 42px;
+          top: 160px;
+          right: 218px;
+        }
+
+        &_five {
+          background-image: url('../img/gear5.svg');
+          width: 45px;
+          height: 45px;
+          top: 218px;
+          left: 216px;
+        }
+      }
+
+      &_key {
+        background: url('../img/key.svg') no-repeat center;
+        width: 70px;
+        height: 76px;
+        top: 275px;
+        left: 44px;
+        transform-origin: 20px top;
+        animation: key 5s linear infinite;
+      }
+    }
+  }
+}
+
+.mailbox {
+  position: relative;
+  display: inline-block;
+  width: 142px;
+  height: 179px;
+  background: url('../img/mailbox.svg') no-repeat center;
+  background-size: contain;
+  
+  &:before {
+    content: url('../img/mailbox-toggle.svg');
+    display: block;
+    position: absolute;
+    transition: transform 0.2s ease-in;
+    transform-origin: 20px bottom;
+    width: 18px;
+    height: 52px;
+    top: -20px;
+    left: 36px;
+  }
+
+  &:hover:before {
+    transform: rotate(-30deg);
+  }
+}
+
+@media (min-width: @screen-m) {
+  .mailbox {
+    width: 172px;
+    height: 200px;
+
+    &::before {
+      width: 24px;
+      height: 66px;
+      top: -30px;
+      left: 45px;
+    }
+  }
+}  

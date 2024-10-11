@@ -1,19 +1,32 @@
 @import 'variables';
 
-.container() {
-  width: @container-size;
-  margin: auto;
-  padding: 0 40px;
+.focusRing(
+  @bg-color: var(--background-color), 
+  @ring-color: var(--focus-ring-color)) {
+
+  &:focus-visible {
+    outline-color: transparent;
+    outline-style: solid;
+    box-shadow: 
+      0 0 0 2px @bg-color,
+      0 0 0 5px @ring-color;
+  }
 }
 
-.container_laptop() {
-  width: @container-laptop-size;
-  padding: 0 32px;
-  margin: auto;
+.listReset() {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-.flex-wrapper(@direction, @justyfy-content, @wrap) {
-  display: flex;
-  flex-flow: @direction @wrap;
-  justify-content: @justyfy-content;
+// for a11y purposes
+.visuallyHidden() {
+  position: fixed;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
 }

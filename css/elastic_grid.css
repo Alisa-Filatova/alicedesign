@@ -1,12 +1,12 @@
 @font-face {
-	font-family: 'Neucha';
+	font-family: 'Neucha', cursive;
 	font-style: normal;
 	font-weight: 400;
 	src: local('Neucha'),
-		url('../fonts/neucha-v8-cyrillic_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-		url('../fonts/neucha-v8-cyrillic_latin-regular.woff') format('woff'); /* Modern Browsers */
+	   url('../fonts/neucha-regular.ttf') 
+	   format('ttf');
 }
-
+  
 html {
 	height: 100%;
 }
@@ -207,8 +207,8 @@ body {
 	background-image: url('../img/github.svg');
 }
 
-.contacts__link_github-pink {
-	background-image: url('../img/github-pink.svg');
+.contacts__link_github-purple {
+	background-image: url('../img/github-purple.svg');
 }
 
 .contacts__link_deviant {

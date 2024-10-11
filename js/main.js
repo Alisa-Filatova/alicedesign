@@ -4,11 +4,11 @@ import Snap from 'snapsvg-cjs';
 function scrollToAnchor(event) {
     event.preventDefault();
 
-    var scrollTop = 0;
-    var documentHeight = $(document).height();
-    var windowHeight = $(window).height();
+    let scrollTop = 0;
+    const documentHeight = $(document).height();
+    const windowHeight = $(window).height();
 
-    if($(this.hash).offset().top > documentHeight - windowHeight) {
+    if ($(this.hash).offset().top > documentHeight - windowHeight) {
         scrollTop = documentHeight - windowHeight;
     } else {
         scrollTop = $(this.hash).offset().top;
@@ -18,28 +18,31 @@ function scrollToAnchor(event) {
 }
 
 $('.main-nav__link').on('click', scrollToAnchor);
+$('#scroll-down-button').on('click', scrollToAnchor);
 
-$('.arrow').on('click', scrollToAnchor);
+function initCurtains() {
+    const speed = 330;
+    const easing = mina.backout;
 
-function init() {
-    var speed = 330;
-    var easing = mina.backout;
+    const curtains = document.querySelectorAll('.portfolio__grid > .portfolio__link');
 
-    [].slice.call ( document.querySelectorAll( '#grid > a' ) ).forEach( function( el ) {
-        var s = Snap( el.querySelector( 'svg' ) ), path = s.select( 'path' ),
-            pathConfig = {
-                from : path.attr( 'd' ),
-                to : el.getAttribute( 'data-path-hover' )
-            };
+    Array.prototype.slice.call(curtains).forEach(function(curtain) {
+        const snap = Snap(curtain.querySelector('svg'));
+        const path = snap.select('path');
 
-        el.addEventListener( 'mouseenter', function() {
-            path.animate( { 'path' : pathConfig.to }, speed, easing );
-        } );
+        const pathConfig = {
+            from: path.attr('d'),
+            to: curtain.getAttribute('data-path-hover'),
+        };
 
-        el.addEventListener( 'mouseleave', function() {
-            path.animate( { 'path' : pathConfig.from }, speed, easing );
-        } );
-    } );
+        curtain.addEventListener('mouseenter', function() {
+            path.animate({ 'path': pathConfig.to }, speed, easing);
+        });
+
+        curtain.addEventListener('mouseleave', function() {
+            path.animate({ 'path': pathConfig.from }, speed, easing);
+        });
+    });
 }
 
-init();
+initCurtains();

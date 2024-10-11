@@ -5,41 +5,61 @@
   font-style: normal;
   font-weight: 400;
   src: local('Neucha'),
-     url('../fonts/neucha-v8-cyrillic_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-     url('../fonts/neucha-v8-cyrillic_latin-regular.woff') format('woff'); /* Modern Browsers */
+     url('../fonts/neucha-regular.ttf') 
+     format('ttf');
+}
+
+@font-face {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  src: local('Dosis'),
+     url('../fonts/Dosis-VariableFont_wght.ttf') 
+     format('ttf');
+}
+
+@font-face {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  src: local('Dosis'),
+     url('../fonts/Dosis-VariableFont_wght.ttf') 
+     format('ttf');
 }
 
 body {
   position: relative;
-  font-family: @base-font;
-  font-size: 1.2em;
+  font-family: var(--font-primary);
+  font-size: var(--font-size-m);
   font-weight: 400;
-  line-height: 1.65em;
-  color: @purple_dark;
-  background: linear-gradient(to bottom, @fade-cyan 3%, @beige 16%);
-  background: -webkit-linear-gradient(top, @fade-cyan 3%, @beige 16%);
-  background: -moz-linear-gradient(top, @fade-cyan 3%, @beige 16%);
+  line-height: var(--line-height-s);
+  color: var(--text-color-primary);
+  background: linear-gradient(to bottom, @background-gradient);
+  background: -webkit-linear-gradient(top, @background-gradient);
+  background: -moz-linear-gradient(top, @background-gradient);
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -webkit-text-size-adjust: none;
   text-align: left;
-  margin: 0 auto;
-  overflow-y: scroll;
+  overflow-y: auto;
   overflow-x: hidden;
   box-sizing: border-box;
 
-  @media (min-width: @super-big-screen) {
+  @media (min-width: @screen-l) {
     background: url('../img/main-back.svg') no-repeat top center,
-                -webkit-linear-gradient(top, @fade-cyan 3%, @beige 16%);
+                -webkit-linear-gradient(top, @background-gradient);
     background: url('../img/main-back.svg') no-repeat top center,
-                linear-gradient(to bottom, @fade-cyan 3%, @beige 16%);
+                linear-gradient(to bottom, @background-gradient);
     background: url('../img/main-back-moz.svg') no-repeat top center,
-                -moz-linear-gradient(top, @fade-cyan 3%, @beige 16%);
+                -moz-linear-gradient(top, @background-gradient);
     background-size: 100%;
   }
 }
 
+/* Common classes */
+
+// for a11y purposes
 .visually-hidden {
   position: fixed;
   width: 1px;

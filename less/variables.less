@@ -1,27 +1,96 @@
-@base-font: 'Neucha', 'Comic Sans', sans-serif;
-@transition_base: all 0.2s linear;
+:root {
+    /* Palette */
+    --color-pink: #fc568d;
+    --color-crimson: #d22f69;
+    --color-violet: #506085;
+    --color-violet-light: #717c9a;
+    --color-cyan: #cafcf9;
+    --color-cyan-fade: rgba(102, 255, 255, 0.8);
+    --color-beige: #f4ece0;
+    --color-baige-dark: #B3B3B3;
+    --color-blue: #afeeee;
+    --color-blue-fade: rgba(153, 206, 255, 0.5);
+    --color-grey: #3a4d57;
+    --color-grey-light: #f2f2f2;
+    --color-grey-dark: #333333;
+    --color-grey-fade: rgba(192, 245, 250, 0.4);
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-green: #2CB399;
+    --color-red: #CF4D46;
 
-/* Colors */
+    /* Color Theme */
+    --color-primary: var(--color-violet);
+    --color-primary-light: var(--color-violet-light);
+    --color-secondary: var(--color-cyan);
+    --color-accent: var(--color-pink);
+    --color-accent-dark: var(--color-crimson);
+    --background-color: var(--color-beige);
+    --background-color-primary: var(--color-beige);
+    --background-color-secondary: var(--color-cyan-fade);
 
-@pink: #fc568d;
-@pink_dark: #d22f69;
-@purple_dark: #506085;
-@cyan: #cafcf9;
-@blue: #afeeee;
-@fade-blue: rgba(153, 206, 255, 0.5);
-@fade-cyan: rgba(102, 255, 255, 0.8);
-@beige: #f4ece0;
-@grey: #3a4d57;
-@grey-light: #f2f2f2;
-@grey-dark: #333333;
-@white: #ffffff;
+    --text-color-primary: var(--color-primary);
+    --text-color-secondary: var(--color-secondary);
+    --text-color-accent: var(--color-accent);
+    --text-color-inverted: var(--color-white);
+
+    --focus-ring-color: var(--color-accent);
+    --box-shadow-color: var(--color-grey-dark);
+
+    /* Sizes */
+    --border-radius-s: 4px;
+    --border-radius-m: 8px;
+    --border-radius-l: 12px;
+    --border-radius-circle: 50%;
+
+    --padding-xs: 4px;
+    --padding-s: 8px;
+    --padding-m: 16px;
+    --padding-l: 20px;
+    --padding-xl: 30px;
+    --padding-xxl: 40px;
+
+    --container-size: 960px;
+
+    /* Typography */
+    --font-size-s: 16px;
+    --font-size-m: 18px;
+    --font-size-l: 26px;
+    --font-size-xl: 34px;
+
+    --heading-size-s: 32px;
+    --heading-size-m: 36px;
+    --heading-size-l: 42px;
+    --heading-size-xl: 70px;
+
+    --line-height-s: 1;
+    --line-height-m: 1.2;
+    --line-height-l: 1.4;
+    --line-height-xl: 1.6;
+
+    --font-primary: 'Neucha', 'Comic Sans', sans-serif;
+    --font-secondary: 'Dosis', 'Arial', sans-serif;
+
+    /* Layers */
+    --layer-level-0: -1;
+    --layer-level-1: 2;
+    --layer-level-2: 3;
+    --layer-level-3: 4;
+
+    --transition-base: all 0.1s linear;
+    
+    @media (min-width: @screen-m) {
+      --container-size: 1440px;
+    }
+}
+
+/* Fallbacks for gradient & media queries */
+@color-cyan-fade: rgba(102, 255, 255, 0.8);
+@color-beige: #f4ece0;
+@background-gradient: @color-cyan-fade 3%, @color-beige 16%;
 
 /* Screen sizes */
-
-@mobile-screen: 375px;
-@tablet-screen: 768px;
-@big-screen: 1440px;
-@super-big-screen: 1800px;
-
-@container-size: 1360px;
-@container-laptop-size: 960px;
+@screen-xs: 375px;
+@screen-s: 768px;
+@screen-m: 1440px;
+@screen-l: 1800px;
