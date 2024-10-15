@@ -1,7 +1,5 @@
 import { TimelineLite, TweenMax } from 'gsap/TweenMax';
-
-TweenMax.to('.move-code-to-left', 0, { x: 400, y: 10 });
-TweenMax.to('.move-code-to-right', 0, { x: -330 });
+import Snap from 'snapsvg-cjs';
 
 TweenMax.staggerTo('#girl', 2.25, {
 	transformOrigin: 'center',
@@ -11,32 +9,8 @@ TweenMax.staggerTo('#girl', 2.25, {
 	repeat: -1
 }, 1.1);
 
-var girlBlinkAnim = new TimelineLite();
-
-girlBlinkAnim.to('#girl-eyes', 5, {
-	visibility: 'visible'
-})
-	.to('#girl-eyes', 0.1, {
-		visibility: 'hidden'
-	})
-	.to('#girl-eyes', 10, {
-		visibility: 'visible'
-	})
-	.to('#girl-eyes', 0.1, {
-		visibility: 'hidden'
-	})
-	.to('#girl-eyes', 0.1, {
-		visibility: 'visible'
-	})
-	.to('#girl-eyes', 0.1, {
-		visibility: 'hidden'
-	})
-	.call(function () {
-		girlBlinkAnim.restart();
-		girlBlinkAnim.play();
-	});
-
-var girlMainBlinkAnim = new TimelineLite();
+// MAIN SCREEN GIRL: EYES BLINK ANIMATION
+const girlMainBlinkAnim = new TimelineLite();
 
 girlMainBlinkAnim.to('#girl-main-eyes', 2, {
 	transform: 'translateZ(0) translate(0) scaleY(1)',
@@ -71,44 +45,98 @@ girlMainBlinkAnim.to('#girl-main-eyes', 2, {
 		girlMainBlinkAnim.play();
 	});
 
-var codeStripes = [];
-var allStripes = document.querySelector('#animated-code');
-var codeMask = document.querySelector('#SVGID_33_');
 
-Array.from(allStripes.childNodes).forEach(function (node) {
-	if (node.nodeType === 1) {
-		codeStripes.push(node);
-	}
+// LAPTOP GIRL: EYES BLINK ANIMATION
+
+const girlBlinkAnim = new TimelineLite();
+
+girlBlinkAnim.to('#girl-eyes', 5, {
+	visibility: 'visible'
+})
+	.to('#girl-eyes', 0.1, {
+		visibility: 'hidden'
+	})
+	.to('#girl-eyes', 10, {
+		visibility: 'visible'
+	})
+	.to('#girl-eyes', 0.1, {
+		visibility: 'hidden'
+	})
+	.to('#girl-eyes', 0.1, {
+		visibility: 'visible'
+	})
+	.to('#girl-eyes', 0.1, {
+		visibility: 'hidden'
+	})
+	.call(function () {
+		girlBlinkAnim.restart();
+		girlBlinkAnim.play();
+	});
+
+
+// CODE SCREEN ANIMATION
+
+const codeLinesNodes = document.querySelector('.code-screen__code-lines');
+const codeLines = Array.from(codeLinesNodes.childNodes).filter(function (node) {
+	return node.nodeType === Node.ELEMENT_NODE;
 });
 
-function getNextStripe(stripeNum) {
-	if (stripeNum >= 1) {
-		codeStripes[stripeNum].classList.remove('stripe-hidden');
+function getNextLine(lineNumber) {
+	if (lineNumber >= 1) {
+		codeLines[lineNumber].classList.remove('code-screen__line_hidden');
 
 		return setTimeout(function () {
-			getNextStripe(stripeNum - 1);
+			getNextLine(lineNumber - 1);
 		}, 200);
-	} else {
-		codeMask.classList.add('moved-bottom');
-		allStripes.classList.add('moved-top');
+	}
+
+	const codeRightBlock = document.querySelector('.code-screen__right-side');
+	codeRightBlock.classList.add('code-screen__right-side_moved-top');
+
+	setTimeout(function () {
+		codeRightBlock.classList.remove('code-screen__right-side_moved-top');
+
+		codeLines.forEach(function (codeLine) {
+			codeLine.classList.add('code-screen__line_hidden');
+		});
 
 		setTimeout(function () {
-			codeMask.classList.remove('moved-bottom');
-			allStripes.classList.remove('moved-top');
-
-			codeStripes.forEach(function (stripe) {
-				stripe.classList.add('stripe-hidden');
-			});
-
-			setTimeout(function () {
-				getNextStripe(codeStripes.length - 1);
-			}, 500);
+			getNextLine(codeLines.length - 1);
 		}, 500);
-	}
+	}, 500);
 }
 
-codeStripes.forEach(function (stripe) {
-	stripe.classList.add('stripe-hidden', 'stripe');
+codeLines.forEach(function (codeLine) {
+	codeLine.classList.add('code-screen__line_hidden', 'code-screen__line');
 });
 
-getNextStripe(codeStripes.length - 1);
+getNextLine(codeLines.length - 1);
+
+// CURTAINS ANIMATION
+
+function initCurtains() {
+    const speed = 330;
+    const easing = mina.backout;
+
+    const curtains = document.querySelectorAll('.portfolio__nav > .portfolio__link');
+
+    Array.prototype.slice.call(curtains).forEach(function(curtain) {
+        const snap = Snap(curtain.querySelector('svg'));
+        const path = snap.select('path');
+
+        const pathConfig = {
+            from: path.attr('d'),
+            to: curtain.getAttribute('data-path-hover'),
+        };
+
+        curtain.addEventListener('mouseenter', function() {
+            path.animate({ 'path': pathConfig.to }, speed, easing);
+        });
+
+        curtain.addEventListener('mouseleave', function() {
+            path.animate({ 'path': pathConfig.from }, speed, easing);
+        });
+    });
+}
+
+initCurtains();

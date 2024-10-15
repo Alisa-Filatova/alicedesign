@@ -5,16 +5,17 @@
 /* Tooltip */
 
 .tooltip {
-  position: absolute;
+  z-index: var(--layer-level-tooltip);
+  position: absolute; // use position: relative on the parent element
   left: 50%;
   min-width: 80px;
   padding: var(--padding-s);
   border-radius: var(--border-radius-m);
   font-family: var(--font-secondary);
-  text-align: center;
   font-size: var(--font-size-s);
-  font-weight: 600;
   line-height: var(--line-height-m);
+  font-weight: 600;
+  text-align: center;
   color: var(--text-color-inverted);
   text-shadow: 1px 1px 1px var(--box-shadow-color);
   background-color: var(--color-primary);
@@ -65,7 +66,7 @@
     color: var(--text-color-secondary);
   }
 
-  .focusRing(var(--background-color-primary));
+  .focusRing();
 }
 
 /* Scroll Down Button */
@@ -92,14 +93,13 @@
     color: var(--color-secondary);
   }
 
-  .focusRing(var(--color-primary));
+  .focusRing();
 }
 
 /* Contact Icons */
 
 .contact-icons {
-  --contact-icon-size-m: 70px;
-  --contact-icon-size-s: 60px;
+  --contact-icon-size: 70px;
 
   .listReset();
   display: flex;
@@ -125,8 +125,8 @@
   &__link {
     display: inline-block;
     text-decoration: none;
-    width: var(--contact-icon-size-m);
-    height: var(--contact-icon-size-m);
+    width: var(--contact-icon-size);
+    height: var(--contact-icon-size);
     border-radius: var(--border-radius-circle);
     color: inherit;
     transition: var(--transition-base);
@@ -155,11 +155,7 @@
   }
 
   &_size-s {
-    
-    .contact-icons__link {
-      width: var(--contact-icon-size-s);
-      height: var(--contact-icon-size-s);
-    }
+    --contact-icon-size: 60px;
   }
 }
 
@@ -244,14 +240,28 @@
       opacity: 0.8;
     }
 
-    .focusRing(var(--background-color-secondary));
+    .focusRing();
   }
 }
 
 /*  Logo */
 
 .logo {
-  width: 400px;
-  height: 300px;
+  --logo-width: 400px;
+  --logo-height: 300px;
+
+  width: var(--logo-width);
+  height: var(--logo-height);
   animation: fade-in 2s ease-in-out;
+
+  &__img {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+  }
+
+  &_size-s {
+    --logo-width: 240px;
+    --logo-height: 180px;
+  }
 }
