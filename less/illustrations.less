@@ -195,120 +195,124 @@
 .desk-wrapper {
   display: flex;
   flex-direction: column;
+}
 
-  &__desk-items {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+.desk-items {
+  display: flex;
+  align-items: flex-end;
+  padding: 0 30px;
+
+  &__cup {
+    margin-left: auto;
+    margin-right: 20px;
+  }
+
+  &__keyboard {
+    margin-right: -54px;
+  }
+
+  &__desk-lamp {
+    z-index: var(--layer-level-1);
   }
 }
 
-.desk {
+.shelf {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 632px;
-  height: 250px;
+  align-items: flex-end;
+  width: 180px;
+  height: 120px;
+  padding: 0 var(--padding-xs);
+  border-top: 12px solid var(--color-cyan);
+  border-bottom: 12px solid var(--color-cyan);
+  border-left: 8px solid var(--color-cyan);
+  border-right: 8px solid var(--color-cyan);
+  border-radius: var(--border-radius-s);
+  box-shadow: inset var(--box-shadow-items), var(--box-shadow-items);
+  overflow: hidden;
 
-  &__top {
-    width: 632px;
-    height: 20px;
-    flex-shrink: 0;
-    background-color: var(--color-secondary);
-  }
+  &__book {
+    padding: var(--padding-xs);
+    font-family: var(--font-secondary);
+    font-size: var(--font-size-xs);
+    font-weight: 700;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    text-align: center;
+    color: var(--text-color-inverted);
+    box-shadow: var(--box-shadow-items);
 
-  &__container {
-    display: flex;
-    width: 600px;
-    height: 100%;
-
-    & > * {
-      border-top: 10px solid var(--color-cyan-dark);
-      background-color: var(--color-secondary);
-    }
-  }
-
-  &__drawers {
-    flex-shrink: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 25%;
-    max-height: 100%;
-    padding: 8px;
-  }
-
-  &__drawer {
-    position: relative;
-    width: 100%;
-    height: 28%;
-    background-color: var(--color-primary-light);
-    box-shadow: 4px 4px var(--color-cyan-dark);
-    border-radius: var(--border-radius-s);
-
-    &::after {
-      content: '';
-      position: absolute;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%,-50%);
-      display: block;
-      width: 30px;
-      height: 8px;
-      border-radius: var(--border-radius-s);
-      background-color: var(--color-grey);
+    &:first-child,
+    &:nth-child(3),
+    &:nth-child(4) {
+      height: 80%;
     }
 
-    & + & {
-      margin-top: 8px;
+    &:nth-child(2),
+    &:last-child {
+      height: 70%;
     }
-  }
 
-  &__bottom {
-    width: 40%;
-    height: 60px;
-  }
-
-  &__cabinet {
-    flex-shrink: 0;
-    display: flex;
-    width: 35%;
-    max-height: 100%;
-    padding: 8px;
-  }
-
-  &__door {
-    position: relative;
-    width: 50%;
-    height: 90%;
-    background-color: var(--color-primary-light);
-    box-shadow: 4px 4px var(--color-cyan-dark);
-    border-radius: var(--border-radius-s);
-
-    &::after {
-      content: '';
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      display: block;
-      width: 8px;
-      height: 30px;
-      border-radius: var(--border-radius-s);
-      background-color: var(--color-grey);
+    &:nth-child(4),
+    &:last-child {
+      transform: translate(7px, -1px) rotate(-8deg);
     }
 
     &:first-child {
-      margin-right: 16px;
-
-      &::after { 
-        right: 8px;
-      }
+      background-color: var(--color-violet);
     }
 
-    &:last-child::after {
-      left: 8px;
+    &:nth-child(2) {
+      background-color: var(--color-green);
+      font-size: var(--font-size-s);
+    }
+
+    &:nth-child(3) {
+      background-color: var(--color-red);
+      font-size: var(--font-size-s);
+    }
+
+    &:nth-child(4) {
+      background-color: var(--color-pink);
+    }
+
+    &:last-child {
+      background-color: var(--color-crimson);
     }
   }
+}
+
+.desk-lamp {
+  position: relative; // for a light
+  width: 120px;
+  height: 155px;
+  background: url('../img/lamp.svg') no-repeat center;
+  background-size: contain;
+
+  // lamp light
+  &::after {
+    content: '';
+    width: 128px;
+    height: 170px;
+    position: absolute;
+    top: 18px;
+    left: 96px;
+    background-image: linear-gradient(180deg, var(--color-white-fade) 0%, transparent 100%);
+    clip-path: polygon(35% 0, 65% 0, 100% 100%, 0 100%);
+    transform: rotate(-45deg);
+    opacity: 0;
+    transition: opacity 0.2s linear;
+  }
+
+  &:hover::after {
+    opacity: 1;
+  }
+}
+
+.keyboard {
+  width: 120px;
+  height: 6px;
+  background-color: var(--color-grey);
+  border-radius: var(--border-radius-s);
 }
 
 .pc-display {
@@ -368,89 +372,56 @@
   }
 }
 
-.clock {
-  position: relative;
-  width: 110px;
-  height: 110px;
-  background: url('../img/clock.svg') no-repeat center;
-  background-size: cover;
-  box-sizing: border-box;
+.mouse {
+  position: relative; // for a mouse wheel
+  width: 24px;
+  height: 12px;
+  border-radius: 30px 30px 0 0;
+  background-color: var(--color-grey);
 
-  &__hour-hand {
-    width: 2px;
-    height: 28px;
-    background: var(--color-grey);
-    position: absolute;
-    top: 29px;
-    left: 54px;
-    transform-origin: 0 bottom;
-    animation: rotate 600s ease-in infinite;
-    animation-delay: 30s;
-  }
-
-  &__second-hand {
-    width: 1px;
-    height: 30px;
-    background: var(--color-grey);
-    position: absolute;
-    top: 25px;
-    left: 56px;
-    transform-origin: 0 bottom;
-    animation: rotate 30s linear infinite;
-  }
-}
-
-.office-chair {
-  width: 140px;
-  height: 225px;
-  background: url('../img/chair.svg') no-repeat center;
-  background-size: contain;
-  
-  &:hover {
-    transform: translateX(-100px);
-  }
-
-  @media (min-width: @screen-m) {
-    width: 189px;
-    height: 305px;
-  }
-}
-
-.desk-lamp {
-  position: relative;
-  width: 84px;
-  height: 111px;
-  background: url('../img/lamp.svg') no-repeat center;
-  background-size: contain;
-
+  // mouse wheel
   &::after {
     content: '';
-    width: 95px;
-    height: 149px;
-    background: url("../img/light.svg") no-repeat top center;
-    background-size: contain;
+    display: block;
+    width: 4px;
+    height: 8px;
     position: absolute;
-    top: 9px;
-    right: -87px;
-    transform: rotate(-45deg);
-    opacity: 0;
-    transition: opacity 0.2s linear;
+    top: -4px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 30px;
+    background-color: var(--color-red);
   }
+}
 
-  &:hover::after {
-    opacity: 1;
+.cup-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  &__steam {
+    transform: translateY(20px);
   }
+}
 
-  @media (min-width: @screen-m) {
-    width: 120px;
-    height: 155px;
+.cup {
+  position: relative; // for cup handle
+  width: 40px;
+  height: 40px;
+  border-radius: var(--border-radius-s);
+  background-color: var(--color-accent-dark);
 
-    &::after {
-      width: 128px;
-      height: 170px;
-      top: 17px;
-      right: -105px;
-    }
+  // cup handle
+  &::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 26px;
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: var(--border-radius-circle);
+    border: 8px solid var(--color-accent-dark);
+    transform: translateY(-50%);
   }
 }
 
@@ -461,8 +432,6 @@
     width: 30px;
     border-radius: var(--border-radius-circle);
     background-color: var(--color-white);
-    margin-top: -45px;
-    margin-left: 45px;
     opacity: 0;
     animation-duration: 4s;
     animation-iteration-count: infinite;
@@ -490,40 +459,387 @@
   }
 }
 
-.ceiling-lamp {
+.desk {
+  position: relative; // for a shadow
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 632px;
+  height: 250px;
+  z-index: var(--layer-level-1);
+  
+  // a shadow
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -4px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 20px;
+    background-color: var(--color-primary-dark);
+    border-radius: var(--border-radius-circle);
+    z-index: var(--layer-level-0);
+  }
+
+  &__top {
+    width: 632px;
+    height: 20px;
+    flex-shrink: 0;
+    background-color: var(--color-secondary);
+    border-radius: var(--border-radius-s);
+  }
+
+  &__container {
+    display: flex;
+    width: 600px;
+    height: 100%;
+
+    & > * {
+      border-top: 10px solid var(--color-cyan-dark);
+      background-color: var(--color-secondary);
+      border-radius: var(--border-radius-s);
+    }
+  }
+
+  &__drawers {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    max-height: 100%;
+    padding: 8px;
+  }
+
+  &__drawer {
+    position: relative;
+    width: 100%;
+    height: 28%;
+    background-color: var(--color-primary-light);
+    box-shadow: var(--box-shadow-items);
+    border-radius: var(--border-radius-s);
+
+    &::after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+      display: block;
+      width: 30px;
+      height: 8px;
+      border-radius: var(--border-radius-s);
+      background-color: var(--color-grey);
+    }
+
+    & + & {
+      margin-top: 8px;
+    }
+  }
+
+  &__bottom {
+    width: 40%;
+    height: 60px;
+  }
+
+  &__cabinet {
+    flex-shrink: 0;
+    display: flex;
+    width: 35%;
+    max-height: 100%;
+    padding: 8px;
+  }
+
+  &__door {
+    position: relative;
+    width: 50%;
+    height: 90%;
+    background-color: var(--color-primary-light);
+    box-shadow: var(--box-shadow-items);
+    border-radius: var(--border-radius-s);
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      display: block;
+      width: 8px;
+      height: 30px;
+      border-radius: var(--border-radius-s);
+      background-color: var(--color-grey);
+    }
+
+    &:first-child {
+      margin-right: 16px;
+
+      &::after { 
+        right: 8px;
+      }
+    }
+
+    &:last-child::after {
+      left: 8px;
+    }
+  }
+}
+
+.clock {
   position: relative;
-  width: 92px;
-  height: 160px;
+  width: 130px;
+  height: 130px;
+  background-color: var(--color-cyan);
+  border-radius: var(--border-radius-circle);
+  border: 10px solid var(--color-primary);
+  box-shadow: var(--box-shadow-items);
+  box-sizing: border-box;
+
+  // top & bottom numbers
+  &::after,
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 3px;
+    height: 8px;
+    background: var(--color-grey);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+
+  &::before {
+    bottom: 0;
+  }
+
+  &__right-number,
+  &__left-number,
+  &__center {
+    position: absolute;
+    width: 8px;
+    height: 3px;
+    background: var(--color-grey);
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+  }
+
+  &__right-number {
+    right: 0;
+  }
+
+  &__left-number {
+    left: 0;
+  }
+
+  &__center {
+    height: 6px;
+    width: 6px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: var(--border-radius-circle);
+  }
+
+  &__hour-hand,
+  &__minute-hand,
+  &__second-hand {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    animation: time infinite linear;
+
+    &::before {
+      position: absolute;
+      content: '';
+      background-color: var(--color-grey);
+    }
+  }
+
+  &__hour-hand {
+    width: 3px;
+    animation-duration: 55s;
+
+    &::before {
+      height: 35px;
+      width: 3px;
+      top: 22px;
+    }
+  }
+
+  &__minute-hand {
+    width: 2px;
+    animation-duration: 40s;
+
+    &::before {
+      height: 40px;
+      width: 2px;
+      top: 54px;
+    }
+  }
+
+  &__second-hand {
+    width: 1px;
+    animation-duration: 25s;
+
+    &::before {
+      background-color: var(--color-accent);
+      width: 1px;
+      height: 42px;
+      top: 56px;
+    }
+  }
+}
+
+.office-chair {
+  position: relative; // for .office-chair__shadow
+  width: 190px;
+  height: 305px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -4px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 128px;
+    height: 20px;
+    background-color: var(--color-primary-dark);
+    border-radius: var(--border-radius-circle);
+  }
+
+  &__top {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  &__back {
+    width: 124px;
+    height: 168px;
+    background-color: var(--color-accent-dark);
+    clip-path: polygon(90% 100%, 10% 100%, 0 0, 100% 0);
+    border-radius: 20px 20px 0 0;
+    margin: 0 16px;
+  }
+
+  &__handle {
+    position: relative;
+    width: 14px;
+    height: 70px;
+    background-color: var(--color-grey);
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 24px;
+      height: 50px;
+      background-color: var(--color-accent-dark);
+      border-radius: var(--border-radius-s);
+    }
+  }
+
+  &__seat {
+    width: 184px;
+    height: 14px;
+    background-color: var(--color-grey);
+    border-radius: 0 0 20px 20px;
+  }
+
+  &__stand {
+    width: 20px;
+    height: 114px;
+    background-color: var(--color-grey);
+  }
+
+  &__legs {
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+    border-top: 6px solid var(--color-grey);
+    border-radius: 10px 10px 0 0;
+  }
+
+  &__leg {
+    position: relative; // for a wheel
+    width: 6px;
+    height: 26px;
+    background-color: var(--color-grey);
+    z-index: var(--layer-level-1);
+
+    // a wheel
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 16px;
+      height: 16px;
+      background-color: var(--color-grey);
+      border-radius: var(--border-radius-circle);
+    }
+  }
+}
+
+.ceiling-lamp {
+  position: relative; // for a .ceiling-lamp__light
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 114px;
+  height: 193px;
   transform-origin: center top;
   animation: lamp 6s linear infinite;
   animation-fill-mode: both;
+ 
+  &__cord {
+    width: 6px;
+    height: 90px;
+    flex-shrink: 0;
+    background-color: var(--color-primary);
+  }
+
+  &__base {
+    width: 114px;
+    height: 72px;
+    flex-shrink: 0;
+    background-color: var(--color-primary);
+    border-bottom: 4px solid var(--color-cyan);
+    border-radius: 100% 100% 10px 10px;
+    clip-path: polygon(20% 0, 80% 0, 100% 100%, 0 100%);
+  }
 
   &__light-bulb {
+    width: 50px;
+    height: 20px;
+    flex-shrink: 0;
+    background-color: var(--color-white);
+    border: 2px solid var(--color-cyan);
+    border-radius: 0 0 var(--border-radius-circle) var(--border-radius-circle);
     animation: blink 6s infinite linear;
     animation-fill-mode: both;
   }
 
   &__light {
-    width: 243.5px;
-    height: 400px;
-    top: 137px;
-    left: -75px;
-    background: url('../img/light.svg') no-repeat top center;
-    background-size: contain;
     position: absolute;
+    top: 162px;
+    width: 330px;
+    height: 332px;
+    background-image: linear-gradient(180deg, var(--color-white-fade) 0%, transparent 100%);
+    clip-path: polygon(35% 0, 65% 0, 100% 100%, 0 100%);
     animation: fade-out 3s ease-in-out infinite alternate-reverse;
-  }
-
-  @media (min-width: @screen-m) {
-    width: 114px;
-    height: 193px;
-
-    &__light {
-      width: 305.5px;
-      height: 500px;
-      top: 169px;
-      left: -94px;
-    }
   }
 }
 
@@ -562,6 +878,25 @@
   }
 }
 
+.laptop-girl {
+  width: 800px;
+  height: 410px;
+  perspective: 220px;
+  perspective-origin: 100% 60%;
+  position: absolute;
+  right: 88px;
+  bottom: 180px;
+  pointer-events: none;
+}
+
+@media (min-width: @screen-m) {
+  .laptop-girl {
+    width: 1300px;
+    height: 610px;
+    right: 88px;
+    bottom: 236px;
+  }
+}
 
 .mailbox {
   position: relative;
@@ -571,7 +906,7 @@
   background: url('../img/mailbox.svg') no-repeat center;
   background-size: contain;
   
-  &:before {
+  &::before {
     content: url('../img/mailbox-toggle.svg');
     display: block;
     position: absolute;
@@ -583,7 +918,7 @@
     left: 36px;
   }
 
-  &:hover:before {
+  &:hover::before {
     transform: rotate(-30deg);
   }
 }

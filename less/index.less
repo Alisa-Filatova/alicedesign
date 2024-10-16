@@ -96,7 +96,7 @@
    padding: var(--padding-xs) var(--padding-s);
    text-decoration: none;
    font-size: var(--font-size-xl);
-   text-shadow: 2px 1px 1px var(--box-shadow-color);
+   text-shadow: var(--text-shadow);
    color: var(--text-color-secondary);
    text-align: center;
    transition: var(--transition-base);
@@ -234,7 +234,7 @@
     line-height: var(--line-height-l);
     font-weight: 400;
     text-align: center;
-    text-shadow: 2px 1px 1px var(--box-shadow-color);
+    text-shadow: var(--text-shadow);
     color: var(--text-color-secondary);
     background: url('../img/board.svg') no-repeat top center;
     background-size: contain;
@@ -427,8 +427,20 @@
 .about-me {
 
   &__title {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 62px;
+    margin-top: 62px;
+    width: 300px;
+    height: 81px;
     font-size: var(--heading-size-l);
-    font-weight: 400;
+    font-weight: 500;
+    text-align: center;
+    text-shadow: var(--text-shadow);
+    color: var(--text-color-secondary);
+    background: url('../img/board.svg') no-repeat top center;
+    background-size: contain;
   }
 
   &__text-wrapper {
@@ -460,6 +472,23 @@
   background-size: 100%;
   min-height: 1064px;
 
+  &__shelf {
+    position: absolute;
+    left: 100px;
+    top: 220px;
+  }
+
+  &__clock {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+  }
+
+  &__ceiling-lamp {
+    position: absolute;
+    top: 0;
+    left: 50%;
+  }
 
   &__desk-wrapper {
     position: absolute;
@@ -467,108 +496,33 @@
     bottom: 22%;
   }
 
-  &__clock {
-    position: absolute;
-    top: 21%;
-    left: 25.2%;
-
-    @media (min-width: @screen-m) {
-      top: 18%;
-      left: 25.2%;
-      width: 145px;
-      height: 145px;
-
-      .clock__hour-hand {
-        top: 46px;
-        left: 72px;
-      }
-
-      .clock__second-hand {
-        top: 44px;
-        left: 73px;
-      }
-    }
-  }
-
-  &__cofee-steam {
-    position: absolute;
-    left: 416px;
-    top: 409px;
-
-    @media (min-width: @screen-m) {
-      left: 610px;
-      top: 565px;
-    }
-  }
-
-  &__cat {
-    position: absolute;
-    bottom: 89px;
-    right: 433px;
-
-    @media (min-width: @screen-m) {
-      bottom: 80px;
-      right: 782px;
-    }
-  }
-
   &__office-chair {
     position: absolute;
-    left: 180px;
-    bottom: 128px;
+    left: 262px;
+    bottom: 176px;
+    z-index: var(--layer-level-2);
     transition: transform 1s linear;
 
     &:hover {
       transform: translateX(-100px);
     }
-  
-    @media (min-width: @screen-m) {
-      left: 270px;
-      bottom: 190px;
-    }
   }
 
-  &__ceiling-lamp {
+  &__cat {
     position: absolute;
-    top: 0;
-    left: 44%;
-
-    @media (min-width: @screen-m) {
-      left: 46%;
-    }
-  }
-}
-
-.laptop-girl {
-  width: 800px;
-  height: 410px;
-  perspective: 220px;
-  perspective-origin: 100% 60%;
-  position: absolute;
-  right: 88px;
-  bottom: 180px;
-  pointer-events: none;
-}
-
-@media (min-width: @screen-m) {
-  .laptop-girl {
-    width: 1300px;
-    height: 610px;
-    right: 88px;
-    bottom: 236px;
+    bottom: 80px;
+    right: 782px;
   }
 }
 
 .footer {
+  position: relative;
   padding-top: var(--padding-l);
   background: url('../img/gears-footer.svg') no-repeat top center;
   background-size: contain;
 
   &__contacts {
     color: var(--background-color-primary); // for focus ring color
-  }
-
-  &__contacts {
     align-items: center;
   }
 

@@ -1,14 +1,17 @@
 :root {
     /* Palette */
     --color-pink: #fc568d;
+    --color-pink-dark: #e74381;
     --color-crimson: #d22f69;
     --color-violet: #506085;
+    --color-violet-dark: #425279;
     --color-violet-light: #717c9a;
     --color-cyan: #cafcf9;
     --color-cyan-dark: #4dd0e1;
     --color-cyan-fade: rgba(102, 255, 255, 0.8);
     --color-beige: #f4ece0;
-    --color-baige-dark: #B3B3B3;
+    --color-baige-dark: #b3b3b3;
+    --color-baige-bright: #dbc5b6;
     --color-blue: #afeeee;
     --color-blue-fade: rgba(153, 206, 255, 0.5);
     --color-grey: #3a4d57;
@@ -16,13 +19,15 @@
     --color-grey-dark: #333333;
     --color-grey-fade: rgba(192, 245, 250, 0.4);
     --color-white: #ffffff;
+    --color-white-fade: rgba(255, 255, 255, 0.4);
     --color-black: #000000;
-    --color-green: #2CB399;
-    --color-red: #CF4D46;
+    --color-green: #2cb399;
+    --color-red: #cf4d46;
 
     /* Color Theme */
     --color-primary: var(--color-violet);
     --color-primary-light: var(--color-violet-light);
+    --color-primary-dark: var(--color-violet-dark);
     --color-secondary: var(--color-cyan);
     --color-accent: var(--color-pink);
     --color-accent-dark: var(--color-crimson);
@@ -36,7 +41,8 @@
 
     --focus-ring-color: var(--color-accent);
     --focus-ring-bg: var(--background-color-primary);
-    --box-shadow-color: var(--color-grey-dark);
+    --text-shadow: 2px 1px 1px var(--color-grey-dark);
+    --box-shadow-items: 4px 4px var(--color-cyan-dark);
 
     /* Sizes */
     --border-radius-s: 4px;
@@ -54,6 +60,7 @@
     --container-size: 960px;
 
     /* Typography */
+    --font-size-xs: 14px;
     --font-size-s: 16px;
     --font-size-m: 18px;
     --font-size-l: 26px;

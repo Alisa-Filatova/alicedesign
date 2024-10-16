@@ -1,7 +1,7 @@
 import { TimelineLite, TweenMax } from 'gsap/TweenMax';
 import Snap from 'snapsvg-cjs';
 
-TweenMax.staggerTo('#girl', 2.25, {
+TweenMax.staggerTo('#laptop-girl', 2.25, {
 	transformOrigin: 'center',
 	y: 5,
 	rotation: 1,
@@ -50,22 +50,22 @@ girlMainBlinkAnim.to('#girl-main-eyes', 2, {
 
 const girlBlinkAnim = new TimelineLite();
 
-girlBlinkAnim.to('#girl-eyes', 5, {
+girlBlinkAnim.to('#laptop-girl-eyes', 5, {
 	visibility: 'visible'
 })
-	.to('#girl-eyes', 0.1, {
+	.to('#laptop-girl-eyes', 0.1, {
 		visibility: 'hidden'
 	})
-	.to('#girl-eyes', 10, {
+	.to('#laptop-girl-eyes', 10, {
 		visibility: 'visible'
 	})
-	.to('#girl-eyes', 0.1, {
+	.to('#laptop-girl-eyes', 0.1, {
 		visibility: 'hidden'
 	})
-	.to('#girl-eyes', 0.1, {
+	.to('#laptop-girl-eyes', 0.1, {
 		visibility: 'visible'
 	})
-	.to('#girl-eyes', 0.1, {
+	.to('#laptop-girl-eyes', 0.1, {
 		visibility: 'hidden'
 	})
 	.call(function () {
