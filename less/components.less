@@ -132,6 +132,7 @@
     transition: var(--transition-base);
     transform: scale(0.9) translateZ(0);
     will-change: transform;
+    font-size: 0; // hide text (in case of faild css loading)
 
     &:hover, &:focus-visible {
       transform: scale(1) translateZ(0);
