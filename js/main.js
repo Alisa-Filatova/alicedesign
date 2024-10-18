@@ -17,4 +17,5 @@ function scrollToAnchor(event) {
 }
 
 $('.main-nav__link').on('click', scrollToAnchor);
-$('#scroll-down-button').on('click', scrollToAnchor);
+$('.scroll-down-button').on('click', scrollToAnchor);
+$('.footer__logo').on('click', scrollToAnchor);

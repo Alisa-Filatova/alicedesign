@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
 
     <!-- Styles for Preloader -->
-    <style>@font-face{font-family:'Neucha', cursive;font-style:normal;font-weight:400;}.overlay-loader{position:fixed;top:0;right:0;bottom:0;left:0;z-index:5000;pointer-events:none}.loader__text{z-index:5000;position:absolute;top:70%;left:45%;margin:74px 0 0 -97px;font-size:40px;color:#fff;letter-spacing:10px;animation:fade-out .4s infinite linear alternate-reverse;text-align:center;font-family:Neucha,Comic Sans,sans-serif}.loader__wrapper{z-index:5000;position:absolute;top:50%;left:50%}.overlay-loader .loader-background{position:absolute;width:100%;top:0;right:0;bottom:0;left:0;background-color:var(--color-primary);-webkit-transition:background-color .2s linear 0s,right .2s ease-out .3s;transition:background-color .2s linear 0s,right .2s ease-out .3s}.overlay-loader .loader-background.color-flip{-webkit-animation:color-flip 6.5s .6s infinite linear;animation:color-flip 6.5s .6s infinite linear}@-webkit-keyframes fade-out{0%{opacity:1}to{opacity:.3}}@keyframes fade-out{0%{opacity:1}to{opacity:.3}}@-webkit-keyframes color-flip{0%{background-color:var(--color-primary)}18%{background-color:var(--color-primary)}20%{background-color:var(--color-accent)}38%{background-color:var(--color-accent)}40%{background-color:#80deea}58%{background-color:#80deea}60%{background-color:#e55189}78%{background-color:#e55189}80%{background-color:#088696}98%{background-color:#088696}to{background-color:var(--color-primary)}}@keyframes color-flip{0%{background-color:var(--color-primary)}18%{background-color:var(--color-primary)}20%{background-color:var(--color-accent)}38%{background-color:var(--color-accent)}40%{background-color:#80deea}58%{background-color:#80deea}60%{background-color:#e55189}78%{background-color:#e55189}80%{background-color:#088696}98%{background-color:#088696}to{background-color:var(--color-primary)}}.overlay-loader .loader-icon{position:absolute;top:50%;left:50%;margin:-48px 0 0 -48px;font-size:96px;color:#fff}.overlay-loader .loader-icon.spinning-cog{-webkit-animation:spinning-cog 1.3s infinite ease;animation:spinning-cog 1.3s infinite ease}@-webkit-keyframes spinning-cog{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}20%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@keyframes spinning-cog{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}20%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@-webkit-keyframes shrinking-cog{0%{-webkit-transform:scale(1);transform:scale(1)}20%{-webkit-transform:scale(1.2);transform:scale(1.2)}to{-webkit-transform:scale(0);transform:scale(0)}}@keyframes shrinking-cog{0%{-webkit-transform:scale(1);transform:scale(1)}20%{-webkit-transform:scale(1.2);transform:scale(1.2)}to{-webkit-transform:scale(0);transform:scale(0)}}.overlay-loader .loader-icon.shrinking-cog{-webkit-animation:shrinking-cog .3s 1 ease forwards;animation:shrinking-cog .3s 1 ease forwards}</style>
+    <style>@font-face{font-family:'Neucha', cursive;font-style:normal;font-weight:400;}.overlay-loader{position:fixed;top:0;right:0;bottom:0;left:0;z-index:5000;pointer-events:none}.loader__text{z-index:5000;position:absolute;top:70%;left:45%;margin:74px 0 0 -97px;font-size:var(--heading-size-l);color:var(--color-white);letter-spacing:10px;animation:fade-out .4s infinite linear alternate-reverse;text-align:center;font-family:var(--font-primary)}.loader__wrapper{z-index:5000;position:absolute;top:50%;left:50%}.overlay-loader .loader-background{position:absolute;width:100%;top:0;right:0;bottom:0;left:0;background-color:var(--color-primary);-webkit-transition:background-color .2s linear 0s,right .2s ease-out .3s;transition:background-color .2s linear 0s,right .2s ease-out .3s}.overlay-loader .loader-background.color-flip{-webkit-animation:color-flip 6.5s .6s infinite linear;animation:color-flip 6.5s .6s infinite linear}@-webkit-keyframes fade-out{0%{opacity:1}to{opacity:.3}}@keyframes fade-out{0%{opacity:1}to{opacity:.3}}@-webkit-keyframes color-flip{0%{background-color:var(--color-primary)}18%{background-color:var(--color-primary)}20%{background-color:var(--color-accent)}38%{background-color:var(--color-accent)}40%{background-color:var(--color-cyan-dark)}58%{background-color:var(--color-cyan-dark)}60%{background-color:var(--color-accent-dark)}78%{background-color:var(--color-accent-dark)}80%{background-color:var(--color-green)}98%{background-color:var(--color-green)}to{background-color:var(--color-primary)}}@keyframes color-flip{0%{background-color:var(--color-primary)}18%{background-color:var(--color-primary)}20%{background-color:var(--color-accent)}38%{background-color:var(--color-accent)}40%{background-color:var(--color-cyan-dark)}58%{background-color:var(--color-cyan-dark)}60%{background-color:var(--color-accent-dark)}78%{background-color:var(--color-accent-dark)}80%{background-color:var(--color-green)}98%{background-color:var(--color-green)}to{background-color:var(--color-primary)}}.overlay-loader .loader-icon{position:absolute;top:50%;left:50%;margin:-48px 0 0 -48px;font-size:96px;color:#fff}.overlay-loader .loader-icon.spinning-cog{-webkit-animation:spinning-cog 1.3s infinite ease;animation:spinning-cog 1.3s infinite ease}@-webkit-keyframes spinning-cog{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}20%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@keyframes spinning-cog{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}20%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@-webkit-keyframes shrinking-cog{0%{-webkit-transform:scale(1);transform:scale(1)}20%{-webkit-transform:scale(1.2);transform:scale(1.2)}to{-webkit-transform:scale(0);transform:scale(0)}}@keyframes shrinking-cog{0%{-webkit-transform:scale(1);transform:scale(1)}20%{-webkit-transform:scale(1.2);transform:scale(1.2)}to{-webkit-transform:scale(0);transform:scale(0)}}.overlay-loader .loader-icon.shrinking-cog{-webkit-animation:shrinking-cog .3s 1 ease forwards;animation:shrinking-cog .3s 1 ease forwards}</style>
 
     <link href="dist/css/index.css?5" rel="stylesheet">
     <link rel="icon" type="image/png" href="img/favicon.png">
@@ -24,16 +24,21 @@
     <div
       class="loader overlay-loader"
       id="loader"
-      aria-label="Content is loading. Please wait."
     >
       <div class="loader-background color-flip"></div>
       <div class="loader__wrapper">
-        <img
-          class="loader-icon spinning-cog"
-          src="img/cog.svg"
-          data-cog="cog"
-          alt=""
+        <svg 
+          class="loader-icon spinning-cog" 
+          xmlns="http://www.w3.org/2000/svg"
+          width="96" 
+          height="96"
+          viewBox="0 0 96 96"
+          fill="#ffffff"
+          aria-label="Content is loading. Please wait."
         >
+          <title>Loading...</title>
+          <path d="M87.311 48c0-.983-.076-1.947-.147-2.912 3.839-1.227 6.879-2.397 8.837-3.441l-.704-3.963c-2.198-.316-5.456-.385-9.481-.236-.535-1.89-1.203-3.719-2.007-5.48 3.179-2.452 5.629-4.58 7.106-6.225l-2.027-3.484c-2.176.449-5.263 1.491-8.997 2.998-1.148-1.582-2.397-3.084-3.766-4.476 2.14-3.381 3.707-6.211 4.529-8.257l-3.106-2.586c-1.886 1.157-4.419 3.175-7.399 5.849-1.614-1.095-3.332-2.041-5.107-2.891.848-3.912 1.346-7.108 1.413-9.313l-3.811-1.375c-1.377 1.731-3.066 4.499-4.952 8.036-1.884-.475-3.805-.854-5.785-1.047-.553-3.948-1.184-7.109-1.88-9.197h-4.055c-.695 2.088-1.327 5.249-1.878 9.196-1.98.194-3.902.573-5.785 1.047-1.886-3.537-3.575-6.305-4.952-8.036l-3.811 1.375c.066 2.205.565 5.401 1.413 9.313-1.775.85-3.493 1.796-5.108 2.891-2.979-2.674-5.513-4.692-7.398-5.849l-3.106 2.586c.821 2.045 2.39 4.875 4.529 8.257-1.368 1.392-2.617 2.894-3.766 4.476-3.734-1.507-6.821-2.549-8.997-2.998l-2.028 3.484c1.479 1.645 3.928 3.772 7.106 6.225-.803 1.762-1.471 3.591-2.006 5.48-4.026-.148-7.283-.08-9.481.236L0 41.646c1.958 1.044 4.998 2.215 8.837 3.441-.072.966-.149 1.93-.149 2.913 0 .982.076 1.947.148 2.912C4.998 52.139 1.958 53.309 0 54.354l.704 3.963c2.198.316 5.455.385 9.481.236.535 1.89 1.203 3.719 2.006 5.48-3.179 2.452-5.628 4.58-7.106 6.225l2.028 3.484c2.176-.448 5.263-1.49 8.997-2.998 1.148 1.582 2.397 3.085 3.766 4.477-2.141 3.381-3.708 6.211-4.529 8.257l3.106 2.585c1.886-1.156 4.419-3.176 7.398-5.849 1.615 1.095 3.333 2.04 5.108 2.891-.848 3.911-1.347 7.108-1.413 9.312l3.811 1.376c1.377-1.731 3.066-4.499 4.952-8.037 1.883.475 3.805.854 5.785 1.049.551 3.946 1.183 7.107 1.878 9.195h4.055c.695-2.088 1.327-5.249 1.878-9.195 1.98-.194 3.901-.574 5.785-1.049 1.885 3.538 3.575 6.306 4.952 8.037l3.811-1.376c-.067-2.204-.565-5.401-1.413-9.312 1.775-.851 3.493-1.796 5.108-2.891 2.979 2.673 5.513 4.692 7.398 5.849l3.106-2.585c-.822-2.046-2.39-4.876-4.529-8.257 1.368-1.392 2.617-2.895 3.766-4.477 3.734 1.508 6.821 2.55 8.997 2.998l2.027-3.484c-1.478-1.645-3.928-3.772-7.106-6.225.804-1.762 1.472-3.591 2.007-5.48 4.025.148 7.283.08 9.481-.236L96 54.354c-1.958-1.045-4.998-2.215-8.837-3.441.071-.966.148-1.931.148-2.913zM51 18.244c0-1.694 1.556-2.959 3.22-2.641 7.429 1.418 13.966 5.33 18.723 10.829 1.105 1.278.778 3.255-.686 4.1l-.65.375c-1.096.633-2.449.339-3.28-.615-3.85-4.417-9.098-7.577-15.06-8.763C51.973 21.27 51 20.203 51 18.882v-.638zm-27.943 8.188c4.758-5.5 11.295-9.41 18.724-10.829 1.662-.318 3.219.947 3.219 2.641v.639c0 1.321-.973 2.388-2.268 2.646-5.961 1.186-11.21 4.347-15.059 8.764-.831.954-2.185 1.247-3.28.614l-.651-.375c-1.463-.845-1.79-2.822-.685-4.1zm-1.854 33.576-.464.268c-1.46.842-3.331.146-3.89-1.444C15.66 55.439 15 51.799 15 48c0-3.8.66-7.438 1.85-10.831.559-1.591 2.43-2.287 3.89-1.444l.464.268c1.122.648 1.701 2 1.276 3.225C21.525 41.972 21 44.924 21 48s.525 6.028 1.479 8.783c.425 1.225-.154 2.576-1.276 3.225zM45 77.756c0 1.693-1.557 2.959-3.22 2.642-7.429-1.419-13.966-5.33-18.724-10.829-1.104-1.278-.777-3.255.686-4.1l.651-.376c1.096-.632 2.449-.339 3.28.615 3.849 4.417 9.098 7.578 15.059 8.765C44.027 74.73 45 75.797 45 77.117v.639zm3-12.662c-9.44 0-17.094-7.653-17.094-17.094S38.56 30.906 48 30.906 65.094 38.56 65.094 48 57.44 65.094 48 65.094zm24.942 4.474c-4.757 5.499-11.294 9.41-18.723 10.829-1.663.318-3.219-.948-3.219-2.641v-.639c0-1.32.973-2.387 2.267-2.645 5.962-1.187 11.21-4.348 15.06-8.765.831-.954 2.185-1.247 3.28-.614l.651.375c1.463.845 1.79 2.822.684 4.1zm6.207-10.737c-.558 1.591-2.429 2.286-3.889 1.444l-.464-.268c-1.122-.648-1.701-2-1.277-3.225C74.475 54.028 75 51.076 75 48s-.525-6.028-1.48-8.783c-.424-1.225.155-2.576 1.277-3.225l.464-.268c1.46-.843 3.331-.146 3.889 1.444C80.34 40.562 81 44.2 81 48c0 3.799-.66 7.439-1.851 10.831z"/>
+        </svg>
         <span class="loader__text">Loading...</span>
       </div>
     </div>
@@ -41,258 +46,271 @@
     <svg hidden>
       <defs id="svg-sprite"></defs>
     </svg>
-
-  <header class="main-page page">
-    <div class="main-page__container page__grid container">
-      <nav class="header main-page__header">
-        <ul 
-          class="contact-icons header__contacts" 
-          aria-label="My Contacts">
-
-          <li class="contact-icons__item">
-            <a
-              class="contact-icons__link"
-              href="mailto:alicefill@bk.ru"
-              aria-labelledby="tooltip-email"
-            >
-              <svg 
-                class="contact-icons__icon" 
-                role="presentation" 
-                aria-hidden="true"
+    <!-- HEADER -->
+    <header 
+      class="main-page page" 
+      id="header"
+    >
+      <div class="main-page__container page__grid container">
+        <!-- Contacts -->
+        <nav class="header main-page__header">
+          <ul 
+            class="contact-icons header__contacts" 
+            aria-label="My Contacts">
+            <li class="contact-icons__item">
+              <a
+                class="contact-icons__link"
+                href="mailto:alicefill@bk.ru"
+                aria-labelledby="tooltip-email"
               >
-                <use xlink:href="#mail"></use>
-              </svg>
-            </a>
-            <span 
-              class="tooltip tooltip_bottom contact-icons__tooltip" 
-              id="tooltip-email">
-              Email me
-            </span>
-          </li>
-
-          <li class="contact-icons__item">
-            <a
-              class="contact-icons__link"
-              href="https://telegram.com/alisafill"
-              target="_blank"
-              aria-labelledby="tooltip-telegram"
-              rel="noopener noreferrer"
-            >
-              <svg 
-                class="contact-icons__icon" 
-                role="presentation" 
-                aria-hidden="true"
-              >
-                <use xlink:href="#telegram"></use>
-              </svg>
-            </a>
-            <span 
-              class="tooltip tooltip_bottom contact-icons__tooltip" 
-              id="tooltip-telegram">
-              Text me on Telegram
-            </span>
-          </li>
-
-          <li class="contact-icons__item">
-            <a
-              class="contact-icons__link"
-              href="https://www.linkedin.com/in/alisa-filatova-64209a139/"
-              target="_blank"
-              aria-labelledby="tooltip-linkedin"
-              rel="noopener noreferrer"
-            >
-              <svg 
-                class="contact-icons__icon" 
-                role="presentation" 
-                aria-hidden="true"
-              >
-                <use xlink:href="#linkedin"></use>
-              </svg>
-            </a>
-            <span 
-              class="tooltip tooltip_bottom contact-icons__tooltip"
-              id="tooltip-linkedin">
-              Join me on LinkedIn
-            </span>
-          </li>
-
-          <li class="contact-icons__item">
-            <a
-              class="contact-icons__link"
-              href="https://github.com/Alisa-Filatova"
-              target="_blank"
-              aria-labelledby="tooltip-github"
-              rel="noopener noreferrer"
-            >
-              <svg 
-                class="contact-icons__icon" 
-                role="presentation" 
-                aria-hidden="true"
-              >
-                <use xlink:href="#github"></use>
-              </svg>
-            </a>
-            <span 
-              class="tooltip tooltip_bottom contact-icons__tooltip" 
-              id="tooltip-github">
-              Join me on Github
-            </span>
-          </li>
-
-          <li class="contact-icons__item">
-            <a
-              class="contact-icons__link"
-              href=""
-              target="_blank"
-              aria-labelledby="tooltip-artstation"
-              rel="noopener noreferrer"
-            >
-              <svg 
-                class="contact-icons__icon" 
-                role="presentation" 
-                aria-hidden="true"
-              >
-                <use xlink:href="#artstation"></use>
-              </svg>
-            </a>
-            <span 
-              class="tooltip tooltip_bottom contact-icons__tooltip" 
-              id="tooltip-artstation">
-              View my art on ArtStation
-            </span>
-          </li>
-        </ul>
-
-        <!-- LANG-SWITCHER -->
-        <ul 
-          class="lang-switcher header__lang-switcher" 
-          aria-label="Language selection">
-
-          <li class="lang-switcher__item">
-            <a
-              class="lang-switcher__link lang-switcher__link_active"
-              aria-label="Current language is English"
-              title="English"
-              aria-current="true"
-            >
-              EN
-            </a>
-          </li>
-          <li class="lang-switcher__item">
-            <a
-              class="lang-switcher__link"
-              href="ru.html"
-              aria-label="Switch to Russian"
-              title="Russian"
-            >
-              RU
-            </a>
-          </li>
-        </ul>
-      </nav>
-
-      <img
-        class="logo main-page__logo"
-        src="img/logo.svg"
-        width="400"
-        height="300"
-        alt="Alice Design logotype"
-      >
-      
-      <div class="main-illustration main-page__illustration">
-
-        <!-- NAVIGATION -->
-        <nav class="main-nav main-illustration__waymarker">
-          <ul class="main-nav__items">
-            <li class="main-nav__item">
-              <a class="main-nav__link" href="#portfolio">Portfolio</a>
+                <svg 
+                  class="contact-icons__icon" 
+                  role="presentation" 
+                  aria-hidden="true"
+                >
+                  <use xlink:href="#mail"></use>
+                </svg>
+                Email
+              </a>
+              <span 
+                class="tooltip tooltip_bottom contact-icons__tooltip" 
+                id="tooltip-email">
+                Email me
+              </span>
             </li>
-            <li class="main-nav__item">
-              <a class="main-nav__link" href="#about-me">About me</a>
+            <li class="contact-icons__item">
+              <a
+                class="contact-icons__link"
+                href="https://telegram.com/alisafill"
+                target="_blank"
+                aria-labelledby="tooltip-telegram"
+                rel="noopener noreferrer"
+              >
+                <svg 
+                  class="contact-icons__icon" 
+                  role="presentation" 
+                  aria-hidden="true"
+                >
+                  <use xlink:href="#telegram"></use>
+                </svg>
+                Telegram
+              </a>
+              <span 
+                class="tooltip tooltip_bottom contact-icons__tooltip" 
+                id="tooltip-telegram">
+                Text me on Telegram
+              </span>
             </li>
-            <li class="main-nav__item">
-              <a class="main-nav__link" href="#contacts">Contacts</a>
+            <li class="contact-icons__item">
+              <a
+                class="contact-icons__link"
+                href="https://www.linkedin.com/in/alisa-filatova-64209a139/"
+                target="_blank"
+                aria-labelledby="tooltip-linkedin"
+                rel="noopener noreferrer"
+              >
+                <svg 
+                  class="contact-icons__icon" 
+                  role="presentation" 
+                  aria-hidden="true"
+                >
+                  <use xlink:href="#linkedin"></use>
+                </svg>
+                LinkedIn
+              </a>
+              <span 
+                class="tooltip tooltip_bottom contact-icons__tooltip"
+                id="tooltip-linkedin">
+                Join me on LinkedIn
+              </span>
+            </li>
+            <li class="contact-icons__item">
+              <a
+                class="contact-icons__link"
+                href="https://github.com/Alisa-Filatova"
+                target="_blank"
+                aria-labelledby="tooltip-github"
+                rel="noopener noreferrer"
+              >
+                <svg 
+                  class="contact-icons__icon" 
+                  role="presentation" 
+                  aria-hidden="true"
+                >
+                  <use xlink:href="#github"></use>
+                </svg>
+                Github
+              </a>
+              <span 
+                class="tooltip tooltip_bottom contact-icons__tooltip" 
+                id="tooltip-github">
+                Join me on Github
+              </span>
+            </li>
+            <li class="contact-icons__item">
+              <a
+                class="contact-icons__link"
+                href=""
+                target="_blank"
+                aria-labelledby="tooltip-artstation"
+                rel="noopener noreferrer"
+              >
+                <svg 
+                  class="contact-icons__icon" 
+                  role="presentation" 
+                  aria-hidden="true"
+                >
+                  <use xlink:href="#artstation"></use>
+                </svg>
+                ArtStation
+              </a>
+              <span 
+                class="tooltip tooltip_bottom contact-icons__tooltip" 
+                id="tooltip-artstation">
+                View my art on ArtStation
+              </span>
+            </li>
+          </ul>
+          <!-- Lang switcher -->
+          <ul 
+            class="lang-switcher header__lang-switcher" 
+            aria-label="Language selection">
+            <li class="lang-switcher__item">
+              <a
+                class="lang-switcher__link lang-switcher__link_active"
+                aria-label="Current language is English"
+                title="English"
+                aria-current="true"
+              >
+                EN
+              </a>
+            </li>
+            <li class="lang-switcher__item">
+              <a
+                class="lang-switcher__link"
+                href="ru.html"
+                aria-label="Switch to Russian"
+                title="Russian"
+              >
+                RU
+              </a>
             </li>
           </ul>
         </nav>
-
-        <!-- ILLUSTRATION Start -->
-
-        <!-- GIRL -->
-        <svg
-          class="girl main-illustration__girl"
-          id="girl-main"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="-104 49.6 90.5 203.4"
-          enable-background="new -104 49.6 90.5 203.4"
-          role="presentation"
-          aria-hidden="true"
+        <!-- Logo -->
+        <img
+          class="logo main-page__logo"
+          src="img/logo.svg"
+          width="400"
+          height="300"
+          alt="Alice Design logotype"
         >
-          <path fill="var(--color-primary)" d="M-52.4,206.8c0-0.1,0.1-0.2,0.1-0.2S-52.3,206.7-52.4,206.8z"></path>
-          <path fill="var(--color-primary)" d="M-44.9,161.8c1.3-0.2,2.3-0.4,3.8-0.7c0,1.5,0.1,2.9-0.1,4.2c0,0.4-0.9,0.7-1.4,0.9c-0.5,0.2-1,0.2-1.7,0.3C-44.5,165-44.7,163.4-44.9,161.8z"></path>
-          <path fill="var(--color-primary)" d="M-50.5,185.8h-0.2H-50.5c0,0,0.1,0,0.1-0.1C-50.4,185.7-50.4,185.8-50.5,185.8z"></path>
-          <path fill="var(--color-accent)" d="M-73.2,172.7c0.1-1.5,0.1-2.9,0.2-4.3c2.3,0.2,4.4,0.3,6.4,0.4C-67.2,170.9-70.4,172.7-73.2,172.7zM-48.3,169.3c0.6,0,1.1-0.1,1.7-0.1s1.2,0.1,1.8,0.1c2.1-0.2,2.6,0.3,2.4,2.4c0,0.3-0.6,0.8-0.8,0.8c-1.9-0.4-3.8-1-5-2.6C-48.3,169.7-48.3,169.5-48.3,169.3z"></path>
-          <path fill="var(--color-primary-light)" d="M-40.8,180.7c-0.4-2.2-0.7-4.5-1.1-6.7c-0.6,0-1.2,0-1.7-0.1c-2.5-0.8-5.4-1.1-6.4-4.3c-0.1-0.2-0.4-0.5-0.7-0.5h-5.4c0,0-2.4-0.2-3-0.2c-1.7-0.1-3.4-0.2-5.1-0.2c-0.3,0-0.6,0.4-0.8,0.8c-0.6,0.9-1,2.2-1.9,2.7c-1.7,1-3.7,1.5-5.6,2.3c-0.4,0.2-1.1,0.5-1.2,0.8c-0.4,1.9-0.6,3.8-0.9,5.7c0.2,0.1,0.4,0.2,0.7,0.3c3.4,1.3,5.8,1.2,9.6,1.7c3.1,0.4,2.4,0.5,4.6,0.7c3.6,0.3,4.8-0.2,10-0.1h2.1c2.7-0.2,2.7-0.8,5.1-1.1c0.3,0,0.9-0.1,1.2-0.5C-40.8,181.5-40.8,181.2-40.8,180.7z M-57.8,182.9c0.1-0.1,0.1-0.2,0.1-0.2S-57.7,182.8-57.8,182.9z"></path>
-          <path fill="var(--color-accent)" d="M-47.2,186.7c2.2-0.3,4.6-0.7,7.1-1.3c-0.3-1.8-0.6-2-2.3-1.7s-3.5,0.6-5.2,0.9l-14.1,0.3c-0.5-0.2-1.2-0.2-1.8-0.3c-3.8-0.6-7.6-1.1-11.4-1.7c-0.6,2.2-0.6,2.3,1.5,2.6c2.3,0.4,4.7,0.7,7.1,1c1.4,0.2,2.8,0.4,4.3,0.6h0.4c1.3,0.1,4.6,0,7.7-0.1C-52.2,187.1-49.9,187-47.2,186.7C-47.3,186.7-47.2,186.7-47.2,186.7z"></path>
-          <path fill="var(--color-primary)" d="M-55,106.7c-0.6,1.4-1.7,1.3-2.7,1.2c-0.6-0.1-1.1-0.6-1.5-1.2H-55z M-78,94.6c1.2-1,2.7-1,4.3-0.4c-1.4,0.3-2.8,0.5-4.1,0.8C-77.9,94.9-78,94.7-78,94.6z"></path>
-          <path fill="var(--color-primary)" d="M-14.5,102.1c-0.5-5-1.7-9.9-2.8-14.8c-0.5-2.3-1.5-4.5-2.8-6.5c-3.4-5.5-6.9-10.9-9.7-16.8c-1.2-2.6-2.7-5-5-7c-4-3.5-8.5-4.9-13.7-4.6c-1.1,0.1-2.3,0.1-3.2-0.4c-5.5-2.8-11.3-2.7-17.2-1.9c-3.6,0.5-6.7,2.3-9.9,4C-85,57.2-90.1,61.6-94.4,67c-0.7,0.9-1.5,1.8-2.3,2.8c-1.3,1.5-2.9,2-4.8,1.6c-0.4-0.1-0.8-0.2-1.5-0.3c0.9,2.1,2.5,3.2,4.6,4.1c-2.5,5.8-3.3,11.9-4.3,18c-0.8,5-0.9,10,0,15.1c0.6,3.4,0.9,6.8,1,10.2c0.1,1.8,0.5,3.6,0.2,5.4c0.4,3.4,0.6,6.9,0.8,10.3c0.4,0.4,0.9,0.9,1.2,1.4l0.3,0.6c0.2-0.5,0.4-1,0.6-1.4c0.8-1.8,1.8-3.8,3.7-4.5c0.1,0,0.1,0,0.2,0.1c1.4,2.4,2.5,5,3.5,7.6c1.5-1,2.6-2.4,4-3.5c0.1-0.1,0.2,0,0.2,0.1c0.7,2.3,0.8,4.7,1,7c1.4-1.3,2.6-2.8,4-4.1c0.1-0.1,0.2-0.1,0.2,0c0.4,0.9,0.5,1.9,0.6,2.8c0.8-0.4,1.6-0.9,2.2-1.7c0.1-0.1,0.2,0,0.2,0.1c0.2,0.6,0.4,1.2,0.5,1.9c0.3-0.4,0.7-0.7,1-1.2c0.1-0.1,0.3-0.1,0.3,0.1c0,0.7-0.4,1.4-0.9,1.9c-0.2,0.3-0.5,0.5-0.7,0.8c-0.1,1.8-0.2,3.5-0.3,5.3c-0.4,3.3-0.8,6.6-1.3,9.9c-0.5,2.8-1.2,5.6-1.7,8.4c-0.2,1.2,0.1,2.5,0.2,3.8c0,0.4,0.2,0.8,0.1,1.1c-0.3,1-0.4,1.9,0.7,2.6c0.2,0.1,0.3,0.7,0.3,1v2.4c0,2.8,0.5,3.3,3.4,3.5c0.4,0,0.9,0.2,1.2,0.3c-0.2,1.8-0.3,3.6-0.5,5.4l0.1,0.1c2,0.1,2.1,1.4,2.2,3.1c0.4,5.1,1,10.1,1.6,15.2c0.1,0.7,0.1,1.4,0.1,2.1c0,0-0.1,0-0.1,0.1c0.3,0.9,0.2,2,0.4,2.9v0.1c0,0.2,0.1,0.4,0.2,0.6c0,0.1,0,0.1-0.1,0.2c0.6,6,1.3,11.9,1.7,17.9c0.3,3.8-0.1,7.5,0.1,11.3c0.1,3.4,0.5,6.7,0.7,10.1c0.2,2.7,0.7,3.2,3.5,3.2c0.7,0,1.4-0.2,2-0.4c1.6-0.4,2.1-1.4,1.7-2.9c-0.2-0.7-0.5-1.3-0.9-1.9c-1.3-1.8-1.3-3.6-0.1-5.5c0.5-0.8,0.9-1.7-0.1-2.5c-0.2-0.1-0.3-0.4-0.3-0.6c0-2.2-0.1-4.4,0.1-6.5c0.4-3.5,1.1-7,1.7-10.6c0.4-2.5,0.7-4.9,1-7.3c-0.1,0-0.1-0.1-0.1-0.1c0-0.8,0.2-1.5,0.2-2.3c-0.1,0-0.1-0.1-0.1-0.2s0.1-0.3,0.2-0.4v-1c0.6-7.7,1.1-15.5,1.7-23.2c0-0.4,0.2-0.7,0.3-1.3c1.6,2,1.5,4.1,1.6,6.1c0.2,3.6,0.2,7.1,0.5,10.7c0.2,2.5,0.5,4.9,0.9,7.3c0.1,0.4,0.1,0.7,0,1c0.4,0.5,0.4,1.1,0.4,1.6h0.1c0,2.5-0.1,4.9,0,7.3c0.2,5,0.6,10.1,0.9,15.1c0,0.3,0.1,0.7,0,0.9c-1.3,1.3-0.6,2.9-0.7,4.3c-1.5,0.8-1.6,2.2-0.2,3.2c0.9,0.6,0.9,1.3,0.6,2c-0.4,0.8-1.1,1.5-1.4,2.3c-0.4,1-0.9,2.2-0.8,3.3c0,0.6,1,1.6,1.6,1.7c1.2,0.2,2.6-0.1,3.8-0.3c0.4-0.1,0.9-0.8,1-1.2c0.7-3.2,1.4-6.4,1.8-9.6c0.3-2,0.1-4.1,0.3-6.2c0.9-8.1,1.9-16.2,2.6-24.4c0.1-1.1,0.3-2,0.5-3c0-0.5,0-1.1-0.1-1.6c-0.1-0.9-0.1-1.8,0.2-2.7c0.5-5.2,1-10.4,1.6-15.6c0-0.4,0.5-0.8,0.9-0.9c0.8-0.3,1.7-0.5,2.6-0.6c1.1-0.2,1.5-0.9,1.3-1.9c-0.2-1.4-0.5-2.7-0.7-4.1c0-0.3,0.4-0.9,0.6-1c2.6-0.7,3.2-1.3,3-3.9c-0.2-2.3,0.5-4.5,0.5-6.8c0-0.8,0.1-1.6,0-2.4c-0.5-3.7-1.1-7.3-1.4-11c-0.4-4.1-0.5-8.1-0.8-12.2c0-0.1,0.1-0.2,0.1-0.3c0.2,0,0.5,0.1,0.7,0.1c0.3-2.2,1-4.4,2.2-6.3c0.1-0.1,0.2-0.1,0.3,0c1.2,1.8,2.1,3.7,3,5.6c0.5-0.2,1-0.5,1.4-0.9c0.1-1.7,0.2-3.4,1.2-4.9c0-0.1,0.1-0.1,0.2-0.1c1,0.6,1.9,1.4,2.6,2.4c0.9-2.5,1-5.2,2-7.8c0-0.1,0.2-0.1,0.2-0.1c0.3,0.3,0.5,0.6,0.7,0.9c1.7-3.5,3.4-7,5.1-10.4C-14.8,115.3-13.8,108.8-14.5,102.1L-14.5,102.1z M-76.7,179.3c-0.4-1-0.8-1.6-1.5-0.5c-0.6-0.3-1.1-0.6-1.7-1v-4.4c1.6,0.5,3.1,0.7,4.4,1.4C-74.9,175.1-75.9,178.7-76.7,179.3z M-62,187.1c-1.4-0.2-2.8-0.4-4.3-0.6c-2.4-0.3-4.7-0.7-7.1-1c-2.1-0.3-2.1-0.4-1.5-2.6c3.8,0.6,7.6,1.1,11.4,1.7c0.6,0.1,1.2,0.1,1.8,0.3c0.5,0.2,1.3,0.7,1.3,1C-60.5,186.7-61,187.3-62,187.1L-62,187.1z M-73.9,181.4c-0.2,0-0.4-0.1-0.7-0.3c0.3-1.9,0.5-3.8,0.9-5.7c0.1-0.3,0.8-0.6,1.2-0.8c1.9-0.8,3.8-1.3,5.6-2.3c0.9-0.5,1.2-1.8,1.9-2.7c0.2-0.3,0.6-0.8,0.8-0.8c1.7,0,3.4,0.1,5.1,0.2c0.5,0,3,0.2,3,0.2h5.4c0.2,0,0.6,0.3,0.7,0.5c1,3.1,3.8,3.4,6.4,4.3c0.5,0.2,1.1,0.1,1.7,0.1c0.4,2.2,0.7,4.5,1.1,6.7c0.2,1.1-0.4,1.4-1.3,1.5c-2.4,0.4-4.7,0.7-7.1,1.1h-0.1C-59.7,183.2-69.2,182.2-73.9,181.4z M-73.2,172.7c0.1-1.5,0.1-2.9,0.2-4.3c2.3,0.2,4.4,0.3,6.4,0.4C-67.2,170.9-70.4,172.7-73.2,172.7z M-48.3,169.8c0-0.2,0.1-0.3,0.1-0.5c0.6,0,1.1-0.1,1.7-0.1s1.2,0.1,1.8,0.1c2.1-0.2,2.6,0.3,2.4,2.4c0,0.3-0.6,0.8-0.8,0.8C-45.2,172-47.1,171.4-48.3,169.8z M-57.1,186.2c1.5-0.2,2.9-0.5,4.3-0.7c3.5-0.6,6.9-1.2,10.4-1.8c1.6-0.3,1.9-0.1,2.3,1.7C-48.2,187.2-56.1,187.7-57.1,186.2z M-36.9,177c0,0.4-0.9,0.7-1.5,1c-0.5,0.2-1.1,0.2-1.8,0.3c-0.2-1.6-0.4-3.3-0.6-4.9c1.3-0.3,2.4-0.5,4-0.7C-36.8,174.2-36.7,175.6-36.9,177z M-36.9,165.6c0.2,1.2,0.5,2.4-0.4,3.5c-0.8,1-1.8,1.2-2.8,0.9c-0.6-0.2-1.1-0.9-1.4-1.5s-0.4-1.3-0.4-2v-20.9c0-0.5-0.2-1-0.7-1.5c-1.2,7.8-0.6,15.6-0.6,23.8c-9.7-0.3-19.3-0.6-29-1c0.4-3.4,0.8-6.4,0.9-9.4c0.2-3.5,0.2-7,0.4-10.5c0-0.2,0.1-0.5,0.1-0.7l-0.6-4.2c-0.9,1.1-1.2,2.4-1.2,3.8c-0.1,4.2-0.1,8.3-0.3,12.5c-0.1,2.4-0.3,4.9-0.7,7.2c-0.3,1.7-1.1,3.2-1.8,5.1c-1.3-0.3-2.9-0.5-4.2-1.1c-1.2-0.5-1.8-1.8-1.4-3.2c2.4-7.9,2.5-16.1,3.8-24.2c0.4-2.4,0.8-4.8,1-7.2c0.3-2.3,1.8-3.6,3.7-4.5c2-0.9,4.2-1.4,6.3-2.1c0.5-0.2,1-0.3,1.4-0.4c0.7-0.1,1.3-0.1,1.4,0.8c0.1,0.4,0.4,0.7,0.6,1c1.8,1.9,6.2,2.3,8.3,0.6c0.7-0.6,1.2-1.6,2-2.8c1.8,0.6,3.9,1.3,6.1,2c0.3,0.1,0.6,0.4,0.9,0.5c3.9,1,4.6,4,4.9,7.4c0.1,1.6,0.7,3.1,0.9,4.7c0.3,2.7,0.4,5.5,0.7,8.3C-38.2,155.7-37.6,160.7-36.9,165.6z M-35.4,115.2c-4.3,4-9.7,5.9-15.3,7.1c-1.8,0.4-3.6,0.8-5.4,1.5c0.6,0.1,1.3,0.2,1.9,0.3c0.6,3.6-0.2,4.1-3.3,4.3c-1.1,0.1-2.3-0.2-3.4-0.3c-0.2,0-0.6-0.2-0.7-0.4c-0.6-1.1,0.1-3.7,1.5-4.7c-1.7-0.2-3.1-0.4-4.5-0.5c-5.7-0.3-11.1-1.9-15.8-5.1c-1-0.7-1.9-1.5-2.7-2.3c-1.6-1.5-2.3-3.3-2-5.6c0.5-3.2,0.8-6.5,2.3-9.4c0.1-0.3,0.3-0.5,0.4-0.7c0,0,0-0.1,0.1-0.1c1.5-3.9,3.9-6.9,7.5-8.6c4-1.9,8.2-3.4,12.4-5.1c2.5-1,5-1.9,7.5-2.9c3.5-1.4,6.3-3.7,8.9-6.4c0.3-0.3,0.5-0.6,0.8-1.1c3.6,3.7,6.9,7.2,8.9,11.7c2.5,5.6,4,11.3,3.7,17.4c-0.1,1.5-0.2,3.1,0,4.6C-32.3,111.6-33.6,113.4-35.4,115.2z"></path>
-          <path class="girl__eyes" id="girl-main-eyes" fill="var(--color-primary)" d="M-78.3,98.8c-1.1,0.8-2.2,1.4-3.7,0.7c-0.1,0.3-0.3,0.5-0.4,0.7c0.7,0.3,1.3,0.5,1.8,0.9c0.3,0.2,0.6,0.6,0.8,1c0.4,0.9,0.6,1.9,1.2,2.6c1.3,1.6,3.8,1.7,5.3,0.5c1.5-1.2,1.7-4.1,0.4-5.7C-74.1,98-76.7,97.6-78.3,98.8zM-35,96.7c-2.2,1.1-2.6,3.2-3.4,5c-0.8,1.7-3.1,2.2-4.6,1.5c-1.6-0.7-2.5-2.8-2.1-4.6c0.4-1.7,1.8-2.6,3.8-2.5c0.5,0,1,0,1.5,0.2C-38.3,96.9-36.8,97.5-35,96.7z"></path>
-          <path fill="var(--color-primary)" d="M-44.9,91.8c1.3-0.9,2.8-0.7,4.3,0.1l-4.2,0.3C-44.9,92.1-44.9,92-44.9,91.8z"></path>
-          <path fill="var(--color-accent)" d="M-37,165.3c-0.7-4.9-1.3-9.9-1.9-14.8c-0.3-2.7-0.4-5.5-0.7-8.3c-0.2-1.6-0.7-3.1-0.9-4.7c-0.3-3.4-1.1-6.4-4.9-7.4c-0.3-0.1-0.6-0.4-0.9-0.5c-2.1-0.7-4.3-1.4-6.1-2c-0.8,1.2-1.3,2.2-2,2.8c-2,1.7-6.4,1.3-8.3-0.6c-0.3-0.3-0.6-0.6-0.6-1c-0.2-0.9-0.8-0.9-1.4-0.8c-0.5,0.1-1,0.2-1.4,0.4c-2.1,0.7-4.3,1.2-6.3,2.1c-1.9,0.8-3.4,2.1-3.7,4.5c-0.3,2.4-0.7,4.8-1,7.2c-1.3,8-1.3,16.3-3.8,24.2c-0.4,1.3,0.2,2.6,1.4,3.2c1.3,0.6,2.9,0.8,4.2,1.1c0.7-1.9,1.5-3.5,1.8-5.1c0.4-2.4,0.6-4.8,0.7-7.2c0.2-4.2,0.2-8.3,0.3-12.5c0-1.4,0.3-2.7,1.2-3.8l0.6,4.2c-0.1,0.2-0.1,0.5-0.1,0.7c-0.1,3.5-0.1,7-0.4,10.5c-0.2,3-0.6,6-0.9,9.4c9.7,0.3,19.4,0.6,29.1,1c0-8.2-0.6-16,0.6-23.8c0.5,0.5,0.7,1,0.7,1.5v20.9c0,0.7,0.1,1.4,0.4,2c0.3,0.6,0.8,1.3,1.4,1.5c1,0.3,2,0.1,2.8-0.9C-36.5,167.7-36.8,166.5-37,165.3L-37,165.3z"></path>
-          <path fill="var(--background-color-primary)" d="M-32.7,108.7c-0.2-1.5-0.1-3.1,0-4.6c0.3-6.1-1.2-11.8-3.7-17.4c-2-4.5-5.3-8-8.9-11.7c-0.3,0.5-0.5,0.8-0.8,1.1c-2.6,2.7-5.4,5-8.9,6.4c-2.5,1-5,1.9-7.5,2.9c-4.2,1.7-8.4,3.2-12.4,5.1c-3.6,1.8-6,4.8-7.5,8.7c1.6,0.9,2.7,0.3,3.9-0.7c1.7-1.1,4.2-0.7,5.4,0.8c1.3,1.6,1.1,4.5-0.4,5.7c-1.5,1.2-4,1.1-5.3-0.5c-0.6-0.7-0.8-1.7-1.2-2.6c-0.2-0.4-0.5-0.8-0.8-1c-0.6-0.4-1.3-0.7-2.1-1c-1.5,2.9-1.8,6.2-2.3,9.4c-0.3,2.3,0.4,4.1,2,5.6c0.8,0.8,1.7,1.6,2.7,2.3c4.7,3.2,10.1,4.8,15.8,5.1c1.4,0.1,2.8,0.3,4.5,0.5c-1.4,1-2.1,3.6-1.5,4.7c0.1,0.2,0.5,0.4,0.7,0.4c1.1,0.1,2.3,0.4,3.4,0.3c3.1-0.2,3.9-0.7,3.3-4.3c-0.6-0.1-1.3-0.2-1.9-0.3c1.8-0.7,3.6-1.1,5.4-1.5c5.6-1.2,11-3.1,15.3-7.1C-33.6,113.3-32.3,111.4-32.7,108.7L-32.7,108.7z M-77.9,95c0-0.1-0.1-0.3-0.1-0.4c1.3-1,2.7-1,4.2-0.4C-75.1,94.5-76.5,94.7-77.9,95z M-40.6,91.8c-1.4,0.2-2.9,0.4-4.3,0.6C-44,90.9-41.9,90.7-40.6,91.8z M-38.5,101.7c-0.7,1.7-3,2.2-4.6,1.5s-2.5-2.7-2.1-4.6c0.3-1.7,1.8-2.6,3.8-2.5c0.5,0,1.1,0,1.5,0.2c1.6,0.7,3.1,1.3,4.9,0.4C-37.2,97.8-37.6,99.8-38.5,101.7z"></path>
-          <path fill="var(--color-primary)" d="M-60.6,109.3h6.4C-54.2,109.3-57.5,113.7-60.6,109.3z M-45.6,92.2c0,0,4.2-2.5,7.2,0.6C-38.4,92.8-45.6,92.2-45.6,92.2z M-79.6,95.2c0,0,3.6-3.6,7.4-1.3L-79.6,95.2z"></path>
-          <polygon fill="var(--color-primary)" points="-36.4,89.4 -48.5,89 -49.9,87.4 -50.8,89.4 -60.7,89.4 -63.2,87.4 -63.2,89.4 -83.1,91.1 -80.7,69.2 -37,68.7 -34.7,89.2 "></polygon>
-        </svg>
-
-        <!-- SCROLL DOWN BUTTON -->
-        <a
-          class="scroll-down-button main-illustration__scroll-down-button"
-          id="scroll-down-button"
-          href="#portfolio"
-          aria-label="Scroll to Portfolio"
-          title="Scroll down"
-        >
-          <svg 
-            class="scroll-down-button__icon" 
-            role="presentation" 
-            aria-hidden="true"
-          >
-            <use xlink:href="#arrow-down"></use>
-          </svg>
-        </a>
-
-        <div class="rabbit main-illustration__rabbit"></div>
-
-        <!-- TREE -->
-        <div class="tree main-illustration__tree">
-          <div class="tree__item tree__item_light tree__item_light_top"></div>
-          <div class="tree__item tree__item_light tree__item_light_bottom"></div>
-          <div class="tree__item tree__item_gear tree__item_gear_one"></div>
-          <div class="tree__item tree__item_gear tree__item_gear_two"></div>
-          <div class="tree__item tree__item_gear tree__item_gear_three"></div>
-          <div class="tree__item tree__item_gear tree__item_gear_four"></div>
-          <div class="tree__item tree__item_gear tree__item_gear_five"></div>
+        <div class="main-illustration main-page__illustration">
+          <!-- NAVIGATION -->
+          <nav class="main-nav main-illustration__waymarker">
+            <ul class="main-nav__items">
+              <li class="main-nav__item">
+                <a class="main-nav__link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="main-nav__item">
+                <a class="main-nav__link" href="#about-me">About me</a>
+              </li>
+              <li class="main-nav__item">
+                <a class="main-nav__link" href="#contacts">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+        
+          <!-- MAIN ILLUSTRATION -->
+          <!-- A Girl -->
           <svg
-            class="tree__item tree__item_key"
+            class="girl main-illustration__girl"
+            id="girl-main"
             xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 17.4 17.5"
-            fill="var(--color-primary)"
+            viewBox="-104 49.6 90.5 203.4"
+            enable-background="new -104 49.6 90.5 203.4"
             role="presentation"
             aria-hidden="true"
           >
-            <path class="st0" d="M8.7 6.6s-.1 0 0 0h-.2c-1 .1-1.1 1.1-1.1 1.1s-1.1.2-1.2 1.2c0 .8.5 1.5 1.2 1.5.4 0 .7-.1.9-.3v.4c-.1.1-.2.1-.2.2s0 .1.1.1c-.1.2-.2.2-.2.3 0 .1.1.2.2.2l-.1.1c0 .1.1.2.2.2 0 .4-.1 1.1-.2 1.4 0 .1.1.2.2.2-.1.1-.1.2-.1.3 0 .2.1.3.2.4v1.8h-.1v.2c-.1 0-.1.1-.1.1 0 .1 0 .1.1.1 0 0 .1 0 .1.1v1c0 .1.1.1.1.1h.1c.1 0 .1 0 .1-.1s.3 0 .3 0h.6c.1 0 .1-.1.1-.1 0-.1 0-.1-.1-.1l-.1-.1v-.3c0-.1 0-.1.1-.1l.1-.1c0-.1-.1-.1-.1-.1H9h-.1c.1 0 .2-.1.2-.2s0-.1-.1-.1v-.1c0-.1 0-.1-.1-.1v-1.6c.1-.1.3-.2.3-.4 0-.1 0-.2-.1-.2.1 0 .2-.1.2-.2-.1-.5-.2-1.1-.2-1.5.2-.1.3-.1.3-.2s0-.1-.1-.1c.1-.1.2-.1.2-.2s-.1-.2-.2-.2l.1-.1c0-.1-.1-.2-.3-.3v-.4c.2.2.5.3.8.3.3 0 1.3-.3 1.3-1.3C11.2 8 10 7.7 10 7.7s-.2-1-1.2-1.1h-.1zM8 9.9c-.5.3-1.3 0-1.4-.7-.1-.7.6-1.1.8-1.1.2 0 .9.7 1.1.9s0 .1-.1.3c0 .2-.1.4-.4.6zm2.8-.4c-.3.8-1.6.9-1.9-.4 0 0 .9-.9 1.1-.9.2 0 1 .5.8 1.3zM9.6 7.7c0 .3-.5.7-.8.9 0 .1-.1.2-.1.2s-.1-.1-.2-.1l-.1-.1c-.3-.3-.6-.6-.7-.9 0-.3.3-.6.7-.7h.5c.3.1.7.4.7.7z"></path>
-            <path class="st0" d="M8.284.105l.2-.006.23 6.595-.2.007z"></path>
+            <path fill="var(--color-primary)" d="M-52.4,206.8c0-0.1,0.1-0.2,0.1-0.2S-52.3,206.7-52.4,206.8z"></path>
+            <path fill="var(--color-primary)" d="M-44.9,161.8c1.3-0.2,2.3-0.4,3.8-0.7c0,1.5,0.1,2.9-0.1,4.2c0,0.4-0.9,0.7-1.4,0.9c-0.5,0.2-1,0.2-1.7,0.3C-44.5,165-44.7,163.4-44.9,161.8z"></path>
+            <path fill="var(--color-primary)" d="M-50.5,185.8h-0.2H-50.5c0,0,0.1,0,0.1-0.1C-50.4,185.7-50.4,185.8-50.5,185.8z"></path>
+            <path fill="var(--color-accent)" d="M-73.2,172.7c0.1-1.5,0.1-2.9,0.2-4.3c2.3,0.2,4.4,0.3,6.4,0.4C-67.2,170.9-70.4,172.7-73.2,172.7zM-48.3,169.3c0.6,0,1.1-0.1,1.7-0.1s1.2,0.1,1.8,0.1c2.1-0.2,2.6,0.3,2.4,2.4c0,0.3-0.6,0.8-0.8,0.8c-1.9-0.4-3.8-1-5-2.6C-48.3,169.7-48.3,169.5-48.3,169.3z"></path>
+            <path fill="var(--color-primary-light)" d="M-40.8,180.7c-0.4-2.2-0.7-4.5-1.1-6.7c-0.6,0-1.2,0-1.7-0.1c-2.5-0.8-5.4-1.1-6.4-4.3c-0.1-0.2-0.4-0.5-0.7-0.5h-5.4c0,0-2.4-0.2-3-0.2c-1.7-0.1-3.4-0.2-5.1-0.2c-0.3,0-0.6,0.4-0.8,0.8c-0.6,0.9-1,2.2-1.9,2.7c-1.7,1-3.7,1.5-5.6,2.3c-0.4,0.2-1.1,0.5-1.2,0.8c-0.4,1.9-0.6,3.8-0.9,5.7c0.2,0.1,0.4,0.2,0.7,0.3c3.4,1.3,5.8,1.2,9.6,1.7c3.1,0.4,2.4,0.5,4.6,0.7c3.6,0.3,4.8-0.2,10-0.1h2.1c2.7-0.2,2.7-0.8,5.1-1.1c0.3,0,0.9-0.1,1.2-0.5C-40.8,181.5-40.8,181.2-40.8,180.7z M-57.8,182.9c0.1-0.1,0.1-0.2,0.1-0.2S-57.7,182.8-57.8,182.9z"></path>
+            <path fill="var(--color-accent)" d="M-47.2,186.7c2.2-0.3,4.6-0.7,7.1-1.3c-0.3-1.8-0.6-2-2.3-1.7s-3.5,0.6-5.2,0.9l-14.1,0.3c-0.5-0.2-1.2-0.2-1.8-0.3c-3.8-0.6-7.6-1.1-11.4-1.7c-0.6,2.2-0.6,2.3,1.5,2.6c2.3,0.4,4.7,0.7,7.1,1c1.4,0.2,2.8,0.4,4.3,0.6h0.4c1.3,0.1,4.6,0,7.7-0.1C-52.2,187.1-49.9,187-47.2,186.7C-47.3,186.7-47.2,186.7-47.2,186.7z"></path>
+            <path fill="var(--color-primary)" d="M-55,106.7c-0.6,1.4-1.7,1.3-2.7,1.2c-0.6-0.1-1.1-0.6-1.5-1.2H-55z M-78,94.6c1.2-1,2.7-1,4.3-0.4c-1.4,0.3-2.8,0.5-4.1,0.8C-77.9,94.9-78,94.7-78,94.6z"></path>
+            <path fill="var(--color-primary)" d="M-14.5,102.1c-0.5-5-1.7-9.9-2.8-14.8c-0.5-2.3-1.5-4.5-2.8-6.5c-3.4-5.5-6.9-10.9-9.7-16.8c-1.2-2.6-2.7-5-5-7c-4-3.5-8.5-4.9-13.7-4.6c-1.1,0.1-2.3,0.1-3.2-0.4c-5.5-2.8-11.3-2.7-17.2-1.9c-3.6,0.5-6.7,2.3-9.9,4C-85,57.2-90.1,61.6-94.4,67c-0.7,0.9-1.5,1.8-2.3,2.8c-1.3,1.5-2.9,2-4.8,1.6c-0.4-0.1-0.8-0.2-1.5-0.3c0.9,2.1,2.5,3.2,4.6,4.1c-2.5,5.8-3.3,11.9-4.3,18c-0.8,5-0.9,10,0,15.1c0.6,3.4,0.9,6.8,1,10.2c0.1,1.8,0.5,3.6,0.2,5.4c0.4,3.4,0.6,6.9,0.8,10.3c0.4,0.4,0.9,0.9,1.2,1.4l0.3,0.6c0.2-0.5,0.4-1,0.6-1.4c0.8-1.8,1.8-3.8,3.7-4.5c0.1,0,0.1,0,0.2,0.1c1.4,2.4,2.5,5,3.5,7.6c1.5-1,2.6-2.4,4-3.5c0.1-0.1,0.2,0,0.2,0.1c0.7,2.3,0.8,4.7,1,7c1.4-1.3,2.6-2.8,4-4.1c0.1-0.1,0.2-0.1,0.2,0c0.4,0.9,0.5,1.9,0.6,2.8c0.8-0.4,1.6-0.9,2.2-1.7c0.1-0.1,0.2,0,0.2,0.1c0.2,0.6,0.4,1.2,0.5,1.9c0.3-0.4,0.7-0.7,1-1.2c0.1-0.1,0.3-0.1,0.3,0.1c0,0.7-0.4,1.4-0.9,1.9c-0.2,0.3-0.5,0.5-0.7,0.8c-0.1,1.8-0.2,3.5-0.3,5.3c-0.4,3.3-0.8,6.6-1.3,9.9c-0.5,2.8-1.2,5.6-1.7,8.4c-0.2,1.2,0.1,2.5,0.2,3.8c0,0.4,0.2,0.8,0.1,1.1c-0.3,1-0.4,1.9,0.7,2.6c0.2,0.1,0.3,0.7,0.3,1v2.4c0,2.8,0.5,3.3,3.4,3.5c0.4,0,0.9,0.2,1.2,0.3c-0.2,1.8-0.3,3.6-0.5,5.4l0.1,0.1c2,0.1,2.1,1.4,2.2,3.1c0.4,5.1,1,10.1,1.6,15.2c0.1,0.7,0.1,1.4,0.1,2.1c0,0-0.1,0-0.1,0.1c0.3,0.9,0.2,2,0.4,2.9v0.1c0,0.2,0.1,0.4,0.2,0.6c0,0.1,0,0.1-0.1,0.2c0.6,6,1.3,11.9,1.7,17.9c0.3,3.8-0.1,7.5,0.1,11.3c0.1,3.4,0.5,6.7,0.7,10.1c0.2,2.7,0.7,3.2,3.5,3.2c0.7,0,1.4-0.2,2-0.4c1.6-0.4,2.1-1.4,1.7-2.9c-0.2-0.7-0.5-1.3-0.9-1.9c-1.3-1.8-1.3-3.6-0.1-5.5c0.5-0.8,0.9-1.7-0.1-2.5c-0.2-0.1-0.3-0.4-0.3-0.6c0-2.2-0.1-4.4,0.1-6.5c0.4-3.5,1.1-7,1.7-10.6c0.4-2.5,0.7-4.9,1-7.3c-0.1,0-0.1-0.1-0.1-0.1c0-0.8,0.2-1.5,0.2-2.3c-0.1,0-0.1-0.1-0.1-0.2s0.1-0.3,0.2-0.4v-1c0.6-7.7,1.1-15.5,1.7-23.2c0-0.4,0.2-0.7,0.3-1.3c1.6,2,1.5,4.1,1.6,6.1c0.2,3.6,0.2,7.1,0.5,10.7c0.2,2.5,0.5,4.9,0.9,7.3c0.1,0.4,0.1,0.7,0,1c0.4,0.5,0.4,1.1,0.4,1.6h0.1c0,2.5-0.1,4.9,0,7.3c0.2,5,0.6,10.1,0.9,15.1c0,0.3,0.1,0.7,0,0.9c-1.3,1.3-0.6,2.9-0.7,4.3c-1.5,0.8-1.6,2.2-0.2,3.2c0.9,0.6,0.9,1.3,0.6,2c-0.4,0.8-1.1,1.5-1.4,2.3c-0.4,1-0.9,2.2-0.8,3.3c0,0.6,1,1.6,1.6,1.7c1.2,0.2,2.6-0.1,3.8-0.3c0.4-0.1,0.9-0.8,1-1.2c0.7-3.2,1.4-6.4,1.8-9.6c0.3-2,0.1-4.1,0.3-6.2c0.9-8.1,1.9-16.2,2.6-24.4c0.1-1.1,0.3-2,0.5-3c0-0.5,0-1.1-0.1-1.6c-0.1-0.9-0.1-1.8,0.2-2.7c0.5-5.2,1-10.4,1.6-15.6c0-0.4,0.5-0.8,0.9-0.9c0.8-0.3,1.7-0.5,2.6-0.6c1.1-0.2,1.5-0.9,1.3-1.9c-0.2-1.4-0.5-2.7-0.7-4.1c0-0.3,0.4-0.9,0.6-1c2.6-0.7,3.2-1.3,3-3.9c-0.2-2.3,0.5-4.5,0.5-6.8c0-0.8,0.1-1.6,0-2.4c-0.5-3.7-1.1-7.3-1.4-11c-0.4-4.1-0.5-8.1-0.8-12.2c0-0.1,0.1-0.2,0.1-0.3c0.2,0,0.5,0.1,0.7,0.1c0.3-2.2,1-4.4,2.2-6.3c0.1-0.1,0.2-0.1,0.3,0c1.2,1.8,2.1,3.7,3,5.6c0.5-0.2,1-0.5,1.4-0.9c0.1-1.7,0.2-3.4,1.2-4.9c0-0.1,0.1-0.1,0.2-0.1c1,0.6,1.9,1.4,2.6,2.4c0.9-2.5,1-5.2,2-7.8c0-0.1,0.2-0.1,0.2-0.1c0.3,0.3,0.5,0.6,0.7,0.9c1.7-3.5,3.4-7,5.1-10.4C-14.8,115.3-13.8,108.8-14.5,102.1L-14.5,102.1z M-76.7,179.3c-0.4-1-0.8-1.6-1.5-0.5c-0.6-0.3-1.1-0.6-1.7-1v-4.4c1.6,0.5,3.1,0.7,4.4,1.4C-74.9,175.1-75.9,178.7-76.7,179.3z M-62,187.1c-1.4-0.2-2.8-0.4-4.3-0.6c-2.4-0.3-4.7-0.7-7.1-1c-2.1-0.3-2.1-0.4-1.5-2.6c3.8,0.6,7.6,1.1,11.4,1.7c0.6,0.1,1.2,0.1,1.8,0.3c0.5,0.2,1.3,0.7,1.3,1C-60.5,186.7-61,187.3-62,187.1L-62,187.1z M-73.9,181.4c-0.2,0-0.4-0.1-0.7-0.3c0.3-1.9,0.5-3.8,0.9-5.7c0.1-0.3,0.8-0.6,1.2-0.8c1.9-0.8,3.8-1.3,5.6-2.3c0.9-0.5,1.2-1.8,1.9-2.7c0.2-0.3,0.6-0.8,0.8-0.8c1.7,0,3.4,0.1,5.1,0.2c0.5,0,3,0.2,3,0.2h5.4c0.2,0,0.6,0.3,0.7,0.5c1,3.1,3.8,3.4,6.4,4.3c0.5,0.2,1.1,0.1,1.7,0.1c0.4,2.2,0.7,4.5,1.1,6.7c0.2,1.1-0.4,1.4-1.3,1.5c-2.4,0.4-4.7,0.7-7.1,1.1h-0.1C-59.7,183.2-69.2,182.2-73.9,181.4z M-73.2,172.7c0.1-1.5,0.1-2.9,0.2-4.3c2.3,0.2,4.4,0.3,6.4,0.4C-67.2,170.9-70.4,172.7-73.2,172.7z M-48.3,169.8c0-0.2,0.1-0.3,0.1-0.5c0.6,0,1.1-0.1,1.7-0.1s1.2,0.1,1.8,0.1c2.1-0.2,2.6,0.3,2.4,2.4c0,0.3-0.6,0.8-0.8,0.8C-45.2,172-47.1,171.4-48.3,169.8z M-57.1,186.2c1.5-0.2,2.9-0.5,4.3-0.7c3.5-0.6,6.9-1.2,10.4-1.8c1.6-0.3,1.9-0.1,2.3,1.7C-48.2,187.2-56.1,187.7-57.1,186.2z M-36.9,177c0,0.4-0.9,0.7-1.5,1c-0.5,0.2-1.1,0.2-1.8,0.3c-0.2-1.6-0.4-3.3-0.6-4.9c1.3-0.3,2.4-0.5,4-0.7C-36.8,174.2-36.7,175.6-36.9,177z M-36.9,165.6c0.2,1.2,0.5,2.4-0.4,3.5c-0.8,1-1.8,1.2-2.8,0.9c-0.6-0.2-1.1-0.9-1.4-1.5s-0.4-1.3-0.4-2v-20.9c0-0.5-0.2-1-0.7-1.5c-1.2,7.8-0.6,15.6-0.6,23.8c-9.7-0.3-19.3-0.6-29-1c0.4-3.4,0.8-6.4,0.9-9.4c0.2-3.5,0.2-7,0.4-10.5c0-0.2,0.1-0.5,0.1-0.7l-0.6-4.2c-0.9,1.1-1.2,2.4-1.2,3.8c-0.1,4.2-0.1,8.3-0.3,12.5c-0.1,2.4-0.3,4.9-0.7,7.2c-0.3,1.7-1.1,3.2-1.8,5.1c-1.3-0.3-2.9-0.5-4.2-1.1c-1.2-0.5-1.8-1.8-1.4-3.2c2.4-7.9,2.5-16.1,3.8-24.2c0.4-2.4,0.8-4.8,1-7.2c0.3-2.3,1.8-3.6,3.7-4.5c2-0.9,4.2-1.4,6.3-2.1c0.5-0.2,1-0.3,1.4-0.4c0.7-0.1,1.3-0.1,1.4,0.8c0.1,0.4,0.4,0.7,0.6,1c1.8,1.9,6.2,2.3,8.3,0.6c0.7-0.6,1.2-1.6,2-2.8c1.8,0.6,3.9,1.3,6.1,2c0.3,0.1,0.6,0.4,0.9,0.5c3.9,1,4.6,4,4.9,7.4c0.1,1.6,0.7,3.1,0.9,4.7c0.3,2.7,0.4,5.5,0.7,8.3C-38.2,155.7-37.6,160.7-36.9,165.6z M-35.4,115.2c-4.3,4-9.7,5.9-15.3,7.1c-1.8,0.4-3.6,0.8-5.4,1.5c0.6,0.1,1.3,0.2,1.9,0.3c0.6,3.6-0.2,4.1-3.3,4.3c-1.1,0.1-2.3-0.2-3.4-0.3c-0.2,0-0.6-0.2-0.7-0.4c-0.6-1.1,0.1-3.7,1.5-4.7c-1.7-0.2-3.1-0.4-4.5-0.5c-5.7-0.3-11.1-1.9-15.8-5.1c-1-0.7-1.9-1.5-2.7-2.3c-1.6-1.5-2.3-3.3-2-5.6c0.5-3.2,0.8-6.5,2.3-9.4c0.1-0.3,0.3-0.5,0.4-0.7c0,0,0-0.1,0.1-0.1c1.5-3.9,3.9-6.9,7.5-8.6c4-1.9,8.2-3.4,12.4-5.1c2.5-1,5-1.9,7.5-2.9c3.5-1.4,6.3-3.7,8.9-6.4c0.3-0.3,0.5-0.6,0.8-1.1c3.6,3.7,6.9,7.2,8.9,11.7c2.5,5.6,4,11.3,3.7,17.4c-0.1,1.5-0.2,3.1,0,4.6C-32.3,111.6-33.6,113.4-35.4,115.2z"></path>
+            <path class="girl__eyes" id="girl-main-eyes" fill="var(--color-primary)" d="M-78.3,98.8c-1.1,0.8-2.2,1.4-3.7,0.7c-0.1,0.3-0.3,0.5-0.4,0.7c0.7,0.3,1.3,0.5,1.8,0.9c0.3,0.2,0.6,0.6,0.8,1c0.4,0.9,0.6,1.9,1.2,2.6c1.3,1.6,3.8,1.7,5.3,0.5c1.5-1.2,1.7-4.1,0.4-5.7C-74.1,98-76.7,97.6-78.3,98.8zM-35,96.7c-2.2,1.1-2.6,3.2-3.4,5c-0.8,1.7-3.1,2.2-4.6,1.5c-1.6-0.7-2.5-2.8-2.1-4.6c0.4-1.7,1.8-2.6,3.8-2.5c0.5,0,1,0,1.5,0.2C-38.3,96.9-36.8,97.5-35,96.7z"></path>
+            <path fill="var(--color-primary)" d="M-44.9,91.8c1.3-0.9,2.8-0.7,4.3,0.1l-4.2,0.3C-44.9,92.1-44.9,92-44.9,91.8z"></path>
+            <path fill="var(--color-accent)" d="M-37,165.3c-0.7-4.9-1.3-9.9-1.9-14.8c-0.3-2.7-0.4-5.5-0.7-8.3c-0.2-1.6-0.7-3.1-0.9-4.7c-0.3-3.4-1.1-6.4-4.9-7.4c-0.3-0.1-0.6-0.4-0.9-0.5c-2.1-0.7-4.3-1.4-6.1-2c-0.8,1.2-1.3,2.2-2,2.8c-2,1.7-6.4,1.3-8.3-0.6c-0.3-0.3-0.6-0.6-0.6-1c-0.2-0.9-0.8-0.9-1.4-0.8c-0.5,0.1-1,0.2-1.4,0.4c-2.1,0.7-4.3,1.2-6.3,2.1c-1.9,0.8-3.4,2.1-3.7,4.5c-0.3,2.4-0.7,4.8-1,7.2c-1.3,8-1.3,16.3-3.8,24.2c-0.4,1.3,0.2,2.6,1.4,3.2c1.3,0.6,2.9,0.8,4.2,1.1c0.7-1.9,1.5-3.5,1.8-5.1c0.4-2.4,0.6-4.8,0.7-7.2c0.2-4.2,0.2-8.3,0.3-12.5c0-1.4,0.3-2.7,1.2-3.8l0.6,4.2c-0.1,0.2-0.1,0.5-0.1,0.7c-0.1,3.5-0.1,7-0.4,10.5c-0.2,3-0.6,6-0.9,9.4c9.7,0.3,19.4,0.6,29.1,1c0-8.2-0.6-16,0.6-23.8c0.5,0.5,0.7,1,0.7,1.5v20.9c0,0.7,0.1,1.4,0.4,2c0.3,0.6,0.8,1.3,1.4,1.5c1,0.3,2,0.1,2.8-0.9C-36.5,167.7-36.8,166.5-37,165.3L-37,165.3z"></path>
+            <path fill="var(--background-color-primary)" d="M-32.7,108.7c-0.2-1.5-0.1-3.1,0-4.6c0.3-6.1-1.2-11.8-3.7-17.4c-2-4.5-5.3-8-8.9-11.7c-0.3,0.5-0.5,0.8-0.8,1.1c-2.6,2.7-5.4,5-8.9,6.4c-2.5,1-5,1.9-7.5,2.9c-4.2,1.7-8.4,3.2-12.4,5.1c-3.6,1.8-6,4.8-7.5,8.7c1.6,0.9,2.7,0.3,3.9-0.7c1.7-1.1,4.2-0.7,5.4,0.8c1.3,1.6,1.1,4.5-0.4,5.7c-1.5,1.2-4,1.1-5.3-0.5c-0.6-0.7-0.8-1.7-1.2-2.6c-0.2-0.4-0.5-0.8-0.8-1c-0.6-0.4-1.3-0.7-2.1-1c-1.5,2.9-1.8,6.2-2.3,9.4c-0.3,2.3,0.4,4.1,2,5.6c0.8,0.8,1.7,1.6,2.7,2.3c4.7,3.2,10.1,4.8,15.8,5.1c1.4,0.1,2.8,0.3,4.5,0.5c-1.4,1-2.1,3.6-1.5,4.7c0.1,0.2,0.5,0.4,0.7,0.4c1.1,0.1,2.3,0.4,3.4,0.3c3.1-0.2,3.9-0.7,3.3-4.3c-0.6-0.1-1.3-0.2-1.9-0.3c1.8-0.7,3.6-1.1,5.4-1.5c5.6-1.2,11-3.1,15.3-7.1C-33.6,113.3-32.3,111.4-32.7,108.7L-32.7,108.7z M-77.9,95c0-0.1-0.1-0.3-0.1-0.4c1.3-1,2.7-1,4.2-0.4C-75.1,94.5-76.5,94.7-77.9,95z M-40.6,91.8c-1.4,0.2-2.9,0.4-4.3,0.6C-44,90.9-41.9,90.7-40.6,91.8z M-38.5,101.7c-0.7,1.7-3,2.2-4.6,1.5s-2.5-2.7-2.1-4.6c0.3-1.7,1.8-2.6,3.8-2.5c0.5,0,1.1,0,1.5,0.2c1.6,0.7,3.1,1.3,4.9,0.4C-37.2,97.8-37.6,99.8-38.5,101.7z"></path>
+            <path fill="var(--color-primary)" d="M-60.6,109.3h6.4C-54.2,109.3-57.5,113.7-60.6,109.3z M-45.6,92.2c0,0,4.2-2.5,7.2,0.6C-38.4,92.8-45.6,92.2-45.6,92.2z M-79.6,95.2c0,0,3.6-3.6,7.4-1.3L-79.6,95.2z"></path>
+            <polygon fill="var(--color-primary)" points="-36.4,89.4 -48.5,89 -49.9,87.4 -50.8,89.4 -60.7,89.4 -63.2,87.4 -63.2,89.4 -83.1,91.1 -80.7,69.2 -37,68.7 -34.7,89.2 "></polygon>
           </svg>
+
+          <!-- Scroll down button -->
+          <a
+            class="scroll-down-button main-illustration__scroll-down-button"
+            href="#portfolio"
+            aria-label="Scroll to Portfolio"
+            title="Scroll down"
+          >
+            <svg 
+              class="scroll-down-button__icon" 
+              role="presentation" 
+              aria-hidden="true"
+            >
+              <use xlink:href="#arrow-down"></use>
+            </svg>
+          </a>
+          <div class="rabbit main-illustration__rabbit"></div>
+          <!-- TREE -->
+          <div class="tree main-illustration__tree">
+            <svg
+              class="tree__item tree__item_gear"
+              aria-hidden="true"
+            >
+              <use xlink:href="#gear-1"></use>
+            </svg>
+            <svg
+              class="tree__item tree__item_gear"
+              aria-hidden="true"
+            >
+              <use xlink:href="#gear-2"></use>
+            </svg>
+            <svg
+              class="tree__item tree__item_gear"
+              aria-hidden="true"
+            >
+              <use xlink:href="#gear-3"></use>
+            </svg>
+            <svg
+              class="tree__item tree__item_gear"
+              aria-hidden="true"
+            >
+              <use xlink:href="#gear-4"></use>
+            </svg>
+            <svg
+              class="tree__item tree__item_gear"
+              aria-hidden="true"
+            >
+            <use xlink:href="#gear-5"></use>
+            </svg>
+            <svg
+              class="tree__item tree__item_key"
+              aria-hidden="true"
+            >
+              <use xlink:href="#key"></use>
+            </svg>
+          </div>
         </div>
+        <div class="grass main-illustration__grass"></div>
       </div>
-      <div class="grass main-illustration__grass"></div>
-    </div>
-  </header>
+    </header>
 
     <main>
-      <h1 class="visually-hidden">Alisa Filatova's portfolio</h1>
-
       <!-- PORTFOLIO -->
+      <h1 class="visually-hidden">Alisa Filatova's portfolio</h1>
       <section 
         class="portfolio page__section" 
         id="portfolio"
@@ -443,11 +461,12 @@
         <!-- DESK -->
         <div class="desk-wrapper room-illustration__desk-wrapper"> 
            <div class="desk-items desk-wrapper__desk-items">
-            <!-- Desk Lamp -->
+            <!-- Desk items: left side -->
             <div class="desk-lamp desk-items__desk-lamp"></div>
             <div class="keyboard desk-items__keyboard"></div>
-             <!-- Animated Code Screen -->
+             <!-- PC Display -->
             <div class="pc-display desk-items__pc-display">
+              <!-- Animated Code Screen -->
               <div class="code-screen pc-display__code-screen">
                 <svg
                   class="code-screen__img"
@@ -526,9 +545,8 @@
               <div class="pc-display__holder"></div>
               <div class="pc-display__stand"></div>
             </div>
-            <!-- Mouse -->
+            <!-- Desk items: right side -->
             <div class="mouse desk-items__mouse"></div>
-            <!-- Steamed Cup -->
             <div class="cup-wrapper desk-items__cup">
               <div class="cup-wrapper__steam steam">
                 <div class="steam__item"></div>
@@ -556,7 +574,6 @@
             </div>
           </div>
         </div>
-
         <!--Office Chair-->
         <div class="office-chair room-illustration__office-chair">
           <div class="office-chair__top">
@@ -572,9 +589,11 @@
             <div class="office-chair__leg"></div>
           </div>
         </div>
-        <div class="cat room-illustration__cat"></div>
-
-        <!--NOTE-->
+        <!--Cat-->
+        <div class="cat room-illustration__cat">
+          <svg><use xlink:href="#cat"/></svg>
+        </div>
+        <!--Note-->
         <div class="about-me__note">
           <article class="about-me__text-wrapper">
             <p class="about-me__text">
@@ -598,218 +617,233 @@
             </p>
           </article>
         </div>
-        <!-- ANIMATED LAPTOP GIRL-->
-        <div class="laptop-girl">
-          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="810 -390 1920 1116" xml:space="preserve" aria-hidden="true">
-            <ellipse fill="var(--color-primary-dark)" cx="2448.5" cy="613.9" rx="276.2" ry="27.7"/>
-            <ellipse fill="var(--color-primary-dark)" cx="2101.5" cy="676.2" rx="135" ry="27.7"/>
-            <g id="laptop-girl">
-            <path fill="var(--color-accent-dark)" d="M2387.6 620.1s120.7-20.1 165.1-41.6c110.5-51.8 126.6-157.8 130.7-194.1l-295.8 235.7z"/>
-            <path fill="var(--color-pink-dark)" d="M2399.5 355c-44.2 65-82.2 57.2-166 54.4-99.6-3.4-115.1 69-104.3 104.3 8.6 27.8 44.9 60.1 80.5 84 49.2 33.2 181 34.3 270.4 4 60.7-20.6 146-90.1 197.2-162.1 51.2-72.1 33.3-206.5-31.5-212-167.7-14.5-202.1 62.4-246.3 127.4z"/>
-            <path fill="var(--color-accent-dark)" d="m2368.5 485.8 67.7 37.1s19.1 13.3 51.9-22c82.2-88.5 108.2-18.2 132.4-105.7 6.4-23 3.5-45 8.4-58.7 4.2-11.8 8.2-29.6 10.2-42.6 7.7-50.6-96.8-49.9-114.6-28l-156 219.9z"/>
-            <path fill="var(--color-primary)" d="M2146.1 610.3s32.9 24 44.7 20.5c28.7-77.3 63-82.1 82.6-123.7 8.8-18.6-15.9 16.3 63.3 32.2 105.7 37.3 143.4-66.9 143.4-66.9L2345.5 447c-15.3 11.8-112.1-4.6-132.4 11.9-20.2 16.5-67 151.3-67 151.4z"/>
-            <path fill="var(--color-primary)" d="m2081.4 603.1 53.3 7.1 55.9-78.5s-6.3-20.7 69.3-12.3c105.7 37.3 162.9-67.3 162.9-67.3l-67.9-10.3c-15.3 11.8-173.6-10.1-196.3 12.7-18.5 18.6-77.1 148.6-77.2 148.6z"/>
-            <path fill="var(--color-primary-light)" d="M2088.6 587.7s3.8 2.3 6.4 1.7 74.7-113.8 77.1-121.3c2.3-7.5-13.3-12.2-15.7-8.9-19.3 26.1-67.8 128.5-67.8 128.5zM2137.7 623.4s26-13.8 30.2-22.1c37.5-73.9 70.4-114.7 70.6-129.3.2-14.9-16.8-27.4-25.4-13-20.5 34.5-75.4 164.4-75.4 164.4z"/>
-            <path fill="var(--color-cyan-dark)" d="M2027.6 690.1h77.2c18-6.6 29.9-52.8 29.9-52.8l15.9-22.2v-3.6s-54.9-14.3-61-15.9c-6-1.6-10.9-6.6-12.5 3.9-.1.1-.1.1-.1.2 6.5 1.5 19.3 9.5 30.9 9.8-1.3 2.7-17.9 10.2-18.6 21.5-.8 11.3-4.3 15.8-16.5 20-12.1 4.2-47.2 0-49.4 16.4-1.3 12.9 2.5 20 4.2 22.7z"/>
-            <path fill="var(--color-cyan)" d="M2027.6 690.1c-1.8-2.6-5.6-9.7-3.9-22.7 2.2-16.5 37.2-12.2 49.4-16.4 12.2-4.2 15.8-8.7 16.5-20 .7-11.3 21.2-13.5 22.7-22.5-11.6-.3-28.6-7.5-35.1-8.9-1.9 10.6-20.2 29.7-20.2 29.7l-12.2 1.5c-9.9-.3-21 .9-30.5 3.9l-3.9 1.4c-15.9 6.1-25.4 31.4-13.9 49.1 6.4 10.1 17.6 1.8 31.1 4.9z"/>
-            <path fill="var(--color-cyan-dark)" d="M2090.1 690.1h77.2c18-6.6 29.9-52.8 29.9-52.8l15.9-22.2v-3.6s-54.9-14.3-61-15.9c-6-1.6-10.9-6.6-12.5 3.9-.1.1-.1.1-.1.2 6.5 1.5 19.3 9.5 30.9 9.8-1.3 2.7-17.9 10.2-18.6 21.5-.8 11.3-4.3 15.8-16.5 20-12.1 4.2-47.2 0-49.4 16.4-1.4 12.9 2.4 20 4.2 22.7z"/>
-            <path fill="var(--color-cyan)" d="M2090.1 690.1c-1.8-2.6-5.6-9.7-3.9-22.7 2.2-16.5 37.2-12.2 49.4-16.4 12.2-4.2 15.8-8.7 16.5-20 .7-11.3 21.2-13.5 22.7-22.5-11.6-.3-28.6-7.5-35.1-8.9-1.9 10.6-20.2 29.7-20.2 29.7l-12.2 1.5c-9.9-.3-21 .9-30.5 3.9l-3.9 1.4c-15.9 6.1-28.5 25.8-17 43.5 6.3 10.1 20.6 7.4 34.2 10.5z"/>
-            <path fill="var(--color-primary-dark)" d="M2219.4 428.5c9.8 32.1 28.6 11.7 74 12.8l79.2-11.2 5-28.3c-25.4-2.7-67.6 2.3-102.4 13.1-46.1-12.3-40.3 12.1-55.8 13.6z"/>
-            <path fill="var(--color-baige-bright)" d="M2379.2 427.7c-1.2-10.9-26.8-34.9-41-33.3-2.1.3-4.3.6-6.2 1 .1-.2.2-.3.2-.3s-.9.3-2.3.8c-2.6.7-5.1 1.6-7.1 2.7-7.3 2.9-16.9 7.6-21.1 12.7-7 8.9-4.6 11.8-4.6 11.8s10.9-6 17.6-10.4c1.5 11.1 10.3 30.3 24.3 28.7 14.1-1.5 41.3-2.6 40.2-13.7z"/>
-            <path fill="var(--color-primary-dark)" d="m2522.1 288.4 53.5-3.1 19.1-7.4c-15.5-6-26.9-12.9-38.7-11.1-11.8 1.8-36.5 4.2-36.5 4.2l2.6 17.4z"/>
-            <path fill="var(--color-primary)" d="m2503.1 320.7-5.9-31.5s36.8-10.6 55.5-6.5c18.7 4.2 37.9-12 45.9-1 7.9 11-.4 73.2-8.6 82.5-19 21.7-86.9-43.5-86.9-43.5z"/>
-            <path fill="var(--color-primary-dark)" d="m2492.1 277.9-96.3 135-23.6 1.5-3.6-9.8c4-11.9 34.5-60.7 55.7-95.4 7.5-8.4 10.6-20.7 36.2-29.3"/>
-            <path fill="var(--color-primary-light)" d="M2585.7 318.6s-12.2 25.8-28.4 56.8c-22.4 42.6-66 70.2-82.8 79.2l-85-4.5s.3-23.2 4.2-34.6c2.9-8.4 10.5-13.7 10.5-13.7s-26.3-34.3 10.6-61.4c19.1-14 28-40.9 28-40.9s18.8-29.1 51-25.2c32.2 3.7 77.4 10 89.5 41.7"/>
-            <path fill="var(--color-primary)" d="m2516 453.3-102.4 6.9s-29.2-.3-38.4-4.1c-9.1-3.8 13.2-36.1 16.2-41.4 3.1-5.4 6.3-6.9 12.8-3.7 5.5 2.7-11.5-15.2 3.1-8.5 5.2 2.3-7.3-2.2-4.2-7.2 3.1-4.9 29.1 4.6 55.8 4.6 6.4 3 42-14.3 52.8-46.1 8.4-24.6 47.5-32.5 56.6-32.5 19.9-.1-6.3 70.7 3.5 69.7l-55.8 62.3z"/>
-            <path fill="var(--color-accent-dark)" d="M2418.5 391.2c-2.9-7.8-2.7-18.6 4.1-29.3 5-7.6 6.4-17.4 26.3-26.5 18.9-8.7 16.8-17.3 17-17.4l3.1 3.3c-1 .8 6.4 10.6-17.2 18.2-15.2 4.9-18 16.4-24.3 26.1-5.9 9.4-7 17.2-4.5 23.9 4.3 11.6-4.8 24.3-5 24.9l-3.7-3.2c.1-.3 8.1-9.8 4.2-20z"/>
-            <path fill="var(--color-primary-dark)" d="M2368.6 413.4c5.4 34 18.8 22 56.4 28l68.3 7.3c.8.7 2.4.8 3.3-.4 16.3 1.4 47.2-25.3 70.4-46.2 31.5-28.2 33.3-69.1 19.3-95.9-8.2-15.5-20.8-30.1-37.7 13.7-9.4 24.3-27.7 61.8-53.1 79.5-33.7-3.4-92.3 14.4-126.9 14z"/>
-            <path fill="var(--color-accent-dark)" d="m2534.5 310.6-38.3-38.6s-34.9-2.6-47.9 13.1c-5.2 5.4-5 14.3-5 14.3s13.6 29.5 24.2 29.2c9.6-.1 19.4 2.4 27.1.9 10.4-1.9 39.9-18.9 39.9-18.9z"/>
-            <path fill="var(--color-beige)" d="M2482 245.8c8.3 12.7 12.6 30.6-7.3 36.3-9.5 3-11.7 18.4-5.4 30.1 20.5 15.7 44.6 8.6 64.2.3 11-4.7-2.5-8.6-2.1-19.2 0 0 11.7-13.9-1.1-21.7-13.3-13.8-34.6-57.8-34.6-57.8l-13.7 32z"/>
-            <path fill="var(--color-baige-bright)" d="M2500.8 199.7s20 5.3 34.1 23.5c9.4 11.7 2.8 35.6 4.9 54.6 22 8.6 2.7 9.8-19.3 17.2-7.7 2.6-29-1.6-38.1-15.9 5.1-16.9 1.9-25.6-10.8-33.5l29.2-45.9z"/>
-            <path fill="var(--color-primary)" d="M2467.4 274.8c-22.3 7.7-24.5 19.2-18.9 26.7 5.9 10.6 14.9 24.6 14.9 24.6s-16.1-5.6-29-15.2c-5.2-4.3-2.5-18.1 1.9-22.5 13.6-12.4 29.8-14 31.1-13.6z"/>
-            <path fill="var(--color-primary-dark)" d="M2525.2 291.1c-10.7 5.4-52.4 30.8-60.8 38.1 29 9.5 106.3-38 117-52 9.9-12.8-1.9-11.4-12.3-6.3-8.4 4.6-22.3 9.5-43.9 20.2z"/>
-            <path fill="var(--color-primary)" d="M2488.9 329.6c2.7-1.3 13.6-10.7 18.7-15.2 5.9-4.7 25.7-16.3 37.5-29.2 13.5-14.8 28.4-18.1 35.8-22 8.3-4.4 24.3 12 19.7 24.1-19.2-13.7-76.6 48.9-111.7 42.3z"/>
-            <path fill="var(--color-grey)" d="m2189.2 445.3 212.9.8c2.3 0 4.2-1.5 4.4-3.4l.2-2.2c.2-2.1-1.7-3.9-4.2-4.1h-.3l-75.1-1.1c-2.1 0-3.9-1.3-4.4-3l-40.5-146.5c-.5-1.6-2.1-2.8-4.1-3l-5.2-.4c-.8 0-1.5.1-2.2.3l-128 49.3c-2.1.8-3 2.8-2.3 4.6l44.5 106.2c.7 1.5 2.4 2.5 4.3 2.5z"/>
-            <ellipse transform="matrix(-.3106 -.9505 .9505 -.3106 2553.0134 2617.9551)" clip-path="url(#d)" fill="var(--color-cyan)" cx="2225.9" cy="383.2" rx="11.8" ry="9.8"/>
-            <path fill="var(--color-primary-dark)" d="M2538.3 236.6s-88.1-.5-114.9 31.1c-.9-3.6 3.6-16.2 2.6-22.2-7-39.7-20-116.4 8.6-135.1 39.5-26 97-.3 97-.3l6.7 126.5z"/>
-            <path fill="var(--color-beige)" d="M2430.3 177.2c4.1 15.5.6 28.1 3.3 37.9 7 28.3 39 45.6 46 46.9 20.2-2.2 49.4-15.5 54.2-23 12-12.9 39-67.5 35.6-89.3-13.2-47.8-28.6-64.4-79.7-57.8-11.9 1.6-69.7 46.6-59.4 85.3z"/>
-            <path fill="var(--color-baige-bright)" d="M2515.9 259.2c33.6-25.6 1.2-109.9-23.2-136.6-14.7-.1-27.6 13.9-45.1 31.3-16.9 16.9-15.5 27.1-15.6 49-11.5-29.7 2.7-92.5 35.4-109.4 80.7-28.3 88.1 5.9 102.2 55.2 12.3 43-22 77.8-53.7 110.5z"/>
-            <path fill="var(--color-primary)" d="M2485.1 171.5c2.8-.4 5.9-1.8 7.8-2.4 1.9-.5 5-1.8 6.8-1.6 2.8-.4 12.8 1.3 14.6 1.7l.2-.9c-.7-1.1-11.2-4.7-14.9-4.5-2.8.4-5.7.9-8.7 2.2-3 1.2-5.1 2.8-6.5 5.3l.7.2zM2457.8 170.2c-1.2-1.6-3-2.5-4.1-3.1-1.8-1-3.8-1.3-8.4-.7-.9.1-6.1 1.8-7.1 1.8l.1.9c1.7-.2 10.2-1.7 17 1.8.6 0 2.6-.6 2.5-.7z"/>
-            <path fill="var(--color-primary)" d="M2480.8 234.5c2.2-.2 6.1-1.6 9.8-5.5-.8 3.8-1.5 7-8.9 8.2-6.6.6-9.1-4.9-9.1-4.9 1.9 1.3 4.7 2.1 8.2 2.2z"/>
-            <g id="laptop-girl-eyes" fill="var(--color-primary)">
-              <path d="M2502.3 182.9c3.7-.2 7 3 7.5 7.3s-2.1 7.9-5.8 8.1c-3.7.2-7-3-7.5-7.3s2.1-7.9 5.8-8.1z"/>
-              <path d="m2507.7 187.1 2.9-4-7.6-.3zM2448.4 183.2c3.7-.2 6.9 3.1 7.3 7.4.4 4.3-2.3 7.9-6 8-3.7.2-6.9-3.1-7.3-7.4-.3-4.2 2.3-7.8 6-8z"/>
-              <path d="m2444.3 187.8-3.6-3.6 7.4-1z"/>
-            </g>
-            <path fill="var(--color-primary)" d="M2496.2 59.7c-9.1-1-14.6 4.4-18.4 11.7-21.1 2.4-56.9 21.1-67.3 65.8-5.6 25.1-2.6 49.8 2.2 70.4-3.6 22.5-7.9 47-9.7 50.9 0 0 7.9-12.8 14.9-31.3.3.9.6 1.9.8 2.8-1.3 18.4-2.7 35.2-4 38.4 0 0 4.4-8.9 8.8-22.4 1.3 6.7 0 21.8 0 21.8s7.2-22.3 8.1-58.8c.5-4.8.8-9.7.7-14.6-.1-9.3-.7-15-1.7-18.4-1.6-22.3 15.6-48.7 37.5-61.2-3.5-.2-6.7.1-9.4.7-23.8 5.2-33.7 35.4-35 39.8 12.5.7 25 .1 37.2.3 3.5.1 7.3.7 10.7.7 29.2.1 71.8 5.3 53.6-8.8-7.8-6.1-33.6-31.4-33.6-31.4s19.3 17.2 35.3 52.9c7.1 17.4 13.4 43.3 1.9 107.1 14-29 14.6-33.9 18.4-40.2-7.7 27.5-6.4 38.8-6.4 38.8s4.7-5.6 27.8-26.4c4.7-7.2 6.9-53.7 6.9-53.7s1.6 18.3-.4 37.4c-.9 4.5-.1 11-1 13.7 10.1-9.9 24.9-23.5 24.9-31.7 1.3-29.2-15.6-160.4-102.8-154.3z"/>
-            <path fill="var(--color-primary)" d="M2568.6 248c-7.9 7.1.6-.1-3.5 3.9 3.8-18.2 8.5-22.1 9.6-76.9 1-48.5-27.3-84.8-42.7-94.1-9.5-5.7-31.9-18-50.7-13.7 2.5-8.5 12.5-7.9 14.8-7.7 87.2-6.1 104.1 125.1 102.9 154.2 0 8.2-5 24.4-15.2 34.3.9-2.7-9.6-11.7-8.7-16.2 2-19.1.4-37.4.4-37.4s-2.3 46.5-6.9 53.6z"/>
-            <path fill="var(--color-primary-dark)" d="M2563.9 250.7c-7.9 7.1.6-.1-3.5 3.9 3.8-18.2 8.5-22.1 9.6-76.9 1-48.5-27.3-84.8-42.7-94.1-12.7-7.7-42.3-34.8-55.5 6.9 0 0-.8-16.3 1.2-16.6 3.8-7.2 10.3-10.3 19.8-11.8 96.2 1.5 99.4 126.5 98.2 155.6-.1 8.2-1.7 22.9-11.9 32.8.9-2.7-9.6-11.7-8.7-16.2 2-19.1.4-37.4.4-37.4s-2.4 46.6-6.9 53.8z"/>
-            <path fill="var(--color-primary)" d="M2576.6 185.1s-3.7-15.5-7.5-34.7c-3.7-19.2-1.5 29.3-1.5 29.3 3.3 10.2 5.5 34.2 4.2 52.2-1.3 18-2.5 27.5-2.5 27.5s9.9-18.3 8.6-31.6c-1.1-13.4-1.3-42.7-1.3-42.7zM2569.2 126.1c-4.2-10.6-14.4-26.7-29.1-35.6 0 0 3.7 7.1 13.6 18.3 9.9 11.2 24.6 49.5 24.6 49.5s-5-21.6-9.1-32.2z"/>
-            <path fill="var(--color-primary-light)" d="m2472.3 75.1 2.2-3.5c-62.5 14.4-67.4 72.7-67.5 96.2l-.1 2.2s-.7 21.1 2.5 28c1.2-6.9 1.6-15.7 1.9-24.3l1-2.6 1.7-4.7c-1.3 10.1-.8 22.4.9 28.6-.6 10-1.5 19.3-2.7 24-3.1 11.8-8.5 37.4-8.5 37.4s11-23.2 16.7-62.8c.2.6.4 1.2.6 1.7.6 10.8.9 21 .2 26.1-1.7 12.2-4.1 38.1-4.1 38.1s12.9-37.9 8.7-97.2v-.5c.2-1.7.4-3.3.7-4.7.2 0 .5.1.7.2h.1c.4-8.6 30.6-48.9 30.6-48.9s-8.6 2.6-15.2 8.2c6.8-10.9 12.6-19.6 12.6-19.6s-7.9 9.2-15.8 18.8c3.3-11.1 12.5-21.1 12.5-21.1s-14.6 13-18.3 22.4c.1-3.1.6-5.8 1.2-7.7l.6-1.6c.4-1 .7-1.6.7-1.6s0 .1-.1.2c0 .1-.1.1-.1.2-.3.5-.9 1.3-1.7 2.4-2.2 2.2-5.2 5.6-7.5 9.7-.7 1-1.4 2-2 3 .7-6.4 4.9-15.2 4.9-15.2s-.6.8-1.5 2.2c-.2.4-.5.7-.8 1.2-.1.2-.3.4-.4.7 7.8-19.7 45.3-35.5 45.3-35.5zM2469.6 108.1l-3.9 54.7 7.7-39 3.7 34.3 4.7-37.7 8.1 35.4 3.2-18.7 11.9-18.7-1.7 19.4z"/>
-            <path fill="var(--color-primary)" d="m2432.3 144.1-3.9 18 7.7-12.8 3.7 11.3 4.7-12.4 8.1 11.6 3.2-6.1 11.9-6.2-1.7 6.4z"/>
-            <path fill="var(--color-primary-light)" d="m2469.7 108.1 5.9 54.7-11.5-39-5.5 34.3-7-37.7-12.1 35.4-4.8-18.7-17.8-18.7 2.6 19.4z"/>
-            <path fill="var(--color-pink-dark)" d="m2546.5 528.3-138 50.2s-155.1 1.3-156.3-39.2c38.3-55.5 78.1-13.2 140.3-79.1 65.1-69 208.2-24.4 235.5-123.6 86.4-1.9-81.5 191.8-81.5 191.7z"/>
-            <path fill="var(--color-accent)" d="M2571.1 410.4c-16.1 1.1-108.8 17.8-122.6 24.8s-36.9 19.3-13.4 21.1c23.5 1.7 58.4-3.5 98.5-16.1 40.1-12.6 90.3-29.1 70.1-30.3-15.3-.9-16.6-.6-32.6.5z"/>
-            </g>
-          </svg>
-        </div>
+          <!-- Laptop Girl -->
+          <div class="laptop-girl room-illustration__laptop-girl">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="810 -390 1920 1116" xml:space="preserve" aria-hidden="true">
+              <ellipse fill="var(--color-primary-dark)" cx="2448.5" cy="613.9" rx="276.2" ry="27.7"/>
+              <ellipse fill="var(--color-primary-dark)" cx="2101.5" cy="676.2" rx="135" ry="27.7"/>
+              <g id="laptop-girl">
+              <path fill="var(--color-accent-dark)" d="M2387.6 620.1s120.7-20.1 165.1-41.6c110.5-51.8 126.6-157.8 130.7-194.1l-295.8 235.7z"/>
+              <path fill="var(--color-pink-dark)" d="M2399.5 355c-44.2 65-82.2 57.2-166 54.4-99.6-3.4-115.1 69-104.3 104.3 8.6 27.8 44.9 60.1 80.5 84 49.2 33.2 181 34.3 270.4 4 60.7-20.6 146-90.1 197.2-162.1 51.2-72.1 33.3-206.5-31.5-212-167.7-14.5-202.1 62.4-246.3 127.4z"/>
+              <path fill="var(--color-accent-dark)" d="m2368.5 485.8 67.7 37.1s19.1 13.3 51.9-22c82.2-88.5 108.2-18.2 132.4-105.7 6.4-23 3.5-45 8.4-58.7 4.2-11.8 8.2-29.6 10.2-42.6 7.7-50.6-96.8-49.9-114.6-28l-156 219.9z"/>
+              <path fill="var(--color-primary)" d="M2146.1 610.3s32.9 24 44.7 20.5c28.7-77.3 63-82.1 82.6-123.7 8.8-18.6-15.9 16.3 63.3 32.2 105.7 37.3 143.4-66.9 143.4-66.9L2345.5 447c-15.3 11.8-112.1-4.6-132.4 11.9-20.2 16.5-67 151.3-67 151.4z"/>
+              <path fill="var(--color-primary)" d="m2081.4 603.1 53.3 7.1 55.9-78.5s-6.3-20.7 69.3-12.3c105.7 37.3 162.9-67.3 162.9-67.3l-67.9-10.3c-15.3 11.8-173.6-10.1-196.3 12.7-18.5 18.6-77.1 148.6-77.2 148.6z"/>
+              <path fill="var(--color-primary-light)" d="M2088.6 587.7s3.8 2.3 6.4 1.7 74.7-113.8 77.1-121.3c2.3-7.5-13.3-12.2-15.7-8.9-19.3 26.1-67.8 128.5-67.8 128.5zM2137.7 623.4s26-13.8 30.2-22.1c37.5-73.9 70.4-114.7 70.6-129.3.2-14.9-16.8-27.4-25.4-13-20.5 34.5-75.4 164.4-75.4 164.4z"/>
+              <path fill="var(--color-cyan-dark)" d="M2027.6 690.1h77.2c18-6.6 29.9-52.8 29.9-52.8l15.9-22.2v-3.6s-54.9-14.3-61-15.9c-6-1.6-10.9-6.6-12.5 3.9-.1.1-.1.1-.1.2 6.5 1.5 19.3 9.5 30.9 9.8-1.3 2.7-17.9 10.2-18.6 21.5-.8 11.3-4.3 15.8-16.5 20-12.1 4.2-47.2 0-49.4 16.4-1.3 12.9 2.5 20 4.2 22.7z"/>
+              <path fill="var(--color-cyan)" d="M2027.6 690.1c-1.8-2.6-5.6-9.7-3.9-22.7 2.2-16.5 37.2-12.2 49.4-16.4 12.2-4.2 15.8-8.7 16.5-20 .7-11.3 21.2-13.5 22.7-22.5-11.6-.3-28.6-7.5-35.1-8.9-1.9 10.6-20.2 29.7-20.2 29.7l-12.2 1.5c-9.9-.3-21 .9-30.5 3.9l-3.9 1.4c-15.9 6.1-25.4 31.4-13.9 49.1 6.4 10.1 17.6 1.8 31.1 4.9z"/>
+              <path fill="var(--color-cyan-dark)" d="M2090.1 690.1h77.2c18-6.6 29.9-52.8 29.9-52.8l15.9-22.2v-3.6s-54.9-14.3-61-15.9c-6-1.6-10.9-6.6-12.5 3.9-.1.1-.1.1-.1.2 6.5 1.5 19.3 9.5 30.9 9.8-1.3 2.7-17.9 10.2-18.6 21.5-.8 11.3-4.3 15.8-16.5 20-12.1 4.2-47.2 0-49.4 16.4-1.4 12.9 2.4 20 4.2 22.7z"/>
+              <path fill="var(--color-cyan)" d="M2090.1 690.1c-1.8-2.6-5.6-9.7-3.9-22.7 2.2-16.5 37.2-12.2 49.4-16.4 12.2-4.2 15.8-8.7 16.5-20 .7-11.3 21.2-13.5 22.7-22.5-11.6-.3-28.6-7.5-35.1-8.9-1.9 10.6-20.2 29.7-20.2 29.7l-12.2 1.5c-9.9-.3-21 .9-30.5 3.9l-3.9 1.4c-15.9 6.1-28.5 25.8-17 43.5 6.3 10.1 20.6 7.4 34.2 10.5z"/>
+              <path fill="var(--color-primary-dark)" d="M2219.4 428.5c9.8 32.1 28.6 11.7 74 12.8l79.2-11.2 5-28.3c-25.4-2.7-67.6 2.3-102.4 13.1-46.1-12.3-40.3 12.1-55.8 13.6z"/>
+              <path fill="var(--color-baige-bright)" d="M2379.2 427.7c-1.2-10.9-26.8-34.9-41-33.3-2.1.3-4.3.6-6.2 1 .1-.2.2-.3.2-.3s-.9.3-2.3.8c-2.6.7-5.1 1.6-7.1 2.7-7.3 2.9-16.9 7.6-21.1 12.7-7 8.9-4.6 11.8-4.6 11.8s10.9-6 17.6-10.4c1.5 11.1 10.3 30.3 24.3 28.7 14.1-1.5 41.3-2.6 40.2-13.7z"/>
+              <path fill="var(--color-primary-dark)" d="m2522.1 288.4 53.5-3.1 19.1-7.4c-15.5-6-26.9-12.9-38.7-11.1-11.8 1.8-36.5 4.2-36.5 4.2l2.6 17.4z"/>
+              <path fill="var(--color-primary)" d="m2503.1 320.7-5.9-31.5s36.8-10.6 55.5-6.5c18.7 4.2 37.9-12 45.9-1 7.9 11-.4 73.2-8.6 82.5-19 21.7-86.9-43.5-86.9-43.5z"/>
+              <path fill="var(--color-primary-dark)" d="m2492.1 277.9-96.3 135-23.6 1.5-3.6-9.8c4-11.9 34.5-60.7 55.7-95.4 7.5-8.4 10.6-20.7 36.2-29.3"/>
+              <path fill="var(--color-primary-light)" d="M2585.7 318.6s-12.2 25.8-28.4 56.8c-22.4 42.6-66 70.2-82.8 79.2l-85-4.5s.3-23.2 4.2-34.6c2.9-8.4 10.5-13.7 10.5-13.7s-26.3-34.3 10.6-61.4c19.1-14 28-40.9 28-40.9s18.8-29.1 51-25.2c32.2 3.7 77.4 10 89.5 41.7"/>
+              <path fill="var(--color-primary)" d="m2516 453.3-102.4 6.9s-29.2-.3-38.4-4.1c-9.1-3.8 13.2-36.1 16.2-41.4 3.1-5.4 6.3-6.9 12.8-3.7 5.5 2.7-11.5-15.2 3.1-8.5 5.2 2.3-7.3-2.2-4.2-7.2 3.1-4.9 29.1 4.6 55.8 4.6 6.4 3 42-14.3 52.8-46.1 8.4-24.6 47.5-32.5 56.6-32.5 19.9-.1-6.3 70.7 3.5 69.7l-55.8 62.3z"/>
+              <path fill="var(--color-accent-dark)" d="M2418.5 391.2c-2.9-7.8-2.7-18.6 4.1-29.3 5-7.6 6.4-17.4 26.3-26.5 18.9-8.7 16.8-17.3 17-17.4l3.1 3.3c-1 .8 6.4 10.6-17.2 18.2-15.2 4.9-18 16.4-24.3 26.1-5.9 9.4-7 17.2-4.5 23.9 4.3 11.6-4.8 24.3-5 24.9l-3.7-3.2c.1-.3 8.1-9.8 4.2-20z"/>
+              <path fill="var(--color-primary-dark)" d="M2368.6 413.4c5.4 34 18.8 22 56.4 28l68.3 7.3c.8.7 2.4.8 3.3-.4 16.3 1.4 47.2-25.3 70.4-46.2 31.5-28.2 33.3-69.1 19.3-95.9-8.2-15.5-20.8-30.1-37.7 13.7-9.4 24.3-27.7 61.8-53.1 79.5-33.7-3.4-92.3 14.4-126.9 14z"/>
+              <path fill="var(--color-accent-dark)" d="m2534.5 310.6-38.3-38.6s-34.9-2.6-47.9 13.1c-5.2 5.4-5 14.3-5 14.3s13.6 29.5 24.2 29.2c9.6-.1 19.4 2.4 27.1.9 10.4-1.9 39.9-18.9 39.9-18.9z"/>
+              <path fill="var(--color-beige)" d="M2482 245.8c8.3 12.7 12.6 30.6-7.3 36.3-9.5 3-11.7 18.4-5.4 30.1 20.5 15.7 44.6 8.6 64.2.3 11-4.7-2.5-8.6-2.1-19.2 0 0 11.7-13.9-1.1-21.7-13.3-13.8-34.6-57.8-34.6-57.8l-13.7 32z"/>
+              <path fill="var(--color-baige-bright)" d="M2500.8 199.7s20 5.3 34.1 23.5c9.4 11.7 2.8 35.6 4.9 54.6 22 8.6 2.7 9.8-19.3 17.2-7.7 2.6-29-1.6-38.1-15.9 5.1-16.9 1.9-25.6-10.8-33.5l29.2-45.9z"/>
+              <path fill="var(--color-primary)" d="M2467.4 274.8c-22.3 7.7-24.5 19.2-18.9 26.7 5.9 10.6 14.9 24.6 14.9 24.6s-16.1-5.6-29-15.2c-5.2-4.3-2.5-18.1 1.9-22.5 13.6-12.4 29.8-14 31.1-13.6z"/>
+              <path fill="var(--color-primary-dark)" d="M2525.2 291.1c-10.7 5.4-52.4 30.8-60.8 38.1 29 9.5 106.3-38 117-52 9.9-12.8-1.9-11.4-12.3-6.3-8.4 4.6-22.3 9.5-43.9 20.2z"/>
+              <path fill="var(--color-primary)" d="M2488.9 329.6c2.7-1.3 13.6-10.7 18.7-15.2 5.9-4.7 25.7-16.3 37.5-29.2 13.5-14.8 28.4-18.1 35.8-22 8.3-4.4 24.3 12 19.7 24.1-19.2-13.7-76.6 48.9-111.7 42.3z"/>
+              <path fill="var(--color-grey)" d="m2189.2 445.3 212.9.8c2.3 0 4.2-1.5 4.4-3.4l.2-2.2c.2-2.1-1.7-3.9-4.2-4.1h-.3l-75.1-1.1c-2.1 0-3.9-1.3-4.4-3l-40.5-146.5c-.5-1.6-2.1-2.8-4.1-3l-5.2-.4c-.8 0-1.5.1-2.2.3l-128 49.3c-2.1.8-3 2.8-2.3 4.6l44.5 106.2c.7 1.5 2.4 2.5 4.3 2.5z"/>
+              <ellipse transform="matrix(-.3106 -.9505 .9505 -.3106 2553.0134 2617.9551)" clip-path="url(#d)" fill="var(--color-cyan)" cx="2225.9" cy="383.2" rx="11.8" ry="9.8"/>
+              <path fill="var(--color-primary-dark)" d="M2538.3 236.6s-88.1-.5-114.9 31.1c-.9-3.6 3.6-16.2 2.6-22.2-7-39.7-20-116.4 8.6-135.1 39.5-26 97-.3 97-.3l6.7 126.5z"/>
+              <path fill="var(--color-beige)" d="M2430.3 177.2c4.1 15.5.6 28.1 3.3 37.9 7 28.3 39 45.6 46 46.9 20.2-2.2 49.4-15.5 54.2-23 12-12.9 39-67.5 35.6-89.3-13.2-47.8-28.6-64.4-79.7-57.8-11.9 1.6-69.7 46.6-59.4 85.3z"/>
+              <path fill="var(--color-baige-bright)" d="M2515.9 259.2c33.6-25.6 1.2-109.9-23.2-136.6-14.7-.1-27.6 13.9-45.1 31.3-16.9 16.9-15.5 27.1-15.6 49-11.5-29.7 2.7-92.5 35.4-109.4 80.7-28.3 88.1 5.9 102.2 55.2 12.3 43-22 77.8-53.7 110.5z"/>
+              <path fill="var(--color-primary)" d="M2485.1 171.5c2.8-.4 5.9-1.8 7.8-2.4 1.9-.5 5-1.8 6.8-1.6 2.8-.4 12.8 1.3 14.6 1.7l.2-.9c-.7-1.1-11.2-4.7-14.9-4.5-2.8.4-5.7.9-8.7 2.2-3 1.2-5.1 2.8-6.5 5.3l.7.2zM2457.8 170.2c-1.2-1.6-3-2.5-4.1-3.1-1.8-1-3.8-1.3-8.4-.7-.9.1-6.1 1.8-7.1 1.8l.1.9c1.7-.2 10.2-1.7 17 1.8.6 0 2.6-.6 2.5-.7z"/>
+              <path fill="var(--color-primary)" d="M2480.8 234.5c2.2-.2 6.1-1.6 9.8-5.5-.8 3.8-1.5 7-8.9 8.2-6.6.6-9.1-4.9-9.1-4.9 1.9 1.3 4.7 2.1 8.2 2.2z"/>
+              <g id="laptop-girl-eyes" fill="var(--color-primary)">
+                <path d="M2502.3 182.9c3.7-.2 7 3 7.5 7.3s-2.1 7.9-5.8 8.1c-3.7.2-7-3-7.5-7.3s2.1-7.9 5.8-8.1z"/>
+                <path d="m2507.7 187.1 2.9-4-7.6-.3zM2448.4 183.2c3.7-.2 6.9 3.1 7.3 7.4.4 4.3-2.3 7.9-6 8-3.7.2-6.9-3.1-7.3-7.4-.3-4.2 2.3-7.8 6-8z"/>
+                <path d="m2444.3 187.8-3.6-3.6 7.4-1z"/>
+              </g>
+              <path fill="var(--color-primary)" d="M2496.2 59.7c-9.1-1-14.6 4.4-18.4 11.7-21.1 2.4-56.9 21.1-67.3 65.8-5.6 25.1-2.6 49.8 2.2 70.4-3.6 22.5-7.9 47-9.7 50.9 0 0 7.9-12.8 14.9-31.3.3.9.6 1.9.8 2.8-1.3 18.4-2.7 35.2-4 38.4 0 0 4.4-8.9 8.8-22.4 1.3 6.7 0 21.8 0 21.8s7.2-22.3 8.1-58.8c.5-4.8.8-9.7.7-14.6-.1-9.3-.7-15-1.7-18.4-1.6-22.3 15.6-48.7 37.5-61.2-3.5-.2-6.7.1-9.4.7-23.8 5.2-33.7 35.4-35 39.8 12.5.7 25 .1 37.2.3 3.5.1 7.3.7 10.7.7 29.2.1 71.8 5.3 53.6-8.8-7.8-6.1-33.6-31.4-33.6-31.4s19.3 17.2 35.3 52.9c7.1 17.4 13.4 43.3 1.9 107.1 14-29 14.6-33.9 18.4-40.2-7.7 27.5-6.4 38.8-6.4 38.8s4.7-5.6 27.8-26.4c4.7-7.2 6.9-53.7 6.9-53.7s1.6 18.3-.4 37.4c-.9 4.5-.1 11-1 13.7 10.1-9.9 24.9-23.5 24.9-31.7 1.3-29.2-15.6-160.4-102.8-154.3z"/>
+              <path fill="var(--color-primary)" d="M2568.6 248c-7.9 7.1.6-.1-3.5 3.9 3.8-18.2 8.5-22.1 9.6-76.9 1-48.5-27.3-84.8-42.7-94.1-9.5-5.7-31.9-18-50.7-13.7 2.5-8.5 12.5-7.9 14.8-7.7 87.2-6.1 104.1 125.1 102.9 154.2 0 8.2-5 24.4-15.2 34.3.9-2.7-9.6-11.7-8.7-16.2 2-19.1.4-37.4.4-37.4s-2.3 46.5-6.9 53.6z"/>
+              <path fill="var(--color-primary-dark)" d="M2563.9 250.7c-7.9 7.1.6-.1-3.5 3.9 3.8-18.2 8.5-22.1 9.6-76.9 1-48.5-27.3-84.8-42.7-94.1-12.7-7.7-42.3-34.8-55.5 6.9 0 0-.8-16.3 1.2-16.6 3.8-7.2 10.3-10.3 19.8-11.8 96.2 1.5 99.4 126.5 98.2 155.6-.1 8.2-1.7 22.9-11.9 32.8.9-2.7-9.6-11.7-8.7-16.2 2-19.1.4-37.4.4-37.4s-2.4 46.6-6.9 53.8z"/>
+              <path fill="var(--color-primary)" d="M2576.6 185.1s-3.7-15.5-7.5-34.7c-3.7-19.2-1.5 29.3-1.5 29.3 3.3 10.2 5.5 34.2 4.2 52.2-1.3 18-2.5 27.5-2.5 27.5s9.9-18.3 8.6-31.6c-1.1-13.4-1.3-42.7-1.3-42.7zM2569.2 126.1c-4.2-10.6-14.4-26.7-29.1-35.6 0 0 3.7 7.1 13.6 18.3 9.9 11.2 24.6 49.5 24.6 49.5s-5-21.6-9.1-32.2z"/>
+              <path fill="var(--color-primary-light)" d="m2472.3 75.1 2.2-3.5c-62.5 14.4-67.4 72.7-67.5 96.2l-.1 2.2s-.7 21.1 2.5 28c1.2-6.9 1.6-15.7 1.9-24.3l1-2.6 1.7-4.7c-1.3 10.1-.8 22.4.9 28.6-.6 10-1.5 19.3-2.7 24-3.1 11.8-8.5 37.4-8.5 37.4s11-23.2 16.7-62.8c.2.6.4 1.2.6 1.7.6 10.8.9 21 .2 26.1-1.7 12.2-4.1 38.1-4.1 38.1s12.9-37.9 8.7-97.2v-.5c.2-1.7.4-3.3.7-4.7.2 0 .5.1.7.2h.1c.4-8.6 30.6-48.9 30.6-48.9s-8.6 2.6-15.2 8.2c6.8-10.9 12.6-19.6 12.6-19.6s-7.9 9.2-15.8 18.8c3.3-11.1 12.5-21.1 12.5-21.1s-14.6 13-18.3 22.4c.1-3.1.6-5.8 1.2-7.7l.6-1.6c.4-1 .7-1.6.7-1.6s0 .1-.1.2c0 .1-.1.1-.1.2-.3.5-.9 1.3-1.7 2.4-2.2 2.2-5.2 5.6-7.5 9.7-.7 1-1.4 2-2 3 .7-6.4 4.9-15.2 4.9-15.2s-.6.8-1.5 2.2c-.2.4-.5.7-.8 1.2-.1.2-.3.4-.4.7 7.8-19.7 45.3-35.5 45.3-35.5zM2469.6 108.1l-3.9 54.7 7.7-39 3.7 34.3 4.7-37.7 8.1 35.4 3.2-18.7 11.9-18.7-1.7 19.4z"/>
+              <path fill="var(--color-primary)" d="m2432.3 144.1-3.9 18 7.7-12.8 3.7 11.3 4.7-12.4 8.1 11.6 3.2-6.1 11.9-6.2-1.7 6.4z"/>
+              <path fill="var(--color-primary-light)" d="m2469.7 108.1 5.9 54.7-11.5-39-5.5 34.3-7-37.7-12.1 35.4-4.8-18.7-17.8-18.7 2.6 19.4z"/>
+              <path fill="var(--color-pink-dark)" d="m2546.5 528.3-138 50.2s-155.1 1.3-156.3-39.2c38.3-55.5 78.1-13.2 140.3-79.1 65.1-69 208.2-24.4 235.5-123.6 86.4-1.9-81.5 191.8-81.5 191.7z"/>
+              <path fill="var(--color-accent)" d="M2571.1 410.4c-16.1 1.1-108.8 17.8-122.6 24.8s-36.9 19.3-13.4 21.1c23.5 1.7 58.4-3.5 98.5-16.1 40.1-12.6 90.3-29.1 70.1-30.3-15.3-.9-16.6-.6-32.6.5z"/>
+              </g>
+            </svg>
+          </div>
         </div>
       </section>
     </main>
     <!-- FOOTER -->
     <footer class="footer page" id="contacts">
       <div class="container footer__container page__grid">
+        <h3 class="footer__title">Contacts</h3>
         <div class="footer__wrapper">
-          <h3 class="footer__title">Contacts:</h3>
-          <ul class="contact-icons contact-icons_size-s footer__contacts">
-            <li class="contact-icons__item">
-              <a
-                class="contact-icons__link"
-                href="mailto:alicefill@bk.ru"
-                aria-labelledby="tooltip-email-footer"
-              >
-                <svg 
-                  class="contact-icons__icon" 
-                  role="presentation" 
-                  aria-hidden="true"
+          <a 
+            class="mailbox footer__mailbox"
+            href="mailto:alicefill@bk.ru" 
+            aria-labelledby="tooltip-email-footer"
+          >
+            <span class="mailbox__container">
+              <span class="mailbox__toggle"></span>
+              <span class="mailbox__envelope"></span>
+            </span>
+            <span class="mailbox__stand"></span>
+            Email me
+          </a>
+          <div class="footer__contacts-wrapper">
+            <ul class="contact-icons contact-icons_size-s footer__contacts">
+              <li class="contact-icons__item">
+                <a
+                  class="contact-icons__link"
+                  href="mailto:alicefill@bk.ru"
+                  aria-labelledby="tooltip-email-footer"
                 >
-                  <use xlink:href="#mail"></use>
-                </svg>
-              </a>
-              <span 
-                class="tooltip tooltip_top contact-icons__tooltip" 
-                id="tooltip-email-footer">
-                Email me
-              </span>
-            </li>
-
-            <li class="contact-icons__item">
-              <a
-                class="contact-icons__link"
-                href=""
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-labelledby="tooltip-telegram-footer"
-              >
-                <svg 
-                  class="contact-icons__icon" 
-                  role="presentation" 
-                  aria-hidden="true"
+                  <svg 
+                    class="contact-icons__icon" 
+                    role="presentation" 
+                    aria-hidden="true"
                   >
-                  <use xlink:href="#telegram"></use>
-                </svg>
-              </a>
-              <span 
-                class="tooltip tooltip_top contact-icons__tooltip" 
-                id="tooltip-telegram-footer">
-                Text me on Telegram
-              </span>
-            </li>
+                    <use xlink:href="#mail"></use>
+                  </svg>
+                  Email
+                </a>
+                <span 
+                  class="tooltip tooltip_top contact-icons__tooltip" 
+                  id="tooltip-email-footer">
+                  Email me
+                </span>
+              </li>
+              <li class="contact-icons__item">
+                <a
+                  class="contact-icons__link"
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-labelledby="tooltip-telegram-footer"
+                >
+                  <svg 
+                    class="contact-icons__icon" 
+                    role="presentation" 
+                    aria-hidden="true"
+                    >
+                    <use xlink:href="#telegram"></use>
+                  </svg>
+                  Telegram
+                </a>
+                <span 
+                  class="tooltip tooltip_top contact-icons__tooltip" 
+                  id="tooltip-telegram-footer">
+                  Text me on Telegram
+                </span>
+              </li>
+    
+              <li class="contact-icons__item">
+                <a
+                  class="contact-icons__link"
+                  href="https://www.linkedin.com/in/alisa-filatova-64209a139/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-labelledby="tooltip-linkedin-footer"
+                >
+                  <svg 
+                    class="contact-icons__icon" 
+                    role="presentation" 
+                    aria-hidden="true"
+                  >
+                    <use xlink:href="#linkedin"></use>
+                  </svg>
+                  LinkedIn
+                </a>
+                <span 
+                  class="tooltip tooltip_top contact-icons__tooltip" 
+                  id="tooltip-linkedin-footer">
+                  Join me on LinkedIn
+                </span>
+              </li>
+    
+              <li class="contact-icons__item">
+                <a
+                  class="contact-icons__link"
+                  href="https://github.com/Alisa-Filatova"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-labelledby="tooltip-github-footer"
+                >
+                  <svg 
+                    class="contact-icons__icon" 
+                    role="presentation" 
+                    aria-hidden="true"
+                  >
+                    <use xlink:href="#github"></use>
+                  </svg>
+                  Github
+                </a>
+                <span 
+                  class="tooltip tooltip_top contact-icons__tooltip" 
+                  id="tooltip-github-footer">
+                  Join me on Github
+                </span>
+              </li>
+    
+              <li class="contact-icons__item">
+                <a
+                  class="contact-icons__link"
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-labelledby="tooltip-artstation-footer"
+                >
+                  <svg 
+                    class="contact-icons__icon" 
+                    role="presentation" 
+                    aria-hidden="true"
+                  >
+                    <use xlink:href="#artstation"></use>
+                  </svg>
+                  ArtStation
+                </a>
+                <span 
+                  class="tooltip tooltip_top contact-icons__tooltip" 
+                  id="tooltip-artstation-footer">
+                  Join me on ArtStation
+                </span>
+              </li>
+            </ul>
 
-            <li class="contact-icons__item">
+            <p class="footer__description">
+              The best way to contact me - send your message at my e-mail:
               <a
-                class="contact-icons__link"
-                href="https://www.linkedin.com/in/alisa-filatova-64209a139/"
+                class="base-link"
+                href="mailto:alicefill@bk.ru"
+              >
+                alicefill@bk.ru
+              </a><br>
+              If it's urgent - just text me on Telegram
+              <a
+                class="base-link"
+                href="https://telegram.com/alice_fill"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-labelledby="tooltip-linkedin-footer"
               >
-                <svg 
-                  class="contact-icons__icon" 
-                  role="presentation" 
-                  aria-hidden="true"
-                >
-                  <use xlink:href="#linkedin"></use>
-                </svg>
-              </a>
-              <span 
-                class="tooltip tooltip_top contact-icons__tooltip" 
-                id="tooltip-linkedin-footer">
-                Join me on LinkedIn
-              </span>
-            </li>
-
-            <li class="contact-icons__item">
-              <a
-                class="contact-icons__link"
-                href="https://github.com/Alisa-Filatova"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-labelledby="tooltip-github-footer"
-              >
-                <svg 
-                  class="contact-icons__icon" 
-                  role="presentation" 
-                  aria-hidden="true"
-                >
-                  <use xlink:href="#github"></use>
-                </svg>
-              </a>
-              <span 
-                class="tooltip tooltip_top contact-icons__tooltip" 
-                id="tooltip-github-footer">
-                Join me on Github
-              </span>
-            </li>
-
-            <li class="contact-icons__item">
-              <a
-                class="contact-icons__link"
-                href=""
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-labelledby="tooltip-artstation-footer"
-              >
-                <svg 
-                  class="contact-icons__icon" 
-                  role="presentation" 
-                  aria-hidden="true"
-                >
-                  <use xlink:href="#artstation"></use>
-                </svg>
-              </a>
-              <span 
-                class="tooltip tooltip_top contact-icons__tooltip" 
-                id="tooltip-artstation-footer">
-                Join me on ArtStation
-              </span>
-            </li>
-          </ul>
-        </div>
-        <div class="footer__wrapper">
-          <div class="mailbox"></div>
-          <p class="footer__description">
-            The best way to contact me - send your message at my e-mail:
-            <a
-              class="base-link"
-              href="mailto:alicefill@bk.ru"
-            >
-              alicefill@bk.ru
-            </a><br>
-            If it's urgent - just text me on Telegram
-            <a
-              class="base-link"
-              href="https://telegram.com/alisafill"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              telegram.com/alisafill
-            </a><br>
-            <span class="footer__copyright">&#169; 2017-2024 Alisa Filatova</span>
-          </p>
+                telegram.com/alice_fill
+              </a><br>
+              <span class="footer__copyright">&#169; 2017-2024 Alisa Filatova</span>
+            </p>
+          </div>
           <a
             class="logo logo_size-s footer__logo"
-            href="index.html"
-            aria-label="Go back to the top of the page"
-            title="Go back to the top of the page"
+            href="#header"
+            aria-label="Go back to the header"
+            title="Go back to the header"
           >
             <img
               class="logo__img"
               src="img/logo.svg"
               width="240"
               height="180"
-              alt="Alice Design Logotype"
-              aria-hidden="true"
+              alt="Site Logotype"
             >
           </a>
         </div>

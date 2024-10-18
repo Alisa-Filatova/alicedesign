@@ -28,3 +28,14 @@
   overflow: hidden;
   clip: rect(0 0 0 0);
 }
+
+// Heading with board bg
+.heading(@font-size: var(--heading-size-l)) {
+  font-size: @font-size;
+  font-weight: 500;
+  text-align: center;
+  text-shadow: var(--text-shadow);
+  color: var(--text-color-secondary);
+  background: url('../img/board.svg') no-repeat top center;
+  background-size: contain;
+}
