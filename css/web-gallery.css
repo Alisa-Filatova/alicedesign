@@ -15,6 +15,12 @@
   background: url('../img/web-design.svg') no-repeat center;
 }
 
+.og-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 8px 8px;
+}
+
 .og-details a.link-button {
   font-size: 19px;
   line-height: 29px;
@@ -50,6 +56,11 @@
   background: transparent;
   border: 2px solid #d22f69;
   color: #d22f69;
+}
+
+.og-grid li > a img {
+  width: 100%;
+  contain: content;
 }
 
 @media (max-width: 425px) {

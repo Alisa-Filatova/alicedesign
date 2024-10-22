@@ -6,4 +6,4 @@ npm run devServer
 
 Мой личный сайт портфолио. Собственный дизайн.
 
-2019 Copyright Alisa Filatova (alicedesign.ru)
+2017-2024 Copyright Alisa Filatova

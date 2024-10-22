@@ -11,10 +11,8 @@
 }
   
 .rabbit {
-  width: 94px;
-  height: 94px;
-  background: url('../img/rabbit.svg') no-repeat center;
-  background-size: contain;
+  width: 86px;
+  height: 74px;
 }
 
 .grass {
@@ -141,7 +139,7 @@
   }
 
   &__desk-lamp {
-    z-index: var(--layer-level-1);
+    z-index: var(--layer-level-2);
   }
 }
 
@@ -158,6 +156,7 @@
   border-radius: var(--border-radius-s);
   box-shadow: inset var(--box-shadow-items), var(--box-shadow-items);
   overflow: hidden;
+  pointer-events: none;
 
   &__book {
     padding: var(--padding-xs);
@@ -214,17 +213,20 @@
   position: relative; // for a light
   width: 120px;
   height: 155px;
-  background: url('../img/lamp.svg') no-repeat center;
-  background-size: contain;
+
+  &__img {
+    width: 100%;
+    height: 100%;
+  }
 
   // lamp light
   &::after {
     content: '';
-    width: 128px;
-    height: 170px;
     position: absolute;
     top: 18px;
     left: 96px;
+    width: 128px;
+    height: 170px;
     background-image: linear-gradient(180deg, var(--color-white-fade) 0%, var(--color-transparent) 100%);
     clip-path: polygon(35% 0, 65% 0, 100% 100%, 0 100%);
     transform: rotate(-45deg);
@@ -232,7 +234,7 @@
     transition: opacity 0.2s linear;
   }
 
-  &:hover::after {
+  &:hover::after  {
     opacity: 1;
   }
 }
@@ -402,7 +404,7 @@
     content: '';
     display: block;
     position: absolute;
-    bottom: -4px;
+    bottom: -12px;
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
@@ -852,8 +854,8 @@
       position: absolute;
       top: 0;
       right: 0;
-      width: 30px;
-      height: 20px;
+      width: 25px;
+      height: 16px;
       background-color: var(--color-accent);
       transform: skew(-2deg, -12deg);
     }

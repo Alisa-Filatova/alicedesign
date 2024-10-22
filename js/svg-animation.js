@@ -118,7 +118,7 @@ function initCurtains() {
     const speed = 330;
     const easing = mina.backout;
 
-    const curtains = document.querySelectorAll('.portfolio__nav > .portfolio__link');
+    const curtains = document.querySelectorAll('.portfolio__link');
 
     Array.prototype.slice.call(curtains).forEach(function(curtain) {
         const snap = Snap(curtain.querySelector('svg'));
