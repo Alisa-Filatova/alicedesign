@@ -360,18 +360,19 @@ $.Elastislide.prototype = {
 		var self = this;
 
 		// add navigation elements
-		this.$navigation = $( '<nav><span class="elastislide-prev">Previous</span><span class="elastislide-next">Next</span></nav>' )
+		this.$navigation = $( '<nav><button role="button" class="elastislide-prev">Previous</button><button role="button" class="elastislide-next">Next</button></nav>' )
 			.appendTo( this.$wrapper );
 
 
-		this.$navPrev = this.$navigation.find( 'span.elastislide-prev' ).on( 'mousedown.elastislide', function( event ) {
+		this.$navPrev = this.$navigation.find( 'button.elastislide-prev' ).on( 'mousedown.elastislide', function( event ) {
 
 			self._slide( 'prev' );
 			return false;
 
 		} );
 
-		this.$navNext = this.$navigation.find( 'span.elastislide-next' ).on( 'mousedown.elastislide', function( event ) {
+
+		this.$navNext = this.$navigation.find( 'button.elastislide-next' ).on( 'mousedown.elastislide', function( event ) {
 
 			self._slide( 'next' );
 			return false;

@@ -23,7 +23,7 @@
     --color-black: #000000;
     --color-green: #2cb399;
     --color-red: #cf4d46;
-    --color-transparent: rgba(255, 255, 255, 0);
+    --color-transparent: rgba(255, 255, 255, 0); // important for transparent gradients in FF
 
     /* Color Theme */
     --color-primary: var(--color-violet);
@@ -34,8 +34,10 @@
     --color-accent-dark: var(--color-crimson);
     --background-color-primary: var(--color-beige);
     --background-color-secondary: var(--color-cyan-fade);
+    --background-gradient: linear-gradient(to bottom, var(--background-color-secondary) 3%, var(--background-color-primary) 16%);
+    --background-gradient-moz: -moz-linear-gradient(top, var(--background-color-secondary) 3%, var(--background-color-primary) 16%);
 
-    --text-color-primary: var(--color-primary);
+    --text-color-primary: var(--color-primary-dark);
     --text-color-secondary: var(--color-secondary);
     --text-color-accent: var(--color-accent);
     --text-color-inverted: var(--color-white);
@@ -59,7 +61,7 @@
     --padding-xl: 30px;
     --padding-xxl: 40px;
 
-    --container-size: 960px;
+    --container-size: 100%;
 
     /* Typography */
     --font-size-xs: 14px;
@@ -95,13 +97,11 @@
     }
 }
 
-/* Fallbacks for gradient & media queries */
-@color-cyan-fade: rgba(102, 255, 255, 0.8);
-@color-beige: #f4ece0;
-@background-gradient: @color-cyan-fade 3%, @color-beige 16%;
+/* CSS Variables doesn't work in Media queries */
 
 /* Screen sizes */
 @screen-xs: 375px;
-@screen-s: 768px;
+@screen-s: 1280px;
 @screen-m: 1440px;
 @screen-l: 1800px;
+@screen-xl: 2560px;

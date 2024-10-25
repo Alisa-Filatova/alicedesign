@@ -1,11 +1,5 @@
-@font-face {
-	font-family: 'Neucha', cursive;
-	font-style: normal;
-	font-weight: 400;
-	src: local('Neucha'),
-	   url('../fonts/neucha-regular.ttf') 
-	   format('ttf');
-}
+@import 'variables';
+@import 'components';
   
 html {
 	height: 100%;
@@ -18,7 +12,7 @@ body {
 	font-weight: 400;
 	line-height: 1.65em;
 	letter-spacing: 1px;
-	color: #506085;
+	color: var(--color-primary-dark);
 	text-align: left;
 	min-width: 320px;
 	margin: 0 auto;
@@ -69,7 +63,7 @@ body {
 	cursor: pointer;
 }
 .main-nav__link:hover {
-	color: #fc568d;
+	color: var(--color-accent);
 }
 .main-nav__link:active {
 	opacity: 0.8;
@@ -105,13 +99,13 @@ body {
 }
 
 .main-nav__title {
-	font-family: 'Neucha', 'Comic Sans', sans-serif;
+	font-family: var(--font-primary);
 	font-size: 30px;
 	font-weight: 400;
 	display: flex;
 	flex-flow: row nowrap;
 	align-items: center;
-	color: #fc568d;
+	color: var(--color-accent);
 }
 
 .main-nav__icon {
@@ -248,8 +242,8 @@ body {
 	font-size: 16px;
 	display: block;
 	margin: 15px auto;
-	font-family: 'Neucha', 'Comic Sans', sans-serif;
-	color: #506085;
+	font-family: var(--font-primary);
+	color: var(--color-primary-dark);
 }
 
 *,
@@ -260,6 +254,7 @@ body {
 	margin: 0;
 }
 
+/* Vendor style overrides */
 .og-grid {
 	list-style: none;
 	margin: 0 auto;
@@ -331,7 +326,7 @@ body {
 	width: 100%;
 	top: 50%;
 	height: 2px;
-	background: #506085;
+	background: var(--color-primary-dark);
 	transform: rotate(45deg);
 }
 
@@ -363,7 +358,7 @@ body {
 }
 
 .og-details a.link-button {
-	background-color: #506085;
+	background-color: var(--color-primary-dark);
 }
 
 .og-fullimg img {
@@ -376,7 +371,7 @@ body {
 	font-size: 28px;
 	margin-top: 5px;
 	margin-bottom: 10px;
-	color: #506085;
+	color: var(--color-primary-dark);
 	font-weight: bold;
 }
 
@@ -384,7 +379,7 @@ body {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 22px;
-	color: #506085;
+	color: var(--color-primary-dark);
 	padding-bottom: 20px;
 }
 
@@ -403,8 +398,8 @@ body {
 	height: 20px;
 	opacity: 0.5;
 	border-radius: 50%;
-	background: #fc568d;
-	box-shadow: 0 0 1px #d22f69, 15px 30px 1px #d22f69, -15px 30px 1px #d22f69;
+	background: var(--color-accent);
+	box-shadow: 0 0 1px var(--color-accent-dark), 15px 30px 1px var(--color-accent-dark), -15px 30px 1px var(--color-accent-dark);
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -414,15 +409,15 @@ body {
 
 @keyframes loader {
 	0% {
-		background: #fc568d;
+		background: var(--color-accent);
 	}
 	33% {
-		background: #506085;
-		box-shadow: 0 0 1px #fc568d, 15px 30px 1px #d22f69, -15px 30px 1px #d22f69;
+		background: var(--color-primary-dark);
+		box-shadow: 0 0 1px var(--color-accent), 15px 30px 1px var(--color-accent-dark), -15px 30px 1px var(--color-accent-dark);
 	}
 	66% {
-		background: #506085;
-		box-shadow: 0 0 1px #fc568d, 15px 30px 1px #fc568d, -15px 30px 1px #d22f69;
+		background: var(--color-primary-dark);
+		box-shadow: 0 0 1px var(--color-accent), 15px 30px 1px var(--color-accent), -15px 30px 1px var(--color-accent-dark);
 	}
 }
 
@@ -435,7 +430,7 @@ body {
 	list-style: none;
 	padding: 0 0 10px;
 	width: 100%;
-	color: #506085;
+	color: var(--color-primary-dark);
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
@@ -466,7 +461,7 @@ body {
 }
 
 .wagwep-container ul#portfolio-filter a {
-	color: #506085;
+	color: var(--color-primary-dark);
 	text-decoration: none;
 	border: 0;
 	background: 0;
@@ -500,13 +495,13 @@ body {
 
 .wagwep-container ul#portfolio-filter li.current a, ul#portfolio-filter a:hover {
 	text-decoration: none;
-	color: #fc568d;
+	color: var(--color-accent);
 }
 
 .wagwep-container ul#portfolio-filter li.current a {
 	font-weight: bold;
-	color: #506085;
-	border-bottom: 2px solid #506085;
+	color: var(--color-primary-dark);
+	border-bottom: 2px solid var(--color-primary-dark);
 	transition: 0.3s ease;
 }
 
@@ -622,7 +617,7 @@ body {
 
 .elastislide-wrapper nav span {
 	position: absolute;
-	background: #d22f69 url("../img/nav.png") no-repeat 4px 3px;
+	background: var(--color-accent-dark) url("../img/nav.png") no-repeat 4px 3px;
 	width: 23px;
 	height: 23px;
 	border-radius: 50%;
@@ -696,7 +691,7 @@ body {
 }
 
 .link-button:not(.first) {
-	background: #506085;
+	background: var(--color-primary-dark);
 }
 
 /***********
@@ -994,3 +989,4 @@ nav#porfolio-nav li:last-child a {
 		line-height: 1.2;
 	}
 }
+/* End: Vendor style overrides */

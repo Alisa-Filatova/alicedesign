@@ -34,7 +34,6 @@
   &::after,
   &::before {
     content: '';
-    display: block;
     position: absolute;
     background-image: radial-gradient(var(--color-white), var(--color-transparent));
     animation: fade-out 4s ease-in-out alternate-reverse infinite;
@@ -313,7 +312,6 @@
   // mouse wheel
   &::after {
     content: '';
-    display: block;
     width: 4px;
     height: 8px;
     position: absolute;
@@ -347,7 +345,6 @@
     position: absolute;
     top: 50%;
     left: 26px;
-    display: block;
     width: 12px;
     height: 12px;
     border-radius: var(--border-radius-circle);
@@ -402,7 +399,6 @@
   // a shadow
   &::before {
     content: '';
-    display: block;
     position: absolute;
     bottom: -12px;
     left: 50%;
@@ -430,7 +426,6 @@
     & > * {
       border-top: 10px solid var(--color-cyan-dark);
       background-color: var(--color-secondary);
-      border-radius: var(--border-radius-s);
     }
   }
 
@@ -439,9 +434,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 8px;
     width: 25%;
     max-height: 100%;
     padding: 8px;
+    border-radius: var(--border-radius-s);
   }
 
   &__drawer {
@@ -458,15 +455,10 @@
       left: 50%;
       top: 50%;
       transform: translate(-50%,-50%);
-      display: block;
       width: 30px;
       height: 8px;
       border-radius: var(--border-radius-s);
       background-color: var(--color-grey);
-    }
-
-    & + & {
-      margin-top: 8px;
     }
   }
 
@@ -478,9 +470,11 @@
   &__cabinet {
     flex-shrink: 0;
     display: flex;
+    gap: 16px;
     width: 35%;
     max-height: 100%;
     padding: 8px;
+    border-radius: var(--border-radius-s);
   }
 
   &__door {
@@ -503,12 +497,8 @@
       background-color: var(--color-grey);
     }
 
-    &:first-child {
-      margin-right: 16px;
-
-      &::after { 
-        right: 8px;
-      }
+    &:first-child::after {
+      right: 8px;
     }
 
     &:last-child::after {
@@ -531,7 +521,6 @@
   &::after,
   &::before {
     content: '';
-    display: block;
     position: absolute;
     width: 3px;
     height: 8px;
@@ -759,8 +748,6 @@
     background-color: var(--color-white);
     border: 2px solid var(--color-cyan);
     border-radius: 0 0 var(--border-radius-circle) var(--border-radius-circle);
-    animation: blink 6s infinite linear;
-    animation-fill-mode: both;
   }
 
   &__light {
@@ -770,7 +757,6 @@
     height: 332px;
     background-image: linear-gradient(180deg, var(--color-white-fade) 0%, var(--color-transparent) 100%);
     clip-path: polygon(35% 0, 65% 0, 100% 100%, 0 100%);
-    animation: fade-out 3s ease-in-out infinite alternate-reverse;
   }
 }
 

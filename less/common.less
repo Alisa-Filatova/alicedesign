@@ -1,42 +1,25 @@
 @import 'variables';
 
 @font-face {
-  font-family: 'Neucha', cursive;
+  font-family: Neucha;
   font-style: normal;
   font-weight: 400;
-  src: local('Neucha'),
-     url('../fonts/neucha-regular.ttf') 
-     format('ttf');
+  src: url('../fonts/Neucha-Regular.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'Dosis', sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  src: local('Dosis'),
-     url('../fonts/Dosis-VariableFont_wght.ttf') 
-     format('ttf');
-}
-
-@font-face {
-  font-family: 'Dosis', sans-serif;
+  font-family: Dosis;
   font-weight: 500;
   font-style: normal;
-  src: local('Dosis'),
-     url('../fonts/Dosis-VariableFont_wght.ttf') 
-     format('ttf');
+  src: url('../fonts/Dosis-VariableFont_wght.ttf') format('truetype');
 }
 
 body {
-  position: relative;
   font-family: var(--font-primary);
   font-size: var(--font-size-m);
-  font-weight: 400;
+  font-weight: 500;
   line-height: var(--line-height-s);
-  color: var(--text-color-primary);
-  background: linear-gradient(to bottom, @background-gradient);
-  background: -webkit-linear-gradient(top, @background-gradient);
-  background: -moz-linear-gradient(top, @background-gradient);
+  color: var(--text-color-primary-dark);
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -45,15 +28,14 @@ body {
   overflow-y: auto;
   overflow-x: hidden;
   box-sizing: border-box;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+  min-width: @screen-s;
 
-  @media (min-width: @screen-l) {
-    background: url('../img/main-back.svg') no-repeat top center,
-                -webkit-linear-gradient(top, @background-gradient);
-    background: url('../img/main-back.svg') no-repeat top center,
-                linear-gradient(to bottom, @background-gradient);
-    background: url('../img/main-back-moz.svg') no-repeat top center,
-                -moz-linear-gradient(top, @background-gradient);
-    background-size: 100%;
+  @media print {
+    @page {
+      size: a4 landscape;
+    }
   }
 }
 
@@ -63,6 +45,24 @@ body {
 }
 
 /* Common classes */
+
+.page {
+  display: flex;
+  flex-direction: column;
+
+  &__grid {
+    flex-grow: 1;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: var(--container-size);
+  margin: 0 auto;
+}
 
 // for a11y purposes
 .visually-hidden {

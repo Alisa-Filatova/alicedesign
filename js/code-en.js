@@ -14,16 +14,16 @@ $(function() {
         expandingHeight: 500,
         items: [
             {
-                title: 'ezy.com',
+                title: '<img class="gallery__item-logo" src="img/code-gallery/large/wrike-logo.svg" alt="Wrike" />',
                 description: [
-                    'SPA for gamers and cybersport fans. Entertainment games and exchanger for digital game items (skins). ' +
+                    'Product Management. Wrike provides end-to-end support to product management teams who need to centralize work and communications in a single source of truth.' +
                     'Opening cases application for Counter-Strike: Global Offensive. ' +
                     'My task included frontend development (junior). ' +
                     'In project I used: React.js, TypeScript, HTML5/CSS3, Less, CSS Modules, JavaScript, Storybook.',
                     'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, Edge.'
                 ].join(' '),
                 thumbnail: [
-                    'img/code-gallery/small/ezy.jpg',
+                    'img/code-gallery/large/wrike.svg',
                     'img/code-gallery/small/home.jpg',
                     'img/code-gallery/small/upgrade-min.jpg',
                     'img/code-gallery/small/spiner.jpg',
@@ -39,6 +39,61 @@ $(function() {
                     'img/code-gallery/small/deposit.jpg',
                     'img/code-gallery/small/why-we.jpg',
                     'img/code-gallery/small/interface.jpg'
+                ],
+                large: [
+                    'img/code-gallery/large/wrike.svg',
+                    'img/code-gallery/large/home.jpg',
+                    'img/code-gallery/large/upgrade-gif.gif',
+                    'img/code-gallery/large/spiner.jpg',
+                    'img/code-gallery/large/spiner2.jpg',
+                    'img/code-gallery/large/ui.jpg',
+                    'img/code-gallery/large/ui2.jpg',
+                    'img/code-gallery/large/cases.gif',
+                    'img/code-gallery/large/upgrade2-min.jpg',
+                    'img/code-gallery/large/upgrade-min.jpg',
+                    'img/code-gallery/large/giveaway.jpg',
+                    'img/code-gallery/large/profile.jpg',
+                    'img/code-gallery/large/daily-bonus.jpg',
+                    'img/code-gallery/large/deposit.jpg',
+                    'img/code-gallery/large/why-we.jpg',
+                    'img/code-gallery/large/interface.jpg'
+                ],
+                img_title: [],
+                button_list: [
+                    {
+                        title: 'Visit Website',
+                        url: 'https://wrike.com/',
+                        new_window: true
+                    }
+                ],
+                tags: ['Fixed']
+            },
+            {
+                title: '<img class="gallery__item-logo" src="img/code-gallery/large/ezy-logo.svg" alt="Ezy.com" />',
+                description: [
+                    'SPA for gamers and cybersport fans. Entertainment games and exchanger for digital game items (skins). ' +
+                    'Opening cases application for Counter-Strike: Global Offensive. ' +
+                    'My task included frontend development (junior). ' +
+                    'In project I used: React.js, TypeScript, HTML5/CSS3, Less, CSS Modules, JavaScript, Storybook.',
+                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, Edge.'
+                ].join(' '),
+                thumbnail: [
+                    'img/code-gallery/large/interface.jpg',
+                    'img/code-gallery/small/home.jpg',
+                    'img/code-gallery/small/upgrade-min.jpg',
+                    'img/code-gallery/small/spiner.jpg',
+                    'img/code-gallery/small/spiner2.jpg',
+                    'img/code-gallery/small/ui.jpg',
+                    'img/code-gallery/small/ui2.jpg',
+                    'img/code-gallery/small/cases.jpg',
+                    'img/code-gallery/small/upgrade2-min.jpg',
+                    'img/code-gallery/small/upgrade-min.jpg',
+                    'img/code-gallery/small/giveaway.jpg',
+                    'img/code-gallery/small/profile.jpg',
+                    'img/code-gallery/small/daily-bonus.jpg',
+                    'img/code-gallery/small/deposit.jpg',
+                    'img/code-gallery/small/why-we.jpg',
+                    'img/code-gallery/small/ezy.jpg'
                 ],
                 large: [
                     'img/code-gallery/large/ezy.jpg',
@@ -69,7 +124,7 @@ $(function() {
                 tags: ['Responsive']
             },
 					  {
-                title: 'Town ezy.com',
+                title: '<img class="gallery__item-logo" src="img/code-gallery/large/ezy-town-logo.png" alt="Ezy Town (Landing page)" />',
                 description: [
 									'Promotional landing-page for SPA EZY.com. Cases and items for Counter Strike Global Offensive and VGO blockchain system.',
                   'In the project I used: HTML5/CSS3, JavaScript, Sketch.',
@@ -98,7 +153,7 @@ $(function() {
                 tags: ['Responsive']
 					  },
             {
-                title: 'VGO Ezy',
+                title: '<img class="gallery__item-logo" src="img/code-gallery/large/vgo-logo.svg" alt="VGO EZY"/>',
                 description: [
                     'Promotional landing-page for SPA EZY.com. Cases and items for Counter Strike Global Offensive and VGO blockchain system.',
                     'In the project I used: HTML5/CSS3, JavaScript, Sketch.',
@@ -157,7 +212,7 @@ $(function() {
                 tags: ['Responsive']
             },
             {
-                title: 'goroshkodance.ru',
+                title: '<img class="gallery__item-logo" src="img/code-gallery/large/goroshko-logo.svg" alt="goroshkodance.ru"/>',
                 description: [
                     'Personal website of choreographer and dancer Sasha Goroshko (participant 4 season of the TV-show "DANCING").',
                     'The purpose of the website: informational support for students, attract new students, portfolio',
@@ -200,7 +255,7 @@ $(function() {
                 tags: ['Responsive']
             },
             {
-                title: 'nataliaphoto.me',
+                title: '<img class="gallery__item-logo" src="img/code-gallery/large/nata-logo.svg" alt="Natalia Biriouk - Photographer"/>',
                 description: [
                     'Portfolio website of family and wedding photographer - Natalia Biriouk from California, USA. The site consists of nine pages.<br>' ,
                     'Target audience: young mothers, housewives with children',
@@ -269,7 +324,7 @@ $(function() {
                 tags: ['Responsive']
               },
             {
-                title: 'alicedesign.ru',
+                title: '<img class="gallery__item-logo" src="img/code-gallery/large/alice-logo.svg" alt=" "My Personal Web Site"/>',
                 description: [
                     'My personal portfolio website. The project I decided to do with his own illustrations, css animation',
                     'as much as possible to show off your style.<br>' ,
@@ -308,7 +363,7 @@ $(function() {
                 tags: ['Fixed']
             },
             {
-                title: 'lenortat.spb.ru',
+                title: '<img class="gallery__item-logo" src="img/code-gallery/large/lenor-tat-logo.svg" alt="Lenor TaT - Beauty-Studio"/>',
                 description: [
                     'The website of the Beauty-Studio of a full cycle by Tata Kurina & Tatiana Lenorman.',
                     'Studio provides the services of hair stylist and atelier with design clothes.<br>',
@@ -352,7 +407,7 @@ $(function() {
                 tags: ['Responsive']
             },
             {
-                title: 'Ezy exchange',
+                title: '<img class="gallery__item-logo" src="img/code-gallery/large/ezy-ex-logo.svg" alt="Ezy V1 Exchanger"/>',
                 description: [
                     'SPA for gamers and cybersport fans. Exchanger for digital game items (skins) ' +
                     'for Counter-Strike: Global Offensive.' +
@@ -426,7 +481,7 @@ $(function() {
                 tags: ['Fixed']
             },
             {
-                title: 'Six cities',
+                title: '<img class="gallery__item-logo" src="img/code-gallery/large/6-cities-logo.svg" alt="Six cities - Rent Service"/>',
                 description: [
                     '"Six cities" - a service for travelers who do not want to overpay for rent. '+
                     'Choose one of six popular cities to travel to and get an up-to-date list of rental offers. '+
@@ -466,7 +521,7 @@ $(function() {
                 tags: ['Fixed']
             },
             {
-                title: 'netlab.com.cy',
+                title: '<img class="gallery__item-logo" src="img/code-gallery/large/netlab-logo.svg" alt=" "Netlab" - IT company"/> ',
                 description: [
                     'Information web-site for the "Netlab" internet solutions company, consisting of three pages.',
                     'Responsive ready PSD layout. Technologies used in project:' ,

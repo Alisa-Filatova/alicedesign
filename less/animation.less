@@ -67,6 +67,22 @@
   }
 }
 
+@keyframes loader {
+  0% {
+      background: var(--color-accent);
+  }
+
+  33% {
+      background: var(--color-primary-dark);
+      box-shadow: 0 0 1px var(--color-accent), 15px 30px 1px var(--color-accent-dark), -15px 30px 1px var(--color-accent-dark);
+  }
+
+  66% {
+      background: var(--color-primary-dark);
+      box-shadow: 0 0 1px var(--color-accent), 15px 30px 1px var(--color-accent), -15px 30px 1px var(--color-accent-dark);
+  }
+}
+
 .fade-out {
   animation: fade-out 3s ease-out;
 }
