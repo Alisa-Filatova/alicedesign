@@ -46,7 +46,7 @@ $.HoverDir.prototype = {
 		this.$el.on( 'mouseenter.hoverdir, mouseleave.hoverdir', function( event ) {
 			
 			var $el = $( this ),
-				$hoverElem = $el.find( 'figure' ),
+				$hoverElem = $el.find( '.gallery__item-cover' ),
 				direction = self._getDir( $el, { x : event.pageX, y : event.pageY } ),
 				styleCSS = self._getStyle( direction );
 			

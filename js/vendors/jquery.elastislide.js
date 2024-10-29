@@ -239,7 +239,7 @@ $.Elastislide.prototype = {
 		this.$el.append( this.$items );
 
 		// main wrapper
-		this.$el.wrap( '<div class="elastislide-wrapper elastislide-loading elastislide-' + this.options.orientation + '"></div>' );
+		this.$el.wrap( '<div class="slider slider-loading slider_' + this.options.orientation + '"></div>' );
 
 		// check if we applied a transition to the <ul>
 		this.hasTransition = false;
@@ -319,10 +319,10 @@ $.Elastislide.prototype = {
 	},
 	_layout : function() {
 
-		this.$el.wrap( '<div class="elastislide-carousel"></div>' );
+		this.$el.wrap( '<div class="slider__carousel"></div>' );
 
 		this.$carousel = this.$el.parent();
-		this.$wrapper = this.$carousel.parent().removeClass( 'elastislide-loading' );
+		this.$wrapper = this.$carousel.parent().removeClass( 'slider-loading' );
 
 		// save original image sizes
 		var $img = this.$items.find( 'img:first' );
@@ -360,11 +360,11 @@ $.Elastislide.prototype = {
 		var self = this;
 
 		// add navigation elements
-		this.$navigation = $( '<nav><button role="button" class="elastislide-prev">Previous</button><button role="button" class="elastislide-next">Next</button></nav>' )
+		this.$navigation = $( '<nav class="slider__nav"><button role="button" class="slider-button slider__button slider__button_prev"><svg class="slider-button__icon" aria-hidden="true"><use xlink:href="#arrow-down"></use></svg>Previous</button><button role="button" class="slider-button slider__button slider__button_next"><svg class="slider-button__icon" aria-hidden="true"><use xlink:href="#arrow-down"></use></svg>Next</button></nav>' )
 			.appendTo( this.$wrapper );
 
 
-		this.$navPrev = this.$navigation.find( 'button.elastislide-prev' ).on( 'mousedown.elastislide', function( event ) {
+		this.$navPrev = this.$navigation.find( '.slider__button_prev' ).on( 'mousedown.elastislide', function( event ) {
 
 			self._slide( 'prev' );
 			return false;
@@ -372,7 +372,7 @@ $.Elastislide.prototype = {
 		} );
 
 
-		this.$navNext = this.$navigation.find( 'button.elastislide-next' ).on( 'mousedown.elastislide', function( event ) {
+		this.$navNext = this.$navigation.find( '.slider__button_next' ).on( 'mousedown.elastislide', function( event ) {
 
 			self._slide( 'next' );
 			return false;

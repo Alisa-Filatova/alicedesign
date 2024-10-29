@@ -252,9 +252,11 @@ $.fn.elastic_grid = function(config){
             aObject.attr('href', 'javascript:;;');
 
             //initial default photo
-            var imgObject = $('<img class="gallery__grid-img" alt=""/>');
+            var imgObject = $('<img class="gallery__item-preview" alt=""/>');
+            var logoObject = $('<img class="gallery__item-logo" alt=""/>');
             var thumbURL = item.thumbnail[0];
             var largeURL = item.large[0];
+            var logoURL = item.logo;
 
             var video = parseVideoURL(largeURL);
             if(video.provider == 'youtube' || video.provider == 'vimeo'){
@@ -265,19 +267,20 @@ $.fn.elastic_grid = function(config){
 
             imgObject.attr('src', thumbURL);
             imgObject.attr('data-largesrc', largeURL);
-            imgObject.attr('alt', item.img_title[0]);
-            imgObject.attr('title', item.img_title[0]);
-            // imgObject.attr('title', item.title);
+            imgObject.attr('alt', item.title);
+
+            logoObject.attr('src', logoURL);
+            logoObject.attr('alt', item.title);
 
 
             //initial hover direction
-            var captionObject = $('<figcaption class="gallery__item-title"></figcaption>');
-            captionObject.html(item.title);
-            var figureObject = $('<figure class="gallery__item-cover"></figure>');
-            figureObject.append(captionObject);
-
+            // var captionObject = $('<figcaption class="gallery__item-title"></figcaption>');
+            // captionObject.html(item.title);
+            var coverObject = $('<figure class="gallery__item-cover"></figure>');
+            coverObject.append(logoObject);
+    
             imgObject.appendTo(aObject);
-            figureObject.appendTo(aObject);
+            coverObject.appendTo(aObject);
             aObject.appendTo(liObject);
             liObject.appendTo(ulObject);
         }
@@ -347,7 +350,7 @@ if(numOfTag > 1){
 
 porfolio_filter.find('a').bind('click',function(e){
     //close expanding preview
-    $grid.find('li.og-expanded').find('a').trigger('click');
+    $grid.find('.gallery__grid-item_expanded').find('a').trigger('click');
     $grid.find('.close-button').trigger('click');
 
     var $this = $(this);
@@ -510,7 +513,7 @@ function createList(text){
     }
 
     function initItemsEvents( $items ) {
-        $items.on( 'click', 'close-button', function() {
+        $items.on( 'click', '.close-button', function() {
             hidePreview();
             return false;
         } ).children( 'a' ).on( 'click', function(e) {
@@ -595,14 +598,15 @@ function createList(text){
         create : function() {
             // create Preview structure:
             this.$title = $( '<h3 class="gallery__item-title"></h3>' );
+            this.$logo = $( '<img class="gallery__item-logo" src=""></img>' );
             this.$description = $( '<p class="gallery__item-description"></p>' );
             this.$href = $( '<a class="button gallery__button" href="#">Visit website</a>' );
             this.$detailButtonList = $( '<div class="gallery__buttons-list"></div>' );
             this.$details = $( '<div class="gallery__details"></div>' ).append( this.$title,  this.$description, this.$detailButtonList );
             this.$loading = $( '<div class="gallery__img-loader"></div>' );
-            this.$fullimage = $( '<div class="gallery__fullimg-box"></div>' ).append( this.$loading );
+            this.$fullimage = $( '<div class="gallery__full-img-box"></div>' ).append( this.$loading );
             this.$closePreview = $( '<button role="button" class="close-button gallery__close-button">Close</button>' );
-            this.$previewInner = $( '<div class="gallery__expander-inner"></div>' ).append( this.$closePreview, this.$fullimage, this.$details );
+            this.$previewInner = $( '<div class="gallery__expander-inner"></div>' ).append( this.$fullimage, this.$details, this.$closePreview );
             this.$previewEl = $( '<div class="gallery__expander"></div>' ).append( this.$previewInner );
             // append preview element to the item
             this.$item.append( $('<div class="gallery__pointer"></div>') );
@@ -619,11 +623,11 @@ function createList(text){
                 this.$item = $item;
             }
 
-            // if already expanded remove class "og-expanded" from current item and add it to new item
+            // if already expanded remove class "gallery__grid-item_expanded" from current item and add it to new item
             if( current !== -1 ) {
                 var $currentItem = $items.eq( current );
-                $currentItem.removeClass( 'og-expanded' );
-                this.$item.addClass( 'og-expanded' );
+                $currentItem.removeClass( 'gallery__grid-item_expanded' );
+                this.$item.addClass( 'gallery__grid-item_expanded' );
                 // position the preview correctly
                 this.positionPreview();
             }
@@ -681,11 +685,11 @@ function createList(text){
 
                         var Objli = $('<li class="slider__item"></li>');
                         var ObjA = $('<a class="slider__link" href="javascript:;;"></a>');
-                        var ObjImg = $('<img class="slider__thumbnail" alt=""/>');
+                        var ObjImg = $('<img alt=""/>');
 
-                        ObjImg.addClass('related_photo');
+                        ObjImg.addClass('slider__thumbnail');
                         if(i==0){
-                            ObjImg.addClass('selected');
+                            ObjImg.addClass('slider__thumbnail_selected');
                         }
 
                         var video = parseVideoURL(largeURL);
@@ -704,19 +708,19 @@ function createList(text){
                         ObjUl.append(Objli);
                     }
                     // ObjUl.addClass("gallery__grid-small");
-                    ObjUl.addClass("elastislide-list");
+                    ObjUl.addClass("slider__list");
                     ObjUl.elastislide();
-                    var carousel = $('<div class="elastislide-wrapper elastislide-horizontal"></div>');
-                    carousel.append(ObjUl).find('.related_photo').bind('click', function(){
-                        carousel.find('.selected').removeClass('selected');
-                        $(this).addClass('selected');
+                    var carousel = $('<div class="slider slider_horizontal"></div>');
+                    carousel.append(ObjUl).find('.slider__thumbnail').bind('click', function(){
+                        carousel.find('.slider__thumbnail_selected').removeClass('slider__thumbnail_selected');
+                        $(this).addClass('slider__thumbnail_selected');
 
                         $youtube = $(this).data('video');
                         $largePhoto = $(this).data('large');
                         var $titlePhoto = $(this).attr('title');
 
                         if($largePhoto && (typeof $youtube != undefined)){
-                            $('<img class="asd" alt=""/>').on('load', function(){
+                            $('<img alt=""/>').on('load', function(){
                                 self.$fullimage.find('iframe').fadeOut(500, function(){
                                     self.$fullimage.find('img').fadeIn(500).attr('alt', $titlePhoto).attr('title', $titlePhoto).attr('src', $largePhoto);
                                 })
@@ -727,10 +731,9 @@ function createList(text){
                             });
                         }
                     });
-                    self.$details.append('<div class="infosep"></div>');
                     self.$details.append(carousel);
                 }else{
-                    self.$details.find('.infosep, .gallery__grid-small').remove();
+                    self.$details.find('.gallery__grid-small').remove();
                 }
 
 
@@ -740,14 +743,17 @@ function createList(text){
                     this.$loading.show();
 
                     var iframe = $('<iframe width="100%" height="100%" frameborder="0"></iframe>');
-                    var img = $( '<img alt=""/>' );
+                    var img = $( '<img class="gallery__full-img" alt=""/>' );
                     self.$fullimage.append(iframe);
                     self.$fullimage.append(img);
 
                     var firstChild  = self.$item.children('a').find('img');
                     var $youtube    = firstChild.data( 'video' );
                     var $largePhoto = firstChild.data( 'largesrc' );
-                    if($largePhoto && (typeof $youtube != undefined)){
+
+                    // && (typeof $youtube != undefined)
+
+                    if($largePhoto){
                         img.on('load', function() {
                             var $img = $( this );
                             if( $img.attr( 'src' ) === $largePhoto ) {
@@ -757,7 +763,7 @@ function createList(text){
                                 // });
                                 self.$fullimage.find( 'img' ).remove();
                                 self.$largeImg = $img.fadeIn( 350 );
-                                self.$fullimage.find('iframe').fadeOut(500, function(){
+                                self.$fullimage.find('iframe').fadeOut(150, function(){
                                     self.$fullimage.append( self.$largeImg );
                                 });
                             }
@@ -793,7 +799,7 @@ function createList(text){
                     if( support ) {
                         $( this ).off( transEndEventName );
                     }
-                    self.$item.removeClass( 'og-expanded' );
+                    self.$item.removeClass( 'gallery__grid-item_expanded' );
                     self.$previewEl.remove();
                 };
 
@@ -840,7 +846,7 @@ function createList(text){
                     if( support ) {
                         self.$item.off( transEndEventName );
                     }
-                    self.$item.addClass( 'og-expanded' );
+                    self.$item.addClass( 'gallery__grid-item_expanded' );
                 };
 
             this.calcHeight();

@@ -6,7 +6,7 @@
     <meta name="description" content="Web site portfolio">
     <meta name="author" content="Alisa Filatova">
 
-    <title>Alisa Filatova - Code Portfolio</title>
+    <title>Alisa Filatova - Projects Portfolio</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
@@ -50,44 +50,34 @@
     </svg>
     <!-- HEADER -->
     <header class="portfolio__header container">
-      <nav class="portfolio__main-nav">
-          <a
-            class="arrow-button arrow-button_left portfolio__back-button"
-            id="scroll-down-button"
-            href="index.html#portfolio"
-            title="Back to Portfolio section"
-            >
-              <svg 
-                class="arrow-button__icon" 
-                aria-hidden="true"
-              >
-                <use xlink:href="#arrow-down"></use>
-              </svg>
-            </a>
-          <a
-            class="logo logo_size-s portfolio__logo" 
-            href="index.html"
-            >
-             <img
-               class="logo__img"
-               src="img/logo.svg"
-               alt="Alice Design"
-             >
-          </a>
-          <svg 
-            class="portfolio__code-icon"
-            aria-hidden="true"
-          >
-            <use xlink:href="#code"></use>
-          </svg>
-      </nav>
+      <a
+        class="arrow-button arrow-button_left portfolio__back-button"
+        href="index.html#portfolio"
+        title="Back to the Main Portfolio section"
+      >
+        <svg 
+          class="arrow-button__icon" 
+          aria-hidden="true"
+        >
+          <use xlink:href="#arrow-down"></use>
+        </svg>
+      </a>
+      <h2 class="portfolio__heading">Projects portfolio</h2>
+      <p class="portfolio__description">
+        Here you can see the projects in which I participated as UI developer, 
+        HTML coder, Junior frontend developer, as well as my personal projects 
+        with my own web design and educational projects are presented.
+      </p>
     </header>
     <!-- GALLERY -->
-    <main class="gallery container portfolio__gallery" id="elastic_grid_demo"></main>
+    <main 
+      class="gallery container portfolio__gallery" 
+      id="projects-portfolio">
+    </main>
     <!-- FOOTER -->
     <footer class="footer page" id="contacts">
       <div class="container footer__container page__grid">
-        <h4 class="footer__title">Contacts</h4>
+        <h4 class="footer__title visually-hidden">Contacts</h4>
         <div class="footer__wrapper">
           <a 
             class="mailbox footer__mailbox"
@@ -242,7 +232,6 @@
         </div>
       </div>
     </footer>
-    <script src="dist/js/index.js?1" async defer></script>
     <script src="dist/js/codeEn.js?3"></script>
   </body>
 </html>
