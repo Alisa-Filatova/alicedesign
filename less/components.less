@@ -1,5 +1,6 @@
 @import 'variables';
 @import 'mixin';
+@import 'animation';
 
 /* Tooltip */
 
@@ -21,6 +22,7 @@
   transition: var(--transition-base);
   transform: translateX(-50%) scale(0) translateZ(0);
   will-change: transform;
+  box-sizing: content-box;
     
   // Tooltip Tail
   &::after {
@@ -138,7 +140,8 @@
     will-change: transform;
     font-size: 0; // hide text (in case of faild css loading)
 
-    &:hover, &:focus-visible {
+    &:hover, 
+    &:focus-visible {
       transform: scale(1) translateZ(0);
 
       + .contact-icons__tooltip {
@@ -279,7 +282,7 @@
   transition: var(--transition-base);
   background-color: var(--button-bg);
   cursor: pointer;
-  -webkit-appearance: none;
+  appearance: none;
   .focusRing();
 
   &:hover {
@@ -309,7 +312,7 @@
   background: transparent;
   border: none;
   cursor: pointer;
-  -webkit-appearance: none;
+  appearance: none;
   .focusRing();
 
   // Emulate close icon
@@ -356,7 +359,7 @@
   cursor: pointer;
 
   &:hover {
-    --slider-button-bg: var(--color-accent-dark);
+    --slider-button-bg: var(--color-violet);
   }
 
   &:active {
@@ -369,4 +372,32 @@
     width: 100%;
     height: 100%;
   }
+}
+
+/* Loader */
+
+.loader {
+  width: 20px;
+  height: 20px;
+  border-radius: var(--border-radius-circle);
+  background: var(--color-accent);
+  box-shadow: 
+    0 0 1px var(--color-accent-dark), 
+    15px 30px 1px var(--color-accent-dark), 
+    -15px 30px 1px var(--color-accent-dark);
+  opacity: 0.5;
+  animation: loader 0.5s infinite ease-in-out both;
+
+  &_overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+  }
+}
+
+.copyright {
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-s);
+  color: var(--color-primary-dark);
 }

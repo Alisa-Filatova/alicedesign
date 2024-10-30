@@ -7,7 +7,7 @@
      format('ttf');
 }
 
-.overlay-loader {
+.preloader_overlay {
   position: fixed;
   top: 0;
   right: 0;
@@ -17,7 +17,7 @@
   pointer-events: none;
 }
 
-.loader__text {
+.preloader__text {
   z-index: 5000;
   position: absolute;
   top: 70%;
@@ -32,14 +32,14 @@
   font-family: 'Neucha', 'Comic Sans', sans-serif;
 }
 
-.loader__wrapper {
+.preloader__wrapper {
   z-index: 5000;
   position: absolute;
   top: 50%;
   left: 50%;
 }
 
-.overlay-loader .loader-background {
+.preloader_overlay .preloader__background {
   position: absolute;
   width: 100%;
   top: 0;
@@ -50,7 +50,7 @@
   transition: background-color .2s 0s linear,right .2s .3s ease-out;
 }
 
-.overlay-loader .loader-background.color-flip {
+.preloader__overlay .preloader__background.color-flip {
     animation: color-flip 6.5s .6s infinite linear;
 }
 
@@ -73,7 +73,7 @@
   100% { background-color: #506085 }
 }
 
-.overlay-loader .loader-icon {
+.preloader_overlay .preloader__icon {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -82,10 +82,9 @@
   color: #FFF;
 }
 
-.overlay-loader .loader-icon.spinning-cog {
+.preloader_overlay .preloader__icon.spinning-cog {
   animation: spinning-cog 1.3s infinite ease;
 }
-
 
 @keyframes spinning-cog {
   0% { transform: rotate(0deg) }
@@ -99,6 +98,6 @@
   100% { transform: scale(0) }
 }
 
-.overlay-loader .loader-icon.shrinking-cog {
+.overlay__preloader .preloader__icon.shrinking-cog {
   animation: shrinking-cog .3s 1 ease forwards;
 }

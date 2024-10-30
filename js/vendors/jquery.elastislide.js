@@ -239,7 +239,7 @@ $.Elastislide.prototype = {
 		this.$el.append( this.$items );
 
 		// main wrapper
-		this.$el.wrap( '<div class="slider slider-loading slider_' + this.options.orientation + '"></div>' );
+		this.$el.wrap( '<div class="slider slider_loading"></div>' );
 
 		// check if we applied a transition to the <ul>
 		this.hasTransition = false;
@@ -322,7 +322,7 @@ $.Elastislide.prototype = {
 		this.$el.wrap( '<div class="slider__carousel"></div>' );
 
 		this.$carousel = this.$el.parent();
-		this.$wrapper = this.$carousel.parent().removeClass( 'slider-loading' );
+		this.$wrapper = this.$carousel.parent().removeClass( 'slider_loading' );
 
 		// save original image sizes
 		var $img = this.$items.find( 'img:first' );

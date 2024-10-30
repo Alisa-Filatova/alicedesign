@@ -1,7 +1,7 @@
 import $ from 'jquery';
 
-var $preloader = $('.overlay-loader');
-var $loader = $preloader.find('.loader-icon');
+var $preloader = $('.preloader_overlay');
+var $loader = $preloader.find('.preloader__icon');
 
 $(window).on('load', function() {
     $loader.fadeOut();

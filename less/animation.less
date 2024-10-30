@@ -69,18 +69,23 @@
 
 @keyframes loader {
   0% {
-      background: var(--color-accent);
+      background-color: var(--color-accent);
   }
 
   33% {
-      background: var(--color-primary-dark);
+      background-color: var(--color-primary-dark);
       box-shadow: 0 0 1px var(--color-accent), 15px 30px 1px var(--color-accent-dark), -15px 30px 1px var(--color-accent-dark);
   }
 
   66% {
-      background: var(--color-primary-dark);
+      background-color: var(--color-primary-dark);
       box-shadow: 0 0 1px var(--color-accent), 15px 30px 1px var(--color-accent), -15px 30px 1px var(--color-accent-dark);
   }
+}
+
+@keyframes progress {
+  0% { left: -500px; }
+  100% { left: 100%; }
 }
 
 .fade-out {

@@ -603,7 +603,7 @@ function createList(text){
             this.$href = $( '<a class="button gallery__button" href="#">Visit website</a>' );
             this.$detailButtonList = $( '<div class="gallery__buttons-list"></div>' );
             this.$details = $( '<div class="gallery__details"></div>' ).append( this.$title,  this.$description, this.$detailButtonList );
-            this.$loading = $( '<div class="gallery__img-loader"></div>' );
+            this.$loading = $( '<div class="loader loader_overlay"></div>' );
             this.$fullimage = $( '<div class="gallery__full-img-box"></div>' ).append( this.$loading );
             this.$closePreview = $( '<button role="button" class="close-button gallery__close-button">Close</button>' );
             this.$previewInner = $( '<div class="gallery__expander-inner"></div>' ).append( this.$fullimage, this.$details, this.$closePreview );
@@ -710,7 +710,7 @@ function createList(text){
                     // ObjUl.addClass("gallery__grid-small");
                     ObjUl.addClass("slider__list");
                     ObjUl.elastislide();
-                    var carousel = $('<div class="slider slider_horizontal"></div>');
+                    var carousel = $('<div class="slider"></div>');
                     carousel.append(ObjUl).find('.slider__thumbnail').bind('click', function(){
                         carousel.find('.slider__thumbnail_selected').removeClass('slider__thumbnail_selected');
                         $(this).addClass('slider__thumbnail_selected');
@@ -827,13 +827,10 @@ function createList(text){
             var heightPreview = winsize.height - this.$item.data( 'height' ) - marginExpanded,
                 itemHeight = winsize.height;
 
-            //console.log(heightPreview);
             if( heightPreview < settings.minHeight ) {
                 heightPreview = settings.minHeight;
                 itemHeight = settings.minHeight + this.$item.data( 'height' ) + marginExpanded;
             }
-            //console.log(heightPreview);
-            //console.log(this.$item.data( 'height' ));
 
             this.height = heightPreview;
             this.itemHeight = itemHeight;
@@ -858,30 +855,30 @@ function createList(text){
             }
 
         },
-        positionPreview : function() {
-            // Last change here for offsetTop
-            // scroll page
-            // case 1 : preview height + item height fits in window´s height
-            // case 2 : preview height + item height does not fit in window´s height and preview height is smaller than window´s height
-            // case 3 : preview height + item height does not fit in window´s height and preview height is bigger than window´s height
+        // positionPreview : function() {
+        //     // Last change here for offsetTop
+        //     // scroll page
+        //     // case 1 : preview height + item height fits in window´s height
+        //     // case 2 : preview height + item height does not fit in window´s height and preview height is smaller than window´s height
+        //     // case 3 : preview height + item height does not fit in window´s height and preview height is bigger than window´s height
 
-            // console.log(this.$item.offset().top, this.$item[0].offsetTop, this.$item.data( 'offsetTop' ))
+        //     // console.log(this.$item.offset().top, this.$item[0].offsetTop, this.$item.data( 'offsetTop' ))
 
-            var position = this.$item[0].offsetTop,
-                previewOffsetT = this.$previewEl.offset().top - scrollExtra,
-                scrollVal = this.height + this.$item.data( 'height' ) + marginExpanded <= winsize.height ? position : this.height < winsize.height ? previewOffsetT - ( winsize.height - this.height ) : previewOffsetT;
+        //     var position = this.$item[0].offsetTop,
+        //         previewOffsetT = this.$previewEl.offset().top - scrollExtra,
+        //         scrollVal = this.height + this.$item.data( 'height' ) + marginExpanded <= winsize.height ? position : this.height < winsize.height ? previewOffsetT - ( winsize.height - this.height ) : previewOffsetT;
 
-            var isFilter = localStorage.getItem("filter");
-            var isFilterAll = localStorage.getItem("filter-all");
+        //     var isFilter = localStorage.getItem("filter");
+        //     var isFilterAll = localStorage.getItem("filter-all");
 
-            if(isFilter === "false" && !isFilterAll === "false") {
-                $body.animate( { scrollTop : this.$item.offset().top }, settings.speed );
-            }
+        //     if(isFilter === "false" && !isFilterAll === "false") {
+        //         $body.animate( { scrollTop : this.$item.offset().top }, settings.speed );
+        //     }
 
-            if(isFilterAll === "true") {
-                $body.animate( { scrollTop : this.$item.data( 'offsetTop' ) }, settings.speed );
-            }
-        },
+        //     if(isFilterAll === "true") {
+        //         $body.animate( { scrollTop : this.$item.data( 'offsetTop' ) }, settings.speed );
+        //     }
+        // },
         setTransition  : function() {
             this.$previewEl.css( 'transition', 'height ' + settings.speed + 'ms ' + settings.easing );
             this.$item.css( 'transition', 'height ' + settings.speed + 'ms ' + settings.easing );
@@ -905,8 +902,8 @@ function createList(text){
         // save item´s size and offset
         saveItemInfo( true );
 
-        //init filter
-        localStorage.setItem("filter-all", true);
+        // //init filter
+        // localStorage.setItem("filter-all", true);
     } );
 
 }

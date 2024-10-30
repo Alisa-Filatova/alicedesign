@@ -10,30 +10,35 @@ $(function() {
         expandingHeight: 400,
         items: [
             {
-                title: 'Wrike',
-                logo: 'img/code-gallery/large/wrike-logo.svg',
-                video: 'https://youtu.be/5wF9qrC6bXg?si=iOzxYCmSBDqQQGch',
+                title: 'Wrike <span class="gallery__item-subtitle">(2019-2023)</span>',
+                logo: 'img/code-gallery/logo/wrike-logo.svg',
                 description: [
-                    'Product Management. Wrike provides end-to-end support to product management teams who need to centralize work and communications in a single source of truth.' +
-                    'Opening cases application for Counter-Strike: Global Offensive. ' +
-                    'My task included frontend development (junior). ' +
-                    'In project I used: React.js, TypeScript, HTML5/CSS3, Less, CSS Modules, JavaScript, Storybook.',
-                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, Edge.'
+                    '<a class="text-link" href="https://www.wrike.com/" target="_blank" rel="noopener noreferrer">Wrike</a> is a project management and collaboration platform with a lot of internal applications such as Tasks, Gantt charts, Table view, Calendars, Reports, File management and more. ' +
+                    'Wrike clients include companies such as Apple, Microsoft, Sony, Siemens, P&G and many others. <br><br>' +
+                    'I mainly worked in the <b>UI Kit team</b>, which was responsible for the components library, design system implementation and accessibility. <br><br>' +
+                    'I also developed UI for such Wrike products like <a class="text-link" href="https://www.wrike.com/features/online-proofing/" target="_blank" rel="noopener noreferrer">Proofing</a>, which was responsible for storing, managing and editing various types of files and their integrations with other services and applications. And I also worked on <a class="text-link" href="https://www.wrike.com/features/team-project-calendar/" target="_blank" rel="noopener noreferrer">Calendar App</a>, <a class="text-link" href="https://www.wrike.com/features/approvals/" target="_blank" rel="noopener noreferrer">Approvals</a> and <a class="text-link" href="https://www.wrike.com/apps/" target="_blank" rel="noopener noreferrer">Integrations</a> products. <br><br>',
+                    'I participated in Knowledge sharing, Demo presentations, wrote and translated articles for the internal knowledge base, wrote rules for Stylelint, launched code improvement initiatives, did code reviews and design reviews. <br><br>',
+                    '<b>Stack and technologies</b>: React/TS, Angular/Dart, CSS/Less/PostCSS, HTML5/SVG, GitLab, Figma. <br><br>' +
+                    '<b>Additionally</b>: BEM Methodology, Accessibility, Web Standards. <br><br>'+
+                    '<b>Process</b>: Agile, Scrum. <br><br>'+
+										'<b>!DISCLAIMER: For viewers from Russia</b>: wrike.com is blocked for this counry. To visit this site links, you need to use a VPN. ',
                 ].join(' '),
                 thumbnail: [
-                    'img/code-gallery/small/wrike-small.jpg',
+                    'img/code-gallery/large/wrike.svg',
+                    'img/code-gallery/large/wrike-calendar.png',
                     'img/code-gallery/small/wrike-proofing-feature.jpeg',
                     'img/code-gallery/small/wrike-tagging-feature-768x559.webp',
                 ],
                 large: [
                     'img/code-gallery/large/wrike.svg',
+                    'img/code-gallery/large/wrike-calendar.png',
                     'img/code-gallery/large/wrike-proofing-feature.jpeg',
                     'img/code-gallery/large/wrike-tagging-feature-768x559.webp',
                 ],
                 img_title: [],
                 button_list: [
                     {
-                        title: 'Visit Website',
+                        title: 'Visit website',
                         url: 'https://wrike.com/',
                         new_window: true
                     }
@@ -41,14 +46,15 @@ $(function() {
                 tags: ['Fixed']
             },
             {
-                title: 'Ezy.com',
-                logo: 'img/code-gallery/large/ezy-logo.svg',
+                title: 'Ezy.com <span class="gallery__item-subtitle">(2017-2019)</span>',
+                logo: 'img/code-gallery/logo/ezy-logo.svg',
                 description: [
-                    'SPA for gamers and cybersport fans. Entertainment games and exchanger for digital game items (skins). ' +
-                    'Opening cases application for Counter-Strike: Global Offensive. ' +
-                    'My task included frontend development (junior). ' +
-                    'In project I used: React.js, TypeScript, HTML5/CSS3, Less, CSS Modules, JavaScript, Storybook.',
-                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, Edge.'
+                    '<a class="text-link" href="https://ezy.com" target="_blank" rel="noopener noreferrer">EZY</a> is a SPA for esports players and gamers of Counter-Strike: Global Offensive, which serves to open game cases, sweepstakes and upgrades of weapon skins, exchange between players. <br><br> ' +
+                    'My job was to develop the user interface, components, and their basic logic, from scratch, with support for 11 languages, creation and maintaining of a UI Kit library. <br><br> ' +
+                    'I have also worked on advertising landing pages, information sites for the company, a showcase of components and somtimes HTML emails. <br><br>' +
+                    'I joined the company as an HTML coder. Working under the mentorship of a senior Frontend developer, I mastered the basic work with React.js and became a Junior Frontend developer. I worked very closely with the UI/UX and web design team, I consider this a necessary process to achieve the best result on the frontend. <br><br> ' +
+                    '<b>Stack and technologies</b>: React.js, TypeScript, HTML5/CSS3, Less, CSS Modules, JavaScript, Storybook, AntDesign, Figma, Sketch, PO Editor, Adobe Photoshop.<br><br>'+
+                    '<b>Cross-browser compatibility</b>: Chrome, Opera, Firefox, Safari, Edge.',
                 ].join(' '),
                 thumbnail: [
                     'img/code-gallery/small/ezy.jpg',
@@ -98,9 +104,9 @@ $(function() {
                 tags: ['Responsive'],
             },
 					  {
-                title: 'Ezy Town',
-                logo: 'img/code-gallery/large/ezy-town-logo.png',
-                description: ['Promotional landing-page for SPA EZY.com. Cases and items for Counter Strike Global Offensive and VGO blockchain system.',
+                title: 'Ezy Town <span class="gallery__item-subtitle">(2018)<span>',
+                logo: 'img/code-gallery/logo/ezy-town-logo.png',
+                description: ['Promo landing-page for SPA EZY.com. Cases and items for Counter Strike Global Offensive and VGO blockchain system.',
                   'In the project I used: HTML5/CSS3, JavaScript, Sketch.',
                   'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, Edge.'
                 ].join(' '),
@@ -127,8 +133,8 @@ $(function() {
                 tags: ['Responsive']
 					  },
             {
-                title: 'VGO EZY',
-                logo: 'img/code-gallery/large/vgo-logo.svg',
+                title: 'VGO EZY <span class="gallery__item-subtitle">(2018)</span>',
+                logo: 'img/code-gallery/logo/vgo-logo.svg',
                 description: [
                     'Promo landing-page for SPA EZY.com. Cases and items for Counter Strike Global Offensive and VGO blockchain system.',
                     'In the project I used: HTML5/CSS3, JavaScript, Sketch.',
@@ -161,8 +167,8 @@ $(function() {
                 tags: ['Responsive']
             },
             {
-                title: 'leondrop.net',
-                logo: 'img/code-gallery/large/leondrop-logo.png',
+                title: 'leondrop.net <span class="gallery__item-subtitle">(2019)</span>',
+                logo: 'img/code-gallery/logo/leondrop-logo.png',
                 description: [
                     'SPA for gamers and cybersport fans. Entertainment games and exchanger for digital game items (skins). ' +
                     'Opening cases application for Counter-Strike: Global Offensive. EZY.com adaptation for the russian market.' +
@@ -188,8 +194,8 @@ $(function() {
                 tags: ['Responsive']
             },
             {
-                title: 'goroshkodance.ru',
-                logo: 'img/code-gallery/large/goroshko-logo.svg',
+                title: 'goroshkodance.ru <span class="gallery__item-subtitle">(2017)</span>',
+                logo: 'img/code-gallery/logo/goroshko-logo.svg',
                 description: [
                     'Personal website of choreographer and dancer Sasha Goroshko (participant 4 season of the TV-show "DANCING").',
                     'The purpose of the website: informational support for students, attract new students, portfolio',
@@ -227,8 +233,8 @@ $(function() {
                 tags: ['Responsive']
             },
             {
-                title: 'Natalia Biriouk - Photographer',
-                logo: 'img/code-gallery/large/nata-logo.svg',
+                title: 'Natalia Biriouk - Photographer <span class="gallery__item-subtitle">(2017-2019)</span>',
+                logo: 'img/code-gallery/logo/nata-logo.svg',
                 description: [
                     'Portfolio website of family and wedding photographer - Natalia Biriouk from California, USA. The site consists of nine pages.<br>' ,
                     'Target audience: young mothers, housewives with children',
@@ -254,15 +260,15 @@ $(function() {
                     'img/code-gallery/large/nata-3.jpg',
                     'img/code-gallery/large/nata-4.jpg',
                 ],
-							  img_title: [],
+				img_title: [],
                 button_list: [
                     {
-                        title: 'Visit Website',
+                        title: 'Visit website',
                         url: 'http://nataliaphoto.alicedesign.ru',
                         new_window: true
                     },
                     {
-                        title: 'Source Code',
+                        title: 'Source code',
                         url: 'https://github.com/Alisa-Filatova/natalia-photo-react',
                         new_window: true
                     }
@@ -270,7 +276,8 @@ $(function() {
                 tags: ['Responsive']
             },
               {
-                title: 'ezydesign.ru',
+                title: 'ezydesign.ru <span class="gallery__item-subtitle">(2019)</span>',
+								logo: 'img/code-gallery/logo/ezy-logo.svg',
                 description: [
                   'Landing page about project EZY.COM. ' +
                   'Opening cases application for Counter-Strike: Global Offensive. ' +
@@ -297,14 +304,14 @@ $(function() {
                 tags: ['Responsive']
               },
             {
-                title: 'My Personal Web Site',
-                logo: 'img/code-gallery/large/alice-logo.svg',
+                title: 'My Personal Web Site <span class="gallery__item-subtitle">(2017-2024)</span>',
+                logo: 'img/code-gallery/logo/alice-logo.svg',
                 description: [
-                    'My personal portfolio website. The project I decided to do with his own illustrations, css animation',
-                    'as much as possible to show off your style.<br>' ,
-                    'Used technologies: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM methodology, CSS preprocessor LESS, ',
-                    'jQuery plugin Elastic Grid, Material Photo Gallery.',
-                    'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, Edge.'
+									'My personal portfolio website. The project I decided to do with his own illustrations, css animation',
+									'as much as possible to show off your style.<br>' ,
+									'Used technologies: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM methodology, CSS preprocessor LESS, ',
+									'jQuery plugin Elastic Grid, Material Photo Gallery.',
+									'Cross-browser compatibility: Chrome, Opera, Firefox, Safari, Edge.'
                 ].join(' '),
                 thumbnail: [
                     'img/code-gallery/small/alicedesign.jpg',
@@ -337,8 +344,8 @@ $(function() {
                 tags: ['Fixed']
             },
             {
-                title: 'Lenor TaT - Beauty-Studio',
-                logo: 'img/code-gallery/large/lenor-tat-logo.svg',
+                title: 'Lenor TaT - Beauty-Studio <span class="gallery__item-subtitle">(2017)</span>',
+                logo: 'img/code-gallery/logo/lenor-tat-logo.svg',
                 description: [
                     'The website of the Beauty-Studio of a full cycle by Tata Kurina & Tatiana Lenorman.',
                     'Studio provides the services of hair stylist and atelier with design clothes.<br>',
@@ -377,8 +384,8 @@ $(function() {
                 tags: ['Responsive']
             },
             {
-                title: 'Ezy V1 Exchanger',
-                logo: 'img/code-gallery/large/ezy-ex-logo.svg',
+                title: 'Ezy V1 Exchanger <span class="gallery__item-subtitle">(2018)</span>',
+                logo: 'img/code-gallery/logo/ezy-ex-logo.svg',
                 description: [
                     'SPA for gamers and cybersport fans. Exchanger for digital game items (skins) ' +
                     'for Counter-Strike: Global Offensive.' +
@@ -411,7 +418,8 @@ $(function() {
                 tags: ['Responsive']
             },
             {
-                title: 'Code and Magic',
+                title: 'Code and Magic <span class="gallery__item-subtitle">(2018)</span>',
+								logo: 'img/code-gallery/logo/code-logo.png',
                 description: [
                     'Promo website for the game - "Code and Magic"',
                     'The study project on an intensive online course "JavaScript' ,
@@ -452,8 +460,8 @@ $(function() {
                 tags: ['Fixed']
             },
             {
-                title: 'Six cities - Rent Service',
-                logo: 'img/code-gallery/large/6-cities-logo.svg',
+                title: 'Six cities - Rent Service <span class="gallery__item-subtitle">(2019)</span>',
+                logo: 'img/code-gallery/logo/6-cities-logo.svg',
                 description: [
                     '"Six cities" - a service for travelers who do not want to overpay for rent. '+
                     'Choose one of six popular cities to travel to and get an up-to-date list of rental offers. '+
@@ -493,8 +501,8 @@ $(function() {
                 tags: ['Fixed']
             },
             {
-                title: 'Netlab - IT company',
-                logo: 'img/code-gallery/large/netlab-logo.svg',
+                title: 'Netlab - IT company <span class="gallery__item-subtitle">(2017)</span>',
+                logo: 'img/code-gallery/logo/netlab-logo.svg',
                 description: [
                     'Information web-site for the "Netlab" internet solutions company, consisting of three pages.',
                     'Responsive ready PSD layout. Technologies used in project:' ,
@@ -526,7 +534,8 @@ $(function() {
                 tags: ['Responsive']
             },
             {
-                title: 'Moowle',
+                title: 'Moowle <span class="gallery__item-subtitle">(2019)</span>',
+								logo: 'img/code-gallery/logo/moowle-logo.png',
                 description: [
                     'Moowle — service for fans of great movies and TV series. '+
                     'Detailed information on hot new movies, the ability to choose and form' +
@@ -565,7 +574,8 @@ $(function() {
                 tags: ['Fixed']
             },
 					  {
-                title: 'fora.ru',
+                title: 'fora.ru<span class="gallery__item-subtitle">(2018)</span>',
+								logo: 'img/code-gallery/logo/fora-logo.png',
                 description: [
                   'Information web-site for the "Fora" consulting company of four pages.',
                   'Responsive ready Sketch layout. Technologies used in project:' ,
@@ -585,11 +595,18 @@ $(function() {
                   'img/code-gallery/large/fora3.jpg'
                 ],
                 img_title: [],
-                button_list: [],
+                button_list: [
+									{
+										title: 'Visit Website',
+										url: 'http://fora.ru',
+										new_window: true
+								},
+								],
                 tags: ['Responsive']
             },
             {
-                title: 'Lookbook',
+                title: 'Con Mime <span class="gallery__item-subtitle">(2017)</span>',
+								logo: 'img/code-gallery/logo/con-mime-logo.png',
                 description: [
                     'Main page for design collection Lookbook 2017.',
                     'Responsive ready psd layout.' ,
@@ -625,7 +642,8 @@ $(function() {
                 tags: ['Responsive']
             },
             {
-                title: 'Sedona',
+                title: 'Sedona <span class="gallery__item-subtitle">(2017)</span>',
+								logo: 'img/code-gallery/logo/sedona-logo.png',
                 description: [
                     'Tourist information portal about the Sedona city, consisting of four pages.',
                     'A personal project in an advanced intensive online course "Advanced HTML/CSS" by "HTML Academy."' ,
@@ -663,7 +681,8 @@ $(function() {
                 tags: ['Responsive']
             },
             {
-                title: 'Pink',
+                title: 'Pink <span class="gallery__item-subtitle">(2017)</span>',
+								logo: 'img/code-gallery/logo/pink-logo.png',
                 description: [
                     'Promotional website for a mobile app - "Pink", consisting of three pages.',
                     'The study project on an intensive online course "Advanced HTML/CSS" by "HTML Academy."' ,
@@ -699,7 +718,8 @@ $(function() {
                 tags: ['Responsive']
             },
             {
-                title: 'Technomart',
+                title: 'Technomart <span class="gallery__item-subtitle">(2017)</span>',
+								logo: 'img/code-gallery/logo/techmart-logo.png',
                 description: [
                     'Online store of construction materials. A landing page with an additional page of the product catalog.',
                     'A personal project for an intensive online course "Basic HTML/CSS" in HTML Academy.',
@@ -729,7 +749,8 @@ $(function() {
                 tags: ['Fixed']
             },
             {
-                title: 'Nerds',
+                title: 'Nerds <span class="gallery__item-subtitle">(2017)</span>',
+								logo: 'img/code-gallery/logo/nerds-logo.png',
                 description: [
                     'Promotional website for the web-studio "Nerds", with additional catalog page templates.',
                     'The study project on an intensive online course "Basic HTML/CSS" in HTML Academy.',
@@ -757,7 +778,8 @@ $(function() {
                 tags: ['Fixed']
             },
             {
-                title: 'Barbershop «Borodinski»',
+                title: 'Barbershop «Borodinski» <span class="gallery__item-subtitle">(2017)</span>',
+								logo: 'img/code-gallery/logo/boroda-logo.png',
                 description: [
                     'Website for the barbershop «Borodinski», with additional catalog page templates.',
                     'The study project on an intensive online course "Basic HTML/CSS" in HTML Academy.',
