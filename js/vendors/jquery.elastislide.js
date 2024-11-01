@@ -294,7 +294,6 @@ $.Elastislide.prototype = {
 
 	},
 	_validate : function() {
-
 		if( this.options.speed < 0 ) {
 
 			this.options.speed = 500;
@@ -318,7 +317,6 @@ $.Elastislide.prototype = {
 			
 	},
 	_layout : function() {
-
 		this.$el.wrap( '<div class="slider__carousel"></div>' );
 
 		this.$carousel = this.$el.parent();
@@ -360,7 +358,7 @@ $.Elastislide.prototype = {
 		var self = this;
 
 		// add navigation elements
-		this.$navigation = $( '<nav class="slider__nav"><button role="button" class="slider-button slider__button slider__button_prev"><svg class="slider-button__icon" aria-hidden="true"><use xlink:href="#arrow-down"></use></svg>Previous</button><button role="button" class="slider-button slider__button slider__button_next"><svg class="slider-button__icon" aria-hidden="true"><use xlink:href="#arrow-down"></use></svg>Next</button></nav>' )
+		this.$navigation = $( '<nav class="slider__nav"><button role="button" class="slider-button slider__button slider__button_prev title="Previous slide""><svg class="slider-button__icon" aria-hidden="true"><use xlink:href="#arrow-down"></use></svg>Previous</button><button role="button" class="slider-button slider__button slider__button_next" title="Next slide"><svg class="slider-button__icon" aria-hidden="true"><use xlink:href="#arrow-down"></use></svg>Next</button></nav>' )
 			.appendTo( this.$wrapper );
 
 
@@ -418,7 +416,6 @@ $.Elastislide.prototype = {
 
 	},
 	_initEvents : function() {
-
 		var self = this;
 
 		$window.on( 'debouncedresize.elastislide', function() {
@@ -519,7 +516,6 @@ $.Elastislide.prototype = {
 		
 	},
 	_slide : function( dir, tvalue ) {
-
 		if( this.isSliding ) {
 
 			return false;

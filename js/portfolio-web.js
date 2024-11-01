@@ -1,6 +1,5 @@
 import '../css/preload.css';
-import '../css/web-gallery.css';
-import '../less/elastic_grid.less';
+import '../less/portfolio.less';
 import './preload';
 import './vendors/modernizr.custom';
 import './vendors/jquery.elastislide';

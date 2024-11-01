@@ -39,3 +39,28 @@
   background: url('../img/board.svg') no-repeat top center;
   background-size: contain;
 }
+
+.scrollBar() {
+  /* width */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--color-grey-light);
+    border-radius: var(--border-radius-m);
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-grey-middle);
+    border-radius: var(--border-radius-m);
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-accent);
+  }
+}

@@ -21,21 +21,27 @@ $(function() {
                     '<b>Stack and technologies</b>: React/TS, Angular/Dart, CSS/Less/PostCSS, HTML5/SVG, GitLab, Figma. <br><br>' +
                     '<b>Additionally</b>: BEM Methodology, Accessibility, Web Standards. <br><br>'+
                     '<b>Process</b>: Agile, Scrum. <br><br>'+
-										'<b>!DISCLAIMER: For viewers from Russia</b>: wrike.com is blocked for this counry. To visit this site links, you need to use a VPN. ',
+					'<b>!DISCLAIMER: For viewers from Russia</b>: wrike.com is blocked for this counry. To visit this site links, you need to use a VPN. ',
                 ].join(' '),
                 thumbnail: [
                     'img/code-gallery/large/wrike.svg',
-                    'img/code-gallery/large/wrike-calendar.png',
-                    'img/code-gallery/small/wrike-proofing-feature.jpeg',
-                    'img/code-gallery/small/wrike-tagging-feature-768x559.webp',
+                    'img/code-gallery/small/wrike_intro.jpeg',
+                    'img/code-gallery/small/wrike_proofing.jpeg',
+					'img/code-gallery/small/wrike_calendar.png',
+                    'img/code-gallery/small/wrike_features.jpeg',
+                    'img/code-gallery/small/wrike_approvals.webp',
+                    'img/code-gallery/small/wrike_tasks.webp',
                 ],
                 large: [
                     'img/code-gallery/large/wrike.svg',
-                    'img/code-gallery/large/wrike-calendar.png',
-                    'img/code-gallery/large/wrike-proofing-feature.jpeg',
-                    'img/code-gallery/large/wrike-tagging-feature-768x559.webp',
+                    'img/code-gallery/video/wrike_intro.mp4',
+                    'img/code-gallery/video/wrike_proofing.mp4',
+					'img/code-gallery/video/wrike_calendar.mp4',
+                    'img/code-gallery/video/wrike_features.mp4',
+                    'img/code-gallery/small/wrike_approvals.webp',
+                    'img/code-gallery/small/wrike_tasks.webp',
                 ],
-                img_title: [],
+                img_title: ['Wrike Animation', 'What is Wrike in 3 minutes', 'Proofing demo', 'Calendar App demo', 'Wrike features demo', 'Wrike approvals', 'Wrike tasks'],
                 button_list: [
                     {
                         title: 'Visit website',

@@ -171,6 +171,9 @@ $.fn.imagesLoaded = function( callback ) {
  * http://www.bonchen.net
  */
 function parseVideoURL(url) {
+    function endsWith(str, target) {
+        return str.substring(str.length - target.length) === target;
+    }
 
     function getParm(url, base) {
         var re = new RegExp("(\\?|&)" + base + "\\=([^&]*)(&|$)");
@@ -191,7 +194,6 @@ function parseVideoURL(url) {
         retVal.id = getParm(url, "v");
         retVal.embed = '//www.youtube.com/embed/'+retVal.id+'?fs=0';
     } else if (matches = url.match(shortYoutubeRegExp)) {
-        // console.log(matches[2]);
         retVal.provider = "youtube";
         retVal.id = matches[2];
         retVal.embed = '//www.youtube.com/embed/'+retVal.id+'?fs=0';
@@ -199,9 +201,12 @@ function parseVideoURL(url) {
         retVal.provider = "vimeo";
         retVal.id = matches[1];
         retVal.embed = '//player.vimeo.com/video/'+retVal.id+'?fullscreen=0';
+    } else if (endsWith(url, '.mp4')) {
+        retVal.provider = 'local';
+        retVal.embed = url;
     }
 
-    return(retVal);
+    return retVal;
 }
 
 $.elastic_grid = {
@@ -259,7 +264,10 @@ $.fn.elastic_grid = function(config){
             var logoURL = item.logo;
 
             var video = parseVideoURL(largeURL);
-            if(video.provider == 'youtube' || video.provider == 'vimeo'){
+            if (video.provider === 'youtube'
+                || video.provider === 'vimeo'
+                || video.provider === 'local'
+            ){
                 largeURL = false;
 
                 imgObject.attr('data-video', video.embed);
@@ -348,53 +356,53 @@ if(numOfTag > 1){
 }
 
 
-porfolio_filter.find('a').bind('click',function(e){
-    //close expanding preview
-    $grid.find('.gallery__grid-item_expanded').find('a').trigger('click');
-    $grid.find('.close-button').trigger('click');
+// porfolio_filter.find('a').bind('click',function(e){
+//     //close expanding preview
+//     $grid.find('.gallery__grid-item_expanded').find('a').trigger('click');
+//     $grid.find('.close-button').trigger('click');
 
-    var $this = $(this);
-    $this.css('outline','none');
-    porfolio_filter.find('.current').removeClass('current');
-    $this.parent().addClass('current');
+//     var $this = $(this);
+//     $this.css('outline','none');
+//     porfolio_filter.find('.current').removeClass('current');
+//     $this.parent().addClass('current');
 
-    var filterVal = $this.text().toLowerCase().replace(' ','-');
-    var count  = numOfItems;
-    ulObject.find('li').each( function(i, el) {
-        classie.remove( el, 'hidden' );
-        classie.remove( el, 'animate' );
-        if(!--count){
-            setTimeout( function() {
-                doAnimateItems(ulObject.find('li'), filterVal);
-            }, 1);
-        }
-    });
+//     var filterVal = $this.text().toLowerCase().replace(' ','-');
+//     var count  = numOfItems;
+//     ulObject.find('li').each( function(i, el) {
+//         classie.remove( el, 'hidden' );
+//         classie.remove( el, 'animate' );
+//         if(!--count){
+//             setTimeout( function() {
+//                 doAnimateItems(ulObject.find('li'), filterVal);
+//             }, 1);
+//         }
+//     });
 
-    localStorage.setItem("filter", true);
-    localStorage.setItem("filter-all", false);
+//     localStorage.setItem("filter", true);
+//     localStorage.setItem("filter-all", false);
 
-    if (filterVal === config.showAllText.toLowerCase().replace(' ','-')) {
-        localStorage.setItem("filter-all", true);
-    }
+//     if (filterVal === config.showAllText.toLowerCase().replace(' ','-')) {
+//         localStorage.setItem("filter-all", true);
+//     }
 
-    $body.animate( { scrollTop : $this.offset().top }, settings.speed );
+//     $body.animate( { scrollTop : $this.offset().top }, settings.speed );
 
-    return false;
-});
+//     return false;
+// });
 
-function doAnimateItems(objectLi, filterVal){
-    objectLi.each(function(i, el) {
-        if(classie.has( el, filterVal ) ) {
-            classie.toggle( el, 'animate' );
-            classie.remove( el, 'hidden' );
-        }else{
-            classie.add( el, 'hidden' );
-            classie.remove( el, 'animate' );
-        }
-    });
-}
+// function doAnimateItems(objectLi, filterVal){
+//     objectLi.each(function(i, el) {
+//         if(classie.has( el, filterVal ) ) {
+//             classie.toggle( el, 'animate' );
+//             classie.remove( el, 'hidden' );
+//         }else{
+//             classie.add( el, 'hidden' );
+//             classie.remove( el, 'animate' );
+//         }
+//     });
+// }
 
-porfolio_filter.find('li:first').addClass('current');
+// porfolio_filter.find('li:first').addClass('current');
 
 function createList(text){
     var filter = text.toLowerCase().replace(' ','-');
@@ -447,7 +455,6 @@ function createList(text){
             speed : config.expandingSpeed,
             easing : 'ease'
         };
-
 
     // add more items to the grid.
     // the new items need to appended to the grid.
@@ -513,8 +520,11 @@ function createList(text){
     }
 
     function initItemsEvents( $items ) {
-        $items.on( 'click', '.close-button', function() {
-            hidePreview();
+        $items.on( 'click', '.close-button, .gallery__popup-overlay', function(event) {
+            if (event.target === this) {
+                hidePreview();
+            }
+
             return false;
         } ).children( 'a' ).on( 'click', function(e) {
             var $item = $( this ).parent();
@@ -578,11 +588,12 @@ function createList(text){
         current = -1;
         var preview = $.data( container, 'preview' );
 
-        if(typeof preview == "undefined"){
+        if (typeof preview == "undefined") {
             //do nothing
-        }else{
+        } else {
             preview.close();
         }
+
         $.removeData( container, 'preview' );
     }
 
@@ -602,12 +613,13 @@ function createList(text){
             this.$description = $( '<p class="gallery__item-description"></p>' );
             this.$href = $( '<a class="button gallery__button" href="#">Visit website</a>' );
             this.$detailButtonList = $( '<div class="gallery__buttons-list"></div>' );
-            this.$details = $( '<div class="gallery__details"></div>' ).append( this.$title,  this.$description, this.$detailButtonList );
+            this.$details = $( '<div class="gallery__details"></div>' ).append( this.$title, this.$description, this.$detailButtonList );
             this.$loading = $( '<div class="loader loader_overlay"></div>' );
             this.$fullimage = $( '<div class="gallery__full-img-box"></div>' ).append( this.$loading );
-            this.$closePreview = $( '<button role="button" class="close-button gallery__close-button">Close</button>' );
-            this.$previewInner = $( '<div class="gallery__expander-inner"></div>' ).append( this.$fullimage, this.$details, this.$closePreview );
-            this.$previewEl = $( '<div class="gallery__expander"></div>' ).append( this.$previewInner );
+            this.$detailsLeftPart = $( '<div class="gallery__details gallery__details_left"></div>' ).append( this.$fullimage );
+            this.$closePreview = $( '<button role="button" class="close-button gallery__close-button" title="close window">Close</button>' );
+            this.$previewInner = $( '<div class="gallery__popup"></div>' ).append( this.$detailsLeftPart, this.$details, this.$closePreview );
+            this.$previewEl = $( '<div class="gallery__popup-overlay"></div>' ).append( this.$previewInner );
             // append preview element to the item
             this.$item.append( $('<div class="gallery__pointer"></div>') );
             this.$item.append( this.getEl() );
@@ -677,7 +689,7 @@ function createList(text){
                 var gthumbs = eldata.thumbnail;
                 var imgTitle = eldata.img_title;
                 if(glarge.length == gthumbs.length && glarge.length > 0){
-                    var ObjUl = $('<ul class="slider"></ul>');
+                    var ObjUl = $('<ul class="slider gallery__slider"></ul>');
                     for (i = 0; i < gthumbs.length; i++)
                     {
                         var thumbURL = gthumbs[i];
@@ -693,14 +705,17 @@ function createList(text){
                         }
 
                         var video = parseVideoURL(largeURL);
-                        if(video.provider == 'youtube' || video.provider == 'vimeo'){
+                        if (video.provider === 'youtube'
+                            || video.provider === 'vimeo'
+                            || video.provider === 'local'
+                        ) {
                             largeURL = false;
 
                             ObjImg.attr('data-video', video.embed);
                         }
 
-                        ObjImg.attr("src", thumbURL);
-                        ObjImg.attr("data-large", largeURL);
+                        ObjImg.attr('src', thumbURL);
+                        ObjImg.attr('data-large', largeURL);
                         ObjImg.attr('alt', imgTitle[i]);
                         ObjImg.attr('title', imgTitle[i]);
                         ObjA.append(ObjImg);
@@ -719,7 +734,7 @@ function createList(text){
                         $largePhoto = $(this).data('large');
                         var $titlePhoto = $(this).attr('title');
 
-                        if($largePhoto && (typeof $youtube != undefined)){
+                        if ($largePhoto && !$youtube) {
                             $('<img alt=""/>').on('load', function(){
                                 self.$fullimage.find('iframe').fadeOut(500, function(){
                                     self.$fullimage.find('img').fadeIn(500).attr('alt', $titlePhoto).attr('title', $titlePhoto).attr('src', $largePhoto);
@@ -731,9 +746,9 @@ function createList(text){
                             });
                         }
                     });
-                    self.$details.append(carousel);
+                    self.$detailsLeftPart.append(carousel);
                 }else{
-                    self.$details.find('.gallery__grid-small').remove();
+                    self.$detailsLeftPart.find('.gallery__grid-small').remove();
                 }
 
 
@@ -742,7 +757,7 @@ function createList(text){
                 if( self.$fullimage.is( ':visible' ) ) {
                     this.$loading.show();
 
-                    var iframe = $('<iframe width="100%" height="100%" frameborder="0"></iframe>');
+                    var iframe = $('<iframe width="100%" height="100%" frameborder="0" allowtransparency="true" style="background: transparent;"></iframe>');
                     var img = $( '<img class="gallery__full-img" alt=""/>' );
                     self.$fullimage.append(iframe);
                     self.$fullimage.append(img);
