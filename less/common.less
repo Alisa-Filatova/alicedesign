@@ -28,7 +28,6 @@ body {
   overflow-y: auto;
   overflow-x: hidden;
   box-sizing: border-box;
-  -webkit-print-color-adjust: exact;
   print-color-adjust: exact;
   min-width: @screen-s;
 
@@ -74,27 +73,4 @@ body {
   border: 0;
   overflow: hidden;
   clip: rect(0 0 0 0);
-}
-
-/* width */
-::-webkit-scrollbar {
-  width: 12px;
-  height: 12px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: var(--color-beige);
-  border-radius: var(--border-radius-m);
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: var(--color-accent-dark);
-  border-radius: var(--border-radius-m);
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: var(--color-accent);
 }
