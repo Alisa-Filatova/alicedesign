@@ -1,112 +1,113 @@
 :root {
-    /* Palette */
-    --color-pink: #fc568d;
-    --color-pink-dark: #e74381;
-    --color-crimson: #d22f69;
-    --color-crimson-fade: rgba(210, 47, 105, 0.9);
-    --color-violet: #506085;
-    --color-violet-dark: #425279;
-    --color-violet-light: #717c9a;
-    --color-violet-fade: rgba(77, 75, 119, 0.9);
-    --color-cyan: #cafcf9;
-    --color-cyan-dark: #4dd0e1;
-    --color-cyan-fade: rgba(102, 255, 255, 0.8);
-    --color-beige: #f4ece0;
-    --color-baige-dark: #b3b3b3;
-    --color-baige-bright: #dbc5b6;
-    --color-blue: #afeeee;
-    --color-blue-light: #efffff;
-    --color-blue-fade: rgba(153, 206, 255, 0.5);
-    --color-grey: #3a4d57;
-    --color-grey-light: #f2f2f2;
-    --color-grey-middle: #d3d3d3;
-    --color-grey-dark: #333333;
-    --color-grey-fade: rgba(192, 245, 250, 0.4);
-    --color-white: #ffffff;
-    --color-white-fade: rgba(255, 255, 255, 0.4);
-    --color-black: #000000;
-    --color-green: #2cb399;
-    --color-red: #cf4d46;
-    --color-transparent: rgba(255, 255, 255, 0); // important for transparent gradients in FF
+  /* Palette */
+  --color-pink: #fc568d;
+  --color-pink-dark: #e74381;
+  --color-crimson: #d22f69;
+  --color-crimson-fade: rgba(144, 0, 51, 0.9);
+  --color-violet: #506085;
+  --color-violet-dark: #425279;
+  --color-violet-light: #717c9a;
+  --color-violet-fade: rgba(60, 57, 104, 0.9);
+  --color-cyan: #cafcf9;
+  --color-cyan-dark: #4dd0e1;
+  --color-cyan-fade: rgba(102, 255, 255, 0.8);
+  --color-turquoise-fade: rgba(3, 143, 156, 0.9);
+  --color-beige: #f4ece0;
+  --color-baige-dark: #b3b3b3;
+  --color-baige-bright: #dbc5b6;
+  --color-blue: #afeeee;
+  --color-blue-light: #efffff;
+  --color-blue-fade: rgba(153, 206, 255, 0.5);
+  --color-grey: #3a4d57;
+  --color-grey-light: #ebf5f3;
+  --color-grey-middle: #d3d3d3;
+  --color-grey-dark: #333333;
+  --color-grey-fade: rgba(192, 245, 250, 0.4);
+  --color-white: #ffffff;
+  --color-white-fade: rgba(255, 255, 255, 0.4);
+  --color-black: #17161e;
+  --color-green: #2cb399;
+  --color-red: #cf4d46;
+  --color-transparent: rgba(255, 255, 255, 0); // important for transparent gradients in FF
 
-    /* Color Theme */
-    --color-primary: var(--color-violet);
-    --color-primary-light: var(--color-violet-light);
-    --color-primary-dark: var(--color-violet-dark);
-    --color-secondary: var(--color-cyan);
-    --color-accent: var(--color-pink);
-    --color-accent-dark: var(--color-crimson);
-    --background-color-primary: var(--color-beige);
-    --background-color-secondary: var(--color-cyan-fade);
-    --background-gradient: linear-gradient(to bottom, var(--background-color-secondary) 3%, var(--background-color-primary) 16%);
-    --background-gradient-moz: -moz-linear-gradient(top, var(--background-color-secondary) 3%, var(--background-color-primary) 16%);
+  /* Color Theme */
+  --color-primary: var(--color-violet);
+  --color-primary-light: var(--color-violet-light);
+  --color-primary-dark: var(--color-violet-dark);
+  --color-secondary: var(--color-cyan);
+  --color-accent: var(--color-pink);
+  --color-accent-dark: var(--color-crimson);
+  --background-color-primary: var(--color-beige);
+  --background-color-secondary: var(--color-cyan-fade);
+  --background-gradient: linear-gradient(to bottom, var(--background-color-secondary) 3%, var(--background-color-primary) 16%);
+  --background-gradient-moz: -moz-linear-gradient(top, var(--background-color-secondary) 3%, var(--background-color-primary) 16%);
 
-    --text-color-primary: var(--color-primary-dark);
-    --text-color-secondary: var(--color-secondary);
-    --text-color-accent: var(--color-accent);
-    --text-color-inverted: var(--color-white);
+  --text-color-primary: var(--color-primary-dark);
+  --text-color-secondary: var(--color-secondary);
+  --text-color-accent: var(--color-accent);
+  --text-color-inverted: var(--color-white);
 
-    --focus-ring-color: var(--color-accent);
-    --focus-ring-bg: var(--background-color-primary);
-    --text-shadow: 2px 1px 1px var(--color-grey-dark);
-    --box-shadow-items: 4px 4px var(--color-cyan-dark);
+  --focus-ring-color: var(--color-accent);
+  --focus-ring-bg: var(--background-color-primary);
+  --text-shadow: 2px 1px 1px var(--color-grey-dark);
+  --box-shadow-items: 4px 4px var(--color-cyan-dark);
 
-    /* Sizes */
-    --border-radius-s: 4px;
-    --border-radius-m: 8px;
-    --border-radius-l: 12px;
-    --border-radius-xl: 20px;
-    --border-radius-circle: 50%;
+  /* Sizes */
+  --border-radius-s: 4px;
+  --border-radius-m: 8px;
+  --border-radius-l: 12px;
+  --border-radius-xl: 20px;
+  --border-radius-circle: 50%;
 
-    --padding-xs: 4px;
-    --padding-s: 8px;
-    --padding-m: 16px;
-    --padding-l: 20px;
-    --padding-xl: 30px;
-    --padding-xxl: 40px;
+  --padding-xs: 4px;
+  --padding-s: 8px;
+  --padding-m: 16px;
+  --padding-l: 20px;
+  --padding-xl: 30px;
+  --padding-xxl: 40px;
 
-    --container-size: 80%;
+  /* Typography */
+  --font-size-xs: 14px;
+  --font-size-s: 16px;
+  --font-size-m: 18px;
+  --font-size-l: 26px;
+  --font-size-xl: 34px;
 
-    /* Typography */
-    --font-size-xs: 14px;
-    --font-size-s: 16px;
-    --font-size-m: 18px;
-    --font-size-l: 26px;
-    --font-size-xl: 34px;
+  --heading-size-s: 32px;
+  --heading-size-m: 36px;
+  --heading-size-l: 42px;
+  --heading-size-xl: 70px;
 
-    --heading-size-s: 32px;
-    --heading-size-m: 36px;
-    --heading-size-l: 42px;
-    --heading-size-xl: 70px;
+  --line-height-s: 1;
+  --line-height-m: 1.2;
+  --line-height-l: 1.4;
+  --line-height-xl: 1.6;
 
-    --line-height-s: 1;
-    --line-height-m: 1.2;
-    --line-height-l: 1.4;
-    --line-height-xl: 1.6;
+  --font-primary: 'Neucha', 'Comic Sans', sans-serif;
+  --font-secondary: 'Dosis', 'Arial', sans-serif;
 
-    --font-primary: 'Neucha', 'Comic Sans', sans-serif;
-    --font-secondary: 'Dosis', 'Arial', sans-serif;
+  /* Layers */
+  --layer-level-0: -1;
+  --layer-level-1: 2;
+  --layer-level-2: 3;
+  --layer-level-3: 4;
+  --layer-level-tooltip: 1000;
 
-    /* Layers */
-    --layer-level-0: -1;
-    --layer-level-1: 2;
-    --layer-level-2: 3;
-    --layer-level-3: 4;
-    --layer-level-tooltip: 1000;
+  --transition-base: all 0.1s linear;
 
-    --transition-base: all 0.1s linear;
+  --container-size: 100%;
 
-    @media (min-width: @screen-xs) {
-      --container-size: 920px;
-    }
+  @media (min-width: @screen-xs) {
+    --container-size: 920px;
+  }
 
-    @media (min-width: @screen-s) {
-      --container-size: 1024px;
-    }
-    
-    @media (min-width: @screen-m) {
-      --container-size: 1440px;
-    }
+  @media (min-width: @screen-s) {
+    --container-size: 1024px;
+  }
+  
+  @media (min-width: @screen-m) {
+    --container-size: 1440px;
+  }
 }
 
 /* CSS Variables doesn't work in Media queries */

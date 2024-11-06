@@ -356,53 +356,53 @@ if(numOfTag > 1){
 }
 
 
-// porfolio_filter.find('a').bind('click',function(e){
-//     //close expanding preview
-//     $grid.find('.gallery__grid-item_expanded').find('a').trigger('click');
-//     $grid.find('.close-button').trigger('click');
+porfolio_filter.find('a').bind('click',function(e){
+    //close expanding preview
+    $grid.find('.gallery__grid-item_expanded').find('a').trigger('click');
+    $grid.find('.close-button').trigger('click');
 
-//     var $this = $(this);
-//     $this.css('outline','none');
-//     porfolio_filter.find('.current').removeClass('current');
-//     $this.parent().addClass('current');
+    var $this = $(this);
+    $this.css('outline','none');
+    porfolio_filter.find('.current').removeClass('current');
+    $this.parent().addClass('current');
 
-//     var filterVal = $this.text().toLowerCase().replace(' ','-');
-//     var count  = numOfItems;
-//     ulObject.find('li').each( function(i, el) {
-//         classie.remove( el, 'hidden' );
-//         classie.remove( el, 'animate' );
-//         if(!--count){
-//             setTimeout( function() {
-//                 doAnimateItems(ulObject.find('li'), filterVal);
-//             }, 1);
-//         }
-//     });
+    var filterVal = $this.text().toLowerCase().replace(' ','-');
+    var count  = numOfItems;
+    ulObject.find('li').each( function(i, el) {
+        classie.remove( el, 'hidden' );
+        classie.remove( el, 'animate' );
+        if(!--count){
+            setTimeout( function() {
+                doAnimateItems(ulObject.find('li'), filterVal);
+            }, 1);
+        }
+    });
 
-//     localStorage.setItem("filter", true);
-//     localStorage.setItem("filter-all", false);
+    localStorage.setItem("filter", true);
+    localStorage.setItem("filter-all", false);
 
-//     if (filterVal === config.showAllText.toLowerCase().replace(' ','-')) {
-//         localStorage.setItem("filter-all", true);
-//     }
+    if (filterVal === config.showAllText.toLowerCase().replace(' ','-')) {
+        localStorage.setItem("filter-all", true);
+    }
 
-//     $body.animate( { scrollTop : $this.offset().top }, settings.speed );
+    $body.animate( { scrollTop : $this.offset().top }, settings.speed );
 
-//     return false;
-// });
+    return false;
+});
 
-// function doAnimateItems(objectLi, filterVal){
-//     objectLi.each(function(i, el) {
-//         if(classie.has( el, filterVal ) ) {
-//             classie.toggle( el, 'animate' );
-//             classie.remove( el, 'hidden' );
-//         }else{
-//             classie.add( el, 'hidden' );
-//             classie.remove( el, 'animate' );
-//         }
-//     });
-// }
+function doAnimateItems(objectLi, filterVal){
+    objectLi.each(function(i, el) {
+        if(classie.has( el, filterVal ) ) {
+            classie.toggle( el, 'animate' );
+            classie.remove( el, 'hidden' );
+        }else{
+            classie.add( el, 'hidden' );
+            classie.remove( el, 'animate' );
+        }
+    });
+}
 
-// porfolio_filter.find('li:first').addClass('current');
+porfolio_filter.find('li:first').addClass('current');
 
 function createList(text){
     var filter = text.toLowerCase().replace(' ','-');
@@ -520,13 +520,15 @@ function createList(text){
     }
 
     function initItemsEvents( $items ) {
-        $items.on( 'click', '.close-button, .gallery__popup-overlay', function(event) {
+        $items.on('keyup', function(event) {
+            if (event.key === 'Escape') {
+                hidePreview();
+            }
+        }).on('click', '.close-button, .gallery__popup-overlay', function(event) {
             if (event.target === this) {
                 hidePreview();
             }
-
-            return false;
-        } ).children( 'a' ).on( 'click', function(e) {
+        }).children('a').on('click', function(e) {
             var $item = $( this ).parent();
             $item.removeClass('animate');
 
@@ -537,7 +539,7 @@ function createList(text){
             current === $item.index() ? hidePreview($(this)) : showPreview( $item );
             return false;
 
-        } );
+        });
     }
 
     function getWinSize() {
@@ -577,8 +579,7 @@ function createList(text){
         // initialize new preview for the clicked item
         preview = $.data( container, 'preview', new Preview( $item ) );
         // expand preview overlay
-        preview.open();
-
+        // preview.open();
     }
 
     function hidePreview() {
@@ -618,7 +619,7 @@ function createList(text){
             this.$fullimage = $( '<div class="gallery__full-img-box"></div>' ).append( this.$loading );
             this.$detailsLeftPart = $( '<div class="gallery__details gallery__details_left"></div>' ).append( this.$fullimage );
             this.$closePreview = $( '<button role="button" class="close-button gallery__close-button" title="close window">Close</button>' );
-            this.$previewInner = $( '<div class="gallery__popup"></div>' ).append( this.$detailsLeftPart, this.$details, this.$closePreview );
+            this.$previewInner = $( '<dialog class="gallery__popup"></dialog>' ).append( this.$detailsLeftPart, this.$details, this.$closePreview );
             this.$previewEl = $( '<div class="gallery__popup-overlay"></div>' ).append( this.$previewInner );
             // append preview element to the item
             this.$item.append( $('<div class="gallery__pointer"></div>') );
@@ -656,6 +657,7 @@ function createList(text){
 
                 this.$title.html( eldata.title );
                 this.$description.html( eldata.description );
+                this.$previewInner.attr('aria-label', eldata.title);
                 //clear current button list
                 this.$detailButtonList.html("");
                 var urlList = eldata.button_list;
@@ -741,7 +743,7 @@ function createList(text){
                                 })
                             }).attr('alt', $titlePhoto).attr('title', $titlePhoto).attr('src', $largePhoto);
                         }else{
-                            self.$fullimage.find('img').fadeOut(500, function(){
+                            self.$fullimage.find('img').fadeOut(500, function() {
                                 self.$fullimage.find('iframe').fadeIn(500).attr('src', $youtube);
                             });
                         }
@@ -757,8 +759,9 @@ function createList(text){
                 if( self.$fullimage.is( ':visible' ) ) {
                     this.$loading.show();
 
-                    var iframe = $('<iframe width="100%" height="100%" frameborder="0" allowtransparency="true" style="background: transparent;"></iframe>');
+                    var iframe = $('<iframe class="gallery__video" width="100%" height="100%" frameborder="0" allowtransparency="true"></iframe>');
                     var img = $( '<img class="gallery__full-img" alt=""/>' );
+
                     self.$fullimage.append(iframe);
                     self.$fullimage.append(img);
 
@@ -786,11 +789,8 @@ function createList(text){
 
                     }else{
                         self.$loading.hide();
-
                         self.$fullimage.find('img').fadeOut(500, function(){
-                            // iframe.ready(function (){
                             self.$fullimage.find('iframe').fadeIn(500).attr('src', $youtube);
-                            // });
                         });
                     }
                 }
@@ -799,12 +799,12 @@ function createList(text){
         },
         open : function() {
 
-            setTimeout( $.proxy( function() {
+            // setTimeout( $.proxy( function() {
                 // set the height for the preview and the item
                 this.setHeights();
                 // scroll to position the preview in the right place
                 this.positionPreview();
-            }, this ), 25 );
+            // }, this ), 25 );
 
         },
         close : function() {
@@ -818,21 +818,24 @@ function createList(text){
                     self.$previewEl.remove();
                 };
 
-            setTimeout( $.proxy( function() {
+            // setTimeout( $.proxy( function() {
 
                 if( typeof this.$largeImg !== 'undefined' ) {
-                    this.$largeImg.fadeOut( 'fast' );
+                    this.$largeImg.hide();
+                    // this.$largeImg.fadeOut( 'fast' );
                 }
                 this.$previewEl.css( 'height', 0 );
                 // the current expanded item (might be different from this.$item)
-                var $expandedItem = $items.eq( this.expandedIdx );
-                $expandedItem.css( 'height', $expandedItem.data( 'height' ) ).on( transEndEventName, onEndFn );
+                // var $expandedItem = $items.eq( this.expandedIdx );
+                // $expandedItem.css( 'height', $expandedItem.data( 'height' ) ).on( transEndEventName, onEndFn );
+                // $expandedItem.hide();
+                $items.find('.gallery__popup-overlay').hide();
 
                 if( !support ) {
                     onEndFn.call();
                 }
 
-            }, this ), 25 );
+            // }, this ), 25 );
 
             return false;
 
@@ -861,39 +864,39 @@ function createList(text){
                     self.$item.addClass( 'gallery__grid-item_expanded' );
                 };
 
-            this.calcHeight();
-            this.$previewEl.css( 'height', this.height );
-            this.$item.css( 'height', this.itemHeight ).on( transEndEventName, onEndFn );
+            // this.calcHeight();
+            // this.$previewEl.css( 'height', this.height );
+            // this.$item.css( 'height', this.itemHeight ).on( transEndEventName, onEndFn );
 
             if( !support ) {
                 onEndFn.call();
             }
 
         },
-        // positionPreview : function() {
-        //     // Last change here for offsetTop
-        //     // scroll page
-        //     // case 1 : preview height + item height fits in window´s height
-        //     // case 2 : preview height + item height does not fit in window´s height and preview height is smaller than window´s height
-        //     // case 3 : preview height + item height does not fit in window´s height and preview height is bigger than window´s height
+        positionPreview : function() {
+            // Last change here for offsetTop
+            // scroll page
+            // case 1 : preview height + item height fits in window´s height
+            // case 2 : preview height + item height does not fit in window´s height and preview height is smaller than window´s height
+            // case 3 : preview height + item height does not fit in window´s height and preview height is bigger than window´s height
 
-        //     // console.log(this.$item.offset().top, this.$item[0].offsetTop, this.$item.data( 'offsetTop' ))
+            // console.log(this.$item.offset().top, this.$item[0].offsetTop, this.$item.data( 'offsetTop' ))
 
-        //     var position = this.$item[0].offsetTop,
-        //         previewOffsetT = this.$previewEl.offset().top - scrollExtra,
-        //         scrollVal = this.height + this.$item.data( 'height' ) + marginExpanded <= winsize.height ? position : this.height < winsize.height ? previewOffsetT - ( winsize.height - this.height ) : previewOffsetT;
+            var position = this.$item[0].offsetTop,
+                previewOffsetT = this.$previewEl.offset().top - scrollExtra,
+                scrollVal = this.height + this.$item.data( 'height' ) + marginExpanded <= winsize.height ? position : this.height < winsize.height ? previewOffsetT - ( winsize.height - this.height ) : previewOffsetT;
 
-        //     var isFilter = localStorage.getItem("filter");
-        //     var isFilterAll = localStorage.getItem("filter-all");
+            var isFilter = localStorage.getItem("filter");
+            var isFilterAll = localStorage.getItem("filter-all");
 
-        //     if(isFilter === "false" && !isFilterAll === "false") {
-        //         $body.animate( { scrollTop : this.$item.offset().top }, settings.speed );
-        //     }
+            if(isFilter === "false" && !isFilterAll === "false") {
+                $body.animate( { scrollTop : this.$item.offset().top }, settings.speed );
+            }
 
-        //     if(isFilterAll === "true") {
-        //         $body.animate( { scrollTop : this.$item.data( 'offsetTop' ) }, settings.speed );
-        //     }
-        // },
+            if(isFilterAll === "true") {
+                $body.animate( { scrollTop : this.$item.data( 'offsetTop' ) }, settings.speed );
+            }
+        },
         setTransition  : function() {
             this.$previewEl.css( 'transition', 'height ' + settings.speed + 'ms ' + settings.easing );
             this.$item.css( 'transition', 'height ' + settings.speed + 'ms ' + settings.easing );
