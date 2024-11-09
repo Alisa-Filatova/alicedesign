@@ -1,10 +1,8 @@
 @font-face {
-  font-family: 'Neucha';
+  font-family: Neucha;
   font-style: normal;
   font-weight: 400;
-  src: local('Neucha'),
-     url('../fonts/neucha-regular.ttf') 
-     format('ttf');
+  src: url('../fonts/Neucha-Regular.ttf') format('truetype');
 }
 
 .preloader_overlay {
@@ -23,13 +21,13 @@
   top: 70%;
   left: 45%;
   margin: 74px 0 0 -97px;
+  font-family: 'Neucha', 'Comic Sans', sans-serif;
   font-size: 40px;
   line-height: 1.6;
   color: #ffffff;
   letter-spacing: 10px;
-  animation: fade-out 0.4s infinite linear alternate-reverse;
   text-align: center;
-  font-family: 'Neucha', 'Comic Sans', sans-serif;
+  animation: fade-out 0.4s infinite linear alternate-reverse;
 }
 
 .preloader__wrapper {

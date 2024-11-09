@@ -5,7 +5,7 @@
 import $ from 'jquery';
 
 $(function() {
-    $('#elastic_grid_demo').elastic_grid({
+    $('#projects-portfolio').elastic_grid({
         showAllText: 'Все проекты',
         filterEffect: 'scaleup', // moveup, scaleup, fallperspective, fly, flip, helix , popup
         hoverDirection: true,

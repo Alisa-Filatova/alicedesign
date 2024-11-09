@@ -358,11 +358,10 @@ if(numOfTag > 1){
 
 porfolio_filter.find('a').bind('click',function(e){
     //close expanding preview
-    $grid.find('.gallery__grid-item_expanded').find('a').trigger('click');
+    $grid.find('.gallery__grid-item_opened').find('.gallery__grid-link').trigger('click');
     $grid.find('.close-button').trigger('click');
 
     var $this = $(this);
-    $this.css('outline','none');
     porfolio_filter.find('.current').removeClass('current');
     $this.parent().addClass('current');
 
@@ -636,11 +635,11 @@ function createList(text){
                 this.$item = $item;
             }
 
-            // if already expanded remove class "gallery__grid-item_expanded" from current item and add it to new item
+            // if already expanded remove class "gallery__grid-item_opened" from current item and add it to new item
             if( current !== -1 ) {
                 var $currentItem = $items.eq( current );
-                $currentItem.removeClass( 'gallery__grid-item_expanded' );
-                this.$item.addClass( 'gallery__grid-item_expanded' );
+                $currentItem.removeClass( 'gallery__grid-item_opened' );
+                this.$item.addClass( 'gallery__grid-item_opened' );
                 // position the preview correctly
                 this.positionPreview();
             }
@@ -814,7 +813,7 @@ function createList(text){
                     if( support ) {
                         $( this ).off( transEndEventName );
                     }
-                    self.$item.removeClass( 'gallery__grid-item_expanded' );
+                    self.$item.removeClass( 'gallery__grid-item_opened' );
                     self.$previewEl.remove();
                 };
 
@@ -861,7 +860,7 @@ function createList(text){
                     if( support ) {
                         self.$item.off( transEndEventName );
                     }
-                    self.$item.addClass( 'gallery__grid-item_expanded' );
+                    self.$item.addClass( 'gallery__grid-item_opened' );
                 };
 
             // this.calcHeight();

@@ -21,14 +21,15 @@
   }
   
   &__header {
+    --focus-ring-bg: var(--color-blue-light);
     position: relative; // for back_button
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 16px;
     padding: var(--padding-l) var(--padding-l) var(--padding-s);
     color: var(--color-primary-dark);
 
- 
     @media (min-width: @screen-xs) {
       padding: var(--padding-xxl) var(--padding-xxl) var(--padding-s);
     }
@@ -60,11 +61,12 @@
   }
 
   &__back-button {
-    --focus-ring-bg: var(--color-primary-dark);
-    position: absolute;
-    top: 5%;
-    left: 5%;
+    flex-shrink: 0;
     transform: rotate(90deg);
+  }
+
+  &__lang-switcher {
+    flex-shrink: 0;
   }
 }
 

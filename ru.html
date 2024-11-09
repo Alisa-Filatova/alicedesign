@@ -2,798 +2,863 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8">
-    <meta name="keywords" content="Алиса Филатова, Frontend-разработка, верстка, Alice design, веб дизайн, HTML, CSS, coder, frontend developer">
-    <meta name="description" content="Алиса Филатова - Frontend-разработка, верстка, цифровая иллюстрация.">
+    <meta name="keywords" content="Алиса Филатова, Web-разработка, верстка, веб дизайн, HTML, CSS, coder, frontend developer, 2D художник">
+    <meta name="description" content="Алиса Филатова - UI Developer & 2D художник">
     <meta name="author" content="Alisa Filatova | alicedesign.ru">
 
-    <title>Alice Design</title>
+    <title>Алиса Филатова - UI Developer & 2D художник</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
     <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
 
-    <!-- Styles for preloader -->
-    <style>@font-face{font-family:'Neucha', cursive;font-style:normal;font-weight:400;}.overlay-loader{position:fixed;top:0;right:0;bottom:0;left:0;z-index:5000;pointer-events:none}.loader__text{z-index:5000;position:absolute;top:70%;left:45%;margin:74px 0 0 -97px;font-size:40px;color:#fff;letter-spacing:10px;animation:fade-out .4s infinite linear alternate-reverse;text-align:center;font-family:Neucha,Comic Sans,sans-serif}.loader__wrapper{z-index:5000;position:absolute;top:50%;left:50%}.overlay-loader .loader-background{position:absolute;width:100%;top:0;right:0;bottom:0;left:0;background-color:#506085;-webkit-transition:background-color .2s linear 0s,right .2s ease-out .3s;transition:background-color .2s linear 0s,right .2s ease-out .3s}.overlay-loader .loader-background.color-flip{-webkit-animation:color-flip 6.5s .6s infinite linear;animation:color-flip 6.5s .6s infinite linear}@-webkit-keyframes fade-out{0%{opacity:1}to{opacity:.3}}@keyframes fade-out{0%{opacity:1}to{opacity:.3}}@-webkit-keyframes color-flip{0%{background-color:#506085}18%{background-color:#506085}20%{background-color:#fc568d}38%{background-color:#fc568d}40%{background-color:#80deea}58%{background-color:#80deea}60%{background-color:#e55189}78%{background-color:#e55189}80%{background-color:#088696}98%{background-color:#088696}to{background-color:#506085}}@keyframes color-flip{0%{background-color:#506085}18%{background-color:#506085}20%{background-color:#fc568d}38%{background-color:#fc568d}40%{background-color:#80deea}58%{background-color:#80deea}60%{background-color:#e55189}78%{background-color:#e55189}80%{background-color:#088696}98%{background-color:#088696}to{background-color:#506085}}.overlay-loader .loader-icon{position:absolute;top:50%;left:50%;margin:-48px 0 0 -48px;font-size:96px;color:#fff}.overlay-loader .loader-icon.spinning-cog{-webkit-animation:spinning-cog 1.3s infinite ease;animation:spinning-cog 1.3s infinite ease}@-webkit-keyframes spinning-cog{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}20%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@keyframes spinning-cog{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}20%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@-webkit-keyframes shrinking-cog{0%{-webkit-transform:scale(1);transform:scale(1)}20%{-webkit-transform:scale(1.2);transform:scale(1.2)}to{-webkit-transform:scale(0);transform:scale(0)}}@keyframes shrinking-cog{0%{-webkit-transform:scale(1);transform:scale(1)}20%{-webkit-transform:scale(1.2);transform:scale(1.2)}to{-webkit-transform:scale(0);transform:scale(0)}}.overlay-loader .loader-icon.shrinking-cog{-webkit-animation:shrinking-cog .3s 1 ease forwards;animation:shrinking-cog .3s 1 ease forwards}</style>
-
+    <!-- Styles for Preloader -->
+    <style>.preloader_overlay{position:fixed;top:0;right:0;bottom:0;left:0;z-index:5000;pointer-events:none}.preloader__text{z-index:5000;position:absolute;top:70%;left:45%;margin:74px 0 0 -97px;font-size:var(--heading-size-l);color:var(--color-white);letter-spacing:10px;animation:fade-out .4s infinite linear alternate-reverse;text-align:center;font-family:var(--font-primary)}.preloader__wrapper{z-index:5000;position:absolute;top:50%;left:50%}.preloader_overlay .preloader__background{position:absolute;width:100%;top:0;right:0;bottom:0;left:0;background-color:var(--color-primary);-webkit-transition:background-color .2s linear 0s,right .2s ease-out .3s;transition:background-color .2s linear 0s,right .2s ease-out .3s}.preloader_overlay .preloader__background.color-flip{-webkit-animation:color-flip 6.5s .6s infinite linear;animation:color-flip 6.5s .6s infinite linear}@-webkit-keyframes fade-out{0%{opacity:1}to{opacity:.3}}@keyframes fade-out{0%{opacity:1}to{opacity:.3}}@-webkit-keyframes color-flip{0%{background-color:var(--color-primary)}18%{background-color:var(--color-primary)}20%{background-color:var(--color-accent)}38%{background-color:var(--color-accent)}40%{background-color:var(--color-cyan-dark)}58%{background-color:var(--color-cyan-dark)}60%{background-color:var(--color-accent-dark)}78%{background-color:var(--color-accent-dark)}80%{background-color:var(--color-green)}98%{background-color:var(--color-green)}to{background-color:var(--color-primary)}}@keyframes color-flip{0%{background-color:var(--color-primary)}18%{background-color:var(--color-primary)}20%{background-color:var(--color-accent)}38%{background-color:var(--color-accent)}40%{background-color:var(--color-cyan-dark)}58%{background-color:var(--color-cyan-dark)}60%{background-color:var(--color-accent-dark)}78%{background-color:var(--color-accent-dark)}80%{background-color:var(--color-green)}98%{background-color:var(--color-green)}to{background-color:var(--color-primary)}}.preloader_overlay .preloader__icon{position:absolute;top:50%;left:50%;margin:-48px 0 0 -48px;font-size:96px;color:#fff}.preloader_overlay .preloader__icon.spinning-cog{-webkit-animation:spinning-cog 1.3s infinite ease;animation:spinning-cog 1.3s infinite ease}@-webkit-keyframes spinning-cog{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}20%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@keyframes spinning-cog{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}20%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@-webkit-keyframes shrinking-cog{0%{-webkit-transform:scale(1);transform:scale(1)}20%{-webkit-transform:scale(1.2);transform:scale(1.2)}to{-webkit-transform:scale(0);transform:scale(0)}}@keyframes shrinking-cog{0%{-webkit-transform:scale(1);transform:scale(1)}20%{-webkit-transform:scale(1.2);transform:scale(1.2)}to{-webkit-transform:scale(0);transform:scale(0)}}.preloader_overlay .preloader__icon.shrinking-cog{-webkit-animation:shrinking-cog .3s 1 ease forwards;animation:shrinking-cog .3s 1 ease forwards}</style>
     <link href="dist/css/index.css?5" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/favicon.png">
   </head>
-  <body>
-    <!-- PRELOAD -->
-    <div
-      id="loader"
-      class="loader overlay-loader"
-
-    >
-      <div class="loader-background color-flip"></div>
-      <div class="loader__wrapper">
-        <img
-          class="loader-icon spinning-cog"
-          src="img/cog.svg"
-          data-cog="cog"
-          alt=""
-          aria-hidden="true"
-        >
-        <p class="loader__text" aria-live="assertive" role="alert">Загрузка...</p>
-      </div>
-    </div>
-    <!-- MAIN -->
-    <header class="header">
-      <nav class="main-nav">
-        <div class="main-nav__wrapper">
-          <!-- CONTACTS -->
-          <ul class="contacts">
-            <li class="contacts__item">
-              <a
-                class="contacts__link contacts__link_mail contacts__link_mail-pink"
-                href="mailto:alicefill@bk.ru"
-                title="alicefill@bk.ru"
-              >
-                Электронная почта
-              </a>
-            </li>
-            <li class="contacts__item">
-              <a
-                class="contacts__link contacts__link_vk contacts__link_vk-purple"
-                href="https://vk.com/alisafill"
-                target="_blank"
-                title="vk.com"
-                rel="noopener noreferrer"
-              >
-                Вконтакте
-              </a>
-            </li>
-            <li class="contacts__item">
-              <a
-                class="contacts__link contacts__link_github contacts__link_github-pink"
-                href="https://github.com/Alisa-Filatova"
-                target="_blank"
-                title="github.com"
-                rel="noopener noreferrer"
-              >
-                Гитхаб
-              </a>
-            </li>
-            <li class="contacts__item">
-              <a
-                class="contacts__link contacts__link_deviant contacts__link_deviant-purple"
-                href="http://marrylie.deviantart.com"
-                target="_blank"
-                title="deviantart.com"
-                rel="noopener noreferrer"
-              >
-                Deviant Art
-              </a>
-            </li>
-            <li class="contacts__item">
-              <a
-                class="contacts__link contacts__link_linkedin contacts__link_linkedin-pink"
-                href="https://www.linkedin.com/in/alisa-filatova-64209a139/"
-                target="_blank"
-                title="linkedin.com"
-                rel="noopener noreferrer"
-              >
-                Linked In
-              </a>
-            </li>
-          </ul>
-          <!-- LANGUAGE -->
-          <ul
-            class="language"
-          >
-            <li
-              class="language__item"
-            >
-              <a
-                class="language__link"
-                href="index.html"
-                title="English"
-                aria-label="English"
-                hreflang="en"
-                aria-current="false"
-              >
-                EN
-              </a>
-            </li>
-            <li class="language__item" role="separator" aria-hidden="true">|</li>
-            <li
-              class="language__link language__link_active"
-              aria-disabled="true"
-              aria-label="Язык - русский"
-              title="Pусский"
-              aria-current="true"
-            >
-              RU
-            </li>
-          </ul>
-        </div>
-        <!-- NAVIGATION -->
-        <div class="main-nav__boards">
-          <ul class="main-nav__items main-nav__items_rus">
-            <li class="main-nav__item">
-              <a class="main-nav__link" href="#portfolio">Портфолио</a>
-            </li>
-            <li class="main-nav__item">
-              <a class="main-nav__link" href="#about-me">Обо мне</a>
-            </li>
-            <li class="main-nav__item">
-              <a class="main-nav__link" href="#contacts">Контакты</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-
-      <img
-        class="logo header__logo"
-        src="img/logo.svg"
-        width="400"
-        height="300"
-        alt="Alice Design логотип"
+    <body onLoad=loadSprites()>
+      <!-- PRELOADER -->
+      <div
+        class="preloader preloader_overlay"
+        id="loader"
       >
-      <div class="rabbit"></div>
-
-      <!-- TREE -->
-      <div class="tree">
-        <div class="tree-element tree-element__light tree-element__light_top"></div>
-        <div class="tree-element tree-element__light tree-element__light_bottom"></div>
-        <div class="tree-element tree-element__gear tree-element__gear_one"></div>
-        <div class="tree-element tree-element__gear tree-element__gear_two"></div>
-        <div class="tree-element tree-element__gear tree-element__gear_three"></div>
-        <div class="tree-element tree-element__gear tree-element__gear_four"></div>
-        <div class="tree-element tree-element__gear tree-element__gear_five"></div>
-        <svg
-          class="tree-element tree-element__key"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 17.4 17.5"
-          fill="#717c9a"
-        >
-          <path class="st0" d="M8.7 6.6s-.1 0 0 0h-.2c-1 .1-1.1 1.1-1.1 1.1s-1.1.2-1.2 1.2c0 .8.5 1.5 1.2 1.5.4 0 .7-.1.9-.3v.4c-.1.1-.2.1-.2.2s0 .1.1.1c-.1.2-.2.2-.2.3 0 .1.1.2.2.2l-.1.1c0 .1.1.2.2.2 0 .4-.1 1.1-.2 1.4 0 .1.1.2.2.2-.1.1-.1.2-.1.3 0 .2.1.3.2.4v1.8h-.1v.2c-.1 0-.1.1-.1.1 0 .1 0 .1.1.1 0 0 .1 0 .1.1v1c0 .1.1.1.1.1h.1c.1 0 .1 0 .1-.1s.3 0 .3 0h.6c.1 0 .1-.1.1-.1 0-.1 0-.1-.1-.1l-.1-.1v-.3c0-.1 0-.1.1-.1l.1-.1c0-.1-.1-.1-.1-.1H9h-.1c.1 0 .2-.1.2-.2s0-.1-.1-.1v-.1c0-.1 0-.1-.1-.1v-1.6c.1-.1.3-.2.3-.4 0-.1 0-.2-.1-.2.1 0 .2-.1.2-.2-.1-.5-.2-1.1-.2-1.5.2-.1.3-.1.3-.2s0-.1-.1-.1c.1-.1.2-.1.2-.2s-.1-.2-.2-.2l.1-.1c0-.1-.1-.2-.3-.3v-.4c.2.2.5.3.8.3.3 0 1.3-.3 1.3-1.3C11.2 8 10 7.7 10 7.7s-.2-1-1.2-1.1h-.1zM8 9.9c-.5.3-1.3 0-1.4-.7-.1-.7.6-1.1.8-1.1.2 0 .9.7 1.1.9s0 .1-.1.3c0 .2-.1.4-.4.6zm2.8-.4c-.3.8-1.6.9-1.9-.4 0 0 .9-.9 1.1-.9.2 0 1 .5.8 1.3zM9.6 7.7c0 .3-.5.7-.8.9 0 .1-.1.2-.1.2s-.1-.1-.2-.1l-.1-.1c-.3-.3-.6-.6-.7-.9 0-.3.3-.6.7-.7h.5c.3.1.7.4.7.7z"></path>
-          <path class="st0" d="M8.284.105l.2-.006.23 6.595-.2.007z"></path>
-        </svg>
-      </div>
-
-      <a
-        class="arrow"
-        href="ru.html#portfolio"
-        aria-label="Перейти к разделу Портфолио"
-        title="Раздел Портфолио"
-      >
-        <img
-          class="arrow__back"
-          src="img/arrow-main.svg"
-          alt="Стрелка вниз"
-          width="30"
-          height="70"
-        >
-      </a>
-
-      <!-- GIRL -->
-      <svg
-        id="girl-main"
-        class="girl"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="-104 49.6 90.5 203.4"
-        enable-background="new -104 49.6 90.5 203.4"
-        aria-hidden="true"
-      >
-        <path fill="#506085" d="M-52.4,206.8c0-0.1,0.1-0.2,0.1-0.2S-52.3,206.7-52.4,206.8z"></path>
-        <path fill="#F4ECE0" d="M-44.9,161.8c1.3-0.2,2.3-0.4,3.8-0.7c0,1.5,0.1,2.9-0.1,4.2c0,0.4-0.9,0.7-1.4,0.9c-0.5,0.2-1,0.2-1.7,0.3C-44.5,165-44.7,163.4-44.9,161.8z"></path>
-        <path fill="#506085" d="M-50.5,185.8h-0.2H-50.5c0,0,0.1,0,0.1-0.1C-50.4,185.7-50.4,185.8-50.5,185.8z"></path>
-        <path fill="#FC568D" d="M-73.2,172.7c0.1-1.5,0.1-2.9,0.2-4.3c2.3,0.2,4.4,0.3,6.4,0.4C-67.2,170.9-70.4,172.7-73.2,172.7zM-48.3,169.3c0.6,0,1.1-0.1,1.7-0.1s1.2,0.1,1.8,0.1c2.1-0.2,2.6,0.3,2.4,2.4c0,0.3-0.6,0.8-0.8,0.8c-1.9-0.4-3.8-1-5-2.6C-48.3,169.7-48.3,169.5-48.3,169.3z"></path>
-        <path fill="#717C9A" d="M-40.8,180.7c-0.4-2.2-0.7-4.5-1.1-6.7c-0.6,0-1.2,0-1.7-0.1c-2.5-0.8-5.4-1.1-6.4-4.3c-0.1-0.2-0.4-0.5-0.7-0.5h-5.4c0,0-2.4-0.2-3-0.2c-1.7-0.1-3.4-0.2-5.1-0.2c-0.3,0-0.6,0.4-0.8,0.8c-0.6,0.9-1,2.2-1.9,2.7c-1.7,1-3.7,1.5-5.6,2.3c-0.4,0.2-1.1,0.5-1.2,0.8c-0.4,1.9-0.6,3.8-0.9,5.7c0.2,0.1,0.4,0.2,0.7,0.3c3.4,1.3,5.8,1.2,9.6,1.7c3.1,0.4,2.4,0.5,4.6,0.7c3.6,0.3,4.8-0.2,10-0.1h2.1c2.7-0.2,2.7-0.8,5.1-1.1c0.3,0,0.9-0.1,1.2-0.5C-40.8,181.5-40.8,181.2-40.8,180.7z M-57.8,182.9c0.1-0.1,0.1-0.2,0.1-0.2S-57.7,182.8-57.8,182.9z"></path>
-        <path fill="#FC568D" d="M-47.2,186.7c2.2-0.3,4.6-0.7,7.1-1.3c-0.3-1.8-0.6-2-2.3-1.7s-3.5,0.6-5.2,0.9l-14.1,0.3c-0.5-0.2-1.2-0.2-1.8-0.3c-3.8-0.6-7.6-1.1-11.4-1.7c-0.6,2.2-0.6,2.3,1.5,2.6c2.3,0.4,4.7,0.7,7.1,1c1.4,0.2,2.8,0.4,4.3,0.6h0.4c1.3,0.1,4.6,0,7.7-0.1C-52.2,187.1-49.9,187-47.2,186.7C-47.3,186.7-47.2,186.7-47.2,186.7z"></path>
-        <path fill="#506085" d="M-55,106.7c-0.6,1.4-1.7,1.3-2.7,1.2c-0.6-0.1-1.1-0.6-1.5-1.2H-55z M-78,94.6c1.2-1,2.7-1,4.3-0.4c-1.4,0.3-2.8,0.5-4.1,0.8C-77.9,94.9-78,94.7-78,94.6z"></path>
-        <path fill="#506085" d="M-14.5,102.1c-0.5-5-1.7-9.9-2.8-14.8c-0.5-2.3-1.5-4.5-2.8-6.5c-3.4-5.5-6.9-10.9-9.7-16.8c-1.2-2.6-2.7-5-5-7c-4-3.5-8.5-4.9-13.7-4.6c-1.1,0.1-2.3,0.1-3.2-0.4c-5.5-2.8-11.3-2.7-17.2-1.9c-3.6,0.5-6.7,2.3-9.9,4C-85,57.2-90.1,61.6-94.4,67c-0.7,0.9-1.5,1.8-2.3,2.8c-1.3,1.5-2.9,2-4.8,1.6c-0.4-0.1-0.8-0.2-1.5-0.3c0.9,2.1,2.5,3.2,4.6,4.1c-2.5,5.8-3.3,11.9-4.3,18c-0.8,5-0.9,10,0,15.1c0.6,3.4,0.9,6.8,1,10.2c0.1,1.8,0.5,3.6,0.2,5.4c0.4,3.4,0.6,6.9,0.8,10.3c0.4,0.4,0.9,0.9,1.2,1.4l0.3,0.6c0.2-0.5,0.4-1,0.6-1.4c0.8-1.8,1.8-3.8,3.7-4.5c0.1,0,0.1,0,0.2,0.1c1.4,2.4,2.5,5,3.5,7.6c1.5-1,2.6-2.4,4-3.5c0.1-0.1,0.2,0,0.2,0.1c0.7,2.3,0.8,4.7,1,7c1.4-1.3,2.6-2.8,4-4.1c0.1-0.1,0.2-0.1,0.2,0c0.4,0.9,0.5,1.9,0.6,2.8c0.8-0.4,1.6-0.9,2.2-1.7c0.1-0.1,0.2,0,0.2,0.1c0.2,0.6,0.4,1.2,0.5,1.9c0.3-0.4,0.7-0.7,1-1.2c0.1-0.1,0.3-0.1,0.3,0.1c0,0.7-0.4,1.4-0.9,1.9c-0.2,0.3-0.5,0.5-0.7,0.8c-0.1,1.8-0.2,3.5-0.3,5.3c-0.4,3.3-0.8,6.6-1.3,9.9c-0.5,2.8-1.2,5.6-1.7,8.4c-0.2,1.2,0.1,2.5,0.2,3.8c0,0.4,0.2,0.8,0.1,1.1c-0.3,1-0.4,1.9,0.7,2.6c0.2,0.1,0.3,0.7,0.3,1v2.4c0,2.8,0.5,3.3,3.4,3.5c0.4,0,0.9,0.2,1.2,0.3c-0.2,1.8-0.3,3.6-0.5,5.4l0.1,0.1c2,0.1,2.1,1.4,2.2,3.1c0.4,5.1,1,10.1,1.6,15.2c0.1,0.7,0.1,1.4,0.1,2.1c0,0-0.1,0-0.1,0.1c0.3,0.9,0.2,2,0.4,2.9v0.1c0,0.2,0.1,0.4,0.2,0.6c0,0.1,0,0.1-0.1,0.2c0.6,6,1.3,11.9,1.7,17.9c0.3,3.8-0.1,7.5,0.1,11.3c0.1,3.4,0.5,6.7,0.7,10.1c0.2,2.7,0.7,3.2,3.5,3.2c0.7,0,1.4-0.2,2-0.4c1.6-0.4,2.1-1.4,1.7-2.9c-0.2-0.7-0.5-1.3-0.9-1.9c-1.3-1.8-1.3-3.6-0.1-5.5c0.5-0.8,0.9-1.7-0.1-2.5c-0.2-0.1-0.3-0.4-0.3-0.6c0-2.2-0.1-4.4,0.1-6.5c0.4-3.5,1.1-7,1.7-10.6c0.4-2.5,0.7-4.9,1-7.3c-0.1,0-0.1-0.1-0.1-0.1c0-0.8,0.2-1.5,0.2-2.3c-0.1,0-0.1-0.1-0.1-0.2s0.1-0.3,0.2-0.4v-1c0.6-7.7,1.1-15.5,1.7-23.2c0-0.4,0.2-0.7,0.3-1.3c1.6,2,1.5,4.1,1.6,6.1c0.2,3.6,0.2,7.1,0.5,10.7c0.2,2.5,0.5,4.9,0.9,7.3c0.1,0.4,0.1,0.7,0,1c0.4,0.5,0.4,1.1,0.4,1.6h0.1c0,2.5-0.1,4.9,0,7.3c0.2,5,0.6,10.1,0.9,15.1c0,0.3,0.1,0.7,0,0.9c-1.3,1.3-0.6,2.9-0.7,4.3c-1.5,0.8-1.6,2.2-0.2,3.2c0.9,0.6,0.9,1.3,0.6,2c-0.4,0.8-1.1,1.5-1.4,2.3c-0.4,1-0.9,2.2-0.8,3.3c0,0.6,1,1.6,1.6,1.7c1.2,0.2,2.6-0.1,3.8-0.3c0.4-0.1,0.9-0.8,1-1.2c0.7-3.2,1.4-6.4,1.8-9.6c0.3-2,0.1-4.1,0.3-6.2c0.9-8.1,1.9-16.2,2.6-24.4c0.1-1.1,0.3-2,0.5-3c0-0.5,0-1.1-0.1-1.6c-0.1-0.9-0.1-1.8,0.2-2.7c0.5-5.2,1-10.4,1.6-15.6c0-0.4,0.5-0.8,0.9-0.9c0.8-0.3,1.7-0.5,2.6-0.6c1.1-0.2,1.5-0.9,1.3-1.9c-0.2-1.4-0.5-2.7-0.7-4.1c0-0.3,0.4-0.9,0.6-1c2.6-0.7,3.2-1.3,3-3.9c-0.2-2.3,0.5-4.5,0.5-6.8c0-0.8,0.1-1.6,0-2.4c-0.5-3.7-1.1-7.3-1.4-11c-0.4-4.1-0.5-8.1-0.8-12.2c0-0.1,0.1-0.2,0.1-0.3c0.2,0,0.5,0.1,0.7,0.1c0.3-2.2,1-4.4,2.2-6.3c0.1-0.1,0.2-0.1,0.3,0c1.2,1.8,2.1,3.7,3,5.6c0.5-0.2,1-0.5,1.4-0.9c0.1-1.7,0.2-3.4,1.2-4.9c0-0.1,0.1-0.1,0.2-0.1c1,0.6,1.9,1.4,2.6,2.4c0.9-2.5,1-5.2,2-7.8c0-0.1,0.2-0.1,0.2-0.1c0.3,0.3,0.5,0.6,0.7,0.9c1.7-3.5,3.4-7,5.1-10.4C-14.8,115.3-13.8,108.8-14.5,102.1L-14.5,102.1z M-76.7,179.3c-0.4-1-0.8-1.6-1.5-0.5c-0.6-0.3-1.1-0.6-1.7-1v-4.4c1.6,0.5,3.1,0.7,4.4,1.4C-74.9,175.1-75.9,178.7-76.7,179.3z M-62,187.1c-1.4-0.2-2.8-0.4-4.3-0.6c-2.4-0.3-4.7-0.7-7.1-1c-2.1-0.3-2.1-0.4-1.5-2.6c3.8,0.6,7.6,1.1,11.4,1.7c0.6,0.1,1.2,0.1,1.8,0.3c0.5,0.2,1.3,0.7,1.3,1C-60.5,186.7-61,187.3-62,187.1L-62,187.1z M-73.9,181.4c-0.2,0-0.4-0.1-0.7-0.3c0.3-1.9,0.5-3.8,0.9-5.7c0.1-0.3,0.8-0.6,1.2-0.8c1.9-0.8,3.8-1.3,5.6-2.3c0.9-0.5,1.2-1.8,1.9-2.7c0.2-0.3,0.6-0.8,0.8-0.8c1.7,0,3.4,0.1,5.1,0.2c0.5,0,3,0.2,3,0.2h5.4c0.2,0,0.6,0.3,0.7,0.5c1,3.1,3.8,3.4,6.4,4.3c0.5,0.2,1.1,0.1,1.7,0.1c0.4,2.2,0.7,4.5,1.1,6.7c0.2,1.1-0.4,1.4-1.3,1.5c-2.4,0.4-4.7,0.7-7.1,1.1h-0.1C-59.7,183.2-69.2,182.2-73.9,181.4z M-73.2,172.7c0.1-1.5,0.1-2.9,0.2-4.3c2.3,0.2,4.4,0.3,6.4,0.4C-67.2,170.9-70.4,172.7-73.2,172.7z M-48.3,169.8c0-0.2,0.1-0.3,0.1-0.5c0.6,0,1.1-0.1,1.7-0.1s1.2,0.1,1.8,0.1c2.1-0.2,2.6,0.3,2.4,2.4c0,0.3-0.6,0.8-0.8,0.8C-45.2,172-47.1,171.4-48.3,169.8z M-57.1,186.2c1.5-0.2,2.9-0.5,4.3-0.7c3.5-0.6,6.9-1.2,10.4-1.8c1.6-0.3,1.9-0.1,2.3,1.7C-48.2,187.2-56.1,187.7-57.1,186.2z M-36.9,177c0,0.4-0.9,0.7-1.5,1c-0.5,0.2-1.1,0.2-1.8,0.3c-0.2-1.6-0.4-3.3-0.6-4.9c1.3-0.3,2.4-0.5,4-0.7C-36.8,174.2-36.7,175.6-36.9,177z M-36.9,165.6c0.2,1.2,0.5,2.4-0.4,3.5c-0.8,1-1.8,1.2-2.8,0.9c-0.6-0.2-1.1-0.9-1.4-1.5s-0.4-1.3-0.4-2v-20.9c0-0.5-0.2-1-0.7-1.5c-1.2,7.8-0.6,15.6-0.6,23.8c-9.7-0.3-19.3-0.6-29-1c0.4-3.4,0.8-6.4,0.9-9.4c0.2-3.5,0.2-7,0.4-10.5c0-0.2,0.1-0.5,0.1-0.7l-0.6-4.2c-0.9,1.1-1.2,2.4-1.2,3.8c-0.1,4.2-0.1,8.3-0.3,12.5c-0.1,2.4-0.3,4.9-0.7,7.2c-0.3,1.7-1.1,3.2-1.8,5.1c-1.3-0.3-2.9-0.5-4.2-1.1c-1.2-0.5-1.8-1.8-1.4-3.2c2.4-7.9,2.5-16.1,3.8-24.2c0.4-2.4,0.8-4.8,1-7.2c0.3-2.3,1.8-3.6,3.7-4.5c2-0.9,4.2-1.4,6.3-2.1c0.5-0.2,1-0.3,1.4-0.4c0.7-0.1,1.3-0.1,1.4,0.8c0.1,0.4,0.4,0.7,0.6,1c1.8,1.9,6.2,2.3,8.3,0.6c0.7-0.6,1.2-1.6,2-2.8c1.8,0.6,3.9,1.3,6.1,2c0.3,0.1,0.6,0.4,0.9,0.5c3.9,1,4.6,4,4.9,7.4c0.1,1.6,0.7,3.1,0.9,4.7c0.3,2.7,0.4,5.5,0.7,8.3C-38.2,155.7-37.6,160.7-36.9,165.6z M-35.4,115.2c-4.3,4-9.7,5.9-15.3,7.1c-1.8,0.4-3.6,0.8-5.4,1.5c0.6,0.1,1.3,0.2,1.9,0.3c0.6,3.6-0.2,4.1-3.3,4.3c-1.1,0.1-2.3-0.2-3.4-0.3c-0.2,0-0.6-0.2-0.7-0.4c-0.6-1.1,0.1-3.7,1.5-4.7c-1.7-0.2-3.1-0.4-4.5-0.5c-5.7-0.3-11.1-1.9-15.8-5.1c-1-0.7-1.9-1.5-2.7-2.3c-1.6-1.5-2.3-3.3-2-5.6c0.5-3.2,0.8-6.5,2.3-9.4c0.1-0.3,0.3-0.5,0.4-0.7c0,0,0-0.1,0.1-0.1c1.5-3.9,3.9-6.9,7.5-8.6c4-1.9,8.2-3.4,12.4-5.1c2.5-1,5-1.9,7.5-2.9c3.5-1.4,6.3-3.7,8.9-6.4c0.3-0.3,0.5-0.6,0.8-1.1c3.6,3.7,6.9,7.2,8.9,11.7c2.5,5.6,4,11.3,3.7,17.4c-0.1,1.5-0.2,3.1,0,4.6C-32.3,111.6-33.6,113.4-35.4,115.2z"></path>
-        <path fill="#596A8E" id="girl-main-eyes" d="M-78.3,98.8c-1.1,0.8-2.2,1.4-3.7,0.7c-0.1,0.3-0.3,0.5-0.4,0.7c0.7,0.3,1.3,0.5,1.8,0.9c0.3,0.2,0.6,0.6,0.8,1c0.4,0.9,0.6,1.9,1.2,2.6c1.3,1.6,3.8,1.7,5.3,0.5c1.5-1.2,1.7-4.1,0.4-5.7C-74.1,98-76.7,97.6-78.3,98.8zM-35,96.7c-2.2,1.1-2.6,3.2-3.4,5c-0.8,1.7-3.1,2.2-4.6,1.5c-1.6-0.7-2.5-2.8-2.1-4.6c0.4-1.7,1.8-2.6,3.8-2.5c0.5,0,1,0,1.5,0.2C-38.3,96.9-36.8,97.5-35,96.7z"></path>
-        <path fill="#FFF7E9" d="M-44.9,91.8c1.3-0.9,2.8-0.7,4.3,0.1l-4.2,0.3C-44.9,92.1-44.9,92-44.9,91.8z"></path>
-        <path fill="#FC568D" d="M-37,165.3c-0.7-4.9-1.3-9.9-1.9-14.8c-0.3-2.7-0.4-5.5-0.7-8.3c-0.2-1.6-0.7-3.1-0.9-4.7c-0.3-3.4-1.1-6.4-4.9-7.4c-0.3-0.1-0.6-0.4-0.9-0.5c-2.1-0.7-4.3-1.4-6.1-2c-0.8,1.2-1.3,2.2-2,2.8c-2,1.7-6.4,1.3-8.3-0.6c-0.3-0.3-0.6-0.6-0.6-1c-0.2-0.9-0.8-0.9-1.4-0.8c-0.5,0.1-1,0.2-1.4,0.4c-2.1,0.7-4.3,1.2-6.3,2.1c-1.9,0.8-3.4,2.1-3.7,4.5c-0.3,2.4-0.7,4.8-1,7.2c-1.3,8-1.3,16.3-3.8,24.2c-0.4,1.3,0.2,2.6,1.4,3.2c1.3,0.6,2.9,0.8,4.2,1.1c0.7-1.9,1.5-3.5,1.8-5.1c0.4-2.4,0.6-4.8,0.7-7.2c0.2-4.2,0.2-8.3,0.3-12.5c0-1.4,0.3-2.7,1.2-3.8l0.6,4.2c-0.1,0.2-0.1,0.5-0.1,0.7c-0.1,3.5-0.1,7-0.4,10.5c-0.2,3-0.6,6-0.9,9.4c9.7,0.3,19.4,0.6,29.1,1c0-8.2-0.6-16,0.6-23.8c0.5,0.5,0.7,1,0.7,1.5v20.9c0,0.7,0.1,1.4,0.4,2c0.3,0.6,0.8,1.3,1.4,1.5c1,0.3,2,0.1,2.8-0.9C-36.5,167.7-36.8,166.5-37,165.3L-37,165.3z"></path>
-        <path fill="#FFF7E9" d="M-32.7,108.7c-0.2-1.5-0.1-3.1,0-4.6c0.3-6.1-1.2-11.8-3.7-17.4c-2-4.5-5.3-8-8.9-11.7c-0.3,0.5-0.5,0.8-0.8,1.1c-2.6,2.7-5.4,5-8.9,6.4c-2.5,1-5,1.9-7.5,2.9c-4.2,1.7-8.4,3.2-12.4,5.1c-3.6,1.8-6,4.8-7.5,8.7c1.6,0.9,2.7,0.3,3.9-0.7c1.7-1.1,4.2-0.7,5.4,0.8c1.3,1.6,1.1,4.5-0.4,5.7c-1.5,1.2-4,1.1-5.3-0.5c-0.6-0.7-0.8-1.7-1.2-2.6c-0.2-0.4-0.5-0.8-0.8-1c-0.6-0.4-1.3-0.7-2.1-1c-1.5,2.9-1.8,6.2-2.3,9.4c-0.3,2.3,0.4,4.1,2,5.6c0.8,0.8,1.7,1.6,2.7,2.3c4.7,3.2,10.1,4.8,15.8,5.1c1.4,0.1,2.8,0.3,4.5,0.5c-1.4,1-2.1,3.6-1.5,4.7c0.1,0.2,0.5,0.4,0.7,0.4c1.1,0.1,2.3,0.4,3.4,0.3c3.1-0.2,3.9-0.7,3.3-4.3c-0.6-0.1-1.3-0.2-1.9-0.3c1.8-0.7,3.6-1.1,5.4-1.5c5.6-1.2,11-3.1,15.3-7.1C-33.6,113.3-32.3,111.4-32.7,108.7L-32.7,108.7z M-77.9,95c0-0.1-0.1-0.3-0.1-0.4c1.3-1,2.7-1,4.2-0.4C-75.1,94.5-76.5,94.7-77.9,95z M-40.6,91.8c-1.4,0.2-2.9,0.4-4.3,0.6C-44,90.9-41.9,90.7-40.6,91.8z M-38.5,101.7c-0.7,1.7-3,2.2-4.6,1.5s-2.5-2.7-2.1-4.6c0.3-1.7,1.8-2.6,3.8-2.5c0.5,0,1.1,0,1.5,0.2c1.6,0.7,3.1,1.3,4.9,0.4C-37.2,97.8-37.6,99.8-38.5,101.7z"></path>
-        <path fill="#596A8E" d="M-60.6,109.3h6.4C-54.2,109.3-57.5,113.7-60.6,109.3z M-45.6,92.2c0,0,4.2-2.5,7.2,0.6C-38.4,92.8-45.6,92.2-45.6,92.2z M-79.6,95.2c0,0,3.6-3.6,7.4-1.3L-79.6,95.2z"></path>
-        <polygon fill="#506085" points="-36.4,89.4 -48.5,89 -49.9,87.4 -50.8,89.4 -60.7,89.4 -63.2,87.4 -63.2,89.4 -83.1,91.1 -80.7,69.2 -37,68.7 -34.7,89.2 "></polygon>
-      </svg>
-
-      <div class="grass"></div>
-    </header>
-
-    <main>
-      <h1 class="visually-hidden">Сайт портфолио Алисы Филатовой</h1>
-     <!-- PORTFOLIO -->
-      <section class="portfolio" id="portfolio">
-        <h2 class="portfolio__heading">Портфолио</h2>
-        <div
-          id="grid"
-          class="portfolio__grid"
-          role="navigation"
-        >
-          <a
-            class="portfolio__link"
-            href="web-design.html"
-            aria-label="Страница Веб дизайн"
-            data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z"
-          >
-            <div class="portfolio__item">
-              <img
-                aria-hidden="true"
-                class="portfolio__img"
-                src="img/web-design-img.jpg"
-                alt="Кисть и краски"
-              >
-              <svg
-                viewBox="0 0 180 320"
-                preserveAspectRatio="none"
-                aria-hidden="true"
-              >
-                <path fill="#506085" d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"></path>
-              </svg>
-              <figcaption class="portfolio__wrapper">
-                <h3 class="portfolio__title">Веб дизайн</h3>
-                <p class="portfolio__description">
-                  Проекты с моим дизайном.
-                </p>
-                <button
-                  class="portfolio__btn"
-                  role="link"
-                  aria-label="Перейти на страницу Веб дизайн"
-                >
-                  Смотреть
-                </button>
-              </figcaption>
-            </div>
-          </a>
-          <a
-            class="portfolio__link"
-            href="code.html"
-            aria-label="Страница Мой код"
-            data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z"
-          >
-            <figure class="portfolio__item">
-              <img
-                aria-hidden="true"
-                class="portfolio__img"
-                src="img/code-img.jpg"
-                alt="Код"
-              >
-              <svg
-                viewBox="0 0 180 320"
-                preserveAspectRatio="none"
-                role="presentation"
-                aria-hidden="true"
-              >
-                <path fill="#fc568d" d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"></path>
-              </svg>
-              <figcaption class="portfolio__wrapper">
-                <h3 class="portfolio__title">/* Frontend */</h3>
-                <p class="portfolio__description">
-                  Проекты с моим кодом (HTML/CSS/JS)
-                </p>
-                <button
-                  class="portfolio__btn portfolio__btn_purple"
-                  role="link"
-                  aria-label="Страница Проекты с моим кодом"
-                >
-                  Смотреть
-                </button>
-              </figcaption>
-            </figure>
-          </a>
-          <a
-            class="portfolio__link portfolio__link_illustrations"
-            href="/"
-            aria-label="Страница Иллюстрации"
-            data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z"
-          >
-            <figure class="portfolio__item">
-              <img
-                aria-hidden="true"
-                class="portfolio__img"
-                src="img/illustrations-img.jpg"
-                alt="Рисунок"
-              >
-              <svg
-                viewBox="0 0 180 320"
-                preserveAspectRatio="none"
-              >
-                <path fill="#506085" d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"></path>
-              </svg>
-              <figcaption class="portfolio__wrapper">
-                <h3 class="portfolio__title">Иллюстрации</h3>
-                <p class="portfolio__description">
-                  Цифровые иллюстрации в Adobe Photoshop и Procreate.<br>
-                  Портфолио временно не доступно.
-                </p>
-                <button
-                  class="portfolio__btn"
-                  role="link"
-                  aria-label="Страница Иллюстрации"
-                >
-                  Смотреть
-                </button>
-              </figcaption>
-            </figure>
-          </a>
-        </div>
-      </section>
-
-      <!-- ABOUT ME -->
-      <section class="about-me" id="about-me">
-        <h2 class="about-me__title about-me__title_rus">Обо мне</h2>
-        <div class="clock">
-          <div class="clock__hour"></div>
-          <div class="clock__minute"></div>
-        </div>
-        <div class="lamp"></div>
-        <div class="steam-wrapper">
-          <div class="steam steam-one"></div>
-          <div class="steam steam-two"></div>
-          <div class="steam steam-three"></div>
-          <div class="steam steam-four"></div>
-        </div>
-        <div class="lamp-big">
-          <svg
+        <div class="preloader__background color-flip"></div>
+        <div class="preloader__wrapper">
+          <svg 
+            class="preloader__icon spinning-cog" 
             xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 113.7 193"
-            role="presentation"
+            width="96" 
+            height="96"
+            viewBox="0 0 96 96"
+            fill="#ffffff"
             aria-hidden="true"
           >
-            <ellipse class="lamp-light" fill="#FFF" cx="56.2" cy="172.3" rx="21.8" ry="17.5"></ellipse>
-            <path fill="#506085" d="M22.2 98.4h68l20.5 71.7H1.7l20.5-71.7z"></path>
-            <path fill="#717C9A" d="M22.3 98.6h68l2 7.1h-72l2-7.1zM108.7 163.1l2 7H1.7l2-7h105z"></path>
-            <path fill="#506085" d="M55.7 0h3.7v98.3h-3.7V0z"></path>
+            <path d="M87.311 48c0-.983-.076-1.947-.147-2.912 3.839-1.227 6.879-2.397 8.837-3.441l-.704-3.963c-2.198-.316-5.456-.385-9.481-.236-.535-1.89-1.203-3.719-2.007-5.48 3.179-2.452 5.629-4.58 7.106-6.225l-2.027-3.484c-2.176.449-5.263 1.491-8.997 2.998-1.148-1.582-2.397-3.084-3.766-4.476 2.14-3.381 3.707-6.211 4.529-8.257l-3.106-2.586c-1.886 1.157-4.419 3.175-7.399 5.849-1.614-1.095-3.332-2.041-5.107-2.891.848-3.912 1.346-7.108 1.413-9.313l-3.811-1.375c-1.377 1.731-3.066 4.499-4.952 8.036-1.884-.475-3.805-.854-5.785-1.047-.553-3.948-1.184-7.109-1.88-9.197h-4.055c-.695 2.088-1.327 5.249-1.878 9.196-1.98.194-3.902.573-5.785 1.047-1.886-3.537-3.575-6.305-4.952-8.036l-3.811 1.375c.066 2.205.565 5.401 1.413 9.313-1.775.85-3.493 1.796-5.108 2.891-2.979-2.674-5.513-4.692-7.398-5.849l-3.106 2.586c.821 2.045 2.39 4.875 4.529 8.257-1.368 1.392-2.617 2.894-3.766 4.476-3.734-1.507-6.821-2.549-8.997-2.998l-2.028 3.484c1.479 1.645 3.928 3.772 7.106 6.225-.803 1.762-1.471 3.591-2.006 5.48-4.026-.148-7.283-.08-9.481.236L0 41.646c1.958 1.044 4.998 2.215 8.837 3.441-.072.966-.149 1.93-.149 2.913 0 .982.076 1.947.148 2.912C4.998 52.139 1.958 53.309 0 54.354l.704 3.963c2.198.316 5.455.385 9.481.236.535 1.89 1.203 3.719 2.006 5.48-3.179 2.452-5.628 4.58-7.106 6.225l2.028 3.484c2.176-.448 5.263-1.49 8.997-2.998 1.148 1.582 2.397 3.085 3.766 4.477-2.141 3.381-3.708 6.211-4.529 8.257l3.106 2.585c1.886-1.156 4.419-3.176 7.398-5.849 1.615 1.095 3.333 2.04 5.108 2.891-.848 3.911-1.347 7.108-1.413 9.312l3.811 1.376c1.377-1.731 3.066-4.499 4.952-8.037 1.883.475 3.805.854 5.785 1.049.551 3.946 1.183 7.107 1.878 9.195h4.055c.695-2.088 1.327-5.249 1.878-9.195 1.98-.194 3.901-.574 5.785-1.049 1.885 3.538 3.575 6.306 4.952 8.037l3.811-1.376c-.067-2.204-.565-5.401-1.413-9.312 1.775-.851 3.493-1.796 5.108-2.891 2.979 2.673 5.513 4.692 7.398 5.849l3.106-2.585c-.822-2.046-2.39-4.876-4.529-8.257 1.368-1.392 2.617-2.895 3.766-4.477 3.734 1.508 6.821 2.55 8.997 2.998l2.027-3.484c-1.478-1.645-3.928-3.772-7.106-6.225.804-1.762 1.472-3.591 2.007-5.48 4.025.148 7.283.08 9.481-.236L96 54.354c-1.958-1.045-4.998-2.215-8.837-3.441.071-.966.148-1.931.148-2.913zM51 18.244c0-1.694 1.556-2.959 3.22-2.641 7.429 1.418 13.966 5.33 18.723 10.829 1.105 1.278.778 3.255-.686 4.1l-.65.375c-1.096.633-2.449.339-3.28-.615-3.85-4.417-9.098-7.577-15.06-8.763C51.973 21.27 51 20.203 51 18.882v-.638zm-27.943 8.188c4.758-5.5 11.295-9.41 18.724-10.829 1.662-.318 3.219.947 3.219 2.641v.639c0 1.321-.973 2.388-2.268 2.646-5.961 1.186-11.21 4.347-15.059 8.764-.831.954-2.185 1.247-3.28.614l-.651-.375c-1.463-.845-1.79-2.822-.685-4.1zm-1.854 33.576-.464.268c-1.46.842-3.331.146-3.89-1.444C15.66 55.439 15 51.799 15 48c0-3.8.66-7.438 1.85-10.831.559-1.591 2.43-2.287 3.89-1.444l.464.268c1.122.648 1.701 2 1.276 3.225C21.525 41.972 21 44.924 21 48s.525 6.028 1.479 8.783c.425 1.225-.154 2.576-1.276 3.225zM45 77.756c0 1.693-1.557 2.959-3.22 2.642-7.429-1.419-13.966-5.33-18.724-10.829-1.104-1.278-.777-3.255.686-4.1l.651-.376c1.096-.632 2.449-.339 3.28.615 3.849 4.417 9.098 7.578 15.059 8.765C44.027 74.73 45 75.797 45 77.117v.639zm3-12.662c-9.44 0-17.094-7.653-17.094-17.094S38.56 30.906 48 30.906 65.094 38.56 65.094 48 57.44 65.094 48 65.094zm24.942 4.474c-4.757 5.499-11.294 9.41-18.723 10.829-1.663.318-3.219-.948-3.219-2.641v-.639c0-1.32.973-2.387 2.267-2.645 5.962-1.187 11.21-4.348 15.06-8.765.831-.954 2.185-1.247 3.28-.614l.651.375c1.463.845 1.79 2.822.684 4.1zm6.207-10.737c-.558 1.591-2.429 2.286-3.889 1.444l-.464-.268c-1.122-.648-1.701-2-1.277-3.225C74.475 54.028 75 51.076 75 48s-.525-6.028-1.48-8.783c-.424-1.225.155-2.576 1.277-3.225l.464-.268c1.46-.843 3.331-.146 3.889 1.444C80.34 40.562 81 44.2 81 48c0 3.799-.66 7.439-1.851 10.831z"/>
           </svg>
-          <div class="lamp-big__light"></div>
+          <span class="preloader__text">Загрузка...</span>
         </div>
-        <div class="chair"></div>
-        <div class="cat"></div>
-
-        <!-- ANIMATE CODE SCREEN -->
-        <div class="screen-wrapper" aria-hidden="true">
-          <svg
-            id="svg-screen"
-            class="svg-screen"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            viewBox="0 0 799.9 572.9"
-            xml:space="preserve"
-          >
-            <g id="content">
-              <g id="screen">
-                <g id="_x33_d_transform_1_">
-                  <g>
-                    <path fill="#3a4d57" d="M745.5,550.8H30.8c-4.8,0-8.6-3.9-8.6-8.6V47.3h732v494.9C754.1,547,750.3,550.8,745.5,550.8z"></path>
-                    <g class="move-code-to-left">
-                      <g id="code-mask">
-                        <defs><rect class="code-move" id="SVGID_33_" x="37.8" y="61" width="296.8" height="464.5"></rect></defs>
-                          <clipPath id="code-clippath">
-                            <use xlink:href="#SVGID_33_"  style="overflow:visible;"></use>
-                          </clipPath>
-                            <g id="animated-code" class="code-move">
-                              <path fill="#B3B3B3" d="M64.2,506.7h4.6c1.2,0,2.1,1.3,2.1,2.8v3.3c0,1.6-1,2.8-2.1,2.8h-4.6c-1.2,0-2.1-1.3-2.1-2.8v-3.3C62.1,507.9,63,506.7,64.2,506.7z"></path>
-                              <path fill="#B3B3B3" d="M74,489.5h4.2c1.2,0,2.1,1.3,2.1,2.8v3.3c0,1.6-1,2.8-2.1,2.8H74c-1.1,0-2.1-1.3-2.1-2.8v-3.3C71.9,490.8,72.8,489.5,74,489.5z"></path>
-                              <path fill="#B3B3B3" d="M85,472.2h77.5c1.1,0,2.1,1.3,2.1,2.8v3.3c0,1.6-1,2.8-2.1,2.8H85c-1.2,0-2.1-1.3-2.1-2.8V475C82.9,473.4,83.9,472.2,85,472.2z"></path>
-                              <path fill="#8487C1" d="M255.7,455.8h33.5c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-33.5c-1.1,0-2.1-1.2-2.1-2.8v-3.4C253.6,457,254.5,455.8,255.7,455.8z"></path>
-                              <path fill="#fc568d" d="M180.3,454.8h59.5c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-59.5c-1.1,0-2.1-1.2-2.1-2.8v-3.4C178.2,456.1,179.1,454.8,180.3,454.8z"></path>
-                              <path fill="#2CB399" d="M98.6,454.8h68.7c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7H98.6c-1.1,0-2.1-1.2-2.1-2.8v-3.4C96.6,456.1,97.5,454.8,98.6,454.8z"></path>
-                              <path fill="#B3B3B3" d="M74.3,455.8h13c1.1,0,2.1,1.3,2.1,2.8v3.3c0,1.6-1,2.8-2.1,2.8h-13c-1.1,0-2.1-1.3-2.1-2.8v-3.3C72.2,457.1,73.1,455.8,74.3,455.8z"></path>
-                              <path fill="#2CB399" d="M197.4,438.2h14.8c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-14.8c-1.1,0-2.1-1.2-2.1-2.8v-3.4C195.4,439.4,196.3,438.2,197.4,438.2z"></path>
-                              <path fill="#8487C1" d="M151.8,438h32c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-32.1c-1.1,0-2.1-1.2-2.1-2.8v-3.4C149.7,439.3,150.7,438,151.8,438z"></path>
-                              <path fill="#2CB399" d="M112.5,438.2h26.7c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-26.7c-1.1,0-2.1-1.2-2.1-2.8v-3.4C110.4,439.4,111.4,438.2,112.5,438.2z"></path>
-                              <path fill="#B3B3B3" d="M64.1,438h36.4c1.2,0,2.1,1.3,2.1,2.8v3.3c0,1.6-1,2.8-2.1,2.8H64.1c-1.2,0-2.1-1.3-2.1-2.8v-3.3C62,439.3,62.9,438,64.1,438z"></path>
-                              <path fill="#B3B3B3" d="M152.3,405.4h4.2c1.2,0,2.1,1.3,2.1,2.8v3.3c0,1.6-0.9,2.8-2.1,2.8h-4.2c-1.1,0-2.1-1.3-2.1-2.8v-3.3C150.2,406.7,151.1,405.4,152.3,405.4z"></path>
-                              <path fill="#2CB399" d="M98,405.4h45.9c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7H98c-1.1,0-2.1-1.2-2.1-2.8v-3.4C96,406.7,96.9,405.4,98,405.4z"></path>
-                              <path fill="#8487C1" d="M54.9,405.4h33.5c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7H55c-1.1,0-2.1-1.2-2.1-2.8v-3.4C52.9,406.7,53.8,405.4,54.9,405.4z"></path>
-                              <path fill="#B3B3B3" d="M64.2,353.5h4.6c1.2,0,2.1,1.3,2.1,2.8v3.3c0,1.6-1,2.8-2.1,2.8h-4.6c-1.2,0-2.1-1.3-2.1-2.8v-3.3C62.1,354.7,63,353.5,64.2,353.5z"></path>
-                              <path fill="#B3B3B3" d="M74,336.3h4.2c1.2,0,2.1,1.3,2.1,2.8v3.3c0,1.6-1,2.8-2.1,2.8H74c-1.1,0-2.1-1.3-2.1-2.8v-3.3C71.9,337.6,72.8,336.3,74,336.3z"></path>
-                              <path fill="#B3B3B3" d="M85,319h77.5c1.1,0,2.1,1.3,2.1,2.8v3.3c0,1.6-1,2.8-2.1,2.8H85c-1.2,0-2.1-1.3-2.1-2.8v-3.3C82.9,320.3,83.9,319,85,319z"></path>
-                              <path fill="#8487C1" d="M222.9,302.6h33.5c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-33.5c-1.1,0-2.1-1.2-2.1-2.8v-3.4C220.8,303.8,221.7,302.6,222.9,302.6z"></path>
-                              <path fill="#fc568d" d="M180.3,301.7h26.7c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-26.7c-1.1,0-2.1-1.2-2.1-2.8v-3.4C178.2,302.9,179.1,301.7,180.3,301.7z"></path>
-                              <path fill="#2CB399" d="M98.6,301.7h68.7c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7H98.6c-1.1,0-2.1-1.2-2.1-2.8v-3.4C96.6,302.9,97.5,301.7,98.6,301.7z"></path>
-                              <path fill="#B3B3B3" d="M74.3,302.6h13c1.1,0,2.1,1.3,2.1,2.8v3.3c0,1.6-1,2.8-2.1,2.8h-13c-1.1,0-2.1-1.3-2.1-2.8v-3.3C72.2,303.9,73.1,302.6,74.3,302.6z"></path>
-                              <path fill="#2CB399" d="M197.4,285h14.8c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-14.8c-1.1,0-2.1-1.2-2.1-2.8v-3.4C195.4,286.3,196.3,285,197.4,285z"></path>
-                              <path fill="#8487C1" d="M151.8,284.9h32c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-32.1c-1.1,0-2.1-1.2-2.1-2.8v-3.4C149.7,286.1,150.7,284.9,151.8,284.9z"></path>
-                              <path fill="#2CB399" d="M112.5,285h26.7c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-26.7c-1.1,0-2.1-1.2-2.1-2.8v-3.4C110.4,286.3,111.4,285,112.5,285z"></path>
-                              <path fill="#B3B3B3" d="M64.1,284.9h36.4c1.2,0,2.1,1.3,2.1,2.8v3.3c0,1.6-1,2.8-2.1,2.8H64.1c-1.2,0-2.1-1.3-2.1-2.8v-3.3C62,286.2,62.9,284.9,64.1,284.9z"></path>
-                              <path fill="#B3B3B3" d="M184.3,249.7h4.2c1.1,0,2.1,1.3,2.1,2.8v3.3c0,1.6-0.9,2.8-2.1,2.8h-4.2c-1.1,0-2.1-1.3-2.1-2.8v-3.3C182.2,251,183.2,249.7,184.3,249.7z"></path>
-                              <path fill="#2CB399" d="M99.5,249h77.3c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7H99.5c-1.1,0-2.1-1.2-2.1-2.8v-3.4C97.5,250.3,98.4,249,99.5,249z"></path>
-                              <path fill="#8487C1" d="M54.9,249h33.5c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7H55c-1.1,0-2.1-1.2-2.1-2.8v-3.4C52.9,250.3,53.8,249,54.9,249z"></path>
-                              <path fill="#fc568d" d="M256.1,197.2h31.1c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-31.1c-1.1,0-2.1-1.2-2.1-2.8v-3.4C254.1,198.5,255,197.2,256.1,197.2z"></path>
-                              <path fill="#2CB399" d="M236.4,197.8h9.1c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-9.1c-1.1,0-2.1-1.2-2.1-2.8v-3.4C234.3,199,235.2,197.8,236.4,197.8z"></path>
-                              <path fill="#2CB399" d="M189.5,197.8h36.3c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-36.3c-1.1,0-2.1-1.2-2.1-2.8v-3.4C187.5,199,188.4,197.8,189.5,197.8z"></path>
-                              <path fill="#2CB399" d="M137.2,197.8H178c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-40.8c-1.1,0-2.1-1.2-2.1-2.8v-3.4C135.1,199,136.1,197.8,137.2,197.8z"></path>
-                              <path fill="#B3B3B3" d="M64.7,197.8h60c1.2,0,2.1,1.3,2.1,2.8v3.3c0,1.6-1,2.8-2.1,2.8h-60c-1.2,0-2.1-1.3-2.1-2.8v-3.3C62.6,199.1,63.6,197.8,64.7,197.8z"></path>
-                              <path fill="#B3B3B3" d="M64.3,180.4h4.2c1.1,0,2.1,1.3,2.1,2.8v3.3c0,1.6-1,2.8-2.1,2.8h-4.2c-1.2,0-2.1-1.3-2.1-2.8v-3.3C62.2,181.7,63.1,180.4,64.3,180.4z"></path>
-                              <path fill="#fc568d" d="M232.9,163.1h30.5c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7H233c-1.1,0-2.1-1.2-2.1-2.8v-3.4C230.9,164.4,231.8,163.1,232.9,163.1z"></path>
-                              <path fill="#2CB399" d="M198.9,163.1h22.6c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-22.6c-1.1,0-2.1-1.2-2.1-2.8v-3.4C196.8,164.4,197.7,163.1,198.9,163.1z"></path>
-                              <path fill="#2CB399" d="M151.4,163.1H188c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-36.7c-1.1,0-2.1-1.2-2.1-2.8v-3.4C149.4,164.4,150.2,163.1,151.4,163.1z"></path>
-                              <path fill="#2CB399" d="M98.6,163.1h40.9c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7H98.6c-1.1,0-2.1-1.2-2.1-2.8v-3.4C96.5,164.4,97.5,163.1,98.6,163.1z"></path>
-                              <path fill="#B3B3B3" d="M74.3,163.1h13c1.1,0,2.1,1.3,2.1,2.8v3.3c0,1.6-1,2.8-2.1,2.8h-13c-1.1,0-2.1-1.3-2.1-2.8v-3.3C72.2,164.4,73.1,163.1,74.3,163.1z"></path>
-                              <path fill="#2CB399" d="M198,145.8h14.2c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7H198c-1.1,0-2.1-1.2-2.1-2.8v-3.4C195.9,147,196.9,145.8,198,145.8z"></path>
-                              <path fill="#8487C1" d="M151.6,145.8h32.2c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-32.2c-1.1,0-2.1-1.2-2.1-2.8v-3.4C149.6,147,150.5,145.8,151.6,145.8z"></path>
-                              <path fill="#2CB399" d="M112.5,145.8h27.3c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-27.3c-1.1,0-2.1-1.2-2.1-2.8v-3.4C110.5,147,111.4,145.8,112.5,145.8z"></path>
-                              <path fill="#B3B3B3" d="M64.1,145.8h36.4c1.2,0,2.1,1.3,2.1,2.8v3.3c0,1.6-1,2.8-2.1,2.8H64.1c-1.2,0-2.1-1.3-2.1-2.8v-3.3C62,147.1,62.9,145.8,64.1,145.8z"></path>
-                              <path fill="#2CB399" d="M161.6,128.5h59.2c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-59.2c-1.1,0-2.1-1.2-2.1-2.8v-3.3C159.6,129.8,160.5,128.5,161.6,128.5z"></path>
-                              <path fill="#2CB399" d="M98.4,128.4h50.4c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7H98.4c-1.1,0-2.1-1.2-2.1-2.8v-3.4C96.4,129.7,97.4,128.4,98.4,128.4z"></path>
-                              <path fill="#8487C1" d="M54.6,127.7h33.5c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7H54.6c-1.1,0-2.1-1.2-2.1-2.8v-3.4C52.5,128.9,53.4,127.7,54.6,127.7z"></path>
-                              <path fill="#fc568d" d="M246.8,93.8h49.9c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-49.9c-1.1,0-2.1-1.2-2.1-2.8v-3.4C244.7,95,245.6,93.8,246.8,93.8z"></path>
-                              <path fill="#2CB399" d="M165.5,93.8h68.7c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-68.7c-1.1,0-2.1-1.2-2.1-2.8v-3.4C163.5,95,164.4,93.8,165.5,93.8z"></path>
-                              <path fill="#B3B3B3" d="M122.4,93.8h30.7c1.2,0,2.1,1.3,2.1,2.8v3.3c0,1.6-0.9,2.8-2.1,2.8h-30.7c-1.2,0-2.1-1.3-2.1-2.8v-3.3C120.3,95.1,121.3,93.8,122.4,93.8z"></path>
-                              <path fill="#2CB399" d="M64.1,93.8h37.6c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7H64.1c-1.1,0-2.1-1.2-2.1-2.8v-3.4C62,95,63,93.8,64.1,93.8z"></path>
-                              <path fill="#fc568d" d="M237.3,76.7h26.9c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-26.9c-1.1,0-2.1-1.2-2.1-2.8v-3.4C235.3,77.9,236.2,76.7,237.3,76.7z"></path>
-                              <path fill="#2CB399" d="M156.6,76.7h68.2c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-68.2c-1.1,0-2.1-1.2-2.1-2.8v-3.4C154.6,77.9,155.5,76.7,156.6,76.7z"></path>
-                              <path fill="#B3B3B3" d="M113.5,76.7h30.7c1.2,0,2.1,1.3,2.1,2.8v3.3c0,1.6-1,2.8-2.1,2.8h-30.7c-1.2,0-2.1-1.3-2.1-2.8v-3.3C111.4,78,112.4,76.7,113.5,76.7z"></path>
-                              <path fill="#2CB399" d="M74.3,76.7h18.1c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7H74.3c-1.1,0-2.1-1.2-2.1-2.8v-3.4C72.3,77.9,73.2,76.7,74.3,76.7z"></path>
-                              <path fill="#8487C1" d="M53.9,76.7h9c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-9.1c-1.1,0-2.1-1.2-2.1-2.8v-3.4C51.9,77.9,52.8,76.7,53.9,76.7z"></path>
-                          </g>
+      </div>
+      <!-- SVG Icons Sprite -->
+      <svg class="visually-hidden">
+        <defs id="svg-sprite"></defs>
+      </svg>
+      <!-- HEADER -->
+      <header 
+        class="main-page page" 
+        id="header"
+      >
+        <div class="main-page__container page__grid container">
+          <!-- Contacts -->
+          <nav class="header main-page__header">
+            <ul 
+              class="contact-icons header__contacts" 
+              aria-label="Мои контакты">
+              <li class="contact-icons__item">
+                <a
+                  class="contact-icons__link"
+                  href="mailto:alicefill@bk.ru"
+                  aria-labelledby="tooltip-email"
+                >
+                  <svg 
+                    class="contact-icons__icon" 
+                    role="presentation" 
+                    aria-hidden="true"
+                  >
+                    <use xlink:href="#mail"></use>
+                  </svg>
+                  E-mail
+                </a>
+                <span 
+                  class="tooltip tooltip_bottom contact-icons__tooltip"
+                  aria-hidden="true" 
+                  id="tooltip-email">
+                  Написать e-mail
+                </span>
+              </li>
+              <li class="contact-icons__item">
+                <a
+                  class="contact-icons__link"
+                  href="https://t.me/alice_fill"
+                  target="_blank"
+                  aria-labelledby="tooltip-telegram"
+                  rel="noopener noreferrer"
+                >
+                  <svg 
+                    class="contact-icons__icon" 
+                    role="presentation" 
+                    aria-hidden="true"
+                  >
+                    <use xlink:href="#telegram"></use>
+                  </svg>
+                  Telegram
+                </a>
+                <span 
+                  class="tooltip tooltip_bottom contact-icons__tooltip" 
+                  id="tooltip-telegram"
+                  aria-hidden="true">
+                  Написать в Telegram
+                </span>
+              </li>
+              <li class="contact-icons__item">
+                <a
+                  class="contact-icons__link"
+                  href="https://www.linkedin.com/in/alisa-filatova-64209a139/"
+                  target="_blank"
+                  aria-labelledby="tooltip-linkedin"
+                  rel="noopener noreferrer"
+                >
+                  <svg 
+                    class="contact-icons__icon" 
+                    role="presentation" 
+                    aria-hidden="true"
+                  >
+                    <use xlink:href="#linkedin"></use>
+                  </svg>
+                  LinkedIn
+                </a>
+                <span 
+                  class="tooltip tooltip_bottom contact-icons__tooltip"
+                  id="tooltip-linkedin"
+                  aria-hidden="true">
+                  Мой LinkedIn
+                </span>
+              </li>
+              <li class="contact-icons__item">
+                <a
+                  class="contact-icons__link"
+                  href="https://github.com/Alisa-Filatova"
+                  target="_blank"
+                  aria-labelledby="tooltip-github"
+                  rel="noopener noreferrer"
+                >
+                  <svg 
+                    class="contact-icons__icon" 
+                    role="presentation" 
+                    aria-hidden="true"
+                  >
+                    <use xlink:href="#github"></use>
+                  </svg>
+                  Github
+                </a>
+                <span 
+                  class="tooltip tooltip_bottom contact-icons__tooltip" 
+                  id="tooltip-github"
+                  aria-hidden="true">
+                  Мой GitHub
+                </span>
+              </li>
+              <li class="contact-icons__item">
+                <a
+                  class="contact-icons__link"
+                  href=""
+                  target="_blank"
+                  aria-labelledby="tooltip-artstation"
+                  rel="noopener noreferrer"
+                >
+                  <svg 
+                    class="contact-icons__icon" 
+                    role="presentation" 
+                    aria-hidden="true"
+                  >
+                    <use xlink:href="#artstation"></use>
+                  </svg>
+                  ArtStation
+                </a>
+                <span 
+                  class="tooltip tooltip_bottom contact-icons__tooltip" 
+                  id="tooltip-artstation"
+                  aria-hidden="true">
+                  Мой ArtStation
+                </span>
+              </li>
+            </ul>
+            <!-- Lang switcher -->
+            <ul 
+              class="lang-switcher header__lang-switcher" 
+              aria-label="Language selection">
+              <li class="lang-switcher__item">
+                <a
+                  class="lang-switcher__link"
+                  href="index.html"
+                  aria-label="Переключиться на Английский"
+                  title="Английский"
+                  aria-current="true"
+                >
+                  EN
+                </a>
+              </li>
+              <li class="lang-switcher__item">
+                <a
+                  class="lang-switcher__link lang-switcher__link_active"
+                  aria-label="Текущий язык - Русский"
+                  title="Русский"
+                >
+                  RU
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="main-illustration main-page__illustration">
+            <!-- NAVIGATION -->
+            <nav class="main-nav main-illustration__waymarker">
+              <ul class="main-nav__items">
+                <li class="main-nav__item">
+                  <a class="main-nav__link" href="#portfolio">Портфолио</a>
+                </li>
+                <li class="main-nav__item">
+                  <a class="main-nav__link" href="#about-me">Обо мне</a>
+                </li>
+                <li class="main-nav__item">
+                  <a class="main-nav__link" href="#contacts">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+            <!-- Logo -->
+            <img
+              class="logo main-page__logo"
+              src="img/logo.svg"
+              width="400"
+              height="300"
+              alt=""
+              aria-hidden="true"
+            >
+            <!-- MAIN ILLUSTRATION -->
+            <!-- A Girl -->
+            <svg
+              class="girl main-illustration__girl"
+              id="girl-main"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="-104 49.6 90.5 203.4"
+              width="180"
+              height="250"
+              aria-hidden="true"
+            >
+              <path fill="var(--color-primary)" d="M-52.4,206.8c0-0.1,0.1-0.2,0.1-0.2S-52.3,206.7-52.4,206.8z"/>
+              <path fill="var(--color-primary)" d="M-44.9,161.8c1.3-0.2,2.3-0.4,3.8-0.7c0,1.5,0.1,2.9-0.1,4.2c0,0.4-0.9,0.7-1.4,0.9c-0.5,0.2-1,0.2-1.7,0.3C-44.5,165-44.7,163.4-44.9,161.8z"/>
+              <path fill="var(--color-primary)" d="M-50.5,185.8h-0.2H-50.5c0,0,0.1,0,0.1-0.1C-50.4,185.7-50.4,185.8-50.5,185.8z"/>
+              <path fill="var(--color-accent)" d="M-73.2,172.7c0.1-1.5,0.1-2.9,0.2-4.3c2.3,0.2,4.4,0.3,6.4,0.4C-67.2,170.9-70.4,172.7-73.2,172.7zM-48.3,169.3c0.6,0,1.1-0.1,1.7-0.1s1.2,0.1,1.8,0.1c2.1-0.2,2.6,0.3,2.4,2.4c0,0.3-0.6,0.8-0.8,0.8c-1.9-0.4-3.8-1-5-2.6C-48.3,169.7-48.3,169.5-48.3,169.3z"></path>
+              <path fill="var(--color-primary-light)" d="M-40.8,180.7c-0.4-2.2-0.7-4.5-1.1-6.7c-0.6,0-1.2,0-1.7-0.1c-2.5-0.8-5.4-1.1-6.4-4.3c-0.1-0.2-0.4-0.5-0.7-0.5h-5.4c0,0-2.4-0.2-3-0.2c-1.7-0.1-3.4-0.2-5.1-0.2c-0.3,0-0.6,0.4-0.8,0.8c-0.6,0.9-1,2.2-1.9,2.7c-1.7,1-3.7,1.5-5.6,2.3c-0.4,0.2-1.1,0.5-1.2,0.8c-0.4,1.9-0.6,3.8-0.9,5.7c0.2,0.1,0.4,0.2,0.7,0.3c3.4,1.3,5.8,1.2,9.6,1.7c3.1,0.4,2.4,0.5,4.6,0.7c3.6,0.3,4.8-0.2,10-0.1h2.1c2.7-0.2,2.7-0.8,5.1-1.1c0.3,0,0.9-0.1,1.2-0.5C-40.8,181.5-40.8,181.2-40.8,180.7z M-57.8,182.9c0.1-0.1,0.1-0.2,0.1-0.2S-57.7,182.8-57.8,182.9z"></path>
+              <path fill="var(--color-accent)" d="M-47.2,186.7c2.2-0.3,4.6-0.7,7.1-1.3c-0.3-1.8-0.6-2-2.3-1.7s-3.5,0.6-5.2,0.9l-14.1,0.3c-0.5-0.2-1.2-0.2-1.8-0.3c-3.8-0.6-7.6-1.1-11.4-1.7c-0.6,2.2-0.6,2.3,1.5,2.6c2.3,0.4,4.7,0.7,7.1,1c1.4,0.2,2.8,0.4,4.3,0.6h0.4c1.3,0.1,4.6,0,7.7-0.1C-52.2,187.1-49.9,187-47.2,186.7C-47.3,186.7-47.2,186.7-47.2,186.7z"></path>
+              <path fill="var(--color-primary)" d="M-55,106.7c-0.6,1.4-1.7,1.3-2.7,1.2c-0.6-0.1-1.1-0.6-1.5-1.2H-55z M-78,94.6c1.2-1,2.7-1,4.3-0.4c-1.4,0.3-2.8,0.5-4.1,0.8C-77.9,94.9-78,94.7-78,94.6z"/>
+              <path fill="var(--color-primary)" d="M-14.5,102.1c-0.5-5-1.7-9.9-2.8-14.8c-0.5-2.3-1.5-4.5-2.8-6.5c-3.4-5.5-6.9-10.9-9.7-16.8c-1.2-2.6-2.7-5-5-7c-4-3.5-8.5-4.9-13.7-4.6c-1.1,0.1-2.3,0.1-3.2-0.4c-5.5-2.8-11.3-2.7-17.2-1.9c-3.6,0.5-6.7,2.3-9.9,4C-85,57.2-90.1,61.6-94.4,67c-0.7,0.9-1.5,1.8-2.3,2.8c-1.3,1.5-2.9,2-4.8,1.6c-0.4-0.1-0.8-0.2-1.5-0.3c0.9,2.1,2.5,3.2,4.6,4.1c-2.5,5.8-3.3,11.9-4.3,18c-0.8,5-0.9,10,0,15.1c0.6,3.4,0.9,6.8,1,10.2c0.1,1.8,0.5,3.6,0.2,5.4c0.4,3.4,0.6,6.9,0.8,10.3c0.4,0.4,0.9,0.9,1.2,1.4l0.3,0.6c0.2-0.5,0.4-1,0.6-1.4c0.8-1.8,1.8-3.8,3.7-4.5c0.1,0,0.1,0,0.2,0.1c1.4,2.4,2.5,5,3.5,7.6c1.5-1,2.6-2.4,4-3.5c0.1-0.1,0.2,0,0.2,0.1c0.7,2.3,0.8,4.7,1,7c1.4-1.3,2.6-2.8,4-4.1c0.1-0.1,0.2-0.1,0.2,0c0.4,0.9,0.5,1.9,0.6,2.8c0.8-0.4,1.6-0.9,2.2-1.7c0.1-0.1,0.2,0,0.2,0.1c0.2,0.6,0.4,1.2,0.5,1.9c0.3-0.4,0.7-0.7,1-1.2c0.1-0.1,0.3-0.1,0.3,0.1c0,0.7-0.4,1.4-0.9,1.9c-0.2,0.3-0.5,0.5-0.7,0.8c-0.1,1.8-0.2,3.5-0.3,5.3c-0.4,3.3-0.8,6.6-1.3,9.9c-0.5,2.8-1.2,5.6-1.7,8.4c-0.2,1.2,0.1,2.5,0.2,3.8c0,0.4,0.2,0.8,0.1,1.1c-0.3,1-0.4,1.9,0.7,2.6c0.2,0.1,0.3,0.7,0.3,1v2.4c0,2.8,0.5,3.3,3.4,3.5c0.4,0,0.9,0.2,1.2,0.3c-0.2,1.8-0.3,3.6-0.5,5.4l0.1,0.1c2,0.1,2.1,1.4,2.2,3.1c0.4,5.1,1,10.1,1.6,15.2c0.1,0.7,0.1,1.4,0.1,2.1c0,0-0.1,0-0.1,0.1c0.3,0.9,0.2,2,0.4,2.9v0.1c0,0.2,0.1,0.4,0.2,0.6c0,0.1,0,0.1-0.1,0.2c0.6,6,1.3,11.9,1.7,17.9c0.3,3.8-0.1,7.5,0.1,11.3c0.1,3.4,0.5,6.7,0.7,10.1c0.2,2.7,0.7,3.2,3.5,3.2c0.7,0,1.4-0.2,2-0.4c1.6-0.4,2.1-1.4,1.7-2.9c-0.2-0.7-0.5-1.3-0.9-1.9c-1.3-1.8-1.3-3.6-0.1-5.5c0.5-0.8,0.9-1.7-0.1-2.5c-0.2-0.1-0.3-0.4-0.3-0.6c0-2.2-0.1-4.4,0.1-6.5c0.4-3.5,1.1-7,1.7-10.6c0.4-2.5,0.7-4.9,1-7.3c-0.1,0-0.1-0.1-0.1-0.1c0-0.8,0.2-1.5,0.2-2.3c-0.1,0-0.1-0.1-0.1-0.2s0.1-0.3,0.2-0.4v-1c0.6-7.7,1.1-15.5,1.7-23.2c0-0.4,0.2-0.7,0.3-1.3c1.6,2,1.5,4.1,1.6,6.1c0.2,3.6,0.2,7.1,0.5,10.7c0.2,2.5,0.5,4.9,0.9,7.3c0.1,0.4,0.1,0.7,0,1c0.4,0.5,0.4,1.1,0.4,1.6h0.1c0,2.5-0.1,4.9,0,7.3c0.2,5,0.6,10.1,0.9,15.1c0,0.3,0.1,0.7,0,0.9c-1.3,1.3-0.6,2.9-0.7,4.3c-1.5,0.8-1.6,2.2-0.2,3.2c0.9,0.6,0.9,1.3,0.6,2c-0.4,0.8-1.1,1.5-1.4,2.3c-0.4,1-0.9,2.2-0.8,3.3c0,0.6,1,1.6,1.6,1.7c1.2,0.2,2.6-0.1,3.8-0.3c0.4-0.1,0.9-0.8,1-1.2c0.7-3.2,1.4-6.4,1.8-9.6c0.3-2,0.1-4.1,0.3-6.2c0.9-8.1,1.9-16.2,2.6-24.4c0.1-1.1,0.3-2,0.5-3c0-0.5,0-1.1-0.1-1.6c-0.1-0.9-0.1-1.8,0.2-2.7c0.5-5.2,1-10.4,1.6-15.6c0-0.4,0.5-0.8,0.9-0.9c0.8-0.3,1.7-0.5,2.6-0.6c1.1-0.2,1.5-0.9,1.3-1.9c-0.2-1.4-0.5-2.7-0.7-4.1c0-0.3,0.4-0.9,0.6-1c2.6-0.7,3.2-1.3,3-3.9c-0.2-2.3,0.5-4.5,0.5-6.8c0-0.8,0.1-1.6,0-2.4c-0.5-3.7-1.1-7.3-1.4-11c-0.4-4.1-0.5-8.1-0.8-12.2c0-0.1,0.1-0.2,0.1-0.3c0.2,0,0.5,0.1,0.7,0.1c0.3-2.2,1-4.4,2.2-6.3c0.1-0.1,0.2-0.1,0.3,0c1.2,1.8,2.1,3.7,3,5.6c0.5-0.2,1-0.5,1.4-0.9c0.1-1.7,0.2-3.4,1.2-4.9c0-0.1,0.1-0.1,0.2-0.1c1,0.6,1.9,1.4,2.6,2.4c0.9-2.5,1-5.2,2-7.8c0-0.1,0.2-0.1,0.2-0.1c0.3,0.3,0.5,0.6,0.7,0.9c1.7-3.5,3.4-7,5.1-10.4C-14.8,115.3-13.8,108.8-14.5,102.1L-14.5,102.1z M-76.7,179.3c-0.4-1-0.8-1.6-1.5-0.5c-0.6-0.3-1.1-0.6-1.7-1v-4.4c1.6,0.5,3.1,0.7,4.4,1.4C-74.9,175.1-75.9,178.7-76.7,179.3z M-62,187.1c-1.4-0.2-2.8-0.4-4.3-0.6c-2.4-0.3-4.7-0.7-7.1-1c-2.1-0.3-2.1-0.4-1.5-2.6c3.8,0.6,7.6,1.1,11.4,1.7c0.6,0.1,1.2,0.1,1.8,0.3c0.5,0.2,1.3,0.7,1.3,1C-60.5,186.7-61,187.3-62,187.1L-62,187.1z M-73.9,181.4c-0.2,0-0.4-0.1-0.7-0.3c0.3-1.9,0.5-3.8,0.9-5.7c0.1-0.3,0.8-0.6,1.2-0.8c1.9-0.8,3.8-1.3,5.6-2.3c0.9-0.5,1.2-1.8,1.9-2.7c0.2-0.3,0.6-0.8,0.8-0.8c1.7,0,3.4,0.1,5.1,0.2c0.5,0,3,0.2,3,0.2h5.4c0.2,0,0.6,0.3,0.7,0.5c1,3.1,3.8,3.4,6.4,4.3c0.5,0.2,1.1,0.1,1.7,0.1c0.4,2.2,0.7,4.5,1.1,6.7c0.2,1.1-0.4,1.4-1.3,1.5c-2.4,0.4-4.7,0.7-7.1,1.1h-0.1C-59.7,183.2-69.2,182.2-73.9,181.4z M-73.2,172.7c0.1-1.5,0.1-2.9,0.2-4.3c2.3,0.2,4.4,0.3,6.4,0.4C-67.2,170.9-70.4,172.7-73.2,172.7z M-48.3,169.8c0-0.2,0.1-0.3,0.1-0.5c0.6,0,1.1-0.1,1.7-0.1s1.2,0.1,1.8,0.1c2.1-0.2,2.6,0.3,2.4,2.4c0,0.3-0.6,0.8-0.8,0.8C-45.2,172-47.1,171.4-48.3,169.8z M-57.1,186.2c1.5-0.2,2.9-0.5,4.3-0.7c3.5-0.6,6.9-1.2,10.4-1.8c1.6-0.3,1.9-0.1,2.3,1.7C-48.2,187.2-56.1,187.7-57.1,186.2z M-36.9,177c0,0.4-0.9,0.7-1.5,1c-0.5,0.2-1.1,0.2-1.8,0.3c-0.2-1.6-0.4-3.3-0.6-4.9c1.3-0.3,2.4-0.5,4-0.7C-36.8,174.2-36.7,175.6-36.9,177z M-36.9,165.6c0.2,1.2,0.5,2.4-0.4,3.5c-0.8,1-1.8,1.2-2.8,0.9c-0.6-0.2-1.1-0.9-1.4-1.5s-0.4-1.3-0.4-2v-20.9c0-0.5-0.2-1-0.7-1.5c-1.2,7.8-0.6,15.6-0.6,23.8c-9.7-0.3-19.3-0.6-29-1c0.4-3.4,0.8-6.4,0.9-9.4c0.2-3.5,0.2-7,0.4-10.5c0-0.2,0.1-0.5,0.1-0.7l-0.6-4.2c-0.9,1.1-1.2,2.4-1.2,3.8c-0.1,4.2-0.1,8.3-0.3,12.5c-0.1,2.4-0.3,4.9-0.7,7.2c-0.3,1.7-1.1,3.2-1.8,5.1c-1.3-0.3-2.9-0.5-4.2-1.1c-1.2-0.5-1.8-1.8-1.4-3.2c2.4-7.9,2.5-16.1,3.8-24.2c0.4-2.4,0.8-4.8,1-7.2c0.3-2.3,1.8-3.6,3.7-4.5c2-0.9,4.2-1.4,6.3-2.1c0.5-0.2,1-0.3,1.4-0.4c0.7-0.1,1.3-0.1,1.4,0.8c0.1,0.4,0.4,0.7,0.6,1c1.8,1.9,6.2,2.3,8.3,0.6c0.7-0.6,1.2-1.6,2-2.8c1.8,0.6,3.9,1.3,6.1,2c0.3,0.1,0.6,0.4,0.9,0.5c3.9,1,4.6,4,4.9,7.4c0.1,1.6,0.7,3.1,0.9,4.7c0.3,2.7,0.4,5.5,0.7,8.3C-38.2,155.7-37.6,160.7-36.9,165.6z M-35.4,115.2c-4.3,4-9.7,5.9-15.3,7.1c-1.8,0.4-3.6,0.8-5.4,1.5c0.6,0.1,1.3,0.2,1.9,0.3c0.6,3.6-0.2,4.1-3.3,4.3c-1.1,0.1-2.3-0.2-3.4-0.3c-0.2,0-0.6-0.2-0.7-0.4c-0.6-1.1,0.1-3.7,1.5-4.7c-1.7-0.2-3.1-0.4-4.5-0.5c-5.7-0.3-11.1-1.9-15.8-5.1c-1-0.7-1.9-1.5-2.7-2.3c-1.6-1.5-2.3-3.3-2-5.6c0.5-3.2,0.8-6.5,2.3-9.4c0.1-0.3,0.3-0.5,0.4-0.7c0,0,0-0.1,0.1-0.1c1.5-3.9,3.9-6.9,7.5-8.6c4-1.9,8.2-3.4,12.4-5.1c2.5-1,5-1.9,7.5-2.9c3.5-1.4,6.3-3.7,8.9-6.4c0.3-0.3,0.5-0.6,0.8-1.1c3.6,3.7,6.9,7.2,8.9,11.7c2.5,5.6,4,11.3,3.7,17.4c-0.1,1.5-0.2,3.1,0,4.6C-32.3,111.6-33.6,113.4-35.4,115.2z"></path>
+              <path class="girl__eyes" id="girl-main-eyes" fill="var(--color-primary)" d="M-78.3,98.8c-1.1,0.8-2.2,1.4-3.7,0.7c-0.1,0.3-0.3,0.5-0.4,0.7c0.7,0.3,1.3,0.5,1.8,0.9c0.3,0.2,0.6,0.6,0.8,1c0.4,0.9,0.6,1.9,1.2,2.6c1.3,1.6,3.8,1.7,5.3,0.5c1.5-1.2,1.7-4.1,0.4-5.7C-74.1,98-76.7,97.6-78.3,98.8zM-35,96.7c-2.2,1.1-2.6,3.2-3.4,5c-0.8,1.7-3.1,2.2-4.6,1.5c-1.6-0.7-2.5-2.8-2.1-4.6c0.4-1.7,1.8-2.6,3.8-2.5c0.5,0,1,0,1.5,0.2C-38.3,96.9-36.8,97.5-35,96.7z"></path>
+              <path fill="var(--color-primary)" d="M-44.9,91.8c1.3-0.9,2.8-0.7,4.3,0.1l-4.2,0.3C-44.9,92.1-44.9,92-44.9,91.8z"/>
+              <path fill="var(--color-accent)" d="M-37,165.3c-0.7-4.9-1.3-9.9-1.9-14.8c-0.3-2.7-0.4-5.5-0.7-8.3c-0.2-1.6-0.7-3.1-0.9-4.7c-0.3-3.4-1.1-6.4-4.9-7.4c-0.3-0.1-0.6-0.4-0.9-0.5c-2.1-0.7-4.3-1.4-6.1-2c-0.8,1.2-1.3,2.2-2,2.8c-2,1.7-6.4,1.3-8.3-0.6c-0.3-0.3-0.6-0.6-0.6-1c-0.2-0.9-0.8-0.9-1.4-0.8c-0.5,0.1-1,0.2-1.4,0.4c-2.1,0.7-4.3,1.2-6.3,2.1c-1.9,0.8-3.4,2.1-3.7,4.5c-0.3,2.4-0.7,4.8-1,7.2c-1.3,8-1.3,16.3-3.8,24.2c-0.4,1.3,0.2,2.6,1.4,3.2c1.3,0.6,2.9,0.8,4.2,1.1c0.7-1.9,1.5-3.5,1.8-5.1c0.4-2.4,0.6-4.8,0.7-7.2c0.2-4.2,0.2-8.3,0.3-12.5c0-1.4,0.3-2.7,1.2-3.8l0.6,4.2c-0.1,0.2-0.1,0.5-0.1,0.7c-0.1,3.5-0.1,7-0.4,10.5c-0.2,3-0.6,6-0.9,9.4c9.7,0.3,19.4,0.6,29.1,1c0-8.2-0.6-16,0.6-23.8c0.5,0.5,0.7,1,0.7,1.5v20.9c0,0.7,0.1,1.4,0.4,2c0.3,0.6,0.8,1.3,1.4,1.5c1,0.3,2,0.1,2.8-0.9C-36.5,167.7-36.8,166.5-37,165.3L-37,165.3z"></path>
+              <path fill="var(--background-color-primary)" d="M-32.7,108.7c-0.2-1.5-0.1-3.1,0-4.6c0.3-6.1-1.2-11.8-3.7-17.4c-2-4.5-5.3-8-8.9-11.7c-0.3,0.5-0.5,0.8-0.8,1.1c-2.6,2.7-5.4,5-8.9,6.4c-2.5,1-5,1.9-7.5,2.9c-4.2,1.7-8.4,3.2-12.4,5.1c-3.6,1.8-6,4.8-7.5,8.7c1.6,0.9,2.7,0.3,3.9-0.7c1.7-1.1,4.2-0.7,5.4,0.8c1.3,1.6,1.1,4.5-0.4,5.7c-1.5,1.2-4,1.1-5.3-0.5c-0.6-0.7-0.8-1.7-1.2-2.6c-0.2-0.4-0.5-0.8-0.8-1c-0.6-0.4-1.3-0.7-2.1-1c-1.5,2.9-1.8,6.2-2.3,9.4c-0.3,2.3,0.4,4.1,2,5.6c0.8,0.8,1.7,1.6,2.7,2.3c4.7,3.2,10.1,4.8,15.8,5.1c1.4,0.1,2.8,0.3,4.5,0.5c-1.4,1-2.1,3.6-1.5,4.7c0.1,0.2,0.5,0.4,0.7,0.4c1.1,0.1,2.3,0.4,3.4,0.3c3.1-0.2,3.9-0.7,3.3-4.3c-0.6-0.1-1.3-0.2-1.9-0.3c1.8-0.7,3.6-1.1,5.4-1.5c5.6-1.2,11-3.1,15.3-7.1C-33.6,113.3-32.3,111.4-32.7,108.7L-32.7,108.7z M-77.9,95c0-0.1-0.1-0.3-0.1-0.4c1.3-1,2.7-1,4.2-0.4C-75.1,94.5-76.5,94.7-77.9,95z M-40.6,91.8c-1.4,0.2-2.9,0.4-4.3,0.6C-44,90.9-41.9,90.7-40.6,91.8z M-38.5,101.7c-0.7,1.7-3,2.2-4.6,1.5s-2.5-2.7-2.1-4.6c0.3-1.7,1.8-2.6,3.8-2.5c0.5,0,1.1,0,1.5,0.2c1.6,0.7,3.1,1.3,4.9,0.4C-37.2,97.8-37.6,99.8-38.5,101.7z"></path>
+              <path fill="var(--color-primary)" d="M-60.6,109.3h6.4C-54.2,109.3-57.5,113.7-60.6,109.3z M-45.6,92.2c0,0,4.2-2.5,7.2,0.6C-38.4,92.8-45.6,92.2-45.6,92.2z M-79.6,95.2c0,0,3.6-3.6,7.4-1.3L-79.6,95.2z"/>
+              <polygon fill="var(--color-primary)" points="-36.4,89.4 -48.5,89 -49.9,87.4 -50.8,89.4 -60.7,89.4 -63.2,87.4 -63.2,89.4 -83.1,91.1 -80.7,69.2 -37,68.7 -34.7,89.2 "/>
+            </svg>
+            <!-- Scroll down button -->
+            <a
+              class="arrow-button main-illustration__scroll-down-button"
+              id="scroll-down-button"
+              href="#portfolio"
+              title="К разделу - Портфолио"
+            >
+              <svg 
+                class="arrow-button__icon" 
+                aria-hidden="true"
+              >
+                <use xlink:href="#arrow-down"></use>
+              </svg>
+            </a>
+            <svg 
+              class="rabbit main-illustration__rabbit" 
+              aria-hidden="true"
+            >
+              <use xlink:href="#rabbit"></use>
+            </svg>
+            <!-- TREE -->
+            <div class="tree main-illustration__tree">
+              <svg
+                class="tree__item tree__item_gear"
+                aria-hidden="true"
+              >
+                <use xlink:href="#gear-1"></use>
+              </svg>
+              <svg
+                class="tree__item tree__item_gear"
+                aria-hidden="true"
+              >
+                <use xlink:href="#gear-2"></use>
+              </svg>
+              <svg
+                class="tree__item tree__item_gear"
+                aria-hidden="true"
+              >
+                <use xlink:href="#gear-3"></use>
+              </svg>
+              <svg
+                class="tree__item tree__item_gear"
+                aria-hidden="true"
+              >
+                <use xlink:href="#gear-4"></use>
+              </svg>
+              <svg
+                class="tree__item tree__item_gear"
+                aria-hidden="true"
+              >
+              <use xlink:href="#gear-5"></use>
+              </svg>
+              <svg
+                class="tree__item tree__item_key"
+                aria-hidden="true"
+              >
+                <use xlink:href="#key"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="grass main-illustration__grass"></div>
+        </div>
+      </header>
+      <main>
+        <!-- PORTFOLIO -->
+        <section 
+          class="portfolio page__section" 
+          id="portfolio"
+        >
+          <div class="portfolio__illustration-top"></div>
+          <div class="page__grid container">
+            <h1 class="portfolio__heading">Портфолио</h1>
+            <ul class="portfolio__list">
+              <li class="portfolio__list-item">
+                <a
+                  class="portfolio__link"
+                  href="web-design.html"
+                  data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z"
+                >
+                  <figure class="portfolio__item">
+                    <img
+                      class="portfolio__img"
+                      src="img/web-design-img.jpg"
+                      alt=""
+                    >
+                    <svg
+                      class="portfolio__curtain"
+                      viewBox="0 0 180 320"
+                      preserveAspectRatio="none"
+                      role="presentation"
+                      aria-hidden="true"
+                    >
+                      <path 
+                        fill="var(--color-primary-dark)" 
+                        d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"
+                      />
+                    </svg>
+                    <figcaption class="portfolio__wrapper">
+                      <h2 class="portfolio__title">Web-дизайн</h2>
+                      <p class="portfolio__description">Проекты с моим собственным web-дизайном, которые я создала во время работы на фрилансе (2017-2018)</p>
+                      <span 
+                        class="portfolio__button-wrapper portfolio__button-wrapper_pink">
+                        Смотреть
+                      </span>
+                    </figcaption>
+                  </figure>
+                </a>
+              </li>
+              <li class="portfolio__list-item">
+                <a
+                  class="portfolio__link"
+                  href="code.html"
+                  data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z"
+                >
+                  <figure class="portfolio__item">
+                    <img
+                      class="portfolio__img"
+                      src="img/code-img.jpg"
+                      alt=""
+                    >
+                    <svg
+                      class="portfolio__curtain"
+                      viewBox="0 0 180 320"
+                      preserveAspectRatio="none"
+                      role="presentation"
+                    >
+                      <path 
+                        fill="var(--color-accent)" 
+                        d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"
+                      />
+                    </svg>
+                    <figcaption class="portfolio__wrapper">
+                      <h2 class="portfolio__title">/* &lt;Code&gt; */</h2>
+                      <p class="portfolio__description">Проекты в которых я принимала участие как HTML-верстальщик / Junior Frontend-разработчик (2017-2024)</p>
+                      <span 
+                        class="portfolio__button-wrapper">
+                        Смотреть
+                      </span>
+                    </figcaption>
+                  </figure>
+                </a>
+              </li>
+              <li class="portfolio__list-item">
+                <a
+                  class="portfolio__link"
+                  href="/illustrations.html"
+                  aria-hidden="true"
+                  data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z"
+                >
+                  <figure class="portfolio__item">
+                    <img
+                      class="portfolio__img"
+                      src="img/illustrations-img.jpg"
+                      alt=""
+                    >
+                    <svg
+                      class="portfolio__curtain"
+                      viewBox="0 0 180 320"
+                      preserveAspectRatio="none"
+                      role="presentation"
+                      aria-hidden="true"
+                    >
+                      <path 
+                        fill="var(--color-primary-dark)" 
+                        d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"
+                      />
+                    </svg>
+                    <figcaption class="portfolio__wrapper">
+                      <h2 class="portfolio__title">Иллюстрации</h2>
+                      <p class="portfolio__description">Иллюстрации, которые я рисую на iPad, в Procreate. Дополнительные инструменты: Photoshop и Blender 3D</p>
+                      <span class="portfolio__button-wrapper portfolio__button-wrapper_pink">Смотреть</span>
+                    </figcaption>
+                  </figure>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="portfolio__illustration-bottom"></div>
+        </section>
+        <!-- ABOUT ME -->
+        <section class="about-me" id="about-me">
+          <div class="container room-illustration">
+            <h4 class="room-illustration__title">Обо мне</h4>
+            <!-- Shelf -->
+            <div 
+              class="shelf room-illustration__shelf"
+              aria-hidden="true"
+            >
+              <div class="shelf__book">Accessibility</div>
+              <div class="shelf__book">CSS3</div>
+              <div class="shelf__book">HTML5</div>
+              <div class="shelf__book">UI/UX Design</div>
+              <div class="shelf__book">PHOTOSHOP</div>
+            </div>
+            <!-- Clock -->
+            <div class="clock room-illustration__clock">
+              <div class="clock__right-number"></div>
+              <div class="clock__left-number"></div>
+              <div class="clock__center"></div>
+              <div class="clock__hour-hand"></div>
+              <div class="clock__minute-hand"></div>
+              <div class="clock__second-hand"></div>
+            </div>
+            <!-- Ceiling lamp -->
+            <div class="ceiling-lamp room-illustration__ceiling-lamp">
+              <div class="ceiling-lamp__cord"></div>
+              <div class="ceiling-lamp__base"></div>
+              <div class="ceiling-lamp__light-bulb"></div>
+              <div class="ceiling-lamp__light"></div>
+            </div>
+             <!-- DESK -->
+            <div class="desk-wrapper room-illustration__desk-wrapper"> 
+              <div class="desk-items desk-wrapper__desk-items">
+                <!-- Desk items: left side -->
+                <div class="desk-lamp desk-items__desk-lamp">
+                  <svg 
+                    class="desk-lamp__img" 
+                    aria-hidden="true">
+                    <use xlink:href="#desk-lamp"></use>
+                  </svg>
+                </div>
+                <div class="keyboard desk-items__keyboard"></div>
+                <!-- PC Display -->
+                <div class="pc-display desk-items__pc-display">
+                  <!-- Animated Code Screen -->
+                  <div class="code-screen pc-display__code-screen">
+                    <svg
+                      class="code-screen__img"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      viewBox="0 0 799.9 572.9"
+                      role="presentation"
+                      aria-hidden="true"
+                    >
+                      <path 
+                        class="code-screen__bg" 
+                        fill="var(--color-grey)" 
+                        d="M745.5,550.8H30.8c-4.8,0-8.6-3.9-8.6-8.6V47.3h732v494.9C754.1,547,750.3,550.8,745.5,550.8z"
+                      />
+                      <g class="code-screen__right-side">
+                        <path 
+                          class="code-screen__code-lines-bg" 
+                          fill="var(--color-grey)" 
+                          d="M37.8 61h296.8v464.5H37.8z"
+                        />
+                        <g class="code-screen__code-lines">
+                          <path fill="var(--color-baige-dark)" d="M64.2 506.7h4.6c1.2 0 2.1 1.3 2.1 2.8v3.3c0 1.6-1 2.8-2.1 2.8h-4.6c-1.2 0-2.1-1.3-2.1-2.8v-3.3c0-1.6.9-2.8 2.1-2.8zM74 489.5h4.2c1.2 0 2.1 1.3 2.1 2.8v3.3c0 1.6-1 2.8-2.1 2.8H74c-1.1 0-2.1-1.3-2.1-2.8v-3.3c0-1.5.9-2.8 2.1-2.8zM85 472.2h77.5c1.1 0 2.1 1.3 2.1 2.8v3.3c0 1.6-1 2.8-2.1 2.8H85c-1.2 0-2.1-1.3-2.1-2.8V475c0-1.6 1-2.8 2.1-2.8z"/>
+                          <path fill="var(--color-primary-light)" d="M255.7 455.8h33.5c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-33.5c-1.1 0-2.1-1.2-2.1-2.8v-3.4c-.1-1.5.8-2.7 2-2.7z"/>
+                          <path fill="var(--color-accent)" d="M180.3 454.8h59.5c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-59.5c-1.1 0-2.1-1.2-2.1-2.8v-3.4c-.1-1.4.8-2.7 2-2.7z"/>
+                          <path fill="var(--color-green)" d="M98.6 454.8h68.7c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7H98.6c-1.1 0-2.1-1.2-2.1-2.8v-3.4c.1-1.4 1-2.7 2.1-2.7z"/>
+                          <path fill="var(--color-baige-dark)" d="M74.3 455.8h13c1.1 0 2.1 1.3 2.1 2.8v3.3c0 1.6-1 2.8-2.1 2.8h-13c-1.1 0-2.1-1.3-2.1-2.8v-3.3c0-1.5.9-2.8 2.1-2.8z"/>
+                          <path fill="var(--color-green)" d="M197.4 438.2h14.8c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-14.8c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.5.9-2.7 2-2.7z"/>
+                          <path fill="var(--color-primary-light)" d="M151.8 438h32c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-32.1c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.4 1-2.7 2.1-2.7z"/>
+                          <path fill="var(--color-green)" d="M112.5 438.2h26.7c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-26.7c-1.1 0-2.1-1.2-2.1-2.8v-3.4c-.1-1.5.9-2.7 2-2.7z"/>
+                          <path fill="var(--color-baige-dark)" d="M64.1 438h36.4c1.2 0 2.1 1.3 2.1 2.8v3.3c0 1.6-1 2.8-2.1 2.8H64.1c-1.2 0-2.1-1.3-2.1-2.8v-3.3c0-1.5.9-2.8 2.1-2.8zM152.3 405.4h4.2c1.2 0 2.1 1.3 2.1 2.8v3.3c0 1.6-.9 2.8-2.1 2.8h-4.2c-1.1 0-2.1-1.3-2.1-2.8v-3.3c0-1.5.9-2.8 2.1-2.8z"/>
+                          <path fill="var(--color-green)" d="M98 405.4h45.9c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7H98c-1.1 0-2.1-1.2-2.1-2.8v-3.4c.1-1.4 1-2.7 2.1-2.7z"/>
+                          <path fill="var(--color-primary-light)" d="M54.9 405.4h33.5c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7H55c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.4.9-2.7 2-2.7z"/>
+                          <path fill="var(--color-baige-dark)" d="M64.2 353.5h4.6c1.2 0 2.1 1.3 2.1 2.8v3.3c0 1.6-1 2.8-2.1 2.8h-4.6c-1.2 0-2.1-1.3-2.1-2.8v-3.3c0-1.6.9-2.8 2.1-2.8zM74 336.3h4.2c1.2 0 2.1 1.3 2.1 2.8v3.3c0 1.6-1 2.8-2.1 2.8H74c-1.1 0-2.1-1.3-2.1-2.8v-3.3c0-1.5.9-2.8 2.1-2.8zM85 319h77.5c1.1 0 2.1 1.3 2.1 2.8v3.3c0 1.6-1 2.8-2.1 2.8H85c-1.2 0-2.1-1.3-2.1-2.8v-3.3c0-1.5 1-2.8 2.1-2.8z"/>
+                          <path fill="var(--color-primary-light)" d="M222.9 302.6h33.5c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7H223c-1.1 0-2.1-1.2-2.1-2.8v-3.4c-.1-1.5.8-2.7 2-2.7z"/>
+                          <path fill="var(--color-accent)" d="M180.3 301.7H207c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-26.7c-1.1 0-2.1-1.2-2.1-2.8v-3.4c-.1-1.5.8-2.7 2-2.7z"/>
+                          <path fill="var(--color-green)" d="M98.6 301.7h68.7c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7H98.6c-1.1 0-2.1-1.2-2.1-2.8v-3.4c.1-1.5 1-2.7 2.1-2.7z"/>
+                          <path fill="var(--color-baige-dark)" d="M74.3 302.6h13c1.1 0 2.1 1.3 2.1 2.8v3.3c0 1.6-1 2.8-2.1 2.8h-13c-1.1 0-2.1-1.3-2.1-2.8v-3.3c0-1.5.9-2.8 2.1-2.8z"/>
+                          <path fill="var(--color-green)" d="M197.4 285h14.8c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-14.8c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.4.9-2.7 2-2.7z"/>
+                          <path fill="var(--color-primary-light)" d="M151.8 284.9h32c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-32.1c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.5 1-2.7 2.1-2.7z"/>
+                          <path fill="var(--color-green)" d="M112.5 285h26.7c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-26.7c-1.1 0-2.1-1.2-2.1-2.8v-3.4c-.1-1.4.9-2.7 2-2.7z"/>
+                          <path fill="var(--color-baige-dark)" d="M64.1 284.9h36.4c1.2 0 2.1 1.3 2.1 2.8v3.3c0 1.6-1 2.8-2.1 2.8H64.1c-1.2 0-2.1-1.3-2.1-2.8v-3.3c0-1.5.9-2.8 2.1-2.8zM184.3 249.7h4.2c1.1 0 2.1 1.3 2.1 2.8v3.3c0 1.6-.9 2.8-2.1 2.8h-4.2c-1.1 0-2.1-1.3-2.1-2.8v-3.3c0-1.5 1-2.8 2.1-2.8z"/>
+                          <path fill="var(--color-green)" d="M99.5 249h77.3c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7H99.5c-1.1 0-2.1-1.2-2.1-2.8v-3.4c.1-1.4 1-2.7 2.1-2.7z"/>
+                          <path fill="var(--color-primary-light)" d="M54.9 249h33.5c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7H55c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.4.9-2.7 2-2.7z"/>
+                          <path fill="var(--color-accent)" d="M256.1 197.2h31.1c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-31.1c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.4.9-2.7 2-2.7z"/>
+                          <path fill="var(--color-green)" d="M236.4 197.8h9.1c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-9.1c-1.1 0-2.1-1.2-2.1-2.8v-3.4c-.1-1.5.8-2.7 2-2.7zM189.5 197.8h36.3c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-36.3c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.5.9-2.7 2-2.7zM137.2 197.8H178c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-40.8c-1.1 0-2.1-1.2-2.1-2.8v-3.4c-.1-1.5.9-2.7 2-2.7z"/>
+                          <path fill="var(--color-baige-dark)" d="M64.7 197.8h60c1.2 0 2.1 1.3 2.1 2.8v3.3c0 1.6-1 2.8-2.1 2.8h-60c-1.2 0-2.1-1.3-2.1-2.8v-3.3c0-1.5 1-2.8 2.1-2.8zM64.3 180.4h4.2c1.1 0 2.1 1.3 2.1 2.8v3.3c0 1.6-1 2.8-2.1 2.8h-4.2c-1.2 0-2.1-1.3-2.1-2.8v-3.3c0-1.5.9-2.8 2.1-2.8z"/>
+                          <path fill="var(--color-accent)" d="M232.9 163.1h30.5c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7H233c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.4.9-2.7 2-2.7z"/>
+                          <path fill="var(--color-green)" d="M198.9 163.1h22.6c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7H199c-1.1 0-2.1-1.2-2.1-2.8v-3.4c-.1-1.4.8-2.7 2-2.7zM151.4 163.1H188c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-36.7c-1.1 0-2.1-1.2-2.1-2.8v-3.4c.1-1.4.9-2.7 2.1-2.7zM98.6 163.1h40.9c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-41c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.4 1-2.7 2.1-2.7z"/>
+                          <path fill="var(--color-baige-dark)" d="M74.3 163.1h13c1.1 0 2.1 1.3 2.1 2.8v3.3c0 1.6-1 2.8-2.1 2.8h-13c-1.1 0-2.1-1.3-2.1-2.8v-3.3c0-1.5.9-2.8 2.1-2.8z"/>
+                          <path fill="var(--color-green)" d="M198 145.8h14.2c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7H198c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.5 1-2.7 2.1-2.7z"/>
+                          <path fill="var(--color-primary-light)" d="M151.6 145.8h32.2c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-32.2c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.5.9-2.7 2-2.7z"/>
+                          <path fill="var(--color-green)" d="M112.5 145.8h27.3c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-27.3c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.5.9-2.7 2-2.7z"/>
+                          <path fill="var(--color-baige-dark)" d="M64.1 145.8h36.4c1.2 0 2.1 1.3 2.1 2.8v3.3c0 1.6-1 2.8-2.1 2.8H64.1c-1.2 0-2.1-1.3-2.1-2.8v-3.3c0-1.5.9-2.8 2.1-2.8z"/>
+                          <path fill="var(--color-green)" d="M161.6 128.5h59.2c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-59.2c-1.1 0-2.1-1.2-2.1-2.8v-3.3c0-1.5.9-2.8 2-2.8zM98.4 128.4h50.4c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7H98.4c-1.1 0-2.1-1.2-2.1-2.8v-3.4c.1-1.4 1.1-2.7 2.1-2.7z"/>
+                          <path fill="var(--color-primary-light)" d="M54.6 127.7h33.5c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7H54.6c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.5.9-2.7 2.1-2.7z"/>
+                          <path fill="var(--color-accent)" d="M246.8 93.8h49.9c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-49.9c-1.1 0-2.1-1.2-2.1-2.8v-3.4c-.1-1.5.8-2.7 2-2.7z"/>
+                          <path fill="var(--color-green)" d="M165.5 93.8h68.7c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-68.7c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.5.9-2.7 2-2.7z"/>
+                          <path fill="var(--color-baige-dark)" d="M122.4 93.8h30.7c1.2 0 2.1 1.3 2.1 2.8v3.3c0 1.6-.9 2.8-2.1 2.8h-30.7c-1.2 0-2.1-1.3-2.1-2.8v-3.3c0-1.5 1-2.8 2.1-2.8z"/>
+                          <path fill="var(--color-green)" d="M64.1 93.8h37.6c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7H64.1c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.5 1-2.7 2.1-2.7z"/>
+                          <path fill="var(--color-accent)" d="M237.3 76.7h26.9c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-26.9c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.5.9-2.7 2-2.7z"/>
+                          <path fill="var(--color-green)" d="M156.6 76.7h68.2c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-68.2c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.5.9-2.7 2-2.7z"/>
+                          <path fill="var(--color-baige-dark)" d="M113.5 76.7h30.7c1.2 0 2.1 1.3 2.1 2.8v3.3c0 1.6-1 2.8-2.1 2.8h-30.7c-1.2 0-2.1-1.3-2.1-2.8v-3.3c0-1.5 1-2.8 2.1-2.8z"/>
+                          <path fill="var(--color-green)" d="M74.3 76.7h18.1c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7H74.3c-1.1 0-2.1-1.2-2.1-2.8v-3.4c.1-1.5 1-2.7 2.1-2.7z"/>
+                          <path fill="var(--color-primary-light)" d="M53.9 76.7h9c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-9.1c-1.1 0-2.1-1.2-2.1-2.8v-3.4c.1-1.5 1-2.7 2.1-2.7z"/>
                         </g>
                       </g>
-                      <g class="move-code-to-right">
-                        <g id="non-animated-code">
-                          <path fill="#8487C1" d="M396.7,76.7h28.4c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-28.4c-1.1,0-2.1-1.2-2.1-2.8v-3.4C394.6,77.9,395.6,76.7,396.7,76.7z"></path>
-                          <path fill="#8487C1" d="M415.9,126.5h14.5c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-14.5c-1.1,0-2.1-1.2-2.1-2.8v-3.4C413.9,127.7,414.8,126.5,415.9,126.5z"></path>
-                          <path fill="#8487C1" d="M561.2,162.5h19c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-19c-1.1,0-2.1-1.2-2.1-2.8v-3.4C559.1,163.7,560,162.5,561.2,162.5z"></path>
-                          <path fill="#8487C1" d="M704.5,283.1h20.3c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-20.3c-1.1,0-2.1-1.2-2.1-2.8v-3.4C702.4,284.3,703.4,283.1,704.5,283.1z"></path>
-                          <path fill="#8487C1" d="M699,300.4h20.3c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7H699c-1.1,0-2.1-1.2-2.1-2.8v-3.4C696.9,301.6,697.8,300.4,699,300.4z"></path>
-                          <path fill="#8487C1" d="M498.1,335h20.3c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-20.3c-1.1,0-2.1-1.2-2.1-2.8v-3.4C496.1,336.2,497,335,498.1,335z"></path>
-                          <path fill="#8487C1" d="M472.5,369.7h20.3c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-20.3c-1.1,0-2.1-1.2-2.1-2.8v-3.4C470.5,370.9,471.4,369.7,472.5,369.7z"></path>
-                          <path fill="#8487C1" d="M646.5,143.4h16.1c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-16.2c-1.1,0-2.1-1.2-2.1-2.8v-3.4C644.5,144.7,645.4,143.4,646.5,143.4z"></path>
-                          <path fill="#8487C1" d="M416.1,179.3h22.2c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-22.3c-1.1,0-2.1-1.2-2.1-2.8V182C414.1,180.5,415,179.3,416.1,179.3z"></path>
-                          <path fill="#8487C1" d="M425.9,214.3h22.2c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-22.3c-1.1,0-2.1-1.2-2.1-2.8V217C423.8,215.4,424.7,214.3,425.9,214.3z"></path>
-                          <path fill="#8487C1" d="M416,196.1h19c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-19c-1.1,0-2.1-1.2-2.1-2.8v-3.4C414,197.3,414.9,196.1,416,196.1z"></path>
-                          <path fill="#8487C1" d="M416.2,249.2h26.8c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-26.8c-1.1,0-2.1-1.2-2.1-2.8v-3.4C414.2,250.4,415.1,249.2,416.2,249.2z"></path>
-                          <path fill="#8487C1" d="M407,109.8h31.9c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7H407c-1.1,0-2.1-1.2-2.1-2.8v-3.4C404.9,111.1,405.9,109.8,407,109.8z"></path>
-                          <path fill="#8487C1" d="M425.5,143.7h9.7c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-9.8c-1.1,0-2.1-1.2-2.1-2.8v-3.4C423.5,144.9,424.4,143.7,425.5,143.7z"></path>
-                          <path fill="#8487C1" d="M425.3,162.5h4.5c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-4.5c-1.1,0-2.1-1.2-2.1-2.8v-3.4C423.3,163.7,424.3,162.5,425.3,162.5z"></path>
-                          <path fill="#8487C1" d="M425.3,283.5h4.5c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-4.5c-1.1,0-2.1-1.2-2.1-2.8v-3.4C423.3,284.8,424.3,283.5,425.3,283.5z"></path>
-                          <path fill="#8487C1" d="M425.3,300.7h4.5c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-4.5c-1.1,0-2.1-1.2-2.1-2.8v-3.4C423.3,301.9,424.3,300.7,425.3,300.7z"></path>
-                          <path fill="#8487C1" d="M425.3,317.9h4.5c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-4.5c-1.1,0-2.1-1.2-2.1-2.8v-3.4C423.3,319.1,424.3,317.9,425.3,317.9z"></path>
-                          <path fill="#8487C1" d="M425.3,352.2h4.5c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-4.5c-1.1,0-2.1-1.2-2.1-2.8v-3.4C423.3,353.4,424.3,352.2,425.3,352.2z"></path>
-                          <path fill="#8487C1" d="M425.3,386.5h4.5c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-4.5c-1.1,0-2.1-1.2-2.1-2.8v-3.4C423.3,387.8,424.3,386.5,425.3,386.5z"></path>
-                          <path fill="#8487C1" d="M425.6,404.9h12.8c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-12.8c-1.1,0-2.1-1.2-2.1-2.8v-3.4C423.6,406.1,424.5,404.9,425.6,404.9z"></path>
-                          <path fill="#8487C1" d="M415.9,266.3h14.5c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-14.5c-1.1,0-2.1-1.2-2.1-2.8v-3.4C413.9,267.6,414.8,266.3,415.9,266.3z"></path>
-                          <path fill="#8487C1" d="M416.1,422.5h22c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-22.1c-1.1,0-2.1-1.2-2.1-2.8v-3.4C414.1,423.7,415,422.5,416.1,422.5z"></path>
-                          <path fill="#8487C1" d="M415.9,473.4h13.7c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-13.7c-1.1,0-2.1-1.2-2.1-2.8v-3.4C413.8,474.7,414.8,473.4,415.9,473.4z"></path>
-                          <path fill="#8487C1" d="M407.2,439.2h40.3c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-40.3c-1.1,0-2.1-1.2-2.1-2.8v-3.4C405.2,440.4,406.1,439.2,407.2,439.2z"></path>
-                          <path fill="#8487C1" d="M407,456.6h31.9c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7H407c-1.1,0-2.1-1.2-2.1-2.8v-3.4C404.9,457.8,405.9,456.6,407,456.6z"></path>
-                          <path fill="#8487C1" d="M396.5,93.3h22.8c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-22.9c-1.1,0-2.1-1.2-2.1-2.8V96C394.5,94.5,395.4,93.3,396.5,93.3z"></path>
-                          <path fill="#fc568d" d="M479.3,109.8h43.6c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-43.7c-1.1,0-2.1-1.2-2.1-2.8v-3.4C477.3,111.1,478.2,109.8,479.3,109.8z"></path>
-                          <path fill="#fc568d" d="M474.9,143.7h43.6c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-43.7c-1.1,0-2.1-1.2-2.1-2.8v-3.4C472.9,144.9,473.8,143.7,474.9,143.7z"></path>
-                          <path fill="#fc568d" d="M513.6,162.5h38.7c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-38.7c-1.1,0-2.1-1.2-2.1-2.8v-3.4C511.6,163.7,512.5,162.5,513.6,162.5z"></path>
-                          <path fill="#fc568d" d="M542.2,231.8h38.7c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-38.7c-1.1,0-2.1-1.2-2.1-2.8v-3.4C540.1,233.1,541,231.8,542.2,231.8z"></path>
-                          <path fill="#fc568d" d="M464.8,162.5h8.8c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-8.8c-1.1,0-2.1-1.2-2.1-2.8v-3.4C462.8,163.7,463.7,162.5,464.8,162.5z"></path>
-                          <path fill="#fc568d" d="M471.1,127.1h51.6c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-51.7c-1.1,0-2.1-1.2-2.1-2.8v-3.4C469,128.3,469.9,127.1,471.1,127.1z"></path>
-                          <path fill="#fc568d" d="M475.4,196.1h57.1c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-57.2c-1.1,0-2.1-1.2-2.1-2.8v-3.4C473.4,197.3,474.3,196.1,475.4,196.1z"></path>
-                          <path fill="#fc568d" d="M470,266.3h62.4c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7H470c-1.1,0-2.1-1.2-2.1-2.8v-3.4C468,267.6,468.9,266.3,470,266.3z"></path>
-                          <path fill="#fc568d" d="M465.8,300.4h66.6c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-66.6c-1.1,0-2.1-1.2-2.1-2.8v-3.4C463.8,301.6,464.7,300.4,465.8,300.4z"></path>
-                          <path fill="#fc568d" d="M468.2,317.6h158c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7H468.2c-1.1,0-2.1-1.2-2.1-2.8v-3.4C466.2,318.9,467.1,317.6,468.2,317.6z"></path>
-                          <path fill="#fc568d" d="M467.3,352.6h126.1c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7H467.3c-1.1,0-2.1-1.2-2.1-2.8v-3.4C465.3,353.9,466.2,352.6,467.3,352.6z"></path>
-                          <path fill="#fc568d" d="M466.2,386.5H551c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-84.8c-1.1,0-2.1-1.2-2.1-2.8v-3.4C464.2,387.8,465.2,386.5,466.2,386.5z"></path>
-                          <path fill="#fc568d" d="M468.9,283.1h18.6c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-18.7c-1.1,0-2.1-1.2-2.1-2.8v-3.4C466.8,284.3,467.8,283.1,468.9,283.1z"></path>
-                          <path fill="#fc568d" d="M498.6,283.1h45c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-45c-1.1,0-2.1-1.2-2.1-2.8v-3.4C496.5,284.3,497.5,283.1,498.6,283.1z"></path>
-                          <path fill="#fc568d" d="M449.2,335H490c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-40.8c-1.1,0-2.1-1.2-2.1-2.8v-3.4C447.1,336.2,448,335,449.2,335z"></path>
-                          <path fill="#fc568d" d="M425.7,335h13.7c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-13.7c-1.1,0-2.1-1.2-2.1-2.8v-3.4C423.6,336.2,424.5,335,425.7,335z"></path>
-                          <path fill="#fc568d" d="M426.4,369.7h39.2c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-39.2c-1.1,0-2.1-1.2-2.1-2.8v-3.4C424.3,370.9,425.2,369.7,426.4,369.7z"></path>
-                          <path fill="#fc568d" d="M555.8,283.1h58c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-58.1c-1.1,0-2.1-1.2-2.1-2.8v-3.4C553.7,284.3,554.6,283.1,555.8,283.1z"></path>
-                          <path fill="#fc568d" d="M574.4,300.4H593c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-18.7c-1.1,0-2.1-1.2-2.1-2.8v-3.4C572.3,301.6,573.2,300.4,574.4,300.4z"></path>
-                          <path fill="#fc568d" d="M603.8,300.4h34.5c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-34.5c-1.1,0-2.1-1.2-2.1-2.8v-3.4C601.7,301.6,602.7,300.4,603.8,300.4z"></path>
-                          <path fill="#fc568d" d="M636.1,352.2h18.6c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-18.7c-1.1,0-2.1-1.2-2.1-2.8v-3.4C634,353.4,634.9,352.2,636.1,352.2z"></path>
-                          <path fill="#fc568d" d="M670.9,317.9h18.6c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-18.7c-1.1,0-2.1-1.2-2.1-2.8v-3.4C668.9,319.1,669.8,317.9,670.9,317.9z"></path>
-                          <path fill="#fc568d" d="M697.8,317.9h10.8c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-10.9c-1.1,0-2.1-1.2-2.1-2.8v-3.4C695.7,319.1,696.6,317.9,697.8,317.9z"></path>
-                          <path fill="#fc568d" d="M665.9,352.2h49.6c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-49.7c-1.1,0-2.1-1.2-2.1-2.8v-3.4C663.8,353.4,664.8,352.2,665.9,352.2z"></path>
-                          <path fill="#fc568d" d="M594.1,386.5h18.6c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-18.7c-1.1,0-2.1-1.2-2.1-2.8v-3.4C592.1,387.8,593,386.5,594.1,386.5z"></path>
-                          <path fill="#fc568d" d="M623.3,386.5H649c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-25.6c-1.1,0-2.1-1.2-2.1-2.8v-3.4C621.3,387.8,622.2,386.5,623.3,386.5z"></path>
-                          <path fill="#fc568d" d="M478.7,456.9h21.1c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-21.1c-1.1,0-2.1-1.2-2.1-2.8v-3.4C476.7,458.1,477.6,456.9,478.7,456.9z"></path>
-                          <path fill="#fc568d" d="M469.9,473.4h58c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-58c-1.1,0-2.1-1.2-2.1-2.8v-3.4C467.9,474.7,468.8,473.4,469.9,473.4z"></path>
-                          <path fill="#fc568d" d="M649.5,300.4h40.2c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-40.2c-1.1,0-2.1-1.2-2.1-2.8v-3.4C647.5,301.6,648.4,300.4,649.5,300.4z"></path>
-                          <path fill="#fc568d" d="M660.1,386.5h40.2c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-40.2c-1.1,0-2.1-1.2-2.1-2.8v-3.4C658.1,387.8,659,386.5,660.1,386.5z"></path>
-                          <path fill="#fc568d" d="M641.4,283.1h53.7c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-53.7c-1.1,0-2.1-1.2-2.1-2.8v-3.4C639.4,284.3,640.3,283.1,641.4,283.1z"></path>
-                          <path fill="#fc568d" d="M475.4,213.9h57.1c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-57.2c-1.1,0-2.1-1.2-2.1-2.8v-3.4C473.4,215.2,474.3,213.9,475.4,213.9z"></path>
-                          <path fill="#fc568d" d="M576.8,213.9H634c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-57.2c-1.1,0-2.1-1.2-2.1-2.8v-3.4C574.7,215.2,575.7,213.9,576.8,213.9z"></path>
-                          <path fill="#fc568d" d="M645.9,213.9h57.1c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-57.2c-1.1,0-2.1-1.2-2.1-2.8v-3.4C643.9,215.2,644.8,213.9,645.9,213.9z"></path>
-                          <path fill="#fc568d" d="M442.1,231.7h57.1c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-57.2c-1.1,0-2.1-1.2-2.1-2.8v-3.4C440,232.9,440.9,231.7,442.1,231.7z"></path>
-                          <path fill="#fc568d" d="M536.7,127.1H594c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-57.3c-1.1,0-2.1-1.2-2.1-2.8v-3.4C534.6,128.3,535.6,127.1,536.7,127.1z"></path>
-                          <path fill="#fc568d" d="M623.2,127.1h57.3c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-57.3c-1.1,0-2.1-1.2-2.1-2.8v-3.4C621.1,128.3,622.1,127.1,623.2,127.1z"></path>
-                          <path fill="#2CB399" d="M449.2,109.8h18.1c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-18.1c-1.1,0-2.1-1.2-2.1-2.8v-3.4C447.1,111,448.1,109.8,449.2,109.8z"></path>
-                          <path fill="#2CB399" d="M440.3,126.5h18.1c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-18.1c-1.1,0-2.1-1.2-2.1-2.8v-3.4C438.2,127.7,439.2,126.5,440.3,126.5z"></path>
-                          <path fill="#2CB399" d="M444.7,143.7h18.1c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-18.1c-1.1,0-2.1-1.2-2.1-2.8v-3.4C442.6,144.9,443.5,143.7,444.7,143.7z"></path>
-                          <path fill="#2CB399" d="M483.3,162.5h18.1c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-18.1c-1.1,0-2.1-1.2-2.1-2.8v-3.4C481.2,163.7,482.2,162.5,483.3,162.5z"></path>
-                          <path fill="#2CB399" d="M544.5,214.3h18.1c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-18.1c-1.1,0-2.1-1.2-2.1-2.8V217C542.4,215.4,543.4,214.3,544.5,214.3z"></path>
-                          <path fill="#2CB399" d="M606.1,126.5h5.8c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-5.8c-1.1,0-2.1-1.2-2.1-2.8v-3.4C604,127.7,605,126.5,606.1,126.5z"></path>
-                          <path fill="#2CB399" d="M625.1,283.1h5.2c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-5.2c-1.1,0-2.1-1.2-2.1-2.8v-3.4C623.1,284.3,624,283.1,625.1,283.1z"></path>
-                          <path fill="#2CB399" d="M458.1,214.3h5.8c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-5.9c-1.1,0-2.1-1.2-2.1-2.8V217C456,215.4,456.9,214.3,458.1,214.3z"></path>
-                          <path fill="#2CB399" d="M424.7,230.8h5.2c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-5.2c-1.1,0-2.1-1.2-2.1-2.8v-3.4C422.6,232,423.5,230.8,424.7,230.8z"></path>
-                          <path fill="#2CB399" d="M510.9,231.8H529c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-18.1c-1.1,0-2.1-1.2-2.1-2.8v-3.4C508.8,233.1,509.8,231.8,510.9,231.8z"></path>
-                          <path fill="#2CB399" d="M439.6,266.3h18.1c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-18.1c-1.1,0-2.1-1.2-2.1-2.8v-3.4C437.5,267.6,438.5,266.3,439.6,266.3z"></path>
-                          <path fill="#2CB399" d="M439.6,283.5h18.1c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-18.1c-1.1,0-2.1-1.2-2.1-2.8v-3.4C437.5,284.8,438.5,283.5,439.6,283.5z"></path>
-                          <path fill="#2CB399" d="M439.5,300.4h13.8c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-13.8c-1.1,0-2.1-1.2-2.1-2.8v-3.4C437.4,301.6,438.3,300.4,439.5,300.4z"></path>
-                          <path fill="#2CB399" d="M439.5,317.9h13.8c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-13.8c-1.1,0-2.1-1.2-2.1-2.8v-3.4C437.4,319.1,438.3,317.9,439.5,317.9z"></path>
-                          <path fill="#2CB399" d="M439.5,352.6h13.8c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-13.8c-1.1,0-2.1-1.2-2.1-2.8v-3.4C437.4,353.9,438.3,352.6,439.5,352.6z"></path>
-                          <path fill="#2CB399" d="M439.5,387.5h13.8c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-13.8c-1.1,0-2.1-1.2-2.1-2.8v-3.4C437.4,388.8,438.3,387.5,439.5,387.5z"></path>
-                          <path fill="#2CB399" d="M544.5,300.7h18.1c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-18.1c-1.1,0-2.1-1.2-2.1-2.8v-3.4C542.4,301.9,543.4,300.7,544.5,300.7z"></path>
-                          <path fill="#2CB399" d="M640.5,317.9h18.1c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-18.1c-1.1,0-2.1-1.2-2.1-2.8v-3.4C638.4,319.1,639.4,317.9,640.5,317.9z"></path>
-                          <path fill="#2CB399" d="M606.7,352.2h18.1c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-18.1c-1.1,0-2.1-1.2-2.1-2.8v-3.4C604.6,353.4,605.5,352.2,606.7,352.2z"></path>
-                          <path fill="#2CB399" d="M563.7,386.5h18.1c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-18.1c-1.1,0-2.1-1.2-2.1-2.8v-3.4C561.7,387.8,562.6,386.5,563.7,386.5z"></path>
-                          <path fill="#2CB399" d="M449,456.6H467c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7H449c-1.1,0-2.1-1.2-2.1-2.8v-3.4C447,457.8,447.9,456.6,449,456.6z"></path>
-                          <path fill="#2CB399" d="M439.6,473.4h18.1c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-18.1c-1.1,0-2.1-1.2-2.1-2.8v-3.4C437.5,474.7,438.5,473.4,439.6,473.4z"></path>
-                          <path fill="#2CB399" d="M444.7,196.5h18.1c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-18.1c-1.1,0-2.1-1.2-2.1-2.8v-3.4C442.6,197.7,443.5,196.5,444.7,196.5z"></path>
-                          <path fill="#2CB399" d="M439.5,162.5h13.8c1.1,0,2.1,1.2,2.1,2.8v3.4c0,1.5-0.9,2.7-2,2.7h-13.8c-1.1,0-2.1-1.2-2.1-2.8v-3.4C437.4,163.7,438.3,162.5,439.5,162.5z"></path>
-                          <path fill="#B3B3B3" d="M532.9,144.4h104.4c1.2,0,2.1,1.3,2.1,2.8v3.3c0,1.6-1,2.8-2.1,2.8H532.9c-1.2,0-2.1-1.3-2.1-2.8v-3.3C530.8,145.6,531.8,144.4,532.9,144.4z"></path>
-                        </g>
+                      <g class="code-screen__left-side">
+                        <path fill="var(--color-primary-light)" d="M396.7 76.7h28.4c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-28.4c-1.1 0-2.1-1.2-2.1-2.8v-3.4c-.1-1.5.9-2.7 2-2.7zM415.9 126.5h14.5c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7H416c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.5.9-2.7 2-2.7zM561.2 162.5h19c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-19c-1.1 0-2.1-1.2-2.1-2.8v-3.4c-.1-1.5.8-2.7 2-2.7zM704.5 283.1h20.3c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-20.3c-1.1 0-2.1-1.2-2.1-2.8v-3.4c-.1-1.5.9-2.7 2-2.7zM699 300.4h20.3c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7H699c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.5.9-2.7 2.1-2.7zM498.1 335h20.3c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-20.3c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.5.9-2.7 2-2.7zM472.5 369.7h20.3c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-20.3c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.5.9-2.7 2-2.7zM646.5 143.4h16.1c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-16.2c-1.1 0-2.1-1.2-2.1-2.8v-3.4c.1-1.4 1-2.7 2.1-2.7zM416.1 179.3h22.2c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-22.3c-1.1 0-2.1-1.2-2.1-2.8V182c.1-1.5 1-2.7 2.1-2.7zM425.9 214.3h22.2c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-22.3c-1.1 0-2.1-1.2-2.1-2.8V217c0-1.6.9-2.7 2.1-2.7zM416 196.1h19c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-19c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.5.9-2.7 2-2.7zM416.2 249.2H443c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-26.8c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.5.9-2.7 2-2.7zM407 109.8h31.9c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-32c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.4 1-2.7 2.1-2.7zM425.5 143.7h9.7c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-9.8c-1.1 0-2.1-1.2-2.1-2.8v-3.4c.1-1.5 1-2.7 2.1-2.7zM425.3 162.5h4.5c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-4.5c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.5 1-2.7 2-2.7zM425.3 283.5h4.5c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-4.5c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.4 1-2.7 2-2.7zM425.3 300.7h4.5c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-4.5c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.5 1-2.7 2-2.7zM425.3 317.9h4.5c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-4.5c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.5 1-2.7 2-2.7zM425.3 352.2h4.5c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-4.5c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.5 1-2.7 2-2.7zM425.3 386.5h4.5c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-4.5c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.4 1-2.7 2-2.7zM425.6 404.9h12.8c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-12.8c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.5.9-2.7 2-2.7zM415.9 266.3h14.5c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7H416c-1.1 0-2.1-1.2-2.1-2.8V269c0-1.4.9-2.7 2-2.7zM416.1 422.5h22c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-22.1c-1.1 0-2.1-1.2-2.1-2.8v-3.4c.1-1.5 1-2.7 2.1-2.7zM415.9 473.4h13.7c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7H416c-1.1 0-2.1-1.2-2.1-2.8v-3.4c-.1-1.4.9-2.7 2-2.7zM407.2 439.2h40.3c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-40.3c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.5.9-2.7 2-2.7zM407 456.6h31.9c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-32c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.5 1-2.7 2.1-2.7zM396.5 93.3h22.8c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-22.9c-1.1 0-2.1-1.2-2.1-2.8V96c.1-1.5 1-2.7 2.1-2.7z"/>
+                        <path fill="var(--color-accent)" d="M479.3 109.8h43.6c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-43.7c-1.1 0-2.1-1.2-2.1-2.8v-3.4c.1-1.4 1-2.7 2.1-2.7zM474.9 143.7h43.6c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-43.7c-1.1 0-2.1-1.2-2.1-2.8v-3.4c.1-1.5 1-2.7 2.1-2.7zM513.6 162.5h38.7c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-38.7c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.5.9-2.7 2-2.7zM542.2 231.8h38.7c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-38.7c-1.1 0-2.1-1.2-2.1-2.8v-3.4c-.1-1.4.8-2.7 2-2.7zM464.8 162.5h8.8c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-8.8c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.5.9-2.7 2-2.7zM471.1 127.1h51.6c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-51.7c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.5.9-2.7 2.1-2.7zM475.4 196.1h57.1c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-57.2c-1.1 0-2.1-1.2-2.1-2.8v-3.4c.1-1.5 1-2.7 2.1-2.7zM470 266.3h62.4c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7H470c-1.1 0-2.1-1.2-2.1-2.8V269c.1-1.4 1-2.7 2.1-2.7zM465.8 300.4h66.6c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-66.6c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.5.9-2.7 2-2.7zM468.2 317.6h158c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7H468.2c-1.1 0-2.1-1.2-2.1-2.8v-3.4c.1-1.4 1-2.7 2.1-2.7zM467.3 352.6h126.1c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7H467.3c-1.1 0-2.1-1.2-2.1-2.8v-3.4c.1-1.4 1-2.7 2.1-2.7zM466.2 386.5H551c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-84.8c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.4 1-2.7 2-2.7zM468.9 283.1h18.6c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-18.7c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.5 1-2.7 2.1-2.7zM498.6 283.1h45c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-45c-1.1 0-2.1-1.2-2.1-2.8v-3.4c-.1-1.5.9-2.7 2-2.7zM449.2 335H490c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-40.8c-1.1 0-2.1-1.2-2.1-2.8v-3.4c-.1-1.5.8-2.7 2-2.7zM425.7 335h13.7c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-13.7c-1.1 0-2.1-1.2-2.1-2.8v-3.4c-.1-1.5.8-2.7 2-2.7zM426.4 369.7h39.2c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-39.2c-1.1 0-2.1-1.2-2.1-2.8v-3.4c-.1-1.5.8-2.7 2-2.7zM555.8 283.1h58c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-58.1c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.5.9-2.7 2.1-2.7zM574.4 300.4H593c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-18.7c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.5.9-2.7 2.1-2.7zM603.8 300.4h34.5c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-34.5c-1.1 0-2.1-1.2-2.1-2.8v-3.4c-.1-1.5.9-2.7 2-2.7zM636.1 352.2h18.6c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-18.7c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.5.9-2.7 2.1-2.7zM670.9 317.9h18.6c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-18.7c-1.1 0-2.1-1.2-2.1-2.8v-3.4c.1-1.5 1-2.7 2.1-2.7zM697.8 317.9h10.8c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-10.9c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.5.9-2.7 2.1-2.7zM665.9 352.2h49.6c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-49.7c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.5 1-2.7 2.1-2.7zM594.1 386.5h18.6c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-18.7c-1.1 0-2.1-1.2-2.1-2.8v-3.4c.1-1.4 1-2.7 2.1-2.7zM623.3 386.5H649c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-25.6c-1.1 0-2.1-1.2-2.1-2.8v-3.4c-.1-1.4.8-2.7 1.9-2.7zM478.7 456.9h21.1c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-21.1c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.5.9-2.7 2-2.7zM469.9 473.4h58c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-58c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.4.9-2.7 2-2.7zM649.5 300.4h40.2c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-40.2c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.5.9-2.7 2-2.7zM660.1 386.5h40.2c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-40.2c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.4.9-2.7 2-2.7zM641.4 283.1h53.7c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-53.7c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.5.9-2.7 2-2.7zM475.4 213.9h57.1c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-57.2c-1.1 0-2.1-1.2-2.1-2.8v-3.4c.1-1.4 1-2.7 2.1-2.7zM576.8 213.9H634c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-57.2c-1.1 0-2.1-1.2-2.1-2.8v-3.4c-.1-1.4.9-2.7 2-2.7zM645.9 213.9H703c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-57.2c-1.1 0-2.1-1.2-2.1-2.8v-3.4c.1-1.4 1-2.7 2.1-2.7zM442.1 231.7h57.1c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-57.2c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.5.9-2.7 2.1-2.7zM536.7 127.1H594c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-57.3c-1.1 0-2.1-1.2-2.1-2.8v-3.4c-.1-1.5.9-2.7 2-2.7zM623.2 127.1h57.3c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-57.3c-1.1 0-2.1-1.2-2.1-2.8v-3.4c-.1-1.5.9-2.7 2-2.7z"/>
+                        <path fill="var(--color-green)" d="M449.2 109.8h18.1c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-18.1c-1.1 0-2.1-1.2-2.1-2.8v-3.4c-.1-1.5.9-2.7 2-2.7zM440.3 126.5h18.1c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-18.1c-1.1 0-2.1-1.2-2.1-2.8v-3.4c-.1-1.5.9-2.7 2-2.7zM444.7 143.7h18.1c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-18.1c-1.1 0-2.1-1.2-2.1-2.8v-3.4c-.1-1.5.8-2.7 2-2.7zM483.3 162.5h18.1c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-18.1c-1.1 0-2.1-1.2-2.1-2.8v-3.4c-.1-1.5.9-2.7 2-2.7zM544.5 214.3h18.1c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-18.1c-1.1 0-2.1-1.2-2.1-2.8V217c-.1-1.6.9-2.7 2-2.7zM606.1 126.5h5.8c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-5.8c-1.1 0-2.1-1.2-2.1-2.8v-3.4c-.1-1.5.9-2.7 2-2.7zM625.1 283.1h5.2c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-5.2c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.5.9-2.7 2-2.7zM458.1 214.3h5.8c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-5.9c-1.1 0-2.1-1.2-2.1-2.8V217c0-1.6.9-2.7 2.1-2.7zM424.7 230.8h5.2c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-5.2c-1.1 0-2.1-1.2-2.1-2.8v-3.4c-.1-1.5.8-2.7 2-2.7zM510.9 231.8H529c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7H511c-1.1 0-2.1-1.2-2.1-2.8v-3.4c-.1-1.4.9-2.7 2-2.7zM439.6 266.3h18.1c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-18.1c-1.1 0-2.1-1.2-2.1-2.8V269c-.1-1.4.9-2.7 2-2.7zM439.6 283.5h18.1c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-18.1c-1.1 0-2.1-1.2-2.1-2.8v-3.4c-.1-1.4.9-2.7 2-2.7zM439.5 300.4h13.8c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-13.8c-1.1 0-2.1-1.2-2.1-2.8v-3.4c-.1-1.5.8-2.7 2-2.7zM439.5 317.9h13.8c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-13.8c-1.1 0-2.1-1.2-2.1-2.8v-3.4c-.1-1.5.8-2.7 2-2.7zM439.5 352.6h13.8c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-13.8c-1.1 0-2.1-1.2-2.1-2.8v-3.4c-.1-1.4.8-2.7 2-2.7zM439.5 387.5h13.8c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-13.8c-1.1 0-2.1-1.2-2.1-2.8v-3.4c-.1-1.4.8-2.7 2-2.7zM544.5 300.7h18.1c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-18.1c-1.1 0-2.1-1.2-2.1-2.8v-3.4c-.1-1.5.9-2.7 2-2.7zM640.5 317.9h18.1c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-18.1c-1.1 0-2.1-1.2-2.1-2.8v-3.4c-.1-1.5.9-2.7 2-2.7zM606.7 352.2h18.1c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-18.1c-1.1 0-2.1-1.2-2.1-2.8v-3.4c-.1-1.5.8-2.7 2-2.7zM563.7 386.5h18.1c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-18.1c-1.1 0-2.1-1.2-2.1-2.8v-3.4c0-1.4.9-2.7 2-2.7zM449 456.6h18c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7H449c-1.1 0-2.1-1.2-2.1-2.8v-3.4c.1-1.5 1-2.7 2.1-2.7zM439.6 473.4h18.1c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-18.1c-1.1 0-2.1-1.2-2.1-2.8v-3.4c-.1-1.4.9-2.7 2-2.7zM444.7 196.5h18.1c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-18.1c-1.1 0-2.1-1.2-2.1-2.8v-3.4c-.1-1.5.8-2.7 2-2.7zM439.5 162.5h13.8c1.1 0 2.1 1.2 2.1 2.8v3.4c0 1.5-.9 2.7-2 2.7h-13.8c-1.1 0-2.1-1.2-2.1-2.8v-3.4c-.1-1.5.8-2.7 2-2.7z"/>
+                        <path fill="var(--color-baige-dark)" d="M532.9 144.4h104.4c1.2 0 2.1 1.3 2.1 2.8v3.3c0 1.6-1 2.8-2.1 2.8H532.9c-1.2 0-2.1-1.3-2.1-2.8v-3.3c0-1.6 1-2.8 2.1-2.8z"/>
                       </g>
-                      <g id="navbar_7_">
-                        <path fill="#CBCBCB" d="M745.5,20.1H30.8c-4.8,0-8.6,3.9-8.6,8.6v18.6h732V28.7C754.1,23.9,750.3,20.1,745.5,20.1z"></path>
-                        <ellipse fill="#CF4D46" cx="37.8" cy="33.7" rx="4.9" ry="5.4"></ellipse>
-                        <ellipse fill="#fc568d" cx="55" cy="33.7" rx="4.9" ry="5.4"></ellipse>
-                        <ellipse fill="#2CB399" cx="72.3" cy="33.7" rx="4.9" ry="5.4"></ellipse>
-                      </g>
-                    </g>
-                  </g>
+                    </svg>
+                  </div>
+                  <div class="pc-display__holder"></div>
+                  <div class="pc-display__stand"></div>
+                </div>
+                <!-- Desk items: right side -->
+                <div class="mouse desk-items__mouse"></div>
+                <div class="cup-wrapper desk-items__cup">
+                  <div class="cup-wrapper__steam steam">
+                    <div class="steam__item"></div>
+                    <div class="steam__item"></div>
+                    <div class="steam__item"></div>
+                    <div class="steam__item"></div>
+                  </div>
+                  <div class="cup"></div>
+                </div>
+              </div>
+              <!-- Desk -->
+              <div class="desk">
+                <div class="desk__top"></div>
+                <div class="desk__container">
+                    <div class="desk__drawers">
+                      <div class="desk__drawer"></div>
+                      <div class="desk__drawer"></div>
+                      <div class="desk__drawer"></div>
+                    </div>
+                    <div class="desk__bottom"></div>
+                    <div class="desk__cabinet">
+                      <div class="desk__door"></div>
+                      <div class="desk__door"></div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <!--Office Chair-->
+            <div class="office-chair room-illustration__office-chair">
+              <div class="office-chair__top">
+                <div class="office-chair__handle"></div>
+                <div class="office-chair__back"></div>
+                <div class="office-chair__handle"></div>
+              </div>
+              <div class="office-chair__seat"></div>
+              <div class="office-chair__stand"></div>
+              <div class="office-chair__legs">
+                <div class="office-chair__leg"></div>
+                <div class="office-chair__leg"></div>
+                <div class="office-chair__leg"></div>
+              </div>
+            </div>
+            <!--Cat-->
+            <div class="cat room-illustration__cat">
+              <svg><use xlink:href="#cat"/></svg>
+            </div>
+            <!--CV-->
+            <article class="cv room-illustration__cv">
+              <h4 class="cv__title">
+                Алиса Филатова
+                <span class="cv__subtitle">UI Developer / HTML-верстальщик</span>
+              </h4>
+              <p class="cv__text">
+                Верстаю адаптивно, кроссбраузерно, по БЭМ и с ипользованием компонентного подхода. Стараюсь добиться семантики и доступности. 
+                
+              </p>
+              <p class="cv__text">
+                Использую: HTML5/CSS3, Less/CSS Modules, знакома с React.js/TypeScript на уровне взаимодействия с версткой, прописывания базовой логики компонентов.
+              </p>
+              <p class="cv__text">
+                Люблю верстать статику, делать красивые CSS анимации, работать с графикой. В прошлом был опыт работы в сфере дизайна, растровой и векторной иллюстрации. 
+              </p>
+              <p class="cv__text">
+                У меня большой опыт работы в команде, не только в офисе, но и удаленно. Работала не только с продуктовыми командами, но и в команде UI Kit, которая занималась разработкой библиотеки компонентов для масштабного продукта.
+              </p>
+            </article>
+            <!-- Laptop Girl -->
+            <div class="laptop-girl room-illustration__laptop-girl">
+              <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                xmlns:xlink="http://www.w3.org/1999/xlink" 
+                viewBox="810 -390 1920 1116"
+                aria-hidden="true"
+              >
+                <ellipse fill="var(--color-primary-dark)" cx="2448.5" cy="613.9" rx="276.2" ry="27.7"/>
+                <ellipse fill="var(--color-primary-dark)" cx="2101.5" cy="676.2" rx="135" ry="27.7"/>
+                <g id="laptop-girl">
+                <path fill="var(--color-accent-dark)" d="M2387.6 620.1s120.7-20.1 165.1-41.6c110.5-51.8 126.6-157.8 130.7-194.1l-295.8 235.7z"/>
+                <path fill="var(--color-pink-dark)" d="M2399.5 355c-44.2 65-82.2 57.2-166 54.4-99.6-3.4-115.1 69-104.3 104.3 8.6 27.8 44.9 60.1 80.5 84 49.2 33.2 181 34.3 270.4 4 60.7-20.6 146-90.1 197.2-162.1 51.2-72.1 33.3-206.5-31.5-212-167.7-14.5-202.1 62.4-246.3 127.4z"/>
+                <path fill="var(--color-accent-dark)" d="m2368.5 485.8 67.7 37.1s19.1 13.3 51.9-22c82.2-88.5 108.2-18.2 132.4-105.7 6.4-23 3.5-45 8.4-58.7 4.2-11.8 8.2-29.6 10.2-42.6 7.7-50.6-96.8-49.9-114.6-28l-156 219.9z"/>
+                <path fill="var(--color-primary)" d="M2146.1 610.3s32.9 24 44.7 20.5c28.7-77.3 63-82.1 82.6-123.7 8.8-18.6-15.9 16.3 63.3 32.2 105.7 37.3 143.4-66.9 143.4-66.9L2345.5 447c-15.3 11.8-112.1-4.6-132.4 11.9-20.2 16.5-67 151.3-67 151.4z"/>
+                <path fill="var(--color-primary)" d="m2081.4 603.1 53.3 7.1 55.9-78.5s-6.3-20.7 69.3-12.3c105.7 37.3 162.9-67.3 162.9-67.3l-67.9-10.3c-15.3 11.8-173.6-10.1-196.3 12.7-18.5 18.6-77.1 148.6-77.2 148.6z"/>
+                <path fill="var(--color-primary-light)" d="M2088.6 587.7s3.8 2.3 6.4 1.7 74.7-113.8 77.1-121.3c2.3-7.5-13.3-12.2-15.7-8.9-19.3 26.1-67.8 128.5-67.8 128.5zM2137.7 623.4s26-13.8 30.2-22.1c37.5-73.9 70.4-114.7 70.6-129.3.2-14.9-16.8-27.4-25.4-13-20.5 34.5-75.4 164.4-75.4 164.4z"/>
+                <path fill="var(--color-cyan-dark)" d="M2027.6 690.1h77.2c18-6.6 29.9-52.8 29.9-52.8l15.9-22.2v-3.6s-54.9-14.3-61-15.9c-6-1.6-10.9-6.6-12.5 3.9-.1.1-.1.1-.1.2 6.5 1.5 19.3 9.5 30.9 9.8-1.3 2.7-17.9 10.2-18.6 21.5-.8 11.3-4.3 15.8-16.5 20-12.1 4.2-47.2 0-49.4 16.4-1.3 12.9 2.5 20 4.2 22.7z"/>
+                <path fill="var(--color-cyan)" d="M2027.6 690.1c-1.8-2.6-5.6-9.7-3.9-22.7 2.2-16.5 37.2-12.2 49.4-16.4 12.2-4.2 15.8-8.7 16.5-20 .7-11.3 21.2-13.5 22.7-22.5-11.6-.3-28.6-7.5-35.1-8.9-1.9 10.6-20.2 29.7-20.2 29.7l-12.2 1.5c-9.9-.3-21 .9-30.5 3.9l-3.9 1.4c-15.9 6.1-25.4 31.4-13.9 49.1 6.4 10.1 17.6 1.8 31.1 4.9z"/>
+                <path fill="var(--color-cyan-dark)" d="M2090.1 690.1h77.2c18-6.6 29.9-52.8 29.9-52.8l15.9-22.2v-3.6s-54.9-14.3-61-15.9c-6-1.6-10.9-6.6-12.5 3.9-.1.1-.1.1-.1.2 6.5 1.5 19.3 9.5 30.9 9.8-1.3 2.7-17.9 10.2-18.6 21.5-.8 11.3-4.3 15.8-16.5 20-12.1 4.2-47.2 0-49.4 16.4-1.4 12.9 2.4 20 4.2 22.7z"/>
+                <path fill="var(--color-cyan)" d="M2090.1 690.1c-1.8-2.6-5.6-9.7-3.9-22.7 2.2-16.5 37.2-12.2 49.4-16.4 12.2-4.2 15.8-8.7 16.5-20 .7-11.3 21.2-13.5 22.7-22.5-11.6-.3-28.6-7.5-35.1-8.9-1.9 10.6-20.2 29.7-20.2 29.7l-12.2 1.5c-9.9-.3-21 .9-30.5 3.9l-3.9 1.4c-15.9 6.1-28.5 25.8-17 43.5 6.3 10.1 20.6 7.4 34.2 10.5z"/>
+                <path fill="var(--color-primary-dark)" d="M2219.4 428.5c9.8 32.1 28.6 11.7 74 12.8l79.2-11.2 5-28.3c-25.4-2.7-67.6 2.3-102.4 13.1-46.1-12.3-40.3 12.1-55.8 13.6z"/>
+                <path fill="var(--color-baige-bright)" d="M2379.2 427.7c-1.2-10.9-26.8-34.9-41-33.3-2.1.3-4.3.6-6.2 1 .1-.2.2-.3.2-.3s-.9.3-2.3.8c-2.6.7-5.1 1.6-7.1 2.7-7.3 2.9-16.9 7.6-21.1 12.7-7 8.9-4.6 11.8-4.6 11.8s10.9-6 17.6-10.4c1.5 11.1 10.3 30.3 24.3 28.7 14.1-1.5 41.3-2.6 40.2-13.7z"/>
+                <path fill="var(--color-primary-dark)" d="m2522.1 288.4 53.5-3.1 19.1-7.4c-15.5-6-26.9-12.9-38.7-11.1-11.8 1.8-36.5 4.2-36.5 4.2l2.6 17.4z"/>
+                <path fill="var(--color-primary)" d="m2503.1 320.7-5.9-31.5s36.8-10.6 55.5-6.5c18.7 4.2 37.9-12 45.9-1 7.9 11-.4 73.2-8.6 82.5-19 21.7-86.9-43.5-86.9-43.5z"/>
+                <path fill="var(--color-primary-dark)" d="m2492.1 277.9-96.3 135-23.6 1.5-3.6-9.8c4-11.9 34.5-60.7 55.7-95.4 7.5-8.4 10.6-20.7 36.2-29.3"/>
+                <path fill="var(--color-primary-light)" d="M2585.7 318.6s-12.2 25.8-28.4 56.8c-22.4 42.6-66 70.2-82.8 79.2l-85-4.5s.3-23.2 4.2-34.6c2.9-8.4 10.5-13.7 10.5-13.7s-26.3-34.3 10.6-61.4c19.1-14 28-40.9 28-40.9s18.8-29.1 51-25.2c32.2 3.7 77.4 10 89.5 41.7"/>
+                <path fill="var(--color-primary)" d="m2516 453.3-102.4 6.9s-29.2-.3-38.4-4.1c-9.1-3.8 13.2-36.1 16.2-41.4 3.1-5.4 6.3-6.9 12.8-3.7 5.5 2.7-11.5-15.2 3.1-8.5 5.2 2.3-7.3-2.2-4.2-7.2 3.1-4.9 29.1 4.6 55.8 4.6 6.4 3 42-14.3 52.8-46.1 8.4-24.6 47.5-32.5 56.6-32.5 19.9-.1-6.3 70.7 3.5 69.7l-55.8 62.3z"/>
+                <path fill="var(--color-accent-dark)" d="M2418.5 391.2c-2.9-7.8-2.7-18.6 4.1-29.3 5-7.6 6.4-17.4 26.3-26.5 18.9-8.7 16.8-17.3 17-17.4l3.1 3.3c-1 .8 6.4 10.6-17.2 18.2-15.2 4.9-18 16.4-24.3 26.1-5.9 9.4-7 17.2-4.5 23.9 4.3 11.6-4.8 24.3-5 24.9l-3.7-3.2c.1-.3 8.1-9.8 4.2-20z"/>
+                <path fill="var(--color-primary-dark)" d="M2368.6 413.4c5.4 34 18.8 22 56.4 28l68.3 7.3c.8.7 2.4.8 3.3-.4 16.3 1.4 47.2-25.3 70.4-46.2 31.5-28.2 33.3-69.1 19.3-95.9-8.2-15.5-20.8-30.1-37.7 13.7-9.4 24.3-27.7 61.8-53.1 79.5-33.7-3.4-92.3 14.4-126.9 14z"/>
+                <path fill="var(--color-accent-dark)" d="m2534.5 310.6-38.3-38.6s-34.9-2.6-47.9 13.1c-5.2 5.4-5 14.3-5 14.3s13.6 29.5 24.2 29.2c9.6-.1 19.4 2.4 27.1.9 10.4-1.9 39.9-18.9 39.9-18.9z"/>
+                <path fill="var(--color-beige)" d="M2482 245.8c8.3 12.7 12.6 30.6-7.3 36.3-9.5 3-11.7 18.4-5.4 30.1 20.5 15.7 44.6 8.6 64.2.3 11-4.7-2.5-8.6-2.1-19.2 0 0 11.7-13.9-1.1-21.7-13.3-13.8-34.6-57.8-34.6-57.8l-13.7 32z"/>
+                <path fill="var(--color-baige-bright)" d="M2500.8 199.7s20 5.3 34.1 23.5c9.4 11.7 2.8 35.6 4.9 54.6 22 8.6 2.7 9.8-19.3 17.2-7.7 2.6-29-1.6-38.1-15.9 5.1-16.9 1.9-25.6-10.8-33.5l29.2-45.9z"/>
+                <path fill="var(--color-primary)" d="M2467.4 274.8c-22.3 7.7-24.5 19.2-18.9 26.7 5.9 10.6 14.9 24.6 14.9 24.6s-16.1-5.6-29-15.2c-5.2-4.3-2.5-18.1 1.9-22.5 13.6-12.4 29.8-14 31.1-13.6z"/>
+                <path fill="var(--color-primary-dark)" d="M2525.2 291.1c-10.7 5.4-52.4 30.8-60.8 38.1 29 9.5 106.3-38 117-52 9.9-12.8-1.9-11.4-12.3-6.3-8.4 4.6-22.3 9.5-43.9 20.2z"/>
+                <path fill="var(--color-primary)" d="M2488.9 329.6c2.7-1.3 13.6-10.7 18.7-15.2 5.9-4.7 25.7-16.3 37.5-29.2 13.5-14.8 28.4-18.1 35.8-22 8.3-4.4 24.3 12 19.7 24.1-19.2-13.7-76.6 48.9-111.7 42.3z"/>
+                <path fill="var(--color-grey)" d="m2189.2 445.3 212.9.8c2.3 0 4.2-1.5 4.4-3.4l.2-2.2c.2-2.1-1.7-3.9-4.2-4.1h-.3l-75.1-1.1c-2.1 0-3.9-1.3-4.4-3l-40.5-146.5c-.5-1.6-2.1-2.8-4.1-3l-5.2-.4c-.8 0-1.5.1-2.2.3l-128 49.3c-2.1.8-3 2.8-2.3 4.6l44.5 106.2c.7 1.5 2.4 2.5 4.3 2.5z"/>
+                <ellipse transform="matrix(-.3106 -.9505 .9505 -.3106 2553.0134 2617.9551)" clip-path="url(#d)" fill="var(--color-cyan)" cx="2225.9" cy="383.2" rx="11.8" ry="9.8"/>
+                <path fill="var(--color-primary-dark)" d="M2538.3 236.6s-88.1-.5-114.9 31.1c-.9-3.6 3.6-16.2 2.6-22.2-7-39.7-20-116.4 8.6-135.1 39.5-26 97-.3 97-.3l6.7 126.5z"/>
+                <path fill="var(--color-beige)" d="M2430.3 177.2c4.1 15.5.6 28.1 3.3 37.9 7 28.3 39 45.6 46 46.9 20.2-2.2 49.4-15.5 54.2-23 12-12.9 39-67.5 35.6-89.3-13.2-47.8-28.6-64.4-79.7-57.8-11.9 1.6-69.7 46.6-59.4 85.3z"/>
+                <path fill="var(--color-baige-bright)" d="M2515.9 259.2c33.6-25.6 1.2-109.9-23.2-136.6-14.7-.1-27.6 13.9-45.1 31.3-16.9 16.9-15.5 27.1-15.6 49-11.5-29.7 2.7-92.5 35.4-109.4 80.7-28.3 88.1 5.9 102.2 55.2 12.3 43-22 77.8-53.7 110.5z"/>
+                <path fill="var(--color-primary)" d="M2485.1 171.5c2.8-.4 5.9-1.8 7.8-2.4 1.9-.5 5-1.8 6.8-1.6 2.8-.4 12.8 1.3 14.6 1.7l.2-.9c-.7-1.1-11.2-4.7-14.9-4.5-2.8.4-5.7.9-8.7 2.2-3 1.2-5.1 2.8-6.5 5.3l.7.2zM2457.8 170.2c-1.2-1.6-3-2.5-4.1-3.1-1.8-1-3.8-1.3-8.4-.7-.9.1-6.1 1.8-7.1 1.8l.1.9c1.7-.2 10.2-1.7 17 1.8.6 0 2.6-.6 2.5-.7z"/>
+                <path fill="var(--color-primary)" d="M2480.8 234.5c2.2-.2 6.1-1.6 9.8-5.5-.8 3.8-1.5 7-8.9 8.2-6.6.6-9.1-4.9-9.1-4.9 1.9 1.3 4.7 2.1 8.2 2.2z"/>
+                <g id="laptop-girl-eyes" fill="var(--color-primary)">
+                  <path d="M2502.3 182.9c3.7-.2 7 3 7.5 7.3s-2.1 7.9-5.8 8.1c-3.7.2-7-3-7.5-7.3s2.1-7.9 5.8-8.1z"/>
+                  <path d="m2507.7 187.1 2.9-4-7.6-.3zM2448.4 183.2c3.7-.2 6.9 3.1 7.3 7.4.4 4.3-2.3 7.9-6 8-3.7.2-6.9-3.1-7.3-7.4-.3-4.2 2.3-7.8 6-8z"/>
+                  <path d="m2444.3 187.8-3.6-3.6 7.4-1z"/>
                 </g>
+                <path fill="var(--color-primary)" d="M2496.2 59.7c-9.1-1-14.6 4.4-18.4 11.7-21.1 2.4-56.9 21.1-67.3 65.8-5.6 25.1-2.6 49.8 2.2 70.4-3.6 22.5-7.9 47-9.7 50.9 0 0 7.9-12.8 14.9-31.3.3.9.6 1.9.8 2.8-1.3 18.4-2.7 35.2-4 38.4 0 0 4.4-8.9 8.8-22.4 1.3 6.7 0 21.8 0 21.8s7.2-22.3 8.1-58.8c.5-4.8.8-9.7.7-14.6-.1-9.3-.7-15-1.7-18.4-1.6-22.3 15.6-48.7 37.5-61.2-3.5-.2-6.7.1-9.4.7-23.8 5.2-33.7 35.4-35 39.8 12.5.7 25 .1 37.2.3 3.5.1 7.3.7 10.7.7 29.2.1 71.8 5.3 53.6-8.8-7.8-6.1-33.6-31.4-33.6-31.4s19.3 17.2 35.3 52.9c7.1 17.4 13.4 43.3 1.9 107.1 14-29 14.6-33.9 18.4-40.2-7.7 27.5-6.4 38.8-6.4 38.8s4.7-5.6 27.8-26.4c4.7-7.2 6.9-53.7 6.9-53.7s1.6 18.3-.4 37.4c-.9 4.5-.1 11-1 13.7 10.1-9.9 24.9-23.5 24.9-31.7 1.3-29.2-15.6-160.4-102.8-154.3z"/>
+                <path fill="var(--color-primary)" d="M2568.6 248c-7.9 7.1.6-.1-3.5 3.9 3.8-18.2 8.5-22.1 9.6-76.9 1-48.5-27.3-84.8-42.7-94.1-9.5-5.7-31.9-18-50.7-13.7 2.5-8.5 12.5-7.9 14.8-7.7 87.2-6.1 104.1 125.1 102.9 154.2 0 8.2-5 24.4-15.2 34.3.9-2.7-9.6-11.7-8.7-16.2 2-19.1.4-37.4.4-37.4s-2.3 46.5-6.9 53.6z"/>
+                <path fill="var(--color-primary-dark)" d="M2563.9 250.7c-7.9 7.1.6-.1-3.5 3.9 3.8-18.2 8.5-22.1 9.6-76.9 1-48.5-27.3-84.8-42.7-94.1-12.7-7.7-42.3-34.8-55.5 6.9 0 0-.8-16.3 1.2-16.6 3.8-7.2 10.3-10.3 19.8-11.8 96.2 1.5 99.4 126.5 98.2 155.6-.1 8.2-1.7 22.9-11.9 32.8.9-2.7-9.6-11.7-8.7-16.2 2-19.1.4-37.4.4-37.4s-2.4 46.6-6.9 53.8z"/>
+                <path fill="var(--color-primary)" d="M2576.6 185.1s-3.7-15.5-7.5-34.7c-3.7-19.2-1.5 29.3-1.5 29.3 3.3 10.2 5.5 34.2 4.2 52.2-1.3 18-2.5 27.5-2.5 27.5s9.9-18.3 8.6-31.6c-1.1-13.4-1.3-42.7-1.3-42.7zM2569.2 126.1c-4.2-10.6-14.4-26.7-29.1-35.6 0 0 3.7 7.1 13.6 18.3 9.9 11.2 24.6 49.5 24.6 49.5s-5-21.6-9.1-32.2z"/>
+                <path fill="var(--color-primary-light)" d="m2472.3 75.1 2.2-3.5c-62.5 14.4-67.4 72.7-67.5 96.2l-.1 2.2s-.7 21.1 2.5 28c1.2-6.9 1.6-15.7 1.9-24.3l1-2.6 1.7-4.7c-1.3 10.1-.8 22.4.9 28.6-.6 10-1.5 19.3-2.7 24-3.1 11.8-8.5 37.4-8.5 37.4s11-23.2 16.7-62.8c.2.6.4 1.2.6 1.7.6 10.8.9 21 .2 26.1-1.7 12.2-4.1 38.1-4.1 38.1s12.9-37.9 8.7-97.2v-.5c.2-1.7.4-3.3.7-4.7.2 0 .5.1.7.2h.1c.4-8.6 30.6-48.9 30.6-48.9s-8.6 2.6-15.2 8.2c6.8-10.9 12.6-19.6 12.6-19.6s-7.9 9.2-15.8 18.8c3.3-11.1 12.5-21.1 12.5-21.1s-14.6 13-18.3 22.4c.1-3.1.6-5.8 1.2-7.7l.6-1.6c.4-1 .7-1.6.7-1.6s0 .1-.1.2c0 .1-.1.1-.1.2-.3.5-.9 1.3-1.7 2.4-2.2 2.2-5.2 5.6-7.5 9.7-.7 1-1.4 2-2 3 .7-6.4 4.9-15.2 4.9-15.2s-.6.8-1.5 2.2c-.2.4-.5.7-.8 1.2-.1.2-.3.4-.4.7 7.8-19.7 45.3-35.5 45.3-35.5zM2469.6 108.1l-3.9 54.7 7.7-39 3.7 34.3 4.7-37.7 8.1 35.4 3.2-18.7 11.9-18.7-1.7 19.4z"/>
+                <path fill="var(--color-primary)" d="m2432.3 144.1-3.9 18 7.7-12.8 3.7 11.3 4.7-12.4 8.1 11.6 3.2-6.1 11.9-6.2-1.7 6.4z"/>
+                <path fill="var(--color-primary-light)" d="m2469.7 108.1 5.9 54.7-11.5-39-5.5 34.3-7-37.7-12.1 35.4-4.8-18.7-17.8-18.7 2.6 19.4z"/>
+                <path fill="var(--color-pink-dark)" d="m2546.5 528.3-138 50.2s-155.1 1.3-156.3-39.2c38.3-55.5 78.1-13.2 140.3-79.1 65.1-69 208.2-24.4 235.5-123.6 86.4-1.9-81.5 191.8-81.5 191.7z"/>
+                <path fill="var(--color-accent)" d="M2571.1 410.4c-16.1 1.1-108.8 17.8-122.6 24.8s-36.9 19.3-13.4 21.1c23.5 1.7 58.4-3.5 98.5-16.1 40.1-12.6 90.3-29.1 70.1-30.3-15.3-.9-16.6-.6-32.6.5z"/>
               </g>
             </svg>
           </div>
-          <!-- NOTE -->
-          <div class="about-me__note">
-            <article class="about-me__text-wrapper about-me__text-wrapper_rus">
-              <p class="about-me__text">
-                Меня зовут Алиса. <br>
-                Пришла во фронтенд из графического дизайна.
-              </p>
-              <p class="about-me__text">
-                Закончила курсы HTML/CSS и JavaScript в «HTML Academy»,
-                желая, как дизайнер, больше узнать о веб среде, и сама не заметила,
-                как меня затянул этот процесс, и стал одним из любимых занятий.
-                Поэтому я решила продолжать изучать веб-разработку,
-                и сделать это ремесло своей профессией.
-              </p>
-              <p class="about-me__text">
-                Верстаю адаптивно, кроссбраузерно, по БЭМ
-                и максимально близко к макету, стараюсь добиться семантики.
-                Использую HTML5/CSS3, React.js, ES6, для стилей - Less/CSS Modules.
-                Продолжаю изучать JavaScript. В данный момент интересуюсь разработкой SPA.
-                Так же было бы интересно развиваться в сторону разработки игр.
-              </p>
-              <p class="about-me__text">
-                Свободно владею Adobe Illustrator, Adobe
-                Photoshop, рисую на планшете Wacom. Имею
-                пятилетний опыт работы в сфере графического дизайна.
-              </p>
-            </article>
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer page" id="contacts">
+      <div class="container footer__container page__grid">
+        <h4 class="footer__title">Контакты</h4>
+        <div class="footer__wrapper">
+          <a 
+            class="mailbox footer__mailbox"
+            href="mailto:alicefill@bk.ru" 
+            aria-hidden="true"
+          >
+            <span class="mailbox__container">
+              <span class="mailbox__toggle"></span>
+              <span class="mailbox__envelope"></span>
+            </span>
+            <span class="mailbox__stand"></span>
+            Написать e-mail
+          </a>
+          <div class="footer__contacts-wrapper">
+            <ul class="contact-icons contact-icons_size-s footer__contacts">
+              <li class="contact-icons__item">
+                <a
+                  class="contact-icons__link"
+                  href="mailto:alicefill@bk.ru"
+                  aria-labelledby="tooltip-email-footer"
+                >
+                  <svg 
+                    class="contact-icons__icon" 
+                    role="presentation" 
+                    aria-hidden="true"
+                  >
+                    <use xlink:href="#mail"></use>
+                  </svg>
+                  Email
+                </a>
+                <span 
+                  class="tooltip tooltip_top contact-icons__tooltip" 
+                  id="tooltip-email-footer"
+                  aria-hidden="true">
+                  Написать e-mail
+                </span>
+              </li>
+              <li class="contact-icons__item">
+                <a
+                  class="contact-icons__link"
+                  href="https://t.me/alice_fill"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-labelledby="tooltip-telegram-footer"
+                >
+                  <svg 
+                    class="contact-icons__icon" 
+                    role="presentation" 
+                    aria-hidden="true"
+                  >
+                    <use xlink:href="#telegram"></use>
+                  </svg>
+                  Telegram
+                </a>
+                <span 
+                  class="tooltip tooltip_top contact-icons__tooltip" 
+                  id="tooltip-telegram-footer"
+                  aria-hidden="true">
+                  Написать в Telegram
+                </span>
+              </li>
+              <li class="contact-icons__item">
+                <a
+                  class="contact-icons__link"
+                  href="https://www.linkedin.com/in/alisa-filatova-64209a139/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-labelledby="tooltip-linkedin-footer"
+                >
+                  <svg 
+                    class="contact-icons__icon" 
+                    role="presentation" 
+                    aria-hidden="true"
+                  >
+                    <use xlink:href="#linkedin"></use>
+                  </svg>
+                  LinkedIn
+                </a>
+                <span 
+                  class="tooltip tooltip_top contact-icons__tooltip" 
+                  id="tooltip-linkedin-footer"
+                  aria-hidden="true">
+                  Мой LinkedIn
+                </span>
+              </li>
+              <li class="contact-icons__item">
+                <a
+                  class="contact-icons__link"
+                  href="https://github.com/Alisa-Filatova"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-labelledby="tooltip-github-footer"
+                >
+                  <svg 
+                    class="contact-icons__icon" 
+                    role="presentation" 
+                    aria-hidden="true"
+                  >
+                    <use xlink:href="#github"></use>
+                  </svg>
+                  Github
+                </a>
+                <span 
+                  class="tooltip tooltip_top contact-icons__tooltip" 
+                  id="tooltip-github-footer"
+                  aria-hidden="true">
+                  Мой GitHub
+                </span>
+              </li>
+              <li class="contact-icons__item">
+                <a
+                  class="contact-icons__link"
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-labelledby="tooltip-artstation-footer"
+                >
+                  <svg 
+                    class="contact-icons__icon" 
+                    role="presentation" 
+                    aria-hidden="true"
+                  >
+                    <use xlink:href="#artstation"></use>
+                  </svg>
+                  ArtStation
+                </a>
+                <span 
+                  class="tooltip tooltip_top contact-icons__tooltip" 
+                  id="tooltip-artstation-footer"
+                  aria-hidden="true">
+                  Мой ArtStation
+                </span>
+              </li>
+            </ul>
+            <p class="footer__description">
+              Лучший способ связаться со мной - написать на e-mail:
+              <a
+                class="text-link"
+                href="mailto:alicefill@bk.ru"
+              >
+                alicefill@bk.ru
+              </a><br>
+              Если ваш вопрос срочный - пишите в Telegram
+              <a
+                class="text-link"
+                href="https://t.me/alice_fill"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                @alice_fill
+              </a><br>
+              <span class="copyright footer__copyright">&#169; 2017-2024 Алиса Филатова</span>
+            </p>
           </div>
-          <!-- ANIMATE SVG GIRL -->
-          <div class="girl-seat" aria-hidden="true">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              viewBox="810 -390 1920 1116"
-              enable-background="new 810 -390 1920 1116"
-              xml:space="preserve"
+          <a
+            class="logo logo_size-s footer__logo"
+            href="#header"
+            title="Вернутся наверх страницы"
+          >
+            <img
+              class="logo__img"
+              src="img/logo.svg"
+              width="240"
+              height="180"
+              alt=""
+              aria-hidden="true"
             >
-              <ellipse id="shadow_1_" fill="#425279" cx="2448.5" cy="613.9" rx="276.2" ry="27.7"></ellipse>
-              <ellipse id="shadow_2_" fill="#425279" cx="2101.5" cy="676.2" rx="135" ry="27.7"></ellipse>
-              <g id="girl">
-                <g id="content">
-                  <g id="chair_5_">
-                    <path fill="#B71D63" d="M2387.6,620.1c0,0,120.7-20.1,165.1-41.6c110.5-51.8,126.6-157.8,130.7-194.1L2387.6,620.1z"></path>
-                    <path id="highlight_1_" fill="#D14278" d="M2399.5,355c-44.2,65-82.2,57.2-166,54.4c-99.6-3.4-115.1,69-104.3,104.3c8.6,27.8,44.9,60.1,80.5,84c49.2,33.2,181,34.3,270.4,4c60.7-20.6,146-90.1,197.2-162.1c51.2-72.1,33.3-206.5-31.5-212C2478.1,213.1,2443.7,290,2399.5,355z"></path>
-                    <path id="interviewer_shadow_1_" fill="#B71D63" d="M2368.5,485.8l67.7,37.1c0,0,19.1,13.3,51.9-22c82.2-88.5,108.2-18.2,132.4-105.7c6.4-23,3.5-45,8.4-58.7c4.2-11.8,8.2-29.6,10.2-42.6c7.7-50.6-96.8-49.9-114.6-28L2368.5,485.8z"></path>
-                  </g>
-                  <g id="legs_4_">
-                    <path fill="#506085" d="M2146.1,610.3c0,0,32.9,24,44.7,20.5c28.7-77.3,63-82.1,82.6-123.7c8.8-18.6-15.9,16.3,63.3,32.2c105.7,37.3,143.4-66.9,143.4-66.9L2345.5,447c-15.3,11.8-112.1-4.6-132.4,11.9C2192.9,475.4,2146.1,610.2,2146.1,610.3z"></path>
-                    <path fill="#506085" d="M2081.4,603.1l53.3,7.1l55.9-78.5c0,0-6.3-20.7,69.3-12.3c105.7,37.3,162.9-67.3,162.9-67.3l-67.9-10.3c-15.3,11.8-173.6-10.1-196.3,12.7C2140.1,473.1,2081.5,603.1,2081.4,603.1z"></path>
-                    <path fill="#717C9A" d="M2088.6,587.7c0,0,3.8,2.3,6.4,1.7s74.7-113.8,77.1-121.3c2.3-7.5-13.3-12.2-15.7-8.9C2137.1,485.3,2088.6,587.7,2088.6,587.7z"></path>
-                    <path fill="#717C9A" d="M2137.7,623.4c0,0,26-13.8,30.2-22.1c37.5-73.9,70.4-114.7,70.6-129.3c0.2-14.9-16.8-27.4-25.4-13C2192.6,493.5,2137.7,623.4,2137.7,623.4z"></path>
-                  </g>
-                  <g id="boot_1_">
-                    <path fill="#2A4777" d="M2027.6,690.1h77.2c18-6.6,29.9-52.8,29.9-52.8l15.9-22.2v-3.6c0,0-54.9-14.3-61-15.9c-6-1.6-10.9-6.6-12.5,3.9c-0.1,0.1-0.1,0.1-0.1,0.2c6.5,1.5,19.3,9.5,30.9,9.8c-1.3,2.7-17.9,10.2-18.6,21.5c-0.8,11.3-4.3,15.8-16.5,20c-12.1,4.2-47.2,0-49.4,16.4C2022.1,680.3,2025.9,687.4,2027.6,690.1z"></path>
-                    <path fill="#2A4777" d="M2027.6,690.1c-1.8-2.6-5.6-9.7-3.9-22.7c2.2-16.5,37.2-12.2,49.4-16.4c12.2-4.2,15.8-8.7,16.5-20c0.7-11.3,21.2-13.5,22.7-22.5c-11.6-0.3-28.6-7.5-35.1-8.9c-1.9,10.6-20.2,29.7-20.2,29.7l-12.2,1.5c-9.9-0.3-21,0.9-30.5,3.9l-3.9,1.4c-15.9,6.1-25.4,31.4-13.9,49.1C2002.9,695.3,2014.1,687,2027.6,690.1z"></path>
-                  </g>
-                  <g id="boot">
-                    <path fill="#2A4777" d="M2090.1,690.1h77.2c18-6.6,29.9-52.8,29.9-52.8l15.9-22.2v-3.6c0,0-54.9-14.3-61-15.9c-6-1.6-10.9-6.6-12.5,3.9c-0.1,0.1-0.1,0.1-0.1,0.2c6.5,1.5,19.3,9.5,30.9,9.8c-1.3,2.7-17.9,10.2-18.6,21.5c-0.8,11.3-4.3,15.8-16.5,20c-12.1,4.2-47.2,0-49.4,16.4C2084.5,680.3,2088.3,687.4,2090.1,690.1z"></path>
-                    <path fill="#717C9A" d="M2090.1,690.1c-1.8-2.6-5.6-9.7-3.9-22.7c2.2-16.5,37.2-12.2,49.4-16.4c12.2-4.2,15.8-8.7,16.5-20c0.7-11.3,21.2-13.5,22.7-22.5c-11.6-0.3-28.6-7.5-35.1-8.9c-1.9,10.6-20.2,29.7-20.2,29.7l-12.2,1.5c-9.9-0.3-21,0.9-30.5,3.9l-3.9,1.4c-15.9,6.1-28.5,25.8-17,43.5C2062.2,689.7,2076.5,687,2090.1,690.1z"></path>
-                  </g>
-                  <path id="arm2" fill="#2A4777" d="M2219.4,428.5c9.8,32.1,28.6,11.7,74,12.8l79.2-11.2l5-28.3c-25.4-2.7-67.6,2.3-102.4,13.1C2229.1,402.6,2234.9,427,2219.4,428.5z"></path>
-                  <path id="hand_3_" fill="#F9CAAA" d="M2379.2,427.7c-1.2-10.9-26.8-34.9-41-33.3c-2.1,0.3-4.3,0.6-6.2,1c0.1-0.2,0.2-0.3,0.2-0.3s-0.9,0.3-2.3,0.8c-2.6,0.7-5.1,1.6-7.1,2.7c-7.3,2.9-16.9,7.6-21.1,12.7c-7,8.9-4.6,11.8-4.6,11.8s10.9-6,17.6-10.4c1.5,11.1,10.3,30.3,24.3,28.7C2353.1,439.9,2380.3,438.8,2379.2,427.7z"></path>
-                  <g id="rest">
-                    <path id="hood2" fill="#2A4777" d="M2522.1,288.4l53.5-3.1l19.1-7.4c-15.5-6-26.9-12.9-38.7-11.1c-11.8,1.8-36.5,4.2-36.5,4.2L2522.1,288.4z"></path>
-                    <path id="hood" fill="#506085" d="M2503.1,320.7l-5.9-31.5c0,0,36.8-10.6,55.5-6.5c18.7,4.2,37.9-12,45.9-1c7.9,11-0.4,73.2-8.6,82.5C2571,385.9,2503.1,320.7,2503.1,320.7z"></path>
-                    <path id="arm_5_" fill="#2A4777" d="M2492.1,277.9l-96.3,135l-23.6,1.5l-3.6-9.8c4-11.9,34.5-60.7,55.7-95.4c7.5-8.4,10.6-20.7,36.2-29.3"></path>
-                    <path id="blouse_2_" fill="#717C9A" d="M2585.7,318.6c0,0-12.2,25.8-28.4,56.8c-22.4,42.6-66,70.2-82.8,79.2l-85-4.5c0,0,0.3-23.2,4.2-34.6c2.9-8.4,10.5-13.7,10.5-13.7s-26.3-34.3,10.6-61.4c19.1-14,28-40.9,28-40.9s18.8-29.1,51-25.2c32.2,3.7,77.4,10,89.5,41.7"></path>
-                    <path id="shadow" fill="#506085" d="M2516,453.3l-102.4,6.9c0,0-29.2-0.3-38.4-4.1c-9.1-3.8,13.2-36.1,16.2-41.4c3.1-5.4,6.3-6.9,12.8-3.7c5.5,2.7-11.5-15.2,3.1-8.5c5.2,2.3-7.3-2.2-4.2-7.2c3.1-4.9,29.1,4.6,55.8,4.6c6.4,3,42-14.3,52.8-46.1c8.4-24.6,47.5-32.5,56.6-32.5c19.9-0.1-6.3,70.7,3.5,69.7L2516,453.3z"></path>
-                    <path id="zipper_4_" fill="#B71D63" d="M2418.5,391.2c-2.9-7.8-2.7-18.6,4.1-29.3c5-7.6,6.4-17.4,26.3-26.5c18.9-8.7,16.8-17.3,17-17.4l3.1,3.3c-1,0.8,6.4,10.6-17.2,18.2c-15.2,4.9-18,16.4-24.3,26.1c-5.9,9.4-7,17.2-4.5,23.9c4.3,11.6-4.8,24.3-5,24.9l-3.7-3.2C2414.4,410.9,2422.4,401.4,2418.5,391.2z"></path>
-                    <path id="arm_4_" fill="#2A4777" d="M2368.6,413.4c5.4,34,18.8,22,56.4,28l68.3,7.3c0.8,0.7,2.4,0.8,3.3-0.4c16.3,1.4,47.2-25.3,70.4-46.2c31.5-28.2,33.3-69.1,19.3-95.9c-8.2-15.5-20.8-30.1-37.7,13.7c-9.4,24.3-27.7,61.8-53.1,79.5C2461.8,396,2403.2,413.8,2368.6,413.4z"></path>
-                    <path id="collar4_2_" fill="#B71D63" d="M2534.5,310.6l-38.3-38.6c0,0-34.9-2.6-47.9,13.1c-5.2,5.4-5,14.3-5,14.3s13.6,29.5,24.2,29.2c9.6-0.1,19.4,2.4,27.1,0.9C2505,327.6,2534.5,310.6,2534.5,310.6z"></path>
-                    <path id="neck_1_" fill="#F9D9BD" d="M2482,245.8c8.3,12.7,12.6,30.6-7.3,36.3c-9.5,3-11.7,18.4-5.4,30.1c20.5,15.7,44.6,8.6,64.2,0.3c11-4.7-2.5-8.6-2.1-19.2c0,0,11.7-13.9-1.1-21.7c-13.3-13.8-34.6-57.8-34.6-57.8L2482,245.8z"></path>
-                    <path id="neck_shadow_2_" fill="#F9CAAA" d="M2500.8,199.7c0,0,20,5.3,34.1,23.5c9.4,11.7,2.8,35.6,4.9,54.6c22,8.6,2.7,9.8-19.3,17.2c-7.7,2.6-29-1.6-38.1-15.9c5.1-16.9,1.9-25.6-10.8-33.5L2500.8,199.7z"></path>
-                    <path id="collar3_1_" fill="#506085" d="M2467.4,274.8c-22.3,7.7-24.5,19.2-18.9,26.7c5.9,10.6,14.9,24.6,14.9,24.6s-16.1-5.6-29-15.2c-5.2-4.3-2.5-18.1,1.9-22.5C2449.9,276,2466.1,274.4,2467.4,274.8z"></path>
-                    <path id="collar2_2_" fill="#D3447A" d="M2525.2,291.1c-10.7,5.4-52.4,30.8-60.8,38.1c29,9.5,106.3-38,117-52c9.9-12.8-1.9-11.4-12.3-6.3C2560.7,275.5,2546.8,280.4,2525.2,291.1z"></path>
-                    <path id="collar1_2_" fill="#506085" d="M2488.9,329.6c2.7-1.3,13.6-10.7,18.7-15.2c5.9-4.7,25.7-16.3,37.5-29.2c13.5-14.8,28.4-18.1,35.8-22c8.3-4.4,24.3,12,19.7,24.1C2581.4,273.6,2524,336.2,2488.9,329.6z"></path>
-                  </g>
-                  <g id="computer_3_">
-                    <g>
-                      <path id="XMLID_2_" fill="#E6E6E6" d="M2189.2,445.3l212.9,0.8c2.3,0,4.2-1.5,4.4-3.4l0.2-2.2c0.2-2.1-1.7-3.9-4.2-4.1c-0.1,0-0.2,0-0.3,0l-75.1-1.1c-2.1,0-3.9-1.3-4.4-3l-40.5-146.5c-0.5-1.6-2.1-2.8-4.1-3l-5.2-0.4c-0.8,0-1.5,0.1-2.2,0.3l-128,49.3c-2.1,0.8-3,2.8-2.3,4.6l44.5,106.2C2185.6,444.3,2187.3,445.3,2189.2,445.3z"></path>
-                    </g>
-                    <g>
-                      <defs>
-                        <path id="SVGID_1_" d="M2189.2,445.3l212.9,0.8c2.3,0,4.2-1.5,4.4-3.4l0.2-2.2c0.2-2.1-1.7-3.9-4.2-4.1c-0.1,0-0.2,0-0.3,0l-75.1-1.1c-2.1,0-3.9-1.3-4.4-3l-40.5-146.5c-0.5-1.6-2.1-2.8-4.1-3l-5.2-0.4c-0.8,0-1.5,0.1-2.2,0.3l-128,49.3c-2.1,0.8-3,2.8-2.3,4.6l44.5,106.2C2185.6,444.3,2187.3,445.3,2189.2,445.3z"></path>
-                      </defs>
-                      <clipPath id="SVGID_2_">
-                        <use xlink:href="#SVGID_1_" overflow="visible"></use>
-                      </clipPath>
-                      <g clip-path="url(#SVGID_2_)">
-                      <path fill="#CCCCCC" d="M2271.3,282.5c2.5-0.8,4.7,5.2,5.2,7.5l42.5,151.5c0,0,0.4,4.2,18.2,4.3s102.4,14.6,102.4,14.6l-44.3-199.8L2271.3,282.5z"></path>
-                    </g>
-                  </g>
-                  <g>
-                    <defs>
-                      <path id="SVGID_3_" d="M2210.3,453.6l202.6-65.4c2.2-0.7,3.5-2.7,3.1-4.6l-0.5-2.2c-0.5-2.1-2.8-3.2-5.3-2.6c-0.1,0-0.2,0.1-0.3,0.1l-71.7,22.3c-2,0.7-4.1,0-5.1-1.5l-84-126.7c-1-1.4-2.9-2-4.8-1.6l-5.1,1.2c-0.8,0.2-1.4,0.6-2,1l-106.4,86.6c-1.7,1.4-2,3.6-0.8,5.1l75.3,87.1C2206.5,453.8,2208.5,454.2,2210.3,453.6z"></path>
-                    </defs>
-                    <clipPath id="SVGID_4_">
-                      <use xlink:href="#SVGID_3_"  overflow="visible"></use>
-                    </clipPath>
-                    <ellipse transform="matrix(-0.3106 -0.9505 0.9505 -0.3106 2553.0134 2617.9551)" clip-path="url(#SVGID_4_)" fill="#CCCCCC" cx="2225.9" cy="383.2" rx="11.8" ry="9.8"></ellipse>
-                </g>
-              </g>
-              <g id="head_1_">
-                <g id="head">
-                  <path id="hair_back_3_" fill="#2A4777" d="M2538.3,236.6c0,0-88.1-0.5-114.9,31.1c-0.9-3.6,3.6-16.2,2.6-22.2c-7-39.7-20-116.4,8.6-135.1c39.5-26,97-0.3,97-0.3L2538.3,236.6z"></path>
-                  <path id="head_6_" fill="#F9DFCA" d="M2430.3,177.2c4.1,15.5,0.6,28.1,3.3,37.9c7,28.3,39,45.6,46,46.9c20.2-2.2,49.4-15.5,54.2-23c12-12.9,39-67.5,35.6-89.3c-13.2-47.8-28.6-64.4-79.7-57.8C2477.8,93.5,2420,138.5,2430.3,177.2z"></path>
-                  <path fill="#F9CAAA" d="M2515.9,259.2c33.6-25.6,1.2-109.9-23.2-136.6c-14.7-0.1-27.6,13.9-45.1,31.3c-16.9,16.9-15.5,27.1-15.6,49c-11.5-29.7,2.7-92.5,35.4-109.4c80.7-28.3,88.1,5.9,102.2,55.2C2581.9,191.7,2547.6,226.5,2515.9,259.2z"></path>
-                  <path id="eyebrow2_3_" fill="#6E6981" d="M2485.1,171.5c2.8-0.4,5.9-1.8,7.8-2.4c1.9-0.5,5-1.8,6.8-1.6c2.8-0.4,12.8,1.3,14.6,1.7l0.2-0.9c-0.7-1.1-11.2-4.7-14.9-4.5c-2.8,0.4-5.7,0.9-8.7,2.2c-3,1.2-5.1,2.8-6.5,5.3L2485.1,171.5z"></path>
-                  <path id="eyebrow1_3_" fill="#6E6981" d="M2457.8,170.2c-1.2-1.6-3-2.5-4.1-3.1c-1.8-1-3.8-1.3-8.4-0.7c-0.9,0.1-6.1,1.8-7.1,1.8l0.1,0.9c1.7-0.2,10.2-1.7,17,1.8C2455.9,170.9,2457.9,170.3,2457.8,170.2z"></path>
-                  <path id="girl_mouth" fill="#596A8E" d="M2480.8,234.5c2.2-0.2,6.1-1.6,9.8-5.5c-0.8,3.8-1.5,7-8.9,8.2c-6.6,0.6-9.1-4.9-9.1-4.9C2474.5,233.6,2477.3,234.4,2480.8,234.5z"></path>
-                  <g id="girl-eyes">
-                    <path id="eye1_3_" fill="#596A8E" d="M2502.3,182.9c3.7-0.2,7,3,7.5,7.3c0.5,4.3-2.1,7.9-5.8,8.1c-3.7,0.2-7-3-7.5-7.3C2496,186.7,2498.6,183.1,2502.3,182.9z"></path>
-                    <polygon fill="#596A8E" points="2507.7,187.1 2510.6,183.1 2503,182.8"></polygon>
-                    <path id="eye1_2_" fill="#596A8E" d="M2448.4,183.2c3.7-0.2,6.9,3.1,7.3,7.4c0.4,4.3-2.3,7.9-6,8c-3.7,0.2-6.9-3.1-7.3-7.4C2442.1,187,2444.7,183.4,2448.4,183.2z"></path>
-                    <polygon fill="#596A8E" points="2444.3,187.8 2440.7,184.2 2448.1,183.2"></polygon>
-                  </g>
-                </g>
-                <g id="hair">
-                  <path fill="#506085" d="M2496.2,59.7c-9.1-1-14.6,4.4-18.4,11.7c-21.1,2.4-56.9,21.1-67.3,65.8c-5.6,25.1-2.6,49.8,2.2,70.4c-3.6,22.5-7.9,47-9.7,50.9c0,0,7.9-12.8,14.9-31.3c0.3,0.9,0.6,1.9,0.8,2.8c-1.3,18.4-2.7,35.2-4,38.4c0,0,4.4-8.9,8.8-22.4c1.3,6.7,0,21.8,0,21.8s7.2-22.3,8.1-58.8c0.5-4.8,0.8-9.7,0.7-14.6c-0.1-9.3-0.7-15-1.7-18.4c-1.6-22.3,15.6-48.7,37.5-61.2c-3.5-0.2-6.7,0.1-9.4,0.7c-23.8,5.2-33.7,35.4-35,39.8c12.5,0.7,25,0.1,37.2,0.3c3.5,0.1,7.3,0.7,10.7,0.7c29.2,0.1,71.8,5.3,53.6-8.8c-7.8-6.1-33.6-31.4-33.6-31.4l0,0c0,0,19.3,17.2,35.3,52.9c7.1,17.4,13.4,43.3,1.9,107.1c14-29,14.6-33.9,18.4-40.2c-7.7,27.5-6.4,38.8-6.4,38.8s4.7-5.6,27.8-26.4c4.7-7.2,6.9-53.7,6.9-53.7s1.6,18.3-0.4,37.4c-0.9,4.5-0.1,11-1,13.7c10.1-9.9,24.9-23.5,24.9-31.7C2600.3,184.8,2583.4,53.6,2496.2,59.7z"></path>
-                  <path fill="#506085" d="M2568.6,248c-7.9,7.1,0.6-0.1-3.5,3.9c3.8-18.2,8.5-22.1,9.6-76.9c1-48.5-27.3-84.8-42.7-94.1c-9.5-5.7-31.9-18-50.7-13.7c2.5-8.5,12.5-7.9,14.8-7.7c87.2-6.1,104.1,125.1,102.9,154.2c0,8.2-5,24.4-15.2,34.3c0.9-2.7-9.6-11.7-8.7-16.2c2-19.1,0.4-37.4,0.4-37.4S2573.2,240.9,2568.6,248z"></path>
-                  <path fill="#2A4777" d="M2563.9,250.7c-7.9,7.1,0.6-0.1-3.5,3.9c3.8-18.2,8.5-22.1,9.6-76.9c1-48.5-27.3-84.8-42.7-94.1c-12.7-7.7-42.3-34.8-55.5,6.9c0,0-0.8-16.3,1.2-16.6c3.8-7.2,10.3-10.3,19.8-11.8c96.2,1.5,99.4,126.5,98.2,155.6c-0.1,8.2-1.7,22.9-11.9,32.8c0.9-2.7-9.6-11.7-8.7-16.2c2-19.1,0.4-37.4,0.4-37.4S2568.4,243.5,2563.9,250.7z"></path>
-                  <path fill="#506085" d="M2576.6,185.1c0,0-3.7-15.5-7.5-34.7c-3.7-19.2-1.5,29.3-1.5,29.3c3.3,10.2,5.5,34.2,4.2,52.2c-1.3,18-2.5,27.5-2.5,27.5s9.9-18.3,8.6-31.6C2576.8,214.4,2576.6,185.1,2576.6,185.1z"></path>
-                  <path fill="#506085" d="M2569.2,126.1c-4.2-10.6-14.4-26.7-29.1-35.6c0,0,3.7,7.1,13.6,18.3c9.9,11.2,24.6,49.5,24.6,49.5S2573.3,136.7,2569.2,126.1z"></path>
-                  <path fill="#717C9A" d="M2472.3,75.1l2.2-3.5c-62.5,14.4-67.4,72.7-67.5,96.2l-0.1,2.2c0,0-0.7,21.1,2.5,28c1.2-6.9,1.6-15.7,1.9-24.3l1-2.6l1.7-4.7c-1.3,10.1-0.8,22.4,0.9,28.6c-0.6,10-1.5,19.3-2.7,24c-3.1,11.8-8.5,37.4-8.5,37.4s11-23.2,16.7-62.8c0.2,0.6,0.4,1.2,0.6,1.7c0.6,10.8,0.9,21,0.2,26.1c-1.7,12.2-4.1,38.1-4.1,38.1s12.9-37.9,8.7-97.2c0-0.2,0-0.3,0-0.5c0.2-1.7,0.4-3.3,0.7-4.7c0.2,0,0.5,0.1,0.7,0.2l0,0c0,0,0,0,0.1,0c0.4-8.6,30.6-48.9,30.6-48.9s-8.6,2.6-15.2,8.2c6.8-10.9,12.6-19.6,12.6-19.6s-7.9,9.2-15.8,18.8c3.3-11.1,12.5-21.1,12.5-21.1s-14.6,13-18.3,22.4c0.1-3.1,0.6-5.8,1.2-7.7l0.6-1.6c0.4-1,0.7-1.6,0.7-1.6s0,0.1-0.1,0.2l0,0c0,0.1-0.1,0.1-0.1,0.2l0,0c-0.3,0.5-0.9,1.3-1.7,2.4c-2.2,2.2-5.2,5.6-7.5,9.7c-0.7,1-1.4,2-2,3c0.7-6.4,4.9-15.2,4.9-15.2s-0.6,0.8-1.5,2.2c-0.2,0.4-0.5,0.7-0.8,1.2c-0.1,0.2-0.3,0.4-0.4,0.7C2434.8,90.9,2472.3,75.1,2472.3,75.1z"></path>
-                  <polygon fill="#717C9A" points="2469.6,108.1 2465.7,162.8 2473.4,123.8 2477.1,158.1 2481.8,120.4 2489.9,155.8 2493.1,137.1 2505,118.4 2503.3,137.8"></polygon>
-                  <polygon fill="#506085" points="2432.3,144.1 2428.4,162.1 2436.1,149.3 2439.8,160.6 2444.5,148.2 2452.6,159.8 2455.8,153.7 2467.7,147.5 2466,153.9 			"></polygon>
-                  <polygon fill="#717C9A" points="2469.7,108.1 2475.6,162.8 2464.1,123.8 2458.6,158.1 2451.6,120.4 2439.5,155.8 2434.7,137.1 2416.9,118.4 2419.5,137.8"></polygon>
-                </g>
-              </g>
-              <g id="chair2">
-                <path fill="#D14278" d="M2546.5,528.3l-138,50.2c0,0-155.1,1.3-156.3-39.2c38.3-55.5,78.1-13.2,140.3-79.1c65.1-69,208.2-24.4,235.5-123.6C2714.4,334.7,2546.5,528.4,2546.5,528.3z"></path>
-                <path fill="#FC568D" d="M2571.1,410.4c-16.1,1.1-108.8,17.8-122.6,24.8s-36.9,19.3-13.4,21.1c23.5,1.7,58.4-3.5,98.5-16.1c40.1-12.6,90.3-29.1,70.1-30.3C2588.4,409,2587.1,409.3,2571.1,410.4z"></path>
-              </g>
-            </g>
-          </g>
-        </svg>
+          </a>
+        </div>
       </div>
-    </section>
-  </main>
-  <!-- FOOTER -->
-  <footer class="footer" id="contacts">
-    <ul class="contacts footer__contacts">
-      <li class="contacts__title">Контакты:</li>
-      <li class="contacts__link">
-        <a
-          class="contacts__link contacts__link_mail"
-          href="mailto:alicefill@bk.ru"
-          title="alicefill@bk.ru"
-        >
-          Электронная почта
-        </a>
-      </li>
-      <li class="contacts__link">
-        <a
-          class="contacts__link contacts__link_vk"
-          href="https://vk.com/alisafill"
-          target="_blank"
-          rel="noopener noreferrer"
-          title="vk.com"
-        >
-          ВКонтакте
-        </a>
-      </li>
-      <li class="contacts__link">
-        <a
-          class="contacts__link contacts__link_github"
-          href="https://github.com/Alisa-Filatova"
-          target="_blank"
-          rel="noopener noreferrer"
-          title="github.com"
-        >
-          Гитхаб
-        </a>
-      </li>
-      <li class="contacts__link">
-        <a
-          class="contacts__link contacts__link_deviant"
-          href="http://marrylie.deviantart.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          title="deviantart.com"
-        >
-          Deviant Art
-        </a>
-      </li>
-      <li class="contacts__link">
-        <a
-          class="contacts__link contacts__link_linkedin"
-          href="https://www.linkedin.com/in/alisa-filatova-64209a139/"
-          target="_blank"
-          rel="noopener noreferrer"
-          title="linkedin.com"
-        >
-          Linked In
-        </a>
-      </li>
-    </ul>
-    <div class="footer__wrapper">
-      <div class="mailbox"></div>
-      <p class="contacts__description">
-        Лучший способ связаться со мной - написать на e-mail:
-        <a
-          class="base-link"
-          href="mailto:alicefill@bk.ru"
-        >
-          alicefill@bk.ru
-        </a><br>
-        Так же вы можете написать мне сообщение в Telegram:
-        <a
-          class="base-link"
-          href="https://t.me/alice_fill"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          @alice_fill
-        </a><br>
-        
-        <span
-          class="footer__copyright"
-          aria-label="Копирайт"
-        >
-          &#169; 2017-2024 Алиса Филатова
-        </span>
-      </p>
-      <a
-        class="logo"
-        href="ru.html"
-        aria-label="Вернуться вверх страницы"
-        title="Вернуться вверх страницы"
-      >
-        <img
-          class="logo footer__logo"
-          src="img/logo.svg"
-          width="240"
-          height="168"
-          alt="Alice Design логотип"
-          aria-hidden="true"
-        >
-      </a>
-    </div>
-  </footer>
-
-  <script src="dist/js/index.js?3" async defer></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js" async defer></script>
-</body>
+    </footer>
+    <script src="dist/js/index.js?1" async defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js" async defer></script>
+  </body>
 </html>

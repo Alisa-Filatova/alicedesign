@@ -1,4 +1,4 @@
-import '../css/preload.css';
+import '../css/normalize.css';
 import '../less/portfolio.less';
 import './preload';
 import './vendors/modernizr.custom';

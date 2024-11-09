@@ -50,7 +50,7 @@ module.exports = {
     },
 
     plugins: [
-        new ExtractTextPlugin('css/[name].css'),
+        new ExtractTextPlugin('css/[name].css')
     ],
 
     devServer: {

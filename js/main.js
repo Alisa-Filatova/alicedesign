@@ -3,7 +3,7 @@ import $ from 'jquery';
 function scrollToAnchor(event) {
     event.preventDefault();
 
-    let scrollTop = 0;
+    var scrollTop = 0;
     const documentHeight = $(document).height();
     const windowHeight = $(window).height();
 
