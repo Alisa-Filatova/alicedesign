@@ -89,7 +89,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Перейти на сайт',
-                        url: 'http://lenortat.alicedesign.ru/',
+                        url: 'http://lenortat.alisafilatova.ru/',
                         new_window: true
                     },
                     {
@@ -131,7 +131,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Перейти на сайт',
-                        url: 'http://nataliaphoto.alicedesign.ru',
+                        url: 'http://nataliaphoto.alisafilatova.ru',
                         new_window: true
                     },
                     {
@@ -144,7 +144,7 @@ $(function() {
             },
 
             {
-                title: 'alicedesign.ru',
+                title: 'Мой личный сайт портфолио',
                 description: [
                     'Мой личный сайт портфолио. Проект я решила делать со своими векторными иллюстрациями и CSS анимацией.',
                     'Так я смогла максимально отразить себя. Дизайн делала полностью сама, дав себе волю и стараясь не думать',
@@ -174,12 +174,12 @@ $(function() {
                 button_list: [
                     {
                         title: 'Перейти на сайт',
-                        url: 'http://alicedesign.ru/',
+                        url: 'http://alisafilatova.ru/',
                         new_window: true
                     },
                     {
                         title: 'Исходный код',
-                        url: 'https://github.com/Alisa-Filatova/Natalia-photography',
+                        url: 'https://github.com/Alisa-Filatova/alicedesign',
                         new_window: true
                     }
                 ],
