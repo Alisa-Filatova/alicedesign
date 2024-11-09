@@ -84,7 +84,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Visit Website',
-                        url: 'http://lenortat.alicedesign.ru/',
+                        url: 'http://lenortat.alisafilatova.ru/',
                         new_window: true
                     },
                     {
@@ -125,7 +125,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Visit Website',
-                        url: 'http://nataliaphoto.alicedesign.ru',
+                        url: 'http://nataliaphoto.alisafilatova.ru',
                         new_window: true
                     },
                     {
@@ -138,7 +138,7 @@ $(function() {
             },
 
             {
-                title: 'alicedesign.ru',
+                title: 'Мой личный сайт портфолио',
                 description: [
                     'My personal portfolio website. The project I decided to do with his own illustrations, css animation',
                     'as much as possible to show off your style.<br>' ,
@@ -164,7 +164,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Visit Website',
-                        url: 'http://alicedesign.ru/',
+                        url: 'http://alisafilatova.ru/',
                         new_window: true
                     },
                     {

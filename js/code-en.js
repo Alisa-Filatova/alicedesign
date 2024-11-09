@@ -122,7 +122,7 @@ $(function() {
 					},
 					{
 						title: 'Making of Ezy.com',
-						url: 'https://ezy.com/',
+						url: 'http://ezydesign.alisafilatova.ru/',
 						new_window: true
 					}
 				],
@@ -157,7 +157,7 @@ $(function() {
 				button_list: [
 					{
 						title: 'Visit website',
-						url: 'http://ezy-town.alicedesign.ru/',
+						url: 'http://ezy-town.alisafilatova.ru/',
 						new_window: true
 					},
 				],
@@ -193,7 +193,7 @@ $(function() {
 			button_list: [
 				{
 					title: 'Visit website',
-					url: 'http://vgo.alicedesign.ru/',
+					url: 'http://vgo.alisafilatova.ru/',
 					new_window: true
 				}
 			],
@@ -239,7 +239,7 @@ $(function() {
 		title: 'Making of Ezy.com',
 		logo: 'img/code-gallery/logo/ezy-logo.svg',
 		description: [
-			'Landing page about creation of <b>EZY.com<b/> project (2019). ' +
+			'Landing page about creation of <b>EZY.com</b> project (2019). ' +
 			'Opening cases app for Counter-Strike: Global Offensive. ' +
 			'My job included frontend development (junior).</br></br>' +
 			'<b>In project I used</b>: HTML5/CSS3, base layout by HTML5UP template.</br>',
@@ -269,7 +269,7 @@ $(function() {
 		button_list: [
 			{
 				title: 'Visit website',
-				url: 'http://ezydesign.alicedesign.ru/',
+				url: 'http://ezydesign.alisafilatova.ru/',
 				new_window: true
 			}
 		],
@@ -302,12 +302,12 @@ $(function() {
 		button_list: [
 			{
 				title: 'Visit Website',
-				url: 'http://alicedesign.ru/',
+				url: 'http://alisafilatova.ru/',
 				new_window: true
 			},
 			{
 				title: 'Source Code',
-				url: 'https://github.com/Alisa-Filatova/Natalia-photography',
+				url: 'https://github.com/Alisa-Filatova/alicedesign',
 				new_window: true
 			}
 		],
@@ -383,7 +383,7 @@ $(function() {
 			button_list: [
 				{
 					title: 'Visit website',
-					url: 'http://nataliaphoto.alicedesign.ru',
+					url: 'http://nataliaphoto.alisafilatova.ru',
 					new_window: true
 				},
 				{
@@ -427,7 +427,7 @@ $(function() {
 			button_list: [
 				{
 						title: 'Visit Website',
-						url: 'http://lenortat.alicedesign.ru/',
+						url: 'http://lenortat.alisafilatova.ru/',
 						new_window: true
 				},
 			],
@@ -463,7 +463,7 @@ $(function() {
 			button_list: [
 				{
 					title: 'Visit Website',
-					url: 'http://code-and-magic.alicedesign.ru',
+					url: 'http://code-and-magic.alisafilatova.ru',
 					new_window: true
 				},
 				{
@@ -503,7 +503,7 @@ $(function() {
 			button_list: [
 				{
 					title: 'Visit Website',
-					url: 'http://six-cities.alicedesign.ru',
+					url: 'http://six-cities.alisafilatova.ru',
 					new_window: true
 				},
 				{
@@ -575,7 +575,7 @@ $(function() {
 			button_list: [
 				{
 						title: 'Visit Website',
-						url: 'http://moowle.alicedesign.ru',
+						url: 'http://moowle.alisafilatova.ru',
 						new_window: true
 				},
 				{
@@ -643,7 +643,7 @@ $(function() {
 			button_list: [
 				{
 					title: 'Visit Website',
-					url: 'http://lookbook.alicedesign.ru',
+					url: 'http://lookbook.alisafilatova.ru',
 					new_window: true
 				},
 			],
@@ -680,7 +680,7 @@ $(function() {
 			button_list: [
 				{
 					title: 'Visit Website',
-					url: 'http://pink.alicedesign.ru',
+					url: 'http://pink.alisafilatova.ru',
 					new_window: true
 				},
 			],
@@ -714,7 +714,7 @@ $(function() {
 			button_list: [
 				{
 					title: 'Visit Website',
-					url: 'http://sedona.alicedesign.ru',
+					url: 'http://sedona.alisafilatova.ru',
 					new_window: true
 				},
 			],
@@ -741,7 +741,7 @@ $(function() {
 			button_list: [
 				{
 					title: 'Visit Website',
-					url: 'http://nerds.alicedesign.ru',
+					url: 'http://nerds.alisafilatova.ru',
 					new_window: true
 				},
 			],
@@ -772,7 +772,7 @@ $(function() {
 			button_list: [
 				{
 					title: 'Visit Website',
-					url: 'http://technomart.alicedesign.ru',
+					url: 'http://technomart.alisafilatova.ru',
 					new_window: true
 				},
 			],
@@ -803,7 +803,7 @@ $(function() {
 			button_list: [
 				{
 					title: 'Visit Website',
-					url: 'http://barbershop.alicedesign.ru',
+					url: 'http://barbershop.alisafilatova.ru',
 					new_window: true
 				},
 			],
