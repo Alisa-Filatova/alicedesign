@@ -232,9 +232,6 @@ $.fn.elastic_grid = function(config){
         return false;
     }
 
-    // //initial filter nav
-    // container.html('<div class="wagwep-container"><nav id="porfolio-nav" class="clearfix"><ul id="portfolio-filter" class="nav nav-tabs clearfix"></ul></nav></div>');
-
     //initial items
     var gridContent = "";
     var ulObject = $('<ul id="gallery__grid" class="gallery__grid"></ul>');

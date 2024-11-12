@@ -8,6 +8,7 @@ $(function() {
         hoverDelay: 0,
         hoverInverse: false,
         items: [
+           
 					  {
                 title: 'ezy.com',
                 description: [
@@ -20,40 +21,40 @@ $(function() {
                   'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge.'
                 ].join(' '),
                 thumbnail: [
-                    'img/code-gallery/small/ezy.jpg',
-                    'img/code-gallery/small/home.jpg',
-                    'img/code-gallery/small/upgrade-min.jpg',
-                    'img/code-gallery/small/spiner.jpg',
-                    'img/code-gallery/small/spiner2.jpg',
-                    'img/code-gallery/small/ui.jpg',
-                    'img/code-gallery/small/ui2.jpg',
-                    'img/code-gallery/small/cases.jpg',
-                    'img/code-gallery/small/upgrade2-min.jpg',
-                    'img/code-gallery/small/upgrade-min.jpg',
-                    'img/code-gallery/small/giveaway.jpg',
-                    'img/code-gallery/small/profile.jpg',
-                    'img/code-gallery/small/daily-bonus.jpg',
-                    'img/code-gallery/small/deposit.jpg',
-                    'img/code-gallery/small/why-we.jpg',
-                    'img/code-gallery/small/interface.jpg'
+                    'img/gallery/small/ezy.jpg',
+                    'img/gallery/small/home.jpg',
+                    'img/gallery/small/upgrade-min.jpg',
+                    'img/gallery/small/spiner.jpg',
+                    'img/gallery/small/spiner2.jpg',
+                    'img/gallery/small/ui.jpg',
+                    'img/gallery/small/ui2.jpg',
+                    'img/gallery/small/cases.jpg',
+                    'img/gallery/small/upgrade2-min.jpg',
+                    'img/gallery/small/upgrade-min.jpg',
+                    'img/gallery/small/giveaway.jpg',
+                    'img/gallery/small/profile.jpg',
+                    'img/gallery/small/daily-bonus.jpg',
+                    'img/gallery/small/deposit.jpg',
+                    'img/gallery/small/why-we.jpg',
+                    'img/gallery/small/interface.jpg'
                 ],
                 large: [
-                    'img/code-gallery/large/ezy.jpg',
-                    'img/code-gallery/large/home.jpg',
-                    'img/code-gallery/large/upgrade-gif.gif',
-                    'img/code-gallery/large/spiner.jpg',
-                    'img/code-gallery/large/spiner2.jpg',
-                    'img/code-gallery/large/ui.jpg',
-                    'img/code-gallery/large/ui2.jpg',
-                    'img/code-gallery/large/cases.gif',
-                    'img/code-gallery/large/upgrade2-min.jpg',
-                    'img/code-gallery/large/upgrade-min.jpg',
-                    'img/code-gallery/large/giveaway.jpg',
-                    'img/code-gallery/large/profile.jpg',
-                    'img/code-gallery/large/daily-bonus.jpg',
-                    'img/code-gallery/large/deposit.jpg',
-                    'img/code-gallery/large/why-we.jpg',
-                    'img/code-gallery/large/interface.jpg'
+                    'img/gallery/large/ezy.jpg',
+                    'img/gallery/large/home.jpg',
+                    'img/gallery/large/upgrade-gif.gif',
+                    'img/gallery/large/spiner.jpg',
+                    'img/gallery/large/spiner2.jpg',
+                    'img/gallery/large/ui.jpg',
+                    'img/gallery/large/ui2.jpg',
+                    'img/gallery/large/cases.gif',
+                    'img/gallery/large/upgrade2-min.jpg',
+                    'img/gallery/large/upgrade-min.jpg',
+                    'img/gallery/large/giveaway.jpg',
+                    'img/gallery/large/profile.jpg',
+                    'img/gallery/large/daily-bonus.jpg',
+                    'img/gallery/large/deposit.jpg',
+                    'img/gallery/large/why-we.jpg',
+                    'img/gallery/large/interface.jpg'
                 ],
                 img_title: ['ezy.com', 'upgrade'],
                 button_list: [
@@ -76,16 +77,16 @@ $(function() {
                     'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge.'
                 ].join(' '),
                 thumbnail: [
-                    'img/code-gallery/small/ezy-town.jpg',
-                    'img/code-gallery/small/town1-1.jpg',
-                    'img/code-gallery/small/town1-2.jpg',
-                    'img/code-gallery/small/town2.jpg'
+                    'img/gallery/small/ezy-town.jpg',
+                    'img/gallery/small/town1-1.jpg',
+                    'img/gallery/small/town1-2.jpg',
+                    'img/gallery/small/town2.jpg'
                 ],
                 large: [
-                    'img/code-gallery/large/ezy-town.jpg',
-                    'img/code-gallery/large/town1-1.jpg',
-                    'img/code-gallery/large/town1-2.jpg',
-                    'img/code-gallery/large/town2.jpg'
+                    'img/gallery/large/ezy-town.jpg',
+                    'img/gallery/large/town1-1.jpg',
+                    'img/gallery/large/town1-2.jpg',
+                    'img/gallery/large/town2.jpg'
                 ],
                 img_title: ['town.ezy.com'],
                 button_list: [
@@ -108,20 +109,20 @@ $(function() {
                     'Оригинальный лендинг размещен внутри сайта ezy.com с использованием React.js и TypeScript, по ссылке не доступен.'
                 ].join(' '),
                 thumbnail: [
-                  'img/code-gallery/small/vgo.jpg',
-                  'img/code-gallery/small/vgo-csgo-1.jpg',
-                  'img/code-gallery/small/vgo-csgo-2.jpg',
-                  'img/code-gallery/small/vgo-csgo-mobile2.jpg',
-                  'img/code-gallery/small/vgo-csgo-mobile3.jpg',
-                  'img/code-gallery/small/vgo-csgo2.jpg'
+                  'img/gallery/small/vgo.jpg',
+                  'img/gallery/small/vgo-csgo-1.jpg',
+                  'img/gallery/small/vgo-csgo-2.jpg',
+                  'img/gallery/small/vgo-csgo-mobile2.jpg',
+                  'img/gallery/small/vgo-csgo-mobile3.jpg',
+                  'img/gallery/small/vgo-csgo2.jpg'
                 ],
                 large: [
-                  'img/code-gallery/large/vgo.jpg',
-                  'img/code-gallery/large/vgo-csgo-1.jpg',
-                  'img/code-gallery/large/vgo-csgo-2.jpg',
-                  'img/code-gallery/large/vgo-csgo-mobile2.jpg',
-                  'img/code-gallery/large/vgo-csgo-mobile3.jpg',
-                  'img/code-gallery/large/vgo-csgo2.jpg'
+                  'img/gallery/large/vgo.jpg',
+                  'img/gallery/large/vgo-csgo-1.jpg',
+                  'img/gallery/large/vgo-csgo-2.jpg',
+                  'img/gallery/large/vgo-csgo-mobile2.jpg',
+                  'img/gallery/large/vgo-csgo-mobile3.jpg',
+                  'img/gallery/large/vgo-csgo2.jpg'
                 ],
                 img_title: ['vgo.ezy.com'],
                 button_list: [
@@ -144,16 +145,16 @@ $(function() {
                     '<b>В данный момент сайт доступен только через иностранный VPN</b>.'
                 ].join(' '),
                 thumbnail: [
-                    'img/code-gallery/small/leon.jpg',
-                    'img/code-gallery/small/LeonGG.jpg',
-                    'img/code-gallery/small/LeonGG3.jpg',
-                    'img/code-gallery/small/LeonGG2.jpg'
+                    'img/gallery/small/leon.jpg',
+                    'img/gallery/small/LeonGG.jpg',
+                    'img/gallery/small/LeonGG3.jpg',
+                    'img/gallery/small/LeonGG2.jpg'
                 ],
                 large: [
-                    'img/code-gallery/large/leon.jpg',
-                    'img/code-gallery/large/LeonGG.jpg',
-                    'img/code-gallery/large/LeonGG3.jpg',
-                    'img/code-gallery/large/LeonGG2.jpg',
+                    'img/gallery/large/leon.jpg',
+                    'img/gallery/large/LeonGG.jpg',
+                    'img/gallery/large/LeonGG3.jpg',
+                    'img/gallery/large/LeonGG2.jpg',
                 ],
                 img_title: ['leondrop.net'],
                 button_list: [],
@@ -171,20 +172,20 @@ $(function() {
                     'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, IE-11, Edge.'
                 ].join(' '),
                 thumbnail: [
-                    'img/code-gallery/small/goroshko-dance.jpg',
-                    'img/code-gallery/small/goroshko-1.jpg',
-                    'img/code-gallery/small/goroshko-2.jpg',
-                    'img/code-gallery/small/goroshko-3.jpg',
-                    'img/code-gallery/small/goroshko-4.jpg',
-                    'img/code-gallery/small/goroshko-5.jpg'
+                    'img/gallery/small/goroshko-dance.jpg',
+                    'img/gallery/small/goroshko-1.jpg',
+                    'img/gallery/small/goroshko-2.jpg',
+                    'img/gallery/small/goroshko-3.jpg',
+                    'img/gallery/small/goroshko-4.jpg',
+                    'img/gallery/small/goroshko-5.jpg'
                 ],
                 large: [
-                    'img/code-gallery/large/goroshko-dance.jpg',
-                    'img/code-gallery/large/goroshko-1.jpg',
-                    'img/code-gallery/large/goroshko-2.jpg',
-                    'img/code-gallery/large/goroshko-3.jpg',
-                    'img/code-gallery/large/goroshko-4.jpg',
-                    'img/code-gallery/large/goroshko-5.jpg'
+                    'img/gallery/large/goroshko-dance.jpg',
+                    'img/gallery/large/goroshko-1.jpg',
+                    'img/gallery/large/goroshko-2.jpg',
+                    'img/gallery/large/goroshko-3.jpg',
+                    'img/gallery/large/goroshko-4.jpg',
+                    'img/gallery/large/goroshko-5.jpg'
                 ],
                 img_title: ['goroshkodance'],
                 button_list: [
@@ -215,18 +216,18 @@ $(function() {
                     'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge.'
                 ].join(' '),
                 thumbnail: [
-                    'img/code-gallery/small/natalia-photo.jpg',
-                    'img/code-gallery/small/nata-1.jpg',
-                    'img/code-gallery/small/nata-2.jpg',
-                    'img/code-gallery/small/nata-3.jpg',
-                    'img/code-gallery/small/nata-4.jpg',
+                    'img/gallery/small/natalia-photo.jpg',
+                    'img/gallery/small/nata-1.jpg',
+                    'img/gallery/small/nata-2.jpg',
+                    'img/gallery/small/nata-3.jpg',
+                    'img/gallery/small/nata-4.jpg',
                 ],
                 large: [
-                    'img/code-gallery/large/natalia-photo.jpg',
-                    'img/code-gallery/large/nata-1.jpg',
-                    'img/code-gallery/large/nata-2.jpg',
-                    'img/code-gallery/large/nata-3.jpg',
-                    'img/code-gallery/large/nata-4.jpg',
+                    'img/gallery/large/natalia-photo.jpg',
+                    'img/gallery/large/nata-1.jpg',
+                    'img/gallery/large/nata-2.jpg',
+                    'img/gallery/large/nata-3.jpg',
+                    'img/gallery/large/nata-4.jpg',
                 ],
                 img_title: ['image'],
                 button_list: [
@@ -256,19 +257,19 @@ $(function() {
                     'Кроссбраузерность: последние Chrome, Opera, Firefox, Safari, Edge.'
                 ].join(' '),
                 thumbnail: [
-                    'img/code-gallery/small/alicedesign.jpg',
-                    'img/code-gallery/small/alice-1.jpg',
-                    'img/code-gallery/small/alice-2.jpg',
-                    'img/code-gallery/small/alice-3.jpg',
-                    'img/code-gallery/small/alice-4.jpg',
+                    'img/gallery/small/alicedesign.jpg',
+                    'img/gallery/small/alice-1.jpg',
+                    'img/gallery/small/alice-2.jpg',
+                    'img/gallery/small/alice-3.jpg',
+                    'img/gallery/small/alice-4.jpg',
 
                 ],
                 large: [
-                    'img/code-gallery/large/alicedesign.jpg',
-                    'img/code-gallery/large/alice-1.jpg',
-                    'img/code-gallery/large/alice-2.jpg',
-                    'img/code-gallery/large/alice-3.jpg',
-                    'img/code-gallery/large/alice-4.jpg',
+                    'img/gallery/large/alicedesign.jpg',
+                    'img/gallery/large/alice-1.jpg',
+                    'img/gallery/large/alice-2.jpg',
+                    'img/gallery/large/alice-3.jpg',
+                    'img/gallery/large/alice-4.jpg',
                 ],
                 img_title: ['image'],
                 button_list: [
@@ -296,18 +297,18 @@ $(function() {
 							'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari.'
 						].join(' '),
 						thumbnail: [
-							'img/code-gallery/small/about-ezy.jpg',
-							'img/code-gallery/small/about-ezy1.jpg',
-							'img/code-gallery/small/about-ezy2.jpg',
-							'img/code-gallery/small/about-ezy3.jpg',
-							'img/code-gallery/small/about-ezy4.jpg',
+							'img/gallery/small/about-ezy.jpg',
+							'img/gallery/small/about-ezy1.jpg',
+							'img/gallery/small/about-ezy2.jpg',
+							'img/gallery/small/about-ezy3.jpg',
+							'img/gallery/small/about-ezy4.jpg',
 						],
 						large: [
-							'img/code-gallery/large/about-ezy.jpg',
-							'img/code-gallery/large/about-ezy1.jpg',
-							'img/code-gallery/large/about-ezy2.jpg',
-							'img/code-gallery/large/about-ezy3.jpg',
-							'img/code-gallery/large/about-ezy4.jpg',
+							'img/gallery/large/about-ezy.jpg',
+							'img/gallery/large/about-ezy1.jpg',
+							'img/gallery/large/about-ezy2.jpg',
+							'img/gallery/large/about-ezy3.jpg',
+							'img/gallery/large/about-ezy4.jpg',
 						],
 						img_title: [],
 						button_list: [],
@@ -325,21 +326,21 @@ $(function() {
                     'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, IE-11, Edge.'
                 ].join(' '),
                 thumbnail: [
-                    'img/code-gallery/small/lenor-tat.jpg',
-                    'img/code-gallery/small/lenor-1.jpg',
-                    'img/code-gallery/small/lenor-2.jpg',
-                    'img/code-gallery/small/lenor-3.jpg',
-                    'img/code-gallery/small/lenor-4.jpg',
-                    'img/code-gallery/small/lenor-5.jpg',
+                    'img/gallery/small/lenor-tat.jpg',
+                    'img/gallery/small/lenor-1.jpg',
+                    'img/gallery/small/lenor-2.jpg',
+                    'img/gallery/small/lenor-3.jpg',
+                    'img/gallery/small/lenor-4.jpg',
+                    'img/gallery/small/lenor-5.jpg',
 
                 ],
                 large: [
-                    'img/code-gallery/large/lenor-tat.jpg',
-                    'img/code-gallery/large/lenor-1.jpg',
-                    'img/code-gallery/large/lenor-2.jpg',
-                    'img/code-gallery/large/lenor-3.jpg',
-                    'img/code-gallery/large/lenor-4.jpg',
-                    'img/code-gallery/large/lenor-5.jpg',
+                    'img/gallery/large/lenor-tat.jpg',
+                    'img/gallery/large/lenor-1.jpg',
+                    'img/gallery/large/lenor-2.jpg',
+                    'img/gallery/large/lenor-3.jpg',
+                    'img/gallery/large/lenor-4.jpg',
+                    'img/gallery/large/lenor-5.jpg',
                 ],
                 img_title: ['lenortat.spb.ru'],
                 button_list: [
@@ -367,24 +368,24 @@ $(function() {
                     'В данный момент сайт уже не существует.'
                 ].join(' '),
                 thumbnail: [
-                    'img/code-gallery/small/exchanger.jpg',
-                    'img/code-gallery/small/exch.jpg',
-                    'img/code-gallery/small/exch-1.jpg',
-                    'img/code-gallery/small/exch-2.jpg',
-                    'img/code-gallery/small/exch-3.jpg',
-                    'img/code-gallery/small/exch-4.jpg',
-                    'img/code-gallery/small/exch-5.jpg',
-                    'img/code-gallery/small/exch-6.jpg',
+                    'img/gallery/small/exchanger.jpg',
+                    'img/gallery/small/exch.jpg',
+                    'img/gallery/small/exch-1.jpg',
+                    'img/gallery/small/exch-2.jpg',
+                    'img/gallery/small/exch-3.jpg',
+                    'img/gallery/small/exch-4.jpg',
+                    'img/gallery/small/exch-5.jpg',
+                    'img/gallery/small/exch-6.jpg',
                 ],
                 large: [
-                    'img/code-gallery/large/exchanger.jpg',
-                    'img/code-gallery/large/exch.jpg',
-                    'img/code-gallery/large/exch-1.jpg',
-                    'img/code-gallery/large/exch-2.jpg',
-                    'img/code-gallery/large/exch-3.jpg',
-                    'img/code-gallery/large/exch-4.jpg',
-                    'img/code-gallery/large/exch-5.jpg',
-                    'img/code-gallery/large/exch-6.jpg',
+                    'img/gallery/large/exchanger.jpg',
+                    'img/gallery/large/exch.jpg',
+                    'img/gallery/large/exch-1.jpg',
+                    'img/gallery/large/exch-2.jpg',
+                    'img/gallery/large/exch-3.jpg',
+                    'img/gallery/large/exch-4.jpg',
+                    'img/gallery/large/exch-5.jpg',
+                    'img/gallery/large/exch-6.jpg',
                 ],
                 img_title: ['ezy-exchange.com'],
                 button_list: [],
@@ -403,21 +404,21 @@ $(function() {
                     'Кроссбраузерность: Chrome, Opera, Firefox, Edge.'
                 ].join(' '),
                 thumbnail: [
-                    'img/code-gallery/small/code-and-magic.jpg',
-                    'img/code-gallery/small/code&magick1.jpg',
-                    'img/code-gallery/small/code&magick2.jpg',
-                    'img/code-gallery/small/code&magick3.jpg',
-                    'img/code-gallery/small/code&magick4.jpg',
-                    'img/code-gallery/small/code&magick5.jpg'
+                    'img/gallery/small/code-and-magic.jpg',
+                    'img/gallery/small/code&magick1.jpg',
+                    'img/gallery/small/code&magick2.jpg',
+                    'img/gallery/small/code&magick3.jpg',
+                    'img/gallery/small/code&magick4.jpg',
+                    'img/gallery/small/code&magick5.jpg'
 
                 ],
                 large: [
-                    'img/code-gallery/large/code-and-magic.jpg',
-                    'img/code-gallery/large/code&magick1.jpg',
-                    'img/code-gallery/large/code&magick2.jpg',
-                    'img/code-gallery/large/code&magick3.jpg',
-                    'img/code-gallery/large/code&magick4.jpg',
-                    'img/code-gallery/large/code&magick5.jpg'
+                    'img/gallery/large/code-and-magic.jpg',
+                    'img/gallery/large/code&magick1.jpg',
+                    'img/gallery/large/code&magick2.jpg',
+                    'img/gallery/large/code&magick3.jpg',
+                    'img/gallery/large/code&magick4.jpg',
+                    'img/gallery/large/code&magick5.jpg'
                 ],
                 img_title: ['image'],
                 button_list: [
@@ -446,18 +447,18 @@ $(function() {
 									  'Кроссбраузерность: Chrome.'
                 ].join(' '),
                 thumbnail: [
-                    'img/code-gallery/small/six-cities.jpg',
-                    'img/code-gallery/small/six-1.jpg',
-                    'img/code-gallery/small/six-2.jpg',
-                    'img/code-gallery/small/six-3.jpg',
-                    'img/code-gallery/small/six-4.jpg',
+                    'img/gallery/small/six-cities.jpg',
+                    'img/gallery/small/six-1.jpg',
+                    'img/gallery/small/six-2.jpg',
+                    'img/gallery/small/six-3.jpg',
+                    'img/gallery/small/six-4.jpg',
                 ],
                 large: [
-                    'img/code-gallery/large/six-cities.jpg',
-                    'img/code-gallery/large/six-1.jpg',
-                    'img/code-gallery/large/six-2.jpg',
-                    'img/code-gallery/large/six-3.jpg',
-                    'img/code-gallery/large/six-4.jpg',
+                    'img/gallery/large/six-cities.jpg',
+                    'img/gallery/large/six-1.jpg',
+                    'img/gallery/large/six-2.jpg',
+                    'img/gallery/large/six-3.jpg',
+                    'img/gallery/large/six-4.jpg',
                 ],
                 img_title: ['image'],
                 button_list: [
@@ -484,18 +485,18 @@ $(function() {
                     'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, IE-11, Edge, Android 4.1 + .'
                 ].join(' '),
                 thumbnail: [
-                    'img/code-gallery/small/netlab.jpg',
-                    'img/code-gallery/small/netlab1.jpg',
-                    'img/code-gallery/small/netlab2.jpg',
-                    'img/code-gallery/small/netlab3.jpg',
-                    'img/code-gallery/small/netlab4.jpg',
+                    'img/gallery/small/netlab.jpg',
+                    'img/gallery/small/netlab1.jpg',
+                    'img/gallery/small/netlab2.jpg',
+                    'img/gallery/small/netlab3.jpg',
+                    'img/gallery/small/netlab4.jpg',
                 ],
                 large: [
-                    'img/code-gallery/large/netlab.jpg',
-                    'img/code-gallery/large/netlab1.jpg',
-                    'img/code-gallery/large/netlab2.jpg',
-                    'img/code-gallery/large/netlab3.jpg',
-                    'img/code-gallery/large/netlab4.jpg',
+                    'img/gallery/large/netlab.jpg',
+                    'img/gallery/large/netlab1.jpg',
+                    'img/gallery/large/netlab2.jpg',
+                    'img/gallery/large/netlab3.jpg',
+                    'img/gallery/large/netlab4.jpg',
                 ],
                 img_title: ['image 1 '],
                 button_list: [
@@ -520,16 +521,16 @@ $(function() {
                     'Кроссбраузерность: Chrome.'
                 ].join(' '),
                 thumbnail: [
-                    'img/code-gallery/small/moowle.jpg',
-                    'img/code-gallery/small/moowle-1.jpg',
-                    'img/code-gallery/small/moowle-2.jpg',
-                    'img/code-gallery/small/moowle-3.jpg'
+                    'img/gallery/small/moowle.jpg',
+                    'img/gallery/small/moowle-1.jpg',
+                    'img/gallery/small/moowle-2.jpg',
+                    'img/gallery/small/moowle-3.jpg'
                 ],
                 large: [
-                    'img/code-gallery/large/moowle.jpg',
-                    'img/code-gallery/large/moowle-1.jpg',
-                    'img/code-gallery/large/moowle-2.jpg',
-                    'img/code-gallery/large/moowle-3.jpg'
+                    'img/gallery/large/moowle.jpg',
+                    'img/gallery/large/moowle-1.jpg',
+                    'img/gallery/large/moowle-2.jpg',
+                    'img/gallery/large/moowle-3.jpg'
                 ],
                 img_title: ['image'],
                 button_list: [
@@ -556,16 +557,16 @@ $(function() {
                   'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, Edge.'
                 ].join(' '),
                 thumbnail: [
-                  'img/code-gallery/small/fora.jpg',
-                  'img/code-gallery/small/fora1.jpg',
-                  'img/code-gallery/small/fora2.jpg',
-                  'img/code-gallery/small/fora3.jpg'
+                  'img/gallery/small/fora.jpg',
+                  'img/gallery/small/fora1.jpg',
+                  'img/gallery/small/fora2.jpg',
+                  'img/gallery/small/fora3.jpg'
                 ],
                 large: [
-                  'img/code-gallery/large/fora.jpg',
-                  'img/code-gallery/large/fora1.jpg',
-                  'img/code-gallery/large/fora2.jpg',
-                  'img/code-gallery/large/fora3.jpg'
+                  'img/gallery/large/fora.jpg',
+                  'img/gallery/large/fora1.jpg',
+                  'img/gallery/large/fora2.jpg',
+                  'img/gallery/large/fora3.jpg'
                 ],
                 img_title: ['image 1 '],
                 button_list: [],
@@ -581,16 +582,16 @@ $(function() {
                     'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, IE-11, Edge, Android.'
                 ].join(' '),
                 thumbnail: [
-                    'img/code-gallery/small/conmime.jpg',
-                    'img/code-gallery/small/lookbook-1.jpg',
-                    'img/code-gallery/small/lookbook-2.jpg',
-                    'img/code-gallery/small/lookbook-3.jpg'
+                    'img/gallery/small/conmime.jpg',
+                    'img/gallery/small/lookbook-1.jpg',
+                    'img/gallery/small/lookbook-2.jpg',
+                    'img/gallery/small/lookbook-3.jpg'
                 ],
                 large: [
-                    'img/code-gallery/large/conmime.jpg',
-                    'img/code-gallery/large/lookbook-1.jpg',
-                    'img/code-gallery/large/lookbook-2.jpg',
-                    'img/code-gallery/large/lookbook-3.jpg'
+                    'img/gallery/large/conmime.jpg',
+                    'img/gallery/large/lookbook-1.jpg',
+                    'img/gallery/large/lookbook-2.jpg',
+                    'img/gallery/large/lookbook-3.jpg'
                 ],
                 img_title: ['image 1 '],
                 button_list: [
@@ -617,18 +618,18 @@ $(function() {
                     'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, IE-11, Edge.'
                 ].join(' '),
                 thumbnail: [
-                    'img/code-gallery/small/sedona.jpg',
-                    'img/code-gallery/small/sedona-1.jpg',
-                    'img/code-gallery/small/sedona-2.jpg',
-                    'img/code-gallery/small/sedona-3.jpg',
-                    'img/code-gallery/small/sedona-4.jpg'
+                    'img/gallery/small/sedona.jpg',
+                    'img/gallery/small/sedona-1.jpg',
+                    'img/gallery/small/sedona-2.jpg',
+                    'img/gallery/small/sedona-3.jpg',
+                    'img/gallery/small/sedona-4.jpg'
                 ],
                 large: [
-                    'img/code-gallery/large/sedona.jpg',
-                    'img/code-gallery/large/sedona-1.jpg',
-                    'img/code-gallery/large/sedona-2.jpg',
-                    'img/code-gallery/large/sedona-3.jpg',
-                    'img/code-gallery/large/sedona-4.jpg'
+                    'img/gallery/large/sedona.jpg',
+                    'img/gallery/large/sedona-1.jpg',
+                    'img/gallery/large/sedona-2.jpg',
+                    'img/gallery/large/sedona-3.jpg',
+                    'img/gallery/large/sedona-4.jpg'
                 ],
                 img_title: ['image'],
                 button_list: [
@@ -656,20 +657,20 @@ $(function() {
                     'Кроссбраузерность: мобильные и десктопные Chrome, Opera, Firefox, Safari, IE-11, Edge.'
                 ].join(' '),
                 thumbnail: [
-                    'img/code-gallery/small/pink.jpg',
-                    'img/code-gallery/small/pink-1.jpg',
-                    'img/code-gallery/small/pink-2.jpg',
-                    'img/code-gallery/small/pink-3.jpg',
-                    'img/code-gallery/small/pink-4.jpg',
-                    'img/code-gallery/small/pink-5.jpg'
+                    'img/gallery/small/pink.jpg',
+                    'img/gallery/small/pink-1.jpg',
+                    'img/gallery/small/pink-2.jpg',
+                    'img/gallery/small/pink-3.jpg',
+                    'img/gallery/small/pink-4.jpg',
+                    'img/gallery/small/pink-5.jpg'
                 ],
                 large: [
-                    'img/code-gallery/large/pink.jpg',
-                    'img/code-gallery/large/pink-1.jpg',
-                    'img/code-gallery/large/pink-2.jpg',
-                    'img/code-gallery/large/pink-3.jpg',
-                    'img/code-gallery/large/pink-4.jpg',
-                    'img/code-gallery/large/pink-5.jpg'
+                    'img/gallery/large/pink.jpg',
+                    'img/gallery/large/pink-1.jpg',
+                    'img/gallery/large/pink-2.jpg',
+                    'img/gallery/large/pink-3.jpg',
+                    'img/gallery/large/pink-4.jpg',
+                    'img/gallery/large/pink-5.jpg'
                 ],
                 img_title: ['image 1 '],
                 button_list: [
@@ -696,16 +697,16 @@ $(function() {
                     'Кроссбраузерность: Chrome, Opera, Firefox, Safari, IE-11, Edge.'
                 ].join(' '),
                 thumbnail: [
-                    'img/code-gallery/small/technomart.jpg',
-                    'img/code-gallery/small/tech-1.jpg',
-                    'img/code-gallery/small/tech-2.jpg',
-                    'img/code-gallery/small/tech-3.jpg',
+                    'img/gallery/small/technomart.jpg',
+                    'img/gallery/small/tech-1.jpg',
+                    'img/gallery/small/tech-2.jpg',
+                    'img/gallery/small/tech-3.jpg',
                 ],
                 large: [
-                    'img/code-gallery/large/technomart.jpg',
-                    'img/code-gallery/large/tech-1.jpg',
-                    'img/code-gallery/large/tech-2.jpg',
-                    'img/code-gallery/large/tech-3.jpg',
+                    'img/gallery/large/technomart.jpg',
+                    'img/gallery/large/tech-1.jpg',
+                    'img/gallery/large/tech-2.jpg',
+                    'img/gallery/large/tech-3.jpg',
                 ],
                 img_title: ['image'],
                 button_list: [
@@ -726,14 +727,14 @@ $(function() {
                     'Кроссбраузерность: Chrome, Opera, Firefox, Safari, IE-11, Edge.'
                 ].join(' '),
                 thumbnail: [
-                    'img/code-gallery/small/nerds.jpg',
-                    'img/code-gallery/large/nerds-1.jpg',
-                    'img/code-gallery/small/nerds-2.jpg',
+                    'img/gallery/small/nerds.jpg',
+                    'img/gallery/large/nerds-1.jpg',
+                    'img/gallery/small/nerds-2.jpg',
                 ],
                 large: [
-                    'img/code-gallery/large/nerds.jpg',
-                    'img/code-gallery/large/nerds-1.jpg',
-                    'img/code-gallery/large/nerds-2.jpg',
+                    'img/gallery/large/nerds.jpg',
+                    'img/gallery/large/nerds-1.jpg',
+                    'img/gallery/large/nerds-2.jpg',
                 ],
                 img_title: [ 'image'],
                 button_list: [
@@ -754,16 +755,16 @@ $(function() {
                     'Кроссбраузерность: Chrome, Opera, Firefox, Safari, IE-11, Edge.'
                 ].join(' '),
                 thumbnail: [
-                    'img/code-gallery/small/barbershop.jpg',
-                    'img/code-gallery/small/barber-1.jpg',
-                    'img/code-gallery/small/barber-2.jpg',
-                    'img/code-gallery/small/barber-3.jpg'
+                    'img/gallery/small/barbershop.jpg',
+                    'img/gallery/small/barber-1.jpg',
+                    'img/gallery/small/barber-2.jpg',
+                    'img/gallery/small/barber-3.jpg'
                 ],
                 large: [
-                    'img/code-gallery/large/barbershop.jpg',
-                    'img/code-gallery/large/barber-1.jpg',
-                    'img/code-gallery/large/barber-2.jpg',
-                    'img/code-gallery/large/barber-3.jpg'
+                    'img/gallery/large/barbershop.jpg',
+                    'img/gallery/large/barber-1.jpg',
+                    'img/gallery/large/barber-2.jpg',
+                    'img/gallery/large/barber-3.jpg'
                 ],
                 img_title: [ 'image'],
                 button_list: [

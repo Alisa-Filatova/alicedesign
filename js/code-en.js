@@ -9,7 +9,7 @@ $(function() {
 		items: [
 			{
 				title: 'Wrike',
-				logo: 'img/code-gallery/logo/wrike-logo.svg',
+				logo: 'img/gallery/logo/wrike-logo.svg',
 				description: [
 					'<p><a class="text-link" href="https://www.wrike.com/" target="_blank" rel="noopener noreferrer">Wrike</a> is a work management platform with a lot of internal applications such as Tasks, Gantt charts, Table view, Calendars, Reports, File management and more. ' +
 					'Wrike clients include companies such as Apple, Microsoft, Sony, Siemens, P&G and many others.</p>' +
@@ -22,18 +22,18 @@ $(function() {
 					'<p><strong><i>!WARNING: For viewers from Russia</strong>: wrike.com is blocked for this counry. To visit this site links, you need to use a VPN.</i></p> ',
 				].join(' '),
 					thumbnail: [
-						'img/code-gallery/large/wrike/wrike.svg',
-						'img/code-gallery/small/wrike/wrike_intro.jpeg',
-						'img/code-gallery/small/wrike/wrike_proofing.jpeg',
-						'img/code-gallery/small/wrike/wrike_calendar.jpeg',
-						'img/code-gallery/small/wrike/wrike_features.jpeg',
+						'img/gallery/large/wrike/wrike.svg',
+						'img/gallery/small/wrike/wrike_intro.jpeg',
+						'img/gallery/small/wrike/wrike_proofing.jpeg',
+						'img/gallery/small/wrike/wrike_calendar.jpeg',
+						'img/gallery/small/wrike/wrike_features.jpeg',
 					],
 					large: [
-						'img/code-gallery/large/wrike/wrike.svg',
-						'img/code-gallery/video/wrike_intro.mp4',
-						'img/code-gallery/video/wrike_proofing.mp4',
-						'img/code-gallery/video/wrike_calendar.mp4',
-						'img/code-gallery/video/wrike_features.mp4',
+						'img/gallery/large/wrike/wrike.svg',
+						'img/gallery/video/wrike_intro.mp4',
+						'img/gallery/video/wrike_proofing.mp4',
+						'img/gallery/video/wrike_calendar.mp4',
+						'img/gallery/video/wrike_features.mp4',
 					],
 					img_title: [
 						'Wrike animation',
@@ -53,7 +53,7 @@ $(function() {
 			},
 			{
 				title: 'Ezy.com',
-				logo: 'img/code-gallery/logo/ezy-logo.svg',
+				logo: 'img/gallery/logo/ezy-logo.svg',
 				description: [
 					'<p><a class="text-link" href="https://ezy.com" target="_blank" rel="noopener noreferrer">EZY</a> is a SPA for esports players and gamers of Counter-Strike: Global Offensive, which serves to open game cases, sweepstakes and upgrades of weapon skins (2017-2019).</p> ' +
 					'<p>The project integrates with the players personal account on Steam, contains such great features as <a class="text-link" href="https://ezy.com/cases/46628" target="_blank" rel="noopener noreferrer">Opening CS:GO cases</a> roulette, <a class="text-link" href="https://ezy.com/upgrade" target="_blank" rel="noopener noreferrer">Upgrading</a> items etc, that are visualized using a variety of animations to create a sense of the game for the user. The other sections of the application are also filled with a bright interface and animations, which was a definite challenge for productivity.</p>' +
@@ -65,32 +65,32 @@ $(function() {
 					'<p><strong><i>!WARNING: For viewers from Russia</strong>: ezy.com can be blocked for this counry. If you are having problems connecting to the service, use a VPN.</i></p> ',
 				].join(' '),
 				thumbnail: [
-					'img/code-gallery/small/ezy/interface.jpg',
-					'img/code-gallery/small/ezy/home.jpeg',
-					'img/code-gallery/small/ezy/upgrade.jpeg',
-					'img/code-gallery/small/ezy/spiner.jpeg',
-					'img/code-gallery/small/ezy/spiner2.jpeg',
-					'img/code-gallery/small/ezy/ui.jpg',
-					'img/code-gallery/small/ezy/user-profile.jpeg',
-					'img/code-gallery/small/ezy/giveaway.jpg',
-					'img/code-gallery/small/ezy/deposit.jpeg',
-					'img/code-gallery/small/ezy/daily-bonus.jpeg',
-					'img/code-gallery/small/ezy/why-we.jpeg',
-					'img/code-gallery/small/ezy/ezy.jpg'      
+					'img/gallery/small/ezy/interface.jpg',
+					'img/gallery/small/ezy/home.jpeg',
+					'img/gallery/small/ezy/upgrade.jpeg',
+					'img/gallery/small/ezy/spiner.jpeg',
+					'img/gallery/small/ezy/spiner2.jpeg',
+					'img/gallery/small/ezy/ui.jpg',
+					'img/gallery/small/ezy/user-profile.jpeg',
+					'img/gallery/small/ezy/giveaway.jpg',
+					'img/gallery/small/ezy/deposit.jpeg',
+					'img/gallery/small/ezy/daily-bonus.jpeg',
+					'img/gallery/small/ezy/why-we.jpeg',
+					'img/gallery/small/ezy/ezy.jpg'      
 				],
 				large: [
-					'img/code-gallery/video/ezy.mp4',
-					'img/code-gallery/large/ezy/home.jpg',
-					'img/code-gallery/large/ezy/upgrade.jpg',
-					'img/code-gallery/large/ezy/spiner.jpg',
-					'img/code-gallery/large/ezy/spiner2.jpg',
-					'img/code-gallery/large/ezy/ui.jpg',
-					'img/code-gallery/large/ezy/user-profile.jpg',
-					'img/code-gallery/large/ezy/giveaway.jpg',
-					'img/code-gallery/large/ezy/deposit.jpg',
-					'img/code-gallery/large/ezy/daily-bonus.jpg',
-					'img/code-gallery/large/ezy/why-we.jpg',
-					'img/code-gallery/large/ezy/ezy.jpg' 
+					'img/gallery/video/ezy.mp4',
+					'img/gallery/large/ezy/home.jpg',
+					'img/gallery/large/ezy/upgrade.jpg',
+					'img/gallery/large/ezy/spiner.jpg',
+					'img/gallery/large/ezy/spiner2.jpg',
+					'img/gallery/large/ezy/ui.jpg',
+					'img/gallery/large/ezy/user-profile.jpg',
+					'img/gallery/large/ezy/giveaway.jpg',
+					'img/gallery/large/ezy/deposit.jpg',
+					'img/gallery/large/ezy/daily-bonus.jpg',
+					'img/gallery/large/ezy/why-we.jpg',
+					'img/gallery/large/ezy/ezy.jpg' 
 				],
 				img_title: [
 					'Ezy.com preview', 
@@ -122,23 +122,23 @@ $(function() {
 			},
 			{
 				title: 'Ezy Town',
-				logo: 'img/code-gallery/logo/ezy-town-logo.png',
+				logo: 'img/gallery/logo/ezy-town-logo.png',
 				description: [
 					'<p>Advertising landing page for Ezy.com (Cases and items for Counter Strike Global Offensive and VGO blockchain system) (2018).</p> <p>Created in collaboration with an animation studio that drew animated pre-roll and graphics for the landing page. The landing page is adapted for tablets and mobile devices.</p>',
 					'<p><b>Stack and technologies</b>: HTML5/CSS3, JavaScript, Sketch.<br/>',
 					'<b>Cross-browser compatibility</b>: Chrome, Opera, Firefox, Safari, Edge.</p>'
 				].join(' '),
 				thumbnail: [
-					'img/code-gallery/large/ezy-town/ezy-town.jpg',
-					'img/code-gallery/small/ezy-town/ezy_video.jpeg',
-					'img/code-gallery/small/ezy-town/town1-1.jpeg',
-					'img/code-gallery/small/ezy-town/town1-2.jpeg',
+					'img/gallery/large/ezy-town/ezy-town.jpg',
+					'img/gallery/small/ezy-town/ezy_video.jpeg',
+					'img/gallery/small/ezy-town/town1-1.jpeg',
+					'img/gallery/small/ezy-town/town1-2.jpeg',
 				],
 				large: [
-					'img/code-gallery/large/ezy-town/ezy-town.jpg',
-					'img/code-gallery/video/ezy_town.mp4',
-					'img/code-gallery/large/ezy-town/town1-1.jpeg',
-					'img/code-gallery/large/ezy-town/town1-2.jpeg',
+					'img/gallery/large/ezy-town/ezy-town.jpg',
+					'img/gallery/video/ezy_town.mp4',
+					'img/gallery/large/ezy-town/town1-1.jpeg',
+					'img/gallery/large/ezy-town/town1-2.jpeg',
 				],
 				img_title: [
 					'Ezy town landing', 
@@ -157,7 +157,7 @@ $(function() {
 		},
 		{
 			title: 'Future of cases is here',
-			logo: 'img/code-gallery/logo/vgo-logo.svg',
+			logo: 'img/gallery/logo/vgo-logo.svg',
 			description: [
 				'<p>Promo landing-page for SPA EZY.com about VGO & WAX system (Cases and items for Counter Strike Global Offensive and VGO blockchain system) (2018).</p>',
 				'<p>The landing-page is adapted for tablets and mobile devices.</p>',
@@ -165,16 +165,16 @@ $(function() {
 				'<b>Cross-browser compatibility</b>: Chrome, Opera, Firefox, Safari, Edge.</p>'
 			].join(' '),
 			thumbnail: [
-				'img/code-gallery/large/ezy-vgo/vgo.jpg',
-				'img/code-gallery/small/ezy-vgo/vgo-csgo-1.jpeg',
-				'img/code-gallery/small/ezy-vgo/vgo-csgo-2.jpeg',
-				'img/code-gallery/small/ezy-vgo/vgo-csgo2.jpg'
+				'img/gallery/large/ezy-vgo/vgo.jpg',
+				'img/gallery/small/ezy-vgo/vgo-csgo-1.jpeg',
+				'img/gallery/small/ezy-vgo/vgo-csgo-2.jpeg',
+				'img/gallery/small/ezy-vgo/vgo-csgo2.jpg'
 			],
 			large: [
-				'img/code-gallery/large/ezy-vgo/vgo.jpg',
-				'img/code-gallery/large/ezy-vgo/vgo-csgo-1.jpg',
-				'img/code-gallery/large/ezy-vgo/vgo-csgo-2.jpg',
-				'img/code-gallery/large/ezy-vgo/vgo-csgo2.jpg'
+				'img/gallery/large/ezy-vgo/vgo.jpg',
+				'img/gallery/large/ezy-vgo/vgo-csgo-1.jpg',
+				'img/gallery/large/ezy-vgo/vgo-csgo-2.jpg',
+				'img/gallery/large/ezy-vgo/vgo-csgo2.jpg'
 			],
 			img_title: [
 				'Ezy VGO landing', 
@@ -193,7 +193,7 @@ $(function() {
 		},
 		{
 			title: 'Ezy Exchanger',
-			logo: 'img/code-gallery/logo/ezy-ex-logo.svg',
+			logo: 'img/gallery/logo/ezy-ex-logo.svg',
 			description: [
 				'<p>SPA for gamers and esport fans (2018). Exchanger for digital game items (skins) between players of Counter-Strike: Global Offensive. The first version of EZY.com app.</p> ' +
 				'<p>My job was to develop the user interface, components, and their basic logic, from scratch. '+
@@ -203,18 +203,18 @@ $(function() {
 				'<p><i>This version of the application Ezy is no longer available, because an updated version is working.<i></p>',
 			].join(' '),
 			thumbnail: [
-				'img/code-gallery/large/ezy-ex/exchanger.jpg',
-				'img/code-gallery/small/ezy-ex/exch.jpeg',
-				'img/code-gallery/small/ezy-ex/exch-1.jpeg',
-				'img/code-gallery/small/ezy-ex/exch-3.jpeg',
-				'img/code-gallery/small/ezy-ex/exch-5.jpeg',
+				'img/gallery/large/ezy-ex/exchanger.jpg',
+				'img/gallery/small/ezy-ex/exch.jpeg',
+				'img/gallery/small/ezy-ex/exch-1.jpeg',
+				'img/gallery/small/ezy-ex/exch-3.jpeg',
+				'img/gallery/small/ezy-ex/exch-5.jpeg',
 			],
 			large: [
-				'img/code-gallery/large/ezy-ex/exchanger.jpg',
-				'img/code-gallery/large/ezy-ex/exch.jpg',
-				'img/code-gallery/large/ezy-ex/exch-1.jpg',
-				'img/code-gallery/large/ezy-ex/exch-3.jpg',
-				'img/code-gallery/large/ezy-ex/exch-5.jpg',
+				'img/gallery/large/ezy-ex/exchanger.jpg',
+				'img/gallery/large/ezy-ex/exch.jpg',
+				'img/gallery/large/ezy-ex/exch-1.jpg',
+				'img/gallery/large/ezy-ex/exch-3.jpg',
+				'img/gallery/large/ezy-ex/exch-5.jpg',
 			],
 			img_title: [
 				'Ezy items exchanger', 
@@ -228,7 +228,7 @@ $(function() {
 	},
 	{
 		title: 'Making of Ezy.com',
-		logo: 'img/code-gallery/logo/ezy-logo.svg',
+		logo: 'img/gallery/logo/ezy-logo.svg',
 		description: [
 			'<p>Landing page about creation of <b>EZY.com</b> project (2019). ' +
 			'Opening cases app for Counter-Strike: Global Offensive. ' +
@@ -237,18 +237,18 @@ $(function() {
 			'<b>Cross-browser compatibility</b>: Chrome, Opera, Firefox, Safari.</p>',
 		].join(' '),
 		thumbnail: [
-			'img/code-gallery/large/about-ezy/about-ezy.jpg',
-			'img/code-gallery/small/about-ezy/about-ezy1.jpg',
-			'img/code-gallery/small/about-ezy/about-ezy2.jpg',
-			'img/code-gallery/small/about-ezy/about-ezy3.jpg',
-			'img/code-gallery/small/about-ezy/about-ezy4.jpg',
+			'img/gallery/large/about-ezy/about-ezy.jpg',
+			'img/gallery/small/about-ezy/about-ezy1.jpg',
+			'img/gallery/small/about-ezy/about-ezy2.jpg',
+			'img/gallery/small/about-ezy/about-ezy3.jpg',
+			'img/gallery/small/about-ezy/about-ezy4.jpg',
 		],
 		large: [
-			'img/code-gallery/large/about-ezy/about-ezy.jpg',
-			'img/code-gallery/large/about-ezy/about-ezy1.jpg',
-			'img/code-gallery/large/about-ezy/about-ezy2.jpg',
-			'img/code-gallery/large/about-ezy/about-ezy3.jpg',
-			'img/code-gallery/large/about-ezy/about-ezy4.jpg',
+			'img/gallery/large/about-ezy/about-ezy.jpg',
+			'img/gallery/large/about-ezy/about-ezy1.jpg',
+			'img/gallery/large/about-ezy/about-ezy2.jpg',
+			'img/gallery/large/about-ezy/about-ezy3.jpg',
+			'img/gallery/large/about-ezy/about-ezy4.jpg',
 		],
 		img_title: [
 			'About ezy.com', 
@@ -268,7 +268,7 @@ $(function() {
 	},
 	{
 		title: 'My Personal Web site',
-		logo: 'img/code-gallery/logo/alice-logo.svg',
+		logo: 'img/gallery/logo/alice-logo.svg',
 		description: [
 			'<p>My personal portfolio website. The project I have done with my own design and illustrations, and a lot of css animations. The first version of the site was made in 2017. It was updated in 2024.</p>' + 
 			'<p>The purpose of this site is to show my skills as an HTML coder and web designer, as well as to share projects I took part. For this reason, the site is designed to be viewed from large screens and the mobile version is not initially intended. Therefore, <b>for the best experience, use a PC or Laptop.</b></p>' +
@@ -276,18 +276,18 @@ $(function() {
 			'<b>Cross-browser compatibility</b>: Chrome, Opera, Firefox, Safari, Edge.</p>'
 		].join(' '),
 		thumbnail: [
-			'img/code-gallery/large/alicedesign/alicedesign.jpg',
-			'img/code-gallery/small/alicedesign/alice-1.jpeg',
-			'img/code-gallery/small/alicedesign/alice-2.jpeg',
-			'img/code-gallery/small/alicedesign/alice-3.jpeg',
-			'img/code-gallery/small/alicedesign/alice-4.jpeg',
+			'img/gallery/large/alicedesign/alicedesign.jpg',
+			'img/gallery/small/alicedesign/alice-1.jpeg',
+			'img/gallery/small/alicedesign/alice-2.jpeg',
+			'img/gallery/small/alicedesign/alice-3.jpeg',
+			'img/gallery/small/alicedesign/alice-4.jpeg',
 		],
 		large: [
-			'img/code-gallery/large/alicedesign/alicedesign.jpg',
-			'img/code-gallery/large/alicedesign/alice-1.jpeg',
-			'img/code-gallery/large/alicedesign/alice-2.jpeg',
-			'img/code-gallery/large/alicedesign/alice-3.jpeg',
-			'img/code-gallery/large/alicedesign/alice-4.jpeg',
+			'img/gallery/large/alicedesign/alicedesign.jpg',
+			'img/gallery/large/alicedesign/alice-1.jpeg',
+			'img/gallery/large/alicedesign/alice-2.jpeg',
+			'img/gallery/large/alicedesign/alice-3.jpeg',
+			'img/gallery/large/alicedesign/alice-4.jpeg',
 		],
 		img_title: [
 			'Alice Design Screen',
@@ -312,7 +312,7 @@ $(function() {
 	},
 	{
 		title: 'Goroshko Dance',
-		logo: 'img/code-gallery/logo/goroshko-logo.svg',
+		logo: 'img/gallery/logo/goroshko-logo.svg',
 		description: [
 			'<p>Personal website of choreographer and dancer Sasha Goroshko (semi-finalist of 4 season of the TV-show "DANCING"). Freelance project, my development and web design (2017).</p>',
 			'<p>The purpose of the website: informational support for students, attract new students, portfolio',
@@ -324,18 +324,18 @@ $(function() {
 			'<b>Cross-browser compatibility</b>: Chrome, Opera, Firefox, Safari, IE-11, Edge.</p>'
 		].join(' '),
 		thumbnail: [
-			'img/code-gallery/large/goroshko/goroshko-dance.jpg',
-			'img/code-gallery/small/goroshko/goroshko-1.jpeg',
-			'img/code-gallery/small/goroshko/goroshko-2.jpeg',
-			'img/code-gallery/small/goroshko/goroshko-3.jpeg',
-			'img/code-gallery/small/goroshko/goroshko-5.jpeg'
+			'img/gallery/large/goroshko/goroshko-dance.jpg',
+			'img/gallery/small/goroshko/goroshko-1.jpeg',
+			'img/gallery/small/goroshko/goroshko-2.jpeg',
+			'img/gallery/small/goroshko/goroshko-3.jpeg',
+			'img/gallery/small/goroshko/goroshko-5.jpeg'
 		],
 		large: [
-			'img/code-gallery/large/goroshko/goroshko-dance.jpg',
-			'img/code-gallery/large/goroshko/goroshko-1.jpg',
-			'img/code-gallery/large/goroshko/goroshko-2.jpg',
-			'img/code-gallery/large/goroshko/goroshko-3.jpg',
-			'img/code-gallery/large/goroshko/goroshko-5.jpg'
+			'img/gallery/large/goroshko/goroshko-dance.jpg',
+			'img/gallery/large/goroshko/goroshko-1.jpg',
+			'img/gallery/large/goroshko/goroshko-2.jpg',
+			'img/gallery/large/goroshko/goroshko-3.jpg',
+			'img/gallery/large/goroshko/goroshko-5.jpg'
 		],
 		img_title: [
 			'Goroshko dance screens',
@@ -355,7 +355,7 @@ $(function() {
 	},
 	{
 		title: 'Natalie Photography',
-		logo: 'img/code-gallery/logo/nata-logo.svg',
+		logo: 'img/gallery/logo/nata-logo.svg',
 		description: [
 			'<p>Portfolio website of family and wedding photographer - Natalie Biriouk from California, USA (Freelance project, my development and web design, first version 2017, updated in 2019 with React.js). The site consists of nine pages.' ,
 			'Target audience: young mothers, housewives with children and couples.</p>',
@@ -367,18 +367,18 @@ $(function() {
 			'<b>Cross-browser compatibility</b>: Chrome, Opera, Firefox, Safari, Edge.</p>'
 		].join(' '),
 			thumbnail: [
-				'img/code-gallery/large/natalia/natalia-photo.jpg',
-				'img/code-gallery/small/natalia/nata-1.jpg',
-				'img/code-gallery/small/natalia/nata-2.jpg',
-				'img/code-gallery/small/natalia/nata-3.jpg',
-				'img/code-gallery/small/natalia/nata-4.jpg'
+				'img/gallery/large/natalia/natalia-photo.jpg',
+				'img/gallery/small/natalia/nata-1.jpg',
+				'img/gallery/small/natalia/nata-2.jpg',
+				'img/gallery/small/natalia/nata-3.jpg',
+				'img/gallery/small/natalia/nata-4.jpg'
 			],
 			large: [
-				'img/code-gallery/large/natalia/natalia-photo.jpg',
-				'img/code-gallery/large/natalia/nata-1.jpg',
-				'img/code-gallery/large/natalia/nata-2.jpg',
-				'img/code-gallery/large/natalia/nata-3.jpg',
-				'img/code-gallery/large/natalia/nata-4.jpg'
+				'img/gallery/large/natalia/natalia-photo.jpg',
+				'img/gallery/large/natalia/nata-1.jpg',
+				'img/gallery/large/natalia/nata-2.jpg',
+				'img/gallery/large/natalia/nata-3.jpg',
+				'img/gallery/large/natalia/nata-4.jpg'
 			],
 			img_title: [
 				'Natalie Photography screens',
@@ -403,7 +403,7 @@ $(function() {
 		},
 		{
 			title: 'Lenor TaT - Beauty-Studio',
-			logo: 'img/code-gallery/logo/lenor-tat-logo.svg',
+			logo: 'img/gallery/logo/lenor-tat-logo.svg',
 			description: [
 				'<p>The website of the Beauty-Studio of a full cycle by Tata Kurina (Freelance project, my development and web design, 2017).',
 				'Studio provides the services of hair stylist and atelier with design clothes.</p>',
@@ -415,20 +415,20 @@ $(function() {
 				'<b>Cross-browser compatibility</b>: Chrome, Opera, Firefox, Safari, IE-11, Edge.</p>'
 			].join(' '),
 			thumbnail: [
-				'img/code-gallery/large/lenortat/lenor-tat.jpg',
-				'img/code-gallery/small/lenortat/lenor-1.jpeg',
-				'img/code-gallery/small/lenortat/lenor-2.jpeg',
-				'img/code-gallery/small/lenortat/lenor-3.jpeg',
-				'img/code-gallery/small/lenortat/lenor-4.jpeg',
-				'img/code-gallery/small/lenortat/lenor-5.jpeg'
+				'img/gallery/large/lenortat/lenor-tat.jpg',
+				'img/gallery/small/lenortat/lenor-1.jpeg',
+				'img/gallery/small/lenortat/lenor-2.jpeg',
+				'img/gallery/small/lenortat/lenor-3.jpeg',
+				'img/gallery/small/lenortat/lenor-4.jpeg',
+				'img/gallery/small/lenortat/lenor-5.jpeg'
 			],
 			large: [
-				'img/code-gallery/large/lenortat/lenor-tat.jpg',
-				'img/code-gallery/large/lenortat/lenor-1.jpg',
-				'img/code-gallery/large/lenortat/lenor-2.jpg',
-				'img/code-gallery/large/lenortat/lenor-3.jpg',
-				'img/code-gallery/large/lenortat/lenor-4.jpg',
-				'img/code-gallery/large/lenortat/lenor-5.jpg'
+				'img/gallery/large/lenortat/lenor-tat.jpg',
+				'img/gallery/large/lenortat/lenor-1.jpg',
+				'img/gallery/large/lenortat/lenor-2.jpg',
+				'img/gallery/large/lenortat/lenor-3.jpg',
+				'img/gallery/large/lenortat/lenor-4.jpg',
+				'img/gallery/large/lenortat/lenor-5.jpg'
 			],
 			img_title: [
 				'Lenot tat screens',
@@ -449,7 +449,7 @@ $(function() {
 		},
 		{
 			title: 'Netlab - International LLC',
-			logo: 'img/code-gallery/logo/netlab-logo.svg',
+			logo: 'img/gallery/logo/netlab-logo.svg',
 			description: [
 				'<p>Information web-site for the "Netlab" internet solutions company (Cyprus), which I developed while working at "Neotech" LLC a subsidiary company in (2017). Web site consisting of 4 pages. Responsive design.</p>',
 				'<p><b>Stack and technologies</b>:' ,
@@ -457,18 +457,18 @@ $(function() {
 				'<b>Cross-browser compatibility</b>: Chrome, Opera, Firefox, Safari, IE-11, Edge, Android 4.1 + .</p>'
 			].join(' '),
 			thumbnail: [
-				'img/code-gallery/large/netlab/netlab.jpg',
-				'img/code-gallery/small/netlab/netlab1.jpg',
-				'img/code-gallery/small/netlab/netlab2.jpg',
-				'img/code-gallery/small/netlab/netlab3.jpg',
-				'img/code-gallery/small/netlab/netlab4.jpg'
+				'img/gallery/large/netlab/netlab.jpg',
+				'img/gallery/small/netlab/netlab1.jpg',
+				'img/gallery/small/netlab/netlab2.jpg',
+				'img/gallery/small/netlab/netlab3.jpg',
+				'img/gallery/small/netlab/netlab4.jpg'
 			],
 			large: [
-				'img/code-gallery/large/netlab/netlab.jpg',
-				'img/code-gallery/large/netlab/netlab1.jpg',
-				'img/code-gallery/large/netlab/netlab2.jpg',
-				'img/code-gallery/large/netlab/netlab3.jpg',
-				'img/code-gallery/large/netlab/netlab4.jpg'
+				'img/gallery/large/netlab/netlab.jpg',
+				'img/gallery/large/netlab/netlab1.jpg',
+				'img/gallery/large/netlab/netlab2.jpg',
+				'img/gallery/large/netlab/netlab3.jpg',
+				'img/gallery/large/netlab/netlab4.jpg'
 			],
 			img_title: [
 				'"Netlab" screens',
@@ -488,7 +488,7 @@ $(function() {
 		},
 		{
 			title: 'fora.ru',
-			logo: 'img/code-gallery/logo/fora-logo.png',
+			logo: 'img/gallery/logo/fora-logo.png',
 			description: [
 				'<p>Information web-site for the <b>Fora</b> - consulting company, which I developed while working at "Neotech" LLC a subsidiary company in (2018). Web site consisting of 4 pages. ',
 				'Responsive design.</p> <p><b>Technologies used in project</b>:' ,
@@ -496,16 +496,16 @@ $(function() {
 				'<b>Cross-browser compatibility</b>: Chrome, Opera, Firefox, Safari, IE-11, Edge.</p>'
 			].join(' '),
 			thumbnail: [
-				'img/code-gallery/small/fora/fora.jpg',
-				'img/code-gallery/small/fora/fora1.jpg',
-				'img/code-gallery/small/fora/fora2.jpg',
-				'img/code-gallery/small/fora/fora3.jpg'
+				'img/gallery/small/fora/fora.jpg',
+				'img/gallery/small/fora/fora1.jpg',
+				'img/gallery/small/fora/fora2.jpg',
+				'img/gallery/small/fora/fora3.jpg'
 			],
 			large: [
-				'img/code-gallery/large/fora/fora.jpg',
-				'img/code-gallery/large/fora/fora1.jpg',
-				'img/code-gallery/large/fora/fora2.jpg',
-				'img/code-gallery/large/fora/fora3.jpg'
+				'img/gallery/large/fora/fora.jpg',
+				'img/gallery/large/fora/fora1.jpg',
+				'img/gallery/large/fora/fora2.jpg',
+				'img/gallery/large/fora/fora3.jpg'
 			],
 			img_title: [
 				'"Fora" screens',
@@ -524,7 +524,7 @@ $(function() {
 		},
 		{
 			title: 'Code and Magic',
-			logo: 'img/code-gallery/logo/code-logo.png',
+			logo: 'img/gallery/logo/code-logo.png',
 			description: [
 				'<p>Demo website for the 8bit game - "Code and Magic" (2018).',
 				'The study project on an intensive online course "JavaScript basics" by HTML Academy. In this course, I learned the basics of JavaScript and tried the jQuery library.</p>' ,
@@ -533,18 +533,18 @@ $(function() {
 				'<b>Cross-browser compatibility</b>: Chrome, Opera, Firefox, Edge.</p>'
 			].join(' '),
 			thumbnail: [
-				'img/code-gallery/large/code-magic/code-and-magic.jpg',
-				'img/code-gallery/small/code-magic/code&magick1.jpg',
-				'img/code-gallery/small/code-magic/code&magick2.jpg',
-				'img/code-gallery/small/code-magic/code&magick3.jpg',
-				'img/code-gallery/small/code-magic/code&magick5.jpg'
+				'img/gallery/large/code-magic/code-and-magic.jpg',
+				'img/gallery/small/code-magic/code&magick1.jpg',
+				'img/gallery/small/code-magic/code&magick2.jpg',
+				'img/gallery/small/code-magic/code&magick3.jpg',
+				'img/gallery/small/code-magic/code&magick5.jpg'
 				],
 			large: [
-				'img/code-gallery/large/code-magic/code-and-magic.jpg',
-				'img/code-gallery/large/code-magic/code&magick1.jpg',
-				'img/code-gallery/large/code-magic/code&magick2.jpg',
-				'img/code-gallery/large/code-magic/code&magick3.jpg',
-				'img/code-gallery/large/code-magic/code&magick5.jpg'
+				'img/gallery/large/code-magic/code-and-magic.jpg',
+				'img/gallery/large/code-magic/code&magick1.jpg',
+				'img/gallery/large/code-magic/code&magick2.jpg',
+				'img/gallery/large/code-magic/code&magick3.jpg',
+				'img/gallery/large/code-magic/code&magick5.jpg'
 			],
 			img_title: [
 				'"Code and magic" screen',
@@ -569,7 +569,7 @@ $(function() {
 		},
 		{
 			title: 'Moowle',
-			logo: 'img/code-gallery/logo/moowle-logo.png',
+			logo: 'img/gallery/logo/moowle-logo.png',
 			description: [
 				'<p><b>Moowle</b> — a streaming service for fans of great movies and TV series (2019). '+
 				'Detailed information about new movies, the ability to choose and create your' +
@@ -580,16 +580,16 @@ $(function() {
 				'JavaScript (ES6), working with Webpack and vendor libraries.</p> ',
 			].join(' '),
 			thumbnail: [
-				'img/code-gallery/large/moowle/moowle.jpg',
-				'img/code-gallery/small/moowle/moowle-1.jpg',
-				'img/code-gallery/small/moowle/moowle-2.jpg',
-				'img/code-gallery/small/moowle/moowle-3.jpg'
+				'img/gallery/large/moowle/moowle.jpg',
+				'img/gallery/small/moowle/moowle-1.jpg',
+				'img/gallery/small/moowle/moowle-2.jpg',
+				'img/gallery/small/moowle/moowle-3.jpg'
 			],
 			large: [
-				'img/code-gallery/large/moowle/moowle.jpg',
-				'img/code-gallery/large/moowle/moowle-1.jpg',
-				'img/code-gallery/large/moowle/moowle-2.jpg',
-				'img/code-gallery/large/moowle/moowle-3.jpg'
+				'img/gallery/large/moowle/moowle.jpg',
+				'img/gallery/large/moowle/moowle-1.jpg',
+				'img/gallery/large/moowle/moowle-2.jpg',
+				'img/gallery/large/moowle/moowle-3.jpg'
 			],
 			img_title: [
 				'"Moowle" screen',
@@ -608,7 +608,7 @@ $(function() {
 		},
 		{
 			title: '6/Cities - Rent Service',
-			logo: 'img/code-gallery/logo/6-cities-logo.svg',
+			logo: 'img/gallery/logo/6-cities-logo.svg',
 			description: [
 				'<p><b>6/Cities</b> - is a service for travelers who do not want to overpay for rent (2019). '+
 				'Choose one of six popular cities to travel to and get an up-to-date list of rental offers.</p> '+
@@ -618,18 +618,18 @@ $(function() {
 				'TypeScript, React.js, Redux, testing by Jest.</p> '
 			].join(' '),
 			thumbnail: [
-				'img/code-gallery/large/six-cities/six-cities.jpg',
-				'img/code-gallery/small/six-cities/six-1.jpg',
-				'img/code-gallery/small/six-cities/six-2.jpg',
-				'img/code-gallery/small/six-cities/six-3.jpg',
-				'img/code-gallery/small/six-cities/six-4.jpg'
+				'img/gallery/large/six-cities/six-cities.jpg',
+				'img/gallery/small/six-cities/six-1.jpg',
+				'img/gallery/small/six-cities/six-2.jpg',
+				'img/gallery/small/six-cities/six-3.jpg',
+				'img/gallery/small/six-cities/six-4.jpg'
 			],
 			large: [
-				'img/code-gallery/large/six-cities/six-cities.jpg',
-				'img/code-gallery/large/six-cities/six-1.jpg',
-				'img/code-gallery/large/six-cities/six-2.jpg',
-				'img/code-gallery/large/six-cities/six-3.jpg',
-				'img/code-gallery/large/six-cities/six-4.jpg'
+				'img/gallery/large/six-cities/six-cities.jpg',
+				'img/gallery/large/six-cities/six-1.jpg',
+				'img/gallery/large/six-cities/six-2.jpg',
+				'img/gallery/large/six-cities/six-3.jpg',
+				'img/gallery/large/six-cities/six-4.jpg'
 			],
 			img_title: [
 				'"6/Cities" screen',
@@ -649,7 +649,7 @@ $(function() {
 		},
 		{
 			title: 'Lookbook 2017',
-			logo: 'img/code-gallery/logo/lookbook.png',
+			logo: 'img/gallery/logo/lookbook.png',
 			description: [
 				'<p>Main page for design collection catalogue - Lookbook 2017.',
 				'Responsive design. Test task for the "Neotech" LLC company.</p>' ,
@@ -658,16 +658,16 @@ $(function() {
 				'<b>Cross-browser compatibility</b>: Chrome, Opera, Firefox, Safari, IE-11, Edge, Android.</p>'
 			].join(' '),
 			thumbnail: [
-				'img/code-gallery/large/lookbook/lookbook.jpg',
-				'img/code-gallery/small/lookbook/lookbook-1.jpg',
-				'img/code-gallery/small/lookbook/lookbook-2.jpg',
-				'img/code-gallery/small/lookbook/lookbook-3.jpg'
+				'img/gallery/large/lookbook/lookbook.jpg',
+				'img/gallery/small/lookbook/lookbook-1.jpg',
+				'img/gallery/small/lookbook/lookbook-2.jpg',
+				'img/gallery/small/lookbook/lookbook-3.jpg'
 			],
 			large: [
-				'img/code-gallery/large/lookbook/lookbook.jpg',
-				'img/code-gallery/large/lookbook/lookbook-1.jpg',
-				'img/code-gallery/large/lookbook/lookbook-2.jpg',
-				'img/code-gallery/large/lookbook/lookbook-3.jpg'
+				'img/gallery/large/lookbook/lookbook.jpg',
+				'img/gallery/large/lookbook/lookbook-1.jpg',
+				'img/gallery/large/lookbook/lookbook-2.jpg',
+				'img/gallery/large/lookbook/lookbook-3.jpg'
 			],
 			img_title: [
 				'"Lookbook" screens',
@@ -686,7 +686,7 @@ $(function() {
 		},
 		{
 			title: 'Sedona',
-			logo: 'img/code-gallery/logo/sedona-logo.png',
+			logo: 'img/gallery/logo/sedona-logo.png',
 			description: [
 				'<p>Tourist information portal about the Sedona city, consisting of four pages (2017).',
 				'A personal project in an intensive online course "HTML/CSS - Advanced course" by "HTML Academy."' ,
@@ -695,18 +695,18 @@ $(function() {
 				'<b>Cross-browser compatibility</b>: Chrome, Opera, Firefox, Safari, IE-11, Edge.</p>'
 			].join(' '),
 			thumbnail: [
-				'img/code-gallery/large/sedona/sedona.jpg',
-				'img/code-gallery/small/sedona/sedona-1.jpg',
-				'img/code-gallery/small/sedona/sedona-2.jpg',
-				'img/code-gallery/small/sedona/sedona-3.jpg',
-				'img/code-gallery/small/sedona/sedona-4.jpg'
+				'img/gallery/large/sedona/sedona.jpg',
+				'img/gallery/small/sedona/sedona-1.jpg',
+				'img/gallery/small/sedona/sedona-2.jpg',
+				'img/gallery/small/sedona/sedona-3.jpg',
+				'img/gallery/small/sedona/sedona-4.jpg'
 			],
 			large: [
-				'img/code-gallery/large/sedona/sedona.jpg',
-				'img/code-gallery/large/sedona/sedona-1.jpg',
-				'img/code-gallery/large/sedona/sedona-2.jpg',
-				'img/code-gallery/large/sedona/sedona-3.jpg',
-				'img/code-gallery/large/sedona/sedona-4.jpg'
+				'img/gallery/large/sedona/sedona.jpg',
+				'img/gallery/large/sedona/sedona-1.jpg',
+				'img/gallery/large/sedona/sedona-2.jpg',
+				'img/gallery/large/sedona/sedona-3.jpg',
+				'img/gallery/large/sedona/sedona-4.jpg'
 			],
 			img_title: [
 				'"Sedona" screens',
@@ -726,7 +726,7 @@ $(function() {
 		},
 		{
 			title: 'Pink',
-			logo: 'img/code-gallery/logo/pink-logo.png',
+			logo: 'img/gallery/logo/pink-logo.png',
 			description: [
 				'<p>Promotional website for a mobile app - <b>Pink</b>, consisting of three pages (2017).',
 				'The study project on an intensive online course "HTML/CSS - Advanced course" by "HTML Academy."' ,
@@ -736,20 +736,20 @@ $(function() {
 				'<b>Cross-browser compatibility</b>: Chrome, Opera, Firefox, Safari, IE-11, Edge</p>'
 			].join(' '),
 			thumbnail: [
-				'img/code-gallery/large/pink/pink.jpg',
-				'img/code-gallery/small/pink/pink-1.jpg',
-				'img/code-gallery/small/pink/pink-2.jpg',
-				'img/code-gallery/small/pink/pink-3.jpg',
-				'img/code-gallery/small/pink/pink-4.jpg',
-				'img/code-gallery/small/pink/pink-5.jpg'
+				'img/gallery/large/pink/pink.jpg',
+				'img/gallery/small/pink/pink-1.jpg',
+				'img/gallery/small/pink/pink-2.jpg',
+				'img/gallery/small/pink/pink-3.jpg',
+				'img/gallery/small/pink/pink-4.jpg',
+				'img/gallery/small/pink/pink-5.jpg'
 			],
 			large: [
-				'img/code-gallery/large/pink/pink.jpg',
-				'img/code-gallery/large/pink/pink-1.jpg',
-				'img/code-gallery/large/pink/pink-2.jpg',
-				'img/code-gallery/large/pink/pink-3.jpg',
-				'img/code-gallery/large/pink/pink-4.jpg',
-				'img/code-gallery/large/pink/pink-5.jpg'
+				'img/gallery/large/pink/pink.jpg',
+				'img/gallery/large/pink/pink-1.jpg',
+				'img/gallery/large/pink/pink-2.jpg',
+				'img/gallery/large/pink/pink-3.jpg',
+				'img/gallery/large/pink/pink-4.jpg',
+				'img/gallery/large/pink/pink-5.jpg'
 			],
 			img_title: [
 				'"Pink" screens',
@@ -769,7 +769,7 @@ $(function() {
 		},
 		{
 			title: 'Nerds',
-			logo: 'img/code-gallery/logo/nerds-logo.png',
+			logo: 'img/gallery/logo/nerds-logo.png',
 			description: [
 				'<p>Promotional website for the web-studio <b>Nerds</b>, with additional catalog page templates (2017).',
 				'The study project on an intensive online course "HTML/CSS - Basics" by "HTML Academy".</p>',
@@ -777,16 +777,16 @@ $(function() {
 				'<b>Cross-browser compatibility</b>: Chrome, Opera, Firefox, Safari, IE-11, Edge.</p>'
 			].join(' '),
 			thumbnail: [
-				'img/code-gallery/large/nerds/nerds.jpg',
-				'img/code-gallery/small/nerds/nerds-1.jpeg',
-				'img/code-gallery/small/nerds/nerds-2.jpeg',
-				'img/code-gallery/small/nerds/nerds-3.jpg',
+				'img/gallery/large/nerds/nerds.jpg',
+				'img/gallery/small/nerds/nerds-1.jpeg',
+				'img/gallery/small/nerds/nerds-2.jpeg',
+				'img/gallery/small/nerds/nerds-3.jpg',
 			],
 			large: [
-				'img/code-gallery/large/nerds/nerds.jpg',
-				'img/code-gallery/large/nerds/nerds-1.jpg',
-				'img/code-gallery/large/nerds/nerds-2.jpeg',
-				'img/code-gallery/large/nerds/nerds-3.jpg',
+				'img/gallery/large/nerds/nerds.jpg',
+				'img/gallery/large/nerds/nerds-1.jpg',
+				'img/gallery/large/nerds/nerds-2.jpeg',
+				'img/gallery/large/nerds/nerds-3.jpg',
 			],
 			img_title: [
 				'"Nerds" screen',
@@ -805,7 +805,7 @@ $(function() {
 		},
 		{
 			title: 'Technomart',
-			logo: 'img/code-gallery/logo/techmart-logo.png',
+			logo: 'img/gallery/logo/techmart-logo.png',
 			description: [
 				'<p>Online store of construction materials. A landing page with an additional page of the product catalog.',
 				'A personal project for an intensive online course "HTML/CSS - Basics" by HTML Academy (2017).</p>',
@@ -813,16 +813,16 @@ $(function() {
 				'<b>Cross-browser compatibility</b>: Chrome, Opera, Firefox, Safari, IE-11, Edge.</p>'
 			].join(' '),
 			thumbnail: [
-				'img/code-gallery/large/technomart/technomart.jpg',
-				'img/code-gallery/small/technomart/tech-1.jpg',
-				'img/code-gallery/small/technomart/tech-2.jpg',
-				'img/code-gallery/small/technomart/tech-3.jpg',
+				'img/gallery/large/technomart/technomart.jpg',
+				'img/gallery/small/technomart/tech-1.jpg',
+				'img/gallery/small/technomart/tech-2.jpg',
+				'img/gallery/small/technomart/tech-3.jpg',
 			],
 			large: [
-				'img/code-gallery/large/technomart/technomart.jpg',
-				'img/code-gallery/large/technomart/tech-1.jpg',
-				'img/code-gallery/large/technomart/tech-2.jpg',
-				'img/code-gallery/large/technomart/tech-3.jpg',
+				'img/gallery/large/technomart/technomart.jpg',
+				'img/gallery/large/technomart/tech-1.jpg',
+				'img/gallery/large/technomart/tech-2.jpg',
+				'img/gallery/large/technomart/tech-3.jpg',
 			],
 			img_title: [
 				'"Technomart" screen',
@@ -841,7 +841,7 @@ $(function() {
 		},
 		{
 			title: 'Barbershop «Borodinski»',
-			logo: 'img/code-gallery/logo/boroda-logo.png',
+			logo: 'img/gallery/logo/boroda-logo.png',
 			description: [
 				'<p>Website for a barbershop <b>«Borodinski»</b>, with additional catalog page templates (2017).',
 				'The study project on an intensive online course "HTML/CSS - Basics" by "HTML Academy".</p>',
@@ -849,16 +849,16 @@ $(function() {
 				'<b>Cross-browser compatibility</b>: Chrome, Opera, Firefox, Safari, IE-11, Edge, Android.</p>'
 			].join(' '),
 			thumbnail: [
-				'img/code-gallery/large/barbershop/barbershop.jpg',
-				'img/code-gallery/small/barbershop/barber-1.jpg',
-				'img/code-gallery/small/barbershop/barber-2.jpg',
-				'img/code-gallery/small/barbershop/barber-3.jpg'
+				'img/gallery/large/barbershop/barbershop.jpg',
+				'img/gallery/small/barbershop/barber-1.jpg',
+				'img/gallery/small/barbershop/barber-2.jpg',
+				'img/gallery/small/barbershop/barber-3.jpg'
 			],
 			large: [
-				'img/code-gallery/large/barbershop/barbershop.jpg',
-				'img/code-gallery/large/barbershop/barber-1.jpg',
-				'img/code-gallery/large/barbershop/barber-2.jpg',
-				'img/code-gallery/large/barbershop/barber-3.jpg'
+				'img/gallery/large/barbershop/barbershop.jpg',
+				'img/gallery/large/barbershop/barber-1.jpg',
+				'img/gallery/large/barbershop/barber-2.jpg',
+				'img/gallery/large/barbershop/barber-3.jpg'
 			],
 			img_title: [
 				'"Barbershop" screen',
