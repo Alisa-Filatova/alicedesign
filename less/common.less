@@ -2,7 +2,7 @@
 @import 'variables';
 
 html[lang="ru"] {
-  --font-secondary: 'Zen Maru Gothic', 'Arial', serif;
+  --font-secondary: 'Nunito', 'Arial', sans-serif;
 }
 
 body {
@@ -20,6 +20,7 @@ body {
   overflow-x: hidden;
   box-sizing: border-box;
   print-color-adjust: exact;
+  min-width: @screen-m;
 
   @media print {
     @page {
@@ -48,8 +49,7 @@ body {
 }
 
 .container {
-  width: 100%;
-  max-width: var(--container-size);
+  width: var(--container-size);
   margin: 0 auto;
 }
 

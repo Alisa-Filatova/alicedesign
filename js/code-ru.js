@@ -91,7 +91,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Перейти на сайт',
-                        url: 'http://ezy-town.alicedesign.ru/',
+                        url: 'http://ezy-town.alisafilatova.ru/',
                         new_window: true
                     }
                 ],
@@ -127,7 +127,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Перейти на сайт',
-                        url: 'http://vgo.alicedesign.ru/',
+                        url: 'http://vgo.alisafilatova.ru/',
                         new_window: true
                     },
                 ],
@@ -160,7 +160,7 @@ $(function() {
                 tags: ['Отзывчивая верстка']
             },
             {
-                title: 'goroshkodance.ru',
+                title: 'Goroshko Dance',
                 description: [
                     'Лендинг для танцевальной школы хореографа Саши Горошко (финалистка 4 сезона шоу «ТАНЦЫ» на ТНТ).',
                     'Назначение сайта: информационная поддержка учеников, привлечение новых студентов, портфолио,',
@@ -186,11 +186,11 @@ $(function() {
                     'img/code-gallery/large/goroshko-4.jpg',
                     'img/code-gallery/large/goroshko-5.jpg'
                 ],
-                img_title: ['goroshkodance.ru'],
+                img_title: ['goroshkodance'],
                 button_list: [
                     {
                         title: 'Перейти на сайт',
-                        url: 'http://goroshkodance.ru/',
+                        url: 'https://goroshkodance.alisafilatova.ru/',
                         new_window: true
                     },
                     {
@@ -232,7 +232,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Перейти на сайт',
-                        url: 'http://nataliaphoto.alicedesign.ru',
+                        url: 'http://nataliaphoto.alisafilatova.ru',
                         new_window: true
                     },
                     {
@@ -345,7 +345,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Перейти на сайт',
-                        url: 'http://lenortat.alicedesign.ru/',
+                        url: 'http://lenortat.alisafilatova.ru/',
                         new_window: true
                     },
                     {
@@ -423,7 +423,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Перейти на сайт',
-                        url: 'http://code-and-magic.alicedesign.ru',
+                        url: 'http://code-and-magic.alisafilatova.ru',
                         new_window: true
                     },
                     {
@@ -463,7 +463,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Перейти на сайт',
-                        url: 'http://six-cities.alicedesign.ru',
+                        url: 'http://six-cities.alisafilatova.ru',
                         new_window: true
                     },
                     {
@@ -535,7 +535,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Перейти на сайт',
-                        url: 'http://moowle.alicedesign.ru',
+                        url: 'http://moowle.alisafilatova.ru',
                         new_window: true
                     },
                     {
@@ -596,7 +596,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Перейти на сайт',
-                        url: 'http://lookbook.alicedesign.ru',
+                        url: 'http://lookbook.alisafilatova.ru',
                         new_window: true
                     },
                     {
@@ -634,7 +634,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Перейти на сайт',
-                        url: 'http://sedona.alicedesign.ru',
+                        url: 'http://sedona.alisafilatova.ru',
                         new_window: true
                     },
                     {
@@ -675,7 +675,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Перейти на сайт',
-                        url: 'http://pink.alicedesign.ru',
+                        url: 'http://pink.alisafilatova.ru',
                         new_window: true
                     },
                     {
@@ -711,7 +711,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Перейти на сайт',
-                        url: 'http://technomart.alicedesign.ru',
+                        url: 'http://technomart.alisafilatova.ru',
                         new_window: true
                     },
                 ],
@@ -739,7 +739,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Перейти на сайт',
-                        url: 'http://nerds.alicedesign.ru',
+                        url: 'http://nerds.alisafilatova.ru',
                         new_window: true
                     },
                 ],
@@ -769,7 +769,7 @@ $(function() {
                 button_list: [
                     {
                         title: 'Перейти на сайт',
-                        url: 'http://barbershop.alicedesign.ru',
+                        url: 'http://barbershop.alisafilatova.ru',
                         new_window: true
                     },
                     {

@@ -345,7 +345,7 @@ $(function() {
 		button_list: [
 			{
 				title: 'Visit Website',
-				url: 'http://goroshkodance.ru/',
+				url: 'http://goroshkodance.alisafilatova.ru/',
 				new_window: true
 			},
 		],

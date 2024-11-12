@@ -232,6 +232,8 @@ $.fn.elastic_grid = function(config){
         return false;
     }
 
+    // //initial filter nav
+    // container.html('<div class="wagwep-container"><nav id="porfolio-nav" class="clearfix"><ul id="portfolio-filter" class="nav nav-tabs clearfix"></ul></nav></div>');
 
     //initial items
     var gridContent = "";
@@ -608,20 +610,20 @@ function createList(text){
     Preview.prototype = {
         create : function() {
             // create Preview structure:
-            this.$title = $( '<h3 class="gallery__item-title"></h3>' );
-            this.$logo = $( '<img class="gallery__item-logo" src=""></img>' );
-            this.$description = $( '<p class="gallery__item-description"></p>' );
+            this.$title = $( '<h2 class="gallery__item-title"></h2>' );
+            this.$logo = $( '<img class="gallery__item-logo"/>' );
+            this.$description = $( '<section class="gallery__item-description"></section>' );
             this.$href = $( '<a class="button gallery__button" href="#">Visit website</a>' );
-            this.$detailButtonList = $( '<div class="gallery__buttons-list"></div>' );
-            this.$details = $( '<div class="gallery__details"></div>' ).append( this.$title, this.$description, this.$detailButtonList );
+            this.$detailButtonList = $( '<footer class="gallery__buttons-list"></footer>' );
+            this.$details = $( '<article class="gallery__details"></article>' ).append( this.$title, this.$description, this.$detailButtonList );
             this.$loading = $( '<div class="loader loader_overlay"></div>' );
-            this.$fullimage = $( '<div class="gallery__full-img-box"></div>' ).append( this.$loading );
+            this.$fullimage = $( '<figure class="gallery__full-img-box"></figure>' ).append( this.$loading );
             this.$detailsLeftPart = $( '<div class="gallery__details gallery__details_left"></div>' ).append( this.$fullimage );
             this.$closePreview = $( '<button role="button" class="close-button gallery__close-button" title="close window">Close</button>' );
             this.$previewInner = $( '<dialog class="gallery__popup"></dialog>' ).append( this.$detailsLeftPart, this.$details, this.$closePreview );
             this.$previewEl = $( '<div class="gallery__popup-overlay"></div>' ).append( this.$previewInner );
             // append preview element to the item
-            this.$item.append( $('<div class="gallery__pointer"></div>') );
+            // this.$item.append( $('<div class="gallery__pointer"></div>') );
             this.$item.append( this.getEl() );
 
             // set the transitions for the preview and the item
@@ -919,8 +921,8 @@ function createList(text){
         // save item´s size and offset
         saveItemInfo( true );
 
-        // //init filter
-        // localStorage.setItem("filter-all", true);
+        //init filter
+        localStorage.setItem("filter-all", true);
     } );
 
 }

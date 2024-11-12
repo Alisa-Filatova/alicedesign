@@ -11,11 +11,9 @@ $(function() {
         hoverDirection: true,
         hoverDelay: 0,
         hoverInverse: false,
-        expandingSpeed: 500,
-        expandingHeight: 500,
         items: [
             {
-                title: 'goroshkodance.ru',
+                title: 'Goroshko Dance',
                 description: [
                     'Лендинг для танцевальной школы хореографа Александры Горошко (участница 4 сезона шоу «ТАНЦЫ» на ТНТ).',
                     'Назначение сайта: информационная поддержка учеников, привлечение новых студентов, портфолио,',
@@ -41,11 +39,11 @@ $(function() {
                     'img/code-gallery/large/goroshko-4.jpg',
                     'img/code-gallery/large/goroshko-5.jpg'
                 ],
-                img_title: ['goroshkodance.ru'],
+                img_title: ['goroshkodance'],
                 button_list: [
                     {
                         title: 'Перейти на сайт',
-                        url: 'http://goroshkodance.ru/',
+                        url: 'https://goroshkodance.alisafilatova.ru/',
                         new_window: true
                     },
                     {
