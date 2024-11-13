@@ -582,7 +582,7 @@ function createList(text){
 
     function hidePreview() {
         //hide pointer
-        $items.find('.gallery__pointer').remove();
+        $items.find('.gallery__popup-overlay').remove();
 
         current = -1;
         var preview = $.data( container, 'preview' );
@@ -736,14 +736,12 @@ function createList(text){
 
                         if ($largePhoto && !$youtube) {
                             $('<img alt=""/>').on('load', function(){
-                                self.$fullimage.find('iframe').fadeOut(500, function(){
-                                    self.$fullimage.find('img').fadeIn(500).attr('alt', $titlePhoto).attr('title', $titlePhoto).attr('src', $largePhoto);
-                                })
+                                self.$fullimage.find('iframe').attr('src', '').hide();
+                                self.$fullimage.find('img').fadeIn(500).attr('alt', $titlePhoto).attr('title', $titlePhoto).attr('src', $largePhoto);
                             }).attr('alt', $titlePhoto).attr('title', $titlePhoto).attr('src', $largePhoto);
-                        }else{
-                            self.$fullimage.find('img').fadeOut(500, function() {
-                                self.$fullimage.find('iframe').fadeIn(500).attr('src', $youtube);
-                            });
+                        }else {
+                            self.$fullimage.find('img').attr('src', '').hide(); 
+                            self.$fullimage.find('iframe').fadeIn(500).attr('src', $youtube);
                         }
                     });
                     self.$detailsLeftPart.append(carousel);
@@ -757,7 +755,7 @@ function createList(text){
                 if( self.$fullimage.is( ':visible' ) ) {
                     this.$loading.show();
 
-                    var iframe = $('<iframe class="gallery__video" width="100%" height="100%" frameborder="0" allowtransparency="true"></iframe>');
+                    var iframe = $('<iframe class="gallery__video" width="100%" height="100%" frameborder="0"></iframe>');
                     var img = $( '<img class="gallery__full-img" alt=""/>' );
 
                     self.$fullimage.append(iframe);
@@ -773,7 +771,7 @@ function createList(text){
                         img.on('load', function() {
                             var $img = $( this );
                             if( $img.attr( 'src' ) === $largePhoto ) {
-                                self.$loading.hide();
+                               
                                 // self.$fullimage.find('iframe, img').fadeOut(500, function(){
                                 //     self.$fullimage.find('img').attr('src', $largePhoto);
                                 // });
@@ -782,14 +780,15 @@ function createList(text){
                                 self.$fullimage.find('iframe').fadeOut(150, function(){
                                     self.$fullimage.append( self.$largeImg );
                                 });
+                                self.$loading.hide();
                             }
                         } ).attr( 'src', eldata.large[0] );
 
                     }else{
-                        self.$loading.hide();
                         self.$fullimage.find('img').fadeOut(500, function(){
                             self.$fullimage.find('iframe').fadeIn(500).attr('src', $youtube);
                         });
+                        self.$loading.hide();
                     }
                 }
 
