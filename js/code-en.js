@@ -137,8 +137,8 @@ $(function() {
 				large: [
 					'img/gallery/large/ezy-town/ezy-town.jpg',
 					'img/gallery/video/ezy_town.mp4',
-					'img/gallery/large/ezy-town/town1-1.jpeg',
-					'img/gallery/large/ezy-town/town1-2.jpeg',
+					'img/gallery/large/ezy-town/town1-1.jpg',
+					'img/gallery/large/ezy-town/town1-2.jpg',
 				],
 				img_title: [
 					'Ezy town landing', 
@@ -551,7 +551,7 @@ $(function() {
 				'Main screen',
 				'Character window',
 				'Reviews',
-				'Gallery',
+				'Gallery'
 			],
 			button_list: [
 				{
