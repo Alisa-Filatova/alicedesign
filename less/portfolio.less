@@ -24,11 +24,19 @@
     --focus-ring-bg: var(--color-blue-light);
     position: relative; // for back_button
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-end;
     gap: 16px;
-    padding: 80px 80px var(--padding-m);
+    padding: 20px 20px var(--padding-s);
     color: var(--color-primary-dark);
+
+    @media (min-width: @screen-s) {
+      padding: 80px 80px var(--padding-m);
+    }
+
+    @media (min-width: @screen-l) {
+      justify-content: space-between;
+    }
   }
 
   &__heading {
@@ -36,6 +44,10 @@
     padding: var(--padding-l);
     line-height: var(--line-height-l);
     font-weight: 400;
+
+    @media (max-width: @screen-s) {
+      .heading(var(--heading-size-s));
+    }
   }
 
   &__description {
@@ -45,15 +57,36 @@
     line-height: var(--line-height-l);
     font-family: var(--font-secondary);
     text-align: center;
+
+    @media (max-width: @screen-s) {
+      width: 80%;
+      max-width: 700px;
+      margin: 20px auto;
+    }
   }
 
   &__back-button {
     flex-shrink: 0;
+    margin-right: 95px;
     transform: rotate(90deg);
+
+    @media (max-width: @screen-s) {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+    }
   }
 
   &__lang-switcher {
     flex-shrink: 0;
+    margin-left: 16px;
+
+    @media (max-width: @screen-s) {
+      --link-color: var(--text-color-inverted);
+      position: absolute;
+      top: 4px;
+      right: 4px;
+    }
   }
 }
 
@@ -62,19 +95,20 @@
   font-family: var(--font-secondary);
   
   &__grid {
-    --grid-item-size: 420px;
+    --grid-item-size: 100%;
     --focus-ring-bg: var(--color-blue-light);
     .listReset();
     position: relative; // for expander
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     gap: 8px;
     padding: 0 var(--padding-l);
 
     @media (min-width: @screen-xs) {
+      --grid-item-size: 420px;
       flex-direction: row;
+      justify-content: center;
+      align-items: center;
       flex-wrap: wrap;
     }
 
@@ -115,7 +149,8 @@
   &__item-preview {
     position: relative;
     display: block;
-    width: var(--grid-item-size);
+    width: 100%;
+    max-width: var(--grid-item-size);
     height: 324px;
     object-fit: cover;
   }

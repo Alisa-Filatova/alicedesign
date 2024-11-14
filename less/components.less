@@ -171,6 +171,7 @@
 
 .lang-switcher {
   --underline-height: 4px;
+  --link-color: var(--text-color-primary);
   .listReset();
   display: flex;
   align-items: center;
@@ -182,6 +183,7 @@
   &__item:first-child::after {
     content: "|";
     font-size: var(--font-size-l);
+    color: var(--link-color);
   }
 
   &__link {
@@ -194,7 +196,7 @@
     font-size: var(--font-size-l);
     transition: var(--transition-base);
     border-radius: var(--border-radius-m);
-    color: var(--text-color-primary);
+    color: var(--link-color);
 
     &_active {
       color: var(--text-color-accent);
