@@ -12,7 +12,6 @@ module.exports = {
         code: './js/portfolio-code.js',
         webDesignEn: './js/portfolio-web-en.js',
         codeEn: './js/portfolio-code-en.js',
-        illustrations: './js/portfolio-illustrations.js'
     },
 
     output: {

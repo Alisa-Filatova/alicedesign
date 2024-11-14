@@ -11,15 +11,15 @@ $(function() {
 				title: 'Wrike',
 				logo: 'img/gallery/logo/wrike-logo.svg',
 				description: [
-					'<a class="text-link" href="https://www.wrike.com/" target="_blank" rel="noopener noreferrer">Wrike</a> это платформа для управления проектами с большим количеством внутренних приложений, таких как Менеджер задач, диаграммы Ганта, Календари, Отчеты, Файл-менеджемнт и многое другое. Клиентами Wrike являются такие компании, как Apple, Microsoft, Sony, Siemens, P&G и многие другие.<br><br> ' +
-					'Моей основной командой была <b>UI Kit team</b>, которая отвечала за библиотеку компонентов, внедрение дизайн-системы и accessibility.<br><br>' +
-					'Помимо этого успела порабоать с 3мя продуктовыми командами, основная из них - отвечающая за продукт <a class="text-link" href="https://www.wrike.com/features/online-proofing/" target="_blank" rel="noopener noreferrer">Proofing</a>, - хранение, управление, редактирование, обсуждение и утверждение разных типов файлов и их интеграций с другими сервисами и приложениями. Так же я работала с такими продуктами как <a class="text-link" href="https://www.wrike.com/features/team-project-calendar/" target="_blank" rel="noopener noreferrer">Calendar App</a>, <a class="text-link" href="https://www.wrike.com/features/approvals/" target="_blank" rel="noopener noreferrer">Approvals</a> and <a class="text-link" href="https://www.wrike.com/apps/" target="_blank" rel="noopener noreferrer">Integrations</a>. <br><br>',
-					'I participated in Knowledge sharing, Demo presentations, wrote and translated articles for the internal knowledge base, wrote rules for Stylelint, launched code improvement initiatives, did code reviews and design reviews.<br>Years of work in the company (2019-2023).<br><br>',
-					'<b>Stack and technologies</b>: React/TS, Angular/Dart, CSS/Less/PostCSS, HTML5/SVG, GitLab, Figma. <br>' +
-					'<b>Additionally</b>: BEM Methodology, Accessibility, Web Standards. <br>'+
-					'<b>Process</b>: Agile, Scrum. <br><br>'+
-					'<b>!DISCLAIMER: For viewers from Russia</b>: wrike.com is blocked for this counry. To visit this site links, you need to use a VPN. ',
-			].join(' '),
+					'<p><a class="text-link" href="https://www.wrike.com/" target="_blank" rel="noopener noreferrer">Wrike</a> - это платформа для управления проектами с большим количеством внутренних приложений, таких как менеджер задач, диаграммы Ганта, календари, отчеты, файл-менеджемнт и многое другое.</p> <p>Клиентами Wrike являются такие компании, как Apple, Microsoft, Sony, Siemens, P&G и многие другие.</p> ' +
+					'<p>Моей основной командой была <b>UI Kit team</b>, которая отвечала за библиотеку компонентов, внедрение дизайн-системы и accessibility.</p>' +
+					'<p>Помимо этого я успела порабоать с тремя продуктовыми командами, основная из них - отвечающая за продукт <a class="text-link" href="https://www.wrike.com/features/online-proofing/" target="_blank" rel="noopener noreferrer">Proofing</a> (хранение, управление, редактирование, обсуждение и утверждение разных типов файлов и их интеграций с другими сервисами и приложениями). Так же работала с продуктами <a class="text-link" href="https://www.wrike.com/features/team-project-calendar/" target="_blank" rel="noopener noreferrer">Calendar App</a>, <a class="text-link" href="https://www.wrike.com/features/approvals/" target="_blank" rel="noopener noreferrer">Approvals</a> и <a class="text-link" href="https://www.wrike.com/apps/" target="_blank" rel="noopener noreferrer">Integrations</a>.</p>',
+					'<p>Участвовала в Knowledge sharing, Demo, делала презентации, писала и переводила гайды для внутренней базы знаний, проводила code-review и design-review. Годы работы в компании: 2019-2023.</p>',
+					'<p><b>Стек</b>: CSS3/Less/PostCSS, HTML5/SVG, React/TS, Angular/Dart</p>' +
+					'<p><b>Дополнительно</b>: BEM, Accessibility, Web Standards, GitLab, Figma<br>'+
+					'<b>Процессы</b>: Agile, Scrum</p>'+
+					'<p><strong><i>!ВНИМАНИЕ: Для зрителей из России</strong>: wrike.com не доступен для этого региона. Чтобы иметь возможность просматривать ссылки на этом ресурсе, необходимо использовать VPN.</i></p> ',
+				].join(' '),
 					thumbnail: [
 						'img/gallery/large/wrike/wrike.svg',
 						'img/gallery/small/wrike/wrike_intro.jpeg',
@@ -43,25 +43,25 @@ $(function() {
 					],
 					button_list: [
 						{
-							title: 'Visit website',
+							title: 'Открыть сайт',
 							url: 'https://wrike.com/',
 							new_window: true
 						},
 					],
-				tags: ['Fixed']
+				tags: ['']
 			},
 			{
 				title: 'Ezy.com',
 				logo: 'img/gallery/logo/ezy-logo.svg',
 				description: [
-					'<p><a class="text-link" href="https://ezy.com" target="_blank" rel="noopener noreferrer">EZY</a> is a SPA for esports players and gamers of Counter-Strike: Global Offensive, which serves to open game cases, sweepstakes and upgrades of weapon skins (2017-2019).</p> ' +
-					'<p>The project integrates with the players personal account on Steam, contains such great features as <a class="text-link" href="https://ezy.com/cases/46628" target="_blank" rel="noopener noreferrer">Opening CS:GO cases</a> roulette, <a class="text-link" href="https://ezy.com/upgrade" target="_blank" rel="noopener noreferrer">Upgrading</a> items etc, that are visualized using a variety of animations to create a sense of the game for the user. The other sections of the application are also filled with a bright interface and animations, which was a definite challenge for productivity.</p>' +
-					'<p>My job was to develop the user interface, components, and their basic logic, from scratch, using a variety of animations, with support for 11 languages, different devices and browsers. Also creation and maintaining of a UI Kit library.</p> ' +
-					'<p>I have also worked on advertising landing pages, information sites for the company, a showcase of components and somtimes HTML emails.</p>' +
-					'<p>I joined the company as an HTML coder. Working under the mentorship of a senior Frontend developer, I mastered the basic work with React.js and became a Junior Frontend developer. I worked very closely with the UI/UX and web design team, I consider this a necessary process to achieve the best result on the frontend.</p> ' +
-					'<p><b>Stack and technologies</b>: React.js, TypeScript, HTML5/CSS3, Less, CSS Modules, JavaScript, Storybook, AntDesign, Figma, Sketch, PO Editor, Adobe Photoshop.<br>'+
-					'<b>Cross-browser compatibility</b>: Chrome, Opera, Firefox, Safari, Edge.</p>',
-					'<p><strong><i>!WARNING: For viewers from Russia</strong>: ezy.com can be blocked for this counry. If you are having problems connecting to the service, use a VPN.</i></p> ',
+					'<p><a class="text-link" href="https://ezy.com" target="_blank" rel="noopener noreferrer">EZY.com</a> - это сервис для геймеров вселенной Counter-Strike: Global Offensive, который служит для открытия игровых кейсов, апгрейда и вывода игровых предметов (скинов) (2017-2019).</p> ' +
+					'<p>Приложение работает в связке с аккаунтом Steam, содержит такие крупные фичи как <a class="text-link" href="https://ezy.com/cases/46628" target="_blank" rel="noopener noreferrer">Рулетка с открытием CS:GO кейсов</a>, <a class="text-link" href="https://ezy.com/upgrade" target="_blank" rel="noopener noreferrer">Upgrade скинов</a> и прочих, которые были созданы с большим количеством графики и анимаций, чтобы у пользователя создавалось ощущение, что он по прежнему находится в игре. Другие разделы приложения также наполнены ярким интерфейсом и анимацией, что, безусловно, было вызовом для производительности.</p>' +
+					'<p>Моя работа заключалась в разработке UI, компонентов и их базовой логики, CSS анимаций. Верстка делалась с учетом поддержки 11-ти языков, различных устройств и браузеров, полностью с нуля, а так же использованием AntDesign.</p> ' +
+					'<p>Помимо основного продукта я разрабатывала рекламные лендинги, информационные сайты для компании, витрину компонентов, иногда HTML-письма.</p>' +
+					'<p>Работая под наставничеством старшего Frontend-разработчика, освоила React.js и перешла на должность Junior Frontend разработчика. Очень тесно работала с командой UI/UX и web-дизайна, считаю это необходимым процессом для достижения наилучшего результата по фронтенду.</p> ' +
+					'<p><b>Стек и технологии</b>: React.js, TypeScript, HTML5/CSS3, Less, CSS Modules, JavaScript, Storybook, AntDesign, Figma, Sketch, Adobe Photoshop, PO Editor<br>'+
+					'<b>Поддержка браузерами</b>: Chrome, Opera, Firefox, Safari, Edge.</p>',
+					'<p><strong><i>!ВНИМАНИЕ: для зрителей из России</strong>: ezy.com может быть не доступен в этом регионе. Если у вас возникли проблемы с доступом к сайту - используйте VPN.</i></p> ',
 				].join(' '),
 				thumbnail: [
 					'img/gallery/small/ezy/interface.jpg',
@@ -107,25 +107,25 @@ $(function() {
 				],
 				button_list: [
 					{
-						title: 'Visit ezy.com',
+						title: 'Открыть сайт',
 						url: 'https://ezy.com/',
 						new_window: true
 					},
 					{
-						title: 'Making of Ezy.com',
+						title: 'Сайт о создании проекта',
 						url: 'http://ezydesign.alisafilatova.ru/',
 						new_window: true
 					}
 				],
-				tags: ['Responsive'],
+				tags: [''],
 			},
 			{
 				title: 'Ezy Town',
 				logo: 'img/gallery/logo/ezy-town-logo.png',
 				description: [
-					'<p>Advertising landing page for Ezy.com (Cases and items for Counter Strike Global Offensive and VGO blockchain system) (2018).</p> <p>Created in collaboration with an animation studio that drew animated pre-roll and graphics for the landing page. The landing page is adapted for tablets and mobile devices.</p>',
-					'<p><b>Stack and technologies</b>: HTML5/CSS3, JavaScript, Sketch.<br/>',
-					'<b>Cross-browser compatibility</b>: Chrome, Opera, Firefox, Safari, Edge.</p>'
+					'<p>Рекламный лендинг для Ezy.com (Кейсы и предметы для Counter Strike Global Offensive и VGO blockchain system) (2018).</p> <p>Создано в сотрудничестве с анимационной студией, которая нарисовала анимационный ролик и графику для этого лендинга. Страница адаптирована для планшетов и мобильных устройств, макет Sketch.</p>',
+					'<p><b>Стек</b>: HTML5/CSS3, JavaScript.<br/>',
+					'<b>Поддержка браузеров</b>: Chrome, Opera, Firefox, Safari, Edge.</p>'
 				].join(' '),
 				thumbnail: [
 					'img/gallery/large/ezy-town/ezy-town.jpg',
@@ -136,8 +136,8 @@ $(function() {
 				large: [
 					'img/gallery/large/ezy-town/ezy-town.jpg',
 					'img/gallery/video/ezy_town.mp4',
-					'img/gallery/large/ezy-town/town1-1.jpeg',
-					'img/gallery/large/ezy-town/town1-2.jpeg',
+					'img/gallery/large/ezy-town/town1-1.jpg',
+					'img/gallery/large/ezy-town/town1-2.jpg',
 				],
 				img_title: [
 					'Ezy town landing', 
@@ -147,21 +147,21 @@ $(function() {
 				],
 				button_list: [
 					{
-						title: 'Visit website',
+						title: 'Открыть сайт',
 						url: 'http://ezy-town.alisafilatova.ru/',
 						new_window: true
 					},
 				],
-			tags: ['Responsive']
+			tags: ['']
 		},
 		{
 			title: 'Future of cases is here',
 			logo: 'img/gallery/logo/vgo-logo.svg',
 			description: [
-				'<p>Promo landing-page for SPA EZY.com about VGO & WAX system (Cases and items for Counter Strike Global Offensive and VGO blockchain system) (2018).</p>',
-				'<p>The landing-page is adapted for tablets and mobile devices.</p>',
-				'<p><b>Stack and technologies</b>: HTML5/CSS3, JavaScript, Sketch.<br/>',
-				'<b>Cross-browser compatibility</b>: Chrome, Opera, Firefox, Safari, Edge.</p>'
+				'<p>Промо лендинг о преимуществах VGO & WAX для SPA EZY.com (Кейсы и предметы для Counter Strike Global Offensive и VGO blockchain system) (2018).</p>',
+				'<p>Страница адаптирована под мобильные устройства и планшеты, макет из Sketch.</p>',
+				'<p><b>Стек</b>: HTML5/CSS3, JavaScript.<br/>',
+				'<b>Поддержка браузеров</b>: Chrome, Opera, Firefox, Safari, Edge.</p>'
 			].join(' '),
 			thumbnail: [
 				'img/gallery/large/ezy-vgo/vgo.jpg',
@@ -183,23 +183,23 @@ $(function() {
 			],
 			button_list: [
 				{
-					title: 'Visit website',
+					title: 'Открыть сайт',
 					url: 'http://vgo.alisafilatova.ru/',
 					new_window: true
 				}
 			],
-			tags: ['Responsive']
+			tags: ['']
 		},
 		{
 			title: 'Ezy Exchanger',
 			logo: 'img/gallery/logo/ezy-ex-logo.svg',
 			description: [
-				'<p>SPA for gamers and esport fans (2018). Exchanger for digital game items (skins) between players of Counter-Strike: Global Offensive. The first version of EZY.com app.</p> ' +
-				'<p>My job was to develop the user interface, components, and their basic logic, from scratch. '+
-				'The web app is adapted for tablets and mobile devices.</p>' +
-				'<p><b>Stack and technologies</b>: React.js, TypeScript, SVG, HTML5/CSS3, Less, Storybook, Sketch.<br>' +
-				'<b>Cross-browser compatibility</b>: Chrome, Opera, Firefox, Safari, Edge.</p>' +
-				'<p><i>This version of the application Ezy is no longer available, because an updated version is working.<i></p>',
+				'<p>SPA для геймеров и киберспортсменов (2018). Обменник для цифровых игровых предметов (скинов) между игроками Counter-Strike: Global Offensive. Первая версия приложения EZY.com.</p> ' +
+				'<p>Моя работа заключалась в разработке UI, компонентов и их базовой логики, CSS анимаций. Вестка делалась полностью с нуля.'+
+				'Приложение адаптировано под мобильные устройства.</p>' +
+				'<p><b>Стек</b>: React.js, TypeScript, HTML5/CSS3, Less, Storybook, Sketch.<br>' +
+				'<b>Поддержка браузеров</b>: Chrome, Opera, Firefox, Safari, Edge.</p>' +
+				'<p><i>Эта версия приложения Ezy больше недоступна, так как работает обновленная версия.<i></p>',
 			].join(' '),
 			thumbnail: [
 				'img/gallery/large/ezy-ex/exchanger.jpg',
@@ -223,17 +223,16 @@ $(function() {
 				'Payments popup'
 			],
 			button_list: [],
-			tags: ['Responsive']
+			tags: ['']
 	},
 	{
 		title: 'Making of Ezy.com',
 		logo: 'img/gallery/logo/ezy-logo.svg',
 		description: [
-			'<p>Landing page about creation of <b>EZY.com</b> project (2019). ' +
-			'Opening cases app for Counter-Strike: Global Offensive. ' +
-			'My job included frontend development (junior).</p>' +
-			'<p><b>In project I used</b>: HTML5/CSS3, base layout by HTML5UP template.</br>',
-			'<b>Cross-browser compatibility</b>: Chrome, Opera, Firefox, Safari.</p>',
+			'<p>Landing page о создании <b>EZY.com</b> (2019), ' +
+			'приложения для открытия кейсов Counter-Strike: Global Offensive.</p> <p>Отзывчивая верстка по макету из Figma с ипользованием шаблона HTML5UP.</p>' +
+			'<p><b>Стек</b>: HTML5/CSS3, HTML5UP template.</br>',
+			'<b>Поддержка браузеров</b>: Chrome, Opera, Firefox, Safari.</p>',
 		].join(' '),
 		thumbnail: [
 			'img/gallery/large/about-ezy/about-ezy.jpg',
@@ -258,21 +257,22 @@ $(function() {
 			],
 		button_list: [
 			{
-				title: 'Visit website',
+				title: 'Открыть сайт',
 				url: 'http://ezydesign.alisafilatova.ru/',
 				new_window: true
 			}
 		],
-		tags: ['Responsive']
+		tags: ['']
 	},
 	{
-		title: 'My Personal Web site',
+		title: 'alisafilatova.ru',
 		logo: 'img/gallery/logo/alice-logo.svg',
 		description: [
-			'<p>My personal portfolio website. The project I have done with my own design and illustrations, and a lot of css animations. The first version of the site was made in 2017. It was updated in 2024.</p>' + 
-			'<p>The purpose of this site is to show my skills as an HTML coder and web designer, as well as to share projects I took part. For this reason, the site is designed to be viewed from large screens and the mobile version is not initially intended. Therefore, <b>for the best experience, use a PC or Laptop.</b></p>' +
-			'<p><b>Stack and technologies</b>: HTML5/CSS3, LESS, jQuery, Adobe Photoshop, Adobe Illustrator.<br>'+
-			'<b>Cross-browser compatibility</b>: Chrome, Opera, Firefox, Safari, Edge.</p>'
+			'<p>Мой личный сайт портфолио. Проект я решила делать со своими иллюстрациями и обилием CSS анимацией.',
+       'Дизайн делала полностью сама, дав волю своей фантазии и стараясь не думать об ограничениях верстки. Первая вырсия была запущена в 2017. Обновлена в 2024.</p>' + 
+			'<p>Назначение сайта - портфолио и поиск работы, демонстрация проектов в которых я принимала участие, а так же полигон для эксперементов. Поэтому я не стала заострять внимание на мобильной версии и сделала сайт рассчитанный на большие экраны.</p><p><b><i> Для получения наилучшего опыта при просмотре - используйте ПК или ноутбук.</i></b></p>' +
+			'<p><b>Стек</b>: HTML5/CSS3, LESS, jQuery, Adobe Photoshop, Adobe Illustrator.<br>'+
+			'<b>Поддержка браузеров</b>: Chrome, Opera, Firefox, Safari, Edge.</p>'
 		].join(' '),
 		thumbnail: [
 			'img/gallery/large/alicedesign/alicedesign.jpg',
@@ -297,30 +297,30 @@ $(function() {
 		],
 		button_list: [
 			{
-				title: 'Visit website',
+				title: 'Открыть сайт',
 				url: 'http://alisafilatova.ru/',
 				new_window: true
 			},
 			{
-				title: 'Source code',
+				title: 'Исходный код',
 				url: 'https://github.com/Alisa-Filatova/alicedesign',
 				new_window: true
 			}
 		],
-		tags: ['Fixed']
+		tags: ['']
 	},
 	{
 		title: 'Goroshko Dance',
 		logo: 'img/gallery/logo/goroshko-logo.svg',
 		description: [
-			'<p>Personal website of choreographer and dancer Sasha Goroshko (semi-finalist of 4 season of the TV-show "DANCING"). Freelance project, my development and web design (2017).</p>',
-			'<p>The purpose of the website: informational support for students, attract new students, portfolio',
-			'information for cooperation. Main target audience: girls between 12 and 25 years living in Moscow.</p>',
-			'<p>For these purposes I decided to use the style of "Landing Page",',
-			'since it allows to provide all necessary information on the one page.',
-			'The website is adapted for tablets and mobile devices.</p>',
-			'<p><b>Stack and technologies</b>: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM, Less, jQuery, JavaScript.</br>',
-			'<b>Cross-browser compatibility</b>: Chrome, Opera, Firefox, Safari, IE-11, Edge.</p>'
+			'<p>Лендинг для танцевальной школы хореографа Саши Горошко, полуфиналистки 4 сезона шоу «ТАНЦЫ» на ТНТ (Фриланс проект, моя разработка и веб дизайн, 2017).</p>',
+			'<p>Назначение сайта: информационная поддержка учеников, привлечение новых студентов, портфолио, информация для сотрудничества.</p>',
+			'<p>Основная целевая аудитория: девушки 14-25 лет, проживающие в Москве.</p>',
+			'<p>Для этих целей я решила делать "Landing Page",',
+			'так как этот формат позволяет быстро и эффективно донести информацию на одной странице.</p>',
+			'<p>Адаптивная, отзывчивая верстка, мой собственный дизайн и графика.</p>',
+			'<p><b>Стек и инструменты</b>: HTML5/CSS3, Less, jQuery, JavaScript, Adobe Photoshop, Adobe Illustrator, SVG.</br>',
+			'<b>Поддержка браузеров</b>: Chrome, Opera, Firefox, Safari, IE-11, Edge.</p>'
 		].join(' '),
 		thumbnail: [
 			'img/gallery/large/goroshko/goroshko-dance.jpg',
@@ -345,25 +345,24 @@ $(function() {
 		],
 		button_list: [
 			{
-				title: 'Visit website',
+				title: 'Открыть сайт',
 				url: 'https://goroshkodance.alisafilatova.ru/',
 				new_window: true
 			},
 		],
-		tags: ['Responsive']
+		tags: ['']
 	},
 	{
 		title: 'Natalie Photography',
 		logo: 'img/gallery/logo/nata-logo.svg',
 		description: [
-			'<p>Portfolio website of family and wedding photographer - Natalie Biriouk from California, USA (Freelance project, my development and web design, first version 2017, updated in 2019 with React.js). The site consists of nine pages.' ,
-			'Target audience: young mothers, housewives with children and couples.</p>',
-			'<p>The main style of the photographer - is shooting outside with a natural light,',
-			'so I decided to make a website with soft and innocent colours so that it associated with a handmade family photo album',
-			'decorated with flowers.</p>',
-			'<p>The website is adapted for tablets and mobile devices.</p>',
-			'<p><b>Stack and technologies</b>:  HTML5/CSS3, Less, React.js, JavaScript. Adobe Photoshop, Adobe Illustrator.</br>',
-			'<b>Cross-browser compatibility</b>: Chrome, Opera, Firefox, Safari, Edge.</p>'
+			'<p>Многостраничный сайт-портфолио семейного и свадебного фотографа Наталии Бирюк, из Калифорнии, США.</p> <p>(Фриланс проект, моя разработка и веб-дизайн. Запуск осуществлен в 2017, обновлен в 2019 с React.js).</p>' ,
+			'<p>Целевая аудитория: молодые мамы, семьи с детьми и семейные пары, проживающие в пригороде Калифорнии.',
+			'<p>Основной стиль фотографа - это съемка на улице при естественном освещении,',
+			'поэтому я решила создать сайт в мягких, светлых тонах, чтобы он ассоциировался с семейным фотоальбомом ручной работы, украшенным цветами.</p>',
+			'<p>Адаптивно-резиновая верстка.</p>',
+			'<p><b>Стек и инструменты</b>:  HTML5/CSS3, Less, React.js, JavaScript. Adobe Photoshop, Adobe Illustrator, Bootstrap.</br>',
+			'<b>Поддержка браузеров</b>: Chrome, Opera, Firefox, Safari, Edge.</p>'
 		].join(' '),
 			thumbnail: [
 				'img/gallery/large/natalia/natalia-photo.jpg',
@@ -388,30 +387,30 @@ $(function() {
 			],
 			button_list: [
 				{
-					title: 'Visit website',
+					title: 'Открыть сайт',
 					url: 'https://nataliaphoto.alisafilatova.ru',
 					new_window: true
 				},
 				{
-					title: 'Source code',
+					title: 'Исходный код',
 					url: 'https://github.com/Alisa-Filatova/natalia-photo',
 					new_window: true
 				}
 			],
-			tags: ['Responsive']
+			tags: ['']
 		},
 		{
 			title: 'Lenor TaT - Beauty-Studio',
 			logo: 'img/gallery/logo/lenor-tat-logo.svg',
 			description: [
-				'<p>The website of the Beauty-Studio of a full cycle by Tata Kurina (Freelance project, my development and web design, 2017).',
-				'Studio provides the services of hair stylist and atelier with design clothes.</p>',
-				'<p>The purpose of the website: information and attracting new clients.',
-				'Target audience: men and women 18-40 years old, mostly from the artistic and subcultue communities.</p>',
-				'<p>The website is adapted for tablets and mobile devices.</p>',
-				'<p><b>Stack and technologies</b>: Adobe Illustrator, SVG, Adobe Photoshop, HTML5/CSS3, BEM,',
-				'Less, jQuery Gamma Gallery, JavaScript.</br>',
-				'<b>Cross-browser compatibility</b>: Chrome, Opera, Firefox, Safari, IE-11, Edge.</p>'
+				'<p>Сайт имидж-студии Таты Куриной. Landing-page с дополнителными страницами галерей работ и формой записи к мастеру (Фриланс проект, моя разработка и веб дизайн, 2017).</p>',
+				'<p>Студия предоставляет услуги парикмахера-стилиста и ателье с авторской одеждой.',
+				'Назначение сайта: информация и привличение новых клиентов.',
+				'Целевая аудитория: творческие мужчины и женщины 18-40 лет, актеры, музыканты и представители субкультур.</p>',
+				'<p>Адаптивная верстка, мой дизайн.</p>',
+				'<p><b>Стек и инструменты</b>: HTML5/CSS3,',
+				'Less, jQuery Gamma Gallery, JavaScript, Adobe Illustrator, SVG, Adobe Photoshop.</br>',
+				'<b>Поддержка браузеров</b>: Chrome, Opera, Firefox, Safari, IE-11, Edge.</p>'
 			].join(' '),
 			thumbnail: [
 				'img/gallery/large/lenortat/lenor-tat.jpg',
@@ -439,21 +438,21 @@ $(function() {
 			],
 			button_list: [
 				{
-					title: 'Visit Website',
+					title: 'Открыть сайт',
 					url: 'http://lenortat.alisafilatova.ru/',
 					new_window: true
 				},
 			],
-			tags: ['Responsive']
+			tags: ['']
 		},
 		{
 			title: 'Netlab - International LLC',
 			logo: 'img/gallery/logo/netlab-logo.svg',
 			description: [
-				'<p>Information web-site for the "Netlab" internet solutions company (Cyprus), which I developed while working at "Neotech" LLC a subsidiary company in (2017). Web site consisting of 4 pages. Responsive design.</p>',
-				'<p><b>Stack and technologies</b>:' ,
-				'HTML5/CSS3, Less, BEM, JavaScript, Webpack, Adobe Photoshop.</br>',
-				'<b>Cross-browser compatibility</b>: Chrome, Opera, Firefox, Safari, IE-11, Edge, Android 4.1 + .</p>'
+				'<p>Многостраничный информационный сайт для IT-компании <b>"Netlab"</b> (Кипр), который я разработала во время работы в компании "Неотек" (2017). Адаптивный дизайн, макет Adobe Photoshop.</p>',
+				'<p><b>Стек и инструменты</b>:' ,
+				'HTML5/CSS3, Less, BEM, JavaScript, Webpack.</br>',
+				'<b>Поддержка браузеров</b>: Chrome, Opera, Firefox, Safari, IE-11, Edge, Android 4.1.</p>'
 			].join(' '),
 			thumbnail: [
 				'img/gallery/large/netlab/netlab.jpg',
@@ -478,21 +477,21 @@ $(function() {
 			],
 			button_list: [
 				{
-					title: 'Visit website',
+					title: 'Открыть сайт',
 					url: 'http://netlab.com.cy/',
 					new_window: true
 				}
 			],
-			tags: ['Responsive']
+			tags: ['']
 		},
 		{
 			title: 'fora.ru',
 			logo: 'img/gallery/logo/fora-logo.png',
 			description: [
-				'<p>Information web-site for the <b>Fora</b> - consulting company, which I developed while working at "Neotech" LLC a subsidiary company in (2018). Web site consisting of 4 pages. ',
-				'Responsive design.</p> <p><b>Technologies used in project</b>:' ,
-				'HTML5/CSS3, Less, BEM, JavaScript, Webpack, Sketch.</br>',
-				'<b>Cross-browser compatibility</b>: Chrome, Opera, Firefox, Safari, IE-11, Edge.</p>'
+				'<p>Многостраничный информационный сайт для консалтинговой компании <b>Fora</b>, который я разработала во время работы в компании "Неотек" (2018). ',
+				'Адаптивный дизайн.</p> <p><b>Стек и инструменты</b>:' ,
+				'HTML5/CSS3, Less, JavaScript, Webpack, Sketch.</br>',
+				'<b>Поддержка браузеров</b>: Chrome, Opera, Firefox, Safari, IE-11, Edge.</p>'
 			].join(' '),
 			thumbnail: [
 				'img/gallery/small/fora/fora.jpg',
@@ -514,22 +513,22 @@ $(function() {
 			],
 			button_list: [
 				{
-					title: 'Visit website',
+					title: 'Открыть сайт',
 					url: 'http://fora.ru',
 					new_window: true
 				},
 			],
-			tags: ['Responsive']
+			tags: ['']
 		},
 		{
 			title: 'Code and Magic',
 			logo: 'img/gallery/logo/code-logo.png',
 			description: [
-				'<p>Demo website for the 8bit game - "Code and Magic" (2018).',
-				'The study project on an intensive online course "JavaScript basics" by HTML Academy. In this course, I learned the basics of JavaScript and tried the jQuery library.</p>' ,
-				'<p><b>Stack and technologies</b>:',
+				'<p>Промо-сайт для игры «Code and Magic» (2017), где можно поиграть в демо-версию, создать вашего уникального персонажа, купить ему артефакты, посмотреть похожих персонажей, посмотреть галерею скриншотов, отзывы и оценьть игру.</p>',
+				'<p>Учебный проект на интенсивном онлайн-курсе «Базовый JavaScript» от «HTML-Academy». Верстка по готовому psd-макету (HTML-Academy) с некоторым изменением и добавлением элементов дизайна.</p>' ,
+				'<p><b>Стек и инструменты</b>:',
 				'HTML5/CSS3, JavaScript, jQuery, BEM, SVG, Adobe Photoshop.<br>',
-				'<b>Cross-browser compatibility</b>: Chrome, Opera, Firefox, Edge.</p>'
+				'<b>Поддержка браузеров</b>: Chrome, Opera, Firefox, Edge.</p>'
 			].join(' '),
 			thumbnail: [
 				'img/gallery/large/code-magic/code-and-magic.jpg',
@@ -550,33 +549,30 @@ $(function() {
 				'Main screen',
 				'Character window',
 				'Reviews',
-				'Gallery',
+				'Gallery'
 			],
 			button_list: [
 				{
-					title: 'Visit website',
+					title: 'Открыть сайт',
 					url: 'http://code-and-magic.alisafilatova.ru',
 					new_window: true
 				},
 				{
-					title: 'Source code',
+					title: 'Исходный код',
 					url: 'https://github.com/Alisa-Filatova/code-and-magic',
 					new_window: true
 				}
 			],
-			tags: ['Fixed']
+			tags: ['']
 		},
 		{
 			title: 'Moowle',
 			logo: 'img/gallery/logo/moowle-logo.png',
 			description: [
-				'<p><b>Moowle</b> — a streaming service for fans of great movies and TV series (2019). '+
-				'Detailed information about new movies, the ability to choose and create your' +
-				'own playlist to watch, discuss and more.'+
-				'Moowle — will help you to spend time with fun.</p>',
-				'<p>A personal project for an intensive online course "Professional JavaScript - level 2" by "HTML Academy". <br><br><i>Since the course was completed 5 years ago, the server located in the HTML Academy is no longer available and I cannot show the demo, only the source code.</i></p>' ,
-				'<p><b>Technologies I used and studied in the project</b>:',
-				'JavaScript (ES6), working with Webpack and vendor libraries.</p> ',
+				'<p><b>Moowle</b> — сервис для фанатов большого кино и телевизионных сериалов (2019). Подробная информация о горячих новинках кино, возможность выбрать и сформировать собственный список фильмов к просмотру, обсуждение кинофильмов и многое другое.</p>'+
+				'<p>Учебный проект на интенсивном онлайн-курсе «Профессиональный JavaScript уровень 2», в «HTML Academy». Верстка была предоставлена в html.</p><p> Технологии используемые и изучаемые в проекте:',
+         'JavaScript (ES6), работа с Webpack и сторонними библиотеками типа Moment.js.</p>',
+				'<p><i>Поскольку курс был завершен 5 лет назад, сервер, расположенный в HTML Academy, больше недоступен, и я не могу показать демо. Вы можете посмотреть исходный код.</i></p>' ,
 			].join(' '),
 			thumbnail: [
 				'img/gallery/large/moowle/moowle.jpg',
@@ -598,22 +594,22 @@ $(function() {
 			],
 			button_list: [
 				{
-					title: 'Source code',
+					title: 'Исходный код',
 					url: 'https://github.com/Alisa-Filatova/Cinemaddict',
 					new_window: true
 				}
 			],
-			tags: ['Fixed']
+			tags: ['']
 		},
 		{
 			title: '6/Cities - Rent Service',
 			logo: 'img/gallery/logo/6-cities-logo.svg',
 			description: [
-				'<p><b>6/Cities</b> - is a service for travelers who do not want to overpay for rent (2019). '+
-				'Choose one of six popular cities to travel to and get an up-to-date list of rental offers.</p> '+
-				'<p>Detailed information about accommodation, showing the object on the map, as well as a concise service interface will help you quickly choose the best offer.</p>',
-				'<p>A personal project for an intensive online course "Professional JavaScript level 3" by "HTML Academy".<br><br> <i>Since the course was completed 5 years ago, the server located in the HTML Academy is no longer available and I cannot show the demo, only the source code.</i></p>' ,
-				'<p><b>Stack and technologies I used and studied</b>:',
+				'<p><b>6/Cities</b> - сервис для путешественников, не желающих переплачивать за аренду жилья (2019). '+
+				'Выбирайте один из шести популярных городов для путешествий и получайте актуальный список предложений по аренде.</p> '+
+				'<p>Подробная информация о жилье, показ объекта на карте, а также лаконичный интерфейс сервиса помогут быстро выбрать оптимальное предложение.</p>',
+				'<p>Учебный проект на интенсивном онлайн-курсе «Профессиональный JavaScript уровень 3», в «HTML Academy».<br><br> <i>Поскольку курс был завершен 5 лет назад, сервер, расположенный в HTML Academy, больше недоступен, и я не могу показать демо. Вы можете посмотреть исходный код.</i></p>' ,
+				'<p><b>Стек и инструменты</b>:',
 				'TypeScript, React.js, Redux, testing by Jest.</p> '
 			].join(' '),
 			thumbnail: [
@@ -639,22 +635,22 @@ $(function() {
 			],
 			button_list: [
 				{
-					title: 'Source code',
+					title: 'Исходный код',
 					url: 'https://github.com/Alisa-Filatova/Six-cities',
 					new_window: true
 				}
 			],
-			tags: ['Fixed']
+			tags: ['']
 		},
 		{
 			title: 'Lookbook 2017',
 			logo: 'img/gallery/logo/lookbook.png',
 			description: [
-				'<p>Main page for design collection catalogue - Lookbook 2017.',
-				'Responsive design. Test task for the "Neotech" LLC company.</p>' ,
-				'<p><b>Technology used in the project</b>:',
-				'HTML5/CSS3, Less, BEM, JavaScript, Webpack, Adobe Photoshop.</br>',
-				'<b>Cross-browser compatibility</b>: Chrome, Opera, Firefox, Safari, IE-11, Edge, Android.</p>'
+				'<p>Главная страница сайта для коллекции одежды Lookbook 2017.',
+				'Адаптивно-резиновая верстка по готовому-psd макету. Тестовое задание для компании "Неотек".</p>' ,
+				'<p><b>Технологии используемые в проекте:</b>:',
+				'HTML5/CSS3, Less, JavaScript, Webpack, Adobe Photoshop.</br>',
+				'<b>Поддержка браузеров</b>: Chrome, Opera, Firefox, Safari, IE-11, Edge, Android.</p>'
 			].join(' '),
 			thumbnail: [
 				'img/gallery/large/lookbook/lookbook.jpg',
@@ -676,22 +672,22 @@ $(function() {
 			],
 			button_list: [
 				{
-					title: 'Visit website',
+					title: 'Открыть сайт',
 					url: 'http://lookbook.alisafilatova.ru',
 					new_window: true
 				},
 			],
-			tags: ['Responsive']
+			tags: ['']
 		},
 		{
 			title: 'Sedona',
 			logo: 'img/gallery/logo/sedona-logo.png',
 			description: [
-				'<p>Tourist information portal about the Sedona city, consisting of four pages (2017).',
-				'A personal project in an intensive online course "HTML/CSS - Advanced course" by "HTML Academy."' ,
-				'Responsive design.</p> <p><b>Technologies I used in the project</b>:',
-				'HTML5/CSS3, Flexbox, Less, BEM, JavaScript, jQuery, Adobe Photoshop.</br>',
-				'<b>Cross-browser compatibility</b>: Chrome, Opera, Firefox, Safari, IE-11, Edge.</p>'
+				'<p>Туристический информационный портал о городе Седона (2017), c функцией поиска гостиниц по фильтру, формой отзыва, просмотра фотографий.',
+				'<p>Учебный проект на интенсивном онлайн-курсе «Продвинутый HTML/CSS», в «HTML Academy».</p>' ,
+				'<p>Адаптивно-резиновая верстка по готовому psd-макету.</p> <p><b>Технологии используемые в проекте</b>:',
+				'HTML5/CSS3, Flexbox, Less, JavaScript, jQuery, Adobe Photoshop.</br>',
+				'<b>Поддержка браузеров</b>: Chrome, Opera, Firefox, Safari, IE-11, Edge.</p>'
 			].join(' '),
 			thumbnail: [
 				'img/gallery/large/sedona/sedona.jpg',
@@ -716,23 +712,23 @@ $(function() {
 			],
 			button_list: [
 				{
-					title: 'Visit website',
+					title: 'Открыть сайт',
 					url: 'http://sedona.alisafilatova.ru',
 					new_window: true
 				},
 			],
-			tags: ['Responsive']
+			tags: ['']
 		},
 		{
 			title: 'Pink',
 			logo: 'img/gallery/logo/pink-logo.png',
 			description: [
-				'<p>Promotional website for a mobile app - <b>Pink</b>, consisting of three pages (2017).',
-				'The study project on an intensive online course "HTML/CSS - Advanced course" by "HTML Academy."' ,
-				'Responsive design.</p>' ,
-				'<p><b>Technology I used in the project</b>:',
-				'HTML5/CSS3, Flexbox, Less, BEM, JavaScript, Adobe Photoshop.</br>',
-				'<b>Cross-browser compatibility</b>: Chrome, Opera, Firefox, Safari, IE-11, Edge</p>'
+				'<p>Промо-сайт для мобильного приложения «Pink», где можно поучавствовать в конкурсе, посмотреть фотографии, почитать отзывы (2017).</p>',
+				'<p>Учебный проект на интенсивном онлайн-курсе «Продвинутый HTML/CSS», в «HTML Academy».' ,
+				'Адаптивно-резиновая верстка по готовому-psd макету.</p>' ,
+				'<p><b>Технологии используемые в проекте</b>:',
+				'HTML5/CSS3, Flexbox, Less, JavaScript, Adobe Photoshop.</br>',
+				'<b>Поддержка браузеров</b>: Chrome, Opera, Firefox, Safari, IE-11, Edge</p>'
 			].join(' '),
 			thumbnail: [
 				'img/gallery/large/pink/pink.jpg',
@@ -759,21 +755,21 @@ $(function() {
 			],
 			button_list: [
 				{
-					title: 'Visit website',
+					title: 'Открыть сайт',
 					url: 'http://pink.alisafilatova.ru',
 					new_window: true
 				},
 			],
-			tags: ['Responsive']
+			tags: ['']
 		},
 		{
 			title: 'Nerds',
 			logo: 'img/gallery/logo/nerds-logo.png',
 			description: [
-				'<p>Promotional website for the web-studio <b>Nerds</b>, with additional catalog page templates (2017).',
-				'The study project on an intensive online course "HTML/CSS - Basics" by "HTML Academy".</p>',
-				'<p><b>Technology used in the project</b>: HTML5/CSS3, JavaScript, Adobe Photoshop.</br>',
-				'<b>Cross-browser compatibility</b>: Chrome, Opera, Firefox, Safari, IE-11, Edge.</p>'
+				'<p>Промо-сайт для веб-студии «Nerds», с дополнительной страницей каталога шаблонов (2017).',
+				'Учебный проект на интенсивном онлайн‑курсе «Базовый HTML/CSS», в «HTML Academy». Фиксированная верстка по готовому psd-макету.</p>',
+				'<p><b>В проекте использовались:</b>: HTML5/CSS3, JavaScript, Adobe Photoshop.</br>',
+				'<b>Поддержка браузеров</b>: Chrome, Opera, Firefox, Safari, IE-11, Edge.</p>'
 			].join(' '),
 			thumbnail: [
 				'img/gallery/large/nerds/nerds.jpg',
@@ -795,21 +791,21 @@ $(function() {
 			],
 			button_list: [
 				{
-					title: 'Visit website',
+					title: 'Открыть сайт',
 					url: 'http://nerds.alisafilatova.ru',
 					new_window: true
 				},
 			],
-			tags: ['Fixed']
+			tags: ['']
 		},
 		{
-			title: 'Technomart',
+			title: 'Техномарт',
 			logo: 'img/gallery/logo/techmart-logo.png',
 			description: [
-				'<p>Online store of construction materials. A landing page with an additional page of the product catalog.',
-				'A personal project for an intensive online course "HTML/CSS - Basics" by HTML Academy (2017).</p>',
-				'<p><b>Technology used in the project</b>: HTML5/CSS3, JavaScript, Adobe Photoshop.</br>',
-				'<b>Cross-browser compatibility</b>: Chrome, Opera, Firefox, Safari, IE-11, Edge.</p>'
+				'<p>Интернет-магазин строительных инструментов и оборудования, c фильтром товаров в каталоге.',
+				'Учебный проект на интенсивном онлайн‑курсе «Базовый HTML/CSS», в «HTML Academy» (2017). Фиксированная верстка по готовому psd-макету.</p>',
+				'<p><b>В проекте использовались</b>: HTML5/CSS3, JavaScript, Adobe Photoshop.</br>',
+				'<b>Поддержка браузеров</b>: Chrome, Opera, Firefox, Safari, IE-11, Edge.</p>'
 			].join(' '),
 			thumbnail: [
 				'img/gallery/large/technomart/technomart.jpg',
@@ -831,21 +827,21 @@ $(function() {
 			],
 			button_list: [
 				{
-					title: 'Visit website',
+					title: 'Открыть сайт',
 					url: 'http://technomart.alisafilatova.ru',
 					new_window: true
 				},
 			],
-			tags: ['Fixed']
+			tags: ['']
 		},
 		{
-			title: 'Barbershop «Borodinski»',
+			title: 'Барбешоп «Borodinski»',
 			logo: 'img/gallery/logo/boroda-logo.png',
 			description: [
-				'<p>Website for a barbershop <b>«Borodinski»</b>, with additional catalog page templates (2017).',
-				'The study project on an intensive online course "HTML/CSS - Basics" by "HTML Academy".</p>',
-				'<p><b>Technology used in the project</b>: HTML5/CSS3, JavaScript, Adobe Photoshop.</br>',
-				'<b>Cross-browser compatibility</b>: Chrome, Opera, Firefox, Safari, IE-11, Edge, Android.</p>'
+				'<p>Сайт для барбершопа «Borodinski», с каталогом товаров и прайс-листом (2017).',
+				'Учебный проект на интенсивном онлайн‑курсе «Базовый HTML/CSS», в «HTML Academy». Фиксированная верстка по готовому psd-макету.</p>',
+				'<p><b>В проекте использовались</b>: HTML5/CSS3, JavaScript, Adobe Photoshop.</br>',
+				'<b>Поддержка браузеров</b>: Chrome, Opera, Firefox, Safari, IE-11, Edge, Android.</p>'
 			].join(' '),
 			thumbnail: [
 				'img/gallery/large/barbershop/barbershop.jpg',
@@ -867,12 +863,12 @@ $(function() {
 			],
 			button_list: [
 				{
-					title: 'Visit website',
+					title: 'Открыть сайт',
 					url: 'http://barbershop.alisafilatova.ru',
 					new_window: true
 				},
 			],
-			tags: ['Fixed']
+			tags: ['']
 		}]
 	});
 });

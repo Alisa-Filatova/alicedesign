@@ -138,6 +138,7 @@
   }
 
   &__popup {
+    position: relative; // for close button
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -204,7 +205,6 @@
   &__item-title {
     flex-shrink: 0;
     padding-bottom: var(--padding-l);
-    margin-left: 8px;
     font-size: var(--heading-size-m);
     font-weight: 600;
     color: var(--color-black);
@@ -328,7 +328,7 @@
 
   &__button {
     position: absolute;
-    top: -12px;
+    top: -20px;
 
     &_prev {
       transform: rotate(90deg);

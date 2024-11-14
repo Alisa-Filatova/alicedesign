@@ -15,11 +15,11 @@ $(function() {
 					'Wrike clients include companies such as Apple, Microsoft, Sony, Siemens, P&G and many others.</p>' +
 					'<p>I mainly worked in the <b>UI Kit team</b>, which was responsible for the components library, design system implementation and accessibility.</p>' +
 					'<p>I also developed UI for such Wrike products as <a class="text-link" href="https://www.wrike.com/features/online-proofing/" target="_blank" rel="noopener noreferrer">Proofing</a>, which was responsible for storing, managing and editing various types of files and their integrations with other services and applications. And I also worked on <a class="text-link" href="https://www.wrike.com/features/team-project-calendar/" target="_blank" rel="noopener noreferrer">Calendar App</a>, <a class="text-link" href="https://www.wrike.com/features/approvals/" target="_blank" rel="noopener noreferrer">Approvals</a> and <a class="text-link" href="https://www.wrike.com/apps/" target="_blank" rel="noopener noreferrer">Integrations</a> products.</p>',
-					'<p>I took part in Knowledge sharing, Demo presentations, wrote and translated articles for the internal knowledge base, launched code improvement initiatives, did code reviews and design reviews. Years of work in the company (2019-2023).</p>',
-					'<p><b>Stack and technologies</b>: React/TS, Angular/Dart, CSS/Less/PostCSS, HTML5/SVG, GitLab, Figma.</p>' +
-					'<p><b>Additionally</b>: BEM Methodology, Accessibility, Web Standards.<br>'+
-					'<b>Process</b>: Agile, Scrum. </p>'+
-					'<p><strong><i>!WARNING: For viewers from Russia</strong>: wrike.com is blocked for this counry. To visit this site links, you need to use a VPN.</i></p> ',
+					'<p>I took part in "Knowledge sharing", "Demo presentations", wrote and translated articles for the internal knowledge base, launched code improvement initiatives, did code reviews and design reviews. Years of work in the company (2019-2023).</p>',
+					'<p><b>Stack and technologies</b>: CSS/Less/PostCSS, HTML5/SVG, React/TS, Angular/Dart</p>' +
+					'<p><b>Additionally</b>: BEM Methodology, Accessibility, Web Standards, GitLab, Figma<br>'+
+					'<b>Process</b>: Agile, Scrum</p>'+
+					'<p><strong><i>!WARNING: For viewers from Russia</strong>: wrike.com is not available for this region. To visit this site links, you need to use a VPN.</i></p> ',
 				].join(' '),
 					thumbnail: [
 						'img/gallery/large/wrike/wrike.svg',
@@ -49,7 +49,7 @@ $(function() {
 							new_window: true
 						},
 					],
-				tags: ['Fixed']
+				tags: ['']
 			},
 			{
 				title: 'Ezy.com',
@@ -118,7 +118,7 @@ $(function() {
 						new_window: true
 					}
 				],
-				tags: ['Responsive'],
+				tags: [''],
 			},
 			{
 				title: 'Ezy Town',
@@ -153,7 +153,7 @@ $(function() {
 						new_window: true
 					},
 				],
-			tags: ['Responsive']
+			tags: ['']
 		},
 		{
 			title: 'Future of cases is here',
@@ -189,7 +189,7 @@ $(function() {
 					new_window: true
 				}
 			],
-			tags: ['Responsive']
+			tags: ['']
 		},
 		{
 			title: 'Ezy Exchanger',
@@ -224,7 +224,7 @@ $(function() {
 				'Payments popup'
 			],
 			button_list: [],
-			tags: ['Responsive']
+			tags: ['']
 	},
 	{
 		title: 'Making of Ezy.com',
@@ -264,7 +264,7 @@ $(function() {
 				new_window: true
 			}
 		],
-		tags: ['Responsive']
+		tags: ['']
 	},
 	{
 		title: 'My Personal Web site',
@@ -308,7 +308,7 @@ $(function() {
 				new_window: true
 			}
 		],
-		tags: ['Fixed']
+		tags: ['']
 	},
 	{
 		title: 'Goroshko Dance',
@@ -351,13 +351,13 @@ $(function() {
 				new_window: true
 			},
 		],
-		tags: ['Responsive']
+		tags: ['']
 	},
 	{
 		title: 'Natalie Photography',
 		logo: 'img/gallery/logo/nata-logo.svg',
 		description: [
-			'<p>Portfolio website of family and wedding photographer - Natalie Biriouk from California, USA (Freelance project, my development and web design, first version 2017, updated in 2019 with React.js). The site consists of nine pages.' ,
+			'<p>Portfolio multipage website of a family and wedding photographer - Natalie Biriouk from California, USA (Freelance project, my development and web design, first version 2017, updated in 2019 with React.js). The site consists of nine pages.' ,
 			'Target audience: young mothers, housewives with children and couples.</p>',
 			'<p>The main style of the photographer - is shooting outside with a natural light,',
 			'so I decided to make a website with soft and innocent colours so that it associated with a handmade family photo album',
@@ -399,7 +399,7 @@ $(function() {
 					new_window: true
 				}
 			],
-			tags: ['Responsive']
+			tags: ['']
 		},
 		{
 			title: 'Lenor TaT - Beauty-Studio',
@@ -445,7 +445,7 @@ $(function() {
 					new_window: true
 				},
 			],
-			tags: ['Responsive']
+			tags: ['']
 		},
 		{
 			title: 'Netlab - International LLC',
@@ -484,7 +484,7 @@ $(function() {
 					new_window: true
 				}
 			],
-			tags: ['Responsive']
+			tags: ['']
 		},
 		{
 			title: 'fora.ru',
@@ -520,16 +520,16 @@ $(function() {
 					new_window: true
 				},
 			],
-			tags: ['Responsive']
+			tags: ['']
 		},
 		{
 			title: 'Code and Magic',
 			logo: 'img/gallery/logo/code-logo.png',
 			description: [
-				'<p>Demo website for the 8bit game - "Code and Magic" (2018).',
-				'The study project on an intensive online course "JavaScript basics" by HTML Academy. In this course, I learned the basics of JavaScript and tried the jQuery library.</p>' ,
-				'<p><b>Stack and technologies</b>:',
-				'HTML5/CSS3, JavaScript, jQuery, BEM, SVG, Adobe Photoshop.<br>',
+				'<p>Demo website for the 8bit game - "Code and Magic" (2018), where you can play the demo version, create your unique character, buy artifacts for him, see similar characters, view a gallery of screenshots, reviews and rate the game.</p>',
+				'<p>The study project on an intensive online course "JavaScript basics" by "HTML Academy". In this course, I learned the basics of JavaScript and tried the jQuery library.</p>' ,
+				'<p><b>Stack an tools</b>:',
+				'HTML5/CSS3, JavaScript, jQuery, SVG, Adobe Photoshop.<br>',
 				'<b>Cross-browser compatibility</b>: Chrome, Opera, Firefox, Edge.</p>'
 			].join(' '),
 			thumbnail: [
@@ -565,7 +565,7 @@ $(function() {
 					new_window: true
 				}
 			],
-			tags: ['Fixed']
+			tags: ['']
 		},
 		{
 			title: 'Moowle',
@@ -604,7 +604,7 @@ $(function() {
 					new_window: true
 				}
 			],
-			tags: ['Fixed']
+			tags: ['']
 		},
 		{
 			title: '6/Cities - Rent Service',
@@ -645,7 +645,7 @@ $(function() {
 					new_window: true
 				}
 			],
-			tags: ['Fixed']
+			tags: ['']
 		},
 		{
 			title: 'Lookbook 2017',
@@ -682,7 +682,7 @@ $(function() {
 					new_window: true
 				},
 			],
-			tags: ['Responsive']
+			tags: ['']
 		},
 		{
 			title: 'Sedona',
@@ -722,7 +722,7 @@ $(function() {
 					new_window: true
 				},
 			],
-			tags: ['Responsive']
+			tags: ['']
 		},
 		{
 			title: 'Pink',
@@ -765,7 +765,7 @@ $(function() {
 					new_window: true
 				},
 			],
-			tags: ['Responsive']
+			tags: ['']
 		},
 		{
 			title: 'Nerds',
@@ -801,7 +801,7 @@ $(function() {
 					new_window: true
 				},
 			],
-			tags: ['Fixed']
+			tags: ['']
 		},
 		{
 			title: 'Technomart',
@@ -837,7 +837,7 @@ $(function() {
 					new_window: true
 				},
 			],
-			tags: ['Fixed']
+			tags: ['']
 		},
 		{
 			title: 'Barbershop «Borodinski»',
@@ -873,7 +873,7 @@ $(function() {
 					new_window: true
 				},
 			],
-			tags: ['Fixed']
+			tags: ['']
 		}]
 	});
 });

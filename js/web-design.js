@@ -9,13 +9,14 @@ $(function() {
       hoverInverse: false,
       items: [
         {
-          title: 'My Personal Web site',
+          title: 'alisafilatova.ru',
           logo: 'img/gallery/logo/alice-logo.svg',
           description: [
-            '<p>My personal portfolio website. The project I have done with my own design and illustrations, and a lot of css animations. The first version of the site was made in 2017. It was updated in 2024.</p>' + 
-            '<p>The purpose of this site is to show my skills as an HTML coder and web designer, as well as to share projects I took part. For this reason, the site is designed to be viewed from large screens and the mobile version is not initially intended. Therefore, <b>for the best experience, use a PC or Laptop.</b></p>' +
-            '<p><b>Stack and technologies</b>: HTML5/CSS3, LESS, jQuery, Adobe Photoshop, Adobe Illustrator.<br>'+
-            '<b>Cross-browser compatibility</b>: Chrome, Opera, Firefox, Safari, Edge.</p>'
+            '<p>Мой личный сайт портфолио. Проект я решила делать со своими иллюстрациями и обилием CSS анимацией.',
+            'Дизайн делала полностью сама, дав волю своей фантазии и стараясь не думать об ограничениях верстки. Первая вырсия была запущена в 2017. Обновлена в 2024.</p>' + 
+            '<p>Назначение сайта - портфолио и поиск работы, демонстрация проектов в которых я принимала участие, а так же полигон для эксперементов. Поэтому я не стала заострять внимание на мобильной версии и сделала сайт рассчитанный на большие экраны.</p><p><b><i> Для получения наилучшего опыта при просмотре - используйте ПК или ноутбук.</i></b></p>' +
+            '<p><b>Стек</b>: HTML5/CSS3, LESS, jQuery, Adobe Photoshop, Adobe Illustrator.<br>'+
+            '<b>Поддержка браузеров</b>: Chrome, Opera, Firefox, Safari, Edge.</p>'
           ].join(' '),
           thumbnail: [
             'img/gallery/large/alicedesign/alicedesign.jpg',
@@ -40,25 +41,25 @@ $(function() {
           ],
           button_list: [
             {
-              title: 'Visit website',
+              title: 'Открыть сайт',
               url: 'http://alisafilatova.ru/',
               new_window: true
             }
           ],
-          tags: ['Fixed']
+          tags: ['']
         },
         {
           title: 'Goroshko Dance',
           logo: 'img/gallery/logo/goroshko-logo.svg',
           description: [
-            '<p>Personal website of choreographer and dancer Sasha Goroshko (semi-finalist of 4 season of the TV-show "DANCING"). Freelance project, my development and web design (2017).</p>',
-            '<p>The purpose of the website: informational support for students, attract new students, portfolio',
-            'information for cooperation. Main target audience: girls between 12 and 25 years living in Moscow.</p>',
-            '<p>For these purposes I decided to use the style of "Landing Page",',
-            'since it allows to provide all necessary information on the one page.',
-            'The website is adapted for tablets and mobile devices.</p>',
-            '<p><b>Stack and technologies</b>: Adobe Photoshop, Adobe Illustrator, SVG, HTML5/CSS3, BEM, Less, jQuery, JavaScript.</br>',
-            '<b>Cross-browser compatibility</b>: Chrome, Opera, Firefox, Safari, IE-11, Edge.</p>'
+            '<p>Лендинг для танцевальной школы хореографа Саши Горошко, полуфиналистки 4 сезона шоу «ТАНЦЫ» на ТНТ (Фриланс проект, моя разработка и веб дизайн, 2017).</p>',
+            '<p>Назначение сайта: информационная поддержка учеников, привлечение новых студентов, портфолио, информация для сотрудничества.</p>',
+            '<p>Основная целевая аудитория: девушки 14-25 лет, проживающие в Москве.</p>',
+            '<p>Для этих целей я решила делать "Landing Page",',
+            'так как этот формат позволяет быстро и эффективно донести информацию на одной странице.</p>',
+            '<p>Адаптивная, отзывчивая верстка, мой собственный дизайн и графика.</p>',
+            '<p><b>Стек и инструменты</b>: HTML5/CSS3, Less, jQuery, JavaScript, Adobe Photoshop, Adobe Illustrator, SVG.</br>',
+            '<b>Поддержка браузеров</b>: Chrome, Opera, Firefox, Safari, IE-11, Edge.</p>'
           ].join(' '),
           thumbnail: [
             'img/gallery/large/goroshko/goroshko-dance.jpg',
@@ -83,25 +84,24 @@ $(function() {
           ],
           button_list: [
             {
-              title: 'Visit website',
+              title: 'Открыть сайт',
               url: 'https://goroshkodance.alisafilatova.ru/',
               new_window: true
             },
           ],
-          tags: ['Responsive']
+          tags: ['']
         },
         {
           title: 'Natalie Photography',
           logo: 'img/gallery/logo/nata-logo.svg',
           description: [
-            '<p>Portfolio website of family and wedding photographer - Natalie Biriouk from California, USA (Freelance project, my development and web design, first version 2017, updated in 2019 with React.js). The site consists of nine pages.' ,
-            'Target audience: young mothers, housewives with children and couples.</p>',
-            '<p>The main style of the photographer - is shooting outside with a natural light,',
-            'so I decided to make a website with soft and innocent colours so that it associated with a handmade family photo album',
-            'decorated with flowers.</p>',
-            '<p>The website is adapted for tablets and mobile devices.</p>',
-            '<p><b>Stack and technologies</b>:  HTML5/CSS3, Less, React.js, JavaScript. Adobe Photoshop, Adobe Illustrator.</br>',
-            '<b>Cross-browser compatibility</b>: Chrome, Opera, Firefox, Safari, Edge.</p>'
+            '<p>Многостраничный сайт-портфолио семейного и свадебного фотографа Наталии Бирюк, из Калифорнии, США.</p> <p>(Фриланс проект, моя разработка и веб-дизайн. Запуск осуществлен в 2017, обновлен в 2019 с React.js).</p>' ,
+            '<p>Целевая аудитория: молодые мамы, семьи с детьми и семейные пары, проживающие в пригороде Калифорнии.',
+            '<p>Основной стиль фотографа - это съемка на улице при естественном освещении,',
+            'поэтому я решила создать сайт в мягких, светлых тонах, чтобы он ассоциировался с семейным фотоальбомом ручной работы, украшенным цветами.</p>',
+            '<p>Адаптивно-резиновая верстка.</p>',
+            '<p><b>Стек и инструменты</b>:  HTML5/CSS3, Less, React.js, JavaScript. Adobe Photoshop, Adobe Illustrator, Bootstrap.</br>',
+            '<b>Поддержка браузеров</b>: Chrome, Opera, Firefox, Safari, Edge.</p>'
           ].join(' '),
               thumbnail: [
                 'img/gallery/large/natalia/natalia-photo.jpg',
@@ -126,25 +126,25 @@ $(function() {
               ],
               button_list: [
                 {
-                  title: 'Visit website',
+                  title: 'Открыть сайт',
                   url: 'https://nataliaphoto.alisafilatova.ru',
                   new_window: true
                 },
               ],
-              tags: ['Responsive']
+              tags: ['']
             },
             {
               title: 'Lenor TaT - Beauty-Studio',
               logo: 'img/gallery/logo/lenor-tat-logo.svg',
               description: [
-                '<p>The website of the Beauty-Studio of a full cycle by Tata Kurina (Freelance project, my development and web design, 2017).',
-                'Studio provides the services of hair stylist and atelier with design clothes.</p>',
-                '<p>The purpose of the website: information and attracting new clients.',
-                'Target audience: men and women 18-40 years old, mostly from the artistic and subcultue communities.</p>',
-                '<p>The website is adapted for tablets and mobile devices.</p>',
-                '<p><b>Stack and technologies</b>: Adobe Illustrator, SVG, Adobe Photoshop, HTML5/CSS3, BEM,',
-                'Less, jQuery Gamma Gallery, JavaScript.</br>',
-                '<b>Cross-browser compatibility</b>: Chrome, Opera, Firefox, Safari, IE-11, Edge.</p>'
+                '<p>Сайт имидж-студии Таты Куриной. Landing-page с дополнителными страницами галерей работ и формой записи к мастеру (Фриланс проект, моя разработка и веб дизайн, 2017).</p>',
+                '<p>Студия предоставляет услуги парикмахера-стилиста и ателье с авторской одеждой.',
+                'Назначение сайта: информация и привличение новых клиентов.',
+                'Целевая аудитория: творческие мужчины и женщины 18-40 лет, актеры, музыканты и представители субкультур.</p>',
+                '<p>Адаптивная верстка, мой дизайн.</p>',
+                '<p><b>Стек и инструменты</b>: HTML5/CSS3,',
+                'Less, jQuery Gamma Gallery, JavaScript, Adobe Illustrator, SVG, Adobe Photoshop.</br>',
+                '<b>Поддержка браузеров</b>: Chrome, Opera, Firefox, Safari, IE-11, Edge.</p>'
               ].join(' '),
               thumbnail: [
                 'img/gallery/large/lenortat/lenor-tat.jpg',
@@ -172,19 +172,19 @@ $(function() {
               ],
               button_list: [
                 {
-                  title: 'Visit Website',
+                  title: 'Открыть сайт',
                   url: 'http://lenortat.alisafilatova.ru/',
                   new_window: true
                 },
               ],
-              tags: ['Responsive']
+              tags: ['']
             },
           {
             title: 'Cosmos SSD',
             logo: 'img/gallery/logo/cosmos-logo.png',
             description: [
-              '<p>Design of the landing page of the "Cosmos" SSD, for the company "Imotech" LLC (2017).</p>',
-              '<p><b>Tools</b>: Adobe Photoshop, Adobe Illustrator</p>',
+              '<p>Дизайн лендинга для SSD Cosmos, сделанный для компании "Imotech" (2017).</p>',
+              '<p><b>Инструменты</b>: Adobe Photoshop, Adobe Illustrator</p>',
             ].join(' '),
             thumbnail: [
               'img/gallery/large/ssd/cosmos.jpg',
@@ -202,14 +202,14 @@ $(function() {
               'About'
             ],
             button_list: [],
-            tags: ['Responsive design']
+            tags: ['']
           },
           {
-            title: 'Alexey Oglushevich - Illustrator portfolio',
+            title: 'Алексей Оглушевич - Портфолио иллюстратора',
             logo: 'img/gallery/logo/ogl-logo.png',
             description: [
-              '<p>Redesign of the personal web site of an artist Alexey Ogushevich (2018). Responsive design.</p>',
-              '<p><b>Tools</b>: Adobe Photoshop, Adobe Illustrator</p>',
+              '<p>Редизайн многостраничного сайта-портфолио векторного иллюстратора Алексея Оглушевича (2018). Адаптивный дизайн.</p>',
+              '<p><b>Инструменты</b>: Adobe Photoshop, Adobe Illustrator</p>',
             ].join(' '),
             thumbnail: [
               'img/gallery/large/oglushevich/ogl.jpg',
@@ -230,7 +230,7 @@ $(function() {
               'Lessons'
             ],
             button_list: [],
-            tags: ['Responsive design']
+            tags: ['']
           }
         ]
     });
