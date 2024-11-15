@@ -8,10 +8,8 @@
 body {
   background: var(--background-gradient); 
 
-  @media (min-width: @screen-l) {
-    background: 
-    url('../img/main-back.svg') no-repeat top center, 
-    var(--background-gradient);
+  @media (min-width: @screen-s) {
+    background: url('../img/main-back.svg') no-repeat top center, var(--background-gradient);
     background-size: cover;
   }
 }
@@ -20,21 +18,47 @@ body {
 
 .main-page {
   position: relative; // for .main-page__logo
-  min-height: 820px;
+  min-height: 100vh;
   background: url('../img/clouds.svg') repeat-x scroll top center;
+
+  @media (min-width: @screen-xxxs) {
+    min-height: 720px;
+  }
+
+  @media (min-width: @screen-s) {
+    min-height: 820px;
+  }
 
   &__header {
     --focus-ring-bg: var(--background-color-secondary);
     margin: 30px auto 0;
     min-width: 80%;
+
+    @media (min-width: @screen-s) {
+      min-width: 65%;
+    }
+
+    @media (min-width: @screen-l) {
+      min-width: 80%;
+    }
   }
 
   &__logo {
-    position: absolute; // containing block is .main-page
-    bottom: 50%;
-    left: 50%;
-    transform: translateX(-50%);
-    animation: fade-in 3.2s ease-in-out;
+    display: none;
+
+    @media (min-width: @screen-xs) {
+      position: absolute; // containing block is .main-page
+      bottom: 50%;
+      left: 50%;
+      display: block;
+      transform: translateX(-50%);
+      animation: fade-in 3.2s ease-in-out;
+    }
+
+    @media (min-width: @screen-xs) and (max-width: @screen-m) {
+      width: 280px;
+      left: 48%;
+    }
   }
 
   &__illustration {
@@ -42,7 +66,7 @@ body {
     flex-shrink: 0;
   }
   
-  @media (min-width: @screen-m) {
+  @media (min-width: @screen-xs) {
     background-attachment: fixed;
   }
 }
@@ -141,19 +165,35 @@ body {
 .main-illustration {
   position: relative; // for illustration parts
 
+  @media (max-width: @screen-xxxs) { 
+    max-width: 600px;
+  }
+
   &__waymarker {
     position: absolute; // containing block is .main-illustration
+    left: 20px;
     bottom: 95px;
-    left: 100px;
+
+    @media (min-width: @screen-xs) { 
+      left: 40px;
+    }
+
+    @media (min-width: @screen-s) { 
+      left: 100px;
+    }
   }
 
   &__girl {
     z-index: var(--layer-level-2);
     position: absolute; // containing block is .main-illustration
     bottom: 104px;
-    left: 50%;
-    transform: translateX(-50%);
+    right: 44px;
     will-change: transform;
+
+    @media (min-width: @screen-xxs) { 
+      left: 50%;
+      transform: translateX(-50%);
+    }
   }
 
   &__scroll-down-button {
@@ -184,15 +224,33 @@ body {
   }
 
   &__tree {
-    position: absolute; // containing block is .main-illustration
-    bottom: 65px;
-    right: 0;
+    display: none;
+
+    @media (min-width: @screen-xxs) { 
+      display: block;
+      position: absolute; // containing block is .main-illustration
+      bottom: 65px;
+      right: 16px;
+    }
+
+    @media (min-width: @screen-s) { 
+      right: 40px;
+    }
+
+    @media (min-width: @screen-l) { 
+      right: 0;
+    }
   }
 
   &__grass {
     position: absolute; // containing block is .main-illustration
     left: 0;
     bottom: -2px;
+    background-size: cover;
+
+    @media (min-width: @screen-s) { 
+      background-size: contain;
+    }
   }
 }
 
@@ -208,7 +266,11 @@ body {
     width: 100%;
     height: 180px;
     background: url('../img/portfolio-header.svg') repeat-x top center;
-    background-size: contain;
+    background-size: cover;
+
+    @media (min-width: @screen-s) { 
+      background-size: contain;
+    }
   }
 
   &__heading {
