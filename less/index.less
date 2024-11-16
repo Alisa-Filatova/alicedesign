@@ -20,6 +20,7 @@ body {
   position: relative; // for .main-page__logo
   min-height: 100vh;
   background: url('../img/clouds.svg') repeat-x scroll top center;
+  background-attachment: fixed;
 
   @media (min-width: @screen-xxxs) {
     min-height: 720px;
@@ -44,30 +45,17 @@ body {
   }
 
   &__logo {
-    display: none;
-
-    @media (min-width: @screen-s) {
-      position: absolute; // containing block is .main-page
-      bottom: 50%;
-      left: 50%;
-      display: block;
-      transform: translateX(-50%);
-      animation: fade-in 3.2s ease-in-out;
-    }
-
-    @media (min-width: @screen-xs) and (max-width: @screen-s) {
-      width: 280px;
-      left: 48%;
-    }
+    position: absolute; // containing block is .main-page
+    bottom: 50%;
+    left: 50%;
+    display: block;
+    transform: translateX(-50%);
+    animation: fade-in 3.2s ease-in-out;
   }
 
   &__illustration {
     flex-grow: 1;
     flex-shrink: 0;
-  }
-  
-  @media (min-width: @screen-xs) {
-    background-attachment: fixed;
   }
 }
 
@@ -233,7 +221,7 @@ body {
       right: 16px;
     }
 
-    @media (min-width: @screen-s) { 
+    @media (min-width: @screen-m) { 
       right: 40px;
     }
 
@@ -248,7 +236,7 @@ body {
     bottom: -2px;
     background-size: cover;
 
-    @media (min-width: @screen-s) { 
+    @media (min-width: @screen-m) { 
       background-size: contain;
     }
   }
@@ -274,11 +262,15 @@ body {
   }
 
   &__heading {
-    .heading(var(--heading-size-xl));
+    .heading(var(--heading-size-l));
     margin: 0;
-    padding: var(--padding-xl);
+    padding: var(--padding-l);
     line-height: var(--line-height-l);
     font-weight: 400;
+
+    @media (min-width: @screen-s) { 
+      .heading(var(--heading-size-xl));
+    }
   }
 
   &__list {
@@ -427,11 +419,11 @@ body {
 }
 
 @media (min-width: @screen-l) { 
-    .portfolio {
-      
-      &__illustration-bottom {
-        background-repeat: repeat-x;
-        background-size: contain;
+  .portfolio {
+    
+    &__illustration-bottom {
+      background-repeat: repeat-x;
+      background-size: contain;
     }
   }
 }
