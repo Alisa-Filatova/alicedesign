@@ -13,26 +13,25 @@
 }
 
 .portfolio {
-  background: var(--color-blue-light);
 
-  @media (min-width: @screen-xxxs) {
-    background: url('../img/gallery-back.svg') no-repeat top center, var(--color-blue-light);
+  &__wrapper {
+    background: url('../img/main-back.svg') no-repeat top center, var(--background-gradient);
     background-size: cover;
-  }
   
+    @media (min-width: @screen-l) {
+      background: url('../img/gallery-back.svg') no-repeat top center, var(--background-gradient);
+      background-size: cover;
+    }
+  }
+
   &__header {
-    --focus-ring-bg: var(--color-blue-light);
-    position: relative; // for back_button
+    --focus-ring-bg: var(--background-color-secondary);
     display: flex;
     justify-content: center;
     align-items: flex-end;
     gap: 16px;
-    padding: 20px 20px var(--padding-s);
+    padding: 80px 80px var(--padding-m);
     color: var(--color-primary-dark);
-
-    @media (min-width: @screen-s) {
-      padding: 80px 80px var(--padding-m);
-    }
 
     @media (min-width: @screen-l) {
       justify-content: space-between;
@@ -44,10 +43,6 @@
     padding: var(--padding-l);
     line-height: var(--line-height-l);
     font-weight: 400;
-
-    @media (max-width: @screen-s) {
-      .heading(var(--heading-size-s));
-    }
   }
 
   &__description {
@@ -57,36 +52,17 @@
     line-height: var(--line-height-l);
     font-family: var(--font-secondary);
     text-align: center;
-
-    @media (max-width: @screen-s) {
-      width: 80%;
-      max-width: 700px;
-      margin: 20px auto;
-    }
   }
 
   &__back-button {
     flex-shrink: 0;
     margin-right: 95px;
     transform: rotate(90deg);
-
-    @media (max-width: @screen-s) {
-      position: absolute;
-      top: 12px;
-      left: 12px;
-    }
   }
 
   &__lang-switcher {
     flex-shrink: 0;
     margin-left: 16px;
-
-    @media (max-width: @screen-s) {
-      --link-color: var(--text-color-inverted);
-      position: absolute;
-      top: 4px;
-      right: 4px;
-    }
   }
 }
 
@@ -95,44 +71,25 @@
   font-family: var(--font-secondary);
   
   &__grid {
-    --grid-item-size: 100%;
+    --grid-item-size: 420px;
     --focus-ring-bg: var(--color-blue-light);
     .listReset();
-    position: relative; // for expander
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     gap: 8px;
-    padding: 0 var(--padding-l);
-
-    @media (min-width: @screen-xs) {
-      --grid-item-size: 420px;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
-    }
-
-    @media (min-width: @screen-m) {
-      padding: 0 80px;
-    }
+    padding: 0 80px;
   }
 
   &__grid-item {
     --cover-bg: var(--color-violet-fade);
     max-width: var(--grid-item-size);
+    flex-grow: 1;
+    flex-basis: calc(100% / 3);
     
     &:nth-child(odd) .gallery__item-cover {
       --cover-bg: var(--color-turquoise-fade);
-    }
-
-    @media (min-width: @screen-s) {
-      width: 50%;
-      flex: 1 1 50%;
-    }
-
-    @media (min-width: @screen-m) {
-      width: calc(100% / 3);
-      flex: 1 1 calc(100% / 3);
     }
   }
 
@@ -147,7 +104,7 @@
   }
 
   &__item-preview {
-    position: relative;
+    position: relative; // for __item-cover
     display: block;
     width: 100%;
     max-width: var(--grid-item-size);
@@ -156,7 +113,7 @@
   }
 
   &__item-cover {
-    position: absolute;
+    position: absolute; // parent __item-preview
     width: 100%;
     height: 100%;
     display: flex;
@@ -175,17 +132,10 @@
   &__popup {
     position: relative; // for close button
     display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-
-    @media (min-width: @screen-xs) {
-      flex-direction: row;
-      width: 90%;
-      max-width: var(--container-size);
-      height: 90%;
-      max-height: 770px;
-    }
+    width: 90%;
+    max-width: var(--container-size);
+    height: 90%;
+    max-height: 770px;
   }
 
   &__full-img-box {
@@ -216,24 +166,14 @@
     align-items: center;
     justify-content: center;
     flex: 1 1 100%;
-    width: 100%;
-    padding: var(--padding-l);
+    width: 50%;
+    padding: var(--padding-xxl);
     overflow: hidden;
 
     &_left {
-      display: none;
-    }
-
-    @media (min-width: @screen-xs) {
-      padding: var(--padding-xxl);
-      flex-basis: 50%;
-      width: 50%;
-
-      &_left {
-        display: flex;
-        background-color: var(--color-black);
-        align-items: initial;
-      }
+      display: flex;
+      background-color: var(--color-black);
+      align-items: initial;
     }
   }
 
@@ -283,11 +223,6 @@
   &__slider {
     flex-shrink: 0;
     margin-top: 20px;
-    display: none;
-
-    @media (min-width: @screen-xs) {
-      display: block;
-    }
   }
 }
 

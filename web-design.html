@@ -2,9 +2,9 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8">
-    <meta name="keywords" content="Alisa Filatova, UI Developer, web development, HTML, CSS, Art, 2D Artist, alisafilatova.ru">
+    <meta name="keywords" content="Алиса Филатова, Alisa Filatova, UI Developer, web development, HTML, CSS, Art, 2D Artist, alisafilatova.ru">
     <meta name="description" content="Web site portfolio">
-    <meta name="author" content="Alisa Filatova">
+    <meta name="author" content="Алиса Филатова">
 
     <title>Алиса Филатова - Веб дизайн Портфолио - alisafilatova.ru</title>
 
@@ -16,7 +16,7 @@
     <!-- Styles for Preloader -->
     <style>@font-face{font-family:'Neucha';font-style:normal;font-weight:400;}.preloader_overlay{position:fixed;top:0;right:0;bottom:0;left:0;z-index:5000;pointer-events:none}.preloader__text{z-index:5000;position:absolute;top:70%;left:45%;margin:74px 0 0 -97px;font-size:var(--heading-size-l);color:var(--color-white);letter-spacing:10px;animation:fade-out .4s infinite linear alternate-reverse;text-align:center;font-family:var(--font-primary)}.preloader__wrapper{z-index:5000;position:absolute;top:50%;left:50%}.preloader_overlay .preloader__background{position:absolute;width:100%;top:0;right:0;bottom:0;left:0;background-color:var(--color-primary);-webkit-transition:background-color .2s linear 0s,right .2s ease-out .3s;transition:background-color .2s linear 0s,right .2s ease-out .3s}.preloader_overlay .preloader__background.color-flip{-webkit-animation:color-flip 6.5s .6s infinite linear;animation:color-flip 6.5s .6s infinite linear}@-webkit-keyframes fade-out{0%{opacity:1}to{opacity:.3}}@keyframes fade-out{0%{opacity:1}to{opacity:.3}}@-webkit-keyframes color-flip{0%{background-color:var(--color-primary)}18%{background-color:var(--color-primary)}20%{background-color:var(--color-accent)}38%{background-color:var(--color-accent)}40%{background-color:var(--color-cyan-dark)}58%{background-color:var(--color-cyan-dark)}60%{background-color:var(--color-accent-dark)}78%{background-color:var(--color-accent-dark)}80%{background-color:var(--color-green)}98%{background-color:var(--color-green)}to{background-color:var(--color-primary)}}@keyframes color-flip{0%{background-color:var(--color-primary)}18%{background-color:var(--color-primary)}20%{background-color:var(--color-accent)}38%{background-color:var(--color-accent)}40%{background-color:var(--color-cyan-dark)}58%{background-color:var(--color-cyan-dark)}60%{background-color:var(--color-accent-dark)}78%{background-color:var(--color-accent-dark)}80%{background-color:var(--color-green)}98%{background-color:var(--color-green)}to{background-color:var(--color-primary)}}.preloader_overlay .preloader__icon{position:absolute;top:50%;left:50%;margin:-48px 0 0 -48px;font-size:96px;color:#fff}.preloader_overlay .preloader__icon.spinning-cog{-webkit-animation:spinning-cog 1.3s infinite ease;animation:spinning-cog 1.3s infinite ease}@-webkit-keyframes spinning-cog{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}20%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@keyframes spinning-cog{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}20%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@-webkit-keyframes shrinking-cog{0%{-webkit-transform:scale(1);transform:scale(1)}20%{-webkit-transform:scale(1.2);transform:scale(1.2)}to{-webkit-transform:scale(0);transform:scale(0)}}@keyframes shrinking-cog{0%{-webkit-transform:scale(1);transform:scale(1)}20%{-webkit-transform:scale(1.2);transform:scale(1.2)}to{-webkit-transform:scale(0);transform:scale(0)}}.preloader_overlay .preloader__icon.shrinking-cog{-webkit-animation:shrinking-cog .3s 1 ease forwards;animation:shrinking-cog .3s 1 ease forwards}</style>
 
-    <link href="dist/css/codeEn.css?4" rel="stylesheet">
+    <link href="dist/css/codeEn.css?5" rel="stylesheet">
     <link rel="icon" type="image/png" href="img/favicon.png">
   </head>
   <body 
@@ -48,185 +48,186 @@
     <svg class="visually-hidden">
       <defs id="svg-sprite"></defs>
     </svg>
-    <!-- HEADER -->
-    <header class="portfolio__header container">
-      <a
-        class="slider-button portfolio__back-button"
-        href="ru.html#portfolio"
-        title="Назад в секцию Портфолио"
-      >
-        <svg 
-          class="arrow-button__icon" 
-          aria-hidden="true"
+    <div class="portfolio__wrapper">
+      <!-- HEADER -->
+      <header class="portfolio__header container">
+        <a
+          class="slider-button portfolio__back-button"
+          href="ru.html#portfolio"
+          title="Назад в секцию Портфолио"
         >
-          <use xlink:href="#arrow-down"></use>
-        </svg>
-        Назад
-      </a>
-
-      <div>
-        <h2 class="portfolio__heading">Дизайн</h2>
-        <p class="portfolio__description">
-          Здесь вы можете ознакомиться с проектами, в которых я разрабатывала веб-дизайн. 
-          Проекты были созданы во время моей работы на фрилансе, в 2017-2018 годах.
-        </p>
-      </div>
-      <!-- Lang switcher -->
-      <ul 
-        class="lang-switcher portfolio__lang-switcher" 
-        aria-label="Выбор языка"
-      >
-        <li class="lang-switcher__item">
-          <a
-            class="lang-switcher__link"
-            href="web-design-en.html"
-            aria-label="Переключиться на Английский"
-            title="Английский"
+          <svg 
+            class="arrow-button__icon" 
+            aria-hidden="true"
           >
-            EN
-          </a>
-        </li>
-        <li class="lang-switcher__item">
-          <a
-            class="lang-switcher__link lang-switcher__link_active"
-            aria-label="Текущий язык - Русский"
-            title="Русский"
-            aria-current="true"
-          >
-            RU
-          </a>
-        </li>
-      </ul>
-    </header>
-    <!-- GALLERY -->
-    <main 
-      class="gallery container portfolio__gallery" 
-      id="projects-portfolio">
-    </main>
-    <!-- FOOTER -->
-    <footer class="footer container">
-      <h4 class="visually-hidden">Контакты</h4>
-      <ul class="contact-icons contact-icons_size-s footer__contacts">
-        <li class="contact-icons__item">
-          <a
-            class="contact-icons__link"
-            href="mailto:alicefill@bk.ru"
-            aria-labelledby="tooltip-email-footer"
-          >
-            <svg 
-              class="contact-icons__icon" 
-              role="presentation" 
-              aria-hidden="true"
+            <use xlink:href="#arrow-down"></use>
+          </svg>
+          Назад
+        </a>
+        <div>
+          <h2 class="portfolio__heading">Дизайн</h2>
+          <p class="portfolio__description">
+            Здесь вы можете ознакомиться с проектами, в которых я разрабатывала веб-дизайн. 
+            Проекты были созданы во время моей работы на фрилансе, в 2017-2018 годах.
+          </p>
+        </div>
+        <!-- Lang switcher -->
+        <ul 
+          class="lang-switcher portfolio__lang-switcher" 
+          aria-label="Выбор языка"
+        >
+          <li class="lang-switcher__item">
+            <a
+              class="lang-switcher__link"
+              href="web-design-en.html"
+              aria-label="Переключиться на Английский"
+              title="Английский"
             >
-              <use xlink:href="#mail"></use>
-            </svg>
-            Email
-          </a>
-          <span 
-            class="tooltip tooltip_top contact-icons__tooltip" 
-            id="tooltip-email-footer"
-            aria-hidden="true">
-            Написать email
-          </span>
-        </li>
-        <li class="contact-icons__item">
-          <a
-            class="contact-icons__link"
-            href=""
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-labelledby="tooltip-telegram-footer"
-          >
-            <svg 
-              class="contact-icons__icon" 
-              role="presentation" 
-              aria-hidden="true"
+              EN
+            </a>
+          </li>
+          <li class="lang-switcher__item">
+            <a
+              class="lang-switcher__link lang-switcher__link_active"
+              aria-label="Текущий язык - Русский"
+              title="Русский"
+              aria-current="true"
             >
-              <use xlink:href="#telegram"></use>
-            </svg>
-            Telegram
-          </a>
-          <span 
-            class="tooltip tooltip_top contact-icons__tooltip" 
-            id="tooltip-telegram-footer"
-            aria-hidden="true">
-            Написать в Telegram
-          </span>
-        </li>
-        <li class="contact-icons__item">
-          <a
-            class="contact-icons__link"
-            href="https://www.linkedin.com/in/alisa-filatova-64209a139/"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-labelledby="tooltip-linkedin-footer"
-          >
-            <svg 
-              class="contact-icons__icon" 
-              role="presentation" 
-              aria-hidden="true"
+              RU
+            </a>
+          </li>
+        </ul>
+      </header>
+      <!-- GALLERY -->
+      <main 
+        class="gallery container portfolio__gallery" 
+        id="projects-portfolio">
+      </main>
+      <!-- FOOTER -->
+      <footer class="footer container">
+        <h4 class="visually-hidden">Контакты</h4>
+        <ul class="contact-icons contact-icons_size-s footer__contacts">
+          <li class="contact-icons__item">
+            <a
+              class="contact-icons__link"
+              href="mailto:alicefill@bk.ru"
+              aria-labelledby="tooltip-email-footer"
             >
-              <use xlink:href="#linkedin"></use>
-            </svg>
-            LinkedIn
-          </a>
-          <span 
-            class="tooltip tooltip_top contact-icons__tooltip" 
-            id="tooltip-linkedin-footer"
-            aria-hidden="true">
-            Мой LinkedIn
-          </span>
-        </li>
-        <li class="contact-icons__item">
-          <a
-            class="contact-icons__link"
-            href="https://github.com/Alisa-Filatova"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-labelledby="tooltip-github-footer"
-          >
-            <svg 
-              class="contact-icons__icon" 
-              role="presentation" 
-              aria-hidden="true"
+              <svg 
+                class="contact-icons__icon" 
+                role="presentation" 
+                aria-hidden="true"
+              >
+                <use xlink:href="#mail"></use>
+              </svg>
+              Email
+            </a>
+            <span 
+              class="tooltip tooltip_top contact-icons__tooltip" 
+              id="tooltip-email-footer"
+              aria-hidden="true">
+              Написать email
+            </span>
+          </li>
+          <li class="contact-icons__item">
+            <a
+              class="contact-icons__link"
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-labelledby="tooltip-telegram-footer"
             >
-              <use xlink:href="#github"></use>
-            </svg>
-            Github
-          </a>
-          <span 
-            class="tooltip tooltip_top contact-icons__tooltip" 
-            id="tooltip-github-footer"
-            aria-hidden="true">
-            Мой Github
-          </span>
-        </li>
-        <li class="contact-icons__item" hidden>
-          <a
-            class="contact-icons__link"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-labelledby="tooltip-artstation-footer"
-          >
-            <svg 
-              class="contact-icons__icon" 
-              role="presentation" 
-              aria-hidden="true"
+              <svg 
+                class="contact-icons__icon" 
+                role="presentation" 
+                aria-hidden="true"
+              >
+                <use xlink:href="#telegram"></use>
+              </svg>
+              Telegram
+            </a>
+            <span 
+              class="tooltip tooltip_top contact-icons__tooltip" 
+              id="tooltip-telegram-footer"
+              aria-hidden="true">
+              Написать в Telegram
+            </span>
+          </li>
+          <li class="contact-icons__item">
+            <a
+              class="contact-icons__link"
+              href="https://www.linkedin.com/in/alisa-filatova-64209a139/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-labelledby="tooltip-linkedin-footer"
             >
-              <use xlink:href="#artstation"></use>
-            </svg>
-            ArtStation
-          </a>
-          <span 
-            class="tooltip tooltip_top contact-icons__tooltip" 
-            id="tooltip-artstation-footer"
-            aria-hidden="true">
-            Мой ArtStation
-          </span>
-        </li>
-      </ul>
-      <span class="copyright footer__copyright">&#169; 2017-2024 Алиса Филатова</span>
-    </footer>
-    <script src="dist/js/webDesign.js?6"></script>
+              <svg 
+                class="contact-icons__icon" 
+                role="presentation" 
+                aria-hidden="true"
+              >
+                <use xlink:href="#linkedin"></use>
+              </svg>
+              LinkedIn
+            </a>
+            <span 
+              class="tooltip tooltip_top contact-icons__tooltip" 
+              id="tooltip-linkedin-footer"
+              aria-hidden="true">
+              Мой LinkedIn
+            </span>
+          </li>
+          <li class="contact-icons__item">
+            <a
+              class="contact-icons__link"
+              href="https://github.com/Alisa-Filatova"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-labelledby="tooltip-github-footer"
+            >
+              <svg 
+                class="contact-icons__icon" 
+                role="presentation" 
+                aria-hidden="true"
+              >
+                <use xlink:href="#github"></use>
+              </svg>
+              Github
+            </a>
+            <span 
+              class="tooltip tooltip_top contact-icons__tooltip" 
+              id="tooltip-github-footer"
+              aria-hidden="true">
+              Мой Github
+            </span>
+          </li>
+          <li class="contact-icons__item" hidden>
+            <a
+              class="contact-icons__link"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-labelledby="tooltip-artstation-footer"
+            >
+              <svg 
+                class="contact-icons__icon" 
+                role="presentation" 
+                aria-hidden="true"
+              >
+                <use xlink:href="#artstation"></use>
+              </svg>
+              ArtStation
+            </a>
+            <span 
+              class="tooltip tooltip_top contact-icons__tooltip" 
+              id="tooltip-artstation-footer"
+              aria-hidden="true">
+              Мой ArtStation
+            </span>
+          </li>
+        </ul>
+        <span class="copyright footer__copyright">&#169; 2017-2024 Алиса Филатова</span>
+      </footer>
+    </div>
+    <script src="dist/js/webDesign.js?7"></script>
   </body>
 </html>
