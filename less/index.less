@@ -145,7 +145,7 @@ body {
   &__waymarker {
     position: absolute; // containing block is .main-illustration
     left: 110px;
-    bottom: 95px;
+    bottom: 90px;
 
     @media (min-width: @screen-l) { 
       left: 100px;
@@ -156,7 +156,7 @@ body {
     z-index: var(--layer-level-2);
     position: absolute; // containing block is .main-illustration
     left: 50%;
-    bottom: 104px;
+    bottom: 102px;
     transform: translateX(-50%);
     will-change: transform;
   }
@@ -191,7 +191,7 @@ body {
   &__tree {
     display: block;
     position: absolute; // containing block is .main-illustration
-    bottom: 65px;
+    bottom: 52px;
     right: 30px;
 
     @media (min-width: @screen-l) { 
@@ -202,11 +202,11 @@ body {
   &__grass {
     position: absolute; // containing block is .main-illustration
     left: 0;
-    bottom: -2px;
+    bottom: -1px; // fix for Charome & FF rendering
     background-size: cover;
 
     @media (min-width: @screen-m) { 
-      background-size: contain;
+      background-size: auto; // auto fixes Safari gaps bug with contain
     }
   }
 }

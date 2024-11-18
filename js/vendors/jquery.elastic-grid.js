@@ -482,7 +482,7 @@ $.fn.elastic_grid = function(config) {
 
                     var carousel = $('<div class="slider gallery__slider"></div>');
 
-                    carousel.append(ObjUl).find('.slider__thumbnail').bind('click', function() {
+                    carousel.append(ObjUl).find('.slider__thumbnail').on('click', function() {
                         carousel.find('.slider__thumbnail_selected').removeClass('slider__thumbnail_selected');
                         $(this).addClass('slider__thumbnail_selected');
 
@@ -491,15 +491,28 @@ $.fn.elastic_grid = function(config) {
                         var $titlePhoto = $(this).attr('title');
 
                         if ($largePhoto && !$youtube) {
+                            self.$loading.show();
+                            self.$fullimage
+                                .find('img')
+                                .attr({
+                                    alt: '',
+                                    title: '',
+                                    src: ''
+                                });
+
                             $('<img alt=""/>').on('load', function() {
-                                self.$fullimage.find('iframe').attr('src', '').hide();
                                 self.$fullimage
                                     .find('img')
                                     .fadeIn(500)
                                     .attr('alt', $titlePhoto)
                                     .attr('title', $titlePhoto)
                                     .attr('src', $largePhoto);
-                            }).attr('alt', $titlePhoto).attr('title', $titlePhoto).attr('src', $largePhoto);
+                                self.$loading.hide();
+                            }).attr({
+                                alt: $titlePhoto,
+                                title: $titlePhoto,
+                                src: $largePhoto
+                            });
                         } else {
                             self.$fullimage.find('img').attr('src', '').hide();
                             self.$fullimage.find('iframe').fadeIn(500).attr('src', $youtube);

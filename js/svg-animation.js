@@ -129,8 +129,16 @@ function initCurtains() {
             to: curtain.getAttribute('data-path-hover'),
         };
 
+				let touched = false;
+
+				curtain.addEventListener('touchstart', function() {
+						touched = true;
+				});
+
         curtain.addEventListener('mouseenter', function() {
-            path.animate({ 'path': pathConfig.to }, speed, easing);
+						if (!touched) {
+            		path.animate({ 'path': pathConfig.to }, speed, easing);
+						}
         });
 
         curtain.addEventListener('mouseleave', function() {
