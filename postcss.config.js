@@ -10,7 +10,6 @@ module.exports = {
         autoprefixer({
             // will add prefixes only for final and IE versions of specification
             flexbox: 'no-2009',
-
         }),
     ],
 };

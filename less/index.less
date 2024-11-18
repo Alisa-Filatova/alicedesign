@@ -8,7 +8,7 @@
 body {
   background: var(--background-gradient); 
 
-  @media (min-width: @screen-s) {
+  @media (min-width: @screen-l) {
     background: url('../img/main-back.svg') no-repeat top center, var(--background-gradient);
     background-size: cover;
   }
@@ -18,39 +18,27 @@ body {
 
 .main-page {
   position: relative; // for .main-page__logo
-  min-height: 100vh;
+  min-height: 820px;
   background: url('../img/clouds.svg') repeat-x scroll top center;
   background-attachment: fixed;
 
-  @media (min-width: @screen-xxxs) {
-    min-height: 720px;
-  }
-
-  @media (min-width: @screen-s) {
-    min-height: 820px;
+  @media (max-height: 860px) {
+    height: 100vh;
+    min-height: 740px;
   }
 
   &__header {
     --focus-ring-bg: var(--background-color-secondary);
     margin: 30px auto 0;
     min-width: 80%;
-
-    @media (min-width: @screen-s) {
-      min-width: 65%;
-    }
-
-    @media (min-width: @screen-l) {
-      min-width: 80%;
-    }
   }
 
   &__logo {
     position: absolute; // containing block is .main-page
     bottom: 50%;
     left: 50%;
-    display: block;
     transform: translateX(-50%);
-    animation: fade-in 3.2s ease-in-out;
+    animation: fade-in 3s ease-in-out;
   }
 
   &__illustration {
@@ -153,20 +141,12 @@ body {
 .main-illustration {
   position: relative; // for illustration parts
 
-  @media (max-width: @screen-xxxs) { 
-    max-width: 600px;
-  }
-
   &__waymarker {
     position: absolute; // containing block is .main-illustration
-    left: 20px;
+    left: 110px;
     bottom: 95px;
 
-    @media (min-width: @screen-xs) { 
-      left: 40px;
-    }
-
-    @media (min-width: @screen-s) { 
+    @media (min-width: @screen-l) { 
       left: 100px;
     }
   }
@@ -174,14 +154,10 @@ body {
   &__girl {
     z-index: var(--layer-level-2);
     position: absolute; // containing block is .main-illustration
+    left: 50%;
     bottom: 104px;
-    right: 44px;
+    transform: translateX(-50%);
     will-change: transform;
-
-    @media (min-width: @screen-xxs) { 
-      left: 50%;
-      transform: translateX(-50%);
-    }
   }
 
   &__scroll-down-button {
@@ -212,18 +188,10 @@ body {
   }
 
   &__tree {
-    display: none;
-
-    @media (min-width: @screen-xxs) { 
-      display: block;
-      position: absolute; // containing block is .main-illustration
-      bottom: 65px;
-      right: 16px;
-    }
-
-    @media (min-width: @screen-m) { 
-      right: 40px;
-    }
+    display: block;
+    position: absolute; // containing block is .main-illustration
+    bottom: 65px;
+    right: 30px;
 
     @media (min-width: @screen-l) { 
       right: 0;
@@ -245,10 +213,19 @@ body {
 // PORTFOLIO
 
 .portfolio {
-  background: url('../img/portfolio-background.svg') no-repeat top center, 
-              url('../img/gears-footer.svg') no-repeat top center,
+  background: url('../img/gallery-back.svg'), 
+              url('../img/gears-footer.svg'), 
               var(--background-gradient);
+  background-repeat: repeat-y;
+  background-position: center;
   background-size: cover;
+
+  @media (min-width: @screen-l) { 
+    background: url('../img/portfolio-background.svg') no-repeat top center, 
+                url('../img/gears-footer.svg') no-repeat top center,
+                var(--background-gradient);
+    background-size: cover;
+  }
 
   &__illustration-top {
     width: 100%;
@@ -262,15 +239,11 @@ body {
   }
 
   &__heading {
-    .heading(var(--heading-size-l));
+    .heading(var(--heading-size-xl));
     margin: 0;
     padding: var(--padding-l);
     line-height: var(--line-height-l);
     font-weight: 400;
-
-    @media (min-width: @screen-s) { 
-      .heading(var(--heading-size-xl));
-    }
   }
 
   &__list {
@@ -301,25 +274,28 @@ body {
     border-radius: var(--border-radius-s);
     .focusRing();
 
-    &:hover .portfolio__img {
-      filter: brightness(1);
-    }
+    @media (hover: hover) and (pointer: fine) {
 
-    &:hover .portfolio__title {
-      transform: translateY(0);
-    }
+      &:hover .portfolio__img {
+        filter: brightness(1);
+      }
 
-    &:hover .portfolio__description {
-      opacity: 0;
-      transform: translateY(0);
-      transition-delay: 0s;
-      transition-duration: 0.1s;
-    }
+      &:hover .portfolio__title {
+        transform: translateY(0);
+      }
 
-    &:hover .portfolio__button-wrapper,
-    &:focus-within .portfolio__button-wrapper {
-      transition-timing-function: ease-out;
-      transform: translateY(0);
+      &:hover .portfolio__description {
+        opacity: 0;
+        transform: translateY(0);
+        transition-delay: 0s;
+        transition-duration: 0.1s;
+      }
+
+      &:hover .portfolio__button-wrapper,
+      &:focus-within .portfolio__button-wrapper {
+        transition-timing-function: ease-out;
+        transform: translateY(0);
+      }
     }
   }
 
@@ -341,7 +317,7 @@ body {
 
   &__curtain {
     position: absolute;
-    top: -1px; /* fixes rendering issue in FF */
+    top: -1px; /* fix rendering issue in FF */
     width: 101%;
     height: 100%;
   }
@@ -408,6 +384,12 @@ body {
     &_pink {
       background-color: var(--color-accent);
     }
+
+    &_disabled {
+      background-color: var(--color-violet-light);
+      color: var(--color-white-fade);
+      pointer-events: none;
+    }
   }
 
   &__illustration-bottom {
@@ -415,13 +397,8 @@ body {
     height: 260px;
     background: url('../img/portfolio-footer.svg') no-repeat top center;
     background-size: cover;
-  }
-}
 
-@media (min-width: @screen-l) { 
-  .portfolio {
-    
-    &__illustration-bottom {
+    @media (min-width: @screen-l) { 
       background-repeat: repeat-x;
       background-size: contain;
     }
@@ -430,10 +407,15 @@ body {
 
 // ABOUT ME
 .about-me {
-  background: 
-    url('../img/gallery-back.svg') no-repeat top center, 
-    url('../img/gears-footer.svg') no-repeat top center;
+  background: url('../img/gears-footer.svg') no-repeat top center;
   background-size: cover;
+
+  @media (min-width: @screen-l) { 
+    background: 
+      url('../img/gallery-back.svg') no-repeat top center, 
+      url('../img/gears-footer.svg') no-repeat top center;
+    background-size: cover;
+  }
 }
 
 .room-illustration {
@@ -488,8 +470,11 @@ body {
     z-index: var(--layer-level-2);
     transition: transform 1s linear;
 
-    &:hover {
-      transform: translateX(-100px);
+    @media (hover: hover) {
+
+      &:hover {
+        transform: translateX(-100px);
+      }
     }
   }
 
@@ -557,9 +542,15 @@ body {
   position: relative;
   padding-top: var(--padding-l);
   background: 
-    url('../img/footer-bg.svg') no-repeat top center, 
     url('../img/gears-footer.svg') no-repeat top center;
-  background-size: cover;
+    background-size: 160%;
+
+  @media (min-width: @screen-l) { 
+    background: 
+      url('../img/footer-bg.svg') no-repeat top center, 
+      url('../img/gears-footer.svg') no-repeat top center;
+      background-size: cover;
+  }
 
   &__contacts-wrapper {
     display: flex;

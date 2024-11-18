@@ -1,5 +1,11 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-DOCUMENT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+set -euo pipefail
 
-php -S 0.0.0.0:8000 -t "${DOCUMENT_ROOT}"
+function main {
+    local -r document_root="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+    php -S 0.0.0.0:8000 -t "${document_root}"
+}
+
+main
