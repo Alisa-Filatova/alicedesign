@@ -3,7 +3,6 @@ import $ from 'jquery';
 $(function() {
     $('#projects-portfolio').elastic_grid({
       showAllText: 'All projects',
-      filterEffect: 'scaleup', // moveup, scaleup, fallperspective, fly, flip, helix , popup
       hoverDirection: true,
       hoverDelay: 0,
       hoverInverse: false,

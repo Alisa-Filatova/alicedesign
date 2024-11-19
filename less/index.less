@@ -14,7 +14,7 @@ body {
   }
 }
 
-/* Main page */
+/* MAIN SCREEN */
 
 .main-page {
   position: relative; // for .main-page__logo
@@ -30,8 +30,8 @@ body {
 
   &__header {
     --focus-ring-bg: var(--background-color-secondary);
-    margin: 30px auto 0;
     min-width: 80%;
+    margin: 30px auto 0;
   }
 
   &__logo {
@@ -53,9 +53,11 @@ body {
   justify-content: space-between;
 }
 
+/* Waymarker illustration */
+
 .main-nav {
   --focus-ring-bg: var(--color-primary);
-  position: relative;
+  position: relative; // for .main-nav__items
   width: 340px;
   height: 440px;
   background: url('../img/boards.svg') no-repeat top center;
@@ -63,25 +65,26 @@ body {
 
   &__items {
     .listReset();
-    position: absolute; //containing block is .main-illustration__waymarker
+    position: absolute; //containing block is .main-nav
     left: 54px;
     bottom: 160px;
-  }
-
-  &__item + &__item {
-    margin-top: 30px;
+    transform: rotate(-5deg); // for decorative boards alignment
   }
 
   &__item {
     min-width: 240px;
 
     &:last-child {
-      transform: translate(-5px, -13px); // for alignment
+      transform: translate(-5px, -13px); // for decorative board alignment
+    }
+
+    & + & {
+      margin-top: 30px;
     }
   }
 
   &__link {
-    position: relative;
+    position: relative; // for ::after underline
     display: inline-block;
     width: 100%;
     height: 100%;
@@ -97,45 +100,32 @@ body {
     
     &::after {
       content: '';
-      position: absolute;
-      width: 40%;
-      transform: scaleX(0);
-      height: 2px;
+      position: absolute; // parent is main-nav__link
       bottom: 0;
       left: 30%;
+      width: 40%;
+      height: 2px;
       background-color: var(--color-accent);
       transform-origin: bottom right;
+      transform: scaleX(0);
       transition: transform 0.25s ease-out;
       will-change: transform;
     }
 
-   &:hover {
-     color: var(--text-color-accent);
+    &:hover {
+      color: var(--text-color-accent);
 
-     &::after {
-       transform: scaleX(1);
-       transform-origin: bottom left;
-     }
-   }
+      &::after {
+        transform-origin: bottom left;
+        transform: scaleX(1);
+      }
+    }
 
-   &:active {
-     opacity: 0.8;
-   }
+    &:active {
+      opacity: 0.8;
+    }
 
-   .focusRing();
- }
-
-  &__wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 20px auto 0;
-    max-width: 1048px;
-  }
-
-  &__items {
-    .listReset();
-    transform: rotate(-5deg);
+    .focusRing();
   }
 }
 
@@ -166,8 +156,8 @@ body {
     z-index: var(--layer-level-3);
     position: absolute; // containing block is .main-illustration
     bottom: 3%;
-    left: 48%;
-    transform: translateX(-50%);
+    left: 50%;
+    margin-left: -36px; // 36px (arrow-button width: 72px / 2) 
     animation: float 2s infinite;
   }
 
@@ -189,7 +179,6 @@ body {
   }
 
   &__tree {
-    display: block;
     position: absolute; // containing block is .main-illustration
     bottom: 52px;
     right: 30px;
@@ -202,21 +191,20 @@ body {
   &__grass {
     position: absolute; // containing block is .main-illustration
     left: 0;
-    bottom: -1px; // fix for Charome & FF rendering
+    bottom: -2px; // fix for Charome & FF rendering mobile
     background-size: cover;
 
     @media (min-width: @screen-m) { 
+      bottom: -1px; // fix for Charome & FF rendering
       background-size: auto; // auto fixes Safari gaps bug with contain
     }
   }
 }
 
-// PORTFOLIO
+/* PORTFOLIO */
 
 .portfolio {
-  background: url('../img/gallery-back.svg'), 
-              url('../img/gears-footer.svg'), 
-              var(--background-gradient);
+  background: url('../img/gallery-back.svg'), url('../img/gears-footer.svg'), var(--background-gradient);
   background-repeat: repeat-y;
   background-position: center;
   background-size: cover;
@@ -228,21 +216,22 @@ body {
     background-size: cover;
   }
 
+  // Roots illustration
   &__illustration-top {
     width: 100%;
     height: 180px;
     background: url('../img/portfolio-header.svg') repeat-x top center;
     background-size: cover;
 
-    @media (min-width: @screen-s) { 
+    @media (min-width: @screen-m) { 
       background-size: contain;
     }
   }
 
   &__heading {
     .heading(var(--heading-size-xl));
-    margin: 0;
     padding: var(--padding-l);
+    margin: 0;
     line-height: var(--line-height-l);
     font-weight: 400;
   }
@@ -254,8 +243,8 @@ body {
     align-items: center;
     gap: 12px;
     width: 70%;
-    margin: 30px auto 60px;
     padding: var(--padding-xl);
+    margin: 30px auto 60px;
   }
 
   &__list-item {
@@ -266,6 +255,13 @@ body {
     &:nth-child(odd) {
       margin: 30px 0 -30px 0;
     }
+
+    &:nth-child(even) {
+      .portfolio__title, 
+      .portfolio__description {
+        text-shadow: 1px 1px var(--color-accent-dark);
+      }
+    }
   }
 
   &__link {
@@ -275,6 +271,7 @@ body {
     border-radius: var(--border-radius-s);
     .focusRing();
 
+    // exclude hover styles from touch devices
     @media (hover: hover) and (pointer: fine) {
 
       &:hover .portfolio__img {
@@ -301,15 +298,14 @@ body {
   }
 
   &__item {
-    position: relative;
-    overflow: hidden;
+    position: relative; // for curtain and content wrapper
     margin: 4px 2px;
-    background: var(--color-grey-dark);
     border-radius: var(--border-radius-m);
+    background: var(--color-grey-dark);
+    overflow: hidden;
   }
 
   &__img {
-    position: relative;
     display: block;
     width: 100%;
     transition: filter 0.3s;
@@ -317,14 +313,14 @@ body {
   }
 
   &__curtain {
-    position: absolute;
+    position: absolute; // parent is portfolio__item
     top: -1px; /* fix rendering issue in FF */
-    width: 101%;
+    width: 100%;
     height: 100%;
   }
 
   &__wrapper {
-    position: absolute;
+    position: absolute; // parent is portfolio__item
     top: 0;
     padding: var(--padding-s);
     width: 100%;
@@ -334,46 +330,46 @@ body {
     box-sizing: border-box;
   }
 
-  &__title {
-    margin: 0 0 20px 0;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    transition: transform 0.3s;
+  &__title,
+  &__description {
     color: var(--text-color-inverted);
-    font-size: var(--heading-size-s);
-    line-height: var(--line-height-xl);
     transform: translateY(50px);
     transition-timing-function: cubic-bezier(0.250, 0.250, 0.115, 1.445);
     backface-visibility: hidden;
     box-sizing: border-box;
+  }
+
+  &__title {
+    margin: 0 0 20px 0;
+    font-size: var(--heading-size-s);
+    line-height: var(--line-height-xl);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: transform 0.3s;
   }
 
   &__description {
     padding: 0 var(--padding-l);
     margin: 0;
+    font-weight: 500;
+    transition: opacity 0.3s, transform 0.3s;
+    transition-delay: 0.05s;
+  }
+
+  &__description,
+  &__button-wrapper {
     font-family: var(--font-secondary);
     font-size: var(--font-size-l);
     line-height: var(--line-height-l);
-    font-weight: 500;
-    color: var(--text-color-inverted);
-    transition: opacity 0.3s, transform 0.3s;
-    transition-delay: 0.05s;
-    transform: translateY(50px);
-    transition-timing-function: cubic-bezier(0.250, 0.250, 0.115, 1.445);
-    backface-visibility: hidden;
-    box-sizing: border-box;
   }
 
   &__button-wrapper {
-    position: absolute;
-    bottom: -1px;
+    position: absolute; // parent is &__wrapper
+    bottom: 0;
     left: 0;
     width: 100%;
     padding: var(--padding-m);
-    font-family: var(--font-secondary);
-    font-size: var(--font-size-l);
     font-weight: 600;
-    line-height: var(--line-height-l);
     letter-spacing: 1px;
     color: var(--text-color-inverted);
     background-color: var(--color-primary-dark);
@@ -384,6 +380,7 @@ body {
 
     &_pink {
       background-color: var(--color-accent);
+      text-shadow: 1px 1px var(--color-accent-dark);
     }
 
     &_disabled {
@@ -393,6 +390,7 @@ body {
     }
   }
 
+  // Underground illustration
   &__illustration-bottom {
     width: 100%;
     height: 260px;
@@ -406,7 +404,7 @@ body {
   }
 }
 
-// ABOUT ME
+/* ABOUT ME */
 .about-me {
   background: url('../img/gears-footer.svg') no-repeat top center;
   background-size: cover;
@@ -420,7 +418,7 @@ body {
 }
 
 .room-illustration {
-  position: relative;
+  position: relative; // for illustration parts
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -440,38 +438,38 @@ body {
   }
 
   &__shelf {
-    position: absolute;
+    position: absolute; // paren is .room-illustration
     left: 100px;
     top: 220px;
   }
 
   &__clock {
-    position: absolute;
+    position: absolute; // paren is .room-illustration
     top: 20%;
     left: 30%;
   }
 
   &__ceiling-lamp {
-    position: absolute;
+    z-index: var(--layer-level-2);
+    position: absolute; // paren is .room-illustration
     top: 0;
     left: 47%;
-    z-index: var(--layer-level-2);
   }
 
   &__desk-wrapper {
-    position: absolute;
+    position: absolute; // paren is .room-illustration
     left: 5%;
     bottom: 22%;
   }
 
   &__office-chair {
-    position: absolute;
+    z-index: var(--layer-level-2);
+    position: absolute; // paren is .room-illustration
     left: 262px;
     bottom: 176px;
-    z-index: var(--layer-level-2);
-    transition: transform 1s linear;
 
     @media (hover: hover) {
+      transition: transform 1s linear;
 
       &:hover {
         transform: translateX(-100px);
@@ -480,24 +478,24 @@ body {
   }
 
   &__cat {
-    position: absolute;
+    position: absolute;  // paren is .room-illustration
     bottom: 104px;
     right: 730px;
   }
 
   &__laptop-girl {
-    position: absolute;
+    z-index: var(--layer-level-1);
+    position: absolute;  // paren is .room-illustration
     right: 88px;
     bottom: 236px;
-    z-index: var(--layer-level-1);
     pointer-events: none;
   }
 
   &__cv {
+    z-index: var(--layer-level-1);
     position: absolute;
     top: 5%;
     right: 7%;
-    z-index: var(--layer-level-1);
   }
 }
 
@@ -505,11 +503,11 @@ body {
   max-width: 480px;
   padding: var(--padding-xl);
   margin: 0; // reset default styles
+  border-radius: var(--border-radius-xl);
   font-family: var(--font-secondary);
   font-size: var(--font-size-m);
   line-height: var(--line-height-m);
   font-weight: 500;
-  border-radius: var(--border-radius-xl);
   background: var(--color-cyan-dark);
   color: var(--color-primary-dark);
   box-sizing: border-box;
@@ -518,16 +516,16 @@ body {
     display: flex;
     flex-direction: column;
     gap: 4px;
-    font-size: var(--heading-size-s);
     margin-top: 0;
     margin-bottom: 12px;
+    font-size: var(--heading-size-s);
     color: var(--color-grey);
   }
 
   &__subtitle {
+    font-size: var(--font-size-s);
     text-transform: uppercase;
     letter-spacing: 5px;
-    font-size: var(--font-size-s);
   }
 
   &__text {
@@ -540,17 +538,16 @@ body {
 }
 
 .footer {
-  position: relative;
   padding-top: var(--padding-l);
   background: 
     url('../img/gears-footer.svg') no-repeat top center;
-    background-size: 160%;
+  background-size: 160%;
 
   @media (min-width: @screen-l) { 
     background: 
       url('../img/footer-bg.svg') no-repeat top center, 
       url('../img/gears-footer.svg') no-repeat top center;
-      background-size: cover;
+    background-size: cover;
   }
 
   &__contacts-wrapper {
@@ -559,17 +556,12 @@ body {
   }
 
   &__contacts {
-    max-width: 440px;
-    align-items: center;
     margin: 0 auto 20px;
   }
 
   &__wrapper {
     display: flex;
-    justify-content: center;
     align-items: center;
-    width: 95%;
-    max-width: 1100px;
     margin: 0 auto;
   }
 
@@ -585,10 +577,7 @@ body {
 
   &__description {
     font-family: var(--font-secondary);
-    display: inline-block;
     text-align: center;
-    font-size: var(--font-size-m);
-    font-weight: 500;
     line-height: var(--line-height-xl);
     color: var(--text-color-primary);
     margin: 0 26px;
@@ -602,6 +591,7 @@ body {
 
     &:hover, 
     &:focus-visible {
+
       .mailbox__toggle {
         transform: rotate(-30deg);
       }
@@ -614,9 +604,9 @@ body {
   }
 
   &__logo {
+    border-radius: var(--border-radius-m);
     transition: var(--transition-base);
     transform: scale(0.9);
-    border-radius: var(--border-radius-m);
 
     &:hover {
       transform: scale(1);

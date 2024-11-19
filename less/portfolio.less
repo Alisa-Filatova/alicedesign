@@ -2,7 +2,6 @@
 @import 'variables';
 @import 'components';
 @import 'mixin';
-@import 'animation';
 
 *,
 *::after,
@@ -14,17 +13,19 @@
 
 .portfolio {
   min-height: 100vh;
+  background: url('../img/gears-footer.svg') repeat-y center, var(--background-gradient);
+  background-size: 280%;
 
   &__wrapper {
     display: flex;
     flex-direction: column;
-    background: url('../img/main-back.svg') no-repeat top center, var(--background-gradient);
+    background: url('../img/main-back.svg') no-repeat top center;
     background-size: cover;
-    min-height: 100vh;
     height: 100%;
+    min-height: 100vh;
   
     @media (min-width: @screen-l) {
-      background: url('../img/gallery-back.svg') no-repeat top center, var(--background-gradient);
+      background: url('../img/gallery-back.svg') no-repeat top center;
       background-size: cover;
     }
   }
@@ -35,10 +36,11 @@
     justify-content: center;
     align-items: flex-end;
     gap: 16px;
-    padding: 80px 80px var(--padding-m);
+    padding: 50px 50px var(--padding-m);
     color: var(--color-primary-dark);
 
     @media (min-width: @screen-l) {
+      padding: 80px 80px var(--padding-m);
       justify-content: space-between;
     }
   }
@@ -51,12 +53,16 @@
   }
 
   &__description {
-    max-width: 800px;
+    width: 540px;
     margin: 30px auto;
     font-size: var(--font-size-m);
     line-height: var(--line-height-l);
     font-family: var(--font-secondary);
     text-align: center;
+
+    @media (min-width: @screen-l) {
+      max-width: 800px;
+    }
   }
 
   &__back-button {
@@ -74,6 +80,7 @@
 // GALLERY
 .gallery {
   font-family: var(--font-secondary);
+  min-height: 100vh;
   
   &__grid {
     --grid-item-size: 420px;
@@ -83,18 +90,27 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 8px;
-    padding: 0 80px;
+    gap: 16px;
+    padding: 0 120px;
+
+    @media (min-width: @screen-l) {
+      gap: 8px;
+      padding: 0 80px;
+    }
   }
 
   &__grid-item {
     --cover-bg: var(--color-violet-fade);
     max-width: var(--grid-item-size);
     flex-grow: 1;
-    flex-basis: calc(100% / 3);
+    flex-basis: calc(100% / 2);
     
     &:nth-child(odd) .gallery__item-cover {
       --cover-bg: var(--color-turquoise-fade);
+    }
+
+    @media (min-width: @screen-l) {
+      flex-basis: calc(100% / 3);
     }
   }
 
@@ -141,6 +157,10 @@
     max-width: var(--container-size);
     height: 90%;
     max-height: 770px;
+
+    @media (min-width: @screen-l) {
+      max-width: @screen-l;
+    }
   }
 
   &__full-img-box {
