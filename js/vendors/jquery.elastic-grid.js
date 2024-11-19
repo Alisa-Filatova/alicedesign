@@ -501,6 +501,7 @@ $.fn.elastic_grid = function(config) {
                                 });
 
                             $('<img alt=""/>').on('load', function() {
+                                self.$fullimage.find('iframe').attr('src', '').hide();
                                 self.$fullimage
                                     .find('img')
                                     .fadeIn(500)
