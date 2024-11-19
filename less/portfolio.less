@@ -13,8 +13,8 @@
 
 .portfolio {
   min-height: 100vh;
-  background: url('../img/gears-footer.svg') repeat-y center, var(--background-gradient);
-  background-size: 280%;
+  background: var(--background-gradient);
+  background-size: cover;
 
   &__wrapper {
     display: flex;
@@ -61,7 +61,7 @@
     text-align: center;
 
     @media (min-width: @screen-l) {
-      max-width: 800px;
+      width: 800px;
     }
   }
 
