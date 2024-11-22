@@ -23,24 +23,24 @@ $(function() {
 				].join(' '),
 					thumbnail: [
 						'img/gallery/large/wrike/wrike.svg',
-						'img/gallery/small/wrike/wrike_intro.jpeg',
+						'img/gallery/small/wrike/wrike_features.jpeg',
 						'img/gallery/small/wrike/wrike_proofing.jpeg',
 						'img/gallery/small/wrike/wrike_calendar.jpeg',
-						'img/gallery/small/wrike/wrike_features.jpeg',
+						'img/gallery/small/wrike/wrike_intro.jpeg',
 					],
 					large: [
 						'img/gallery/large/wrike/wrike.svg',
-						'img/gallery/video/wrike_intro.mp4',
+						'img/gallery/video/wrike_features.mp4',
 						'img/gallery/video/wrike_proofing.mp4',
 						'img/gallery/video/wrike_calendar.mp4',
-						'img/gallery/video/wrike_features.mp4',
+						'img/gallery/video/wrike_intro.mp4',
 					],
 					img_title: [
 						'Wrike animation',
-						'What is Wrike in 3 minutes', 
+						'Wrike features demo', 
 						'Proofing demo', 
 						'Calendar App demo', 
-						'Wrike features demo' 
+						'What is Wrike in 3 minutes'
 					],
 					button_list: [
 						{

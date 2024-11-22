@@ -13,7 +13,7 @@ $(function() {
 				description: [
 					'<p><a class="text-link" href="https://www.wrike.com/" target="_blank" rel="noopener noreferrer">Wrike</a> - это платформа для управления проектами с большим количеством внутренних приложений, таких как менеджер задач, диаграммы Ганта, календари, отчеты, файл-менеджемнт и многое другое.</p> <p>Клиентами Wrike являются такие компании, как Apple, Microsoft, Sony, Siemens, P&G и многие другие.</p> ' +
 					'<p>Моей основной командой была <b>UI Kit team</b>, которая отвечала за библиотеку компонентов, внедрение дизайн-системы и accessibility.</p>' +
-					'<p>Помимо этого я успела порабоать с тремя продуктовыми командами, основная из них - отвечающая за продукт <a class="text-link" href="https://www.wrike.com/features/online-proofing/" target="_blank" rel="noopener noreferrer">Proofing</a> (хранение, управление, редактирование, обсуждение и утверждение разных типов файлов и их интеграций с другими сервисами и приложениями). Так же работала с продуктами <a class="text-link" href="https://www.wrike.com/features/team-project-calendar/" target="_blank" rel="noopener noreferrer">Calendar App</a>, <a class="text-link" href="https://www.wrike.com/features/approvals/" target="_blank" rel="noopener noreferrer">Approvals</a> и <a class="text-link" href="https://www.wrike.com/apps/" target="_blank" rel="noopener noreferrer">Integrations</a>.</p>',
+					'<p>Помимо этого я успела поработать с тремя продуктовыми командами, основная из них - отвечающая за продукт <a class="text-link" href="https://www.wrike.com/features/online-proofing/" target="_blank" rel="noopener noreferrer">Proofing</a> (хранение, управление, редактирование, обсуждение и утверждение разных типов файлов и их интеграций с другими сервисами и приложениями). Так же работала с продуктами <a class="text-link" href="https://www.wrike.com/features/team-project-calendar/" target="_blank" rel="noopener noreferrer">Calendar App</a>, <a class="text-link" href="https://www.wrike.com/features/approvals/" target="_blank" rel="noopener noreferrer">Approvals</a> и <a class="text-link" href="https://www.wrike.com/apps/" target="_blank" rel="noopener noreferrer">Integrations</a>.</p>',
 					'<p>Участвовала в Knowledge sharing, Demo, делала презентации, писала и переводила гайды для внутренней базы знаний, проводила code-review и design-review. Годы работы в компании: 2019-2023.</p>',
 					'<p><b>Стек</b>: CSS3/Less/PostCSS, HTML5/SVG, React/TS, Angular/Dart</p>' +
 					'<p><b>Дополнительно</b>: BEM, Accessibility, Web Standards, GitLab, Figma<br>'+
@@ -22,24 +22,24 @@ $(function() {
 				].join(' '),
 					thumbnail: [
 						'img/gallery/large/wrike/wrike.svg',
-						'img/gallery/small/wrike/wrike_intro.jpeg',
+						'img/gallery/small/wrike/wrike_features.jpeg',
 						'img/gallery/small/wrike/wrike_proofing.jpeg',
 						'img/gallery/small/wrike/wrike_calendar.jpeg',
-						'img/gallery/small/wrike/wrike_features.jpeg',
+						'img/gallery/small/wrike/wrike_intro.jpeg',
 					],
 					large: [
 						'img/gallery/large/wrike/wrike.svg',
-						'img/gallery/video/wrike_intro.mp4',
+						'img/gallery/video/wrike_features.mp4',
 						'img/gallery/video/wrike_proofing.mp4',
 						'img/gallery/video/wrike_calendar.mp4',
-						'img/gallery/video/wrike_features.mp4',
+						'img/gallery/video/wrike_intro.mp4',
 					],
 					img_title: [
 						'Wrike animation',
-						'What is Wrike in 3 minutes', 
+						'Wrike features demo', 
 						'Proofing demo', 
 						'Calendar App demo', 
-						'Wrike features demo' 
+						'What is Wrike in 3 minutes'
 					],
 					button_list: [
 						{
