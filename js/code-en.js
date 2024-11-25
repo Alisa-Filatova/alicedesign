@@ -19,7 +19,7 @@ $(function() {
 					'<p><b>Stack and technologies</b>: CSS/Less/PostCSS, HTML5/SVG, React/TS, Angular/Dart</p>' +
 					'<p><b>Additionally</b>: BEM Methodology, Accessibility, Web Standards, GitLab, Figma<br>'+
 					'<b>Process</b>: Agile, Scrum</p>'+
-					'<p><strong><i>!WARNING: For viewers from Russia</strong>: wrike.com is not available for this region. To visit this site links, you need to use a VPN.</i></p> ',
+					'<p><strong><i>WARNING! For viewers from Russia</strong>: wrike.com is not available for this region. To visit this site links, you need to use a VPN.</i></p> ',
 				].join(' '),
 					thumbnail: [
 						'img/gallery/large/wrike/wrike.svg',
@@ -62,7 +62,7 @@ $(function() {
 					'<p>I joined the company as an HTML coder. Working under the mentorship of a senior Frontend developer, I mastered the basic work with React.js and became a Junior Frontend developer. I worked very closely with the UI/UX and web design team, I consider this a necessary process to achieve the best result on the frontend.</p> ' +
 					'<p><b>Stack and technologies</b>: React.js, TypeScript, HTML5/CSS3, Less, CSS Modules, JavaScript, Storybook, AntDesign, Figma, Sketch, PO Editor, Adobe Photoshop.<br>'+
 					'<b>Cross-browser compatibility</b>: Chrome, Opera, Firefox, Safari, Edge.</p>',
-					'<p><strong><i>!WARNING: For viewers from Russia</strong>: ezy.com can be blocked for this counry. If you are having problems connecting to the service, use a VPN.</i></p> ',
+					'<p><strong><i>WARNING! For viewers from Russia</strong>: ezy.com can be blocked for this counry. If you are having problems connecting to the service, use a VPN.</i></p> ',
 				].join(' '),
 				thumbnail: [
 					'img/gallery/small/ezy/interface.jpg',

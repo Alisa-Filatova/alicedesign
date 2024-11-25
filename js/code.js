@@ -11,14 +11,14 @@ $(function() {
 				title: 'Wrike',
 				logo: 'img/gallery/logo/wrike-logo.svg',
 				description: [
-					'<p><a class="text-link" href="https://www.wrike.com/" target="_blank" rel="noopener noreferrer">Wrike</a> - это платформа для управления проектами с большим количеством внутренних приложений, таких как менеджер задач, диаграммы Ганта, календари, отчеты, файл-менеджемнт и многое другое.</p> <p>Клиентами Wrike являются такие компании, как Apple, Microsoft, Sony, Siemens, P&G и многие другие.</p> ' +
-					'<p>Моей основной командой была <b>UI Kit team</b>, которая отвечала за библиотеку компонентов, внедрение дизайн-системы и accessibility.</p>' +
+					'<p><a class="text-link" href="https://www.wrike.com/" target="_blank" rel="noopener noreferrer">Wrike</a> - это платформа для управления проектами с большим количеством внутренних приложений, таких как менеджер задач, диаграммы Ганта, календари, отчеты, файл-менеджмент и многое другое.</p> <p>Клиентами Wrike являются такие компании, как Apple, Microsoft, Sony, Siemens, P&G и многие другие.</p> ' +
+					'<p>Моей основной командой была <b>UI Kit team</b>, которая отвечает за библиотеку компонентов, внедрение дизайн-системы и accessibility.</p>' +
 					'<p>Помимо этого я успела поработать с тремя продуктовыми командами, основная из них - отвечающая за продукт <a class="text-link" href="https://www.wrike.com/features/online-proofing/" target="_blank" rel="noopener noreferrer">Proofing</a> (хранение, управление, редактирование, обсуждение и утверждение разных типов файлов и их интеграций с другими сервисами и приложениями). Так же работала с продуктами <a class="text-link" href="https://www.wrike.com/features/team-project-calendar/" target="_blank" rel="noopener noreferrer">Calendar App</a>, <a class="text-link" href="https://www.wrike.com/features/approvals/" target="_blank" rel="noopener noreferrer">Approvals</a> и <a class="text-link" href="https://www.wrike.com/apps/" target="_blank" rel="noopener noreferrer">Integrations</a>.</p>',
 					'<p>Участвовала в Knowledge sharing, Demo, делала презентации, писала и переводила гайды для внутренней базы знаний, проводила code-review и design-review. Годы работы в компании: 2019-2023.</p>',
 					'<p><b>Стек</b>: CSS3/Less/PostCSS, HTML5/SVG, React/TS, Angular/Dart</p>' +
 					'<p><b>Дополнительно</b>: BEM, Accessibility, Web Standards, GitLab, Figma<br>'+
 					'<b>Процессы</b>: Agile, Scrum</p>'+
-					'<p><strong><i>!ВНИМАНИЕ: Для зрителей из России</strong>: wrike.com не доступен для этого региона. Чтобы иметь возможность просматривать ссылки на этом ресурсе, необходимо использовать VPN.</i></p> ',
+					'<p><strong><i>ВНИМАНИЕ! Для зрителей из России</strong>: wrike.com не доступен для этого региона. Чтобы иметь возможность просматривать ссылки на этом ресурсе, необходимо использовать VPN.</i></p> ',
 				].join(' '),
 					thumbnail: [
 						'img/gallery/large/wrike/wrike.svg',
@@ -61,7 +61,7 @@ $(function() {
 					'<p>Работая под наставничеством старшего Frontend-разработчика, освоила React.js и перешла на должность Junior Frontend разработчика. Очень тесно работала с командой UI/UX и web-дизайна, считаю это необходимым процессом для достижения наилучшего результата по фронтенду.</p> ' +
 					'<p><b>Стек и технологии</b>: React.js, TypeScript, HTML5/CSS3, Less, CSS Modules, JavaScript, Storybook, AntDesign, Figma, Sketch, Adobe Photoshop, PO Editor<br>'+
 					'<b>Поддержка браузерами</b>: Chrome, Opera, Firefox, Safari, Edge.</p>',
-					'<p><strong><i>!ВНИМАНИЕ: для зрителей из России</strong>: ezy.com может быть не доступен в этом регионе. Если у вас возникли проблемы с доступом к сайту - используйте VPN.</i></p> ',
+					'<p><strong><i>ВНИМАНИЕ! для зрителей из России</strong>: ezy.com может быть не доступен в этом регионе. Если у вас возникли проблемы с доступом к сайту - используйте VPN.</i></p> ',
 				].join(' '),
 				thumbnail: [
 					'img/gallery/small/ezy/interface.jpg',
@@ -269,7 +269,7 @@ $(function() {
 		logo: 'img/gallery/logo/alice-logo.svg',
 		description: [
 			'<p>Мой личный сайт портфолио. Проект я решила делать со своими иллюстрациями и обилием CSS анимацией.',
-       'Дизайн делала полностью сама, дав волю своей фантазии и стараясь не думать об ограничениях верстки. Первая вырсия была запущена в 2017. Обновлена в 2024.</p>' + 
+       'Дизайн делала полностью сама, дав волю своей фантазии и стараясь не думать об ограничениях верстки. Первая версия была запущена в 2017, обновлено в 2024.</p>' + 
 			'<p>Назначение сайта - портфолио и поиск работы, демонстрация проектов в которых я принимала участие, а так же полигон для эксперементов. Поэтому я не стала заострять внимание на мобильной версии и сделала сайт рассчитанный на большие экраны.</p><p><b><i> Для получения наилучшего опыта при просмотре - используйте ПК или ноутбук.</i></b></p>' +
 			'<p><b>Стек</b>: HTML5/CSS3, LESS, jQuery, Adobe Photoshop, Adobe Illustrator.<br>'+
 			'<b>Поддержка браузеров</b>: Chrome, Opera, Firefox, Safari, Edge.</p>'
