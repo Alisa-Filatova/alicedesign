@@ -16,7 +16,7 @@ $(function() {
 					'<p>I mainly worked in the <b>UI Kit team</b>, which was responsible for the components library, design system implementation and accessibility.</p>' +
 					'<p>I also developed UI for such Wrike products as <a class="text-link" href="https://www.wrike.com/features/online-proofing/" target="_blank" rel="noopener noreferrer">Proofing</a>, which was responsible for storing, managing and editing various types of files and their integrations with other services and applications. And I also worked on <a class="text-link" href="https://www.wrike.com/features/team-project-calendar/" target="_blank" rel="noopener noreferrer">Calendar App</a>, <a class="text-link" href="https://www.wrike.com/features/approvals/" target="_blank" rel="noopener noreferrer">Approvals</a> and <a class="text-link" href="https://www.wrike.com/apps/" target="_blank" rel="noopener noreferrer">Integrations</a> products.</p>',
 					'<p>I took part in "Knowledge sharing", "Demo presentations", wrote and translated articles for the internal knowledge base, launched code improvement initiatives, did code reviews and design reviews. Years of work in the company (2019-2023).</p>',
-					'<p><b>Stack and technologies</b>: CSS/Less/PostCSS, HTML5/SVG, React/TS, Angular/Dart</p>' +
+					'<p><b>Stack and technologies</b>: CSS/Less, HTML5/SVG, React/TS, Angular/Dart</p>' +
 					'<p><b>Additionally</b>: BEM Methodology, Accessibility, Web Standards, GitLab, Figma<br>'+
 					'<b>Process</b>: Agile, Scrum</p>'+
 					'<p><strong><i>WARNING! For viewers from Russia</strong>: wrike.com is not available for this region. To visit this site links, you need to use a VPN.</i></p> ',

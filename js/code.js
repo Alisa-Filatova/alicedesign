@@ -16,7 +16,7 @@ $(function() {
 					'<p>Моей основной командой была <b>UI Kit team</b>, которая отвечает за библиотеку компонентов, внедрение дизайн-системы и accessibility.</p>' +
 					'<p>Помимо этого я успела поработать с тремя продуктовыми командами, основная из них - отвечающая за продукт <a class="text-link" href="https://www.wrike.com/features/online-proofing/" target="_blank" rel="noopener noreferrer">Proofing</a> (хранение, управление, редактирование, обсуждение и утверждение разных типов файлов и их интеграций с другими сервисами и приложениями). Так же работала с продуктами <a class="text-link" href="https://www.wrike.com/features/team-project-calendar/" target="_blank" rel="noopener noreferrer">Calendar App</a>, <a class="text-link" href="https://www.wrike.com/features/approvals/" target="_blank" rel="noopener noreferrer">Approvals</a> и <a class="text-link" href="https://www.wrike.com/apps/" target="_blank" rel="noopener noreferrer">Integrations</a>.</p>',
 					'<p>Участвовала в Knowledge sharing, Demo, делала презентации, писала и переводила гайды для внутренней базы знаний, проводила code-review и design-review. Годы работы в компании: 2019-2023.</p>',
-					'<p><b>Стек</b>: CSS3/Less/PostCSS, HTML5/SVG, React/TS, Angular/Dart</p>' +
+					'<p><b>Стек</b>: CSS3/Less, HTML5/SVG, React/TS, Angular/Dart</p>' +
 					'<p><b>Дополнительно</b>: BEM, Accessibility, Web Standards, GitLab, Figma<br>'+
 					'<b>Процессы</b>: Agile, Scrum</p>'+
 					'<p><strong><i>ВНИМАНИЕ! Для зрителей из России</strong>: wrike.com не доступен для этого региона. Чтобы иметь возможность просматривать ссылки на этом ресурсе, необходимо использовать VPN.</i></p> ',
