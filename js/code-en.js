@@ -311,6 +311,51 @@ $(function() {
 		tags: ['']
 	},
 	{
+		title: 'The 4th Knights club ',
+		logo: 'img/gallery/logo/4knights-logo.svg',
+		description: [
+			'<p>Landing page about the Vasyuki tournament. Based on the story "12 Chairs" by Ilf and Petrov.',
+       'Adaptive layout was done with vanilla HTML/CSS/JS, without the use of preprocessors, builders and JS plugins. I used CSS Nesting, :has, blend-mode, CSS variables and other modern CSS properties. </p>' + 
+			'<p>The purpose of the site is a test task for Yandex Crowd (I passed the test, but refused further interviews myself, since I did not agree on the terms and conditions).</p>' +
+			'<p><b>Stack</b>: HTML5/CSS3, JavaScript, Figma, Adobe Photoshop.<br>'+
+			'<b>Browser support</b>: Chrome, Firefox.</p>'
+		].join(' '),
+		thumbnail: [
+			'img/gallery/large/4knights/4knights.jpg',
+			'img/gallery/small/4knights/main-screen.jpeg',
+			'img/gallery/small/4knights/promo.jpeg',
+			'img/gallery/small/4knights/conditions.jpeg',
+			'img/gallery/small/4knights/participants.jpeg',
+		],
+		large: [
+			'img/gallery/large/4knights/4knights.jpg',
+			'img/gallery/large/4knights/main-screen.jpeg',
+			'img/gallery/large/4knights/promo.jpeg',
+			'img/gallery/large/4knights/conditions.jpeg',
+			'img/gallery/large/4knights/participants.jpeg',
+		],
+		img_title: [
+			'4knights Screens',
+			'Main screen',
+			'Promo section',
+			'Conditions section',
+			'Participants slider'
+		],
+		button_list: [
+			{
+				title: 'Visit website',
+				url: 'https://yandex-test.alisafilatova.ru/',
+				new_window: true
+			},
+			{
+				title: 'Source code',
+				url: 'https://github.com/Alisa-Filatova/4-knights-club',
+				new_window: true
+			}
+		],
+		tags: ['']
+	},
+	{
 		title: 'Goroshko Dance',
 		logo: 'img/gallery/logo/goroshko-logo.svg',
 		description: [

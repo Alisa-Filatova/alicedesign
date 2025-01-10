@@ -311,6 +311,51 @@ $(function() {
 		tags: ['']
 	},
 	{
+		title: 'Клуб Четырех Коней',
+		logo: 'img/gallery/logo/4knights-logo.svg',
+		description: [
+			'<p>Лендинг пейдж о турнире в Васюках. По мотивам рассказа "12 стульев" Ильфа и Петрова.',
+       'Адаптивная верстка делалась на чистом HTML/CSS/JS, без использования препроцессоров, сборщиков и js плагинов. Использовала CSS Nesting, :has, blend-mode, css properties и прочие современные CSS свойства, в отстутствии требований к браузерной поддержке. </p>' + 
+			'<p>Назначение сайта - тестовое задание для Яндекс Крауд (тестовое прошла, отказалась от дальнейшего собеседования сама, не сошлись в условиях).</p>' +
+			'<p><b>Стек</b>: HTML5/CSS3, JavaScript, Figma, Adobe Photoshop.<br>'+
+			'<b>Поддержка браузеров</b>: Chrome, Firefox.</p>'
+		].join(' '),
+		thumbnail: [
+			'img/gallery/large/4knights/4knights.jpg',
+			'img/gallery/small/4knights/main-screen.jpeg',
+			'img/gallery/small/4knights/promo.jpeg',
+			'img/gallery/small/4knights/conditions.jpeg',
+			'img/gallery/small/4knights/participants.jpeg',
+		],
+		large: [
+			'img/gallery/large/4knights/4knights.jpg',
+			'img/gallery/large/4knights/main-screen.jpeg',
+			'img/gallery/large/4knights/promo.jpeg',
+			'img/gallery/large/4knights/conditions.jpeg',
+			'img/gallery/large/4knights/participants.jpeg',
+		],
+		img_title: [
+			'4knights Screens',
+			'Main screen',
+			'Promo section',
+			'Conditions section',
+			'Participants slider'
+		],
+		button_list: [
+			{
+				title: 'Открыть сайт',
+				url: 'https://yandex-test.alisafilatova.ru/',
+				new_window: true
+			},
+			{
+				title: 'Исходный код',
+				url: 'https://github.com/Alisa-Filatova/4-knights-club',
+				new_window: true
+			}
+		],
+		tags: ['']
+	},
+	{
 		title: 'Goroshko Dance',
 		logo: 'img/gallery/logo/goroshko-logo.svg',
 		description: [
