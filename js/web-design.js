@@ -12,7 +12,7 @@ $(function() {
           logo: 'img/gallery/logo/alice-logo.svg',
           description: [
             '<p>Мой личный сайт портфолио. Проект я решила делать со своими иллюстрациями и обилием CSS анимацией.',
-            'Дизайн делала полностью сама, дав волю своей фантазии и стараясь не думать об ограничениях верстки. Первая вырсия была запущена в 2017. Обновлена в 2024.</p>' + 
+            'Дизайн делала полностью сама, дав волю своей фантазии и стараясь не думать об ограничениях верстки. Первая вырсия была запущена в 2017. Обновлена в 2024.</p>' +
             '<p>Назначение сайта - портфолио и поиск работы, демонстрация проектов в которых я принимала участие, а так же полигон для эксперементов. Поэтому я не стала заострять внимание на мобильной версии и сделала сайт рассчитанный на большие экраны.</p><p><b><i> Для получения наилучшего опыта при просмотре - используйте ПК или ноутбук.</i></b></p>' +
             '<p><b>Стек</b>: HTML5/CSS3, LESS, jQuery, Adobe Photoshop, Adobe Illustrator.<br>'+
             '<b>Поддержка браузеров</b>: Chrome, Opera, Firefox, Safari, Edge.</p>'
@@ -42,6 +42,54 @@ $(function() {
             {
               title: 'Открыть сайт',
               url: 'http://alisafilatova.ru/',
+              new_window: true
+            }
+          ],
+          tags: ['']
+        },
+        {
+          title: 'Shelter',
+          logo: 'img/gallery/logo/shelter-logo.png',
+          description: [
+            '<p>Разработка UI и иллюстраций для мобильной игры в жанре match3 - "Shelter". Мои собственные иллюстрации и UI. 2022</p>' +
+            '<p>Сеттинг: Лес, помощь лесным зверятам. Жанр: match3, мобильные игры.</b></p>' +
+            '<p><b>Инструменты</b>: Adobe Photoshop, Procreate.<br>'+
+            '<b>Платформы</b>: смартфоны, планшеты.</p>'
+          ].join(' '),
+          thumbnail: [
+            'img/gallery/large/shelter/shelter.jpg',
+            'img/gallery/small/shelter/main-screen.jpeg',
+            'img/gallery/small/shelter/game-field.jpeg',
+            'img/gallery/small/shelter/character.jpeg',
+            'img/gallery/small/shelter/map.jpeg',
+            'img/gallery/small/shelter/modal.jpeg',
+            'img/gallery/small/shelter/crisps.jpeg',
+            'img/gallery/small/shelter/logo.jpeg'
+          ],
+          large: [
+            'img/gallery/large/shelter/shelter.jpg',
+            'img/gallery/large/shelter/main-screen.jpg',
+            'img/gallery/large/shelter/game-field.jpg',
+            'img/gallery/large/shelter/character.jpg',
+            'img/gallery/large/shelter/map.jpg',
+            'img/gallery/large/shelter/modal.jpg',
+            'img/gallery/large/shelter/crisps.jpg',
+            'img/gallery/large/shelter/logo.jpg'
+          ],
+          img_title: [
+            'Shelter',
+            'Main screen',
+            'Game field',
+            'Character design',
+            'Game map',
+            'Level',
+            'Crisps design',
+            'Logo design'
+          ],
+          button_list: [
+            {
+              title: 'Открыть проект',
+              url: 'https://www.artstation.com/artwork/5XNXkJ',
               new_window: true
             }
           ],

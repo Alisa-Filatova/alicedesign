@@ -11,7 +11,7 @@ $(function() {
           title: 'My Personal Web site',
           logo: 'img/gallery/logo/alice-logo.svg',
           description: [
-            '<p>My personal portfolio website. The project I have done with my own design and illustrations, and a lot of css animations. The first version of the site was made in 2017. It was updated in 2024.</p>' + 
+            '<p>My personal portfolio website. The project I have done with my own design and illustrations, and a lot of css animations. The first version of the site was made in 2017. It was updated in 2024.</p>' +
             '<p>The purpose of this site is to show my skills as an HTML coder and web designer, as well as to share projects I took part. For this reason, the site is designed to be viewed from large screens and the mobile version is not initially intended. Therefore, <b>for the best experience, use a PC or Laptop.</b></p>' +
             '<p><b>Stack and technologies</b>: HTML5/CSS3, LESS, jQuery, Adobe Photoshop, Adobe Illustrator.<br>'+
             '<b>Cross-browser compatibility</b>: Chrome, Opera, Firefox, Safari, Edge.</p>'
@@ -45,6 +45,54 @@ $(function() {
             }
           ],
           tags: ['Fixed']
+        },
+        {
+          title: 'Shelter',
+          logo: 'img/gallery/logo/shelter-logo.png',
+          description: [
+            '<p>UI development and illustrations for a mobile game in match 3 genre - "Shelter". </b> My own illustrations and UI. 2022.</p>' +
+            '<p>Setting: Forest, helping forest animals. Genre: match 3, mobile games.</b></p>' +
+            '<p><b>Tools</b>: Adobe Photoshop, Procreate.<br>'+
+            '<b>Platforms</b>: smartphone, tablet.</p>'
+          ].join(' '),
+          thumbnail: [
+            'img/gallery/large/shelter/shelter.jpg',
+            'img/gallery/small/shelter/main-screen.jpeg',
+            'img/gallery/small/shelter/game-field.jpeg',
+            'img/gallery/small/shelter/character.jpeg',
+            'img/gallery/small/shelter/map.jpeg',
+            'img/gallery/small/shelter/modal.jpeg',
+            'img/gallery/small/shelter/crisps.jpeg',
+            'img/gallery/small/shelter/logo.jpeg'
+          ],
+          large: [
+            'img/gallery/large/shelter/shelter.jpg',
+            'img/gallery/large/shelter/main-screen.jpg',
+            'img/gallery/large/shelter/game-field.jpg',
+            'img/gallery/large/shelter/character.jpg',
+            'img/gallery/large/shelter/map.jpg',
+            'img/gallery/large/shelter/modal.jpg',
+            'img/gallery/large/shelter/crisps.jpg',
+            'img/gallery/large/shelter/logo.jpg'
+          ],
+          img_title: [
+            'Shelter',
+            'Main screen',
+            'Game field',
+            'Character design',
+            'Game map',
+            'Level',
+            'Crisps design',
+            'Logo design'
+          ],
+          button_list: [
+            {
+              title: 'View project',
+              url: 'https://www.artstation.com/artwork/5XNXkJ',
+              new_window: true
+            }
+          ],
+          tags: ['']
         },
         {
           title: 'Goroshko Dance',
