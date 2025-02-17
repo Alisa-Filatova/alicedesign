@@ -37,9 +37,9 @@ $(function() {
 					],
 					img_title: [
 						'Wrike animation',
-						'Wrike features demo', 
-						'Proofing demo', 
-						'Calendar App demo', 
+						'Wrike features demo',
+						'Proofing demo',
+						'Calendar App demo',
 						'What is Wrike in 3 minutes'
 					],
 					button_list: [
@@ -76,7 +76,7 @@ $(function() {
 					'img/gallery/small/ezy/deposit.jpeg',
 					'img/gallery/small/ezy/daily-bonus.jpeg',
 					'img/gallery/small/ezy/why-we.jpeg',
-					'img/gallery/small/ezy/ezy.jpg'      
+					'img/gallery/small/ezy/ezy.jpg'
 				],
 				large: [
 					'img/gallery/video/ezy.mp4',
@@ -90,21 +90,21 @@ $(function() {
 					'img/gallery/large/ezy/deposit.jpg',
 					'img/gallery/large/ezy/daily-bonus.jpg',
 					'img/gallery/large/ezy/why-we.jpg',
-					'img/gallery/large/ezy/ezy.jpg' 
+					'img/gallery/large/ezy/ezy.jpg'
 				],
 				img_title: [
-					'Ezy.com preview', 
-					'Main page', 
-					'Upgrade page', 
-					'Case opening page', 
-					'Case opening multiply', 
+					'Ezy.com preview',
+					'Main page',
+					'Upgrade page',
+					'Case opening page',
+					'Case opening multiply',
 					'UI',
-					'User Profile', 
-					'Giveaway list', 
-					'Deposit page', 
-					'Daily Bonus page', 
-					'Why we table', 
-					'Responsive design' 
+					'User Profile',
+					'Giveaway list',
+					'Deposit page',
+					'Daily Bonus page',
+					'Why we table',
+					'Responsive design'
 				],
 				button_list: [
 					{
@@ -141,9 +141,9 @@ $(function() {
 					'img/gallery/large/ezy-town/town1-2.jpg',
 				],
 				img_title: [
-					'Ezy town landing', 
-					'Ezy town video', 
-					'Ezy town main page', 
+					'Ezy town landing',
+					'Ezy town video',
+					'Ezy town main page',
 					'Ezy town rest of the page'
 				],
 				button_list: [
@@ -177,8 +177,8 @@ $(function() {
 				'img/gallery/large/ezy-vgo/vgo-csgo2.jpg'
 			],
 			img_title: [
-				'Ezy VGO landing', 
-				'Main page section', 
+				'Ezy VGO landing',
+				'Main page section',
 				'Rest of the page',
 				'Main parralax illustration'
 			],
@@ -217,8 +217,8 @@ $(function() {
 				'img/gallery/large/ezy-ex/exch-5.jpg',
 			],
 			img_title: [
-				'Ezy items exchanger', 
-				'Main page regular', 
+				'Ezy items exchanger',
+				'Main page regular',
 				'Main page xxl',
 				'Sidebar',
 				'Payments popup'
@@ -251,10 +251,10 @@ $(function() {
 			'img/gallery/large/about-ezy/about-ezy4.jpg',
 		],
 		img_title: [
-			'About ezy.com', 
-			'Main page', 
-			'UX and Startegy', 
-			'Contacts', 
+			'About ezy.com',
+			'Main page',
+			'UX and Startegy',
+			'Contacts',
 			'User Profits'
 			],
 		button_list: [
@@ -270,7 +270,7 @@ $(function() {
 		title: 'My Personal Web site',
 		logo: 'img/gallery/logo/alice-logo.svg',
 		description: [
-			'<p>My personal portfolio website. The project I have done with my own design and illustrations, and a lot of css animations. The first version of the site was made in 2017. It was updated in 2024.</p>' + 
+			'<p>My personal portfolio website. The project I have done with my own design and illustrations, and a lot of css animations. The first version of the site was made in 2017. It was updated in 2024.</p>' +
 			'<p>The purpose of this site is to show my skills as an HTML coder and web designer, as well as to share projects I took part. For this reason, the site is designed to be viewed from large screens and the mobile version is not initially intended. Therefore, <b>for the best experience, use a PC or Laptop.</b></p>' +
 			'<p><b>Stack and technologies</b>: HTML5/CSS3, LESS, jQuery, Adobe Photoshop, Adobe Illustrator.<br>'+
 			'<b>Cross-browser compatibility</b>: Chrome, Opera, Firefox, Safari, Edge.</p>'
@@ -315,7 +315,7 @@ $(function() {
 		logo: 'img/gallery/logo/4knights-logo.svg',
 		description: [
 			'<p>Landing page about the Vasyuki tournament. Based on the story "12 Chairs" by Ilf and Petrov.',
-       'Adaptive layout was done with vanilla HTML/CSS/JS, without the use of preprocessors, builders and JS plugins. I used CSS Nesting, :has, blend-mode, CSS variables and other modern CSS properties. </p>' + 
+       'Adaptive layout was done with vanilla HTML/CSS/JS, without the use of preprocessors, builders and JS plugins. I used CSS Nesting, :has, blend-mode, CSS variables and other modern CSS properties. </p>' +
 			'<p><b>Stack</b>: HTML5/CSS3, JavaScript, Figma, Adobe Photoshop.<br>'+
 			'<b>Browser support</b>: Chrome, Firefox.</p>'
 		].join(' '),
@@ -349,6 +349,56 @@ $(function() {
 			{
 				title: 'Source code',
 				url: 'https://github.com/Alisa-Filatova/4-knights-club',
+				new_window: true
+			}
+		],
+		tags: ['']
+	},
+	{
+		title: 'Interactive banner - "100% Clean"',
+		logo: 'img/gallery/logo/banner-foam-logo.svg',
+		description: [
+			'<p>Interactive banner, browser mini game, "100% Clean". Responsive layout, timeline animation using JavaScript and GSAP. Made for SmartHead.</p>' +
+			'<p>In the game, you need to destroy all the bacteria and clean the kitchen with a new cream foam in a few seconds.</p>'+
+			'<p><b>Stack and technologies</b>: HTML5/CSS3, JavaScript, Figma, GSAP, Vite.<br>'+
+			'<b>Browser support</b>: Chrome, Firefox, Safari.</p>'
+		].join(' '),
+		thumbnail: [
+			'img/gallery/large/banner-foam/banner-foam.jpg',
+			'img/gallery/small/banner-foam/1.jpeg',
+			'img/gallery/small/banner-foam/2-1.jpeg',
+			'img/gallery/small/banner-foam/3-1.jpeg',
+			'img/gallery/small/banner-foam/3-2.jpeg',
+			'img/gallery/small/banner-foam/5-1.jpeg',
+			'img/gallery/small/banner-foam/7-1.jpeg',
+		],
+		large: [
+			'img/gallery/large/banner-foam/banner-foam.jpg',
+			'img/gallery/large/banner-foam/1.jpg',
+			'img/gallery/large/banner-foam/2-1.jpg',
+			'img/gallery/large/banner-foam/3-1.jpg',
+			'img/gallery/large/banner-foam/3-2.png',
+			'img/gallery/large/banner-foam/5-1.jpg',
+			'img/gallery/large/banner-foam/7-1.jpg',
+		],
+		img_title: [
+			'banner-foam',
+			'main screen',
+			'game screen 1',
+			'game screen 2',
+			'game screen 3',
+			'game screen 4',
+			'game screen 5',
+		],
+		button_list: [
+			{
+				title: 'View banner',
+				url: 'https://smarthead.alisafilatova.ru/',
+				new_window: true
+			},
+			{
+				title: 'Source code',
+				url: 'https://github.com/Alisa-Filatova/interactive-banner',
 				new_window: true
 			}
 		],

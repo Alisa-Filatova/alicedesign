@@ -37,9 +37,9 @@ $(function() {
 					],
 					img_title: [
 						'Wrike animation',
-						'Wrike features demo', 
-						'Proofing demo', 
-						'Calendar App demo', 
+						'Wrike features demo',
+						'Proofing demo',
+						'Calendar App demo',
 						'What is Wrike in 3 minutes'
 					],
 					button_list: [
@@ -76,7 +76,7 @@ $(function() {
 					'img/gallery/small/ezy/deposit.jpeg',
 					'img/gallery/small/ezy/daily-bonus.jpeg',
 					'img/gallery/small/ezy/why-we.jpeg',
-					'img/gallery/small/ezy/ezy.jpg'      
+					'img/gallery/small/ezy/ezy.jpg'
 				],
 				large: [
 					'img/gallery/video/ezy.mp4',
@@ -90,21 +90,21 @@ $(function() {
 					'img/gallery/large/ezy/deposit.jpg',
 					'img/gallery/large/ezy/daily-bonus.jpg',
 					'img/gallery/large/ezy/why-we.jpg',
-					'img/gallery/large/ezy/ezy.jpg' 
+					'img/gallery/large/ezy/ezy.jpg'
 				],
 				img_title: [
-					'Ezy.com preview', 
-					'Main page', 
-					'Upgrade page', 
-					'Case opening page', 
-					'Case opening multiply', 
+					'Ezy.com preview',
+					'Main page',
+					'Upgrade page',
+					'Case opening page',
+					'Case opening multiply',
 					'UI',
-					'User Profile', 
-					'Giveaway list', 
-					'Deposit page', 
-					'Daily Bonus page', 
-					'Why we table', 
-					'Responsive design' 
+					'User Profile',
+					'Giveaway list',
+					'Deposit page',
+					'Daily Bonus page',
+					'Why we table',
+					'Responsive design'
 				],
 				button_list: [
 					{
@@ -141,9 +141,9 @@ $(function() {
 					'img/gallery/large/ezy-town/town1-2.jpg',
 				],
 				img_title: [
-					'Ezy town landing', 
-					'Ezy town video', 
-					'Ezy town main page', 
+					'Ezy town landing',
+					'Ezy town video',
+					'Ezy town main page',
 					'Ezy town rest of the page'
 				],
 				button_list: [
@@ -177,8 +177,8 @@ $(function() {
 				'img/gallery/large/ezy-vgo/vgo-csgo2.jpg'
 			],
 			img_title: [
-				'Ezy VGO landing', 
-				'Main page section', 
+				'Ezy VGO landing',
+				'Main page section',
 				'Rest of the page',
 				'Main parralax illustration'
 			],
@@ -217,8 +217,8 @@ $(function() {
 				'img/gallery/large/ezy-ex/exch-5.jpg',
 			],
 			img_title: [
-				'Ezy items exchanger', 
-				'Main page regular', 
+				'Ezy items exchanger',
+				'Main page regular',
 				'Main page xxl',
 				'Sidebar',
 				'Payments popup'
@@ -250,10 +250,10 @@ $(function() {
 			'img/gallery/large/about-ezy/about-ezy4.jpg',
 		],
 		img_title: [
-			'About ezy.com', 
-			'Main page', 
-			'UX and Startegy', 
-			'Contacts', 
+			'About ezy.com',
+			'Main page',
+			'UX and Startegy',
+			'Contacts',
 			'User Profits'
 			],
 		button_list: [
@@ -270,7 +270,7 @@ $(function() {
 		logo: 'img/gallery/logo/alice-logo.svg',
 		description: [
 			'<p>Мой личный сайт портфолио. Проект я решила делать со своими иллюстрациями и обилием CSS анимацией.',
-       'Дизайн делала полностью сама, дав волю своей фантазии и стараясь не думать об ограничениях верстки. Первая версия была запущена в 2017, обновлено в 2024.</p>' + 
+       'Дизайн делала полностью сама, дав волю своей фантазии и стараясь не думать об ограничениях верстки. Первая версия была запущена в 2017, обновлено в 2024.</p>' +
 			'<p>Назначение сайта - портфолио и поиск работы, демонстрация проектов в которых я принимала участие, а так же полигон для эксперементов. Поэтому я не стала заострять внимание на мобильной версии и сделала сайт рассчитанный на большие экраны.</p><p><b><i> Для получения наилучшего опыта при просмотре - используйте ПК или ноутбук.</i></b></p>' +
 			'<p><b>Стек</b>: HTML5/CSS3, LESS, jQuery, Adobe Photoshop, Adobe Illustrator.<br>'+
 			'<b>Поддержка браузеров</b>: Chrome, Opera, Firefox, Safari, Edge.</p>'
@@ -314,8 +314,8 @@ $(function() {
 		title: 'Клуб Четырех Коней',
 		logo: 'img/gallery/logo/4knights-logo.svg',
 		description: [
-			'<p>Лендинг пейдж о турнире в Васюках. По мотивам рассказа "12 стульев" Ильфа и Петрова.',
-       'Адаптивная верстка делалась на чистом HTML/CSS/JS, без использования препроцессоров, сборщиков и js плагинов. Использовала CSS Nesting, :has, blend-mode, css properties и прочие современные CSS свойства, в отстутствии требований к браузерной поддержке. </p>' + 
+			'<p>Лендинг пейдж о турнире в Васюках. По мотивам рассказа "12 стульев" Ильфа и Петрова. Сделано для Yandex Crowd.',
+       'Адаптивная верстка делалась на чистом HTML/CSS/JS, без использования препроцессоров, сборщиков и js плагинов. Использовала CSS Nesting, :has, blend-mode, css properties и прочие современные CSS свойства, в отстутствии требований к браузерной поддержке. </p>' +
 			'<p><b>Стек</b>: HTML5/CSS3, JavaScript, Figma, Adobe Photoshop.<br>'+
 			'<b>Поддержка браузеров</b>: Chrome, Firefox.</p>'
 		].join(' '),
@@ -349,6 +349,56 @@ $(function() {
 			{
 				title: 'Исходный код',
 				url: 'https://github.com/Alisa-Filatova/4-knights-club',
+				new_window: true
+			}
+		],
+		tags: ['']
+	},
+	{
+		title: 'Интерактивный баннер 100% Чистота',
+		logo: 'img/gallery/logo/banner-foam-logo.svg',
+		description: [
+			'<p>Интерактивный баннер, мини-игра, "100% Чистота". Отзывчивая верстка, покадровая анимация при помощи JavaScript и GSAP. Сделано для SmartHead.</p>' +
+			'<p>В игре необходимо уничтожить все бактерии и очистить кухню при помощи новой крем-пены за несколько секунд.</p>'+
+			'<p><b>Стек</b>: HTML5/CSS3, JavaScript, Figma, GSAP, Vite.<br>'+
+			'<b>Поддержка браузеров</b>: Chrome, Firefox, Safari.</p>'
+		].join(' '),
+		thumbnail: [
+			'img/gallery/large/banner-foam/banner-foam.jpg',
+			'img/gallery/small/banner-foam/1.jpeg',
+			'img/gallery/small/banner-foam/2-1.jpeg',
+			'img/gallery/small/banner-foam/3-1.jpeg',
+			'img/gallery/small/banner-foam/3-2.jpeg',
+			'img/gallery/small/banner-foam/5-1.jpeg',
+			'img/gallery/small/banner-foam/7-1.jpeg',
+		],
+		large: [
+			'img/gallery/large/banner-foam/banner-foam.jpg',
+			'img/gallery/large/banner-foam/1.jpg',
+			'img/gallery/large/banner-foam/2-1.jpg',
+			'img/gallery/large/banner-foam/3-1.jpg',
+			'img/gallery/large/banner-foam/3-2.png',
+			'img/gallery/large/banner-foam/5-1.jpg',
+			'img/gallery/large/banner-foam/7-1.jpg',
+		],
+		img_title: [
+			'banner-foam',
+			'main screen',
+			'game screen 1',
+			'game screen 2',
+			'game screen 3',
+			'game screen 4',
+			'game screen 5',
+		],
+		button_list: [
+			{
+				title: 'Смотреть баннер',
+				url: 'https://smarthead.alisafilatova.ru/',
+				new_window: true
+			},
+			{
+				title: 'Исходный код',
+				url: 'https://github.com/Alisa-Filatova/interactive-banner',
 				new_window: true
 			}
 		],
