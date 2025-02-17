@@ -374,12 +374,12 @@ $(function() {
 		],
 		large: [
 			'img/gallery/large/banner-foam/banner-foam.jpg',
-			'img/gallery/large/banner-foam/1.jpg',
-			'img/gallery/large/banner-foam/2-1.jpg',
-			'img/gallery/large/banner-foam/3-1.jpg',
+			'img/gallery/large/banner-foam/1.png',
+			'img/gallery/large/banner-foam/2-1.png',
+			'img/gallery/large/banner-foam/3-1.png',
 			'img/gallery/large/banner-foam/3-2.png',
-			'img/gallery/large/banner-foam/5-1.jpg',
-			'img/gallery/large/banner-foam/7-1.jpg',
+			'img/gallery/large/banner-foam/5-1.png',
+			'img/gallery/large/banner-foam/7-1.png',
 		],
 		img_title: [
 			'banner-foam',
