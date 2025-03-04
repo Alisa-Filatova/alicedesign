@@ -88,7 +88,7 @@ $(function() {
           button_list: [
             {
               title: 'View project',
-              url: 'https://www.artstation.com/artwork/5XNXkJ',
+              url: 'https://www.behance.net/gallery/129636993/Concept-art-for-the-match3-game-Shelter',
               new_window: true
             }
           ],
